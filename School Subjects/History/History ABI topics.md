@@ -1,0 +1,287 @@
+(Link:: [[History🏛]])
+- First World War (1914-1918) ⚠️  
+	- Ermordung des österreichischen Thronfolgers Franz Ferdinand (28.06.1914) in Sarajevo  
+	  -> Kriegserklärung Österreich-Ungarn 🇦🇹🇭🇺 an Serbien🇷🇸 (28.07.1914)  
+	  -> Kriegserklärung Deutschland gegen Russland🇷🇺 (01.08.1914) & Frankreich 🇫🇷(03.08.1914)  
+	  – Einmarsch deutscher Truppen in Belgien 🇧🇪 -> Kriegserklärung Großbritanniens and Deutschland (04.08.1914)  
+	- Schleiffen-plan  
+		- Der Schlieffen-Plan war ein strategisch-operativer Plan des Großen Generalstabs im Deutschen Kaiserreich, der auf einer Denkschrift des preußischen Generalfeldmarschalls Alfred Graf von Schlieffen basierte. Er bildete nach gründlicher Überarbeitung durch Helmuth Johannes Ludwig von Moltke eine Grundlage der deutschen Strategie zu Beginn des Ersten Weltkrieges.  
+		- Die 1905 verfasste Denkschrift sah für den Fall eines Zweifrontenkrieges vor, zunächst die Masse des deutschen Heeres im Westen gegen Frankreich einzusetzen, mit dem Nordflügel die französischen Befestigungen (Barrière de fer) zu umgehen und das französische Heer im Rücken zu fassen. Nach einem Sieg über Frankreich innerhalb weniger Wochen sollten die Truppen nach Osten verlegt werden, um gegen Russland vorzugehen. Schlieffens Absicht war, so den Krieg gegen Frankreich und Russland in zwei aufeinander folgende Feldzüge aufzuteilen. General von Schlieffen ging 1905 noch von einem durch den Russisch-Japanischen Krieg geschwächten Russland aus, dessen langsamer Aufmarsch gegen Deutschland von der österreichisch-ungarischen Armee wirkungsvoll verzögert werden könne.[1]  
+		- Die Umsetzung entsprechender Planungen im Ersten Weltkrieg scheiterte 1914, weil sich die dem Plan zugrunde liegende politische und militärische Ausgangslage inzwischen weiter zu Ungunsten Deutschlands verändert hatte. Der deutsche Angriff auf das neutrale Belgien, das dem Durchmarsch deutscher Truppen nach Frankreich Widerstand leistete, war Anlass für den Kriegseintritt Großbritanniens am 4. August 1914.  
+		-  
+- Novemberrevolution (29.09.1918)  
+	- Oberste Heeresleitung (Paul v. Hindenburg & Erich Ludendorff): Wir werden siegen  
+	  -> doch nicht  
+	- Kaiser Wilhelm II. -> Waffenstillstand  
+	  -> Parlamentarisierungserlass (Die Regierung ist dem Parlament verantwortlich, nicht mehr dem Kaiser)  
+	- -> Regierungskoalition  
+		- Fortschrittliche Volkspartei  
+		- Zentrumspartei  
+		- MSPD  
+		  Mehrheits-SPD, von der sich die Unabhängige SPD (USPD) abspaltet  
+	- Parlament hat Macht -> "[[Revolution von oben]]"  
+	- Krieg verloren -> Menschen sind kriegsmüde -> fordern Frieden  
+		- Kaiser steht dem Frieden im Weg -> Menschen wollen Abdankung des Kaisers  
+		- Matrosen sabotieren Kriegsschiffe um nicht kämpfen zu müssen  
+		  -> Kriegsgericht  
+		  -> [[Matrosenaufstand]] in Kiel (28.10.-04.11.1918)  
+		- Arbeiter- und Soldatenräte protestieren  
+	- USPD (Spartakusgruppe) rufen Generalstreik aus  
+	- Reichskanzler gibt eigenmächtig die Abdankung des Monarchen bekannt (Prinz Max 09.09.1918)  
+	  -> [[Philipp Scheidemann]] ruft Deutsche Republik aus  
+	  -> [[Karl Liebknecht]] ruft "freie sozialistische Republik Deutschland" aus  
+	  -> Kaiser Wilhelm flieht ins Exil  
+	- MSPD und USPD bilden eine neue Regierung: Rat der Volksbeauftragten
+	- Verständigung zwischen SPD und Reichswehr  
+	- MSPD will eine parlamentarische Demokratie
+	  Reform statt Revolution  
+		- Rasche Wahlen  
+		- Gewaltenteilung  
+		- Schutz des Eigentums  
+	- USPD will Räteherrschaft  
+	  Revolution statt Reform  
+		- Demokratische Kontrolle der Armee  
+		- Sozailisierung  
+		- Neuverteilung des Eigentums  
+	- MSPD hat mehr Positionen im Parlament und Räten -> setzt sich durch  
+	- KPD spaltet sich vom USPD (noch radikaler)  
+	- linksradikale Gruppen wollen MSPD umstürzen  
+	  -> MSPD ruft Freikorps Soldaten zur Hilfe  
+	- Spartakusaufstand 5.-12.01.1919  
+- Die Weimarer Verfassung 31.07.1919  
+	- Die erste deutsche Demokratie  
+	- "die demokratischste Demokratie der Welt"  
+	- Bürger wählen Legislative (gesetzgebende Gewalt): Reichstag  
+	- Bürger wählen Chef der Exekutive (Verwaltung): Reichspräsident  
+	- Bürger bestimmen über Gesetze mit Volksentscheiden  
+	- Reichstag  
+		- Wahl auf vier Jahre  
+		- Stimmt über Gesetzt ab  
+		- Kann Kanzler und Minister zum Rücktritt zwingen  
+		- Beschließt den Haushalt  
+		- Kann Notverordnung des Präsidenten außer Kraft setzen  
+	- Reichsregierung  
+		- Besteht aus Reichskanzler und Ministern  
+		- Legt Gesetzentwürfe vor  
+		- Ist vom Parlament abhängig  
+		- Reichstag kann Reichskanzler **nicht** wählen man der Demokratie nicht vertraut  
+	- Reichspräsident (starke Rolle -> "Ersatzkaiser")  
+		- Direkt vom Volk auf 7 Jahre gewählt  
+		- Kann Reichstag auflösen  
+		- Kann Volksabstimmungen anordnen  
+		- Ernennt und entlässt die Regierung  
+		- Oberbefehl über die Armee  
+		- Kann den Notstand ausrufen und Bürgerrechte außer Kraft setzen  
+	- Grundrechte durch Gesetze einschränkbar  
+	  Grundgesetz: Bürgerrechte verbürgt  
+	- Kein Kontrollgericht (kein Gericht das kontrolliert ob die Handlungen der Regierung und des Präsidenten rechtmäßig sind)  
+	  Grundgesetz: Bundesverfassungsgericht  
+	- Problem: Mix von Volksherrschaft (plebiszitär), Königsherrschaft (autoritär) und Parlamentsherrschaft (parlamentarisch)  
+	- Sozialstaat in der Verfassung festgeschrieben  
+- Die Weimarer Republik  
+	- Krisenjahr 1923  
+		- Krise 1: Besetzung des Ruhrgebiets  
+		  Deutschland muss Reparationen zahlen kann aber nicht mitkommen -> Geld verliert Wert -> wirtschaftliche Lage schlecht  
+		  -> Französische und belgische Truppen besetzen Ruhrgebiet um Repartionen zu erfüllen  
+			- Einwohner können nichts machen -> Arbeitsverweigerung  
+			- Deutschland druckt Geld  
+		- Krise 2: Hyperinflation  
+			- Staat druckt Geld: 200 Trillionen Mark an Notgeld  
+			- Preise steigen rapide an -> am nächsten Tag sind die Preise erhöht  
+			- Menschen tragen Geld in Koffern  
+			- Währungsreform 15.09.1923  
+			  1 Rentenmark = 1 Billion Papiermark  
+			  Arbeiter, Angestellte und Sparer verlieren viel oder alles  
+			  Schulden "lösen sich in Luft auf"  
+		- Krise 3: Notstand in Bayern  
+			- Bayern verhängt Notstand über den Freistaat  
+			- Regierungspräsident wird als Generalstaatskommissar eingesetzt -> Bayern wird eine Diktatur  
+			- Reichsregierung erklärt den militärischen Notstand  
+			- Reichswehr weigert sich einzusetzen   
+			  Zu den Leuten die die Diktatur anführen gehört ein Wehrkreiskommandant -> **Reichswehr scheißt nicht auf Reichswehr**  
+		- Krise 4: Separatisten im Westen  
+			- wollen eigenen rheinischen Staat abspalten der mit Frankreich arbeiten soll  
+			- Aufrühr besetzen Rathäuser in Aachen, Koblenz, Bonn, Wiesbaden, Mainz und Trier  
+			- Reichsregierung kann nicht machen  
+			  Rheinland dürfen keine deutschen Soldaten einrücken  
+		- Krise 5: Deutscher Oktober  
+			- Kommunisten bereiten mit Unterstützung der Sowjetunion eine Revolution vor: "[[Deutscher Oktober]]"  
+			- Truppen "Hundertschaften" zielen auf Sachsen und Thüringen   
+			  Reichswehr siegen  
+		- Krise 6: Hitlerputsch 09.09.1923  
+			- Nationalsozialistische Deutsche Arbeiterpartei (NSDAP) & Sturmabteilung (SA)  
+			- Hitler nimmt Während einer Veranstaltung die bayrische Regierung gefangen  
+			  -> zwingt die SA beim Marsch auf Berlin zu unterstützen  
+			- Landespolizei halten den Zug Hitlers mit Waffen (Feldherrenhalle) -> Tote: 15 Demonstranten, 4 Polizisten & 1 Passant  
+			- Hitler & Ludendorff vor Gericht  
+		- wirtschaftliche Probleme immer besser  
+		- Frankreich muss netter sein  
+		- politischen Feinde der Republik verlieren Anhänger  
+		- kommunistische und nationalsozialistische Partei verboten  
+	- Goldenen Zwanziger 1924-29  
+		- Nach Schreckensjahr 1923 vor Weltwirtschaftskrise 1929  
+		- Wirtschaftsaufschwung  
+			- Menschen wollen konsumieren  
+			- Amerikanische Banken und Anleger investieren in Deutschland  
+			  -> leihen Geld -> Unternehmer bekommen Geld um neue Maschinen anzuschaffen  
+			- Industrieproduktion steigt an  
+			- Menschen finden Arbeit  
+			  -> Volkseinkommen steigt   
+			  -> Nachfrage steigt  
+			- neue Schicht: Angestellte ("saubere Arbeit")  
+			- Verschmelzung Unternehmer -> große Industriekonzerne (Daimler)  
+		- Folgen  
+			- "Tempo" in Großstädten  
+			- Masse will konsumieren und Freizeit genießen  
+			- Kinos verdoppeln sich  
+			- Filmproduktion ist weltführend  
+			- Berlin zum kulturellen Zentrum Europas  
+			- neue künstlerische Trends  
+			- Menschen ziehen vom Land weg -> Landwirtschaft sinkt  
+			- Firmen benutzen Fließbänder -> weniger Arbeiter -> Arbeitslosigkeit hoch (10%)  
+			- Geburtenrate hoch aber wenig Platz -> **jeder muss sich durchsetzen**  
+			- "überflüssige" jungen Menschen sehen Ideologien der Kommunisten und Nationalsozialisten  
+		- Politik  
+			- Deutschland in Europa isoliert  
+			- Versailler Vertrag soll zurückgenommen werden  
+			  Deutschland schließt Verträge um wieder Teil der Weltgemeinschaft zu sein  
+			- Ernennung zum Reichspräsidenten: Ehemalige Oberbefehlshaber *Paul von Hindenburg* (Feind der Demokratie)  
+			- Koalitionen brechen aufgrund Differenzen auseinander  
+			- Kanzler sind wenige Monate im Amt  
+	- Weltwirtschaftskrise 1929  
+		- Börsencrash in New York  
+			- Viele kaufen Aktien -> Preise steigen  
+			- Aktien sind teurer als der eigentliche Wertanteil and der Firma  
+			- Alle verkaufen um Geld zu behalten -> Wert fällt (90%)-> Anleger verlieren Geld  
+			- Firmen haben Finanzierungsprobleme -> 100.000 Firmen pleite -> "Schwarzer Donnerstag"  
+		- Abzug der Kredite  
+			- Banken wollen Geld aus dem Ausland & Deutschland zurück   
+			  -> Auswirkung auf andere Staaten  
+			- Deutschland hochverschuldet -> Banken brechen zusammen  
+			- Firmen sparen und entlassen Arbeiter -> Millionen Arbeitsloser  
+		- Arbeitslosigkeit  
+			- 1926-1932 -> doppelt so viele (5,5 Mil.)  
+			- Industrieproduktion sinkt um 40%  
+			- Arbeitslosenversicherung sichert nur 1,5 Mil. Arbeitslose  
+			- Viele obdachlos und leiden unter Hunger  
+		- Politische Krise  
+			- Demokratie und demokratischen Politiker sind Schuld -> NSDAP findet Publikum  
+			- Viele Menschen werden Links- oder Rechtsextreme  
+			- Deutsche spalten sich immer stärker  
+			- Weimarer Republik regiert seit 1928 von großen Koalition (SPD,DDP,Zentrum,BVP,DVP)  
+			  -> Koalition zerbricht sich auf 1930 -> **Untergang der Weimarer Republik**  
+	- Frauen in den 1920er-Jahre  
+	- Außenpolitik  
+		- Deutschland am Boden und isoliert  
+		- Versailler Vertrag 1919: Deutschland trägt die Alleinschuld am Ersten Weltkrieg  
+		- Aussenpolitische Ziele  
+			- Versailler Vertrag revidieren  
+			- Reparationszahlungen endgültig regeln  
+			- Isolation beenden  
+		- Gustav Stresemann (DVP): Außenminister  
+			- Dawes-Plan: Zahlungsplan das dem Land nicht überlastet   
+			  -> Deutschland zahlt niedrigere Raten   
+			  -> 800 Millionen Reichsmark; Wiederaufbau-Kredit der USA   
+			  Grundlage für Reparationszahlungen und Wirtschaftsaufschwung  
+				- Besetzung des Ruhrgebietes beendet  
+				  -> Produktion  
+			- Verträge von Locarno  
+				- Anerkennung der Westgrenze und keine Garantie der Ostgrenze  
+					- Kein Krieg mit Frankreich und Belgien  
+					- keine gewaltsame Änderung der Grenzen im Westen  
+					  Gebiete kann man mit Volksabstimmungen zurückbekommen  
+			- 1926: Erhält Friedensnobelpreis  
+			- Will Deutschland und Österreich auf friedlichem Weg vereinen  
+		- Völkerbund und Verträge mit Russland  
+			- Deutschland wird Mitglied im Völkerbund 1926 (Vorgänger der UNO)  
+			- Berliner Vertrag: politische und militärische Zusammenarbeit mit Sowjetunion  
+			  Deutschland ist "neutral" wenn SU Polen überfällt  
+			- Rapallo Vertrag: Verzicht auf Reparationen für Sowjetunion  
+		- Young-Plan 1929  
+			- 112 Milliarden Reichsmark bis 1988  
+			- Deutschland kann wirtschaft- und finanzpolitisch wieder eigenständig handeln  
+		- Ende der Rheinlandbesetzung 30.06.1930  
+		- Weltwirtschaftskrise 1929  
+			- 1930 Einstellung der Reparationszahlungen  
+			- 1932 Ende der Reparationszahlungen % Ende Young-Plan  
+	- Hitlers Machtergreifung 1923  
+		- Der Neuaufbau der NSDAP und ihre neue Strategie  
+			- Hitlerputsch 09.09.1923  
+			- Sturmabteilung SA verboten  
+			- NSDAP nach Hitler's Entlassung neugegründet und SA wieder aufgestellt  
+			- Legalitätsprinzip  
+				- Nazis sollen auf legale Weise durch Wahlen die Macht bekommen  
+				- Demokratie soll durch legale Mittel beseitigt werden  
+			- Hitlers steht alleine als Führer an der Spitze  
+			- SA kämpft gegen politische Gegner  
+			- NSDPA verliert Stimmen  
+				- Auftreten und Themen der Partei schrecken die Wähler ab  
+				- Antisemitismus & Gewalt 👎🏻  
+		- Die Krise der Weimarer Politik  
+			- Feinde der Demokratie setzen der Republik dauernd zu -> Menschen verlieren Vertrauen  
+			- Hindenburg zum Reichspräsidenten gewählt 1925  
+			- Parteien haben ihre eigenen bewaffneten Einheiten  
+			  Reichswehr: 100.000  
+			  NSDAP: 400.000  
+			  SPD: 1 Million  
+		- Weltwirtschaftskrise  
+			- Koalition zerbricht mit der Krise  
+			- Neuwahlen 1930  
+			- NSDAP 2,6% -> 18,3%  
+		- Präsidialkabinette  
+		  Die Regierung soll auch ohne Mehrheit im Parlament regieren  
+			- ^^Artikel 48^^: Der Reichspräsident darf im Notfall mit Notverordnungen regieren, also ohne Zustimmung des Parlaments (Grundrechte abgesetzt)  
+			- ^^Artikel 25^^: Der Reichspräsident kann den Reichstag auflösen -> dauert 60 Tage  
+		- Der Schulterschluss der Rechten  
+			- **Harzburger Front**: Bündnis zwischen NSDAP, DNVP, Stahlhelm, Bund der Frontsoldaten, Reichslandbund und dem Alldeutschen Verband  
+			  -> Sie schaffen es zusammenzuarbeiten  
+			- Links sind KPD und SPD verfeindet  
+		- Die Wahlkampftaktitk der Nazis  
+			- Nazis passen Themen und Slogan an -> Antisemitismus  
+			- Für Arbeiter und Angestellten: Eine sozialistische Arbieterpartei  
+			- Für Reiche und Traditionalisten: Eine national deutsche Partei  
+			- Personalisierung: Hitler als Kandidat  
+			- "Hitler über Deutschland": Reist überall und gibt Großkundgebungen  
+			  -> Mehr Wähler  
+			- SA prügelt politischen Gegner Tot  
+		- Das Beinahe-Ende Hitlers  
+			- Auszählung der Stimmen: NSDAP 37,3% (31.07.1932)  
+			- Hitler wird nicht Reichskanzler -> Schlägertrupps laufen Amok  
+			- Hitler verliert Stimmen -> er kann nicht durch Wahlen an die Macht kommen  
+		- Die antidemokratischen Helfer  
+			- Reichskanzler Kurt von Schleicher will Diktatur  
+			- Hitler als Reichskanzler ernannt  
+			  Franz von Papen (Vize Reichskanzler) versucht ihn zu kontrollieren  
+	- Völkerbund  
+	- 1919 Weimarer Koalition: MSPD, liberale deutsche Demokratische Partei (DDP) und katholische Deutsche Zentrumspartei -> 76,1 % Wählerstimmen  
+	  1920 Weimarer Koalition: 48 %  
+	  -> keine stabilen Verhältnisse  
+- Errichtung der NS-Diktatur  
+	- Hitler wird zum Reichskanzler ernannt – 30. Januar 1933  
+	- Hindenburg ruft Neuwahlen aus – 01. Februar 1933  
+	  -> Parlament ausser kraft gesetzt  
+	- Hermann Göring: Innenminister (Chef der Polizei)  
+	- Hindenburg schränkt Bürgerrechte ein (Pressefreiheit & Versammlungsfreiheit)  
+	  Notverordnung "zum Schute des Deutschen Volkes" – 04. Februar  
+	- Göring bildet eine "Hilfspolizei" – 22. Februar  
+	  -> Gegner schiessen  
+	- Reichstagsbrand – 27. Februar  
+	- Hindenburg erlässt "Reichstagsbrandverordnung" ("Schutz von Volk und Staat")  
+	  -> Grundrechte ausser Kraft  
+	- Reichstagswahlen – 05. März  
+	  NSDAP : 43,9 %  
+	- Reichstagssitze der KPD werden annulliert – 08. März  
+	  -> Nazi's haben Mehrheit  
+	- Tag von Potsdam – 21. März  
+	- [[Ermächtigungsgesetz]] – 23. März  
+	- Parlamente der Länder werden aufgelöst – 31. März  
+	  Ergebnisse der Reichstagswahlen gelten in den Ländern (nicht die der Landtagswahlen)  
+	- Reichsstatthalter werden eingesetzt – 07. April  
+	  Reichsregierung legt Regierung in den Ländern fest  
+	- Politische Gegner werden im großen Stil inhaftiert – 30. April  
+	- 1. Mai wird zum Feiertag (Tag der Arbeit)  
+	- Die freien Gewerkschaften werden zerschlagen – 02. Mai  
+	- Bücherverbrennung – 10. Mai  
+	- Jugendverbände werden einem Reichsjugendführer unterstellt – 17. Juni  
+	- SPD verboten – 22. Juni  
+	- Parteigründungen werden verboten – 14. Juni  

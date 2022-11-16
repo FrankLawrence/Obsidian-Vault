@@ -1,0 +1,5 @@
+- Daten sind nicht immer eindeutig
+- Daten können geändert werden (z.B. Adresse)
+-> **Primärschlüssel**
+- Überschrift wird unterstrichen
+- Wenn eine Tabelle Daten aus den Primärschlüssel-Spalten anderer Tabellen verwendet, heißen diese Spalten **Fremdschlüssel**

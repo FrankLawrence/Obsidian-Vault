@@ -1,0 +1,2 @@
+# Gewerkschaften
+Sie entstanden als Teil der Arbeiterbewegung mit dem Ziel, die soziale Lage der Arbeiterschaft zu verbessern. Dabei ging es vor allem um geringere Arbeitszeiten, höhere Löhne und bessere Bedingungen am Arbeitsplatz. anders als im Obrigkeitsstaat des 19. Jahrhunderts sind Gewerkschaften in der Bundesrepublik als Tarifpartner anerkannt, d.h., sie können mit den Arbeitgebern Tarifverträge abschließen, in denen z.B. Löhne und Arbeitszeiten geregelt sind.

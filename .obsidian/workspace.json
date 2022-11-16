@@ -1,0 +1,240 @@
+{
+  "main": {
+    "id": "03910b91f695953b",
+    "type": "split",
+    "children": [
+      {
+        "id": "a3f85863173c125f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b194b872488504ad",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Programming/Data Structures and Algorithms for CS Lecture 2.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "9b4d0c853dc5a2cb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Programming/Data Structures and Algorithms for CS Lecture 3.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "7d5fbdfa9e0820b3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Programming/Data Structures and Algorithms for CS Lecture 4.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "73c440b8f93cb3c6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Programming/Data Structures and Algorithms for CS Lecture 5.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "b29f26411c368c57",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Programming/Logic and Sets.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "d4b07fff73a18122",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Programming/Logic and Sets Lecture 3.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "104229a0d108ed29",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Interests/Programming/MathJax Basic Tutorial.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "89d2cbbc850f4681",
+    "type": "split",
+    "children": [
+      {
+        "id": "4b2a9aa3fedd976c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "13160be2efd578a9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "f4330612332e4097",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "645ce3ec9fda0b40",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTime"
+              }
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "af68da5da2e3de0e",
+    "type": "split",
+    "children": [
+      {
+        "id": "ee1d578a9f322777",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "11bd90c11bdf054e",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "4a8cb08379ca2e59",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Computer Programming/Data Structures and Algorithms for CS Lecture 2.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "db72967e5e644f7e",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Computer Programming/Data Structures and Algorithms for CS Lecture 2.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "0f3c39408a3e0955",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "alphabetical",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "3279d6c55a6ec62c",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "645ce3ec9fda0b40",
+  "lastOpenFiles": [
+    "Computer Programming/Data Structures and Algorithms for CS Lecture 3.md",
+    "Computer Programming/Data Structures and Algorithms for CS Lecture 4.md",
+    "Computer Programming/Data Structures and Algorithms for CS Lecture 5.md",
+    "Computer Programming/Logic and Sets.md",
+    "Computer Programming/Logic and Sets Lecture 3.md",
+    "Interests/Programming/MathJax Basic Tutorial.md",
+    "Computer Programming/Logic Exercises 3.md",
+    "Computer Programming/Data Structures and Algorithms for CS Lecture 2.md",
+    "Computer Programming/Data Structures and Algorithms for CS.md",
+    "Computer Programming/Semantic Entialment.md"
+  ]
+}

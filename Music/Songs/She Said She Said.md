@@ -1,0 +1,14 @@
+---
+tags: Song  
+---
+[Time:: 2:36]
+[Artist:: [[The Beatles]]]
+[Genre:: Rock]
+[Played:: 1]
+[Album:: [[Revolver]]]
+[Year:: 1966]
+### Dates
+````dataview
+TABLE Favorite_Song
+WHERE Favorite_Song = "She Said She Said"
+````

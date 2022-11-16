@@ -1,0 +1,49 @@
+{
+  "userAdmonitions": {
+    "Formula": {
+      "type": "Formula",
+      "color": "214, 0, 0",
+      "icon": {
+        "type": "obsidian",
+        "name": "FunctionSquare"
+      },
+      "command": false,
+      "title": "Formula",
+      "injectColor": true,
+      "noTitle": false
+    },
+    "terminal": {
+      "type": "terminal",
+      "color": "255, 115, 0",
+      "icon": {
+        "type": "obsidian",
+        "name": "TerminalSquare"
+      },
+      "command": false,
+      "title": "Terminal-Command",
+      "injectColor": true,
+      "noTitle": true
+    }
+  },
+  "syntaxHighlight": false,
+  "copyButton": false,
+  "version": "9.0.5",
+  "autoCollapse": true,
+  "defaultCollapseType": "closed",
+  "injectColor": true,
+  "parseTitles": true,
+  "dropShadow": true,
+  "hideEmpty": true,
+  "open": {
+    "admonitions": true,
+    "icons": true,
+    "other": true,
+    "advanced": false
+  },
+  "icons": [],
+  "useFontAwesome": true,
+  "rpgDownloadedOnce": false,
+  "msDocConverted": false,
+  "useSnippet": false,
+  "snippetPath": "custom-admonitions.62e873"
+}

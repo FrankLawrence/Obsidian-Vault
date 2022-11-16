@@ -1,0 +1,19 @@
+{
+  "items": [
+    {
+      "type": "search",
+      "title": "tag: #ABI",
+      "query": "tag: #ABI"
+    },
+    {
+      "type": "file",
+      "title": "Physics MOC⚛",
+      "path": "School Subjects/Physics/Physics⚛.md"
+    },
+    {
+      "type": "file",
+      "title": "Formelsammlung",
+      "path": "School Subjects/Physics/Formelsammlung.md"
+    }
+  ]
+}

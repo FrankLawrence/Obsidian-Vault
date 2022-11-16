@@ -1,0 +1,129 @@
+{
+  "main": {
+    "id": "03910b91f695953b",
+    "type": "split",
+    "children": [
+      {
+        "id": "dc06f32eea4cb60f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a4fb20fd0a7ae674",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "02a14498ff1f9114",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "b90d6c5764cfe430",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "byCreatedTime"
+          }
+        }
+      },
+      {
+        "id": "4da0dfd1593e88c0",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "1fb36e1cc2dfd003",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "d89bf2302a8eea03",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "56c4c973d37b62b5",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "c39b663e11288fe6",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {}
+        }
+      },
+      {
+        "id": "362162bc644561be",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "d0129a5c862c340e",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "active": "a4fb20fd0a7ae674",
+  "lastOpenFiles": [
+    "Computer Programming/Logic Exercises 2.md",
+    "Personal/People/Lilly Marie Futner.md",
+    "Daily Notes/2022-10-31.md",
+    "Computer Programming/Introduction Computational Thinking.md",
+    "Computer Programming/Searching and Big-O.md",
+    "Computer Programming/Troubleshooting Process.md",
+    "Computer Programming/Sorting.md",
+    "Computer Programming/Containers.md",
+    "Daily Notes/2022-10-28.md",
+    "Computer Programming/Graphs and Trees.md"
+  ]
+}
