@@ -1,5 +1,0 @@
-- Liebesleben
-	- Gefühle
-	- Liebesinteressen
-	- Probleme
-	- 
