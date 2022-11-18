@@ -45,13 +45,13 @@ Algorithm partition(A,p,r):
 - running time of partition in $\Theta(n)$
 - worst-case running time if no "small ones" or no "big ones"
 - worst-case running time of quicksort described by: 
-  $$T(n)=T(0)+T(n-1)+\Theta(n)$$ with $$T(0)\in\Theta(1)$$ and $$T(1)\in\Theta(1)$$
+  $T(n)=T(0)+T(n-1)+\Theta(n)$ with $T(0)\in\Theta(1)$ and $T(1)\in\Theta(1)$
 ## Solving recurrence equation
 ## Best-case running time
 - running time of partition in $\Theta(n)$
 - best-case running time as many "small ones" or no "big ones"
 - best-case running time of quicksort described by: 
-  $$T(n)=2\cdot T(\frac{n}{2})+\Theta(n)$$ with $$T(0)\in\Theta(1)$$ and $$T(1)\in\Theta(1)$$
+  $T(n)=2\cdot T(\frac{n}{2})+\Theta(n)$ with $T(0)\in\Theta(1)$ and $T(1)\in\Theta(1)$
 - $T(n)\in \Theta(n\cdot \log n)$
 
 ---

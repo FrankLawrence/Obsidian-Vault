@@ -18,7 +18,6 @@ tags: [MOC]
 [[Data Structures and Algorithms for CS Lecture 3| Lecture 3]]
 [[Data Structures and Algorithms for CS Lecture 4| Lecture 4]]
 [[Data Structures and Algorithms for CS Lecture 5| Lecture 5]]
-
 ## Extras
 ### Tips
 ### Emails and Resources

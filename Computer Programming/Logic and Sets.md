@@ -13,6 +13,7 @@ tags: [MOC]
 - [[Logic Exercises 2]]
 - [[Set Exercises 2]]
 - [[Logic Exercises 3]]
+- [[Set Exercises 3]]
 ## Topics
 [[Basics]]
 1. Propositional logic
@@ -20,6 +21,10 @@ tags: [MOC]
 
 [[Algebra of Sets]]
 [[Semantic Entialment]]
+[[Partial and linear ordering relations]]
+[[Hasse diagrams]]
+[[Cartesian lexicographic order]]
+[[Minimal and maximal elements]]
 ## Lectures
 [[Logic and Sets Lecture 1 | Lecture 1]]
 [[Logic and Sets Lecture 2 | Lecture 2]]

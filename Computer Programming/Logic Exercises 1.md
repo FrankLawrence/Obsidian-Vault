@@ -63,6 +63,11 @@ $(\lnot (p \lor (q\land \lnot p)) \rightarrow r)$
 | F   | F   | T         | T        | T              | T                          |
 
 -> Tautology
+10.
+(a)
+
+11.
+
 
 ---
 References:

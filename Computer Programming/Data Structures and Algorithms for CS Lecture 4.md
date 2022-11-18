@@ -45,6 +45,8 @@ Algorithm buildMaxHeap(H):
 **init**: for $i = \lfloor\frac{n}{2}\rfloor$ the nodes $i+1,...,n$ are leaves hence max-heap
 **loop**: children are max-heaps by induction; use correctness of MaxHeapify
 **end**: for $i = 0$ the invariant gives correctness of the output
+
+**buildMaxHeap** is in **$O(n)$**
 ## MaxHeapify
 - node *i* has left-child *l* and right-child *r*
 - determine max of labels of *i*, *l*, *r*

@@ -31,7 +31,7 @@ T(n) & = 2T\left(\frac{n}{2}\right)+c\cdot n \\
 & = 4 \cdot \left(2 \cdot T\left(\frac{n}{8}\right)+ c\cdot \frac{n}{4}\right)+2\cdot c\cdot n \\
 & = 8 \cdot T \left(\frac{n}{8}\right)+3\cdot c\cdot n \\
 & = \dots \\
-& = 2î \cdot T\left(\frac{n}{2^i}\right)+i\cdot c\cdot n
+& = 2i \cdot T\left(\frac{n}{2^i}\right)+i\cdot c\cdot n
 \end{align}$$
 base case: if $\frac{n}{2^i} = 1$ so $i = \log n$; substitute this:
 $T(n) = n\cdot T(1) + (\log n) \cdot c \cdot n = n \cdot d + (\log n) \cdot c \cdot n = c \cdot n \cdot \log n + d\cdot n$
