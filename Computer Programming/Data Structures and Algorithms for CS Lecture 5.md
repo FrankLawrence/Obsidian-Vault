@@ -40,7 +40,7 @@ Algorithm partition(A,p,r):
 		exchange A[i+1] with A[r]
 		return i + 1
 ```
-- **partitioning is in $O(n)**
+- **partitioning is in $O(n)$**
 ## Worst-case running time 
 - running time of partition in $\Theta(n)$
 - worst-case running time if no "small ones" or no "big ones"

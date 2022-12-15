@@ -2,8 +2,7 @@
 tags: 
 Created: 2022-09-06 09:35
 ---
-Links: [[Home🏠]]
-# Uni Courses🎓
+(Links:: [[Home🏠]])
 ## P1
 - [[Introduction to Computer Science]]
 - [[Computational Thinking for Coders]]

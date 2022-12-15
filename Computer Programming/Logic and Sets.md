@@ -1,5 +1,5 @@
 ---
-tags: [MOC]
+tags: MOC
 ---
 (Links:: [[Uni Courses🎓]])
 # [Logic and Sets](https://canvas.vu.nl/courses/63792)
@@ -14,21 +14,22 @@ tags: [MOC]
 - [[Set Exercises 2]]
 - [[Logic Exercises 3]]
 - [[Set Exercises 3]]
+- [[Logic Exercises 6]]
 ## Topics
 [[Basics]]
-1. Propositional logic
-	1. [[Declaritive sentences]]
-
+[[Declaritive sentences]]
 [[Algebra of Sets]]
 [[Semantic Entialment]]
 [[Partial and linear ordering relations]]
 [[Hasse diagrams]]
 [[Cartesian lexicographic order]]
-[[Minimal and maximal elements]]
 ## Lectures
 [[Logic and Sets Lecture 1 | Lecture 1]]
 [[Logic and Sets Lecture 2 | Lecture 2]]
 [[Logic and Sets Lecture 3 | Lecture 3]]
+[[Logic and Sets Lecture 4 | Lecture 4]]
+[[Logic and Sets Lecture 5 | Lecture 5]]
+[[Logic and Sets Lecture 6 | Lecture 6]]
 ## Extras
 ### Tips
 ### Emails and Resources

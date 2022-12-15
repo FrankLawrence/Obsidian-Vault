@@ -1,5 +1,5 @@
 ---
-tags: [MOC]
+tags: MOC course
 ---
 (Links:: [[Uni Courses🎓]])
 # [Computational Thinking for Coders](https://canvas.vu.nl/courses/64375)

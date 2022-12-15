@@ -49,7 +49,7 @@ $A \cup A = A$
 title: Definitions
 collapse: none
 $A \setminus B = A \cap B'$
-$A \vartriangle B = (A \cup B) \cap (A \cup B)'$
+$A \vartriangle B = (A \cup B) \cap (A \cap B)'$
 ```
 ```ad-important
 title: De Morgan

@@ -1,5 +1,5 @@
 ---
-tags: [MOC]
+tags: MOC course
 Created: 2022-10-01
 ---
 (Links:: [[Uni Courses🎓]])

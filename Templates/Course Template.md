@@ -1,9 +1,7 @@
 ---
-tags: [MOC]
+Tags: MOC course
 ---
 (Links:: [[Uni Courses🎓]])
-# {{title}}
-
 ## Notes and Ideas
 - [[{{title}} Outline]]
 - [[{{title}} Structure]]

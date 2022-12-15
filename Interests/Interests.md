@@ -8,6 +8,7 @@ This is everything that interests you. What you are keen to learn. What takes up
 -  [[RR]]
 - [[Accessories]]
 - [[Drawing]]
+- [[Astronomy]]
 
 ___
 References:
