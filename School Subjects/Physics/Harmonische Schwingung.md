@@ -1,6 +1,5 @@
 Status:
 Tags: [[Mechanische Schwingungen]]
-Links: [[
 ___
 # Harmonische Schwingung
 

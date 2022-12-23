@@ -10,5 +10,8 @@ Created: 2022-09-06 09:35
 ## P2
 - [[Data Structures and Algorithms for CS]]
 - [[Logic and Sets]]
+## P3 
+- [[Web Technology]]
+- [[Data Wrangling]]
 ___
 References:

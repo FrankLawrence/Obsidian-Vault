@@ -3,7 +3,7 @@ Tags: [[Elektrizitätslehre]]
 Links: [[Physics⚛]]
 ___
 # Elektromagnetische Schwingung und Wellen
-- [[Excalidraw/elektrische schwingkreis|Schaltet man einen Kondensator und eine Spule parallel]], so entsteht eine **elektrische Schwingung** -> **Schwingkreis**
+- [[elektrische schwingkreis|Schaltet man einen Kondensator und eine Spule parallel]], so entsteht eine **elektrische Schwingung** -> **Schwingkreis**
 - Im ungedämpften Fall schwingt der Kreis harmonisch mit der Schwingungsdauer:
 $$T = 2 \cdot \pi \cdot \sqrt {L \cdot C}$$
 - Ein Schwingkreit besteht zentral aus einem Kondensator mit Kapazität $C$, der zu Beginn mittels elektrischer Quelle auf $U_0$ aufgeladen wird, und einer Spule der Induktivit$t $L$

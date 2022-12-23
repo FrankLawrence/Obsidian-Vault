@@ -1,7 +1,6 @@
 ---
 tags: [MOC]
 ---
-Tags: [[Learning]]
 Links: [[Home🏠]]
 ___
 # School Subjects

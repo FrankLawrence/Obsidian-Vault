@@ -2,12 +2,13 @@
 tags: [MOC]
 alias: ["000", "Start"]
 ---
-# Home
 This is your launchpad and homebase. Where I can orientate myself. Your personal North Star. That's here. That's home.
 
 ### Main Maps
 - 01 - 1- [[School📚🏫]]
 - 01 - 2 - [[Uni Courses🎓]]
+- 01 - 3 - [[MIT Opencourseware]]
+- 01 - 4 - [[HarvardX]]
 - 02 - [[Personal|Personal MOC]]
 - 03 - [[Interests|Interests MOC]]
 - 04 - [[Goals|Goals MOC]]

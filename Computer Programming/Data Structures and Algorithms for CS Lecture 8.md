@@ -14,7 +14,7 @@ For elements with more than one significant digit, this bucketing process is rep
 - number of places: 10 for decimal numbers
 
 **Intuition**: sort per dimension using a stable sorting algorithm
-- sorting on the *least significatn digit* first
+- sorting on the *least significant digit* first
 - using a stable underlying sorting algorithm
 ```
 Radix-sort(A,d)
@@ -24,7 +24,7 @@ Radix-sort(A,d)
 # Bucketsort
 - assumes that the input is drawn from a uniform distribution
 - average-case running time: $O(n)$
-- divides the interva \[0,1) into $n$ equal-sized subintervals and then distributes the $n$ input numbers into the buckets
+- divides the interval \[0,1) into $n$ equal-sized subintervals and then distributes the $n$ input numbers into the buckets
 ```
 Bucket-sort(A)
 	let B[0..n-1] be a new array

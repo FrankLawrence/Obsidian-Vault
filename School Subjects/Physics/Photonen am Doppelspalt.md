@@ -14,7 +14,7 @@ Deutung:
 	  ($\Psi_{res}=\Psi_1+\Psi_2$)
 	- Die Länge des resultierenden Zeiger steht für die **Antreffwahrscheinlichkeit** des Quants am gewünschten Zeitpunkt, dargestellt, durch $|\Psi_{res}^2|$
 
-![[Excalidraw/Interferenz]]
+![[School Subjects/Physics/Misc/Interferenz]]
 $\Psi_{res}=\Psi_1+\Psi_2+\dots+\Psi_n$
 vektoraddition der $\Psi_$-Zeiger aller möglichen Pfade
 ```ad-important

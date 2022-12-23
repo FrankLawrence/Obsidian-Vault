@@ -1,2 +1,1 @@
-# Soziale Frage
 So bezeichneten Historiker und Sozialwissenschaftler die Notlage und die ungelösten Probleme cor allem der Industriearbeiter speziell in den frühen Phasen der Industrialisierung. Hauptmerkmale sind unsichere Arbeitsplätze, häufige Arbeitslosigkeit, niedrige Löhne bei langenn Arbeitszeiten, Wohnungselend sowie fehlende Absicherung bei Krankheit, Invalidität und Tod. Verstärkt wurden die Probleme durch die Trennung von der alten Lebenswelt beim Umzug in die Städte und die ungewohnte Fabrikarbeit.

@@ -73,8 +73,6 @@ We construct an OBDD $O(0)$ representing $O$ with 0 substituted for x:
 
 $\forall x O$ is captured by the OBDD for $O(1)\land O(0)$
 $\exists x O$ is captured by the OBDD for $O(1)\lor O(0)$
-# Equivalence Relations
-
 
 ---
 References:

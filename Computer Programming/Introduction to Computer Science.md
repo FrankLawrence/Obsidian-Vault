@@ -34,6 +34,5 @@ Laura Stampf (l.i.m.stampf@student.vu.nl)
 For any questions about the course (e.g., contents and organization) please contact us at introcs.vu.nl@gmail.com
 ### Important Dates
 ### Classmates
-[[Sven Bode]]
 ___
 References:

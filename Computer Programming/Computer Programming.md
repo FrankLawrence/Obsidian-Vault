@@ -1,6 +1,7 @@
 ---
 tags: MOC course
 Created: 2022-10-01
+alias: CP
 ---
 (Links:: [[Uni Courses🎓]])
 # [Computer Programming](https://canvas.vu.nl/courses/64304)
@@ -38,10 +39,6 @@ Created: 2022-10-01
 ### Important Dates
 - Exam [[2022-10-24]]
 ### Classmates
-- [[Computer Programming/Anlun Zwerver]]
-- [[Madhav Chawla]]
-- [[Ishaan]] & [[Ashuin]]
-- [[Aryan]]
 
 ___
 References:

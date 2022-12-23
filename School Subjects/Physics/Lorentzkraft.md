@@ -5,6 +5,6 @@ ___
 # Lorentzkraft
 Elektrisch geladene Teilchen, wie z.b. Elektronen, die sich in einem Magnetfeld bewegen, erfahren dort eine Kraft.
 Die Lorentzkraft ist am größten, wenn sich die Elektronen senkrecht zu den Feldlinien des Magnetfeldes bewegen. 
-![[Excalidraw/Lorentzkraft]]
+![[School Subjects/Physics/Misc/Lorentzkraft]]
 
 >$$F_L=e\cdot v\cdot B$$

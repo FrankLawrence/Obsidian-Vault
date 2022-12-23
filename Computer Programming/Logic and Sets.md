@@ -1,5 +1,6 @@
 ---
 tags: MOC
+alias: LS
 ---
 (Links:: [[Uni Courses🎓]])
 # [Logic and Sets](https://canvas.vu.nl/courses/63792)
@@ -15,21 +16,27 @@ tags: MOC
 - [[Logic Exercises 3]]
 - [[Set Exercises 3]]
 - [[Logic Exercises 6]]
+- [[Exam questions]]
 ## Topics
+### Logic
 [[Basics]]
 [[Declaritive sentences]]
-[[Algebra of Sets]]
 [[Semantic Entialment]]
+### Sets
+[[Algebra of Sets]]
 [[Partial and linear ordering relations]]
 [[Hasse diagrams]]
 [[Cartesian lexicographic order]]
+[[Equivalence relations]]
+[[Functions]]
+[[Mathematical induction]]
 ## Lectures
-[[Logic and Sets Lecture 1 | Lecture 1]]
-[[Logic and Sets Lecture 2 | Lecture 2]]
-[[Logic and Sets Lecture 3 | Lecture 3]]
-[[Logic and Sets Lecture 4 | Lecture 4]]
-[[Logic and Sets Lecture 5 | Lecture 5]]
-[[Logic and Sets Lecture 6 | Lecture 6]]
+1. [[Introduction to propositional logic]]
+2. [[Semantic entailment and metalogic]]
+3. [[Disjunctive and Conjunctive normal forms, Adequate systems of connectives, Satisfiability]]
+4. [[Axioms of Boolean algebra, Correspondence to set theory, Semantic equivalence classes, Logic circuits]]
+5. [[Ordered binary decision diagrams]]
+6. [[Predicate logic]]
 ## Extras
 ### Tips
 ### Emails and Resources

@@ -1,5 +1,6 @@
 ---
 tags: MOC course
+alias: DSA
 ---
 (Links:: [[Uni Courses🎓]])
 # [Data Structures and Algorithms for CS](https://canvas.vu.nl/courses/63793)
@@ -22,6 +23,9 @@ tags: MOC course
 [[Data Structures and Algorithms for CS Lecture 8| Lecture 8]]
 [[Data Structures and Algorithms for CS Lecture 9| Lecture 9]]
 [[Data Structures and Algorithms for CS Lecture 10| Lecture 10]]
+[[Data Structures and Algorithms for CS Lecture 11| Lecture 11]]
+[[Data Structures and Algorithms for CS Lecture 12| Lecture 12]]
+[[Data Structures and Algorithms for CS Lecture 13| Lecture 13]]
 ## Extras
 ### Tips
 ### Emails and Resources

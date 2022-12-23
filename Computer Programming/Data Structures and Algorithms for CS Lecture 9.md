@@ -19,7 +19,7 @@ Direct-Address-Delete(T,x)
 	T[x.key] = NIL
 ```
 - Each operation in $O(1)$ **worst-case**
-- x is **point to element** with key $x.key$
+- x is **pointing to element** with key $x.key$
 - **Con**:
 	- keys are natural numbers
 	- a lot of space for large universe
@@ -42,7 +42,7 @@ Chained-Hash-Insert(T,x)
 ```
 ```
 Chained-Hash-Search(T,k)
-	serach for an element with key ke in list T[h(k)]
+	search for an element with key k in list T[h(k)]
 ```
 ```
 Chained-Hash-Delete(T,x)
@@ -51,7 +51,7 @@ Chained-Hash-Delete(T,x)
 - worst-case insertion in $O(1)$
 - worst-case search proportional to size of list
 - worst-case delete in $O(1)$ if doubly-linked list
-- **local factor $\alpha$**: average number of elements stored in a chain -> $\alpha \frac nm$
+- **local factor $\alpha$**: average number of elements stored in a chain -> $\alpha =\frac nm$
 - **simple uniform hashing**: any given element is equally likely to hash into any of the m slots, independently of where any other element has hashed to 
 ## Hash functions
 - good: distributes keys uniformly and seemingly randomly
