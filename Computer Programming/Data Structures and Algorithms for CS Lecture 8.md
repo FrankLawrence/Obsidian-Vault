@@ -16,7 +16,7 @@ For elements with more than one significant digit, this bucketing process is rep
 **Intuition**: sort per dimension using a stable sorting algorithm
 - sorting on the *least significant digit* first
 - using a stable underlying sorting algorithm
-```
+```cpp
 Radix-sort(A,d)
 	for i = 1 to d
 		use a stable sort to sort array A on digit i
@@ -25,7 +25,7 @@ Radix-sort(A,d)
 - assumes that the input is drawn from a uniform distribution
 - average-case running time: $O(n)$
 - divides the interval \[0,1) into $n$ equal-sized subintervals and then distributes the $n$ input numbers into the buckets
-```
+```cpp
 Bucket-sort(A)
 	let B[0..n-1] be a new array
 	n = A.length

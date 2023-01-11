@@ -5,7 +5,7 @@ Created: 2022-12-08 13:05:45
 (Links:: [[Data Structures and Algorithms for CS]])
 # Tree traversal
 - preorder: visit first node and next its successors
-```
+```cpp
 Algorithm preOrder(v):
 	if v != NIL then 
 		visit(v)
@@ -15,7 +15,7 @@ Algorithm preOrder(v):
 			preOrder(v.right)
 ```
 - postorder: visit all successors and next the node itself
-```
+```cpp
 Algorithm postOrder(v):
 	if v != NIL then
 		if v.left != NIL then 
@@ -25,7 +25,7 @@ Algorithm postOrder(v):
 		visit(v)
 ```
 - inorder: visit left tnen node, then right
-```
+```cpp
 Algorithm inOrder(v):
 	if v != NIL then
 		inOrder(v.left)
@@ -33,7 +33,7 @@ Algorithm inOrder(v):
 		inOrder(v.right)
 ```
 # Binary search
-```
+```cpp
 ITERATIVE-TREE-SEARCH(x,k)
 	while x != NIL and k != x.key
 		if k < x.left
@@ -44,7 +44,7 @@ ITERATIVE-TREE-SEARCH(x,k)
 - smallest key at the very left
 - largest key at the very right
 # Successor
-```
+```cpp
 TREE-SUCCESSOR(x)
 	if x.right != NIL
 		return TREE-MINIMUM(x.right)
@@ -56,7 +56,7 @@ TREE-SUCCESSOR(x)
 ```
 - runs in time $O(h)$
 # Insertion
-```
+```cpp
 TREE-INSERT(T,z)
 	y = NIL
 	x = T.root
@@ -90,7 +90,7 @@ $$C_n = \frac{1}{n+1}\binom{2n}{n}$$
 # Transplant 
 - parent node changes either left or right pointer to given replacement node
 - if new child node is not NIL -> update parent pointer
-```
+```cpp
 TRANSPLANT(T,u,v)
 	if u.p == NIL
 		T.root = v
@@ -102,7 +102,7 @@ TRANSPLANT(T,u,v)
 ```
 # Tree-delete 
 - if y != z.right, replace it with its own right child and make y the right child of z, by making z.right point to y as a parent
-```
+```cpp
 TREE-DELETE(T,z)
 	if z.left == NIL
 		TRANSPLANT(T,z,z.right)

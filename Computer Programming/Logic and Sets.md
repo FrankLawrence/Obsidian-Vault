@@ -38,11 +38,8 @@ alias: LS
 5. [[Ordered binary decision diagrams]]
 6. [[Predicate logic]]
 ## Extras
-### Tips
-### Emails and Resources
 ### Important Dates
 - Midterm Exam: Friday November 25 6:45pm
 - Final Exam: Wednesday December 21 12:15pm
-### Classmates
 ___
 References:

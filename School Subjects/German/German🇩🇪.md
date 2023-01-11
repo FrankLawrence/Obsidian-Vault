@@ -1,7 +1,7 @@
 ---
 tags: [MOC]
 ---
-Links: [[School📚🏫]]
+(Links:: [[School📚🏫]])
 ___
 
 # German MOC🇩🇪

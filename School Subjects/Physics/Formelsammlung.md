@@ -53,7 +53,7 @@ Winkelgeschwindigkeit: $$\omega=2\pi f$$
 title:Zentripitalkraft
 $$F_z=\frac{mv^2}{r}=m4\pi^2rf^2
 ```
-## __Elektirshces und magnetisches Feld/Stromkreise/Induktion__
+## __Elektrisches und magnetisches Feld/Stromkreise/Induktion__
 ```ad-Formula
 title:
 collapse: none

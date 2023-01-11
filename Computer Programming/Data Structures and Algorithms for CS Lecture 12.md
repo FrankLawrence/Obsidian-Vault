@@ -8,7 +8,7 @@ Created: 2022-12-17 17:12:33
 - each subproblem is solved *once*, saving it's solution
 	- If we refer to this subproblem's solution later, we look it up, rather than recompute
 	  -> **use additional memory to save computation time** (*time-memory trade-off*)
-```
+```cpp
 Algorithm rodCuttingDP(p,n):
 	new array b[0...n]
 	b[0] := 0
@@ -25,7 +25,7 @@ Algorithm rodCuttingDP(p,n):
 # Max-subarray
 - give the maximum of the sum of the elements of a sub-array
 ## Algorithm in $O(n^2)$
-```
+```cpp
 Algorithm maxSubArray(A,n):
 	max := 0
 	for left := 1 to n do
@@ -39,7 +39,7 @@ Algorithm maxSubArray(A,n):
 ## Algorithm in $O(n)$
 - **idea for B[r]**: maximal sum of subarray ending at index r 
 - *Start*: $B[1] = max\{A[1],0\}$
-```
+```cpp
 Algorithm maxSubArray(A,n):
 	new array B
 	B[1] := max(A[1],0)
@@ -65,7 +65,7 @@ Algorithm maxSubArray(A,n):
 - if $w_k \leq w$: we may take item $k$, but it is not necessarily the best option $B[k,w]=max\{B[k-1,w],B[k-1,w-w_k]+b_k\}$
 ___
 - S consists of $n$ items with $b_i$ and $w_i$; $W$ is the max total weight
-```
+```cpp
 Algorithm 01Knapsack(S,W):
 	new B[0...n,0...W]
 	for w := 0 to W do
@@ -90,7 +90,7 @@ Algorithm 01Knapsack(S,W):
 ## Dynamic programming algorithm
 - $\Theta (m\cdot n)$ with $m$ and $n$ length of the sequences
 - remember when $C[i,j] := C[i-1,j-1] + 1$ is called to trace back the sequence of letters
-```
+```cpp
 Algorithm LCD(X,Y):
 	new array C[0...m,0...n]
 	for i := 1 to m do

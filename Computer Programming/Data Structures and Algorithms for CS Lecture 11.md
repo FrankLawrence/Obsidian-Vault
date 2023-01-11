@@ -41,7 +41,7 @@ At any node in the tree, the heights of the left and right subtrees differs by a
 T(n-1) + T(n-2) + 2 & \text{if $n\geq 3$}
 \end{cases}$$
 $T(n)\in O(2^n)$
-```
+```cpp
 Algorithm fib(n):
 	if n = 1 or n = 2 then
 		return 1
@@ -56,7 +56,7 @@ Algorithm fib(n):
 - indicies 1 and 2 initialized with 1
 - values at indicies 3...n computed from previous two entries
 - in $O(n)$
-```
+```cpp
 Algorithm fib(n):
 	new array r[1...n]
 	r[1] := 1
@@ -67,7 +67,7 @@ Algorithm fib(n):
 ```
 # Rod cutting
 - rod of length n cut into pieces of length $i=1,...,n$ with price $p_i$
-```
+```cpp
 Algorithm rodCuttingRec(p,n)
 	if n = 0 then
 		return 0

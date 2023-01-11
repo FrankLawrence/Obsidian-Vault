@@ -15,7 +15,7 @@ Created: 2022-11-10 15:39:03
 
 H[1...n] an array of integers
 directly after building the heap: H.heap-size = H.length
-```
+```cpp
 Algirthm heapsort(H):
 	buildMaxHeap(H)
 	for i = H.length downto 2 do

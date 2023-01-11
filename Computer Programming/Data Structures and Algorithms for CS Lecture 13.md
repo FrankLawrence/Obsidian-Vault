@@ -51,7 +51,7 @@ Created: 2022-12-19 16:59:01
 	- give a maximum-size set of mutually compatible activities
 ___
 - don't consider all $a_k$ only $a_1$: activity with **smallest finish time $f_1$** (greedy approach), then solve $S_{1j}$
-```
+```cpp
 Algorithm activitySelector(s,f):
 	n := s.length
 	A := [a_1]
@@ -65,7 +65,7 @@ Algorithm activitySelector(s,f):
 - We take as much as we can from the **best benefit per weight**
 - take quantity $x_i$ of all items $i$ such that $$\sum_{i\in S}b_i\cdot \frac {x_i}{w_i}$$
 - take in each step as much as possible from the item $i$ with $\frac{b_i}{w_i}$ maximal -> in each step we take a greedy choice
-```
+```cpp
 Algorithm fracionalKnapsack(S,W):
 	for each item i in S do
 		x_i := 0
@@ -81,7 +81,9 @@ Algorithm fracionalKnapsack(S,W):
 # Single-source shortest path
 
 ## Dijkstra's algorithm
-```
+- directed graph $G$ with positive weights $w$ and start vertex $s$ in $G$
+- set $S$ contains verticies for which the weight of a shortest path has been found
+```cpp
 Algorithm Dijkstra(G,w,s):
 	initialize(G,s)
 	S := empty
@@ -95,11 +97,15 @@ Algorithm Dijkstra(G,w,s):
 - initialize in $\Theta(|V|)$
 - init $S$ in constant time
 - init $Q$: **build** priority queue using insert
+- in while-loop: $|V|$ times **extract-min**
+- in while-loop: $|V|$ times update of $S$
+- for-loop is executed in total $|E|$ times with inside **update key** of $v$
 ___
 - priority queue implemented as heap
 	- insert, extract-min and update key in $O(\log |V|)$
 	- algorithm in $O(|E|\cdot \log |V|)$
 - priority queue implemented as array with $v$ at index $v$
+	- extract-min teakes in the worst-case $|V|$ steps
 	- algorithm in $O(|V|^2)$
 
 # Huffman codes
@@ -110,8 +116,17 @@ collapse: none
 No codeword is the prefix of another codeword
 ```
 - binary tree where left is 0, right is 1, leaves are codes
-```
+```cpp
 Algorithm HuffmanCode(C):
+	n := |C|
+	Q := C
+	for i = 1 to n - 1 do
+		new node z
+		z.left := x := removeMin(Q)
+		z.right := y := removeMin(Q)
+		z.freq := x.freq + y.freq
+		insert(Q,z)
+	return removeMin(Q)
 ```
 **Complexity**
 - init in $O(n)$

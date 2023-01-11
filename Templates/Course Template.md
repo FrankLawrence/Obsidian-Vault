@@ -13,6 +13,5 @@ Tags: MOC course
 ### Tips
 ### Emails and Resources
 ### Important Dates
-### Classmates
 ___
 References:

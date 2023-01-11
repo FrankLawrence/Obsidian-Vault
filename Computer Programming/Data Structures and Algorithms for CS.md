@@ -8,7 +8,6 @@ alias: DSA
 - [[Data Structures and Algorithms for CS Outline]]
 - [[Data Structures and Algorithms for CS Structure]]
 - [[Assessment Data Structures and Algorithms for CS]]
-## Assignments
 ## Topics
 [[Insertion sort]]
 [[Analysing Algorithms]]
@@ -27,10 +26,7 @@ alias: DSA
 [[Data Structures and Algorithms for CS Lecture 12| Lecture 12]]
 [[Data Structures and Algorithms for CS Lecture 13| Lecture 13]]
 ## Extras
-### Tips
-### Emails and Resources
 ### Important Dates
 - Midterm Exam: Tuesday November 22 6:45pm
-### Classmates
 ___
 References:

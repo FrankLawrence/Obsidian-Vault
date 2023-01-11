@@ -29,7 +29,7 @@ pivot at index q
 	- index $j$ indicates the first element to be compared with the pivot ("our eyes")
 	- if $j$ finds a key smaller than pivot, swap that key with the one at $i+1$
 - pseudo-code
-```
+```cpp
 Algorithm partition(A,p,r):
 	x := A[r]
 	i := p - 1

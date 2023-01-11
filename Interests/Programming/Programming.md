@@ -1,8 +1,7 @@
 ---
 tags: [MOC]
 ---
-Tags:
-Links: [[Interests]]
+(Links:: [[Interests]])
 - [[LaTeX]]
 - [[Vim]]
 - [[Bash scripting]]

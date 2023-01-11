@@ -24,7 +24,7 @@ Created: 2022-11-15 12:45:10
 	- exclude the last node from the heap(disconnecting), so decrease the heap-size
 	- reconstruct the heap: *procedure [[Data Structures and Algorithms for CS Lecture 4#MaxHeapify|MaxHeapify]]*
 ## Pseudo-code heapsort
-```
+```cpp
 Algorithm heapsort(H):
 	buildMaxHeap(H)
 	for i = H.length downto 2 do
@@ -34,7 +34,7 @@ Algorithm heapsort(H):
 ```
 ## buildMaxHeap
 ### Pseudo-code
-```
+```cpp
 Algorithm buildMaxHeap(H):
 	H.heap-size := H.length
 	for i = floor(H.length/2) downto 1 do
@@ -54,7 +54,7 @@ Algorithm buildMaxHeap(H):
 - if *l* largest label: swap labels of *i* and of *l*, do MaxHeapify(H,l)
 - if *r* largest label: swap labels of *i* and of *r*, do MaxHeapify(H,r)
 ### Pseudo-code MaxHeapify
-```
+```cpp
 Algorithm MaxHeapify(A,i):
 	l := left(i)
 	r := right(i)
