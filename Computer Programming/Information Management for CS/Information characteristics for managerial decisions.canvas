@@ -1,0 +1,36 @@
+{
+	"nodes":[
+		{"id":"fe8596be330e2372","x":420,"y":-137,"width":250,"height":60,"type":"text","text":"Mainly external"},
+		{"id":"52d4cbb4ddcd5d6c","x":420,"y":59,"width":250,"height":60,"type":"text","text":"Interior"},
+		{"id":"b9e3903148551a35","x":138,"y":-137,"width":250,"height":60,"type":"text","text":"Aggregated summarized"},
+		{"id":"e1a5a87af3cf6e35","x":138,"y":59,"width":250,"height":60,"type":"text","text":"Highly detailed"},
+		{"id":"3298fd9c07501c96","x":700,"y":-137,"width":250,"height":60,"type":"text","text":"Uncertain"},
+		{"id":"bcff95a6739cd4b4","x":700,"y":59,"width":250,"height":60,"type":"text","text":"Certain"},
+		{"id":"006a8b237d96b694","x":382,"y":-368,"width":326,"height":56,"type":"text","text":"**Information characteristics**"},
+		{"id":"c64c3f3b86fa503d","x":-151,"y":59,"width":250,"height":60,"type":"text","text":"Immediate"},
+		{"id":"80a58cdf2f79b206","x":-151,"y":-137,"width":250,"height":60,"type":"text","text":"Long-term"},
+		{"id":"424df4c971c5add0","x":982,"y":-137,"width":250,"height":60,"type":"text","text":"Infrequent"},
+		{"id":"b8c09bbab6afbacc","x":982,"y":59,"width":250,"height":60,"type":"text","text":"Frequent"},
+		{"id":"087e58f06c87da7f","x":-171,"y":-157,"width":1423,"height":296,"color":"1","type":"group","label":"Information"},
+		{"id":"a2d069bad5df5a34","x":700,"y":-280,"width":250,"height":60,"type":"text","text":"Degree of certainty"},
+		{"id":"a05ab910a3a0bb47","x":982,"y":-280,"width":250,"height":60,"type":"text","text":"Frequency"},
+		{"id":"9b468f6b24ee81e8","x":420,"y":-280,"width":250,"height":60,"type":"text","text":"Source"},
+		{"id":"4af8c8e62009be4b","x":-151,"y":-280,"width":250,"height":60,"type":"text","text":"Time horizon"},
+		{"id":"01999afe534ddfd5","x":138,"y":-280,"width":250,"height":60,"type":"text","text":"Level of detail"},
+		{"id":"a23406362304fd3f","x":-460,"y":-137,"width":250,"height":60,"type":"text","text":"Strategic planning"},
+		{"id":"1858cd39ec81540f","x":-460,"y":-47,"width":250,"height":81,"type":"text","text":"Management control and tactical planning"},
+		{"id":"ed9afdfa15744e7e","x":-460,"y":59,"width":250,"height":60,"type":"text","text":"Operational planning"}
+	],
+	"edges":[
+		{"id":"be81cd2de2ebad7e","fromNode":"80a58cdf2f79b206","fromSide":"bottom","toNode":"c64c3f3b86fa503d","toSide":"top"},
+		{"id":"f1e7fa7ff33168b3","fromNode":"c64c3f3b86fa503d","fromSide":"top","toNode":"80a58cdf2f79b206","toSide":"bottom"},
+		{"id":"6aef87c4513e5565","fromNode":"b9e3903148551a35","fromSide":"bottom","toNode":"e1a5a87af3cf6e35","toSide":"top"},
+		{"id":"cc0f9a3ebb83a65b","fromNode":"e1a5a87af3cf6e35","fromSide":"top","toNode":"b9e3903148551a35","toSide":"bottom"},
+		{"id":"71e3808cef713374","fromNode":"52d4cbb4ddcd5d6c","fromSide":"top","toNode":"fe8596be330e2372","toSide":"bottom"},
+		{"id":"a978f3db3a94fa50","fromNode":"fe8596be330e2372","fromSide":"bottom","toNode":"52d4cbb4ddcd5d6c","toSide":"top"},
+		{"id":"97fbef5a771d6932","fromNode":"424df4c971c5add0","fromSide":"bottom","toNode":"b8c09bbab6afbacc","toSide":"top"},
+		{"id":"ae9e4b274c34c8a8","fromNode":"b8c09bbab6afbacc","fromSide":"top","toNode":"424df4c971c5add0","toSide":"bottom"},
+		{"id":"b2cc4632151c2b9d","fromNode":"3298fd9c07501c96","fromSide":"bottom","toNode":"bcff95a6739cd4b4","toSide":"top"},
+		{"id":"fa542e5b92a741e9","fromNode":"bcff95a6739cd4b4","fromSide":"top","toNode":"3298fd9c07501c96","toSide":"bottom"}
+	]
+}

@@ -1,0 +1,18 @@
+- Server and hosting enviroment
+	- Issues regarding network throughput, cloud storage, virtualization, hardware constraints, multithreading, and data redundancy
+	- Developers should understand how the server components interact and how the components can be scaled-up to support large volumes of traffic
+- Data modeling
+	- Representing, storing and retrieving application data in relational and non-relational databases
+	- Developers should know the tradeoffs of choosing one type of database over another
+- Buisness logic
+	- Programming logic on the front or back-end that determines how data can be created, displayed, stored, and changed
+	- Developers need solid programming skills and the ability to use frameworks and libraries to simplify common tasks
+- Application Programming Interface
+	- Programmable actions that may be performed on the underlying data. Often used by the front-end to interact with the back-end
+	- Developers should understand how to create clear and concise programming interfaces
+- User interface
+	- Visual part of the application that users interact with
+	- Developers are often aided by graphic designers and usability experts to create effective UIs, but developers need mastery of front-end technologies to implement UI designs
+- Testing framework
+	- Automated tests that verify the web application components are working properly, independently and together
+	- Developers should write tests to insure the buisness logic is implemented correctly and write tests that automate interaction with the web application in the web browser

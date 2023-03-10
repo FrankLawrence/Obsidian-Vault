@@ -98,11 +98,11 @@ body
     --text-muted:                    var(--light1);
 
     --h1-color:                      var(--red);
-    --h2-color:                      var(--orange);
-    --h3-color:                      var(--yellow);
-    --h4-color:                      var(--green);
-    --h5-color:                      var(--purple);
-    --h6-color:                      var(--orange);
+    --h2-color:                      var(--yellow);
+    --h3-color:                      var(--green);
+    --h4-color:                      var(--purple);
+    --h5-color:                      var(--frost0);
+    --h6-color:                      var(--frost2);
 
     --text-highlight-bg:             var(--frost1);
     --text-highlight-fg:             var(--dark0);
@@ -136,9 +136,11 @@ body
     --text-selection:                rgba(var(--red_x), 0.6);
     --flashing-background:           rgba(var(--red_x), 0.3);
 
+    --code-normal:                   var(--frost1);
     --code-background:               var(--dark1);
 
     --mermaid-note:                  var(--frost3);
+    --mermaid-loopline:              var(--frost1);
 
     --icon-color-hover:              var(--red);
     --icon-color-focused:            var(--frost2);
@@ -161,6 +163,9 @@ body
     --dataview-key-background:       rgba(var(--frost2_x), 0.3);
     --dataview-value:                var(--text-faint);
     --dataview-value-background:     rgba(var(--red_x), 0.3);
+
+    --tab-text-color-focused-active:         var(--frost2);
+    --tab-text-color-focused-active-current: var(--red);
 }
 
 .theme-light
@@ -194,11 +199,11 @@ body
     --text-muted:                    var(--dark1);
 
     --h1-color:                      var(--red);
-    --h2-color:                      var(--orange);
-    --h3-color:                      var(--yellow);
-    --h4-color:                      var(--green);
-    --h5-color:                      var(--purple);
-    --h6-color:                      var(--orange);
+    --h2-color:                      var(--yellow);
+    --h3-color:                      var(--green);
+    --h4-color:                      var(--purple);
+    --h5-color:                      var(--frost0);
+    --h6-color:                      var(--frost2);
 
     --text-highlight-bg:             var(--yellow);
     --text-highlight-fg:             var(--dark0);
@@ -232,9 +237,11 @@ body
     --text-selection:                rgba(var(--red_x), 0.6);
     --flashing-background:           rgba(var(--red_x), 0.3);
 
+    --code-normal:                   var(--frost1);
     --code-background:               var(--light2);
 
     --mermaid-note:                  var(--frost0);
+    --mermaid-loopline:              var(--frost1);
 
     --icon-color-hover:              var(--red);
     --icon-color-focused:            var(--frost3);
@@ -257,6 +264,9 @@ body
     --dataview-key-background:       rgba(var(--frost2_x), 0.3);
     --dataview-value:                var(--text-faint);
     --dataview-value-background:     rgba(var(--red_x), 0.3);
+
+    --tab-text-color-focused-active:         var(--frost2);
+    --tab-text-color-focused-active-current: var(--red);
 }
 
 table
@@ -273,13 +283,13 @@ thead
 th
 {
     font-weight: 600 !important;
-    border: 0px !important;
+    border: 1px solid var(--background-secondary) !important;
 }
 
 td
 {
-    border-left: 0px !important;
-    border-right: 0px !important;
+    border-left: 1px solid var(--background-secondary) !important;
+    border-right: 1px solid var(--background-secondary) !important;
     border-bottom: 1px solid var(--background-secondary) !important;
 }
 
@@ -298,6 +308,7 @@ td
 {
     background-color: var(--table-row-background-hover) !important;
 }
+
 .markdown-rendered mark
 {
     background-color: var(--text-highlight-bg) !important;
@@ -403,6 +414,11 @@ pre[class*="language-"]
     color: var(--calendar-week) !important;
 }
 
+.mermaid .loopLine
+{
+    stroke: var(--mermaid-loopline) !important;
+}
+
 .calendar .today
 {
     color: var(--calendar-today) !important;
@@ -456,5 +472,10 @@ pre[class*="language-"]
     font-size: var(--font-smaller);
     color: var(--dataview-value) !important;
     background-color: var(--dataview-value-background) !important;
+}
+
+.suggestion-highlight
+{
+    color: var(--red);
 }
 

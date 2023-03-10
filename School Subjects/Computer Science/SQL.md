@@ -1,5 +1,4 @@
-[[Copmuter Science💻👨🏼‍💻]]
-# SQL
+(Links:: [[Computer Science💻👨🏼‍💻]])
 tags:
 - Relationale Datenbank: Sammlung von Tabellen
 - Die erste Zeile einer Tabelle enthält in jeder Spalte einen Namen für die Daten dieser Spalte.
@@ -11,7 +10,7 @@ tags:
 | ---------------------------- | --------------------------------------------------------------------- |
 | Tabelle                      | Relation                                                              |
 | Datensatz in einer Zeile     | **Entität**                                                           |
-| Spaltenüberschrift           | Atribut/Entitätstyp                                                   |
+| Spaltenüberschrift           | Attribut/Entitätstyp                                                   |
 | Werte in einer **Spalte**    | Attributwerte (Ein Attribut darf nur atomar sein: nur einfache Werte) |
 | Eindeutiger Wert einer Zeile | **[[Primärschlüssel und Fremdschlüssel\|Primärschlüssel]]**           |
 | Anzahl der Tabellenzeilen    | [[Kardinalität]] der Relation                                             |

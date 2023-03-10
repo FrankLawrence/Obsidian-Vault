@@ -1,11 +1,15 @@
 {
   "baseFontSize": 16,
   "translucency": false,
-  "cssTheme": "Yin and Yang",
+  "cssTheme": "Minimal",
   "theme": "obsidian",
   "interfaceFontFamily": "",
-  "textFontFamily": "Fira Code",
-  "monospaceFontFamily": "",
-  "accentColor": "",
-  "showViewHeader": true
+  "textFontFamily": "Fira Code,Roboto Mono,Source Code Pro",
+  "monospaceFontFamily": "FiraCode Nerd Font",
+  "accentColor": "#ff9500",
+  "showViewHeader": true,
+  "nativeMenus": false,
+  "enabledCssSnippets": [
+    "cards"
+  ]
 }

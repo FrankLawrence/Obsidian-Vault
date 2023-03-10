@@ -5,7 +5,7 @@ Tags: MOC course
 ## Notes and Ideas
 - [[{{title}} Outline]]
 - [[{{title}} Structure]]
-- [[Assessment {{title}}]]
+- [[{{title}} Assessment]]
 ## Assignments
 ## Topics
 ## Lectures

@@ -2,7 +2,7 @@
   "legacyEditor": false,
   "livePreview": false,
   "strictLineBreaks": false,
-  "showFrontmatter": false,
+  "showFrontmatter": true,
   "showLineNumber": true,
   "fileSortOrder": "byCreatedTime",
   "promptDelete": false,
@@ -22,5 +22,6 @@
   "foldIndent": true,
   "vimMode": true,
   "foldHeading": true,
-  "showInlineTitle": true
+  "showInlineTitle": true,
+  "autoConvertHtml": true
 }

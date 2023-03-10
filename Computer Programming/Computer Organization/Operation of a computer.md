@@ -1,0 +1,4 @@
+- computer accepts information in the form of programs and data through an input unit and stores it in the memory
+- information stored in the memory is fetched under program control into an arithmetic and logic unit, where it is processed
+- processed information leaves the computer through an output unit
+- all activities in the computer are directed by the control unit

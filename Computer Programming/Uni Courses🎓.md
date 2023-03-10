@@ -13,5 +13,9 @@ Created: 2022-09-06 09:35
 ## P3 
 - [[Web Technology]]
 - [[Data Wrangling]]
+## P4
+- [[Computer Organization]]
+- [[Information Management for CS]]
+- [[Security and Safety Engineering]]
 ___
 References:

@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"type":"text","text":"Internal rivalry between existing competitors","id":"361311b1ab582bee","x":-120,"y":-20,"width":320,"height":81},
+		{"type":"text","text":"Threats of subsitute products or services","id":"d06d31ed07fc6cbf","x":-85,"y":260,"width":250,"height":60},
+		{"type":"text","text":"Threat of new entrants","id":"df733f22b7a1a2a8","x":-85,"y":-320,"width":250,"height":60},
+		{"type":"text","text":"Suppliers","id":"f12253492e3a8cff","x":-700,"y":-4,"width":250,"height":50},
+		{"type":"text","text":"Customers","id":"b09455b1004fbddc","x":560,"y":-9,"width":140,"height":60}
+	],
+	"edges":[
+		{"id":"f0376fc43bf6d325","fromNode":"d06d31ed07fc6cbf","fromSide":"top","toNode":"361311b1ab582bee","toSide":"bottom"},
+		{"id":"7780481387ce9190","fromNode":"b09455b1004fbddc","fromSide":"left","toNode":"361311b1ab582bee","toSide":"right","label":"Customers exert \nbargaining power"},
+		{"id":"336e50b9672d5403","fromNode":"df733f22b7a1a2a8","fromSide":"bottom","toNode":"361311b1ab582bee","toSide":"top"},
+		{"id":"220276459c10bb4d","fromNode":"f12253492e3a8cff","fromSide":"right","toNode":"361311b1ab582bee","toSide":"left","label":"Suppliers exert\nbargaining power"}
+	]
+}

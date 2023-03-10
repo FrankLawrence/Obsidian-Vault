@@ -1,11 +1,11 @@
 {
   "collapse-filter": false,
-  "search": "Computer Science",
+  "search": "",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": false,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "Programming OR path:Computer OR path:Programming",
@@ -15,30 +15,23 @@
       }
     },
     {
-      "query": "Physics OR Physik",
+      "query": "Physics OR Physik OR path:\"School Subjects/Physics\"",
       "color": {
         "a": 1,
-        "rgb": 14725458
-      }
-    },
-    {
-      "query": "path:Music",
-      "color": {
-        "a": 1,
-        "rgb": 11657298
+        "rgb": 15174152
       }
     }
   ],
-  "collapse-display": true,
-  "showArrow": true,
+  "collapse-display": false,
+  "showArrow": false,
   "textFadeMultiplier": -0.1,
-  "nodeSizeMultiplier": 2.03122306034483,
-  "lineSizeMultiplier": 4.11029094827586,
+  "nodeSizeMultiplier": 1.68816817434211,
+  "lineSizeMultiplier": 2.39939350328947,
   "collapse-forces": true,
   "centerStrength": 0.518713248970312,
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 0.6274444841968767,
+  "scale": 0.2696694629564425,
   "close": true
 }

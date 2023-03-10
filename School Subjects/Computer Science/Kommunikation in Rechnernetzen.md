@@ -2,7 +2,7 @@
 Tags: 
 Created: 2023-01-09 11:29:53
 ---
-(Links:: [[Copmuter Science💻👨🏼‍💻]])
+(Links:: [[Computer Science💻👨🏼‍💻]])
 # Einleitung
 # Bestandteile eines Netzwerks
 # Adressierung

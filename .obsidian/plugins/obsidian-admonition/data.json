@@ -23,10 +23,22 @@
       "title": "Terminal-Command",
       "injectColor": true,
       "noTitle": true
+    },
+    "definition": {
+      "type": "definition",
+      "color": "255, 71, 71",
+      "icon": {
+        "name": "book-open",
+        "type": "font-awesome"
+      },
+      "command": false,
+      "title": "Definition",
+      "injectColor": true,
+      "noTitle": false
     }
   },
   "syntaxHighlight": false,
-  "copyButton": false,
+  "copyButton": true,
   "version": "9.0.5",
   "autoCollapse": true,
   "defaultCollapseType": "closed",

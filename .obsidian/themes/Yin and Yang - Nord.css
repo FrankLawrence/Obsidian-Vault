@@ -2122,7 +2122,7 @@ a,
 a.internal-link,
 span.cm-hmd-internal-link {
   transition-duration: ease 500ms;
-  color: var(--text-accent-franky);
+  color: var(--text-accent);
   text-decoration: none;
 }
 
@@ -2142,7 +2142,7 @@ a.internal-link,
 a:hover,
 .external-link:hover,
 .cm-hmd-internal-link:hover {
-  color: var(--text-accent-franky);
+  color: var(--text-accent);
 }
 
 /* LINKS IN PREVIEW*/
@@ -2666,7 +2666,7 @@ table {
 }
 
 .footnote-link:hover {
-  color: var(--text-accent-franky);
+  color: var(--text-accent);
   text-decoration: none;
 }
 
@@ -4525,7 +4525,7 @@ GRAPH SETTINGS
 }
 
 .graph-view.color-circle {
-  color: var(--text-accent-franky);
+  color: var(--text-accent);
 }
 
 .graph-view.color-fill {
@@ -8661,7 +8661,7 @@ text.react-calendar-heatmap-month-label {
 }
 
 .color-filled {
-  fill: var(--text-accent-franky) !important;
+  fill: var(--text-accent) !important;
 }
 
 #color-elem {

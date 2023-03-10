@@ -252,7 +252,6 @@ A @>a>> B\\
 @V b V V= @VV c V\\
 C @>>d> D
 \end{CD}
-
 $$
 
 ---

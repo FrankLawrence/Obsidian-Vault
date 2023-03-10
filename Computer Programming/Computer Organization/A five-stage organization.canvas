@@ -1,0 +1,14 @@
+{
+	"nodes":[
+		{"type":"text","text":"Source registers","id":"3ce8ae034d41d55c","x":-160,"y":-200,"width":250,"height":60},
+		{"type":"text","text":"Instruction fetch","id":"9d4e45a2dce4ac6d","x":-160,"y":-300,"width":250,"height":60},
+		{"type":"text","text":"ALU","id":"da90aeaa015c3fb0","x":-160,"y":-100,"width":250,"height":60},
+		{"type":"text","text":"Memory access","id":"51e02e09532d40d5","x":-160,"y":0,"width":250,"height":60},
+		{"type":"text","text":"Destination register","id":"955b230f782ff0b1","x":-160,"y":100,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"cf5db4b0832a40cf","fromNode":"3ce8ae034d41d55c","fromSide":"bottom","toNode":"da90aeaa015c3fb0","toSide":"top"},
+		{"id":"d2104350a1f4d53b","fromNode":"da90aeaa015c3fb0","fromSide":"bottom","toNode":"51e02e09532d40d5","toSide":"top"},
+		{"id":"211004519ae92834","fromNode":"51e02e09532d40d5","fromSide":"bottom","toNode":"955b230f782ff0b1","toSide":"top"}
+	]
+}

@@ -1,0 +1,3 @@
+python3 [mssqlclient.py](http://mssqlclient.py/) ARCHETYPE/sql_svc@{TARGET_IP} -windows-auth
+
+[https://book.hacktricks.xyz/pentesting/pentesting-mssql-microsoft-sql-server](https://book.hacktricks.xyz/pentesting/pentesting-mssql-microsoft-sql-server)[https://pentestmonkey.net/cheat-sheet/sql-injection/mssql-sql-injection-cheat-sheet](https://pentestmonkey.net/cheat-sheet/sql-injection/mssql-sql-injection-cheat-sheet)

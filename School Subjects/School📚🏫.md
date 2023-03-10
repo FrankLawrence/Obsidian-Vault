@@ -12,4 +12,4 @@ ___
 - [[History🏛]]
 - [[Social Studies🏘]]
 - [[Ethics😇]]
-- [[Copmuter Science💻👨🏼‍💻]]
+- [[Computer Science💻👨🏼‍💻]]
