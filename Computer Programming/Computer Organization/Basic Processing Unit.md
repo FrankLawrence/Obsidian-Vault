@@ -104,10 +104,23 @@ title: Operations specified by an instruction
 	  Memory address <- [PC], Read memory, Wait for MFC,
 	  IR <- Memorydata, PC <- [PC]+4
 # Control Signals
+- components governed by *control signals*
+- results of the actions that take place in one stage are stored in inter-stage registers, to be available for use by the next stage in the next clock cycle
+- data selected by the multiplexer matters only during that step of the stage (ex: MuxB and MuxY)-> same selection can be maintained in all execution steps -> less circuitry
 - [[Control signals for the datapath.png]]
+	- multiplexers are controlled by signals that select which input data appear at the multiplexer's output
+	- ALU performs operation determined by *k*-bit control code: ALU_op (Add, Subtract, AND,...)
+	- comparator generates condition signals needed for conditional branch instructions
 - [[Processor-memory interface and IR control signals.png]]
+	- MEM_read and MEM_write initiate read or write operation -> interface asserts MFC signal
+	- IR_enable only activated after MFC signal is asserted
+	- immediate value has three formats:
+		- sign-extended 16-bit value
+		- zero-extended 16-bit value
+		- 26-bit value
 - [[Control signals for the instruction address generator.png]]
-- multiplexers are controlled by signals that select which input data appear at the multiplexer's output
+# Hardwired Control
+- 
 
 ---
 References:

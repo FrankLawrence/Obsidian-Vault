@@ -32,5 +32,24 @@
       ],
       "key": "N"
     }
+  ],
+  "obsidian-excalidraw-plugin:insert-link-to-element": [],
+  "graph:open": [],
+  "obsidian-git:commit": [
+    {
+      "modifiers": [
+        "Mod"
+      ],
+      "key": "G"
+    }
+  ],
+  "obsidian-git:commit-specified-message": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod"
+      ],
+      "key": "G"
+    }
   ]
 }

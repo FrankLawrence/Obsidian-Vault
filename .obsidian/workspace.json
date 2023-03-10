@@ -27,7 +27,7 @@
               "type": "markdown",
               "state": {
                 "file": "Computer Programming/Computer Organization/Basic Processing Unit.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -98,7 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 248.5
+    "width": 395.5
   },
   "right": {
     "id": "af68da5da2e3de0e",
@@ -232,25 +232,27 @@
   },
   "active": "09c444c0f46ca2e3",
   "lastOpenFiles": [
-    "Computer Programming/Projects/Study Structure.md",
-    "Computer Programming/Study Structure.md",
+    "Computer Programming/Computer Organization/Reference documentation.md",
+    "Computer Programming/Computer Organization/Basic Processing Unit.md",
+    "Files/Processor-memory interface and IR control signals.png",
     "Computer Programming/Information Management for CS/Information Management for CS.md",
+    "Daily Notes/2023-03-10.md",
+    "Daily Notes/2023-02-07.md",
     "Daily Notes/2023-03-09.md",
     "Daily Notes/2023-03-08.md",
-    "Computer Programming/Computer Organization/Reference documentation.md",
+    "Daily Notes/2023-03-07.md",
+    "To Do.md",
+    "Computer Programming/Projects/Study Structure.md",
+    "Computer Programming/Study Structure.md",
     "Computer Programming/Computer Organization/Computer Organization.md",
     "Computer Programming/Computer Organization/Introduction Set Architecture.md",
-    "Computer Programming/Computer Organization/Basic Processing Unit.md",
     "Files/Control signals for the instruction address generator.png",
-    "Files/Processor-memory interface and IR control signals.png",
     "Files/Control signals for the datapath.png",
     "Computer Programming/Projects/Clinical Trials API.canvas",
     "Personal/;).canvas",
     "Files/Instruction encoding.png",
-    "Daily Notes/2023-03-07.md",
     "Daily Notes/2023-03-12.md",
     "Daily Notes/2023-03-11.md",
-    "Daily Notes/2023-03-10.md",
     "Computer Programming/Computer Organization/Sequence of actions needed to fetch and execute instruction examples.md",
     "Files/Datapath in a processor.png",
     "Files/Instruction address generator.png",
@@ -264,9 +266,6 @@
     "Daily Notes/2023-02-22.md",
     "Daily Notes/2023-02-23.md",
     "Daily Notes/2023-02-24.md",
-    "Daily Notes/2023-02-25.md",
-    "Daily Notes/2023-02-26.md",
-    "Daily Notes/2023-02-27.md",
     "Computer Programming/Computer Organization/A five-stage organization.canvas",
     "Computer Programming/Information Management for CS/An industry and its competitive forces.canvas",
     "Files/Single memory block.png",
