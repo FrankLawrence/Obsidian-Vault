@@ -120,7 +120,40 @@ title: Operations specified by an instruction
 		- 26-bit value
 - [[Control signals for the instruction address generator.png]]
 # Hardwired Control
-- 
+- an instruction is executed in a sequence of steps, where each step requires one clock cycle
+- the setting of the control signals depends on:
+	- contents of the step counter
+	- contents of the instruction register
+	- the result of a computation or a comparison operation
+	- external input signals, such as interrupt requests
+- [[Generation of the control signals.png]]
+	- instruction decoder interprets OP-code and addressing mode information
+	- outputs T1 to T5 indicate which step involved in fetching and executing instructions is being carried out
+## Datapath Control Signals
+- instruction is loaded into IR and decoded to determine actions needed
+- source registers are read and contents become available at outputs A and B
+- data flows automatically from one datapath stage to the next on every active edge of the clock signal
+- **control signals can be determined by examining the actions taken in each execution step of every instruction**
+	- logic expression for RF_write signal in step T5: 
+	  
+	  $$\text{RF}_{\text{write}}=\text{T5}\times(ALU+Load+Call)$$
+	  -> [[Control signals for the datapath.png]]
+		- ALU: all instructions that perform arithmetic or logic operations
+		- Load: all load instructions
+		- Call: all subroutine-call and software-interrupt instructions
+	- multiplexer's signal can be implemented as a function of the instruction only: $$\text{B}_{\text{select}}=\text{Immediate}$$ -> [[Control signals for the datapath.png]]
+		- Immediate: all instructions that use an immediate value in the IR
+## Dealing with Memory Delay
+- control signal WMFC executed at any step where Wait for MFC command is issued
+- Counter_enable should be 1 when WMFC is not asserted or when MFC is asserted: 
+  
+  $$\text{Counter}_{\text{enable}}=\overline{\text{WMFC}}+\text{MFC}$$
+  -> [[Generation of the control signals.png]]
+- PC enabled only when MFC is recieved when fetching new instruction
+  PC enabled when branching in step 3
+  -> $$\text{PC}_{\text{enabled}}=\text{T1}\times\text{MFC}+\text{T3}\times\text{BR}$$
+  -> [[Control signals for the instruction address generator.png]]
+# Cisc-Style Processors
 
 ---
 References:

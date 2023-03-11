@@ -27,9 +27,9 @@
               "type": "markdown",
               "state": {
                 "file": "Computer Programming/Computer Organization/Basic Processing Unit.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
-                "source": true
+                "source": false
               }
             }
           },
@@ -98,7 +98,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 395.5
+    "width": 230.5,
+    "collapsed": true
   },
   "right": {
     "id": "af68da5da2e3de0e",
@@ -164,8 +165,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "4c6142e30c7eb0ee",
@@ -200,7 +200,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.8941418233990291,
+                  "scale": 0.6186668546573301,
                   "close": true
                 }
               }
@@ -210,7 +210,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330,
+    "width": 312.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -232,11 +232,15 @@
   },
   "active": "09c444c0f46ca2e3",
   "lastOpenFiles": [
-    "Computer Programming/Computer Organization/Reference documentation.md",
+    "Files/Generation of the control signals.png",
+    "Files/Control signals for the instruction address generator.png",
     "Computer Programming/Computer Organization/Basic Processing Unit.md",
+    "Daily Notes/2023-03-10.md",
+    "Computer Programming/Computer Organization/Sequence of actions needed to fetch and execute instruction examples.md",
+    "Computer Programming/Computer Organization/Main hardware components of a processor.md",
+    "Computer Programming/Computer Organization/Reference documentation.md",
     "Files/Processor-memory interface and IR control signals.png",
     "Computer Programming/Information Management for CS/Information Management for CS.md",
-    "Daily Notes/2023-03-10.md",
     "Daily Notes/2023-02-07.md",
     "Daily Notes/2023-03-09.md",
     "Daily Notes/2023-03-08.md",
@@ -246,14 +250,12 @@
     "Computer Programming/Study Structure.md",
     "Computer Programming/Computer Organization/Computer Organization.md",
     "Computer Programming/Computer Organization/Introduction Set Architecture.md",
-    "Files/Control signals for the instruction address generator.png",
     "Files/Control signals for the datapath.png",
     "Computer Programming/Projects/Clinical Trials API.canvas",
     "Personal/;).canvas",
     "Files/Instruction encoding.png",
     "Daily Notes/2023-03-12.md",
     "Daily Notes/2023-03-11.md",
-    "Computer Programming/Computer Organization/Sequence of actions needed to fetch and execute instruction examples.md",
     "Files/Datapath in a processor.png",
     "Files/Instruction address generator.png",
     "Files/Instruction fetch section of Five-stage organization.png",
@@ -265,7 +267,6 @@
     "Daily Notes/2023-02-21.md",
     "Daily Notes/2023-02-22.md",
     "Daily Notes/2023-02-23.md",
-    "Daily Notes/2023-02-24.md",
     "Computer Programming/Computer Organization/A five-stage organization.canvas",
     "Computer Programming/Information Management for CS/An industry and its competitive forces.canvas",
     "Files/Single memory block.png",
