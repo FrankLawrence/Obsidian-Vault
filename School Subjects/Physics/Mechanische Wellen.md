@@ -5,11 +5,10 @@ Links: [[Physics⚛]]
 ## Wellenfunktion
 t-s-Diagramm: Beschreibt den entsprechenden Oszillator an einem festen Ort
 x-s-Diagramm: Beschriebt die Wellen zu einem festen Zeitpunkt
-```ad-Formula
-title: Gleichung einer Welle:
-collapse: none
-$$s(t,x)=\hat s\cdot \sin\left(2\pi \cdot \left(\frac tT-\frac x\lambda\right)\right)$$
-```
+
+> [!Formula] Gleichung einer Welle:
+> $$s(t,x)=\hat s\cdot \sin\left(2\pi \cdot \left(\frac tT-\frac x\lambda\right)\right)$$
+
 ## Wellentypen
 - **Longitudinalwelle**: Ausbreitungsrichtung der Welle stimmt mit Bewegungsrichtung der Oszillatoren überein (Teilchen schwingen parallel zur Ausbreitungsrichtung)
 - **Transversalwellen**:Ausbreitungsrichtung der Welle verlaufen senkrecht zur Bewegungsrichtung der Oszillatoren (Teilchen schwingen senkrecht zur Ausbreitungsrichtung)

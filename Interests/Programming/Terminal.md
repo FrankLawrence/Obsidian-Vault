@@ -3,11 +3,11 @@ Tags:
 Links: [[Programming]]
 ___
 ## Commands
-```ad-terminal
-title: Printenv
-collapse:none
-  Print values of all or specific environment variables.
-``` 
+
+> [!terminal]+ Ptrintenv
+> Print values of all or specific environment variables.
+
+
 ___
 References:
 

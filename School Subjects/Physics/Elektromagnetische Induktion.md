@@ -12,19 +12,16 @@ ___
 	- sich die Weite $\varphi$ des Winkels zwischen Feldstärkevektor $\vec B$ und Flächenvektor $\vec A$ **ändert**
 - Wenn die Feldstärke $B$/ Flächeninhalt $A$ vergrößert wird, dann ist die Induktionsspannung $U_{ind}$ **negativ**
 - Je schneller die Feldstärke/Flächeninhalt verändert wird, desto größer ist der Betrag der Induktionsspannung
-```ad-Formula
-title:
-collapse: none
-$$U_{ind}=B\cdot l\cdot v$$
-```
+
+> [!Formula] 
+> $$U_{ind}=B\cdot l\cdot v$$
+
 Spule wird von einem sich **zeitlich ändernden Magnetfeld** durchsetzt
-```ad-Formula
-title:
-collapse: none
-$$U=n\cdot A_s \cdot \dot B$$
-$$\rightarrow U_{ind}=-n\cdot\dot \Phi$$
-$$\Phi = B\cdot A \cdot \cos(\varphi)$$
-```
+> [!Formula] 
+> $$U=n\cdot A_s \cdot \dot B$$
+> $$\rightarrow U_{ind}=-n\cdot\dot \Phi$$
+> $$\Phi = B\cdot A \cdot \cos(\varphi)$$
+
 ## [[Lenzische Regel]]
 # [[Selbstinduktion]]
 ## Einschaltvorgang

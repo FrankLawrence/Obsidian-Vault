@@ -10,10 +10,9 @@ ___
 
 Obwohl im Doppelspaltexperiment ein einzelnes Elektron nur an einen Ort auf dem Schirm trifft, so bilden die Auftreffpunkte nach vielen Wiederholungen ein Interferenzmuster.
 Immer wenn sich in einem quantenphysikalischen Experiment Interferenz zeigt, gibt es für das Eintreten eines bestimmten Versuchsergebnisses mehrere im klassischen Teilchenbild denkbare  Möglichkeiten.
-```ad-important
-title: "Fähigkeit zur Interferenz"
-Auch einzelne Quantenobjekte können zu einem Interferenzmuster beitragen. Voraussetzung ist, dass es für das Eintreten des gleichen Versuchsergebnisses mehr als eine klassisch denkbare Möglichkeit gibt.
-```
+
+> [!important]+ "Fähigkeit zur Interferenz"
+> Auch einzelne Quantenobjekte können zu einem Interferenzmuster beitragen. Voraussetzung ist, dass es für das Eintreten des gleichen Versuchsergebnisses mehr als eine klassisch denkbare Möglichkeit gibt.
 
 ___
 References:

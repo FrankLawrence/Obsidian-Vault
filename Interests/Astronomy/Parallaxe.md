@@ -26,11 +26,10 @@ p_{Grad} \equiv p_{Bog}
 \right\}
 \Rightarrow p_{Bog}=\frac{2\pi}{360^o}\cdot p_{Grad}=\frac{\pi}{180^o}\cdot p_{Grad}=\frac{\pi}{180\cdot 60\cdot 60''}\cdot p_{Grad}
 $$
-```ad-definition
-title: Definition Parsec
-collapse: none
-Die Entfernung, für die Parallaxe 1'' heißt **Paralektischesekunde** bzw. **Parsec** ($pc$)
-```
+
+> [!definition]+ Parsec
+> Die Entfernung, für die Parallaxe 1'' heißt **Paralektischesekunde** bzw. **Parsec** ($pc$)
+
 ## Wie viele km sind 1 parsec?
 $$x=\frac{1\,AE}{p}=\frac{1\,AE\cdot 180\cdot 60\cdot 60}{\pi}=206\,265\,AE=1\;\text{parsec}$$
 $$p \to 1'' \;(\text{Umwandeln ins Bogenmaß})$$

@@ -15,15 +15,15 @@ Created: 2023-02-07 12:07:06
 - horizontally and vertically adjacent squares differ in only one variable
 - two adjacent squares that contain 1 have an algebraic simplification
 - the product term that correpsonds to a group of squares is the product of the input varialbes whose values are constant on these squares
-```ad-hint
-- If the value of input variable $x_i$ is 0 for all 1s of a group, then $\bar x_i$ is entered in the product, but if $x_i$ has the value 1 for all 1s of the group then $x_i$ is entered in the product
-```
+
+> [!hint]
+> - If the value of input variable $x_i$ is 0 for all 1s of a group, then $\bar x_i$ is entered in the product, but if $x_i$ has the value 1 for all 1s of the group then $x_i$ is entered in the product
+
 - left-end square are adjacent to the right-end squares
 - [[Minimization using Karnaugh maps.png]]
-```ad-important
-collapse: none
-larger groups correspond to smaller product terms
-```
+
+> [!important]+
+> larger groups correspond to smaller product terms
 ## Don't-Care Conditions
 - representing 0 through 9 with 4 bits only requires 10 distinct valuations
 - we do not care what the function values are for the unused input valuations -> *don't cares* denoted by letter 'd'
@@ -44,14 +44,12 @@ larger groups correspond to smaller product terms
 - Logic circuits whose output are uniquely defined for each input valuation are referred to as *combinational circuits*
 - circuits with output dependent on present valuation of the input variables but also of their previous behavior are called *sequential circuits*
  - [[Gated SR latch timing diagram.png]]
-```ad-important
-title: Gated D latch
-collapse: none
-two signals derived from single input D
-**At clock pulse, Q is set to 1 if D = 1 or is reset to 0 if D = 0**
-- [[Gated D latch circuit.png]]
-- [[Gated D latch timing diagram.png]]
-```
+ 
+> [!important]+ Gated D latch
+> two signals derived from single input D
+> **At clock pulse, Q is set to 1 if D = 1 or is reset to 0 if D = 0**
+> - [[Gated D latch circuit.png]]
+> - [[Gated D latch timing diagram.png]]
 ## Master-Slave Flip-Flop
 - two gated D latches connected
 - A 1-to-0 transition of the clock isolates the master from the input and transfers the contents of the master stage to the slave stage
@@ -60,10 +58,11 @@ two signals derived from single input D
 - [[Master-slave D flip-flop.png]]
 ## Edge Triggering
 - *edge triggered*: data present at the input are transferred to the output only at a transition in the clock signal
-```ad-note
-- *positive (leading) edge triggered*: data transfer at 0-to-1 clock transition
-- *negative (trailing) edge triggered*: data transfer at 1-to-0 clock transition
-```
+
+> [!note]
+> - *positive (leading) edge triggered*: data transfer at 0-to-1 clock transition
+> - *negative (trailing) edge triggered*: data transfer at 1-to-0 clock transition
+
 ## T Flip-Flop
 - changes state every clock cycle if its input T is equal to 1 ("toggles" state)
 - [[T flip-flop Circuit.png]]
@@ -116,20 +115,17 @@ two signals derived from single input D
 - Inputs to the combinational logic block are outputs of flip-flops
   Outputs of the block are inputs to the flip-flops
 - Every clock cycle the new $Y_i$ values are transferred to $y_i$
-```ad-info
-collapse: none
-flip-flops consitute a feedback path from the output to the input of the combinational block introducing a delay of one clock period
-```
+
+> [!info]+
+> flip-flops consitute a feedback path from the output to the input of the combinational block introducing a delay of one clock period
 ## Synthesis of Finit State Machines
-```ad-info
-title: Design process of synchronous sequentail circuits
-1. Develop an appropriate state diagram or stable table
-2. Determine the number of flip-flops needed, and choose a suitable type fo flip-flop
-3. Determine the values to be stored in these flip-flops for each state in the state diagram. This is referred to as state assignemnt
-4. Develop the state-assigned state table
-5. Derive the next-state logic expressions needed to control the inputs of the flip-flops. Also, derive the expresisons for the outputs of the circuit.
-6. Use the derived expressions to implement the circuit.
-```
+> [!info] Design process of synchronous sequentail circuits
+> 1. Develop an appropriate state diagram or stable table
+> 2. Determine the number of flip-flops needed, and choose a suitable type fo flip-flop
+> 3. Determine the values to be stored in these flip-flops for each state in the state diagram. This is referred to as state assignemnt
+> 4. Develop the state-assigned state table
+> 5. Derive the next-state logic expressions needed to control the inputs of the flip-flops. Also, derive the expresisons for the outputs of the circuit.
+> 6. Use the derived expressions to implement the circuit.
 
 ---
 References:

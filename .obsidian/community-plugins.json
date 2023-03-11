@@ -12,5 +12,7 @@
   "obsidian-pandoc",
   "dataview",
   "obsidian-minimal-settings",
-  "obsidian-git"
+  "obsidian-git",
+  "settings-search",
+  "obsidian-banners"
 ]

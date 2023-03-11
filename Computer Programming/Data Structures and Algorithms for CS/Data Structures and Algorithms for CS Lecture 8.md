@@ -4,11 +4,10 @@ Created: 2022-12-01 12:39:35
 ---
 (Links:: [[Data Structures and Algorithms for CS]])
 # Radix sort
-```ad-definition
-collapse: none
-Radix sort avoids comparison by creating and distributing elements into buckets according to their radix.
-For elements with more than one significant digit, this bucketing process is repeated for each digit, while preserving the ordering of the prior step, until all digits have been considered.
-```
+> [!definition]+
+> Radix sort avoids comparison by creating and distributing elements into buckets according to their radix.
+> For elements with more than one significant digit, this bucketing process is repeated for each digit, while preserving the ordering of the prior step, until all digits have been considered.
+
 - sorting numbers considered as tuples
 - number of columns: (fixed) amount of digits used
 - number of places: 10 for decimal numbers
@@ -61,10 +60,9 @@ Bucket-sort(A)
 - **delete an element from a doubly linked list**: rearrange the pointers of the elements before and after -> $O(1)$ for element x
   If we are given the key and first have to search for the element x with the key: $\Theta(n)$
 ## Sentinels
-```ad-definition
-collapse: none
-A dummy object that allows us to simplify boundary conditions
-```
+> [!definition]+
+> A dummy object that allows us to simplify boundary conditions
+
 - represents `NIL` but has all attributes of other objects in the list
 - regular doubly linked list turns into a **circular, doubly linked list with a sentinel** (sentinel lies between head and tail)
 

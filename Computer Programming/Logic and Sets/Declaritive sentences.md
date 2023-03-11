@@ -3,17 +3,13 @@ Tags:
 Created: 2022-11-02 23:33:44
 ---
 (Links:: [[Logic and Sets]])
-```ad-summary
-title: propositional logic
-collapse: none
-A language based on *propositions*, or *declarative sentences* which can argue as being true or false.
-```
-```ad-example
-collapse: none
-The sum of the numbers 3 and 5 equals 8.
-Jane reacted violenty to Jack's accusations.
-Every even natural number > 2 is the sum of two prime numbers.
-```
+> [!summary]+ propositional logic
+> A language based on *propositions*, or *declarative sentences* which can argue as being true or false.
+
+> [!example]+
+> The sum of the numbers 3 and 5 equals 8.
+> Jane reacted violenty to Jack's accusations.
+> Every even natural number > 2 is the sum of two prime numbers.
 
 # Propositional logic
 $\lnot$: the *negation* of $p$ is denoted by $\lnot p$ and expresses 'I did **not** win the lottery last week,' or equivalently 'It is **not** true that I won the lottery last week.'

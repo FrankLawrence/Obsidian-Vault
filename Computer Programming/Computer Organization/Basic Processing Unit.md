@@ -16,13 +16,12 @@ Created: 2023-03-06 19:07:04
 	- $PC \leftarrow [PC]+4$
 		- increment PC to point to next instruction (for 32-bit computer)
 	- carry out operation specified by instruction in the IR
- ```ad-summary
-title: Operations specified by an instruction
- - Read the contents of a given memory location and load them into a processor register
- - Read the data from one or more processor registers
- - Perform an arithmetic or logic operation and place the result into a processor register
-- Store data from a processor register into a given memory location
- ```
+ 
+ > [!summary] Operations specified by an instruction
+ > - Read the contents of a given memory location and load them into a processor register
+ > - Read the data from one or more processor registers
+ > - Perform an arithmetic or logic operation and place the result into a processor register
+ > - Store data from a processor register into a given memory location
 - [[Main hardware components of a processor]]
 - **A five-step sequence of actions to fetch and execute an instruction**
 	1. Fetch an instruction and increment the program counter
@@ -154,6 +153,7 @@ title: Operations specified by an instruction
   -> $$\text{PC}_{\text{enabled}}=\text{T1}\times\text{MFC}+\text{T3}\times\text{BR}$$
   -> [[Control signals for the instruction address generator.png]]
 # Cisc-Style Processors
+
 
 ---
 References:

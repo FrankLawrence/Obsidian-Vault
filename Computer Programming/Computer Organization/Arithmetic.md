@@ -22,11 +22,10 @@ Created: 2023-02-08 16:47:35
 # Design of Fast Adders
 - signal delay through a network of logic gates depends on the integrated circuit electronic technology used in fabricating the network and on the number of gates in the paths from inputs to outputs
 - delay through any combinatioanl circuit is the longest signal propagation path through the circuit
-```ad-question
-title: How do we reduce delay in adders?
--> use fastest possible electronic technology
-->> Use logic gate network carry-lookahead network
-```
+
+> [!question] How do we reduce delay in adders?
+> -> use fastest possible electronic technology
+> ->> Use logic gate network carry-lookahead network
 ## Carry-Lookahead Addition
 $$\begin{align}
 c_{i+1} & =x_iy_i+x_ic_i+y_ic_i \\
@@ -159,11 +158,11 @@ $$\texttt{where} \quad G_i = x_iy_i \qquad \texttt{and} \qquad P_i =x_i+y_i$$
   Ex: 32 summands requires four levels for 4-2 reducers and eight levels for 3-2 reducers
 - use of sum bit $s$, a carry bit $c$ and second carry bit $c_{out}$
 - each 4-2 reducer sends $c_{out}$ laterally to the 4-2 in next high-weighted bit position on same reduction level -> fifth input $c_{in}$
-```ad-summary
-- three outputs $s$, $c$, and $c_{out}$ represent the arithmetic sum of the five inputs: $$w+x+y+z+c_{in}=s+2(c+c_{out})$$
-- Output $s$ is the usual sum variable: $XOR$ function of the five input variables
-- lateral carry $c_{out}$ independent of $c_{in}$; function of four input variables $w$, $x$, $y$ and $z$
-```
+
+> [!summary]
+> - three outputs $s$, $c$, and $c_{out}$ represent the arithmetic sum of the five inputs: $$w+x+y+z+c_{in}=s+2(c+c_{out})$$
+> - Output $s$ is the usual sum variable: $XOR$ function of the five input variables
+> - lateral carry $c_{out}$ independent of $c_{in}$; function of four input variables $w$, $x$, $y$ and $z$
 - [[4-2 reducer block.png]]
 - [[4-2 reducer truth table]] -> logic gate network can be derived from the table
 # Floating-Point Numbers and Operations
@@ -175,28 +174,21 @@ $$\texttt{where} \quad G_i = x_iy_i \qquad \texttt{and} \qquad P_i =x_i+y_i$$
 	- $E' = 0$ and $M \neq 0$ -> *denormal* numbers ($\pm0.M\times 2^{-126}$) -> smaller than smallest number (*gradual underflow*)
 	- $E' = 255$ and $M \neq 0$ -> *Not a Number* (NaN)
 ## Arithmetic Operations on Floating-Point Numbers
-```ad-note
-title: Add/Subtract Rule
-collapse: none
-1. Choose the number with the smaller exponent and shift it's mantissa right a number of steps equal to the difference in exponents.
-2. Set the exponent of the result equal to the larger exponent.
-3. Perform addition/subtraction on the mantissas and determine the sign of the result
-4. Normalize the resulting value, if necessary
-```
-```ad-note
-title: Multiply Rule
-collapse: none
-1. Add the exponents and subtract 127 to maintain the excess-127 representation
-2. Multiply the mantissas and determine the sign of the result
-3. Normalize the resulting value, if necessary
-```
-```ad-note
-title: Divide Rule
-collapse: none
-1. Subtract the exponents and add 127 to maintain the excess-127 representation
-2. Divide the mantissas and determine the sign of the result
-3. Normalize the resulting value, if necessary
-```
+> [!note]+ Add/Subtract Rule
+> 1. Choose the number with the smaller exponent and shift it's mantissa right a number of steps equal to the difference in exponents.
+> 2. Set the exponent of the result equal to the larger exponent.
+> 3. Perform addition/subtraction on the mantissas and determine the sign of the result
+> 4. Normalize the resulting value, if necessary
+
+> [!note]+ Multiply Rule
+> 1. Add the exponents and subtract 127 to maintain the excess-127 representation
+> 2. Multiply the mantissas and determine the sign of the result
+> 3. Normalize the resulting value, if necessary
+
+> [!note]+ Divide Rule
+> 1. Subtract the exponents and add 127 to maintain the excess-127 representation
+> 2. Divide the mantissas and determine the sign of the result
+> 3. Normalize the resulting value, if necessary
 ## Guard Bits and Truncation
 - *von Neumann rounding*
 	- all 0s are dropped

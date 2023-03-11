@@ -16,6 +16,7 @@ Created: 2022-09-06 09:35
 ## P4
 - [[Computer Organization]]
 - [[Information Management for CS]]
-- [[Security and Safety Engineering]]
+## P5
+## P6
 ___
 References:

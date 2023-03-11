@@ -2,13 +2,12 @@
 Tags: MOC course
 ---
 (Links:: [[Uni Courses🎓]])
-## Notes and Ideas
+# Notes and Ideas
 - [[Information Management for CS Outline]]
 - [[Information Management for CS Structure]]
 - [[Information Management Study Instructions]]
-- [[Information Management for CS Assessment]]
-## Assignments
-## Topics
+# Assignments
+# Topics
 - [[Information Systems]]
 - [[Strategy and Information Systems]]
 - [[Electronic Commerce and business]]
@@ -16,12 +15,12 @@ Tags: MOC course
 - [[Information systems development - an overview]]
 - [[The systems project - early stages]]
 - [[Detailed design, implementation and review]]
-## Lectures
+# Lectures
 - [[Information Management Lecture 1|Lecture 1]]
-## Extras
-### Tips
-### Emails and Resources
-### Important Dates
+# Extras
+## Tips
+## Emails and Resources
+## Important Dates
 - 2022-03-02: Quiz
 - 2022-03-27: Final Exam
 ___

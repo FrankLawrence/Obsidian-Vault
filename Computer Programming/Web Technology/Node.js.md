@@ -40,21 +40,22 @@ Created: 2023-01-26 11:54:37
 # Getting started with Node.js
 ## Introduction
 - **Node.js** is a JavaScript runtime environment used to run server-side web applications
-````ad-example
-```javascript
-const http = require("http");
 
-http.createServer(function(request, response){
-	reponse.writeHead(200, {"Content-Type": "text/html"});
-	response.write("<h1>Hello, Node,js!</h1>");
-	response.end();
-}).listen(3000);
-```
-- **http module** allows to create simple web server
-- `createServer()` method creates server to recieve and sent HTTP
-- `listen()` starts server listening for HTTP request on a port
-- imported with `require()`
-````
+> [!example] 
+> ```javascript
+> const http = require("http");
+> 
+> http.createServer(function(request, response){
+> 	reponse.writeHead(200, {"Content-Type": "text/html"});
+> 	response.write("<h1>Hello, Node,js!</h1>");
+> 	response.end();
+> }).listen(3000);
+> ```
+> - **http module** allows to create simple web server
+> - `createServer()` method creates server to recieve and sent HTTP
+> - `listen()` starts server listening for HTTP request on a port
+> - imported with `require()`
+
 - **package** is a directory containing one or more modules and a package.json file
 	- package.json contains JSON that lists the package's name, version, license, dependencies and other pagkage metadata
 ## package.json and package-lock.json files
@@ -64,40 +65,41 @@ http.createServer(function(request, response){
 - [[Semantic versioning]]
 # Express
 - allows developers to create web servers with less code
-````ad-example
-```javascript
-const express = require("express");
-const app = express();
 
-//serve static file from the public dir
-app.use(express.static("public"))
-
-//Start the web server
-app.listen(3000, function() {
-	console.log("Listening on port 3000...");
-})
-```
-````
+> [!example] 
+> ```javascript
+> const express = require("express");
+> const app = express();
+> 
+> //serve static file from the public dir
+> app.use(express.static("public"))
+> 
+> //Start the web server
+> app.listen(3000, function() {
+> 	console.log("Listening on port 3000...");
+> })
+> ```
 ## Routes
 - **Express route** is a specific URL path and an HTTP request method to which a callback function is assigned
 	- callback function has *request* and *response* parameters which represent the HTTP request and response
-````ad-definition
-```javascript
-app.method(path, callback)
-```
-- `app`: express instance
-- `method`: HTTP request method (get, post, etc.)
-- `path`: URL path
-- `callback`: Callback function executed when the route matches
-- callback function uses `res.send()` to send an HTTP response
-````
-````ad-example
-```javascript
-app.get("/hello", function(req, res){
-	res.send("hello");
-});
-```
-````
+
+> [!definition] 
+> ```javascript
+> app.method(path, callback)
+> ```
+> - `app`: express instance
+> - `method`: HTTP request method (get, post, etc.)
+> - `path`: URL path
+> - `callback`: Callback function executed when the route matches
+> - callback function uses `res.send()` to send an HTTP response
+
+> [!example] 
+> ```javascript
+> app.get("/hello", function(req, res){
+> 	res.send("hello");
+> });
+> ```
+
 ## Middleware
 - **middleware function**: examines or modifies the `request` and `response` objects
   parameters:
@@ -105,41 +107,43 @@ app.get("/hello", function(req, res){
 	- `res`
 	- `next`
 	- express method `use()` enables a middleware function to execute
-````ad-example
-```javascript
-const express = require("express");
-const app = express();
+ 
+ > [!example] 
+> ```javascript
+> const express = require("express");
+> const app = express();
+> 
+> const logRequest = function(req, res, next) {
+> 	console.log('Request: ${req.method}');
+> 	next();
+> };
+> app.use(logRequest);
+> 
+> app.get("/hello", function(req, res) {
+>    res.send("<h1>Hello, Express!</h1>");
+> });
+> 
+> app.listen(3000, function() {
+>    console.log("Listening on port 3000...");
+> });
+> ```
 
-const logRequest = function(req, res, next) {
-	console.log('Request: ${req.method}');
-	next();
-};
-app.use(logRequest);
-
-app.get("/hello", function(req, res) {
-   res.send("<h1>Hello, Express!</h1>");
-});
-
-app.listen(3000, function() {
-   console.log("Listening on port 3000...");
-});
-```
-````
 [[Pupular middleware for express]]
 # Express request data
 ## Query string parameters
 - query string parameters (values after the "?") automatically stored as values in req.query object
-````ad-example
-`http://localhost:3000/hello?name=Frank&age=17`
-```javascript
-app.get("/hello", function(req, res) {
-	const html =
-		'<h1>Hello, ${req.query.name}!<h1>
-		<p>You are ${req.query.age} years old.</p>';
-	res.send(html);
-});
-```
-````
+
+> [!example] 
+> `http://localhost:3000/hello?name=Frank&age=17`
+> ```javascript
+> app.get("/hello", function(req, res) {
+> 	const html =
+> 		'<h1>Hello, ${req.query.name}!<h1>
+> 		<p>You are ${req.query.age} years old.</p>';
+> 	res.send(html);
+> });
+> ```
+
 ## Posting form data
 - form's data is URL-encoded and sent in body of HTTP request
 - `express.urlencoded()` parses URL-encoded data in request data and add parsed values to `req.body` object
@@ -155,15 +159,16 @@ app.post("/hello", function(req, res) {
 - string near or at the end of the URL path that specifies a data value
 - defined in route path with a colon before parameter name
 - attached to `req.params` object
-````ad-example
-`http://localhost:3000/users/jblack`
-```javascript
-app.get("/users/:username", function(req, res) {
-	const username = req.params.username;
-	res.send(username);
-})
-```
-````
+
+> [!example] 
+> `http://localhost:3000/users/jblack`
+> ```javascript
+> app.get("/users/:username", function(req, res) {
+> 	const username = req.params.username;
+> 	res.send(username);
+> })
+> ```
+
 ## Route parameter middleware
 - `param()` method defines parameter middleware that executes before the route is called
 - fourth parameter contains the value assigned to the route parameter
@@ -220,30 +225,30 @@ WHERE stuId = 456;
 ## Express router
 - create modular route callbacks for the web API endpoints with `express.Router` class
 - endpoint: URL for a web API used to access ar resource
-````ad-example
-title: Express router sends JSON-encoded song to web browser
-```javascript
-const express = require("express");
 
-const app = express()
-const router = express.Router();
+> [!example] Express router sends JSON-encoded song to web browser
+> ```javascript
+> const express = require("express");
+> 
+> const app = express()
+> const router = express.Router();
+> 
+> //GET request returns JSON-encoded song
+> router.get("/song", function(req, res) {
+> 	const song = {
+> 		title: "Uptown Funk",
+> 		artist: "Bruno Mars",
+> 		populairty: 10,
+> 		releaseDate: new Date(2014, 10, 10),
+> 		genre: ["funk", "boogie"]
+> 	};
+> });
+> 
+> //All requests to API begin with /api
+> app.use("/api", router);
+> app.listen(3000);
+> ```
 
-//GET request returns JSON-encoded song
-router.get("/song", function(req, res) {
-	const song = {
-		title: "Uptown Funk",
-		artist: "Bruno Mars",
-		populairty: 10,
-		releaseDate: new Date(2014, 10, 10),
-		genre: ["funk", "boogie"]
-	};
-});
-
-//All requests to API begin with /api
-app.use("/api", router);
-app.listen(3000);
-```
-````
 # Third-party web APIs (Node)
 
 ---

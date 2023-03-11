@@ -61,10 +61,9 @@ Let us assume now that the hydrogen gas is not at a high enough temperature to e
 You can argue that atoms absorbing photons and giving rise to absorption spectrum will eventually re-emit photons of the same frequencies. Thus, it should cancel out the effect of absorption and we could not observe any absorption spectrum! The question, therefore, is: **How to explain the observed absorption spectrum?** The re-emitted photons are repeatedy absorbed by the atoms of the cool gas before they finally escape it. These re-emitted photons escaping from the gas travel along different directions. Thus, the photons of certain frequencies, which were originally coming towards the spectroscope as a part of white light, are scattered by the atome of the cool gas. As a result, the intensities of the light corresponing to these frequecies are very low and we observe an absorption spectrum
 
 Thus when white light passes through a cool hydrogen gas, we obtain a series of dark lines and such a spectrum is called the **absorption specturm**
-```ad-important
-collapse: none
-Do remember that for any element, the dark lines of absorption spectrum occur at exactly the same frequencies (or wavelengths) where we observe lines in its emission spectrum.
-```
+
+> [!important]+ 
+> Do remember that for any element, the dark lines of absorption spectrum occur at exactly the same frequencies (or wavelengths) where we observe lines in its emission spectrum.
 
 ## Übersicht über die Spektralklassen mit den wichtigsten Eigenschaften
 | Spektralklasse | Oberflächentemperatur | Typische Vertreter        | Farbeindruck  | Charakteristik               |

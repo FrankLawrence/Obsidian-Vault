@@ -108,11 +108,10 @@ ___
 
 # Huffman codes
 - character that occurs more frequently has a shorter encoding
-```ad-definition
-title: Prefix codes
-collapse: none
-No codeword is the prefix of another codeword
-```
+
+> [!definition]+ Prefix codes
+> No codeword is the prefix of another codeword
+
 - binary tree where left is 0, right is 1, leaves are codes
 ```cpp
 Algorithm HuffmanCode(C):

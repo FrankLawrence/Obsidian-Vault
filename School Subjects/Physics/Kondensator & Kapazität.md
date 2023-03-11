@@ -9,29 +9,19 @@ ___
 - Der Ladungsbetrag $Q$, der sich auf dem Kondensator befindet, ist proportional zur Spannung, die über dem Kondensator anliegt: $Q=C\cdot U$. Den Proportionalitätfaktor $C$ bezeichnet man als Kapazität des Kondensators.
 
 ## Kapazität
-```ad-Formula
-title: Kapazität eins Kondensators
-collapse: none
-$$C=\frac QU;\;\;[C]={\rm{1F \;(Farad)}}$$
-```
-```ad-Formula
-title: Kapazität des Plattenkondensators
-collapse: none
-$$C = {\varepsilon _0} \cdot {\varepsilon _r} \cdot \frac{A}{d}$$
-```
+> [!Formula] Kapazität eins Kondensators
+> $$C=\frac QU;\;\;[C]={\rm{1F \;(Farad)}}$$
+
+> [!Formula] Kapazität des Plattenkondensators
+> $$C = {\varepsilon _0} \cdot {\varepsilon _r} \cdot \frac{A}{d}$$
 
 ## Elektrische Energie im geladenen Kondensator
-```ad-Formula
-title:
-collapse: none
-$${E_{{\rm{el}}}} = \frac{1}{2} \cdot Q \cdot U = \frac{1}{2} \cdot C \cdot {U^2} = \frac{1}{2} \cdot \frac{{{Q^2}}}{C}$$
-```
-```ad-Formula
-title:
-collapse: none
-Liegt am Kondensator die Spannung $U$ an, dann hängt diese Spannung mit der elektrischen Feldstärke zwischen den Platten zusammen
-$$U=\vec E\cdot d$$
-```
+> [!Formula]
+> $${E_{{\rm{el}}}} = \frac{1}{2} \cdot Q \cdot U = \frac{1}{2} \cdot C \cdot {U^2} = \frac{1}{2} \cdot \frac{{{Q^2}}}{C}$$
+
+> [!Formula]
+> Liegt am Kondensator die Spannung $U$ an, dann hängt diese Spannung mit der elektrischen Feldstärke zwischen den Platten zusammen
+> $$U=\vec E\cdot d$$
 
 ## Einschalten von Kondensatoren
 ![|400](https://www.leifiphysik.de/sites/default/files/medien/Auf_und_Entladen_von_Kondensatoren_Aufladen_Q.svg)

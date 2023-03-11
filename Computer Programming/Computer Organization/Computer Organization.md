@@ -3,16 +3,16 @@ Alias: CO
 Tags: MOC course
 ---
 (Links:: [[Uni Courses🎓]])
-## Notes and Ideas
+# Notes and Ideas
 - [[Computer Organization Outline]]
 - [[Computer Organization Structure]]
 - [[Computer Organization Assessment]]
 - [[Reading Guide]]
 - [[Self-Study Overview]]
-## Assignments
+# Assignments
 - [[Appendix A]]
 - [[Chapter 9]]
-## Topics
+# Topics
 - [[Basic Structure of Computers]]
 - [[Logic Circuits]]
 - [[Arithmetic]]
@@ -26,11 +26,11 @@ Tags: MOC course
 - [[Assembler Directives]]
 - [[Instruction set reference]]
 - [[Reference documentation]]
-## Lectures
-## Extras
-### Tips
-### Emails and Resources
-### Important Dates
+# Lectures
+# Extras
+## Tips
+## Emails and Resources
+## Important Dates
 - Mon Feb 27 - 18:45-19:45
 - Wed Mar 29 - 18:45-21:00
 

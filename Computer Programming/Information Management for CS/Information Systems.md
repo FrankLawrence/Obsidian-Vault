@@ -3,23 +3,19 @@ Tags:
 Created: 2023-02-21 17:56:41
 ---
 (Links:: [[Information Management for CS]])
-```ad-question
-collapse: none
-- understand how the role of information systems has changed over the past decades 
-- understand of which importance information systems are today.
-```
+> [!question]
+> - understand how the role of information systems has changed over the past decades 
+> - understand of which importance information systems are today.
 # Introduction
 - decline in maufacturing and rise of employment in service and information sectors
 	- development of faster, cheaper and more flexible technology for information processing and information transmission -> information sector grows
 	- complex and volatile market forces means that business requires more targeted and more current information to gain a competitive advantage and survive
 ## Data and Information
-```ad-definition
-title: Information
-collapse: none
-- Information is data processed for a purpose
-	- it helps aid some kind of decision
-- decisions are taken by decision takers who decide based on organizational objectives, background information and personal interests
-```
+> [!definition]+ Information
+> - Information is data processed for a purpose
+> 	- it helps aid some kind of decision
+> - decisions are taken by decision takers who decide based on organizational objectives, background information and personal interests
+
 - transaction data can be recorded and undergo some sort of processing so the results are communicated for a particular purpose
 - Ex: buying product and saving transaction data
 	- information derived from data is used for making decisions (like checking if credit-limit is exceeded), of which planning decisions and control decisions are the most important
@@ -87,11 +83,10 @@ collapse: none
 - [[Structure and managerial activity in decision making]]
 # Management information systems
 - stored transaction data could provide management with useful information
-```ad-definition
-title: Management information system
-collapse: none
-Any system that provides information for the management activities carried out within an organization
-```
+
+> [!definition]+ Management information system
+> Any system that provides information for the management activities carried out within an organization
+
 - Reasons for increased growth in management information systems
 	- *Cost*: cost for generating information based on transaction data is low
 	- *Speed*: information can be generated quickly; information provided is up to date and decisions should be more effective
@@ -125,34 +120,31 @@ Any system that provides information for the management activities carried out w
 - **Format:** presentation of information to the user (graphical, charts, color); presentation adjusted to cognitive style of the recipient
 - **Interactive nature:** further information can be called up only if shown to be neccessary by current information; information can deluge decision taker and reduce effectiveness of decision process
 - **Control:** information can be of value to competitors -> secure
-```ad-note
-title: Dos and don'ts in MIS design
-collapse: none
-- less information should be provided rather than more -> relevant information might get ignored 
-- don't ask the decision maker what information is needed, make an analysis of the decision
-- management accountant needs not only the information but also knowledge of the way it is produced
-```
-```ad-note
-title: Approaches to management information system design
-collapse: none
-1. **By-product:** develop a computerized system to deal with all the paperwork
-	- Payroll, accoutns receivable and accounts payable, stock control, billing
-	- information produced consists of reports from which those that need information find it impossible to disentangle what is relevant
-2. **Null:** activities undertaken are seen as dynamic and everchaning -> production for formal information by an MIS according to static requirements is inappropriate
-	- lower management is clearly defined -> MIS serves correct information
-	- interactive systems makes production of information according to dynamically changing requirement much easier
- 3. **Key variable:** certain attributes of an organization are crucial for decision making
-	 - MIS is designed to provide reports on the values of key variables given 
-	 - *exception reporting:* report iff value of variable lies outside some predetermined 'normal' range
-	 - it's effective if information is provided selectively
-4. **Total study:** comparison between the information requirements of management and the information supply of the current management information system 
-	- interview managers for key decisions, objectives and information needs -> gain overall understanding of the organization's information needs and identify just where the current system is falling down
-	- plan is formulated
-	- can identify shortcomings
-	- expensive manpower and alot of data to be analysed
-	- bias may occur
-5. **Critical success factor:** certain goals and specific factors curcial in achieving goals for an organization
-```
+
+> [!note]+ Dos and don'ts in MIS design
+> - less information should be provided rather than more -> relevant information might get ignored 
+> - don't ask the decision maker what information is needed, make an analysis of the decision
+> - management accountant needs not only the information but also knowledge of the way it is produced
+
+> [!note]+ Approaches to management information system design
+> 1. **By-product:** develop a computerized system to deal with all the paperwork
+> 	- Payroll, accoutns receivable and accounts payable, stock control, billing
+> 	- information produced consists of reports from which those that need information find it impossible to disentangle what is relevant
+> 2. **Null:** activities undertaken are seen as dynamic and everchaning -> production for formal information by an MIS according to static requirements is inappropriate
+> 	- lower management is clearly defined -> MIS serves correct information
+> 	- interactive systems makes production of information according to dynamically changing requirement much easier
+>  3. **Key variable:** certain attributes of an organization are crucial for decision making
+> 	 - MIS is designed to provide reports on the values of key variables given 
+> 	 - *exception reporting:* report iff value of variable lies outside some predetermined 'normal' range
+> 	 - it's effective if information is provided selectively
+> 4. **Total study:** comparison between the information requirements of management and the information supply of the current management information system 
+> 	- interview managers for key decisions, objectives and information needs -> gain overall understanding of the organization's information needs and identify just where the current system is falling down
+> 	- plan is formulated
+> 	- can identify shortcomings
+> 	- expensive manpower and alot of data to be analysed
+> 	- bias may occur
+> 5. **Critical success factor:** certain goals and specific factors curcial in achieving goals for an organization
+
 - critical success factors (local competitors, geographical position, history of company) show where good management information is needed -> information subsystems designed to serve these critical factors
 - CSF: active approach to the design of management information systems rahter than the passive acceptance of reported information based on tradition and collected historical data
 - CSF is information rather than data-led

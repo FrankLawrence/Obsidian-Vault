@@ -3,12 +3,10 @@ Tags:
 Created: 2023-02-23 12:16:40
 ---
 (Links:: [[Information Management for CS]])
-```ad-question
-collapse: none
-- [[Information systems development - an overview#Reasons for project initiation|When and why do organizations start system development projects?]] (Also be able to relate the content of the book to the “Make or buy”-discussion from the lecture)
-- [[Information systems development - an overview#The participants in analysis and design|What are the participants in system development projects and which challenges occur due to this interaction?]]
-- [[Stages of the life cycle|What are the stages of the systems life cycle?]]
-```
+> [!question] 
+> - [[Information systems development - an overview#Reasons for project initiation|When and why do organizations start system development projects?]] (Also be able to relate the content of the book to the “Make or buy”-discussion from the lecture)
+> - [[Information systems development - an overview#The participants in analysis and design|What are the participants in system development projects and which challenges occur due to this interaction?]]
+> - [[Stages of the life cycle|What are the stages of the systems life cycle?]]
 # The need for systems analysis and design
 - it's easy to implement computer-assisted support on small business (needs are clearly definded) -> unsatisfactory for developemnt of complex system
 - the larger the organization the more complex and individual are the data-processing and information needs
@@ -58,12 +56,12 @@ collapse: none
 	- expert knowledge of computers
 	- *frames requirements in terms that programmers can understand*
 	- good communicator who can *think in terms of the user's point of view as well as that of the programmer*
- ```ad-example
- - the client (user) state his or her understanding of what the building should look like and what functions is should perform
- - the architect (analyst) takes the intentions and provides a general sketch of the building that will satisfy them (logical model of the intended system)
- - after agreement on sketch, detailed blueprint of design (detaild program specification) is designed for builders (programmers) to work with
- ```
- - responsibilites of analyst:
+
+> [!example] 
+> - the client (user) state his or her understanding of what the building should look like and what functions is should perform
+> - the architect (analyst) takes the intentions and provides a general sketch of the building that will satisfy them (logical model of the intended system)
+> - after agreement on sketch, detailed blueprint of design (detaild program specification) is designed for builders (programmers) to work with
+- responsibilites of analyst:
 	 - investigating and analysing the existing system ast to its information use and requirements
 	- judges whether it is feasible to develop a computer system for the area
 	- designs new system, specifying programs, hardware, data, structures and control

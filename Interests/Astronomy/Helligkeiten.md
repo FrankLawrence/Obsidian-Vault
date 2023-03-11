@@ -4,10 +4,9 @@ Created: 2022-11-30 18:38:02
 ---
 (Links:: [[Astronomy]])
 # Scheinbare Helligkeit $m$
-```ad-definition
-collapse: none
-Helligkeit mit der die Sterne von der Erde aus erscheinen
-```
+> [!definition] 
+> Helligkeit mit der die Sterne von der Erde aus erscheinen
+
 ![[Helligkeiten 2022-11-30 18.43.34.excalidraw]]
 - Einheit **Magnitude** $m$
 - rückwärts laufender Skala
@@ -32,10 +31,8 @@ $$\Rightarrow \frac{I_1}{I_2}=10^{\frac{m_2-m_1}{2,5}}$$
 Festlegung eines **absoluten Skala**: $$\text{Wega},\; m_{\text{Wega}}=0$$ $$m_{\text{Stern}}=m_{\text{Wega}}-2,5\log\left(\frac{I_{Sonne}}{I_{Wega}}\right)\Rightarrow m_*=0-2,5\log\left(\frac{I_{*}}{I_{Wega}}\right)$$
 # Absolute Helligkeiten
 **Idee: Ordne alle Sterne in der gleichen Entfernung ($10\,pc=32,3\,LJ$) an**
-```ad-important
-collapse: none
-absolute Helligkeit $M$ = scheinbarer Helligkeit $m$ 10pc-Entfernung
-```
+> [!important]+
+> absolute Helligkeit $M$ = scheinbarer Helligkeit $m$ 10pc-Entfernung
 ## Mathematische Beschreibung der absoluten Helligkeit $M$
 1. quadrat. Abstandsgesetz: $I=\frac{L}{4\pi r^2}$
    Leuchtkraft $L$ (gesamte Strahlungsleistung)

@@ -4,16 +4,12 @@ Created: 2022-12-16 16:53:05
 ---
 (Links:: [[Data Structures and Algorithms for CS]])
 # AVL -trees
-```ad-definition
-title: Ordering invariant
-collapse: none
-At any node with key k in a binary search tree, all keys of the elements in the left subtree are strictly less than k, while all keys of the elements in the right subtree are strictly greater than k.
-```
-```ad-definition
-title: Height invariant
-collapse: none
-At any node in the tree, the heights of the left and right subtrees differs by at most 1.
-```
+> [!definition]+ Ordering invariant
+> At any node with key k in a binary search tree, all keys of the elements in the left subtree are strictly less than k, while all keys of the elements in the right subtree are strictly greater than k.
+
+> [!definition]+ Height invariant
+> At any node in the tree, the heights of the left and right subtrees differs by at most 1.
+
 - height of a node: maximal length of a path to a leaf
 - height of a tree is height of the root is maximal lenght of a path to a leaf
 - height of AVL-tree with $n$ nodes in $O(\log n)$

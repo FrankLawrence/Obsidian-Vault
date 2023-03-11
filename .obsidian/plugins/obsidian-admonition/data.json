@@ -5,24 +5,26 @@
       "color": "214, 0, 0",
       "icon": {
         "type": "obsidian",
-        "name": "FunctionSquare"
+        "name": "PlusSquare"
       },
       "command": false,
       "title": "Formula",
       "injectColor": true,
-      "noTitle": false
+      "noTitle": false,
+      "copy": true
     },
     "terminal": {
       "type": "terminal",
       "color": "255, 115, 0",
       "icon": {
-        "type": "obsidian",
-        "name": "TerminalSquare"
+        "name": "terminal",
+        "type": "font-awesome"
       },
       "command": false,
       "title": "Terminal-Command",
       "injectColor": true,
-      "noTitle": true
+      "noTitle": true,
+      "copy": true
     },
     "definition": {
       "type": "definition",

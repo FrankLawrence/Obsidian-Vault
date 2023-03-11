@@ -3,26 +3,22 @@ Tags: lecture
 Created: 2022-11-01 15:55:07
 ---
 (Links:: [[Data Structures and Algorithms for CS]])
-```ad-summary
-title:Algorithms
-collapse: none
-- An algorithm is an unambiguous description of how to tranform an input to an output
-- bake a cake, knit a sweater, sort a sequence
-- An algoirthm is a tool for solving a computational problem
-- Solve the sorting problem, decide membership of a set
-- We will see many examples of algorithms
-- Having seen many examples helps us to define our own algorithms
-```
-```ad-summary
-title: Data structures
-collapse: none
-- A data structure is a way to store and organize data
-- bookshelves, array, list, stack, queue
-- In many cases we wish to query and to update
-- we aim to understand the strengths and limitations
-- We will see a few data structures
-- We will use the array starting at index 1
-```
+> [!summary]+ Algorithms
+> - An algorithm is an unambiguous description of how to tranform an input to an output
+> - bake a cake, knit a sweater, sort a sequence
+> - An algoirthm is a tool for solving a computational problem
+> - Solve the sorting problem, decide membership of a set
+> - We will see many examples of algorithms
+> - Having seen many examples helps us to define our own algorithms
+
+> [!summary]+ Data structures
+> - A data structure is a way to store and organize data
+> - bookshelves, array, list, stack, queue
+> - In many cases we wish to query and to update
+> - we aim to understand the strengths and limitations
+> - We will see a few data structures
+> - We will use the array starting at index 1
+
 ## Data stuructures andn algorithms context
 - some problems cannot be solved
   Halting problem

@@ -12,13 +12,13 @@ Created: 2023-02-02 17:17:47
 - how you answer and end call, what language you speak, etc.
 - designed for use both within *local area networks* and between networks
 - Communication protocol: how computers talk
-```ad-definition
-title: **IP address:**
-- 32-bit number (IPv4)
-- associated with at most one device (or "host") at a time 
-- written as four dot-separated bytes
-- Assigned by IANA (Internet Assigned Numbers Authority)
-```
+
+> [!definition] **IP address:**
+> - 32-bit number (IPv4)
+> - associated with at most one device (or "host") at a time 
+> - written as four dot-separated bytes
+> - Assigned by IANA (Internet Assigned Numbers Authority)
+
 - **IP** (1983)
 	- Transfer data packets from **source** to **destination** host
 	- IP source software create a packet representing the data
@@ -41,14 +41,13 @@ title: **IP address:**
 	- often uses UDP for communication
 	- labels separated by dots
 	- final label is *top-level domain*
-```ad-example
-title: Analogy to Telephone Network
-- IP ~ the telephone network
-- TCP ~ calling someone who answers, having a conversation, and hanging up
-- UDP ~ calling someone and leaving a message
-- DNS ~ directory assistance
+
+> [!example] Analogy to Telephone Network
+> - IP ~ the telephone network
+> - TCP ~ calling someone who answers, having a conversation, and hanging up
+> - UDP ~ calling someone and leaving a message
+> - DNS ~ directory assistance
  
-```
 - Higher-level Protocols
 	- TCP specifies how we initiate and terminate the phone call, but some other protocol specifies how we carry on the actual conversation
 	- SMTP (mail)

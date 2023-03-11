@@ -21,17 +21,14 @@ Algorithm insertionSort(A,n):
 # Time complexity
 It takes roughly equal to $c_1n^2$ to sort $n$ items, where $c_1$ is a constant that does not depend on $n$.
 # **Loop invariant**
-```ad-important
-title: definition
-collapse: none
-We state the properties of $A[1..j-1]$ formally as a **loop invariant**:
-> At the start of each iteration of the **for** loop of lines 1-8, the subarray $A[1..j-1]$ consists of the elements originally in $A[1..j-1]$, but in sorted order.
-```
+> [!definition] 
+> We state the properties of $A[1..j-1]$ formally as a **loop invariant**:
+> > At the start of each iteration of the **for** loop of lines 1-8, the subarray $A[1..j-1]$ consists of the elements originally in $A[1..j-1]$, but in sorted order.
+
 - We use loop invariants to help us understand why an algorithm is correct. We must use three things about loop invariants:
 	- **Initialization**: It is true prior to the first iteration of the loop
 	- **Maintenance**: If it is true before an iteration of the loop, it remains true before the next iteration.
 	- **Termination**: When the loop terminates, the invariant gives us a useful property that helps show that the algorithm is correct. 
-	
 ## Loop invariant for insertion sort
 - Initialization: When $j = 2$ (before the first iteration) the subarray $A[1..j-1]$ has one element which is the original element in $A[1]$ and it is sorted
   -> loop invariant holds prior to the first iteration

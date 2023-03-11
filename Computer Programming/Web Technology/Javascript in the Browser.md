@@ -150,18 +150,18 @@ ol.appendChild(li);
 - initialize a connection to a remote resource using `open()` method; `open()` takes two arguments: HTTP request type and URL for the resource
 - modify default HTTP request headers if needed with `setRequestHeader()`
 - send HTTP request via `send()`
-````ad-example
-title: Ajax request
-```javaScript
-function responseReceivedHandler() {
-	console.log("handling response: " + this.responseText);
-}
-let xhr = new XMLHttpRequest();
-xhr.addEventListener("load", responseReceivedHandler);
-xhr.open("GET", "http://www.example.org/example.html");
-xhr.send();
-```
-````
+
+> [!example] Ajax request
+> ```javaScript
+> function responseReceivedHandler() {
+> 	console.log("handling response: " + this.responseText);
+> }
+> let xhr = new XMLHttpRequest();
+> xhr.addEventListener("load", responseReceivedHandler);
+> xhr.open("GET", "http://www.example.org/example.html");
+> xhr.send();
+> ```
+
 ## XMLHttpRequest result handlers
 - **load** handler is called when exchange between browser and server has completed
 - **error** handler called when browser does not receive an appropriate response to a request
@@ -183,57 +183,57 @@ xhr.send();
 	- "json": the browser parses the entire response as a JSON object and sets `response` attribute to the JSON object
 	- "" or "text": browser leaves response unprocessed and the `reponse` attribute contains same value ar `responseText`
 	- "document": browser assumes response is an XML document, and `response` attribute contains same value as `responseXML`
-````ad-example
-title: Forecast
-```html
-<!DOCTYPE html>
-<html lang="en">
-<head>
-   <title>Weather Forecast</title>
-</head>
-<body>
-   <p>
-      <label for="zip">ZIP code:</label> 
-      <input type="text" id="zip" maxlength="5">
-      <button id="search">Search</button>      
-   </p>
-   <div id="forecast"></div>
-</body>
-</html>
-```
-```javascript
-function getForecast() {
-   let zipcode = document.getElementById("zip").value;
-   let xhr = new XMLHttpRequest();
-   xhr.addEventListener("load", responseReceivedHandler);   
-   xhr.open("GET", "https://wp.zybooks.com/weather.php?zip=" + zipcode);
-   xhr.responseType = "json"
-   xhr.send();
-}
 
-function responseReceivedHandler() {
-   if (this.status !== 200) {
-      alert("Error making HTTP request");  
-   }
-   let html = "";
-   if (this.response.success) {           
-      html += "<h1>Forecast</h1>";
-      html += "<ol>";
-      for (let day of this.response.forecast) {
-         html += `<li>${day.desc}: high is ${day.high}, low is ${day.low}</li>`;
-      }
-      html += "</ol>";
-   } 
-   else {
-      html = `<h1>Error: ${this.response.error}</h1>`;
-   }
+> [!example] Forecast
+> ```html
+> <!DOCTYPE html>
+> <html lang="en">
+> <head>
+>    <title>Weather Forecast</title>
+> </head>
+> <body>
+>    <p>
+>       <label for="zip">ZIP code:</label> 
+>       <input type="text" id="zip" maxlength="5">
+>       <button id="search">Search</button>      
+>    </p>
+>    <div id="forecast"></div>
+> </body>
+> </html>
+> ```
+> ```javascript
+> function getForecast() {
+>    let zipcode = document.getElementById("zip").value;
+>    let xhr = new XMLHttpRequest();
+>    xhr.addEventListener("load", responseReceivedHandler);   
+>    xhr.open("GET", "https://wp.zybooks.com/weather.php?zip=" + zipcode);
+>    xhr.responseType = "json"
+>    xhr.send();
+> }
+> 
+> function responseReceivedHandler() {
+>    if (this.status !== 200) {
+>       alert("Error making HTTP request");  
+>    }
+>    let html = "";
+>    if (this.response.success) {           
+>       html += "<h1>Forecast</h1>";
+>       html += "<ol>";
+>       for (let day of this.response.forecast) {
+>          html += `<li>${day.desc}: high is ${day.high}, low is ${day.low}</li>`;
+>       }
+>       html += "</ol>";
+>    } 
+>    else {
+>       html = `<h1>Error: ${this.response.error}</h1>`;
+>    }
+> 
+>    document.getElementById("forecast").innerHTML = html;
+> }
+> 
+> document.getElementById("search").addEventListener("click", getForecast);
+> ```
 
-   document.getElementById("forecast").innerHTML = html;
-}
-
-document.getElementById("search").addEventListener("click", getForecast);
-```
-````
 ## Monitoring uploads
 - XMLHttpRequest object's **upload** attribute is an object for monitoring the status of the request; progress handler typically used
 ```javascript
@@ -251,11 +251,10 @@ xhr.upload.addEventListener("progress", uploadProgressHandler);
 	- key identifies what application is using the web API
 	- limits number of requests in a time period
 	- developers must agree to restrictions placed by the third party
-```ad-definition
-collapse: none
-title: **RESTful web API**
-web API that is called with a URL that specifies API parameters and returns JSON or XML containing API data
-```
+
+> [!definition]+ RESTful web API
+> web API that is called with a URL that specifies API parameters and returns JSON or XML containing API data
+
 - [[Weather API]]
 ## Cross-origin requests
 - calling third-party web API's requires cross-origin HTTP request (since web API is not hosted on the local website's web server)
@@ -291,11 +290,9 @@ function responseReceivedHandler() {
 }
 ```
 # Promises
-```ad-definition
-title: Asynchronous function
-collapse: none
-A function that starts an operation and potentially returns before the operation completes
-```
+> [!definition]+ Asynchronous function
+> A function that starts an operation and potentially returns before the operation completes
+
 - **Promise object**: object representing the eventual completeion of the asynchronous operation
   Can be one of three states:
 	- *Pending*: asynchronous operation is still running
@@ -311,7 +308,6 @@ A function that starts an operation and potentially returns before the operation
 	 - function to be called if Promise is fulfilled
 	 - function to be called if Promise is rejected
 ## Promise fullfillment values and rejection reasons
-- 
 
 ---
 References:

@@ -1,0 +1,9 @@
+.callout[data-callout="formula"] {
+	--callout-color: 255, 0, 0;
+	--callout-icon: curly-braces;
+}
+
+.callout[data-callout="terminal"] {
+	--callout-color: 229, 90, 22;
+	--callout-icon: terminal;
+}

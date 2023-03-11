@@ -3,12 +3,10 @@ Tags:
 Created: 2023-03-01 11:53:05
 ---
 (Links:: [[Information Management for CS]])
-```ad-question
-collapse: none
-- [[#Statement of scope and objectives|Why is there a need for an initial statement of the scope and the objectives of a development project?]]
-- [[#Systems investigation|Which techniques can be used to gain familiarity with current or future information systems?]]
-- [[The contents of a typical feasibility report|What does a feasibility report consist of?]]
-```
+> [!question] 
+> - [[#Statement of scope and objectives|Why is there a need for an initial statement of the scope and the objectives of a development project?]]
+> - [[#Systems investigation|Which techniques can be used to gain familiarity with current or future information systems?]]
+> - [[The contents of a typical feasibility report|What does a feasibility report consist of?]]
 ## The case study
 - case studies are useful for understanding the process of systems analysis and design
 # Statement of scope and objectives

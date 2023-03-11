@@ -3,13 +3,11 @@ Tags:
 Created: 2023-02-28 16:40:13
 ---
 (Links:: [[Information Management for CS]])
-```ad-question
-collapse: none
-- [[Electronic Commerce and business#^ba1120|What does the term e-commerce refer to?]]
-- [[Electronic Commerce and business#E-commerce - key features|How can e-commerce be characterized in terms of key features?]]
-- [[Electronic Commerce and business#Conducting business over the Internet|What does it mean to conduct business over the Internet?]]
-- [[Electronic Commerce and business#E-commerce business models|Which e-commerce business models do exist and when should they be applied?]]
-```
+> [!question]
+> - [[Electronic Commerce and business#^ba1120|What does the term e-commerce refer to?]]
+> - [[Electronic Commerce and business#E-commerce - key features|How can e-commerce be characterized in terms of key features?]]
+> - [[Electronic Commerce and business#Conducting business over the Internet|What does it mean to conduct business over the Internet?]]
+> - [[Electronic Commerce and business#E-commerce business models|Which e-commerce business models do exist and when should they be applied?]]
 # A brief introduction to e-commerce
 - reduced cost and complexity of electronic connectivity lead to its growth
 - Intenet allows for more ways of trading -> system-to-system trading, computer-mediated trading between companies and companies with individiuals
@@ -38,13 +36,8 @@ collapse: none
 - combine with other channels (some traditional)
 	- most successful e-commerce ventures have traditional business background/infrastructure
 # E-commerce - key features
-```ad-definition
-title: E-commerce
-collapse: none
-> *any exchange of information or business transaction that is facilitated by the use of information and communications technologies*
-```
-
-^ba1120
+> [!definition]+ E-commerce
+> > *any exchange of information or business transaction that is facilitated by the use of information and communications technologies*
 
 Three categories of e-commerce systems:
 1. **Electronic markets**:

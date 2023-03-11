@@ -4,26 +4,20 @@ Created: 2022-11-14 17:03:53
 ---
 (Links:: [[Logic and Sets]])
 # Disjunctive and conjunctive normal forms
-```ad-important
-title: Theorem
-collapse: none
-Propositional logic is *functionally complete*:
-Each truth table can be represented by a propositional formula
-```
-```ad-important
-title: Disjuntive normal form
-collapse: none
-- A *literal* is a propositional varialbe or the negation of a propositional variable: $p,q,\lnot q, \lnot r,s,...$
-- A **disjunctive normal form** is a disjunction $\psi_1 \lor \dots \psi_n$ where the formulas $\psi_i$ are conjuntions of *literals*
-- conjuntions and disjunctions are sometimes optional
-```
-```ad-important
-title: Adequate systems
-collapse: none
-A system *$C$* of connectives is **adequate** if every truth table can be expressed as a formula with connectives *$C$*
--> $\{\lnot, \land, \lor\}$ is an *adequate* system of connectives
--> $\{\lnot, \land\}$ are *adequate* since $\lor$ can be expressed with only $\{\lnot, \land\}$
-```
+> [!important]+ Theorem
+> Propositional logic is *functionally complete*:
+> Each truth table can be represented by a propositional formula
+
+> [!important]+ Disjuntive normal form
+> - A *literal* is a propositional varialbe or the negation of a propositional variable: $p,q,\lnot q, \lnot r,s,...$
+> - A **disjunctive normal form** is a disjunction $\psi_1 \lor \dots \psi_n$ where the formulas $\psi_i$ are conjuntions of *literals*
+> - conjuntions and disjunctions are sometimes optional
+
+> [!important]+ Adequate systems
+> A system *$C$* of connectives is **adequate** if every truth table can be expressed as a formula with connectives *$C$*
+> -> $\{\lnot, \land, \lor\}$ is an *adequate* system of connectives
+> -> $\{\lnot, \land\}$ are *adequate* since $\lor$ can be expressed with only $\{\lnot, \land\}$
+
 ## Sheffer stroke
 - The **Sheffer stroke** $|$ forms an adequate system by itself
 $$\phi \mid \psi \equiv \lnot (\phi \land \psi)$$
@@ -33,12 +27,10 @@ $$\phi \lor \psi \equiv \lnot(\lnot\phi\land\lnot\psi)\equiv\lnot\phi\mid\lnot\p
 - -> $\{\mid\}$ is an adequate system
 # Conjunctive normal form
 A *conjunctive normal form (CNF)* is analogous to a DNF, but with roles of $\land$ and $\lor$ reversed.
-```ad-important
-title: Definition
-collapse: none
-- A **clause** is a *disjuction of literals*
-- A **conjunctive normal form** is a conjunction $\phi_1 \land \dots \phi_n$ where the formulas $\phi_i$ are clauses
-```
+> [!definition]+
+> - A **clause** is a *disjuction of literals*
+> - A **conjunctive normal form** is a conjunction $\phi_1 \land \dots \phi_n$ where the formulas $\phi_i$ are clauses
+
 ## Transformation method to CNF using algorithm *CNF*
 The algorithm *CNF* tranforms formulas $\phi$ built from $\lnot,\land,\lor,\to$ to a CNF in 3 steps:
 1. *IMPL-FREE*: Eliminate all occurrences of $\to$
@@ -47,11 +39,9 @@ The algorithm *CNF* tranforms formulas $\phi$ built from $\lnot,\land,\lor,\to$ 
    $(\phi\land\psi)\lor\chi \equiv(\phi\lor\chi)\land(\psi\lor\chi)$
    
 ## Tautology for CNFs
-```ad-important
-title: Criterion
-collapse: none
-A CNF $\psi_1\land\psi_2\land\dots\psi_n$ is a tautology *if and only if* each clause $\psi_i$ contains literals $p$ and $\lnot p$ for some $p$ (All conjuncts are tautologies)
-```
+> [!important]+ Criterion
+> A CNF $\psi_1\land\psi_2\land\dots\psi_n$ is a tautology *if and only if* each clause $\psi_i$ contains literals $p$ and $\lnot p$ for some $p$ (All conjuncts are tautologies)
+
 # Satisfiability
 **Satisfiability problem**: Given a propositional formula $\phi$, try to find a valuation that applied to $\phi$ yields *T*.
 ## DPLL procedure

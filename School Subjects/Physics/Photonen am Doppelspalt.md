@@ -16,11 +16,10 @@ Deutung:
 
 ![[School Subjects/Physics/Misc/Interferenz]]
 $\Psi_{res}=\Psi_1+\Psi_2+\dots+\Psi_n$
-vektoraddition der $\Psi_$-Zeiger aller möglichen Pfade
-```ad-important
-collapse: none
-title:$(\Psi_{res})^2$: Auftreffwahrscheinlichkeit
-```
+vektoraddition der $\Psi$-Zeiger aller möglichen Pfade
+
+> [!important] $(\Psi_{res})^2$: Auftreffwahrscheinlichkeit
+
 Jeder mögliche Pfad trägt zu $\Psi_{res}$ bei
 **Fällt ein Pfad aus, so wird das Gesamtbild verändert**
 ___

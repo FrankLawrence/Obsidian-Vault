@@ -74,17 +74,13 @@ Created: 2023-02-02 12:26:55
 - **Precision:** What fraction of the returned results are relevant to the infromation need?
 - **Recall:** What fraction of the relevant documents in the collection were returned by the system?
 # Web science, social implications of Web Technology `ris:CheckboxCircle`
-```ad-definition
-title: Web Science
-collapse: none
-Field of study that addresses the issues as social computing, universal usability, and interdisciplinary strategies.
-It studies the way people behave on the Web, the technology that enables it and the interation between the two
-```
-```ad-definition
-title: Net neutrality
-collapse: none
-Network neutrality is best defined as a network design principle. The idea is that a maximally useful public information network aspires to treat all content, sites, and platforms equally
-```
+> [!definition]+ Web Science
+> Field of study that addresses the issues as social computing, universal usability, and interdisciplinary strategies.
+> It studies the way people behave on the Web, the technology that enables it and the interation between the two
+
+> [!definition]+ Net neutrality
+> Network neutrality is best defined as a network design principle. The idea is that a maximally useful public information network aspires to treat all content, sites, and platforms equally
+
 - Net neutrality
 	- Proposition:
 		- Internet was made a success by buisiness

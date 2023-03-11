@@ -8,9 +8,6 @@ Grundschwingung: $$L=\frac\lambda2$$
 2.Oberschwingung: $$L=3\cdot \frac\lambda2$$
 
 Es gilt: Auf einem Gummiband der Länge L mit zwei festen Enden kann sich eine stenede Welle nur ausbreiten, wenn die Länge L ein ganzzahliges Vielfaches der halben Wellenlänge ist.
-```ad-important
-title:
-collapse:none
-$$L=k\cdot \frac \lambda2$$
-```
+> [!important]+ 
+> $$L=k\cdot \frac \lambda2$$
 

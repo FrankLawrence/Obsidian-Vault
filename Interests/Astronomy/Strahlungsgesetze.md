@@ -22,11 +22,10 @@ Created: 2022-12-03 23:45:40
 	- Streuung / Reflektion von grünem Licht
 	- alle anderen Farbteile werden absorbiert
 - schwarzer Körper: Absorption aller Wellenlängen (keine Reflektion)
-```ad-definition
-title: Schwarzer Körper
-collapse: none
-Gegenstand der **alle** auftreffende Strahlung (alle Photonen) absorbiert. (Idealisierung!)
-```
+
+> [!definition]+ Schwarzer Körper
+> Gegenstand der **alle** auftreffende Strahlung (alle Photonen) absorbiert. (Idealisierung!)
+
 ## Wärmestrahlung
 - Naheliegender Gedanke: "Schwarze Körper" emittieren keine Strahlung?
 	- *Falscher* Gedanke! 

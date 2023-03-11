@@ -70,20 +70,15 @@ Created: 2023-02-06 00:44:36
 ## Integers
 - leftmost bit is 0 for positive numbers and 1 for negative numbers
 - [[Binary, signed-integer representations]] 
-````ad-definition
-title:$n$-bit signed numbers using 2's-complement representation system
-```ad-definition
-title:Addition
-collapse: none
-add their $n$-bit representations, ignoring carry-out bit from most significatn bit position
-the sum will be the algebraically correct value in 2's-complement representation if the actual result is in the range $-2^{n-1}$ through $+2^{n-1}-1$
-```
-```ad-definition
-title:Subtraction
-collapse: none
-from 2's complement of $Y$, add it to $X$ using the *add* rule. Again, the result will be the algebraically correct value in 2's-complement representation if the actual result is in the range $-2^{n-1}$ through $+2^{n-1}-1$
-```
-````
+
+> [!definition] $n$-bit signed numbers using 2's-complement representation system
+> > [!definition]+ Addition
+> > add their $n$-bit representations, ignoring carry-out bit from most significatn bit position
+> > the sum will be the algebraically correct value in 2's-complement representation if the actual result is in the range $-2^{n-1}$ through $+2^{n-1}-1$
+> 
+> > [!definition]+ Subtraction
+> > from 2's complement of $Y$, add it to $X$ using the *add* rule. Again, the result will be the algebraically correct value in 2's-complement representation if the actual result is in the range $-2^{n-1}$ through $+2^{n-1}-1$
+
 - *arithmetic overflow*: answers do not fall within the representable range
 - *2's-complement*: form bit complement of the number and add 1
 ### Sign Extension
@@ -96,12 +91,12 @@ To represent a signed number in 2's-complement form using a larger number of bit
 - $-1.0341 \times 10^2$
 	- 5 *significant digits* of precision
 	- *scale factors* $10^2$ indicate actual position in respect to significant digits
- ```ad-summary
- title: Representation of binary floating-point number
- - a sign for the number
- - some significant bits
- - a signed scale factor exponent for an implied base of 2
- ```
+ 
+> [!summary] Representation of binary floating-point number
+>  - a sign for the number
+>  - some significant bits
+>  - a signed scale factor exponent for an implied base of 2
+ 
  - [[Single precision 32-bit basic IEEE format.png]]
 # Character Representation
 - encoding in ASCII (American Standard Code for Information Interchange)

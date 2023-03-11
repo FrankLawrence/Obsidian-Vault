@@ -10,10 +10,10 @@ ___
 ___
 Versuch: Doppelspalt mit Ortsmessung hinter den Spalten
 -> Dadurch, dass du das Elektron durch die Ortsmessung gezwungen hast, sich für einen der beiden Spalte zu entscheiden, wurde verhindert, dass ein Interferenzmuster auf dem Schirm entsteht.
-```ad-important
-collapse: none
-Ortseigenschaft und Interferenzmuster sind nicht gleichzeitig realisierbar
-```
+
+> [!important]+ 
+> Ortseigenschaft und Interferenzmuster sind nicht gleichzeitig realisierbar
+
 Wenn bei der Detektion des Quantenobjekts, das Objekt einer der klassischen denkbaren Möglichkeiten zuordnen kann, so kommt es zu keinem Interferenzmuster
 ___
 References:

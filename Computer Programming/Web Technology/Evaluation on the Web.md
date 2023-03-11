@@ -10,11 +10,9 @@ Created: 2023-02-02 10:45:55
 -> collect and analyze user data and ensure that your users are staying
 - generate academic knowledge
 # What is usability?
-```ad-quote
-title:
-collapse: none
-Usability is a quality attribute that assesses how easy user interfaces are to use. The word 'usability' also refers to methods for improving ease-of-use during the design process
-```
+> [!quote]+ 
+> Usability is a quality attribute that assesses how easy user interfaces are to use. The word 'usability' also refers to methods for improving ease-of-use during the design process
+
 ## quality components
 - **Learnability**: How easy is it for users to accomplish basic tasks the first time they encounter the design?
 - **Efficiency**: Once users have learned the design, how quickly can they perform tasks?
@@ -48,11 +46,8 @@ Usability is a quality attribute that assesses how easy user interfaces are to u
 	- Field experiments
 
 # Experiment
-```ad-quote
-title: 
-collapse: none
-An experiment is a procedure carried out to support, refute, or validate a hypothesis.
-```
+> [!quote]+
+> An experiment is a procedure carried out to support, refute, or validate a hypothesis.
 
 ## Hypothesis operationalization
 - describes the assumed relation between at least two variables

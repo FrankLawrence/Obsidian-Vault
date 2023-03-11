@@ -3,11 +3,9 @@ Tags:
 Created: 2023-02-27 23:43:51
 ---
 (Links:: [[Information Management for CS]])
-```ad-question
-collapse: none
-- [[Strategy and Information Systems#The need for a business strategy|explain why an information systems strategy is necessary ]]
-- explain how the [[Strategy and Information Systems#Competitive forces within an industry - five forces model|competitive forces analysis]] and [[Strategy and Information Systems#Internal stages of growth|internal stage analysis]] can be used to develop an information systems strategy
-```
+> [!question] 
+> - [[Strategy and Information Systems#The need for a business strategy|explain why an information systems strategy is necessary ]]
+> - explain how the [[Strategy and Information Systems#Competitive forces within an industry - five forces model|competitive forces analysis]] and [[Strategy and Information Systems#Internal stages of growth|internal stage analysis]] can be used to develop an information systems strategy
 # The need for a business strategy
 - individual departments in an organization may function well in terms of their own objectives but still not serve the objectives of the organization
 	- lack of coordination between departments
@@ -29,9 +27,9 @@ collapse: none
 ## Identify the likely future performance against objectives
 - continuous monitoring of performance against current objectives
 	- forecasts of future sales, cash flows, material requirements
-```ad-tldr
-current operations of the organization will have an implied future scenario, which can be compared with desired objectives
-```
+
+> [!tldr]
+> current operations of the organization will have an implied future scenario, which can be compared with desired objectives
 - **SWOT**: identify internal strengths, internal weaknesses, external oppurtunites, external threats -> estimate gap between future objectives and forecast future performance
 ## Develop the business strategy
 - plans achieve its stated objectives by involving new projects, or continuing operation of existing activities

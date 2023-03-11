@@ -3,19 +3,12 @@ Tags:
 Created: 2023-02-28 20:29:22
 ---
 (Links:: [[Information Management for CS]])
-```ad-question
-collapse: none
-- [[Business Intelligence#^2d2512|What is business intelligence]] and how it [[Business Intelligence#Key features of business intelligence|adds value to today’s information systems?]]
-- [[Business Intelligence#Business intelligence from analysing data and information|What are different types of tools and techniques to support business intelligence?]]
-```
+> [!question]
+> - [[Business Intelligence#^2d2512|What is business intelligence]] and how it [[Business Intelligence#Key features of business intelligence|adds value to today’s information systems?]]
+> - [[Business Intelligence#Business intelligence from analysing data and information|What are different types of tools and techniques to support business intelligence?]]
 # The increasing focus on business intelligence
-```ad-definition
-title: Business intelligence
-collapse: none
-*the result of applying tools and techniques to the data and information available within and without an organization to facilitate a better understanding of both its environment and its operation and thereby improve the decision-making process*
-```
-
-^2d2512
+> [!definition]+ Business intelligence
+> *the result of applying tools and techniques to the data and information available within and without an organization to facilitate a better understanding of both its environment and its operation and thereby improve the decision-making process*
 
 - take known facts and records available and further process and interrogate them to discover new information
 - crosses over with *knowledge management* -> data already available to the organization is processed to produce information which in turn is futher analysed to produce new knowledge
@@ -29,9 +22,8 @@ collapse: none
 - **External drivers**: business intelligence tools provide knowledge and understanding to operate more transparently (endorsed by legislation concerning freedom of information, etc.)
 # Business intelligence from analysing data and information
 ## Decision support systems (DDS)
-```ad-summary
-The trend in modern decision support systems is towards end-user involvment in the development of simple fragmented models targeted to aid, rather than replace, the kinds of decision to be made. Easy and flexible interactive access to data and modelling facilities is as likely to be provided by PCs and networks as by the more traditional large central computers.
-```
+> [!summary] 
+> The trend in modern decision support systems is towards end-user involvment in the development of simple fragmented models targeted to aid, rather than replace, the kinds of decision to be made. Easy and flexible interactive access to data and modelling facilities is as likely to be provided by PCs and networks as by the more traditional large central computers.
 ### DSS support decisions
 - intended to *support* rather than replace decisions
 - decisions that have a structured computational and data transformation element, as well as an unstructured non-rule-governed component can be aided but not replaced by decision support systems
