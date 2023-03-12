@@ -2,7 +2,6 @@
   "table-editor-obsidian",
   "calendar",
   "obsidian-outliner",
-  "obsidian-admonition",
   "obsidian-excalidraw-plugin",
   "nldates-obsidian",
   "hotkeysplus-obsidian",
@@ -14,5 +13,6 @@
   "obsidian-minimal-settings",
   "obsidian-git",
   "settings-search",
-  "obsidian-banners"
+  "obsidian-banners",
+  "obsidian-style-settings"
 ]

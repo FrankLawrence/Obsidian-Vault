@@ -34,20 +34,33 @@
             }
           },
           {
-            "id": "ace02fb0ab1c1b3f",
+            "id": "35d8b847a0501214",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Programming/Computer Organization/Computer Organization.md",
+                "file": "Interests/Programming/MathJax Basic Tutorial.md",
                 "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "a2b8685c4a230c0e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Programming/Computer Organization/CO Chapter 5.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,11 +106,13 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 286.01436614990234
+    "width": 286.01436614990234,
+    "collapsed": true
   },
   "right": {
     "id": "af68da5da2e3de0e",
@@ -121,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Programming/Computer Organization/Computer Organization.md",
+                "file": "Computer Programming/Computer Organization/Basic Processing Unit.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Programming/Computer Organization/Computer Organization.md",
+                "file": "Computer Programming/Computer Organization/Basic Processing Unit.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,8 +177,17 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "14ca63461016b643",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       },
       {
         "id": "4c6142e30c7eb0ee",
@@ -175,7 +199,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Computer Programming/Computer Organization/Computer Organization.md",
+                "file": "Computer Programming/Computer Organization/Basic Processing Unit.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -208,8 +232,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 312.5,
-    "collapsed": true
+    "width": 312.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -228,8 +251,29 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "ace02fb0ab1c1b3f",
+  "active": "09c444c0f46ca2e3",
   "lastOpenFiles": [
+    "Computer Programming/Computer Organization/CO Chapter 5.md",
+    "Interests/Programming/MathJax Basic Tutorial.md",
+    "Computer Programming/Computer Organization/Basic Processing Unit.md",
+    "Computer Programming/Computer Organization/Reference documentation.md",
+    "Files/SCR-20230312-uaz.png",
+    "Computer Programming/Computer Organization/Computer Organization.md",
+    "Computer Programming/Computer Organization/CO Chapter 6.md",
+    "Computer Programming/Computer Organization/CO Chapter 7.md",
+    "Computer Programming/Computer Organization/CO Chapter 8.md",
+    "Computer Programming/Computer Organization/CO Chapter 9.md",
+    "Computer Programming/Computer Organization/CO Appendix A.md",
+    "Files/Microprogrammed control unit organization.png",
+    "Files/Three-bus CISC-style processor organization.png",
+    "Files/Input and output gating for one register bit.png",
+    "Files/Organization of CISC-style processor.png",
+    "Daily Notes/2023-03-12.md",
+    "Daily Notes/2023-03-11.md",
+    "Daily Notes/2023-03-10.md",
+    "Interests/Programming/Terminal.md",
+    "Computer Programming/Web Technology/Node.js.md",
+    "Dashboard.md",
     "Computer Programming/Uni Courses🎓.md",
     "Computer Programming/Computational Thinking for Coders/Computational Thinking for Coders.md",
     "Computer Programming/Computer Programming/Computer Programming.md",
@@ -237,25 +281,9 @@
     "Computer Programming/Logic and Sets/Logic and Sets.md",
     "Computer Programming/Web Technology/Web Technology.md",
     "Computer Programming/Data Wrangling/Data Wrangling.md",
-    "Computer Programming/Computer Organization/Computer Organization.md",
     "Computer Programming/Information Management for CS/Information Management for CS.md",
-    "Computer Programming/Computer Organization/Basic Processing Unit.md",
     "Computer Programming/Security and Safety Engineering/Security and Safety Engineering.md",
     "Computer Programming/Web Technology/Advanced Javascript.md",
-    "Computer Programming/Web Technology/Javascript in the Browser.md",
-    "Computer Programming/Web Technology/Basic Javascript.md",
-    "School Subjects/Physics/Formelsammlung.md",
-    "Computer Programming/Web Technology/More HTML.md",
-    "Misc/Ad monition.md",
-    "Computer Programming/Logic and Sets/Algebra of Sets.md",
-    "Computer Programming/Logic and Sets/Disjunctive and Conjunctive normal forms, Adequate systems of connectives, Satisfiability.md",
-    "Computer Programming/Logic and Sets/Introduction to propositional logic.md",
-    "Computer Programming/Web Technology/Node.js.md",
-    "Computer Programming/Web Technology/Evaluation on the Web.md",
-    "Computer Programming/Logic and Sets/Basics.md",
-    "Computer Programming/Web Technology/Exam prep WT.md",
-    "School Subjects/Physics/Kondensator & Kapazität.md",
-    "Interests/Programming/Terminal.md",
     "Banners/The Dark Side of the Moon album wallpeper minimalist.png",
     "Banners",
     "home.jpg",
@@ -263,13 +291,8 @@
     "minimalism-1666744543974-5635.jpg",
     "Dashboard~",
     "Files/Generation of the control signals.png",
-    "Files/Control signals for the instruction address generator.png",
-    "Files/Processor-memory interface and IR control signals.png",
-    "Files/Control signals for the datapath.png",
     "Computer Programming/Projects/Clinical Trials API.canvas",
     "Personal/;).canvas",
-    "Files/Instruction encoding.png",
-    "Files/Datapath in a processor.png",
     "Computer Programming/Computer Organization/A five-stage organization.canvas",
     "Computer Programming/Information Management for CS/An industry and its competitive forces.canvas",
     "Computer Programming/Information Management for CS/Information characteristics for managerial decisions.canvas"

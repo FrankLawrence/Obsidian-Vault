@@ -10,8 +10,12 @@ Tags: MOC course
 - [[Reading Guide]]
 - [[Self-Study Overview]]
 # Assignments
-- [[Appendix A]]
-- [[Chapter 9]]
+- [[CO Appendix A]]
+- [[CO Chapter 9]]
+- [[CO Chapter 5]]
+- [[CO Chapter 6]]
+- [[CO Chapter 7]]
+- [[CO Chapter 8]]
 # Topics
 - [[Basic Structure of Computers]]
 - [[Logic Circuits]]

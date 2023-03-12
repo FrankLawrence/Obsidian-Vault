@@ -7,7 +7,6 @@ ___
 > [!terminal]+ Ptrintenv
 > Print values of all or specific environment variables.
 
-
 ___
 References:
 

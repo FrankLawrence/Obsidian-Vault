@@ -1,8 +1,8 @@
 {
-  "baseFontSize": 16,
+  "baseFontSize": 13.5,
   "translucency": false,
-  "cssTheme": "Yin and Yang 2",
-  "theme": "obsidian",
+  "cssTheme": "Prism",
+  "theme": "moonstone",
   "interfaceFontFamily": "",
   "textFontFamily": "Fira Code,Roboto Mono,Source Code Pro",
   "monospaceFontFamily": "FiraCode Nerd Font",
