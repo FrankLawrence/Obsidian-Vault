@@ -14,15 +14,15 @@
 .dashboard .markdown-preview-section .title {
     top: 60px;
     position: absolute;
-    font-size: 26pt !important;
+    font-size: 26pt;
     font-weight: bolder;
     letter-spacing: 8px;
 }
 
 .dashboard h1 {
-    border-bottom-style: dotted !important;
-    border-width: 1px !important;
-    padding-bottom: 3px !important;
+    border-bottom-style: dotted;
+    border-width: 1px;
+    padding-bottom: 3px;
 }
 
 .dashboard div > ul {

@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "37e47e717e86415f",
+            "id": "8d073dd2ed6db52c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Programming/Computer Organization/Reference documentation.md",
+                "file": "Computer Programming/Information Management for CS/Information Management Study Instructions.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -21,38 +21,38 @@
             }
           },
           {
-            "id": "09c444c0f46ca2e3",
+            "id": "0a992a7425d67b20",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Programming/Computer Organization/Basic Processing Unit.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "35d8b847a0501214",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Interests/Programming/MathJax Basic Tutorial.md",
-                "mode": "preview",
+                "file": "Computer Programming/Information Management for CS/System Models.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
           },
           {
-            "id": "a2b8685c4a230c0e",
+            "id": "1f6eae2c80874cb9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Programming/Computer Organization/CO Chapter 5.md",
+                "file": "Computer Programming/Computer Organization/Input-Output Organization.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "ecdec55eaca6977a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Daily Notes/2023-03-18.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -79,7 +79,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Feldlinien",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -106,8 +106,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -136,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Programming/Computer Organization/Basic Processing Unit.md",
+                "file": "Daily Notes/2023-03-18.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Programming/Computer Organization/Basic Processing Unit.md",
+                "file": "Daily Notes/2023-03-18.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +198,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Computer Programming/Computer Organization/Basic Processing Unit.md",
+                "file": "Daily Notes/2023-03-18.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -232,7 +231,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 312.5
+    "width": 312.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -251,49 +251,48 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "09c444c0f46ca2e3",
+  "active": "ecdec55eaca6977a",
   "lastOpenFiles": [
-    "Computer Programming/Computer Organization/CO Chapter 5.md",
-    "Interests/Programming/MathJax Basic Tutorial.md",
-    "Computer Programming/Computer Organization/Basic Processing Unit.md",
-    "Computer Programming/Computer Organization/Reference documentation.md",
-    "Files/SCR-20230312-uaz.png",
+    "Daily Notes/2023-03-19.md",
+    "Computer Programming/Computer Organization/Input-Output Organization.md",
+    "Files/A detailed timing diagram for the input transfer.png",
+    "Daily Notes/2023-03-18.md",
+    "Daily Notes/2023-03-17.md",
+    "Interests/Astronomy/Formel.md",
+    "Files/I-O interface for an input device.png",
+    "Computer Programming/Information Management for CS/System Models.md",
+    "Files/A single-bus structure.png",
     "Computer Programming/Computer Organization/Computer Organization.md",
-    "Computer Programming/Computer Organization/CO Chapter 6.md",
-    "Computer Programming/Computer Organization/CO Chapter 7.md",
-    "Computer Programming/Computer Organization/CO Chapter 8.md",
-    "Computer Programming/Computer Organization/CO Chapter 9.md",
-    "Computer Programming/Computer Organization/CO Appendix A.md",
+    "Computer Programming/Computer Organization/Computer Organization Outline.md",
+    "Computer Programming/Computer Organization/Computer Organization Structure.md",
+    "Computer Programming/Computer Organization/Reading Guide.md",
+    "Computer Programming/Computer Organization/Computer Organization Assessment.md",
+    "Computer Programming/Information Management for CS/Information Management Study Instructions.md",
+    "Computer Programming/Computer Organization/Instruction set reference.md",
+    "School Subjects/Physics/Bewegte Ladungen in Feldern.md",
+    "School Subjects/Physics/Elektrisches Feld.md",
+    "School Subjects/Physics/Lorentzkraft.md",
+    "School Subjects/Physics/Magnetisches Feld.md",
+    "School Subjects/Physics/Physics⚛.md",
+    "Daily Notes/2023-03-16.md",
+    "Daily Notes/2023-03-15.md",
+    "Daily Notes/2023-03-14.md",
+    "Computer Programming/Computer Organization/Reference documentation.md",
+    "Computer Programming/Computer Organization/SHA-1 assignment.md",
+    "Dashboard.md",
+    "Computer Programming/Web Technology/Basic CSS.md",
+    "Files/Instruction encoding.png",
+    "Computer Programming/Computer Organization/A five-stage organization.canvas",
+    "Files/SCR-20230312-uaz.png",
     "Files/Microprogrammed control unit organization.png",
     "Files/Three-bus CISC-style processor organization.png",
     "Files/Input and output gating for one register bit.png",
     "Files/Organization of CISC-style processor.png",
-    "Daily Notes/2023-03-12.md",
-    "Daily Notes/2023-03-11.md",
-    "Daily Notes/2023-03-10.md",
-    "Interests/Programming/Terminal.md",
-    "Computer Programming/Web Technology/Node.js.md",
-    "Dashboard.md",
-    "Computer Programming/Uni Courses🎓.md",
-    "Computer Programming/Computational Thinking for Coders/Computational Thinking for Coders.md",
-    "Computer Programming/Computer Programming/Computer Programming.md",
-    "Computer Programming/Data Structures and Algorithms for CS/Data Structures and Algorithms for CS.md",
-    "Computer Programming/Logic and Sets/Logic and Sets.md",
-    "Computer Programming/Web Technology/Web Technology.md",
-    "Computer Programming/Data Wrangling/Data Wrangling.md",
-    "Computer Programming/Information Management for CS/Information Management for CS.md",
-    "Computer Programming/Security and Safety Engineering/Security and Safety Engineering.md",
-    "Computer Programming/Web Technology/Advanced Javascript.md",
     "Banners/The Dark Side of the Moon album wallpeper minimalist.png",
     "Banners",
-    "home.jpg",
-    "Home.jpg",
-    "minimalism-1666744543974-5635.jpg",
     "Dashboard~",
-    "Files/Generation of the control signals.png",
     "Computer Programming/Projects/Clinical Trials API.canvas",
     "Personal/;).canvas",
-    "Computer Programming/Computer Organization/A five-stage organization.canvas",
     "Computer Programming/Information Management for CS/An industry and its competitive forces.canvas",
     "Computer Programming/Information Management for CS/Information characteristics for managerial decisions.canvas"
   ]

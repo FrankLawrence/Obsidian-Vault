@@ -184,7 +184,7 @@ ol.appendChild(li);
 	- "" or "text": browser leaves response unprocessed and the `reponse` attribute contains same value ar `responseText`
 	- "document": browser assumes response is an XML document, and `response` attribute contains same value as `responseXML`
 
-> [!example] Forecast
+> [!example]- Forecast
 > ```html
 > <!DOCTYPE html>
 > <html lang="en">

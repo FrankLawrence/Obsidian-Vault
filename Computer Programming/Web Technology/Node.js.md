@@ -41,7 +41,7 @@ Created: 2023-01-26 11:54:37
 ## Introduction
 - **Node.js** is a JavaScript runtime environment used to run server-side web applications
 
-> [!example] 
+> [!example]- 
 > ```javascript
 > const http = require("http");
 > 
@@ -66,7 +66,7 @@ Created: 2023-01-26 11:54:37
 # Express
 - allows developers to create web servers with less code
 
-> [!example] 
+> [!example]-
 > ```javascript
 > const express = require("express");
 > const app = express();
@@ -108,7 +108,7 @@ Created: 2023-01-26 11:54:37
 	- `next`
 	- express method `use()` enables a middleware function to execute
  
- > [!example] 
+ > [!example]-
 > ```javascript
 > const express = require("express");
 > const app = express();
@@ -133,7 +133,7 @@ Created: 2023-01-26 11:54:37
 ## Query string parameters
 - query string parameters (values after the "?") automatically stored as values in req.query object
 
-> [!example] 
+> [!example]-
 > `http://localhost:3000/hello?name=Frank&age=17`
 > ```javascript
 > app.get("/hello", function(req, res) {
@@ -160,7 +160,7 @@ app.post("/hello", function(req, res) {
 - defined in route path with a colon before parameter name
 - attached to `req.params` object
 
-> [!example] 
+> [!example]-
 > `http://localhost:3000/users/jblack`
 > ```javascript
 > app.get("/users/:username", function(req, res) {
@@ -226,7 +226,7 @@ WHERE stuId = 456;
 - create modular route callbacks for the web API endpoints with `express.Router` class
 - endpoint: URL for a web API used to access ar resource
 
-> [!example] Express router sends JSON-encoded song to web browser
+> [!example]- Express router sends JSON-encoded song to web browser
 > ```javascript
 > const express = require("express");
 > 

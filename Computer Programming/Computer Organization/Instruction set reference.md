@@ -29,10 +29,10 @@
 |          |          |                              | *Logic and shift*                |
 | cmp.     | A, B     | sub A B (Only set flags)     | Compare and set condition flags. |
 | xor.     | SRC, DST | DST = SRC ^ DST              | Bitwise exclusive or.            |
-| or.      | SRC, DST | DST = SRC \| DST             | Bitwise exclusive or.            |
+| or.      | SRC, DST | DST = SRC \| DST             | Bitwise or.                      |
 | and.     | SRC, DST | DST = SRC & DST              | Bitwise and.                     |
 | shl.     | A, DST   | DST = DST << A               | Shift left.                      |
 | shr.     | A, DST   | DST = DST >> A               | Shift right.                     |
 |          |          |                              | *Other*                          |
 | lea.     | A, DST   | DST = &A                     | Load effective address.          |
-| int      | INT_NR   |                              | Software interrupt.                                 |
+| int      | INT_NR   |                              | Software interrupt.              |

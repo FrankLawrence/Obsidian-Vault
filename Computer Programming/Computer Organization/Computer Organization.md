@@ -16,6 +16,7 @@ Tags: MOC course
 - [[CO Chapter 6]]
 - [[CO Chapter 7]]
 - [[CO Chapter 8]]
+- [[SHA-1 assignment]]
 # Topics
 - [[Basic Structure of Computers]]
 - [[Logic Circuits]]
@@ -23,7 +24,7 @@ Tags: MOC course
 - [[The Intel IA-32 Architecture]]
 - [[Introduction Set Architecture]]
 - [[Basic Processing Unit]]
-- [[Input-Outpu Organization]]
+- [[Input-Output Organization]]
 - [[The Memory System]]
 - [[Pipelining]]
 - [[Parallel Processing and Performance]]

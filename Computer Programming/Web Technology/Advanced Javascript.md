@@ -15,7 +15,7 @@ Created: 2023-01-20 02:33:40
 	- *response.headers*: object containing the HTTP response headers
 	- *response.text()*: returns a Promise that resolves with the textual body of the HTTP response
  
-> [!example] Fetch request for a webpage
+> [!example]- Fetch request for a webpage
 > ```javascript
 > let url = "https://example.com/";
 > let response = await fetch(url);
@@ -32,7 +32,7 @@ Created: 2023-01-20 02:33:40
 ## Fetching JSON
 - `response.json()` method returns a Promise that resolves to an object created from parsing the response body as JSON
 
-> [!example] Fetch request returning JSON
+> [!example]- Fetch request returning JSON
 > ```javascript
 > let url = "https://randomuser.me/api/?results=3";
 > let response = await fetch(url);
@@ -45,7 +45,7 @@ Created: 2023-01-20 02:33:40
 	- *headers*: specifies various HTTP request headers (Ex: Content-Type and User-Agent)
 	- *body*: specifies HTTP request body, which could be form data, a JSON-encoded string, or binary data
 
-> [!example] 
+> [!example]-
 > ```javascript
 > let form = document.querySelector("form");
 > form.addEventListener("submit", async function(e) {

@@ -146,7 +146,33 @@ formatstr: .asciz "%ld"
 	movq $0, %rax                # no vector registers for scanf
 	call scanf                   # Call scanf
 ```
-
+# x86 Assembly language reference
+## Assembler directive reference
+- `.equ NAME, EXPRESSION`: define symbolic names for expressions
+```
+.equ FOO, 1024
+pushq $FOO       #push 1024
+```
+- reserve and initialise memory for variables: `.byte VALUE`, `.word VALUE`, ...
+```
+FOO: .byte 0xAA, 0xBB, 0xCC   # three bytes starting at address FOO 
+BAR: .word 2718, 2818         # a couple of words
+BAZ: .long 0xDEADBEEF         # a single long 
+BAK: .quad 0xDEADBEEFBAADF00D # a single quadword
+```
+- Due to endianness, the following statements are equivalent
+```
+FOO: .byte 0x0D, 0xF0, 0xAD, 0xBA, 0xEF, 0xBE, 0xAD, 0xDE
+FOO: .word 0xF00D, 0xBAAD, 0xBEEF, 0xDEAD
+FOO: .long 0xBAADF00D , 0xDEADBEEF
+FOO: .quad 0xDEADBEEFBAADF00D
+```
+- reserve arbitraty size of memory: 
+  `BUFFER .skip 1024 # reserve 1024 bytes of memory`
+---
+- `.text` segment is intended to hold all instructions
+- `.data` segment is used for initialised variables (e.g. `.word` directive)
+- `.bss` segement is intended to hold uninitialised variables (variables that recieve value at runtime)
 
 
 ---

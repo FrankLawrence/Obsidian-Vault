@@ -84,6 +84,45 @@ Business Information Systems – Analysis, Design and Practice
 	- Which techniques can be used to gain familiarity with current or future information systems?
 	- What does a feasibility report consist of?
 - For Chapter 15, you should particularly understand the main activities performed during the implementation phase of a systems project – not only coding but also testing, hardware installation, and training.
+# Lecture 04 - Study instructions 
+**Modeling Business Processes – A Petri net-Oriented Approach, Wil van der Aalst and 
+Christian Stahl (2013)** 
+ 
+## Essential: 
+-  Chapter 1 – Information Systems: Introduction and Concepts: 
+	- Section 1.4 
+	- Section 1.5 
+## Background material (read): 
+-  Chapter 1 – Information Systems: Introduction and Concepts: 
+	- Introduction 
+	- Section 1.1 
+	- Section 1.2 
+	- Section 1.3 
+-  Chapter 2 – Business Processes and Information Systems
+	- Completely (Section 2.1 – 2.7) 
+## Study advice: 
+- The recommended way of mastering this part of the course is to study the parts of the book mentioned above before the start of the first seminar.  
+- For chapter 1, see if you can follow the logic of the arguments, make sure you understand the various definitions (e.g. the definition of a transition system) and make the in-line exercises (1.2 – 1.8). You can see if you have understood the content by checking the solutions to these exercises.
+- The introductory text of Chapter 1 (introduction, Section 1.1, Section 1.2, and Section 1.3) provide a background for the mandatory material. You may notice the resemblances with various of the concepts you learned in the first part of the course, i.e. the book by Curtis and Cobham. This makes sense, of course. It is recommended to read these parts so you have a better understanding of the context that is assumed in the book by Van der Aalst and Stahl, for example when explaining Table 1.3 (p.33).
+- Regarding Chapter 2, but it’s highly recommended to at least once read this chapter carefully. This chapter contains the main arguments why it is so important to study, analyze, and model business processes in the context of information system development. 
+# Lecture 05 - Study instructions 
+**Modeling Business Processes – A Petri net-Oriented Approach, Wil van der Aalst and 
+Christian Stahl (2013)** 
+ 
+## Essential: 
+-  Chapter 3 – Basic Concepts of Petri Nets (completely) 
+-  Chapter 4 – Application of Petri Nets (completely)
+ 
+## Study advice: 
+ 
+- These chapters are the most important chapters to study for the modeling part of the course. Take your time to go properly study them. 
+- You will notice that Chapter 3, in particular Sections 3.3.2 (A Formal Description of the Behavior of Petri Nets) and 3.4 (Representing Petri Nets as Transition Systems), have a formal character, i.e. they rely on mathematics to precisely describe various notions. Ιt is very important that you try and understand them. So, check for yourself specifically whether you understand the Definitions 3.4 (Petri net), 3.8 (Marking), 3.9 (enabledness), 3.10 (transition firing), and 3.12 (Petri net system). 
+- For Chapter 4 the most important things to focus on are: 
+	- The two claims about the relation between a model and a system (Section 4.1); 
+	- The different roles that a token, place, and transition can play (Section 4.2); 
+	- The various modeling constructs that exist (Sections 4.3 and 4.4); 
+	- The difference between the transition system that is defined by a Petri net on the one hand and the reachability graph that belongs to that Petri net (Section 4.6). 
+- For the best results, try to make the in-line exercises for yourself. 
 
 ---
 References:
