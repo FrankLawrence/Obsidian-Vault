@@ -16,7 +16,6 @@ Tags: MOC course
 - [[CO Chapter 6]]
 - [[CO Chapter 7]]
 - [[CO Chapter 8]]
-- [[SHA-1 assignment]]
 # Topics
 - [[Basic Structure of Computers]]
 - [[Logic Circuits]]

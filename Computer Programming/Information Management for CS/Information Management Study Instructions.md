@@ -123,6 +123,25 @@ Christian Stahl (2013)**
 	- The various modeling constructs that exist (Sections 4.3 and 4.4); 
 	- The difference between the transition system that is defined by a Petri net on the one hand and the reachability graph that belongs to that Petri net (Section 4.6). 
 - For the best results, try to make the in-line exercises for yourself. 
+# Lecture 6 - Study instructions
+**Modeling Business Processes** – A Petri net-Oriented Approach, Wil van der Aalst and Christian Stahl (2013)
+## Essential:
+- Chapter 8 – Analyzing Petri Net Models:
+	- Section 8.2
+	- Section 8.5(partly)
+## Background material (read):
+- Chapter 8 – Analyzing Petri Net Models:
+	- Introduction
+	- Section 8.1
+	- Section 8.4
+	- Section 8.5 (partly)
+	- Section 8.6
+Study advice:
+- In Chapter 8, there will be references to colored Petri net systems and some figures show examples (e.g. Figure 8.2). You are not expected to study the discussions of these more advanced Petri nets: focus on the Classical Petri nets.
+- For Section 8.2 it is important to focus on reachability analysis (8.2.1) and the standard Petri net properties (8.2.2).
+- For most of Section 8.5 it is sufficient to read the material. Much of it taps into the third lecture in the first half of the course (process mining). What is essential to study from this paragraph are the definitions 8.12 (workflow net) and 8.13 (soundness). Make sure you understand what they mean.
+- Section 8.3 can be skipped altogether.
+- Once again: test yourself by trying to make the in-line exercises in this chapter!
 
 ---
 References:

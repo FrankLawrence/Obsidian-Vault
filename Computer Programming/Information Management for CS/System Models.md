@@ -36,7 +36,34 @@ Information systems can be viewed as a discrete dynamic system whose behavior ca
 
 # Transitions and Transition Systems
 - *atomic* changes are abstracted since the transition is not important
-- state changes that take considerable time can be split into two state changes: start of state change and completion of state change -> 
+- state changes that take considerable time can be split into two state changes: start of state change and completion of state change
+- transitions can be represented by an ordered pair
+
+> [!definition] Transition
+> An ordered pair $(x, y)$ in which $x$ and $y$ are elements of the state space $S$-that is, $x,y\in S$
+
+> [!info] Transition relation $TR$
+> - if we consider all possible transitions of a system, then we obtain a set of ordered pairs of states
+> - you obtain the set of all ordered pairs of states of a state space $S$ by forming the cartesian product $S \times S$
+> - not all elements correspond to a possible transition -> $TR$ is a subset of the Cartesian product: $$TR \subseteq S\times S$$
+- the *initial state* of a system is the state in which a system starts its operation
+
+> [!definition] Transition System
+> A triple $(S, TR, s_0)$ where $S$ is a finite state space, $TR \subseteq S\times S$ is a transition relation containing all possible state changes, and $s_0 \in S$ is the initial state.
+
+> [!definition] State-transition diagram
+> A directed graph in which the nodes represent the states of the transition systemm and the directed edges represent the possible transitions
+
+# Transition Sequences and the Behavior of a System
+
+> [!definition] Reachable state
+> A state that the system can reach from the initial state after zero or more transitions
+> > [!tip]-
+> > determine reachability by following the arrows in the state-transition diagram
+- *transition sequence*: sequence of states reached by following the arrows: $\langle s_1, ..., s_n\rangle$
+- the set of all possible transition sequences from an initial state specifies the *behavior* of the system
+- *terminal state*: no further transition is possible
+- *deterministic system*: from every state, at most one transittion is possible
 
 ---
 References:
