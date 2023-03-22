@@ -101,6 +101,103 @@ Created: 2023-03-19 16:31:40
 	- Used where small, fast memory is needed.
 - Dynamic RAM: high bit densities and low cost per bit.
 - Synchronous DRAMs commonly used for implementing main memory.
+# Read-only Memories (ROM)
+- normal operation involves only reading the stored data -> ROM
+## ROM
+- information can be written into it only once at the time of manufacture
+- ![[A ROM cell.png]]
+	- logic value 0 is stored in the cell if the transistor is connected to ground $P$, otherwise a 1 is stored
+## PROM (programmable)
+- user can insert 1s at the required locations by burning out the fuses at point $P$ using high-current pulses -> irreversible
+- memory chips can be programmed directly by the user
+## EPROM (erasable)
+- connection to ground point $P$ through special transistor
+	- turned off creating open switch
+	- turned on by injecting charge that becomes trapped
+- erase by exposing the chip with ultraviolet light
+- must be removed for erasure, and erases entire contents
+## EEPROM (electrically erasable)
+- different voltages needed for erasing, writing and reading the stored data
+## Flash Memory
+- you can only write an entire block of cells
+- high density, little power supply voltage and consume less power
+- attractive for use in portable, battery-powered equipment
+# Direct Memory Access
+# Memory Hierarchy
+- [[Memory hierarchy.png]]
+- registers are at the top in terms of speed of access
+- *processor cache*: holds copies of the instructions and data stored in a much larger memory that is provided externally
+- cache is located on processor chip
+- multiple levels of cache with different speeds and sizes
+- *main memory*: assembled in memory modules such as [[#Dynamic Memory Systems|DIMMs]]
+	- much larger but slower than cache
+# Cache Memories
+- *locality of reference*: main memory appears faster to the processor than it actually is
+- many instructions in localized areas of the program are executed repeatedly during some time period
+	- temporal: recently executed instruction is likely to be executed again very soon
+	- spatial: instructions close to a recently executed instruction are also likely to be executed soon
+- temporal locality: when information/data/instruction is needed, bring it into cache because it will likey be needed again
+- Spatial locality: fetch not one but several items
+- block of memory transfered into cache on read request
+	- correspondence between main memory block and those in cache specified by *mapping function*
+	- block removed for creating space for new block decided by caches *replacemnet algorithm*
+### Cache Hits
+- processor doesn't know if data is memory or cache -> if the requested data is in cache: *read* or *write hit*
+- Write operation
+	- *write-through*: cache location and main memory location are updated
+	- *write-back*: update cache location with *dirty/modified bit* and update main memory once block is removed from cache
+- write-through easier to implement than write-back but unneccesary
+### Cache Misses
+- word is not in the cache -> *read miss*
+	- block of words containing request copied into cache
+	- *load-through*: word sent to processor directly once read from memory
+	- processors use separate cahces for instructions and data -> no halt delay pipelining
+## Mapping Functions
+### Direct Mapping
+- block $j$ of the main memory maps onto block $j\% 128$ of the cache
+- placement of a block in the cache is determined by its memory address
+- main memory address:
+	- lower-order 4 bits: select one of 16 words in a block
+	- 7-bit cache block: determine cache position to save the block at
+	- high-order 5 *tag* bits: identify one of the 32 main memory blocks mapped into the current cache position
+- high-order 5 bits of address are compared with tag bits associated with cache location
+	- match -> desired word is in block of the cache
+### Associative Mapping
+- any memory block can be put into any cache block
+- high-order 12 bits used to compare memory address with cache address
+- replacement only when cache is full
+- parallel search of the cache: *associative search* 
+### Set-Associative Mapping
+- blocks of cache grouped into sets
+- block may be placed in a specific set
+
+> [!example]
+> - 4096 memory blocks
+> - 128 cache blocks
+> - 64 cache sets -> blocks can map into one of two block positions within a set
+> - 6-bit set field in the address determines which set of the cache might contain the desired block
+
+- a cache that has $k$ blocks per set is referred to as a $k$-way set-associative cache
+### Stale Data
+- *valid bit*: indicates whether data in the block is valid
+	- initially set to 0 when power is applied 
+	- may be set to 0 when new programs or data are loaded
+- the processor fetches data from a cache block only if its valid bit is equal to 1
+- *flushing* the cache: forcing all dirty blocks to be written back to the memory before performing the transfer to disk
+- *cache-coherence*: two different entities use identical copies of data
+## Replacement Algorithm
+
+> [!important] Least Recently Used (LRU) algorithm
+> high probability that blocks referenced recently are referenced again soon -> overwrite block that has gone the longest time without being referenced
+- cache controller tracks refernces to all blocks
+- 2-bit counter for a four-block set
+	- block referenced (cache hit)-> counter set to 0
+		- counters with values originally lower incremented
+	- counter associated with new block (cache miss, set not full) -> counter set to 0
+		- all other counters incremented
+	- counter with value 3 removed (cache miss, set is full)
+- small amount of randomness in deciding with block to replace can improve performance
+
 
 ---
 References:

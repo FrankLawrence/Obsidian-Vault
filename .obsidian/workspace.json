@@ -27,7 +27,7 @@
               "type": "markdown",
               "state": {
                 "file": "Computer Programming/Information Management for CS/Basic Concepts of Petri Nets.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -39,8 +39,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Programming/Computer Organization/The Memory System.md",
-                "mode": "preview",
+                "file": "Computer Programming/Computer Organization/Pipelining.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Programming/Computer Organization/CO Chapter 8.md",
+                "file": "Computer Programming/Computer Organization/CO Chapter 6.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -135,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Programming/Information Management for CS/Basic Concepts of Petri Nets.md",
+                "file": "Computer Programming/Computer Organization/Pipelining.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Programming/Information Management for CS/Basic Concepts of Petri Nets.md",
+                "file": "Computer Programming/Computer Organization/Pipelining.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +198,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Computer Programming/Information Management for CS/Basic Concepts of Petri Nets.md",
+                "file": "Computer Programming/Computer Organization/Pipelining.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -251,45 +251,45 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "0a992a7425d67b20",
+  "active": "b160d3001e316408",
   "lastOpenFiles": [
+    "Files/Pipelined execution-the ideal case.png",
+    "Computer Programming/Computer Organization/Computer Organization.md",
+    "Computer Programming/Computer Organization/Pipelining.md",
     "Computer Programming/Computer Organization/The Memory System.md",
+    "Computer Programming/Computer Organization/CO Chapter 6.md",
+    "Computer Programming/Computer Organization/CO Chapter 8.md",
+    "Interests/Programming/MathJax Basic Tutorial.md",
+    "Computer Programming/Computer Organization/Reading Guide.md",
+    "Daily Notes/2023-03-22.md",
+    "Daily Notes/2023-03-21.md",
+    "Files/Memory hierarchy.png",
+    "Files/A ROM cell.png",
     "Computer Programming/Information Management for CS/Basic Concepts of Petri Nets.md",
     "Computer Programming/Information Management for CS/Information Management Study Instructions.md",
-    "Computer Programming/Computer Organization/CO Chapter 8.md",
     "Personal/Mermaid.md",
     "Daily Notes/2023-03-20.md",
     "Daily Notes/2023-03-26.md",
     "Daily Notes/2023-03-25.md",
     "Daily Notes/2023-03-24.md",
     "Daily Notes/2023-03-23.md",
-    "Daily Notes/2023-03-22.md",
-    "Daily Notes/2023-03-21.md",
     "Daily Notes/2023-03-19.md",
     "Daily Notes/Favorite Songs.md",
     "Computer Programming/Information Management for CS/Information Management for CS.md",
     "Computer Programming/Information Management for CS/Roles of Models.md",
     "Computer Programming/Information Management for CS/System Models.md",
     "Computer Programming/Computer Organization/Arithmetic.md",
-    "Computer Programming/Computer Organization/Computer Organization.md",
     "Computer Programming/Computer Organization/Logic Circuits.md",
     "Computer Programming/Uni Courses🎓.md",
-    "Personal/Callouts.md",
     "Files/512 x 8 static memory chip.png",
     "Files/SCR-20230319-x6s.png",
     "Files/Organization of a 2M x 32 memory module.png",
     "Files/Internal organization of a 32M x 8 dynamic memory chip.png",
     "Files/A static RAM cell.png",
-    "Computer Programming/Computer Organization/Reading Guide.md",
-    "Computer Programming/Computer Organization/SHA-1 assignment.md",
-    "Computer Programming/Computer Organization/Input-Output Organization.md",
-    "Computer Programming/Computer Organization/CO Chapter 7.md",
     "Files/A serial interface.png",
     "Personal/;).canvas",
     "Files/Display to processor connection.png",
     "Files/An input interface circuit.png",
-    "Files/Keyboard to processor connection.png",
-    "Files/Handshake control of data transfer during an input operation.png",
     "Computer Programming/Computer Organization/A five-stage organization.canvas",
     "Banners",
     "Dashboard~",
