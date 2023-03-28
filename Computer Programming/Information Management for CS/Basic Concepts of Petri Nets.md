@@ -35,7 +35,35 @@ Created: 2023-03-13 00:34:34
 - the set $t^\textbullet =\{p|(t,p)\in F\}$ defines all output places of a transition $t$
   $t^\textbullet$ is the *postset of t*
 # The Behavior of Petri Nets
-- 
+- the behavior is defined by the net structure, distribution of tokens over the places, and firing of transitions
+- *marking* of a Petri net: determined by distribution of tokens over the places
+- transitions change the marking through firing
+- a transition must be *enabled* (at least one token in each of its input places) to be fired
+- firing *consumes* (removes) from an input and *produces* (adds) a token in an output place
+- *terminal marking*: reach a marking that does not enable any transitions
+- marking $m'$ is *reachable* if from marking $m$ there is a series of firings that lead to marking $m'$
+
+> [!definition] Marking
+> A *marking* of a Petri net $(P,T,F)$ is a function $m:P\rightarrow N$, assigning to each place $p \in P$ the number $m(p)$ of tokens at this place. The set $M$ of all *markings* of this net is the set of all such functions.
+
+> [!definition] Enabledness
+> In a Petri net $(P,T,F)$, a transition $t \in T$ is *enabled* at *marking* $m:P\rightarrow N$ if and only if for all $p \in$ $^\bullet t, m(p)>0$
+
+> [!definition] Transition firing
+> For a Petri net $(P,T,F)$, let $w$ be the weight function and $m:P\rightarrow N$ be the current marking. A transition $t \in T$ can *fire* if and only if it is enabled at $m$. The firing of $t$ yields a new marking $m':P\rightarrow N$ where for all places $p\in P,m'(p)=m(p)-w((p,t))+w((t,p))$
+
+> [!definition] Petri net system
+> A *Petri net system* $(P,T,F,m_0)$ consists of a Petri net $(P,T,F)$ and a distinguished marking $m_0$, the *initial marking*
+
+# Representing Petri Nets as Transition Systems
+- state space $S$ consists of all possible distribution of tokens over the places $P$
+- initial state $s_0$ defined by initial marking $m_0$
+- "transition $t$ is enabled at marking $m$": $\forall x \in \,^\bullet t:m(p)>0$
+- "the firing of transition $t$ in marking $m$ yields marking $m'$": $\forall p\in P:m'(p)=m(p)-w((p,t))+w(t,p)$
+- An arbitrary Petri net system $(P,T,F,m_0)$ defines the following transition system $(S,TR,s_0)$:
+	- $S=M=P\to N$
+	- $\begin{align}TR = &\{(m,m')\in S\times S \;|\; \exists t\in T:(\forall p\in \, ^\bullet t:m(p)>0 \\ &\land (m'(p)=m(p)-w((p,t))+w((t,p)))) \}\end{align}$
+	- $s_0=m_0$
 
 ---
 References:

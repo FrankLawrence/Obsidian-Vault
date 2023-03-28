@@ -1,0 +1,272 @@
+{
+  "workspaces": {
+    "Uni": {
+      "main": {
+        "id": "03910b91f695953b",
+        "type": "split",
+        "children": [
+          {
+            "id": "faa18ebe7b06f387",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "8a602ab8e054ab05",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Computer Programming/Information Management for CS/Crowdfunding process.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": true
+                  }
+                }
+              },
+              {
+                "id": "0a992a7425d67b20",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Computer Programming/Information Management for CS/Basic Concepts of Petri Nets.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": true
+                  }
+                }
+              },
+              {
+                "id": "b160d3001e316408",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Computer Programming/Computer Organization/Pipelining.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": true
+                  }
+                }
+              },
+              {
+                "id": "db2965eab071beab",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Computer Programming/Computer Organization/Computer Organization.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": true
+                  }
+                }
+              },
+              {
+                "id": "2d189468cecdefa7",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Daily Notes/2023-03-25.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": true
+                  }
+                }
+              }
+            ],
+            "currentTab": 4
+          }
+        ],
+        "direction": "vertical"
+      },
+      "left": {
+        "id": "89d2cbbc850f4681",
+        "type": "split",
+        "children": [
+          {
+            "id": "4b2a9aa3fedd976c",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "13160be2efd578a9",
+                "type": "leaf",
+                "state": {
+                  "type": "search",
+                  "state": {
+                    "query": "Feldlinien",
+                    "matchingCase": true,
+                    "explainSearch": false,
+                    "collapseAll": true,
+                    "extraContext": false,
+                    "sortOrder": "byModifiedTime"
+                  }
+                }
+              },
+              {
+                "id": "f4330612332e4097",
+                "type": "leaf",
+                "state": {
+                  "type": "starred",
+                  "state": {}
+                }
+              },
+              {
+                "id": "645ce3ec9fda0b40",
+                "type": "leaf",
+                "state": {
+                  "type": "file-explorer",
+                  "state": {
+                    "sortOrder": "byModifiedTime"
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 286.01436614990234,
+        "collapsed": true
+      },
+      "right": {
+        "id": "af68da5da2e3de0e",
+        "type": "split",
+        "children": [
+          {
+            "id": "ee1d578a9f322777",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "11bd90c11bdf054e",
+                "type": "leaf",
+                "state": {
+                  "type": "calendar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "4a8cb08379ca2e59",
+                "type": "leaf",
+                "state": {
+                  "type": "backlink",
+                  "state": {
+                    "file": "Daily Notes/2023-03-25.md",
+                    "collapseAll": false,
+                    "extraContext": false,
+                    "sortOrder": "alphabetical",
+                    "showSearch": false,
+                    "searchQuery": "",
+                    "backlinkCollapsed": false,
+                    "unlinkedCollapsed": false
+                  }
+                }
+              },
+              {
+                "id": "db72967e5e644f7e",
+                "type": "leaf",
+                "state": {
+                  "type": "outgoing-link",
+                  "state": {
+                    "file": "Daily Notes/2023-03-25.md",
+                    "linksCollapsed": false,
+                    "unlinkedCollapsed": true
+                  }
+                }
+              },
+              {
+                "id": "0f3c39408a3e0955",
+                "type": "leaf",
+                "state": {
+                  "type": "tag",
+                  "state": {
+                    "sortOrder": "alphabetical",
+                    "useHierarchy": true
+                  }
+                }
+              },
+              {
+                "id": "3279d6c55a6ec62c",
+                "type": "leaf",
+                "state": {
+                  "type": "advanced-tables-toolbar",
+                  "state": {}
+                }
+              },
+              {
+                "id": "14ca63461016b643",
+                "type": "leaf",
+                "state": {
+                  "type": "git-view",
+                  "state": {}
+                }
+              }
+            ],
+            "currentTab": 5
+          },
+          {
+            "id": "4c6142e30c7eb0ee",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "37e4f775598626bb",
+                "type": "leaf",
+                "state": {
+                  "type": "localgraph",
+                  "state": {
+                    "file": "Daily Notes/2023-03-25.md",
+                    "options": {
+                      "collapse-filter": true,
+                      "search": "",
+                      "localJumps": 1,
+                      "localBacklinks": true,
+                      "localForelinks": true,
+                      "localInterlinks": false,
+                      "showTags": false,
+                      "showAttachments": false,
+                      "hideUnresolved": false,
+                      "collapse-color-groups": true,
+                      "colorGroups": [],
+                      "collapse-display": true,
+                      "showArrow": false,
+                      "textFadeMultiplier": 0,
+                      "nodeSizeMultiplier": 1,
+                      "lineSizeMultiplier": 1,
+                      "collapse-forces": true,
+                      "centerStrength": 0.518713248970312,
+                      "repelStrength": 10,
+                      "linkStrength": 1,
+                      "linkDistance": 250,
+                      "scale": 0.9470058703478036,
+                      "close": true
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "horizontal",
+        "width": 330.5
+      },
+      "left-ribbon": {
+        "hiddenItems": {
+          "markdown-importer:Open format converter": false,
+          "daily-notes:Open today's daily note": false,
+          "graph:Open graph view": false,
+          "switcher:Open quick switcher": true,
+          "canvas:Create new canvas": false,
+          "templates:Insert template": true,
+          "command-palette:Open command palette": true,
+          "random-note:Open random note": true,
+          "audio-recorder:Start/stop recording": false,
+          "workspaces:Manage workspace layouts": false,
+          "table-editor-obsidian:Advanced Tables Toolbar": true,
+          "obsidian-excalidraw-plugin:New Excalidraw drawing": true,
+          "templater-obsidian:Templater": true
+        }
+      },
+      "active": "37e4f775598626bb"
+    }
+  },
+  "active": "Uni"
+}

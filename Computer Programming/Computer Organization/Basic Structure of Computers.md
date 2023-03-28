@@ -110,6 +110,7 @@ To represent a signed number in 2's-complement form using a larger number of bit
 # Historical Perspective
 ## The First Generation
 - programs and their data located in the same memory
+- Assembly language prepared programs
 - vacuum tube technology to implement logic functions
 - I/O functions performed by devices similar to typewriters
 - magnetic core memories and magnetic tape storage devices were developed

@@ -5,7 +5,7 @@ Created: 2023-03-06 19:07:04
 (Links:: [[Computer Organization]])
 # Some Fundamental Concepts
 - processor fetches one instruction at a time and performs the operation
-- instructions are fetched from successive meory locations until a branch or jump instruction is encounterd
+- instructions are fetched from successive memory locations until a branch or jump instruction is encounterd
 - processor uses *program counter* to keep track of the address of the next instruction
   After fetch, PC is updated
 - instruction is placed in *instruction register*: interpreted, or decoded by control circuitry

@@ -123,6 +123,13 @@ Created: 2023-03-19 16:31:40
 - high density, little power supply voltage and consume less power
 - attractive for use in portable, battery-powered equipment
 # Direct Memory Access
+- transfer blocks of data directly between the main memory and I/O devices without continuous intervention by the processor (DMA controller)
+- DMA controller: performs functions (normally by processor) when accessing main memory
+	- provide memory address for each word transferred
+	- generates control signals needed
+	- increments memory address for successive words
+	- keeps track of number of transfers
+- processor sends starting address, number of words, and direction of transfer to DMA controller -> raises interrupt when finished
 # Memory Hierarchy
 - [[Memory hierarchy.png]]
 - registers are at the top in terms of speed of access
@@ -162,11 +169,20 @@ Created: 2023-03-19 16:31:40
 	- high-order 5 *tag* bits: identify one of the 32 main memory blocks mapped into the current cache position
 - high-order 5 bits of address are compared with tag bits associated with cache location
 	- match -> desired word is in block of the cache
+
+> [!tip] Calculating memory address bits
+> $$\text{Word bits}=log_2(\text{Words in a block})=log_2\left(\frac{\text{Bytes per block}}{\text{Bytes per Word}}\right)$$
+> $$\text{Block bits}=log_2(\text{Blocks in cache})$$
+> $$\text{Tag bits}=log_2\left(\frac{\text{Blocks in memory}}{\text{Blocks in cache}}\right)$$
 ### Associative Mapping
 - any memory block can be put into any cache block
 - high-order 12 bits used to compare memory address with cache address
 - replacement only when cache is full
 - parallel search of the cache: *associative search* 
+
+> [!tip] Calculating memory address bits
+> $$\text{Word bits}=log_2(\text{Words in a block})=log_2\left(\frac{\text{Bytes per block}}{\text{Bytes per Word}}\right)$$
+> $$\text{Tag bits}=log_2(\text{Blocks in memory})$$
 ### Set-Associative Mapping
 - blocks of cache grouped into sets
 - block may be placed in a specific set
@@ -178,6 +194,14 @@ Created: 2023-03-19 16:31:40
 > - 6-bit set field in the address determines which set of the cache might contain the desired block
 
 - a cache that has $k$ blocks per set is referred to as a $k$-way set-associative cache
+
+> [!tip] Calculating memory address bits
+> $$\text{Word bits}=log_2(\text{Words in a block})=log_2\left(\frac{\text{Bytes per block}}{\text{Bytes per Word}}\right)$$
+> $$\text{Set bits}=log_2(\text{Sets in cache})$$
+> $$\text{Tag bits}=log_2\left(\frac{\text{Blocks in memory}}{\text{Sets in cache}}\right)$$
+
+> [!tip] Sets in cache
+> $$\text{Sets in cache}=\frac{\text{Bytes in the cache}}{\text{Bytes per Block}\times K}$$
 ### Stale Data
 - *valid bit*: indicates whether data in the block is valid
 	- initially set to 0 when power is applied 
@@ -197,7 +221,66 @@ Created: 2023-03-19 16:31:40
 		- all other counters incremented
 	- counter with value 3 removed (cache miss, set is full)
 - small amount of randomness in deciding with block to replace can improve performance
+# Performance Considerations
+## Hit Rate and Miss Penalty
+- *hit rate*: number of hits stated as a fraction of all attempted accesses
+- performance affected by actions that need to be taken when a miss occurs
+- *miss penalty*: total access time seen by the processor when a miss occurs
+- $h$: hit rate
+  $M$: Miss penalty
+  $C$: time to access information in the cache
+$$t_{avg}=hC+(1-h)M$$
 
+> [!example]+ 
+> - access times to cache and main memory are $\uptau$ and $10\uptau$ respectively
+> - block of 8 words transferred in $10\uptau$ and remaining 7 words transferred at one word every $\uptau$ seconds
+> - miss penalty and load word from cache into processor take $\uptau$ each
+> - Miss penalty: $$M=\uptau + 10\uptau + 7\uptau + \uptau=19\uptau$$
+> - 30 percent are Read and Write operations -> 130 memory access per 100 instructions
+> - hit rates for instruction is 0.95 and 0.9 for data
+> - Memory performance improvement: $$\frac{\text{Time without cache}}{\text{Time with cache}}=\frac{130 \times 10\uptau}{100(0.95\uptau+0.05\times19\uptau)+30(0.9\uptau+0.1\times 19\uptau)}=4.7$$
+> - Increase in memory access time caused by misses in the cache: $$\frac{\text{Time for real cache}}{\text{Time for ideal cache}}=\frac{100(0.95\uptau+0.05\times 19\uptau)+30(0.9\uptau+0.1\times 19\uptau)}{130\uptau}=2.1$$
+
+## Caches on the Processor Chip
+- two separate L1 caches, one for instructions and another for data
+- larger L2 cache
+- L1 are very fast -> determine memory access time seen by the processor
+- L2 are larger to ensure high hit rate
+- average access time experienced by a processor with L2 cache: $$t_{avg}=h_1C_1+(1-h_1)(h_2C_2+(1-h_2)M)$$
+
+## Other Enhancements
+- **Write Buffer**: 
+	- write-through allows Write operatio to write value into main memory
+	- processor places each Write request into buffer and continues execution
+	- contents of Write buffer sent to main memory when not in responding to Read requests
+	- read request might refer to data in Write buffer -> address of data read from memory compared with addresses fo data in Write buffer
+	- new block has to be brought into cache -> dirty block in cache might be overwriten -> stored in Write buffer temporarily so new block can be read
+	- contents of buffer are written into main memory
+- **Prefetching**:
+	- avoid stalling processor by prefetching data into cache before they are needed
+	- prefetching takes place while processor is busy executing instructions that do not result in a Read miss
+	- prefech instructions increase length of programs
+	- prefetched data will not be used if ejected from cache by Read miss involving other data
+- **Lockup-Free Cache**: 
+	- servicing a miss causes cache to be locked
+	- *lockup-free*: cache supports multiple outstanding misses -> additional circuitry must keep track of misses
+
+# Virtual Memory
+- the processor references instructions and data in an address space that is independent of the available physical
+- binary addresses are called *virtual* or *logical addresses*
+	- converted into physical addresses by combination of hardware and software actions
+	- *Memory Management Unit* keeps track of which parts of the virtual address space are in main memory
+	- *MMU* translates virtual address into physical address
+## Address Translation
+- all programs and data are composed of fixed-length units called *pages* (2K to 16K bytes)
+- data hard to locate (large size) but can be transferred at a rate of several megabytes per second
+- each virtual address is interpreted as a *virtual page number* followd by an *offset* (location of byte/word within page)
+- location of pages kept in *page table* in memory
+- page table includes memory location of *page frame* (location in main memory which stores a page) and status of page
+- *page table base register* points to the starting address of the table
+- status bit shows if page has been changed and needs to be stored in main memory before being replaced
+### Translation Lookaside Buffer
+- 
 
 ---
 References:

@@ -27,7 +27,6 @@ Tags: MOC course
 - [[The Memory System]]
 - [[Pipelining]]
 - [[Parallel Processing and Performance]]
-- [[Assembler Directives]]
 - [[Instruction set reference]]
 - [[Reference documentation]]
 # Lectures

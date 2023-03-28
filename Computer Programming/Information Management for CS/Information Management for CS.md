@@ -7,6 +7,7 @@ Tags: MOC course
 - [[Information Management for CS Structure]]
 - [[Information Management Study Instructions]]
 # Assignments
+- [[Crowdfunding process]]
 # Topics
 ## Business Information Systems
 - [[Information Systems]]
@@ -23,6 +24,7 @@ Tags: MOC course
 	- [[Roles of Models]]
 - [[Basic Concepts of Petri Nets]]
 - [[Application of Petri Nets]]
+- [[Analyzing Petri Net Models]]
 # Lectures
 - [[Information Management Lecture 1|Lecture 1]]
 # Extras
