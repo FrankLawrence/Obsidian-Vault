@@ -108,9 +108,46 @@ Created: 2023-03-22 22:42:40
 - *instruction throughput*: number of instructions executed per second $$P_{np}=\frac RS$$
 - idealy a new instruction is fetched every clock cycle -> through put with pipelining $$P_p=R$$
 ## Effects of Stalls and Penalties
-- assueme that Load instructions consitute 25% of the dynamic instruction count, and that 40% of these Load instructions are followed by a dependent instruction
+- assume that Load instructions consitute 25% of the dynamic instruction count, and that 40% of these Load instructions are followed by a dependent instruction
 	- increase over the ideal case of $S=1$: $$\delta_{\text{stall}}=0.25\times 0.40\times 1 =0.10$$
-	- 
+	- throughput reduced to: $$P_p=\frac{R}{1+\delta_{\text{stall}}}=\frac{R}{1.1}=0.91R$$
+	- stall eliminated when nearby instruction is put between Load instruction and dependent instruction
+- increase over the ideal case of $S=1$ due to cache misses: $$\delta_{\text{miss}}=(m_i+d\times m_d)\times p_m$$
+  $m_i$: fraction of all instructions that are fetched incur cache miss
+  $d$: fraction of all instructions are Load or Store instructions
+  $m_d$: fraction of Load/Store inst. incur cache miss
+  $p_m$: cycles stalled
+
+## Number of Pipeline Stages
+- Increasing the number of pipeline stages can improve instruction throughput, but also lead to more potential dependencies and branch penalties that reduce its benefits.
+- ALU delay is an important factor that affects the processor clock cycle time.
+- Using a pipelined ALU and a long pipeline (20+ stages) can aggressively reduce the cycle time and enable clock rates of several GHz.
+
+# Superscalar Operation
+- multiple execution units -> handle several instructions in parallel
+- *multiple-issue*: several instructions started at the same time in different units
+- *fetch unit*: fetches multiple instructions in one cycle
+- *dipatch unit*: decodes instructions in queue and sends them to appropriate execution units
+- [[A superscalar processor with two execution units.png]]
+## Branches and Data Dependencies
+- *speculative execution*: subsequent instructions based on an unconfirmed prediction are fetched, dispatched, and possibly executed but labeld as being speculative
+- wait until validation
+- on false prediction, fetch and dispatch correct instruction
+- when an instruction is dispatched to an execution unti, it is buffered (in *reservation stations*) until all necessary results from other instructions have been generated
+- reservation stations save result of execution unit and tag them
+- other buffered reservation stations copy value for their own instruction
+- compiler should space arithmetic and memory instructions apart so there is on data dependency
+## Out-of-Order Execution
+- *imprecise exceptions*: instruction causes exception (unaligned memory access), and succeeding instruction modifies destination register
+- results of execution of instructions must be written into destination locations strictly in program order (first $I_j$ then $I_{j+1}$)
+- results retained by execution unit itself or buffered in temporary register
+## Execution Completion
+- To improve performance, execution units should execute instructions with ready operands out-of-order but complete them in program order to allow precise exceptions
+- Results are written into temporary registers and later transferred to permanent registers in correct program order during the commitment step
+- *Register renaming* allows multiple temporary registers to be allocated for different permanent registers.
+- The *commitment unit* guarantees in-order commitment using a separate queue called the *reorder buffer*
+- Instructions are dispatched for execution in program order, and when completed, results are transferred from temporary to permanent registers and the instruction is removed from the queue
+- Instructions complete execution out-of-order but are retired in program order
 
 ---
 References:

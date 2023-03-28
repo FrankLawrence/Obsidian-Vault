@@ -27,11 +27,11 @@ Created: 2022-11-30 14:21:26
 		  -> Neutron Star
 
 - Was kann man bei den Sternen beobachten bzw. klassifizieren
-	- [[Formel#^e30e9c|Helligkeiten]]
+	- [[Formel#^841b8f|Helligkeiten]]
 		- scheinbare Helligkeit $m$
 		- absolute Helligkeit $M$
 		- Leuchtkraft $L$
-	- [[Formel#^fe4cab|Farbe]]
+	- [[Formel#^089a35|Farbe]]
 		- Temperatur $\lambda\cdot T=0,29cmK$ (WVG)
 		- Spektralklasse
 

@@ -20,7 +20,7 @@ ___
 ## Magnetfeld einer Zylinderspule
 - Wenn durch eine lange Zylinderspule ein elektrischer Strom fließt, dann herrscht im Innenraum der Spule ein homogenes magnetisches Feld. Die Feldlinien verlaufen dort parallel zur Zylinderachse.
 - Die Orientierung des magnetischen Feldes kann man mit der zweiten Rechte-Faust-Regel bestimmen.
-- Berechnung der Magnetischen Feldstärke mit: ![[Formelsammlung#^410e4f]]
+- Berechnung der Magnetischen Feldstärke mit: ![[Formelsammlung#^e33256]]
 
 ## Bestimmung der magnetischen Kraft auf ein stromdurchflossenes Leiterstück
 Herrscht an einem Punkt ein magnetisches Feld mit bekannter Richtung, Orientierung und bekanntem Betrag $B$ und befindet sich an diesem Punkt ein Leiterstück der Länge $l$, durch das ein Strom der Stärke $I$ fließt, dann kann man …

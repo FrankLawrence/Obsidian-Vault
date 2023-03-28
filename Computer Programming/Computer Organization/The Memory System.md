@@ -151,8 +151,8 @@ Created: 2023-03-19 16:31:40
 ### Cache Hits
 - processor doesn't know if data is memory or cache -> if the requested data is in cache: *read* or *write hit*
 - Write operation
-	- *write-through*: cache location and main memory location are updated
-	- *write-back*: update cache location with *dirty/modified bit* and update main memory once block is removed from cache
+	- *write-through*: cache location and main memory location are updated ^74f904
+	- *write-back*: update cache location with *dirty/modified bit* and update main memory once block is removed from cache ^e84a34
 - write-through easier to implement than write-back but unneccesary
 ### Cache Misses
 - word is not in the cache -> *read miss*
@@ -280,7 +280,20 @@ $$t_{avg}=hC+(1-h)M$$
 - *page table base register* points to the starting address of the table
 - status bit shows if page has been changed and needs to be stored in main memory before being replaced
 ### Translation Lookaside Buffer
-- 
+- small portion of the table (most recently accessed pages) mantained inside MMU called TLB
+- works the same as a memory and it's cache (virtuall address hit and misses)
+## Page Faults
+- *page fault*: program generates an access request to a page that is not in the main memory
+- processing of program is interrupted by MMU 
+- other program is executed while page is fetched from disk into main memory
+- Two options to ensure the interrupted program continues correctly: continue from the point of interruption or restart the instruction
+- Choosing which page to remove is critical when a new page is brought from the disk
+	- LRU replacement algorithm can be applied to page replacement
+	- Control bits in page table entries can be used to record usage history
+- Modified page has to be written back to disk before being removed from main memory
+	- Write-through protocol is not suitable for virtual memory since writing small changes takes too long
+- Looking up entries in the TLB introduces delay
+- Keeping recently used TLB entries in special registers can reduce address translation time
 
 ---
 References:

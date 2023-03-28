@@ -24,6 +24,8 @@ Created: 2022-11-30 03:30:57
 > $m_{\Theta}=-26,7$
 > $M_\Theta =4,8$
 
+^841b8f
+
 > [!Formula] Strahlungsgesetzte
 > Stefan-Boltzmann-Gesetz $$P=\sigma\cdot A\cdot T^4$$
 > Wiensches Verschiebungsgesetz $$\lambda\cdot T=0,29cmK$$
@@ -31,6 +33,8 @@ Created: 2022-11-30 03:30:57
 > Quadratisches Abstandsgesetz $$I\sim\frac{1}{r^2}$$
 > Solarkonstante $$S_E=1367\frac{W}{m^2}$$
 > Leuchtkraft der Sonne $$L_\Theta=3,83\cdot 10^{26}W$$ $$T_\Theta = 5800K$$
+
+^089a35
 
 ---
 References:

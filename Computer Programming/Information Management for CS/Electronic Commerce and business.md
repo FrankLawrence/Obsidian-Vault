@@ -4,7 +4,7 @@ Created: 2023-02-28 16:40:13
 ---
 (Links:: [[Information Management for CS]])
 > [!question]
-> - [[Electronic Commerce and business#^ba1120|What does the term e-commerce refer to?]]
+> - [[Electronic Commerce and business#^da1b78|What does the term e-commerce refer to?]]
 > - [[Electronic Commerce and business#E-commerce - key features|How can e-commerce be characterized in terms of key features?]]
 > - [[Electronic Commerce and business#Conducting business over the Internet|What does it mean to conduct business over the Internet?]]
 > - [[Electronic Commerce and business#E-commerce business models|Which e-commerce business models do exist and when should they be applied?]]
@@ -38,6 +38,8 @@ Created: 2023-02-28 16:40:13
 # E-commerce - key features
 > [!definition]+ E-commerce
 > > *any exchange of information or business transaction that is facilitated by the use of information and communications technologies*
+
+^da1b78
 
 Three categories of e-commerce systems:
 1. **Electronic markets**:

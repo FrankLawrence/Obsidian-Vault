@@ -43,6 +43,9 @@ Winkelgeschwindigkeit: $$\omega=2\pi f$$
 $$F_z=\frac{mv^2}{r}=m4\pi^2rf^2$$
 
 ## Elektrisches und magnetisches Feld/Stromkreise/Induktion
+
+^88241c
+
 > [!Formula]
 $$I=\frac qt$$
 
@@ -68,6 +71,8 @@ $$F=\frac{1}{4\pi\varepsilon_0}\cdot \frac{q_1q_2}{r^2}$$
 > [!Formula]- Magnetische Flussdichte
 $$B=\frac{F_{Magn}}{I\cdot l}$$
 
+^e33256
+
 
 > [!Formula]- Lorentz-Kraft
 $$F=q\cdot v\cdot B$$
@@ -77,6 +82,8 @@ $$F_{El}=F_{Magn}$$
 $$\vec E q=qvB$$
 $$\frac Udq=qvB$$
 $$\rightarrow U_H = dvB$$
+
+^8b63c0
 
 > [!Formula]- Homogenes elketrisches Feld
 $$U=\frac Eq=\vec E \cdot s=\Delta \varphi$$

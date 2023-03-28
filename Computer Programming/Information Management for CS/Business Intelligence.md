@@ -4,11 +4,13 @@ Created: 2023-02-28 20:29:22
 ---
 (Links:: [[Information Management for CS]])
 > [!question]
-> - [[Business Intelligence#^2d2512|What is business intelligence]] and how it [[Business Intelligence#Key features of business intelligence|adds value to today’s information systems?]]
+> - [[Business Intelligence#^0749fa|What is business intelligence]] and how it [[Business Intelligence#Key features of business intelligence|adds value to today’s information systems?]]
 > - [[Business Intelligence#Business intelligence from analysing data and information|What are different types of tools and techniques to support business intelligence?]]
 # The increasing focus on business intelligence
 > [!definition]+ Business intelligence
 > *the result of applying tools and techniques to the data and information available within and without an organization to facilitate a better understanding of both its environment and its operation and thereby improve the decision-making process*
+
+^0749fa
 
 - take known facts and records available and further process and interrogate them to discover new information
 - crosses over with *knowledge management* -> data already available to the organization is processed to produce information which in turn is futher analysed to produce new knowledge

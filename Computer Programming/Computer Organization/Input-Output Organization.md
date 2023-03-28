@@ -117,6 +117,8 @@ Created: 2023-03-13 23:37:44
 		- adjust active edge to be in the center of bit position
 		- data transmission can continue indefinitely
 		- enables high data transfer rates
+# Interconnection Standards
+# 
 
 ---
 References:
