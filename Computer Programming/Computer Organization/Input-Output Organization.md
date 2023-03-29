@@ -97,7 +97,7 @@ Created: 2023-03-13 23:37:44
 > 	2. set new-data to 1
 > 3. Diaplay sets Ready to 0 and reads data from `DISP_DATA`
 
-### Serial Interface
+## Serial Interface
 - connect processor to I/O devices that transmit data one bit at a time
 - parallel and serial format transformation: shift registers with parallel access capability
 - [[A serial interface.png]]
@@ -118,7 +118,7 @@ Created: 2023-03-13 23:37:44
 		- data transmission can continue indefinitely
 		- enables high data transfer rates
 # Interconnection Standards
-# 
+
 
 ---
 References:
