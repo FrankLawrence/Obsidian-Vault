@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Programming/Computer Organization/Basic Processing Unit.md",
+                "file": "Computer Programming/Information Management for CS/Crowdfunding process.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -21,12 +21,25 @@
             }
           },
           {
-            "id": "4d917e050f349a0e",
+            "id": "dbb20c75efe17d46",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Programming/Computer Organization/Parallel Processing and Performance.md",
+                "file": "Daily Notes/2023-03-30.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "0a6788e9ee9ad562",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Programming/Information Management for CS/Analyzing Petri Net Models.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -34,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -109,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Programming/Computer Organization/Parallel Processing and Performance.md",
+                "file": "Computer Programming/Information Management for CS/Analyzing Petri Net Models.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Programming/Computer Organization/Parallel Processing and Performance.md",
+                "file": "Computer Programming/Information Management for CS/Analyzing Petri Net Models.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +185,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Computer Programming/Computer Organization/Parallel Processing and Performance.md",
+                "file": "Computer Programming/Information Management for CS/Analyzing Petri Net Models.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -225,15 +238,24 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "4d917e050f349a0e",
+  "active": "0a6788e9ee9ad562",
   "lastOpenFiles": [
-    "Computer Programming/Computer Organization/Computer Organization.md",
-    "Computer Programming/Computer Organization/Pipelining.md",
-    "Computer Programming/Computer Organization/Input-Output Organization.md",
+    "Computer Programming/Information Management for CS/Information Management for CS.md",
+    "Daily Notes/2023-03-30.md",
+    "Computer Programming/Information Management for CS/Crowdfunding process.md",
+    "Daily Notes/2023-03-29.md",
+    "Daily Notes/Favorite Songs.md",
+    "Daily Notes/2023-03-28.md",
+    "Daily Notes/2023-03-27.md",
+    "Daily Notes/2023-03-26.md",
+    "Daily Notes/2023-03-25.md",
     "Computer Programming/Computer Organization/The Memory System.md",
+    "Computer Programming/Computer Organization/Computer Organization.md",
+    "Computer Programming/Computer Organization/Parallel Processing and Performance.md",
+    "Computer Programming/Computer Organization/Input-Output Organization.md",
+    "Computer Programming/Computer Organization/Pipelining.md",
     "Computer Programming/Computer Organization/Basic Processing Unit.md",
     "Computer Programming/Computer Organization/A five-stage organization.canvas",
-    "Computer Programming/Computer Organization/Parallel Processing and Performance.md",
     "School Subjects/Physics/Magnetisches Feld.md",
     "Computer Programming/Information Management for CS/Electronic Commerce and business.md",
     "Computer Programming/Information Management for CS/Business Intelligence.md",
@@ -245,14 +267,6 @@
     "School Subjects/GK/Socialstudies  12.2.md",
     "Computer Programming/Data Structures and Algorithms for CS/Data Structures and Algorithms for CS Lecture 13.md",
     "Computer Programming/Logic and Sets/Set Exercises 2.md",
-    "Computer Programming/Data Structures and Algorithms for CS/Data Structures and Algorithms for CS Lecture 12.md",
-    "Computer Programming/Data Structures and Algorithms for CS/Data Structures and Algorithms for CS Lecture 2.md",
-    "Computer Programming/Data Structures and Algorithms for CS/Data Structures and Algorithms for CS Lecture 4.md",
-    "Computer Programming/Data Structures and Algorithms for CS/Data Structures and Algorithms for CS Lecture 6.md",
-    "Computer Programming/Computer Organization/CO Chapter 9.md",
-    "Computer Programming/Computer Organization/Introduction Set Architecture.md",
-    "Computer Programming/Computational Thinking for Coders/Exam Prop CT.md",
-    "Computer Programming/Computational Thinking for Coders/Module 4.md",
     "Files/Crossbar interconnection network.png",
     "Files/Ring-based interconnection networks.png",
     "Files/A superscalar processor with two execution units.png",

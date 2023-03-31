@@ -74,7 +74,7 @@ Created: 2023-03-28 17:11:39
 - distribute memory across multiple modules for simultaneous access from processors
 - *Uniform Memory Access*: system which has same network latency for all accesses from the processors to the memory modules
 - *Non-Uniform Memory Access*: place a memory module close to each processor for better performance -> collection of *nodes*
-	- request to access a remote memory module must pass trough the network
+	- request to access a remote memory module must pass through the network
 ## Interconnection Networks
 - *bandwidth*: capacity of transmission link to transfer data (carries control information that coordinates transfer of data)
 - *effective throughput*: actual rate of data transfer

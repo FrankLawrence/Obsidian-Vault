@@ -66,26 +66,36 @@ Here are some additional steps that could be part of the process for developing 
 3. Testing and quality assurance: Once the development team begins developing the product, they should conduct thorough testing and quality assurance to ensure that the product is functioning properly and meets the desired specifications. This could involve testing the product under various conditions, such as different environments or user scenarios.
 4. Manufacturing and distribution: Once the final product has been completed, it needs to be manufactured and distributed to retailers or directly to customers. This could involve coordinating with manufacturers and logistics companies to ensure that the product is produced and delivered efficiently and cost-effectively.
 5. Post-launch monitoring and support: After the product has been launched, the team should monitor its performance and gather feedback from customers to identify any issues or areas for improvement. They should also provide ongoing support to customers, such as technical assistance or troubleshooting, to ensure that they are satisfied with the product.
-## Meaning of tokens, transitions and places
-In the given process of developing a new product, a Petri net system can be used to model the workflow. In this system, places, transitions, and tokens can have specific meanings:
-
-1. Places: Places represent states or locations in the process where something happens or is stored. In the product development process, some examples of places could include:
-	- Initial Idea: The place where the initial idea for the product is generated.
-	- Design Proposal: The place where the proposed design is created by the design team.
-	- Platform Selection: The place where the marketing team selects the crowdfunding platform.
-	- Campaign Creation: The place where the marketing team creates the crowdfunding campaign.
-	- Development: The place where the development team creates the final product.
-2. Transitions: Transitions represent actions or events that occur in the process. In the product development process, some examples of transitions could include:
-	- Design Approval: The transition that occurs when the product team approves the proposed design.
-	- Funding Goal: The transition that occurs when the funding goal is set for the crowdfunding campaign.
-	- Campaign Launch: The transition that occurs when the crowdfunding campaign is launched.
-	- Product Release: The transition that occurs when the final product is released to the public.
-3. Tokens: Tokens represent the flow of resources or information between places and transitions. In the product development process, some examples of tokens could include:
-	- Idea Token: The token that flows from the Initial Idea place to the Design Proposal place.
-	- Design Token: The token that flows from the Design Proposal place to the Design Approval transition.
-	- Funding Token: The token that flows from the Platform Selection place to the Funding Goal transition.
-	- Development Token: The token that flows from the Funding Goal transition to the Development place.
-By using a Petri net system to model the product development process, the team can better understand the flow of resources and information and identify potential bottlenecks or areas for improvement.
+# Transition state diagram 2
+```mermaid
+graph TD;
+A[Product Idea] --> B[Product blueprint]
+A --> A
+B --> A
+B --> C[Development planned]
+C --> D[Budget created]
+D --> E1[Equity]
+D --> E2[Reward]
+D --> E3[Donation]
+E1 --> F[Platform chosen]
+E2 --> F
+E3 --> F
+F --> G1[Marketing team hired]
+F --> G2[Campaign created]
+G1 --> G2
+G2 --> H[Campaign promoted]
+H --> I1[Funding reached]
+H --> I2[Funding unsuccessful]
+I2 --> A
+I2 --> G2
+I1 --> J[Start development]
+J --> K[Inform backers]
+K --> L[Beta prodcut]
+L --> K
+K --> M1[Reward backers]
+K --> M2[Product release]
+M1 --> M2
+```
 
 ---
 References:

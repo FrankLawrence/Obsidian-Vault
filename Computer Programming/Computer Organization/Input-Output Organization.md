@@ -19,7 +19,7 @@ Created: 2023-03-13 23:37:44
 		- control lines carry timing information
 - one device play role of *master* in any data transfer: issues read or write commands to bus
 ## Synchronous Bus
-- devices derive timing information from conrol line: *bus clock*
+- devices derive timing information from control line: *bus clock*
 - some lines are high, some low depending on the particular address or data values being transmitted
 - signals half-way between low and high signal should be ignored
 

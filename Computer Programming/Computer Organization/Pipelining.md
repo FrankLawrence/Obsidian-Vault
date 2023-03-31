@@ -65,7 +65,7 @@ Created: 2023-03-22 22:42:40
 - [[Instruction address generator.png]] must be modified:
 	- second adder needed in decode stage to compute branch address
 	- if instruction decoder decides there is a branch -> target address is ready before end of the cycle 
-	- fetch target instructino in next cycle
+	- fetch target instruction in next cycle
 ## Conditional Branches
 - comparator that tests branch condition can be moved to decode stage
 	- conditional branch decision made at same time that the target address is determined
@@ -98,8 +98,8 @@ Created: 2023-03-22 22:42:40
 	- branch target address
 - processor checks the branch target buffer for an entry containing the same instruction address -> use state bits to predict whether branch is likely to be taken
 # Resource Limitations
-- instruction stalls occur if theres only 1 cache that supports only one access per cycle
-- Fetch stage accesses cache every cyclye -> Load or Store instruction stalls fetch
+- instruction stalls occur if there's only 1 cache that supports only one access per cycle
+- Fetch stage accesses cache every cycle -> Load or Store instruction stalls fetch
 - using separate caches for instructions and data allows fetch and memory stages to proceed simultaneously
 # Performance Evaluation
 - *basic performance equation*: execution time of a program has a dynamic instruction count of $N$ is given by $$T=\frac{N\times S}{R}$$
