@@ -4,50 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "faa18ebe7b06f387",
+        "id": "6be71f77af5ccde3",
         "type": "tabs",
         "children": [
           {
-            "id": "0f969bf3a755c6d2",
+            "id": "a088dee6fc410408",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Programming/Information Management for CS/Crowdfunding process.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "dbb20c75efe17d46",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Daily Notes/2023-03-30.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "0a6788e9ee9ad562",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Programming/Information Management for CS/Analyzing Petri Net Models.md",
+                "file": "Computer Programming/Computer Organization/Computer Organization.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Programming/Information Management for CS/Analyzing Petri Net Models.md",
+                "file": "Computer Programming/Computer Organization/Computer Organization.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Programming/Information Management for CS/Analyzing Petri Net Models.md",
+                "file": "Computer Programming/Computer Organization/Computer Organization.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +158,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Computer Programming/Information Management for CS/Analyzing Petri Net Models.md",
+                "file": "Computer Programming/Computer Organization/Computer Organization.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -238,35 +211,35 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "0a6788e9ee9ad562",
+  "active": "a088dee6fc410408",
   "lastOpenFiles": [
-    "Computer Programming/Information Management for CS/Information Management for CS.md",
-    "Daily Notes/2023-03-30.md",
-    "Computer Programming/Information Management for CS/Crowdfunding process.md",
-    "Daily Notes/2023-03-29.md",
-    "Daily Notes/Favorite Songs.md",
-    "Daily Notes/2023-03-28.md",
-    "Daily Notes/2023-03-27.md",
-    "Daily Notes/2023-03-26.md",
-    "Daily Notes/2023-03-25.md",
-    "Computer Programming/Computer Organization/The Memory System.md",
-    "Computer Programming/Computer Organization/Computer Organization.md",
     "Computer Programming/Computer Organization/Parallel Processing and Performance.md",
+    "Computer Programming/Computer Organization/Computer Organization.md",
+    "Computer Programming/Computer Organization/The Memory System.md",
     "Computer Programming/Computer Organization/Input-Output Organization.md",
     "Computer Programming/Computer Organization/Pipelining.md",
     "Computer Programming/Computer Organization/Basic Processing Unit.md",
+    "Computer Programming/Computer Organization/The Intel IA-32 Architecture.md",
+    "Computer Programming/Information Management for CS/Information Management for CS.md",
+    "Computer Programming/Information Management for CS/Analyzing Petri Net Models.md",
+    "Computer Programming/Information Management for CS/Basic Concepts of Petri Nets.md",
+    "Daily Notes/2023-04-03.md",
+    "Daily Notes/2023-04-09.md",
+    "Daily Notes/2023-04-08.md",
+    "Daily Notes/2023-04-07.md",
+    "Daily Notes/2023-04-06.md",
+    "Daily Notes/2023-04-05.md",
+    "Daily Notes/2023-04-04.md",
+    "Daily Notes/2023-04-02.md",
+    "Daily Notes/2023-04-01.md",
+    "Daily Notes/2023-03-31.md",
+    "Daily Notes/2023-03-30.md",
+    "Daily Notes/2023-03-29.md",
+    "Computer Programming/Information Management for CS/Crowdfunding process.md",
+    "School Subjects/Math/Math🧮.md",
+    "School Subjects/Math/Funktionscharen.md",
+    "Daily Notes/Favorite Songs.md",
     "Computer Programming/Computer Organization/A five-stage organization.canvas",
-    "School Subjects/Physics/Magnetisches Feld.md",
-    "Computer Programming/Information Management for CS/Electronic Commerce and business.md",
-    "Computer Programming/Information Management for CS/Business Intelligence.md",
-    "Interests/Astronomy/Sterne.md",
-    "Personal/PKM/Learn How to Study Effectively.md",
-    "Interests/Programming/MathJax Basic Tutorial.md",
-    "School Subjects/Physics/Formelsammlung.md",
-    "School Subjects/History/Nachkriegszeit.md",
-    "School Subjects/GK/Socialstudies  12.2.md",
-    "Computer Programming/Data Structures and Algorithms for CS/Data Structures and Algorithms for CS Lecture 13.md",
-    "Computer Programming/Logic and Sets/Set Exercises 2.md",
     "Files/Crossbar interconnection network.png",
     "Files/Ring-based interconnection networks.png",
     "Files/A superscalar processor with two execution units.png",

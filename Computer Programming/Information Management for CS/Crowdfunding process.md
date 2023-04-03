@@ -67,34 +67,33 @@ Here are some additional steps that could be part of the process for developing 
 4. Manufacturing and distribution: Once the final product has been completed, it needs to be manufactured and distributed to retailers or directly to customers. This could involve coordinating with manufacturers and logistics companies to ensure that the product is produced and delivered efficiently and cost-effectively.
 5. Post-launch monitoring and support: After the product has been launched, the team should monitor its performance and gather feedback from customers to identify any issues or areas for improvement. They should also provide ongoing support to customers, such as technical assistance or troubleshooting, to ensure that they are satisfied with the product.
 # Transition state diagram 2
+\n
 ```mermaid
 graph TD;
 A[Product Idea] --> B[Product blueprint]
 A --> A
 B --> A
 B --> C[Development planned]
-C --> D[Budget created]
+C --> D[Budget determined]
 D --> E1[Equity]
 D --> E2[Reward]
-D --> E3[Donation]
 E1 --> F[Platform chosen]
 E2 --> F
-E3 --> F
 F --> G1[Marketing team hired]
 F --> G2[Campaign created]
 G1 --> G2
 G2 --> H[Campaign promoted]
 H --> I1[Funding reached]
 H --> I2[Funding unsuccessful]
-I2 --> A
+I2 --> N[Project abandoned]
 I2 --> G2
 I1 --> J[Start development]
 J --> K[Inform backers]
-K --> L[Beta prodcut]
-L --> K
-K --> M1[Reward backers]
-K --> M2[Product release]
-M1 --> M2
+K --> M2[Reward backers]
+K --> M3[Present product]
+M2 --> M1[Product release]
+M3 --> P[Product launch]
+P --> O[Shareholders paid]
 ```
 
 ---
