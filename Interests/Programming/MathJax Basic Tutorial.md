@@ -68,7 +68,7 @@ To set plain text, use `\text{...}`: $\{x \in s \mid x \text{ is extra large} \}
 	   \end{matrix}
    $$
    MathJax will adjust the sizes of the rows and columns so that everything fits.
-2. To add brackets, either use `\left...\rigth` as in [[MathJax Basic Tutorial#^a09317|section 4]] of the tutorial, or repalce `matirx` with `pmatrix` $\begin{pmatrix}1 & 2 \\ 3 & 4 \\\end{pmatrix}$, `bmatrix`$\begin{bmatrix}1 & 2 \\ 3 & 4 \\\end{bmatrix}$, `Bmatrix`$\begin{Bmatrix}1 & 2 \\ 3 & 4 \\\end{Bmatrix}$,`vmatrix`$\begin{vmatrix}1 & 2 \\ 3 & 4 \\\end{vmatrix}$,`Vmatrix`$\begin{Vmatrix}1 & 2 \\ 3 & 4 \\\end{Vmatrix}$.
+2. To add brackets, either use `\left...\right` as in [[MathJax Basic Tutorial#^a09317|section 4]] of the tutorial, or replace `matrix` with `pmatrix` $\begin{pmatrix}1 & 2 \\ 3 & 4 \\\end{pmatrix}$, `bmatrix`$\begin{bmatrix}1 & 2 \\ 3 & 4 \\\end{bmatrix}$, `Bmatrix`$\begin{Bmatrix}1 & 2 \\ 3 & 4 \\\end{Bmatrix}$,`vmatrix`$\begin{vmatrix}1 & 2 \\ 3 & 4 \\\end{vmatrix}$,`Vmatrix`$\begin{Vmatrix}1 & 2 \\ 3 & 4 \\\end{Vmatrix}$.
 3. use `\cdots`$\cdots$`\ddots`$\ddots$`\vdots`$\vdots$ when you want to omit some of the entries:
     $$
 	   \begin{pmatrix}
@@ -86,7 +86,7 @@ To set plain text, use `\text{...}`: $\{x \in s \mid x \text{ is extra large} \}
  \end{array}
  \right] 
    $$
-   The `cc|c` si the crucial part here; it says that there are three centered columns with a vertical bar between the secong and third.
+   The `cc|c` is the crucial part here; it says that there are three centered columns with a vertical bar between the secong and third.
 5. For vertically "augmented" matrices, use `\hline`. For example
    $$
    \begin{pmatrix}

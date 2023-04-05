@@ -17,6 +17,9 @@ Created: 2022-09-06 09:35
 - [[Computer Organization]]
 - [[Information Management for CS]]
 ## P5
+- [[Computer Networks]]
+- [[Networks and Graphs]]
+- [[Linear Algebra]]
 ## P6
 ___
 References:
