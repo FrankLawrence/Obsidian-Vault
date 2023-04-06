@@ -4,7 +4,7 @@ Created: 2022-12-16 12:52:24
 ---
 (Links:: [[Logic and Sets]])
 - A function *$f:A\to B$* is a binary relation of type $A\times A$ such that every $x\in A$ relates to at most one $y\in B$
-  *Notation:* $f(x)=y \qquad\Longleftrightarrow \langle x, y \rangle \in F$
+  *Notation:* $f(x)=y \quad\Longleftrightarrow\quad \langle x, y \rangle \in F$
 - *domain* A
 - *codomain* B
 - *domain of definition* $D_f := \{x\in A: f(x)=y \text{ for }y \in B\}$
@@ -22,7 +22,7 @@ Example:
 $f:R\to\{y:y\geq 0\}$ with $f(x) = |3x-1|$
 - not injective
 - surjective
-$g:Z\to N$ with $g(x) = |3x-1|$
+$g:\Bbb Z\to\Bbb N$ with $g(x) = |3x-1|$
 - injective
 - not surjective
 ## Composition of functions

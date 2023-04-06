@@ -11,7 +11,7 @@ Created: 2022-12-19 16:59:01
 - we have a every type of unlimited number of coins available
 - we have $k$ types of coins $c_1 < c_2 < ... < c_k$
 - $c_1 =1$
-- we aim to find $x_1, ...,x_k\in N$ such that
+- we aim to find $x_1, ...,x_k\in \Bbb N$ such that
   $\sum_{i=1}^kx_ic_i=W$ we make exactly $W$
   $\sum_{i=1}^kx_i$ minimal with the least possible number of coins
 ### Greedy approach

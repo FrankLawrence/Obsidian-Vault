@@ -41,7 +41,7 @@ Created: 2023-03-13 00:34:43
 	- if there are $k$ arcs from a place to a transition, we consider this as an arc whose multiplicity if $k$
 
 > [!definition] Petri net with arc mulltiplicites
-> $(P,T,F,w)$ consists of a Petri net $(P,T,F)$ and a weight function $w:(P\times T)\cup (T\times P) \to N$. A transition $t\in T$ is *enabled at marking* $m:P\to N$ if and only if for all $p\in \, ^\bullet t, m(p)\leq w((p,t))$. An enabled transition $t$ can *fire* yielding a new marking $m':P\to N$, where for all $p\in P,m'(p)=m(p)-w((p,t))+w((t,p))$.
+> $(P,T,F,w)$ consists of a Petri net $(P,T,F)$ and a weight function $w:(P\times T)\cup (T\times P) \to \Bbb N$. A transition $t\in T$ is *enabled at marking* $m:P\to \Bbb N$ if and only if for all $p\in \, ^\bullet t, m(p)\leq w((p,t))$. An enabled transition $t$ can *fire* yielding a new marking $m':P\to \Bbb N$, where for all $p\in P,m'(p)=m(p)-w((p,t))+w((t,p))$.
 
 # Reachability Graphs
 > [!question]

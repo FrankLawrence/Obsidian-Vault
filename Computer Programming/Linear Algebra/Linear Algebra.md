@@ -10,6 +10,8 @@ Tags: MOC course
 ## Topics
 - [[Systems of Linear Equations]]
 - [[Row Reduction and Echelon Forms]]
+- [[Vector Equations]]
+- [[The Matrix Equation]]
 ## Lectures
 ## Extras
 ### Tips
