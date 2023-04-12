@@ -55,7 +55,7 @@ Created: 2023-04-05 22:35:10
 > Each matrix is row equivalent to one and only one reduced echelon matrix
 
 
-# Pivot Positoins
+# Pivot Positions
 - Since the reduced echelon form is unique, leading entries are always in the same positions in any echelon form obtained from a given matrix
 
 > [!definition] Pivot position
@@ -102,7 +102,7 @@ $$
 - $x_3$ can have any value
 - *each different choice of $x_3$ determines a (different) solution of the system, and every solution of the system is determined by a choice of $x_3$*
 
-# Parametric Descriptions of Solution Sets
+## Parametric Descriptions of Solution Sets
 - *parametric descriptions*: solution sets have free variables that act as parameters
 - Whenever a system is consistent and has free variables, the solution set has many parametric descriptions
 - alternative equation system for $\eqref{a}$:

@@ -8,19 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a088dee6fc410408",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Programming/Computer Organization/Basic Processing Unit.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
             "id": "c835cb9483ea0e6b",
             "type": "leaf",
             "state": {
@@ -34,12 +21,12 @@
             }
           },
           {
-            "id": "6906973105cf219a",
+            "id": "7082c95a0c5fcc11",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Programming/Linear Algebra/Vector Equations.md",
+                "file": "Computer Programming/Linear Algebra/Solution Sets of Linear Systems.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -47,7 +34,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +80,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -122,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Programming/Linear Algebra/Vector Equations.md",
+                "file": "Computer Programming/Linear Algebra/Solution Sets of Linear Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Programming/Linear Algebra/Vector Equations.md",
+                "file": "Computer Programming/Linear Algebra/Solution Sets of Linear Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,7 +173,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Computer Programming/Linear Algebra/Vector Equations.md",
+                "file": "Computer Programming/Linear Algebra/Solution Sets of Linear Systems.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -238,49 +226,49 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "6906973105cf219a",
+  "active": "7082c95a0c5fcc11",
   "lastOpenFiles": [
-    "Interests/Programming/MathJax Basic Tutorial.md",
-    "School Subjects/Physics/Elektische Ladung.md",
-    "Computer Programming/Logic and Sets/Equivalence relations.md",
-    "Computer Programming/Logic and Sets/Functions.md",
-    "Computer Programming/Data Structures and Algorithms for CS/Data Structures and Algorithms for CS Lecture 13.md",
-    "Computer Programming/Information Management for CS/Application of Petri Nets.md",
-    "Computer Programming/Logic and Sets/Partial and linear ordering relations.md",
-    "Computer Programming/Information Management for CS/Analyzing Petri Net Models.md",
-    "Computer Programming/Information Management for CS/Basic Concepts of Petri Nets.md",
-    "Computer Programming/Computer Organization/Parallel Processing and Performance.md",
-    "Computer Programming/Computer Organization/Pipelining.md",
-    "Computer Programming/Computer Organization/Arithmetic.md",
-    "Computer Programming/Computer Organization/Computer Organization.md",
-    "Computer Programming/Computer Organization/Input-Output Organization.md",
-    "Computer Programming/Computer Organization/The Memory System.md",
-    "Computer Programming/Linear Algebra/Vector Equations.md",
-    "Personal/Callouts.md",
-    "Computer Programming/Networks and Graphs/Networks and Graphs Foundations.md",
     "Computer Programming/Linear Algebra/Linear Algebra.md",
-    "Cooking and Baking/Tipps zum Abweigen ohne Wage.md",
+    "Computer Programming/Networks and Graphs/Networks and Graphs Foundations.md",
+    "Computer Programming/Linear Algebra/The Matrix Equation Ax=b.md",
+    "Daily Notes/2023-04-10.md",
+    "Daily Notes/2023-04-11.md",
+    "Computer Programming/Linear Algebra/Vector Equations.md",
+    "Computer Programming/Linear Algebra/Row Reduction and Echelon Forms.md",
+    "Files/Processor-memory interface and IR control signals.png",
+    "Files/Instruction address generator.png",
+    "Files/Datapath in a processor.png",
+    "Computer Programming/Linear Algebra/Linear Algebra Outline.md",
+    "Computer Programming/Networks and Graphs/Networks and Graphs.md",
+    "Computer Programming/Linear Algebra/Systems of Linear Equations.md",
+    "Computer Programming/Networks and Graphs/Havel-Hakimi's Theorem and Cuts in Graphs.md",
+    "Computer Programming/Linear Algebra/Matrix Factorizations.md",
+    "Computer Programming/Linear Algebra/Characterizations of Invertible Matrices.md",
+    "Computer Programming/Linear Algebra/The Inverse of a Matrix.md",
+    "Computer Programming/Linear Algebra/Matrix Operations.md",
+    "Computer Programming/Linear Algebra/The Matrix of Linear Transformations.md",
+    "Computer Programming/Linear Algebra/Introduction to Linear Transformations.md",
+    "Computer Programming/Linear Algebra/Linear Independence.md",
+    "Computer Programming/Linear Algebra/Solution Sets of Linear Systems.md",
+    "Computer Programming/Computer Organization/Basic Processing Unit.md",
+    "Daily Notes/2023-04-09.md",
     "Computer Programming/Computer Networks/Computer Networks.md",
-    "FSNotes/awesome.md",
-    "FSNotes/code-of-conduct.md",
-    "Cooking and Backing/Tipps zum Abweigen ohne Wage.md",
+    "Daily Notes/2023-04-08.md",
+    "Daily Notes/2023-04-07.md",
+    "Daily Notes/2023-04-06.md",
+    "Computer Programming/Computer Organization/A five-stage organization.canvas",
+    "Files/Span {u,v} as a plane through the origin.png",
+    "Files/Span{v} as a line through the origin.png",
+    "Personal/Callouts.md",
     "Computer Programming/Networks and Graphs",
     "Computer Programming/Computer Networks",
     "Computer Programming/Linear Algebra",
-    "Computer Programming/Linear Algebra/Row Reduction and Echelon Forms.md",
-    "Computer Programming/Linear Algebra/The Matrix Equation.md",
     "Files/Exactly one solution.jpg",
     "Computer Programming/Projects/Clinical Trials API.canvas",
-    "Computer Programming/Computer Organization/A five-stage organization.canvas",
     "Files/Crossbar interconnection network.png",
     "Files/Ring-based interconnection networks.png",
     "Files/A superscalar processor with two execution units.png",
     "Files/Stall needed to enable forwarding for an instruction that follows a Load instruction.png",
-    "Files/Stall caused by a memory access delay for a Load instruction.png",
-    "Files/Modification of the datapath to support data forwarding from register RZ to ALU inputs.png",
-    "Files/Pipelined execution-the ideal case.png",
-    "Files/A five-stage pipeline.png",
-    "Files/Memory hierarchy.png",
     "Personal/;).canvas",
     "Banners",
     "Dashboard~",

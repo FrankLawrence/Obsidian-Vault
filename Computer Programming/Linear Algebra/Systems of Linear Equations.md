@@ -20,8 +20,8 @@ Created: 2023-04-04 11:35:16
 # Matrix Notation
 $$
 \begin{aligned} 
-x_1-2x_2+x_3 &=0 \\ 
-2x_2\;\qquad &=8 \\ 
+x_1-2x_2+\;\;x_3 &=0 \\ 
+2x_2-8x_3 &=8 \\ 
 5x_1 \;\qquad\;-5x_3 &= 10 
 \end{aligned} \tag{1}
 $$
@@ -66,8 +66,8 @@ is called the **augmented matrix** of the system
 	- the equation $0=b$ is never true, hence the orginal system is inconsistent (it has no solution)
 
 > [!hint]- Reasonable Answers
-> Substitue your solution into the original equations. 
-> If upon rechecking your arithmetic, you find the correct values, you can be confient you have the correct solution to the system of equations. Otherwise there is an error in the original calculations
+> Substitute your solution into the original equations. 
+> If upon rechecking your arithmetic, you find the correct values, you can be confident you have the correct solution to the system of equations. Otherwise there is an error in the original calculations
 
 
 ---

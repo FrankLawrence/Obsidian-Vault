@@ -3,7 +3,8 @@ Tags:
 Created: 2023-04-04 00:23:35
 ---
 (Links:: [[Networks and Graphs]])
-# Definition of a graph
+# Formalities
+## Graphs and vertex degrees
 - A graph $G$ is a mathematical structure that contains a set of *vertices* and a set of *edges*. The set of vertices of $G$ is denoted by $V(G)$ and the set of its edges is denoted be $E(G)$. Each of $G$ is an **unordered pair** of vertices
 
 > [!example]-
@@ -26,11 +27,12 @@ Created: 2023-04-04 00:23:35
 > ```
 
 > [!definition] Neighbor Set
-> For any vertex $v \in V(G)$, the neighbor set of $v$, by $N(v)$, is the set of all vertices, except for $v$ itself, that are adjacent to $v$ $$N(v)=\{u\in V(G)-\{v\}|\langle, v,u\rangle \in E(G)\}$$
+> For any vertex $v \in V(G)$, the neighbor set of $v$, by $N(v)$, is the set of all vertices, except for $v$ itself, that are adjacent to $v$ $$N(v)=\{u\in V(G)-\{v\}|\langle v,u\rangle \in E(G)\}$$
 
 > [!definition] Simple Graphs
 > A graph is called a simple graph if it does not contain multiple edges between the same pair of vertices nor loops (i.e., edges from and to the same vertex)
 
+## Degree sequence
 > [!definition] Vertex Degree 
 > In a graph $G$, the **degree of a vertex $v$** is the number of edges of $G$ incident to $v$, and it is denoted by $\delta(v)$.
 > Loops are counted twice
@@ -42,6 +44,8 @@ Created: 2023-04-04 00:23:35
 > The **degree sequence** of a graph $G$ is a list of the degrees of the vertices of $G$. The sequence is ordered if the numbers are in non-decreasing order.
 > A sequence of numbers is called **graphic** if it is the **degree sequence of a simple graph**
 
+- if every vertex has the same degree, the graph is called **regular**
+
 > [!definition] Data Structures for Graphs
 > Given a graph $G$, the adjacency-list of $G$ consists of an array *Adj* of $|V|$ pointers. Each pointes to a list of vertices. Each list corresponds to one vertex in $V$. For each $u \in V(G)$, the list *Adj[u]* contains all vertices $v$ such that there is an edge $\langle u,v\rangle$ in $E(G)$. These are the neighbors of $u$
 
@@ -52,7 +56,7 @@ Created: 2023-04-04 00:23:35
 > - symmetric: $\forall u,v:A_G[u,v] = A_G[v,u]$
 > - $G$ is simple $\Longleftrightarrow \forall u,v : A_G[u,v]=1$ and $A[u,u]= 0$
 > - $\forall u : \sum A_G[u,v] = \delta(u)$
-
+## Subgraphs
 > [!definition] Subgraphs
 > Given a graph $G$, a graph $H$ is a subgraph of $G$ if $V(H) \subseteq V(G)$ and $E(H) \subseteq E(G)$
 > 
