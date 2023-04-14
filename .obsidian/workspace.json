@@ -26,15 +26,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Programming/Linear Algebra/Solution Sets of Linear Systems.md",
+                "file": "Computer Programming/Linear Algebra/Linear Independence.md",
                 "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "0fcea1fba76b775b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Programming/Computer Networks/The Physical Layer.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -110,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Programming/Linear Algebra/Solution Sets of Linear Systems.md",
+                "file": "Computer Programming/Computer Networks/The Physical Layer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Programming/Linear Algebra/Solution Sets of Linear Systems.md",
+                "file": "Computer Programming/Computer Networks/The Physical Layer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +186,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Computer Programming/Linear Algebra/Solution Sets of Linear Systems.md",
+                "file": "Computer Programming/Computer Networks/The Physical Layer.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -226,40 +239,41 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "7082c95a0c5fcc11",
+  "active": "0fcea1fba76b775b",
   "lastOpenFiles": [
-    "Computer Programming/Linear Algebra/Linear Algebra.md",
+    "Files/Spread spetrum and ultra-wideband communication.png",
+    "School Subjects/Physics/Mechanische Wellen.md",
+    "School Subjects/Physics/Formelsammlung.md",
+    "School Subjects/Physics/Physics⚛.md",
+    "Computer Programming/Computer Networks/The Physical Layer.md",
+    "Computer Programming/Computer Networks/Computer Networks.md",
     "Computer Programming/Networks and Graphs/Networks and Graphs Foundations.md",
+    "Computer Programming/Linear Algebra/Linear Independence.md",
+    "Daily Notes/2023-04-13.md",
+    "Daily Notes/2023-04-14.md",
+    "Computer Programming/Computer Organization/Pipelining.md",
+    "Computer Programming/Computer Organization/Computer Organization.md",
+    "Computer Programming/Uni Courses🎓.md",
+    "Interests/G/Table of Contents.md",
+    "Interests/G/A Damsel in the Desert.md",
+    "Computer Programming/Linear Algebra/Linear Algebra.md",
+    "Computer Programming/Linear Algebra/Solution Sets of Linear Systems.md",
+    "Files/Parallel solution sets of Ax=b and Ax=0.png",
+    "Interests/Programming/MathJax Basic Tutorial.md",
+    "Computer Programming/Computer Networks/Computer Networks Introduction.md",
+    "Daily Notes/2023-04-12.md",
+    "Computer Programming/Networks and Graphs/Havel-Hakimi's Theorem and Cuts in Graphs.md",
+    "Daily Notes/Favorite Songs.md",
+    "Computer Programming/Networks and Graphs/Networks and Graphs.md",
+    "Computer Programming/Computer Networks/Computer Networks Reading Material.md",
     "Computer Programming/Linear Algebra/The Matrix Equation Ax=b.md",
     "Daily Notes/2023-04-10.md",
-    "Daily Notes/2023-04-11.md",
-    "Computer Programming/Linear Algebra/Vector Equations.md",
-    "Computer Programming/Linear Algebra/Row Reduction and Echelon Forms.md",
     "Files/Processor-memory interface and IR control signals.png",
     "Files/Instruction address generator.png",
     "Files/Datapath in a processor.png",
-    "Computer Programming/Linear Algebra/Linear Algebra Outline.md",
-    "Computer Programming/Networks and Graphs/Networks and Graphs.md",
-    "Computer Programming/Linear Algebra/Systems of Linear Equations.md",
-    "Computer Programming/Networks and Graphs/Havel-Hakimi's Theorem and Cuts in Graphs.md",
-    "Computer Programming/Linear Algebra/Matrix Factorizations.md",
-    "Computer Programming/Linear Algebra/Characterizations of Invertible Matrices.md",
-    "Computer Programming/Linear Algebra/The Inverse of a Matrix.md",
-    "Computer Programming/Linear Algebra/Matrix Operations.md",
-    "Computer Programming/Linear Algebra/The Matrix of Linear Transformations.md",
-    "Computer Programming/Linear Algebra/Introduction to Linear Transformations.md",
-    "Computer Programming/Linear Algebra/Linear Independence.md",
-    "Computer Programming/Linear Algebra/Solution Sets of Linear Systems.md",
-    "Computer Programming/Computer Organization/Basic Processing Unit.md",
-    "Daily Notes/2023-04-09.md",
-    "Computer Programming/Computer Networks/Computer Networks.md",
-    "Daily Notes/2023-04-08.md",
-    "Daily Notes/2023-04-07.md",
-    "Daily Notes/2023-04-06.md",
     "Computer Programming/Computer Organization/A five-stage organization.canvas",
     "Files/Span {u,v} as a plane through the origin.png",
     "Files/Span{v} as a line through the origin.png",
-    "Personal/Callouts.md",
     "Computer Programming/Networks and Graphs",
     "Computer Programming/Computer Networks",
     "Computer Programming/Linear Algebra",
@@ -268,7 +282,6 @@
     "Files/Crossbar interconnection network.png",
     "Files/Ring-based interconnection networks.png",
     "Files/A superscalar processor with two execution units.png",
-    "Files/Stall needed to enable forwarding for an instruction that follows a Load instruction.png",
     "Personal/;).canvas",
     "Banners",
     "Dashboard~",
