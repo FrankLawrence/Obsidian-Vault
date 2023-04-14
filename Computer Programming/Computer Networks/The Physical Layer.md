@@ -88,7 +88,19 @@ Created: 2023-04-14 11:58:13
 ### Fourier Analysis
 - any reasonable behaved periodic function, $g(t)$ with period $T$ can be constructed as the sum of number of sines and cosines: $$g(t)=\frac12c+\sum_{n=1}^\infty a_n\sin(2\pi nft)+\sum_{n=1}^\infty b_n\cos(2\pi nft)$$ where $f=1/T$ is the fundamental frequency, $a_n$ and $b_n$ are the sine and cosine amplitudes of the $n$th harmonics, and $c$ is a constant that determines the mean value of the function
 ### Bandwidth-Limited Signals
-- 
+- width of the frequency range transmitted without being strongly attenuated is called the **bandwidth**
+- signals that run from 0 up to a maximum frequency are called **baseband**
+- signals that are shifted to occupy a higher range of frequencies are called **passband** signals
+- for digital transmission, you only need to receive a signal with just enough fidelity to reconstruct the sequence of bits sent
+- ![[A binary signal and its root-mean-square Fourier amplitudes, and successive approximations to the original signal.png|500]]
+- for a bit rate $b$ bits/sec, the first harmonic of the signal is $b/8$ Hz
+- number of highest harmonic that can pass described by $3000/(b/8)$
+	- ordinary telephone line has artificial cutoff frequency of 3000 Hz
+## The Maximum Data Rate of a Channel
+> [!info] Nyquist's theorem
+> $$\text{Maximum data rate} = 2B\log_2 V\text{ bits/sec}$$
+
+- **Signal-to-Noise Ratio**(**SNR**): signal power $S$ and noise power $N$ -> $10\log_{10}S/N$ expressed in **decibels** (**dB**)
 
 ---
 References:

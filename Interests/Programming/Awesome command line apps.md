@@ -1,6 +1,3 @@
-# AWESOME COMMAND LINE APPS
-<img src="https://cdn.rawgit.com/herrbischoff/awesome-command-line-apps/master/assets/logo.svg" width="600">
-
 > A curated list of useful command line apps, in celebration of the TUI.
 >
 > _“Knowledge brings fear” (Mars University Mission Statement)_
@@ -414,3 +411,4 @@ hundred percent to the NGO.
 ## License
 
 <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by-sa/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+
