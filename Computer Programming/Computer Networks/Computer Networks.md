@@ -8,6 +8,7 @@ Tags: MOC course
 - [[Computer Networks Structure]]
 - [[Computer Networks Assessment]]
 ## Assignments
+- [[Computer Networks Chapter 2]]
 ## Topics
 - [[Computer Networks Introduction]]
 - [[The Physical Layer]]

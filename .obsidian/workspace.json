@@ -21,41 +21,43 @@
             }
           },
           {
-            "id": "7082c95a0c5fcc11",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Programming/Linear Algebra/Linear Independence.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "0fcea1fba76b775b",
+            "id": "95f89256c4221037",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Computer Programming/Computer Networks/The Physical Layer.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
           },
           {
-            "id": "36651d723f6e9433",
+            "id": "35ba09a55e8e7c7d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interests/Programming/Awesome command line apps.md",
-                "mode": "preview",
+                "file": "Computer Programming/Computer Networks/Computer Networks Chapter 2.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
+              }
+            }
+          },
+          {
+            "id": "d4268c7ff4d73d56",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Personal/;).canvas",
+                "viewState": {
+                  "x": -995.3504999457189,
+                  "y": -340.4560290347008,
+                  "zoom": -0.5531598434877674
+                }
               }
             }
           }
@@ -79,7 +81,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "N$",
+                "query": "file: .pdf",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -106,12 +108,12 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 401.5
+    "width": 238.50390243530273,
+    "collapsed": true
   },
   "right": {
     "id": "af68da5da2e3de0e",
@@ -135,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Misc/Candice.md",
+                "file": "Personal/;).canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Misc/Candice.md",
+                "file": "Personal/;).canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +200,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Misc/Candice.md",
+                "file": "Personal/;).canvas",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -251,49 +253,102 @@
       "templater-obsidian:Templater": true
     }
   },
-  "active": "645ce3ec9fda0b40",
+  "floating": {
+    "id": "94fdc8e7964197b2",
+    "type": "floating",
+    "children": [
+      {
+        "id": "a61afb5741917efd",
+        "type": "window",
+        "children": [
+          {
+            "id": "d852b530c41870e8",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "7082c95a0c5fcc11",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Computer Programming/Linear Algebra/Linear Independence.md",
+                    "mode": "preview",
+                    "backlinks": false,
+                    "source": true
+                  }
+                }
+              },
+              {
+                "id": "51cf62f802b0abd2",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "Computer Programming/Linear Algebra/Matrix Operations.md",
+                    "mode": "source",
+                    "backlinks": false,
+                    "source": true
+                  }
+                }
+              }
+            ],
+            "currentTab": 1
+          }
+        ],
+        "direction": "vertical",
+        "x": 0,
+        "y": 25,
+        "width": 720,
+        "height": 875,
+        "maximize": false,
+        "zoom": 0.5
+      }
+    ]
+  },
+  "active": "d4268c7ff4d73d56",
   "lastOpenFiles": [
-    "Interests/Programming/Awesome command line apps.md",
-    "Misc/Candice.md",
-    "FSNotes/pull_request_template.md",
-    "Interests/Programming/Awesome list.md",
-    "Interests/Programming/MACOS APPS.md",
-    "FSNotes/code-of-conduct.md",
-    "FSNotes/awesome.md",
     "Computer Programming/Computer Networks/The Physical Layer.md",
-    "Dashboard.md",
-    "Home🏠.md",
-    "Computer Programming/Networks and Graphs/Networks and Graphs Foundations.md",
+    "Files/T1 carrier (1.544 Mbps).png",
+    "Files/Formelsammlung EM-Schwingung.pdf",
+    "Computer Programming/Computer Networks/Computer Networks Chapter 2.md",
+    "Daily Notes/2023-04-18.md",
+    "Daily Notes/2023-04-15.md",
+    "Daily Notes/2023-04-14.md",
+    "Daily Notes/2023-04-13.md",
+    "Daily Notes/2023-04-12.md",
+    "Daily Notes/2023-04-11.md",
+    "Daily Notes/2023-04-10.md",
+    "Daily Notes/2023-04-09.md",
+    "Daily Notes/2023-04-08.md",
+    "Daily Notes/2023-04-07.md",
+    "Daily Notes/2023-04-06.md",
+    "Daily Notes/2023-04-05.md",
+    "Daily Notes/2023-04-04.md",
+    "Daily Notes/2023-04-03.md",
+    "Daily Notes/2023-04-16.md",
+    "Daily Notes/2023-04-17.md",
+    "Files/Typical ADSL equipment configuration.png",
+    "Files/Operation of ADSL using discrete multitone modulation.png",
+    "Files/Wavelength division multiplexing.png",
+    "Computer Programming/Linear Algebra/Matrix Operations.md",
+    "Computer Programming/Linear Algebra/Linear Algebra.md",
+    "Computer Programming/Linear Algebra/Linear Independence.md",
+    "Daily Notes/2023-04-24.md",
+    "Daily Notes/2023-04-23.md",
+    "Daily Notes/2023-04-22.md",
+    "Daily Notes/2023-04-21.md",
+    "Files/Frequency division multiplexing. (a) The original bandwidths. (b) The bandwidths raised in frequency. (c) The multiplexed channel..png",
+    "Files/(a) QPSK (b) QAM-16 (c) QAM-64.png",
+    "Files/SCR-20230415-mzqp.png",
+    "4B",
     "Files/A binary signal and its root-mean-square Fourier amplitudes, and successive approximations to the original signal.png",
     "Files/Spread spetrum and ultra-wideband communication.png",
-    "School Subjects/Physics/Mechanische Wellen.md",
-    "School Subjects/Physics/Formelsammlung.md",
-    "School Subjects/Physics/Physics⚛.md",
-    "Computer Programming/Computer Networks/Computer Networks.md",
-    "Computer Programming/Linear Algebra/Linear Independence.md",
-    "Daily Notes/2023-04-13.md",
-    "Daily Notes/2023-04-14.md",
-    "Computer Programming/Computer Organization/Pipelining.md",
-    "Computer Programming/Computer Organization/Computer Organization.md",
-    "Computer Programming/Uni Courses🎓.md",
-    "Interests/G/Table of Contents.md",
-    "Interests/G/A Damsel in the Desert.md",
-    "Computer Programming/Linear Algebra/Linear Algebra.md",
-    "Computer Programming/Linear Algebra/Solution Sets of Linear Systems.md",
     "Files/Parallel solution sets of Ax=b and Ax=0.png",
-    "Interests/Programming/MathJax Basic Tutorial.md",
-    "Files/Processor-memory interface and IR control signals.png",
-    "Files/Instruction address generator.png",
-    "Files/Datapath in a processor.png",
     "Computer Programming/Computer Organization/A five-stage organization.canvas",
-    "Files/Span {u,v} as a plane through the origin.png",
-    "Files/Span{v} as a line through the origin.png",
     "Computer Programming/Networks and Graphs",
     "Computer Programming/Computer Networks",
     "Computer Programming/Linear Algebra",
-    "Files/Exactly one solution.jpg",
     "Computer Programming/Projects/Clinical Trials API.canvas",
-    "Files/Crossbar interconnection network.png",
     "Personal/;).canvas",
     "Banners",
     "Dashboard~",
