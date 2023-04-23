@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Programming/Networks and Graphs/Networks and Graphs Foundations.md",
-                "mode": "preview",
+                "file": "Computer Programming/Networks and Graphs/Networks and Graphs Extensions.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Programming/Computer Networks/The Physical Layer.md",
+                "file": "Computer Programming/Computer Networks/The Medium Access Control Sublayer.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -40,24 +40,22 @@
               "type": "markdown",
               "state": {
                 "file": "Computer Programming/Computer Networks/Computer Networks Chapter 2.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
           },
           {
-            "id": "d4268c7ff4d73d56",
+            "id": "4bf55e3350e9b2a3",
             "type": "leaf",
             "state": {
-              "type": "canvas",
+              "type": "markdown",
               "state": {
-                "file": "Personal/;).canvas",
-                "viewState": {
-                  "x": -995.3504999457189,
-                  "y": -340.4560290347008,
-                  "zoom": -0.5531598434877674
-                }
+                "file": "Computer Programming/Computer Networks/Computer Networks.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
               }
             }
           }
@@ -81,7 +79,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "file: .pdf",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -108,7 +106,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -137,7 +136,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personal/;).canvas",
+                "file": "Computer Programming/Computer Networks/Computer Networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -154,7 +153,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personal/;).canvas",
+                "file": "Computer Programming/Computer Networks/Computer Networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -188,7 +187,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "4c6142e30c7eb0ee",
@@ -200,7 +199,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Personal/;).canvas",
+                "file": "Computer Programming/Computer Networks/Computer Networks.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -223,7 +222,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.9470058703478036,
+                  "scale": 0.7602735923982279,
                   "close": true
                 }
               }
@@ -233,8 +232,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.5,
-    "collapsed": true
+    "width": 330.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -291,8 +289,7 @@
                   }
                 }
               }
-            ],
-            "currentTab": 1
+            ]
           }
         ],
         "direction": "vertical",
@@ -305,51 +302,53 @@
       }
     ]
   },
-  "active": "d4268c7ff4d73d56",
+  "active": "4bf55e3350e9b2a3",
   "lastOpenFiles": [
+    "Computer Programming/Computer Networks/Lecture 3 The Data Link Layer.md",
+    "Computer Programming/Computer Networks/Computer Networks.md",
+    "Computer Programming/Computer Networks/The Medium Access Control Sublayer.md",
+    "Files/Wireless LAN Protocols.png",
+    "Computer Programming/Computer Networks/The Data Link Layer.md",
     "Computer Programming/Computer Networks/The Physical Layer.md",
+    "Computer Programming/Computer Networks/Computer Networks Chapter 2.md",
+    "Daily Notes/2023-04-23.md",
+    "Files/Binary Countdown Protocol.png",
+    "Files/The basic bit-map protocol.png",
+    "Files/CSMA-CD.png",
+    "Files/Comparison of the channel utilisation versus load fro various random access protocols.png",
+    "Personal/Callouts.md",
+    "Daily Notes/2023-04-22.md",
+    "Computer Programming/Computer Networks/Computer Networks Game Plan.md",
+    "Computer Programming/Linear Algebra/Linear Independence.md",
+    "Computer Programming/Computer Networks/The Network Layer.md",
+    "Sliding Windows Abnormal case.canvas",
+    "Computer Programming/Networks and Graphs/Networks and Graphs Extensions.md",
+    "Daily Notes/2023-04-21.md",
+    "Computer Programming/Networks and Graphs/Networks and Graphs.md",
+    "Computer Programming/Uni Courses🎓.md",
+    "Home🏠.md",
+    "Files/The binary convolutional code.png",
+    "Files/Byte stuffing.png",
+    "Files/Byte stream.png",
+    "Computer Programming/Networks and Graphs/Networks and Graphs Foundations.md",
+    "Daily Notes/2023-04-20.md",
+    "Computer Programming/Logic and Sets/Logic and Sets.md",
+    "Computer Programming/Logic and Sets/Equivalence relations.md",
+    "Daily Notes/2023-04-19.md",
+    "Daily Notes/2023-04-18.md",
+    "Daily Notes/2023-04-17.md",
+    "Daily Notes/2023-04-16.md",
+    "Computer Programming/Networks and Graphs/Networks and Graphs Set 3 Exercises.md",
+    "Files/Harary graphs.png",
+    "Personal/;).canvas",
     "Files/T1 carrier (1.544 Mbps).png",
     "Files/Formelsammlung EM-Schwingung.pdf",
-    "Computer Programming/Computer Networks/Computer Networks Chapter 2.md",
-    "Daily Notes/2023-04-18.md",
-    "Daily Notes/2023-04-15.md",
-    "Daily Notes/2023-04-14.md",
-    "Daily Notes/2023-04-13.md",
-    "Daily Notes/2023-04-12.md",
-    "Daily Notes/2023-04-11.md",
-    "Daily Notes/2023-04-10.md",
-    "Daily Notes/2023-04-09.md",
-    "Daily Notes/2023-04-08.md",
-    "Daily Notes/2023-04-07.md",
-    "Daily Notes/2023-04-06.md",
-    "Daily Notes/2023-04-05.md",
-    "Daily Notes/2023-04-04.md",
-    "Daily Notes/2023-04-03.md",
-    "Daily Notes/2023-04-16.md",
-    "Daily Notes/2023-04-17.md",
-    "Files/Typical ADSL equipment configuration.png",
-    "Files/Operation of ADSL using discrete multitone modulation.png",
-    "Files/Wavelength division multiplexing.png",
-    "Computer Programming/Linear Algebra/Matrix Operations.md",
-    "Computer Programming/Linear Algebra/Linear Algebra.md",
-    "Computer Programming/Linear Algebra/Linear Independence.md",
-    "Daily Notes/2023-04-24.md",
-    "Daily Notes/2023-04-23.md",
-    "Daily Notes/2023-04-22.md",
-    "Daily Notes/2023-04-21.md",
-    "Files/Frequency division multiplexing. (a) The original bandwidths. (b) The bandwidths raised in frequency. (c) The multiplexed channel..png",
-    "Files/(a) QPSK (b) QAM-16 (c) QAM-64.png",
-    "Files/SCR-20230415-mzqp.png",
     "4B",
-    "Files/A binary signal and its root-mean-square Fourier amplitudes, and successive approximations to the original signal.png",
-    "Files/Spread spetrum and ultra-wideband communication.png",
-    "Files/Parallel solution sets of Ax=b and Ax=0.png",
     "Computer Programming/Computer Organization/A five-stage organization.canvas",
     "Computer Programming/Networks and Graphs",
     "Computer Programming/Computer Networks",
     "Computer Programming/Linear Algebra",
     "Computer Programming/Projects/Clinical Trials API.canvas",
-    "Personal/;).canvas",
     "Banners",
     "Dashboard~",
     "Computer Programming/Information Management for CS/An industry and its competitive forces.canvas",
