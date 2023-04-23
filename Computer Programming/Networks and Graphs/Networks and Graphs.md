@@ -6,9 +6,10 @@ Tags: MOC course
 - [[Networks and Graphs Syllabus]]
 - [[Networks and Graphs Assessment]]
 ## Assignments
+- [[Networks and Graphs Set 3 Exercises]]
 ## Topics
 - [[Networks and Graphs Foundations]]
-- [[Havel-Hakimi's Theorem and Cuts in Graphs]]
+- [[Networks and Graphs Extensions]]
 ## Lectures
 ## Extras
 ### Tips
