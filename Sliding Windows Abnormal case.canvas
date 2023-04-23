@@ -1,0 +1,30 @@
+{
+	"nodes":[
+		{"type":"text","text":"B sends (0,1,B0)","id":"81b4cf59b636da85","x":100,"y":-340,"width":220,"height":60},
+		{"id":"1ef70ba607ea3dfb","x":-280,"y":-340,"width":220,"height":60,"type":"text","text":"A sends (0,1,A0)"},
+		{"id":"57a5c440de1c12d2","x":100,"y":-260,"width":220,"height":60,"type":"text","text":"B gets (0,1,A0)*"},
+		{"type":"text","text":"B sends (0,1,B0)","id":"200f890d31e1362e","x":100,"y":-200,"width":220,"height":60},
+		{"type":"text","text":"A gets (0,1,B0)*","id":"a2df0f87aa31223d","x":-280,"y":-40,"width":220,"height":60},
+		{"type":"text","text":"A sends (0,0,A0)","id":"25de0f136480ca3f","x":-280,"y":20,"width":220,"height":60},
+		{"type":"text","text":"B gets (0,0,A0)","id":"ab8caf7ea52f2326","x":100,"y":80,"width":220,"height":60},
+		{"type":"text","text":"B sends (1,0,B1)","id":"27adad63cbd0605b","x":100,"y":140,"width":220,"height":60},
+		{"type":"text","text":"A gets (0,0,B0)","id":"bebd63f39114a592","x":-280,"y":200,"width":220,"height":60},
+		{"type":"text","text":"A sends (1,0,A1)","id":"a2aa07ee22c7815e","x":-280,"y":260,"width":220,"height":60},
+		{"type":"text","text":"B gets (1,0,A1)*","id":"d658ce6a3c2610b5","x":100,"y":320,"width":220,"height":60},
+		{"type":"text","text":"B sends (1,1,B1)","id":"8f2551182e06a116","x":100,"y":380,"width":220,"height":60},
+		{"type":"text","text":"A gets (1,0,B1)**","id":"74fa3e40d16b74e2","x":-280,"y":440,"width":220,"height":60},
+		{"type":"text","text":"A sends (1,1,A1)","id":"f3523d5e30d43cf4","x":-280,"y":500,"width":220,"height":60},
+		{"type":"text","text":"B gets (1,1,A1)*","id":"b4afb5156df11a23","x":100,"y":560,"width":220,"height":60},
+		{"type":"text","text":"B sends (0,1,B2)","id":"95ce2e67971547b0","x":100,"y":620,"width":220,"height":60},
+		{"id":"b3116134da301d3f","x":-280,"y":740,"width":600,"height":58,"type":"text","text":"The notation is (seq, ack, packet number). An asterisk indicates where a network layer accepts a packet"}
+	],
+	"edges":[
+		{"id":"7f55f85a9c7794c4","fromNode":"1ef70ba607ea3dfb","fromSide":"right","toNode":"57a5c440de1c12d2","toSide":"left"},
+		{"id":"e356432a0d347f3d","fromNode":"81b4cf59b636da85","fromSide":"left","toNode":"a2df0f87aa31223d","toSide":"right"},
+		{"id":"91aff9203332d7b6","fromNode":"25de0f136480ca3f","fromSide":"right","toNode":"ab8caf7ea52f2326","toSide":"left"},
+		{"id":"e0fb4a4e0aeadc16","fromNode":"200f890d31e1362e","fromSide":"left","toNode":"bebd63f39114a592","toSide":"right"},
+		{"id":"9ab05a4bdfb28a2a","fromNode":"a2aa07ee22c7815e","fromSide":"right","toNode":"d658ce6a3c2610b5","toSide":"left"},
+		{"id":"2c9d265266cc2f6d","fromNode":"f3523d5e30d43cf4","fromSide":"right","toNode":"b4afb5156df11a23","toSide":"left"},
+		{"id":"879b4a63f17f8b2f","fromNode":"27adad63cbd0605b","fromSide":"left","toNode":"74fa3e40d16b74e2","toSide":"right"}
+	]
+}

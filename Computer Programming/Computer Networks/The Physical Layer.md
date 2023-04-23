@@ -3,6 +3,7 @@ Tags:
 Created: 2023-04-14 11:58:13
 ---
 (Links:: [[Computer Networks]])
+Electrical, timing ad other interfaces by which bits are set as signals over channels
 # Guided Transmission Media
 - physical layer transports bits from one machine to another
 - **guided transmission media**: transmission media that rely on physical cable
@@ -18,7 +19,7 @@ Created: 2023-04-14 11:58:13
 - no need for amplification over several kilometers
 - hundreds of megabits/sec bandwidth
 - **full-duplex** links: can be used in both directions simultaneously
-- **half-duplex** links: used in both directions but only one way at a time
+- **half-duplex** links: used in both directions but only one way at a time ^c0e815
 - **simplex** links: only one direction
 - more twists results in less crosstalk and better quality signals
 - *Category 3*: supports 100-Mbps and 1Gbps
@@ -265,10 +266,18 @@ Created: 2023-04-14 11:58:13
 	- uncompressed data rate for telephone call: 8 bits every 125 $\micro$sec (64 kbps)
 - samples of amplitude are quantized to an 8-bit number
 - errors are proportional to signal amplitudes (amount of bits)
-### T-Carrier: Multiplexing Digital Signals on the Phone Network
+### ==T-Carrier: Multiplexing Digital Signals on the Phone Network==
 - **T-Carrier**: specification for transmitting multiple TDM channels over a single circuit
 - ![[T1 carrier (1.544 Mbps).png|500]]
-	- 
-	 
+	- 24 voice channels multiplexed together
+	- each channels inserts 8 bits into the output stream
+	- 193 bits every 125 $\micro$sec
+## Switching
+### Circuit Switching
+- telephone system switches path from telephone to receiver's telephone for enter call duration
+- **Strowger gear**: circuit-switching equiptment
+- hunting of path can take a couple seconds
+- 
+ 
 ---
 References: Computer-Networks-Global-Edition

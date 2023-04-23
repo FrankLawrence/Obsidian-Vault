@@ -8,6 +8,7 @@ Tags: MOC course
 - [[Computer Networks Structure]]
 - [[Computer Networks Assessment]]
 ## Assignments
+- [[Computer Networks Game Plan]]
 - [[Computer Networks Chapter 2]]
 ## Topics
 - [[Computer Networks Introduction]]
@@ -18,6 +19,7 @@ Tags: MOC course
 - [[The Transport Layer]]
 - [[The Application Layer]]
 ## Lectures
+- [[Lecture 3 The Data Link Layer]]
 ## Extras
 ### Tips
 ### Emails and Resources
