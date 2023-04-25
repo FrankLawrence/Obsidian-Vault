@@ -10,6 +10,7 @@ Tags: MOC course
 ## Topics
 - [[Networks and Graphs Foundations]]
 - [[Networks and Graphs Extensions]]
+- [[Network Traversal]]
 ## Lectures
 ## Extras
 ### Tips

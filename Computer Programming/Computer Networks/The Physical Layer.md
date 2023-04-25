@@ -3,7 +3,7 @@ Tags:
 Created: 2023-04-14 11:58:13
 ---
 (Links:: [[Computer Networks]])
-Electrical, timing ad other interfaces by which bits are set as signals over channels
+Electrical, timing and other interfaces by which bits are set as signals over channels
 # Guided Transmission Media
 - physical layer transports bits from one machine to another
 - **guided transmission media**: transmission media that rely on physical cable
@@ -18,7 +18,7 @@ Electrical, timing ad other interfaces by which bits are set as signals over cha
 - signal transmitted as difference between two wires
 - no need for amplification over several kilometers
 - hundreds of megabits/sec bandwidth
-- **full-duplex** links: can be used in both directions simultaneously
+- **full-duplex** links: can be used in both directions simultaneously ^ce1a72
 - **half-duplex** links: used in both directions but only one way at a time ^c0e815
 - **simplex** links: only one direction
 - more twists results in less crosstalk and better quality signals
@@ -37,7 +37,7 @@ Electrical, timing ad other interfaces by which bits are set as signals over cha
 - electrical signals sent at 50-60Hz, high-rate data sent in Mhz
 - data must be sent over unlicensed frequencies
 ## Fiber Optics
-- bandwidth of fiver technology is technically 50 Tbps, with conversion between electrical and optical signals limiting the bandwidth to 100 Gbps
+- bandwidth of fiber technology is technically 50 Tbps, with conversion between electrical and optical signals limiting the bandwidth to 100 Gbps
 - optical transimission system has thee components: light source, transmission medium and detector
 - pulse of light indicates 1 bit, absence of light indicates 0 bit
 - simplext data transmission
@@ -48,7 +48,7 @@ Electrical, timing ad other interfaces by which bits are set as signals over cha
 ### Transmission of Light Through Fiber
 - Attenuation of light: ratio of input to output signal power in a medium
 - infrared part of the spectrum used to transmit data
-- **chromatic dispersion**: light pulses in fiber spread out in length as the propagate
+- **chromatic dispersion**: light pulses in fiber spread out in length as they propagate
 - pulses are called **solitons**
 ### Fiber Cables
 - no braiding -> smaller diameter
@@ -81,12 +81,14 @@ Electrical, timing ad other interfaces by which bits are set as signals over cha
 - infrared systems do not interfere in different rooms
 - no government license needed to operate infrared system
 ## Light Transmission
-- uniderectional: each end needs laser and photodetector
+- unidirectional: each end needs laser and photodetector
 - cannot penetrate rain or thick fog
 # From Waveforms to Bits
 ## The Maximum Data Rate of a Channel
 > [!info] Nyquist's theorem
 > $$\text{Maximum data rate} = 2B\log_2 V\text{ bits/sec}$$
+> $B$: Bandwidth
+> $V$: Number of discrete signal levels
 
 - **Signal-to-Noise Ratio**(**SNR**): signal power $S$ and noise power $N$ -> $10\log_{10}S/N$ expressed in **decibels** (**dB**)
 	- a ratio of 1000 is 30 dB
@@ -104,8 +106,9 @@ Electrical, timing ad other interfaces by which bits are set as signals over cha
 - **multiplexing**: carray several signals over a single wire
 ### Baseband Transmission
 - positive voltage represent 1 bit and negative voltage represents 0 bit -> **Non-Return-to-Zero**
+- receiver maps signal samples to closes symbols
 ### Bandwidth Efficiency
-- we need a bandwidth of at least $B/2$ Hz when the bit tare is $B$ bits/sec
+- we need a bandwidth of at least $B/2$ Hz when the bit rate is $B$ bits/sec
 - use more than two signaling levels
 - use four voltages to send 2 bits at once as a single **symbol**
 - signal must be sufficiently strong to be distinguished correctly
@@ -124,7 +127,7 @@ Electrical, timing ad other interfaces by which bits are set as signals over cha
 - **Scrambler**: XOR data with pseudorandom sequence -> data is as random as the pseudorandom sequence
 	- adds no bandwidth or time overhead
 	- can still cause long runs
-### Balanced Signals ==Not done==
+### Balanced Signals 
 - signals that have as much positive as negative voltage -> no DC electric component
 - **capacitive coupling**: passes only AC portion of a signal
 - if we send a signal whose average is not zero, we waste energy as the DC component will be filtered out
@@ -135,7 +138,8 @@ Electrical, timing ad other interfaces by which bits are set as signals over cha
 - **FSK** (**Frequency Shift Keying**): two or more different tones are used
 - **PSK** (**Phase Shift Keying**): carrier wave is shifted 0 or 180 degrees at each symbol period
 	- **QPSK** (**Quadrate Phase Shift Keying**): four shifts represent 2 bits of information per symbol
-- **Constellation Diagram** ![[(a) QPSK (b) QAM-16 (c) QAM-64.png]] 
+- **Constellation Diagram** 
+  ![[(a) QPSK (b) QAM-16 (c) QAM-64.png|500]] 
 	- phase is indicated by angle to the origin with positive x-axis
 	- amplitude is the distance from the origin
 	- **QAM-16**: Quadrature Amplidute Modulation
@@ -145,6 +149,7 @@ Electrical, timing ad other interfaces by which bits are set as signals over cha
 - divide spectrum into frequency bands
 - each user has exclusive possession of some band
 - **guard band**: excess bandwidth
+
 - ![[Frequency division multiplexing. (a) The original bandwidths. (b) The bandwidths raised in frequency. (c) The multiplexed channel..png|500]]
 	- Frequency division multiplexing. (a) The original bandwidths. (b) The bandwidths raised in frequency. (c) The multiplexed channel.
 	- overlap between adjacent channels -> strong spike in one channel will be felt in other channel as noise
@@ -266,18 +271,32 @@ Electrical, timing ad other interfaces by which bits are set as signals over cha
 	- uncompressed data rate for telephone call: 8 bits every 125 $\micro$sec (64 kbps)
 - samples of amplitude are quantized to an 8-bit number
 - errors are proportional to signal amplitudes (amount of bits)
-### ==T-Carrier: Multiplexing Digital Signals on the Phone Network==
+### T-Carrier: Multiplexing Digital Signals on the Phone Network
 - **T-Carrier**: specification for transmitting multiple TDM channels over a single circuit
 - ![[T1 carrier (1.544 Mbps).png|500]]
 	- 24 voice channels multiplexed together
 	- each channels inserts 8 bits into the output stream
 	- 193 bits every 125 $\micro$sec
 ## Switching
+- ![[Circuit and Packet switching.png|500]]
+- [[Comparison of circuit-switched and packet-switched networks]]
 ### Circuit Switching
 - telephone system switches path from telephone to receiver's telephone for enter call duration
 - **Strowger gear**: circuit-switching equiptment
 - hunting of path can take a couple seconds
-- 
+- once a call has been set up, a dedicated path between both ends exists and will continue to exist until the call is finished
+- set up an end-to-end path *before* any data can be sent
+- data cannot arrive out of order
+- congestion occurs at the setup time
+- bandwidth wasted when there is no traffic for a user
+- if a switch goes dow, all of the circuits using it are terminted and no more traffic can be sent
+### Packet Switching
+- packets sent as soon as they are available
+- no need to set up dedicated path in advance
+- routers use store-and-forward transmission to send packet on its own
+- packets may have to wait to be forwarded -> *queuing delay*
+- congestion occurs when packets are sent
+- packets can be routed around dead switches
  
 ---
 References: Computer-Networks-Global-Edition

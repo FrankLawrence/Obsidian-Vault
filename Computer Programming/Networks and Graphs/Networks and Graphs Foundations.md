@@ -118,6 +118,8 @@ Created: 2023-04-04 00:23:35
 > - A **trail** is a walk in which all edges are distinct, a **path** is a trail in which also all vertices are distinct
 > - A **cycle** is a closed trail in which all vertices except $v_0$ and $v_k$ are distinct.
 
+^94b341
+
 > [!definition] Connected
 > Two distinct vertices u and v in graph $G$ are **connected** if there exists a $(u,v)$ - path in $G$. $G$ is **connected** if all pairs of distinct vertices are connected
 > Connectivity of vertices is an [[Equivalence relations|equivalence relation]]
@@ -161,6 +163,8 @@ Created: 2023-04-04 00:23:35
 > Let $G$ be a connected graph and $u$ and $v$ two nonadjacent vertices in $G$
 > - The minimum number of vertices in a vertex cut that disconnects $u$ and $v$ is equal to the maximum number of pairwise vertex-independent paths between $u$ to $v$
 > - The minimum number of edges in an edge cut that disconnects $u$ and $v$, is equal to the maximum number of pairwise edge-independent paths between $u$ and $v$
+
+^e20f09
 
 - A graph $G$ is $k$-connected iff any two distinct vertices are connected by at least $k$ pairwise vertex-independent paths
 - $G$ is $k$-edge connected iff any two distinct vertices are connected by at least $k$ pairwise edge-independent paths

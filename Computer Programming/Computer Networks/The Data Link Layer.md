@@ -192,7 +192,7 @@ Created: 2023-04-21 03:14:19
 - acknowledgement waits a fixed number of miliseconds -> data link layer sends separate acknowledgement frame if no packet arrives in time
 ### Sliding Windows
 - sender maintains a set of sequence numbers corresponding to frames it is permitted to send (**sending window**)
-- receiver maintains **receivig window** correspoding to set of frames permitted to accept
+- receiver maintains **receiving window** correspoding to set of frames permitted to accept
 - packet is fetched from network layer and upper edge of window is advaced by one
 - acknowledgement advances lower edge by one
 - sender needs $n$ buffers to hold unacknowledged frames
