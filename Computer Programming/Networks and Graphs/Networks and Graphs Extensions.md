@@ -13,7 +13,7 @@ Created: 2023-04-21 15:40:14
 > $$2^m$$
 
 
-- The number of arcs with head $v$ is called the the **indegree** $\delta_{in}(v)$, the number of arcs having $v$ as their tail is the **outdegree** $\delta_{out}(v)$
+- The number of arcs with head $v$ is called the **indegree** $\delta_{in}(v)$, the number of arcs having $v$ as their tail is the **outdegree** $\delta_{out}(v)$
 
 > [!info] THEOREM 3.1
 > In any digraph $D$: $$\sum_{v\in V(D)}\delta_{in}(v)=\sum_{v \in V(D)}\delta_{out}(v)=|A(D)|$$
@@ -26,7 +26,7 @@ Created: 2023-04-21 15:40:14
 - every undirected graph can be turned into an equivalent directed graph by replacing every edge with two arcs
 - we cannot always represent a directed graph with an equivalent undirected one
 - an adjacency matrix $A[i,j]$ is equal to the number of arcs joining vertex $v_i$ to $v_j$
-- **Properties of directed graph**:
+- **Properties of adjacency matrices**:
 	- not symmetric: $A_D[i,j]\neq A_D[j,i]$
 	- digraph $D$ is **strict** iff $\forall i,j:A[i,j]\leq 1$ and $A[i,i]=0$
 	- For each vertex $v_i$, $$\sum_jA[i,j]=\delta_{out}(v_i)$$ and $$\sum_jA[j,i]=\delta_{in}(v_i)$$
@@ -35,7 +35,7 @@ Created: 2023-04-21 15:40:14
 - A **directed** $(v_0,v_k)$**-walk** in $D$ is a sequence $[v_0,a_0,v_1,a_1,...,a_{k-1},v_k]$ of vertices and arcs with $a_i=(v_{i-1},v_i)$
 - A **directed trail** is a directed walk in which all arcs are distinct; a **directed path** is a directed trail in which all vertices are also distinct
 - A strict digraph (**directed cycle**) is a **$(u,u)$-path of at least two edges**
-- two vertices $u,v \in D$ are **connected** in $D$ if there exists a **path from $u$ to $v$** or a **path from $v$ to $u$**
+- two vertices $u,v \in V(D)$ are **connected** in $D$ if there exists a **path from $u$ to $v$** or a **path from $v$ to $u$**
 - $u$ and $v$ are **strongly connected** if there is a **path to and from $u$ to $v$**
 	- Digraph $D$ is strongly connected is there exsits a directed path between every pair of distinct vertices (every pair of vertices is strongly connected)
 
@@ -86,7 +86,7 @@ Created: 2023-04-21 15:40:14
 > > [!info] Proof $\chi(G)\leq 5$
 > > **Base case**: If $n=2$, we can color the vertices of $G$ with 2 colors and $2 \leq 5$
 > > **Induction hypothesis**: Assume any planar graph with at most $n$ vertices can be "vertex colored" with <= 5 colors
-> > **Inductive step**: We have to show that any planar $G$ with $n+1$ vertices can be "vertex colored" with <= 5 vertices
+> > **Inductive step**: We have to show that any planar $G$ with $n+1$ vertices can be "vertex colored" with <= 5 colors
 > > - Take an arbitrary graph $G$ with $n+1$ vertices
 > > - $G$ has at least one vertex, say $v$, with degree <= 5
 > > - Let $G^*=G-\{v\}$. The vertices of $G^*$ can be colored with <= 5 colors, by induction hypothesis. Assume $c_1,...,c_5$ are colors used in $G^*$
