@@ -83,7 +83,7 @@ Created: 2023-04-21 15:40:14
 
 > [!info] THEOREM
 > For any planar graph $G$, we have that $\chi(G)\leq 4$
-> > [!info] Proof $\chi(G)\leq 5$
+> > [!info]- ==Proof== $\chi(G)\leq 5$
 > > **Base case**: If $n=2$, we can color the vertices of $G$ with 2 colors and $2 \leq 5$
 > > **Induction hypothesis**: Assume any planar graph with at most $n$ vertices can be "vertex colored" with <= 5 colors
 > > **Inductive step**: We have to show that any planar $G$ with $n+1$ vertices can be "vertex colored" with <= 5 colors
@@ -92,7 +92,7 @@ Created: 2023-04-21 15:40:14
 > > - Let $G^*=G-\{v\}$. The vertices of $G^*$ can be colored with <= 5 colors, by induction hypothesis. Assume $c_1,...,c_5$ are colors used in $G^*$
 > > - If $|N(v)|<5$, then $v$ can be colored with an unused color and we're done
 > > Assume that $|N(v)|=5$ and that all 5 colors are used by $N(v)$
-> > - Let $N(v)=\{v_+1,v_2,...,v_5\}$, clockwise around $v$, and $color (v_i)=c_i$
+> > - Let $N(v)=\{v_1,v_2,...,v_5\}$, clockwise around $v$, and $color (v_i)=c_i$
 > > Assume that no $[v_1,v_3]$-path in $G^*$ has only colors $c_1$ and $c_3$
 > > - Let $H$ be the subgraph induced by all $(v_1,w)$-paths in $G^*$ that have only colors $c_1$ and $c_3$
 

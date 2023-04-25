@@ -39,15 +39,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Programming/Networks and Graphs/Network Traversal.md",
-                "mode": "preview",
+                "file": "Computer Programming/Networks and Graphs/Networks and Graphs Traversal.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -123,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Programming/Networks and Graphs/Networks and Graphs Extensions.md",
+                "file": "Computer Programming/Networks and Graphs/Networks and Graphs Traversal.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Programming/Networks and Graphs/Networks and Graphs Extensions.md",
+                "file": "Computer Programming/Networks and Graphs/Networks and Graphs Traversal.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +186,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Computer Programming/Networks and Graphs/Networks and Graphs Extensions.md",
+                "file": "Computer Programming/Networks and Graphs/Networks and Graphs Traversal.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -290,10 +290,10 @@
       }
     ]
   },
-  "active": "c835cb9483ea0e6b",
+  "active": "99d75afc9213f696",
   "lastOpenFiles": [
-    "Computer Programming/Networks and Graphs/Network Traversal.md",
     "Computer Programming/Networks and Graphs/Networks and Graphs Extensions.md",
+    "Computer Programming/Networks and Graphs/Networks and Graphs Traversal.md",
     "Computer Programming/Networks and Graphs/Network Traversal.tex",
     "Computer Programming/Networks and Graphs/Networks and Graphs Extensions.tex",
     "Personal/Mermaid.md",
