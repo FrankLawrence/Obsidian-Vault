@@ -126,6 +126,10 @@ Created: 2023-04-04 00:23:35
 > > [!definition] Component
 > > A subgraph $H$ of $G$ is called a **component** of $G$ if $H$ is connected and not contained in a connected subgraph of $G$ with more vertices or edges. The number of components of $G$ is denoted as $\omega(G)$
 
+> [!question]- Let $G$ be a graph with $n$ vertices and $m$ edges. What are, respectively, the min and the max number of components that $G$ can have?
+> $$1 \text{ and } n$$ 
+> Each vertex on its own can be considered a separate component if unconnected.
+
 > [!definition] Cuts
 > For a graph $G$ let $V^*\subset V(G)$ and $E^*\subset E(G)$
 > - $V^*$ is called a **vertex cut** if $\omega(G-V^*)>\omega(G)$
@@ -136,15 +140,15 @@ Created: 2023-04-04 00:23:35
 - $\kappa(G)$: size of a minimal vertex cut for graph $G$
 - $\lambda(G)$: size of a minimal edge cut for graph $G$
 
-> [!question]- What can be the maximum size of a vertex cut i a graph with $n$ vertices?
-> $$n-1$$
+> [!question]- What can be the maximum size of a vertex cut in a graph with $n$ vertices?
+> $$n-2$$
 
 > [!info] THEOREM 2.4
 > $\kappa(G)\geq \lambda(G)\geq min\{\delta(v)|v\in V(G)\}$
 
 - A graph $G$ for which $\kappa(G)\geq k$ for some $k$ is said to be **k-connected**, and **k-edge-connected** if $\lambda(G)\geq k$
 
-> [!question]- What is the minimum degree of vertices in a $k$-connectend graph with $n$ vertices?
+> [!question]- What is the minimum degree of vertices in a $k$-connected graph with $n$ vertices?
 > $$\geq k$$
 
 > [!definition] Complete Graph
@@ -177,7 +181,7 @@ Created: 2023-04-04 00:23:35
 > $$n-1$$
 
 > [!question]- Why can Menger's theorem not be used to compute vertex cuts of minimum size between pairs of vertices i $K_n$?
-> Because $K_n$ graphs do not have any pair of nonadjacet vertices
+> Because $K_n$ graphs do not have any pair of nonadjacent vertices
 
 ## Harary graph
 

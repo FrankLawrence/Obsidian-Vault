@@ -72,7 +72,7 @@ Created: 2023-04-25 00:55:30
 > [!info] Algorithm Chinese Postman Problem
 > $v_1,v_2,...,v_{2r}$ are the **odd-degree vertices** in $G$ for $r \geq 0$
 > 1. For each $v_i$ and $v_j$, find a **$[v_i,v_j]$-path $P_{ij}$ of minimum weight $w_{ij}$**. Let $e_{ij}$ be a **new edge between $v_i$ and $v_j$ with weight $w_{ij}$**
-> 2. Find a **set $E^*$ of $r$ edges** in $E=\{e_{ij}|1\leq i \leq j\leq 2r\} such that:
+> 2. Find a **set $E^*$ of $r$ edges** in $E=\{e_{ij}|1\leq i \leq j\leq 2r\}$ such that:
 > 	- no two different edges in $E^*$ share a vertex, and
 > 	- the total weight of these $r$ edges is minimum
 > 3. For each **edge $e_{ij}$ in $E^*$, duplicate the edges on the path $P_{ij}$ in $G$**
@@ -93,6 +93,12 @@ Created: 2023-04-25 00:55:30
 > 2. Let $w$ be the last vertex added to $P$. While $P$ is not a Hamilton cycle do:
 > 	1. If possible, select a vertex $y\in N(w)-V(P)$ and add it to the end of $P$
 > 	2. If not, pick a $v\in N(w)$ randomly. Since $v$ lies on $P$, $P$ has an edge $\langle v,x\rangle$. Apply **rotational transformation** on $P$
+> 
+> ![[Posa's algorithm.png|500]]
+> - (a) --> (b) rotational transformation after selecting vertex 4 ($w=6, v=4$)
+## Traveling Salesman Problem
+- Given a list of cities and the distances between each pair of cities, what is the shortest possible route that vists each city exactly once and returns to the origin city?
+- Find a shortest ("best") Hamilton cycle in a **complete weighted graph** 
 
 ---
 References:

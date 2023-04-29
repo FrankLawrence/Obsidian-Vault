@@ -10,6 +10,7 @@ Tags: MOC course
 ## Assignments
 - [[Computer Networks Game Plan]]
 - [[Computer Networks Chapter 2]]
+- [[Computer Networks Chapter 3]]
 ## Topics
 - [[Computer Networks Introduction]]
 - [[The Physical Layer]]

@@ -83,6 +83,7 @@ Created: 2023-04-21 03:14:19
 | 2   |      | x    | x    |      |      | x    | x    |      |      | x    | x    |      |
 | 4   |      |      |      | x    | x    | x    | x    |      |      |      |      | x    |
 | 8   |      |      |      |      |      |      |      | x    | x    | x    | x    | x    |
+- [[Hamming codes table]]
 
 > [!example] Hamming codes
 > Message: 11010101
