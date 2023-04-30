@@ -25,12 +25,12 @@ Created: 2023-04-21 15:40:14
 
 - every undirected graph can be turned into an equivalent directed graph by replacing every edge with two arcs
 - we cannot always represent a directed graph with an equivalent undirected one
-- an adjacency matrix $A[i,j]$ is equal to the number of arcs joining vertex $v_i$ to $v_j$
+- an [[Networks and Graphs Foundations#^5eab95|adjacency matrix]] $A[i,j]$ is equal to the number of arcs joining vertex $v_i$ to $v_j$
 - **Properties of adjacency matrices**:
 	- not symmetric: $A_D[i,j]\neq A_D[j,i]$
 	- digraph $D$ is **strict** iff $\forall i,j:A[i,j]\leq 1$ and $A[i,i]=0$
 	- For each vertex $v_i$, $$\sum_jA[i,j]=\delta_{out}(v_i)$$ and $$\sum_jA[j,i]=\delta_{in}(v_i)$$
-- Give a digraph $D$, the **adjacency-list** of $D$ consists of an array $Adj$ of $|V|$ lists. Each list corresponds to one vertex in $V$. For each $u\in V(D)$, the list $Adj[u]$ contains all vertices $v$ such that there is an arc $(u,v)$
+- Give a digraph $D$, the [[Networks and Graphs Foundations#^3419b1|adjacency-list]] of $D$ consists of an array $Adj$ of $|V|$ lists. Each list corresponds to one vertex in $V$. For each $u\in V(D)$, the list $Adj[u]$ contains all vertices $v$ such that there is an arc $(u,v)$
 ## Connectivity for directed graphs
 - A **directed** $(v_0,v_k)$**-walk** in $D$ is a sequence $[v_0,a_0,v_1,a_1,...,a_{k-1},v_k]$ of vertices and arcs with $a_i=(v_{i-1},v_i)$
 - A **directed trail** is a directed walk in which all arcs are distinct; a **directed path** is a directed trail in which all vertices are also distinct

@@ -74,13 +74,17 @@ Created: 2023-04-04 00:23:35
 > Given a graph $G$, the adjacency-list of $G$ consists of an array *Adj* of $|V|$ pointers. Each points to a list of vertices. Each list corresponds to one vertex in $V$. For each $u \in V(G)$, the list *Adj[u]* contains all vertices $v$ such that there is an edge $\langle u,v\rangle$ in $E(G)$. These are the neighbors of $u$.
 > If each node needs one word of memory, then $n+2m$ words of memory can store $G$
 
-> [!definition] Adjacency matrix
+^3419b1
+
+> [!definition] [[Graphs and Trees#Adjacency matrix for unweighted graphs|Adjacency matrix]]
 > Given a graph $G$, the adjacency matrix of $G$ is a $|V|\times |V|$ matrix $A=(A_{ij})$ such that $a_{ij}$ is the number of edges between $v_i$ and $v_j$
 > $n^2$ words to store $G$ of $n$ vertices
 > **Properties of the adjacency matrix of a graph $G$**
 > - symmetric: $\forall u,v:A_G[u,v] = A_G[v,u]$
 > - $G$ is simple $\Longleftrightarrow \forall u,v : A_G[u,v]=1$ and $A[u,u]= 0$
 > - $\forall u : \sum A_G[u,v] = \delta(u)$
+
+^5eab95
 
 > [!definition] Incidence matrix
 > Given a graph $G$, the incidence matrix of $G$ is a $|V|\times |E|$ matrix $M$ such that $M[i,j]$ counts the number of times that edge $e_j$ is incident with vertex $v_i$
@@ -126,6 +130,8 @@ Created: 2023-04-04 00:23:35
 > > [!definition] Component
 > > A subgraph $H$ of $G$ is called a **component** of $G$ if $H$ is connected and not contained in a connected subgraph of $G$ with more vertices or edges. The number of components of $G$ is denoted as $\omega(G)$
 
+^d3fe85
+
 > [!question]- Let $G$ be a graph with $n$ vertices and $m$ edges. What are, respectively, the min and the max number of components that $G$ can have?
 > $$1 \text{ and } n$$ 
 > Each vertex on its own can be considered a separate component if unconnected.
@@ -136,6 +142,8 @@ Created: 2023-04-04 00:23:35
 > - If $V^*$ consists of a single vertex $v$, then $v$ is called a **cut vertex**
 > - If $\omega(G-E^*)>\omega(G)$ then $E^*$ is called an **edge cut**
 > - If $E^*$ consists of only a single edge $e$, then $e$ is known as a **cut edge**
+
+^7639ab
 
 - $\kappa(G)$: size of a minimal vertex cut for graph $G$
 - $\lambda(G)$: size of a minimal edge cut for graph $G$
@@ -165,8 +173,8 @@ Created: 2023-04-04 00:23:35
 
 > [!info] THEOREM 2.5 (Menger)
 > Let $G$ be a connected graph and $u$ and $v$ two nonadjacent vertices in $G$
-> - The minimum number of vertices in a vertex cut that disconnects $u$ and $v$ is equal to the maximum number of pairwise vertex-independent paths between $u$ to $v$
-> - The minimum number of edges in an edge cut that disconnects $u$ and $v$, is equal to the maximum number of pairwise edge-independent paths between $u$ and $v$
+> - The minimum number of vertices in a [[#^7639ab|vertex cut]] that disconnects $u$ and $v$ is equal to the maximum number of pairwise vertex-independent paths between $u$ to $v$
+> - The minimum number of edges in an [[#^7639ab|edge cut]] that disconnects $u$ and $v$, is equal to the maximum number of pairwise edge-independent paths between $u$ and $v$
 
 ^e20f09
 
@@ -267,7 +275,6 @@ Created: 2023-04-04 00:23:35
 
 > [!question]- Every complete graph with 4 or more vertices is non-planar
 > False
-
 
 ---
 References:

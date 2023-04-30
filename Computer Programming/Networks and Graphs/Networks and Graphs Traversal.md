@@ -24,7 +24,7 @@ Created: 2023-04-25 00:55:30
 > > **Induction hypothesis**: Assume the theorem holds for all graphs with less than $m$ edges
 > > **Inductive step**: Show that the theorem holds for all graphs with $m$ edges
 > > Take an arbitrary graph $G$ with $m$ edges. Graph $G$ has a cycle, since a graph where the degree of each vertex is at least 2 contains a cycle.
-> > - $C$ is a cycle of $G$ and graph $G-C$ consists of a set of components connected by $C$
+> > - $C$ is a cycle of $G$ and graph $G-C$ consists of a set of [[Networks and Graphs Foundations#^d3fe85|components]] connected by $C$
 > > - Each vertex of $G-C$ has still an even degree 
 > >   => Each component $\sigma$ of $G-C$ has an Euler tour, by induction hypothesis as each of them has less than $m$ edges
 > > 
@@ -47,7 +47,7 @@ Created: 2023-04-25 00:55:30
 - arbitrarily select a vertex $u \in G$ and set $T=\{u\}$
 - While $E(T)\neq E(G)$, do the following:
 	- Let $v$ be the last vertex added to $T$. Choose an edge $\langle v,w\rangle$ in $G-E(T)$ and add it to $T$
-	- If $\langle v,w\rangle$ is a cut edge in $G-E(T)$, then it will be selected if there is no other option
+	- If $\langle v,w\rangle$ is a [[Networks and Graphs Foundations#^7639ab|cut edge]] in $G-E(T)$, then it will be selected if there is no other option
 ## Heirholzer's Algorithm
 - all vertices in graph $G$ have an even degree
 1. Start from an arbitrary vertex $u$ in $G$, and build a trail $P$ until no new edge can be traversed
