@@ -12,7 +12,7 @@ Created: 2022-12-01 12:39:35
 - number of columns: (fixed) amount of digits used
 - number of places: 10 for decimal numbers
 
-**Intuition**: sort per dimension using a stable sorting algorithm
+**Intuition**: sort per dimension using a [[Sorting#Stable Sorting|stable sorting]] algorithm
 - sorting on the *least significant digit* first
 - using a stable underlying sorting algorithm
 ```cpp

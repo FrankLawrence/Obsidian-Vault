@@ -37,7 +37,7 @@ $$\begin{align}\to h&\leq \lg(n!)\\&=\Omega(n\lg n)\end{align}$$
 **algorithm idea**: count the number of occurences of each $i$ from $\{0,\dots,k\}$
 **time complexity**: in $\Theta(n+k)$ for an input-array of length $n$
 **drawback**: fixed range, and requires additional counting array $C$ and output array $B$
-**counting sort is a stable sorting algorithm**
+**counting sort is a [[Sorting#Stable Sorting|stable sorting]] algorithm**
 
 ---
 References:

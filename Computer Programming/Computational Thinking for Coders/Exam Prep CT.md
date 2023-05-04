@@ -365,7 +365,7 @@ Binary search: check whether an element is in the left or the right half of a li
 So far: for all n elements, compare each to all other elements -> O(n^2)
 Idea: (recursively) divide the list in halves (log n phases), in each phase do a total of O(n) steps, leading overall to O(n log n)
 
-Quicksort
+[[Quicksort]]
 Quicksort repeatedly partitions a list into low and high parts (each unsorted) then recursively sorts these partitions
 Base case: 1 or 0 elements left 
 

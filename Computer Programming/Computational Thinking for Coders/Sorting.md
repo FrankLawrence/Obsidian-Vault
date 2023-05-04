@@ -2,8 +2,7 @@
 Tags: [lecture]
 Links: [[Computational Thinking for Coders]]
 ---
-# Sorting
-## *Stable Sorting*
+# Stable Sorting
 - This is important for real-world data records that contain more information than the "number" we sort on..
 - Examples:
 	- sort submissions to a programming assignment by student name, but keep the order of multiple attempts by the same student
@@ -15,7 +14,7 @@ Example: sort submissions to a pr assignment by student name but keep the order 
 
 Selection sort works by finding the minimum element and then inserting it in its correct position by swapping with the element which is in the position of this minimum element. This is what makes it unstable.
 
-## *Quicksort*
+# [[Quicksort]]
 - Quicksort repeatedly partitions a list into low and high parts (each unsorted) and then recursibely sorts these partitions
 - base case: 1 or 0 elements left
 - Two partitions left and right of the pivot 
@@ -25,10 +24,10 @@ Selection sort works by finding the minimum element and then inserting it in its
 	- best case: $O(n\log n)$
 	- worst case: $O(n^2)$
 - Space: $O(n)$
-## *Merge Sort*
+# Merge Sort
 - Time: $O(n\log n)$
 - Space: $O(n)$
-## *How to sort in practice?*
+# How to sort in practice?
 - Small data sets (fits in vectors in memory): call sort(), using quicksort
 - Large data sets (files on disk): merge sort
 ___

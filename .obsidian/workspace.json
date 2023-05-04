@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "5b8444adc98c1bff",
+            "id": "d990fe377b2532e8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Programming/Networks and Graphs/Networks and Graphs Foundations.md",
+                "file": "Computer Programming/Computational Thinking for Coders/Computational Thinking for Coders.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -106,8 +106,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -136,7 +135,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Programming/Linear Algebra/Linear Algebra.md",
+                "file": "Computer Programming/Computational Thinking for Coders/Computational Thinking for Coders.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +152,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Programming/Linear Algebra/Linear Algebra.md",
+                "file": "Computer Programming/Computational Thinking for Coders/Computational Thinking for Coders.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -199,7 +198,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Computer Programming/Linear Algebra/Linear Algebra.md",
+                "file": "Computer Programming/Computational Thinking for Coders/Computational Thinking for Coders.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -303,35 +302,35 @@
       }
     ]
   },
-  "active": "496148924fa466b5",
+  "active": "d990fe377b2532e8",
   "lastOpenFiles": [
-    "Computer Programming/Linear Algebra/Row Reduction and Echelon Forms.md",
-    "Computer Programming/Linear Algebra/Linear Algebra.md",
-    "Computer Programming/Linear Algebra/Systems of Linear Equations.md",
-    "Computer Programming/Uni Courses🎓.md",
-    "Computer Programming/Computer Networks/Computer Networks.md",
-    "Computer Programming/Computer Networks/The Network Layer.md",
-    "Computer Programming/Computer Networks/The Medium Access Control Sublayer.md",
-    "Computer Programming/Computer Networks/The Physical Layer.md",
-    "Computer Programming/Computer Networks/The Data Link Layer.md",
+    "Computer Programming/Linear Algebra/Linear Independence.md",
+    "Computer Programming/Computational Thinking for Coders/Computational Thinking for Coders.md",
     "Computer Programming/Networks and Graphs/Networks and Graphs Traversal.md",
-    "Computer Programming/Networks and Graphs/Networks and Graphs Foundations.md",
-    "Files/Lecture 4.pdf",
-    "Computer Programming/Networks and Graphs/Networks and Graphs Extensions.md",
-    "Computer Programming/Computational Thinking for Coders/Graphs and Trees.md",
-    "Computer Programming/Networks and Graphs/Networks and Graphs.md",
-    "Computer Programming/Computer Networks/Computer Networks Chapter 3.md",
+    "Computer Programming/Linear Algebra/Linear Algebra.md",
+    "Computer Programming/Computer Networks/The Network Layer.md",
+    "Daily Notes/2023-05-04.md",
+    "Daily Notes/2023-05-03.md",
+    "Daily Notes/2023-05-02.md",
     "Daily Notes/2023-04-30.md",
-    "Daily Notes/2023-04-29.md",
-    "Daily Notes/2023-04-28.md",
-    "Daily Notes/Favorite Songs.md",
-    "Computer Programming/Computer Organization/Arithmetic.md",
-    "Cooking and Baking/Chocolate Cookies.md",
-    "Computer Programming/Computer Organization/Computer Organization.md",
-    "Computer Programming/Computer Organization/Input-Output Organization.md",
-    "Computer Programming/Computer Organization/Basic Processing Unit.md",
-    "Computer Programming/Computer Organization/Sequence of actions needed to fetch and execute instruction examples.md",
-    "Computer Programming/Computer Organization/Main hardware components of a processor.md",
+    "Daily Notes/2023-05-01.md",
+    "Computer Programming/Computational Thinking for Coders/Containers.md",
+    "Computer Programming/Computational Thinking for Coders/Sorting.md",
+    "Computer Programming/Computational Thinking for Coders/Exam Prep CT.md",
+    "Computer Programming/Data Structures and Algorithms for CS/Quicksort.md",
+    "Computer Programming/Data Structures and Algorithms for CS/Data Structures and Algorithms for CS Lecture 8.md",
+    "Computer Programming/Data Structures and Algorithms for CS/Data Structures and Algorithms for CS Lecture 6.md",
+    "Computer Programming/Computational Thinking for Coders/Troubleshooting Process.md",
+    "Computer Programming/Computational Thinking for Coders/Graphs and Trees.md",
+    "Computer Programming/Computational Thinking for Coders/Searching and Big-O.md",
+    "Computer Programming/Computational Thinking for Coders/Big O notation.md",
+    "Computer Programming/Computational Thinking for Coders/Introduction Computational Thinking.md",
+    "Computer Programming/Computational Thinking for Coders/Module 4.md",
+    "Computer Programming/Computational Thinking for Coders/Module 3.md",
+    "Computer Programming/Computational Thinking for Coders/3.2 Troubleshooting.md",
+    "Computer Programming/Computational Thinking for Coders/3.1 Debugging.md",
+    "Computer Programming/Uni Courses🎓.md",
+    "Files/Lecture 4.pdf",
     "Files/Posa's algorithm.png",
     "Computer Programming/Networks and Graphs/Network Traversal.tex",
     "Computer Programming/Networks and Graphs/Networks and Graphs Extensions.tex",
