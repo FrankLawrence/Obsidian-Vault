@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Programming/Computational Thinking for Coders/Computational Thinking for Coders.md",
-                "mode": "preview",
+                "file": "Interests/Mac/Mac startup key combinations.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -105,13 +105,21 @@
                 "sortOrder": "byModifiedTime"
               }
             }
+          },
+          {
+            "id": "9f79838ae352b430",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 238.50390243530273,
-    "collapsed": true
+    "width": 238.50390243530273
   },
   "right": {
     "id": "af68da5da2e3de0e",
@@ -135,7 +143,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Programming/Computational Thinking for Coders/Computational Thinking for Coders.md",
+                "file": "Interests/Mac/Mac startup key combinations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -152,7 +160,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Programming/Computational Thinking for Coders/Computational Thinking for Coders.md",
+                "file": "Interests/Mac/Mac startup key combinations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +206,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Computer Programming/Computational Thinking for Coders/Computational Thinking for Coders.md",
+                "file": "Interests/Mac/Mac startup key combinations.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -246,9 +254,9 @@
       "random-note:Open random note": true,
       "audio-recorder:Start/stop recording": false,
       "workspaces:Manage workspace layouts": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": true,
-      "obsidian-excalidraw-plugin:New Excalidraw drawing": true,
-      "templater-obsidian:Templater": true
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
+      "templater-obsidian:Templater": false
     }
   },
   "floating": {
@@ -304,8 +312,12 @@
   },
   "active": "d990fe377b2532e8",
   "lastOpenFiles": [
-    "Computer Programming/Linear Algebra/Linear Independence.md",
+    "Interests/Mac/Apps.md",
+    "Interests/Mac/Mac startup key combinations.md",
+    "Interests/Mac/Untitled.md",
     "Computer Programming/Computational Thinking for Coders/Computational Thinking for Coders.md",
+    "Interests/Mac",
+    "Computer Programming/Linear Algebra/Linear Independence.md",
     "Computer Programming/Networks and Graphs/Networks and Graphs Traversal.md",
     "Computer Programming/Linear Algebra/Linear Algebra.md",
     "Computer Programming/Computer Networks/The Network Layer.md",
@@ -327,9 +339,6 @@
     "Computer Programming/Computational Thinking for Coders/Introduction Computational Thinking.md",
     "Computer Programming/Computational Thinking for Coders/Module 4.md",
     "Computer Programming/Computational Thinking for Coders/Module 3.md",
-    "Computer Programming/Computational Thinking for Coders/3.2 Troubleshooting.md",
-    "Computer Programming/Computational Thinking for Coders/3.1 Debugging.md",
-    "Computer Programming/Uni Courses🎓.md",
     "Files/Lecture 4.pdf",
     "Files/Posa's algorithm.png",
     "Computer Programming/Networks and Graphs/Network Traversal.tex",
@@ -353,7 +362,6 @@
     "Computer Programming/Computer Networks",
     "Computer Programming/Linear Algebra",
     "Banners",
-    "Dashboard~",
     "Computer Programming/Information Management for CS/An industry and its competitive forces.canvas",
     "Computer Programming/Information Management for CS/Information characteristics for managerial decisions.canvas"
   ]
