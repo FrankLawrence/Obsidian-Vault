@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"type":"group","id":"26c874adabccfbfb","x":-160,"y":-280,"width":727,"height":400,"label":"Physical Layer"},
+		{"type":"group","id":"f7f8f135e5de654e","x":-160,"y":-740,"width":727,"height":400,"label":"Data Link Layer"},
+		{"type":"group","id":"0726c38a42e35b0c","x":-160,"y":-1200,"width":727,"height":400,"label":"Medium Access Control Layer"},
+		{"type":"group","id":"5b09c79f4779a478","x":-160,"y":-1660,"width":727,"height":400,"label":"Medium Access Control Layer"},
+		{"type":"group","id":"d1f238cea2bbdade","x":-160,"y":-2120,"width":727,"height":400,"label":"Network Layer"},
+		{"type":"group","id":"c58695eee68da60d","x":-160,"y":-2580,"width":727,"height":400,"label":"Transport Layer"},
+		{"type":"group","id":"ae032ed3ebc0b829","x":-160,"y":-3040,"width":727,"height":400,"label":"Application Layer"}
+	],
+	"edges":[]
+}

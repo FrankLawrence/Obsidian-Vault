@@ -11,6 +11,8 @@ Tags: MOC course
 - [[Networks and Graphs Foundations]]
 - [[Networks and Graphs Extensions]]
 - [[Networks and Graphs Traversal]]
+- [[Networks and Graphs Trees]]
+- [[Networks and Graphs Analysis]]
 ## Lectures
 ## Extras
 ### Tips
