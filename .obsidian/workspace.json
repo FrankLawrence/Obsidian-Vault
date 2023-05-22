@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Programming/Networks and Graphs/Networks and Graphs.md",
-                "mode": "source",
+                "file": "Computer Programming/Networks and Graphs/Networks and Graphs Foundations.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -27,19 +27,6 @@
               "type": "markdown",
               "state": {
                 "file": "Computer Programming/Networks and Graphs/Networks and Graphs Analysis.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "b368cb13624cb394",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Interests/Programming/MathJax Basic Tutorial.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -60,7 +47,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -144,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interests/Programming/MathJax Basic Tutorial.md",
+                "file": "Computer Programming/Networks and Graphs/Networks and Graphs Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interests/Programming/MathJax Basic Tutorial.md",
+                "file": "Computer Programming/Networks and Graphs/Networks and Graphs Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -207,7 +194,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Interests/Programming/MathJax Basic Tutorial.md",
+                "file": "Computer Programming/Networks and Graphs/Networks and Graphs Analysis.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -260,15 +247,20 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b368cb13624cb394",
+  "active": "cff834df07ad80c0",
   "lastOpenFiles": [
-    "Interests/Programming/MathJax Basic Tutorial.md",
-    "Computer Programming/Networks and Graphs/Networks and Graphs Analysis.md",
+    "Computer Programming/Networks and Graphs/Networks and Graphs Foundations.md",
     "Computer Programming/Networks and Graphs/Networks and Graphs.md",
-    "Computer Programming/Networks and Graphs/Networks and Graphs Traversal.md",
+    "Computer Programming/Networks and Graphs/Networks and Graphs Extensions.md",
     "Computer Programming/Networks and Graphs/Networks and Graphs Trees.md",
-    "Computer Programming/Data Structures and Algorithms for CS/Data Structures and Algorithms for CS Lecture 13.md",
+    "Computer Programming/Networks and Graphs/Networks and Graphs Analysis.md",
     "Computer Programming/Computer Networks/Computer Networks.md",
+    "Daily Notes/2023-05-21.md",
+    "Daily Notes/2023-05-20.md",
+    "Interests/Programming/MathJax Basic Tutorial.md",
+    "Files/Phase transition graph.png",
+    "Computer Programming/Networks and Graphs/Networks and Graphs Traversal.md",
+    "Computer Programming/Data Structures and Algorithms for CS/Data Structures and Algorithms for CS Lecture 13.md",
     "Daily Notes/2023-05-18.md",
     "Daily Notes/2023-05-17.md",
     "Daily Notes/2023-05-19.md",
@@ -285,10 +277,6 @@
     "Computer Programming/Computer Networks/Lecture 9 Transport Layer Part 1.md",
     "Computer Programming/Computer Networks/The Network Layer.md",
     "Daily Notes/2023-05-16.md",
-    "Daily Notes/2023-05-14.md",
-    "Daily Notes/2023-05-15.md",
-    "Daily Notes/2023-05-13.md",
-    "Computer Programming/Computer Networks/The Data Link Layer.md",
     "Interests/Security and Privacy",
     "Interests/Mac",
     "Files/Lecture 4.pdf",
@@ -305,7 +293,6 @@
     "Files/Hub.png",
     "Files/MACA Protocol.png",
     "Files/Wireless LAN Protocols.png",
-    "Files/Binary Countdown Protocol.png",
     "Personal/;).canvas",
     "Files/Formelsammlung EM-Schwingung.pdf",
     "4B",
