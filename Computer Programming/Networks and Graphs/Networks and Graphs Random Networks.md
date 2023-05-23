@@ -39,9 +39,8 @@ Created: 2023-05-22 21:12:02
 - networks usually have a **giant component** where most vertices of the graph are contained in after $p$ passes a certain value
 - ER networks have a **phase transition** at $p=\frac1n$
 - If $p<\frac1n$, then the connected components are typically of size $O(\log(n))$
-- If $p>\frac1n$, then there is typically a connected component of size $O(\log(n))$
+- If $p>\frac1n$, then there is typically a connected component of size $O(n)$
 - ![[Phase transition graph.png|500]]
-- If $G\in ER(n,p)$ and $p>1/n$, then $G$ contains a component of size $\approx n$
 
 # Small worlds
 - A network of size $n$ follows the small world phenomenon if the average shortest-path lengths in the network is in $O(\log n)$
@@ -61,6 +60,7 @@ Created: 2023-05-22 21:12:02
 > > - how far apart are two nodes $i$ and $j$ on the "outer ring" of a $WS(n,k,0)$ graph is defined as: $$d_2^n(i,j)\overset{\text{def}}{=}\text{min}\{|i,j|,n-|i-j|\}$$
 
 - the clustering coefficient of a $WS(n,k,0)$ graph is **independent of its size** and for large values of $k$ it is close to $\frac34$
+- Generally, $WS$-graphs are considered to have a high clustering coefficient, as for $p$ significantly smaller than 1, may edges aren't replaces
 - if $G\in WS(n,k,0)$ and $k=2$, then $cc(G)=0$
 
 > [!info] THEOREM 7.4
@@ -73,14 +73,35 @@ Created: 2023-05-22 21:12:02
 
 # Scale-free Networks
 - real world networks have few high-degree nodes and where the number of nodes with high degree decreases exponentially
+- It is extremely unlikely that hubs exist in networks whose degree distribution is based on an exponential function, e.g., Bionomial and Poisson distributions.
 - A **scale-free function** can model the degree distribution of a graph: $$f(x)=Cx^{-\alpha}$$ where $C$ and $\alpha$ are two constant numbers and $2\leq \alpha\leq3$
 - A network is called a **scale-free network** if its degree distribution can be expressed by a **scale-free function**
+- In random graphs with exponential degree distribution the size of the hubs increases logarithmically as $n$ increases
+- With power-law distribution functions the size of the hubs increases almost linearly as $n$ increases
+- **preferential attachment**: new vertices prefer to be connected to the "more connected" vertices
 
 > [!info] ALGORITHM 7.2 (Barabási-Albert)
 > Consider a (relatively small) ER random graph $G_0$ with $n_0$ vertices $V_0$. At each step $s>0$:
 > 1. Add a new vertex $v_s$ to $V_{s-1}$ (i.e., $V_S\leftarrow V_{s-1}\cup\{v_s\}$)
 > 2. Add $m\leq n_0$ edges to the graph, each edge being incident with $v_s$ and a vertex $u$ from $V_{s-1}$ chosen with probability $$P(\text{select } u)=\frac{\delta(u)}{\sum_{w\in V_{s-1}}\delta(w)}$$ that is, choosing a vertex $u$ is proportional to the current vertex degree of $u$. Vertex $u$ must not have been previously chosen during this step.
 > 3. Stop when $n$ vertices have been aded, otherwise repeat the previous two steps
+
+> [!info] THEOREM 10.1
+> Let $G\in BA(n,n_0,m)$ and $v$ be an arbitrary vertex of $G$. Then: $$P[\delta(v)=k]\approx \frac{2m^2}{k^3}\propto \frac{1}{k^3}=k^{-3}$$
+
+> [!info] THEOREM 10.2
+> Let $G$ be a generalized $BA(n,n_0,m)$ and $v$ be an arbitrary vertex of $G$. Then: $$P[\delta(v)=k]\propto k^{-(2+\frac{1}{1+2c})}$$
+- If $c=0$, then $P[\delta(v)=k]\propto k^{-3}$
+  If $c\to \infty$, then $P[\delta(v)=k]\propto k^{-2}$
+
+> [!info] THEOREM 10.3
+> Let $G\in BA(n,n_0,m)$. Then, the expected average shortest-path length in $G$ is: $$\bar d(G)=\frac{\ln n-\ln (m/2)-1-\gamma}{\ln\ln n+\ln(m/2)}+1.5$$ where $\gamma\approx 0.5772$ is the Euler's constant
+
+- BA-graphs have shorter expected average shortest-path lengths than $ER$ graphs
+
+> [!info] THEOREM 10.4
+> Let $G\in BA(n,n_0,m)$ and $v_t$ be the vertex of $G$ that was added to $G$ at time $t$. Then: $$cc(v_t)=\frac{m-1}{8(\sqrt)}$$
+
 
 ---
 References:
