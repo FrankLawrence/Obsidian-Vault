@@ -58,7 +58,7 @@ Created: 2023-05-18 13:42:24
 > Let $G$ be a connected, undirected and weighted graph. Let
 > - $A$ be a subset of some MST of $G$
 > - $(S,V-S)$ be any cut of $G$ that does not intersect any edge of $A$
-> - $\langle, u,v\rangle$ be a light edge crossing $(S,V-S)$
+> - $\langle u,v\rangle$ be a light edge crossing $(S,V-S)$
 > -> Then, the edge $\langle u,v\rangle$ is safe for $A$
 
 ```python

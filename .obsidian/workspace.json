@@ -8,25 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "99d75afc9213f696",
+            "id": "b9ff667e6e4be9eb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Programming/Networks and Graphs/Networks and Graphs Foundations.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "cff834df07ad80c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Programming/Networks and Graphs/Networks and Graphs Analysis.md",
+                "file": "Computer Programming/Networks and Graphs/Networks and Graphs Random Networks.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -46,8 +33,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -131,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Programming/Networks and Graphs/Networks and Graphs Analysis.md",
+                "file": "Computer Programming/Networks and Graphs/Networks and Graphs Random Networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -148,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Programming/Networks and Graphs/Networks and Graphs Analysis.md",
+                "file": "Computer Programming/Networks and Graphs/Networks and Graphs Random Networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +180,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Computer Programming/Networks and Graphs/Networks and Graphs Analysis.md",
+                "file": "Computer Programming/Networks and Graphs/Networks and Graphs Random Networks.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -247,23 +233,30 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "cff834df07ad80c0",
+  "active": "b9ff667e6e4be9eb",
   "lastOpenFiles": [
-    "Computer Programming/Networks and Graphs/Networks and Graphs Foundations.md",
-    "Computer Programming/Networks and Graphs/Networks and Graphs.md",
-    "Computer Programming/Networks and Graphs/Networks and Graphs Extensions.md",
-    "Computer Programming/Networks and Graphs/Networks and Graphs Trees.md",
     "Computer Programming/Networks and Graphs/Networks and Graphs Analysis.md",
+    "Computer Programming/Networks and Graphs/Networks and Graphs Random Networks.md",
+    "Files/Average path length of ER graphs with varying average vertex degree.png",
+    "Files/Relation between clustering coefficient and average path length.png",
+    "Computer Programming/Networks and Graphs/Networks and Graphs Trees.md",
+    "Computer Programming/Networks and Graphs/Networks and Graphs.md",
+    "Computer Programming/Networks and Graphs/Networks and Graphs Foundations.md",
     "Computer Programming/Computer Networks/Computer Networks.md",
+    "Daily Notes/2023-05-22.md",
+    "Daily Notes/2023-05-23.md",
+    "Interests/Programming/MathJax Basic Tutorial.md",
+    "Computer Programming/Linear Algebra/Linear Algebra.md",
+    "Computer Programming/Linear Algebra/Linear Independence.md",
     "Daily Notes/2023-05-21.md",
     "Daily Notes/2023-05-20.md",
-    "Interests/Programming/MathJax Basic Tutorial.md",
+    "Daily Notes/2023-05-19.md",
+    "Computer Programming/Networks and Graphs/Networks and Graphs Extensions.md",
     "Files/Phase transition graph.png",
     "Computer Programming/Networks and Graphs/Networks and Graphs Traversal.md",
     "Computer Programming/Data Structures and Algorithms for CS/Data Structures and Algorithms for CS Lecture 13.md",
     "Daily Notes/2023-05-18.md",
     "Daily Notes/2023-05-17.md",
-    "Daily Notes/2023-05-19.md",
     "Network Layer Model.canvas",
     "Computer Programming/Computer Networks/Computer Networks Introduction.md",
     "Computer Programming/Computer Networks/Network Layer Model.md",
@@ -271,12 +264,6 @@
     "Computer Programming/Computer Organization/Logic Circuits.md",
     "Computer Programming/Computer Organization/Parallel Processing and Performance.md",
     "Computer Programming/Computer Organization/Pipelining.md",
-    "Computer Programming/Computer Organization/Basic Processing Unit.md",
-    "Computer Programming/Computer Networks/Lecture 8 Network Layer Part 2.md",
-    "Computer Programming/Computer Networks/Lecture 7 Network Layer Part 1.md",
-    "Computer Programming/Computer Networks/Lecture 9 Transport Layer Part 1.md",
-    "Computer Programming/Computer Networks/The Network Layer.md",
-    "Daily Notes/2023-05-16.md",
     "Interests/Security and Privacy",
     "Interests/Mac",
     "Files/Lecture 4.pdf",
@@ -291,8 +278,6 @@
     "Files/CSMA-CA.png",
     "Files/Switch.png",
     "Files/Hub.png",
-    "Files/MACA Protocol.png",
-    "Files/Wireless LAN Protocols.png",
     "Personal/;).canvas",
     "Files/Formelsammlung EM-Schwingung.pdf",
     "4B",

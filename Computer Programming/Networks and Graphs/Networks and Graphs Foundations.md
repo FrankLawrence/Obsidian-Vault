@@ -32,6 +32,8 @@ Created: 2023-04-04 00:23:35
 > [!definition] Simple Graphs
 > A graph is called a simple graph if it does not contain multiple edges between the same pair of vertices nor loops (i.e., edges from and to the same vertex)
 
+^4cc75e
+
 > [!definition] Vertex Degree 
 > In a graph $G$, the **degree of a vertex $v$** is the number of edges of $G$ incident to $v$, and it is denoted by $\delta(v)$.
 > Loops are counted twice

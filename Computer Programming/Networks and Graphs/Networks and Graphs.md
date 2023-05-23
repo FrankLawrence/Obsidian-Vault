@@ -13,6 +13,7 @@ Tags: MOC course
 - [[Networks and Graphs Traversal]]
 - [[Networks and Graphs Trees]]
 - [[Networks and Graphs Analysis]]
+- [[Networks and Graphs Random Networks]]
 ## Lectures
 ## Extras
 ### Tips
