@@ -43,7 +43,7 @@ Created: 2023-05-22 21:12:02
 - ![[Phase transition graph.png|500]]
 
 # Small worlds
-- A network of size $n$ follows the small world phenomenon if the average shortest-path lengths in the network is in $O(\log n)$
+- A network of size $n$ follows the small world phenomenon if the average shortest-path lengths in the network is in $O(\log n)$ ($\bar d\propto \log n$)
 
 > [!info] ALGORITHM 7.1 (Watts-Strogatz)
 > Consider a set of $n$ vertices $\{v_1,v_2,...,v_n\}$ and an (even) number $k$. In order to ensure that the grahp will have relatively few edges, choose $n$ and $k$ such that $n>>k>>\ln(n)>>1$
@@ -86,21 +86,29 @@ Created: 2023-05-22 21:12:02
 > 2. Add $m\leq n_0$ edges to the graph, each edge being incident with $v_s$ and a vertex $u$ from $V_{s-1}$ chosen with probability $$P(\text{select } u)=\frac{\delta(u)}{\sum_{w\in V_{s-1}}\delta(w)}$$ that is, choosing a vertex $u$ is proportional to the current vertex degree of $u$. Vertex $u$ must not have been previously chosen during this step.
 > 3. Stop when $n$ vertices have been aded, otherwise repeat the previous two steps
 
-> [!info] THEOREM 10.1
-> Let $G\in BA(n,n_0,m)$ and $v$ be an arbitrary vertex of $G$. Then: $$P[\delta(v)=k]\approx \frac{2m^2}{k^3}\propto \frac{1}{k^3}=k^{-3}$$
+> [!info] THEOREM 7.5
+> Let $G\in BA(n,n_0,m)$ and $v$ be an arbitrary vertex of $G$. Then the vertex degree of $v$ has degree $k\geq m$ is given by: $$P[\delta(v)=k]\approx \frac{2m^2}{k^3}\propto \frac{1}{k^3}=k^{-3}$$
 
-> [!info] THEOREM 10.2
-> Let $G$ be a generalized $BA(n,n_0,m)$ and $v$ be an arbitrary vertex of $G$. Then: $$P[\delta(v)=k]\propto k^{-(2+\frac{1}{1+2c})}$$
-- If $c=0$, then $P[\delta(v)=k]\propto k^{-3}$
-  If $c\to \infty$, then $P[\delta(v)=k]\propto k^{-2}$
+> [!info] ALGORITHM (Generalized Barabási-Albert)
+> Consider a small graph $G_0$ with $n_0$ vertices $V_0$ and no edges. At each step $s>0$
+> 1. Add a new vertex $v_s$ to $V_{s-1}$
+> 2. Add $m\leq n_0$ edges to the graph, each edge being incident with $v_s$ and a vertex $u$ from $V_{s-1}$ chosen with probability $$P(\text{select } u)=\frac{\delta(u)}{\sum_{w\in V_{s-1}}\delta(w)}$$ that is, choosing a vertex $u$ is proportional to the current vertex degree of $u$. Vertex $u$ must not have been previously chosen during this step.
+> 3. For some constant $c\geq 0$, add another $cm$ edges between the vertices in $V_{s-1}$, where the probability of adding an edge between two vertices $u$ and $w$ is proportional to $\delta(u)\cdot\delta(w)$, and that $u$ isn't already connected to $w$ $$P[\langle u,w\rangle]=\frac{\delta{u}\cdot\delta(w)}{\delta(a)\cdot\delta(b)}$$ $a,b$ are maximum degree vertices in $V_{s-1}$
+> 4. Stop when $n$ vertices have been added
 
-> [!info] THEOREM 10.3
-> Let $G\in BA(n,n_0,m)$. Then, the expected average shortest-path length in $G$ is: $$\bar d(G)=\frac{\ln n-\ln (m/2)-1-\gamma}{\ln\ln n+\ln(m/2)}+1.5$$ where $\gamma\approx 0.5772$ is the Euler's constant
+- Let $G$ be a generalized $BA(n,n_0,m)$ and $v$ be an arbitrary vertex of $G$. Then: $$P[\delta(v)=k]\propto k^{-(2+\frac{1}{1+2c})}$$
+	- If $c=0$, then $P[\delta(v)=k]\propto k^{-3}$
+	- If $c\to \infty$, then $P[\delta(v)=k]\propto k^{-2}$
+## Properties of scale-free networks
+- Let $G\in BA(n,n_0,m)$. Then, the expected average shortest-path length in $G$ is: $$\bar d(G)=\frac{\ln n-\ln (m/2)-1-\gamma}{\ln\ln n+\ln(m/2)}+1.5$$ where $\gamma\approx 0.5772$ is the Euler's constant
 
-- BA-graphs have shorter expected average shortest-path lengths than $ER$ graphs
+- BA-graphs have **shorter expected average shortest-path lengths** than $ER$ graphs
+	- hubs have a relatively low eccentricity since they are close to every vertex
+	- most vertices can easily reach others over a path containing a hub
+- Removing hubs in a scale-free graph results in several disjoint components -> weak against targeted removal of vertices
 
-> [!info] THEOREM 10.4
-> Let $G\in BA(n,n_0,m)$ and $v_t$ be the vertex of $G$ that was added to $G$ at time $t$. Then: $$cc(v_t)=\frac{m-1}{8(\sqrt)}$$
+- Let $G\in BA(n,n_0,m)$ and $v_t$ be the vertex of $G$ that was added to $G$ at time $t$. Then: $$cc(v_t)=\frac{m-1}{8(\sqrt)}$$
+# PageRank
 
 
 ---

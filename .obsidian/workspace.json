@@ -14,6 +14,19 @@
               "type": "markdown",
               "state": {
                 "file": "Computer Programming/Networks and Graphs/Networks and Graphs Random Networks.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "641815dffd80cd95",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Programming/Networks and Graphs/Networks and Graphs Analysis.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -33,7 +46,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,7 +131,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Programming/Networks and Graphs/Networks and Graphs Random Networks.md",
+                "file": "Computer Programming/Networks and Graphs/Networks and Graphs Analysis.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +148,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Programming/Networks and Graphs/Networks and Graphs Random Networks.md",
+                "file": "Computer Programming/Networks and Graphs/Networks and Graphs Analysis.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +194,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Computer Programming/Networks and Graphs/Networks and Graphs Random Networks.md",
+                "file": "Computer Programming/Networks and Graphs/Networks and Graphs Analysis.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -233,16 +247,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b9ff667e6e4be9eb",
+  "active": "641815dffd80cd95",
   "lastOpenFiles": [
-    "Computer Programming/Networks and Graphs/Networks and Graphs Analysis.md",
     "Computer Programming/Networks and Graphs/Networks and Graphs Random Networks.md",
+    "Computer Programming/Networks and Graphs/Networks and Graphs Analysis.md",
+    "Computer Programming/Networks and Graphs/Networks and Graphs.md",
+    "Computer Programming/Computer Networks/Computer Networks.md",
+    "Computer Programming/Uni Courses🎓.md",
     "Files/Average path length of ER graphs with varying average vertex degree.png",
     "Files/Relation between clustering coefficient and average path length.png",
     "Computer Programming/Networks and Graphs/Networks and Graphs Trees.md",
-    "Computer Programming/Networks and Graphs/Networks and Graphs.md",
     "Computer Programming/Networks and Graphs/Networks and Graphs Foundations.md",
-    "Computer Programming/Computer Networks/Computer Networks.md",
     "Daily Notes/2023-05-22.md",
     "Daily Notes/2023-05-23.md",
     "Interests/Programming/MathJax Basic Tutorial.md",
