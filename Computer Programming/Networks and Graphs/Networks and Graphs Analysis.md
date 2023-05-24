@@ -40,12 +40,12 @@ Specifies how easy it is to reach the other nodes in the network
 A measure of community structure and connections among neighbors. Different with global connectivity
 - **Motivation**: The probability that two of your friends know each is higher than the probability that two arbitrary people know each other
 - Let $G$ be a simple graph, $v\in V(G)$ with neighbor set $N(v)$. Let $n_v=|N(v)|$ and $m_v$ be the number of edges in the subgraph induced by $N(v)$, i.e., $|E(G[N(v)])|$
-	- The clustering coefficient $cc(v)$ is defined as: $$cc(v)\overset{\text{def}}{=}\begin{cases}\frac{m_v}{\begin{pmatrix}n_v\\2\end{pmatrix}}=\frac{2\cdot m_v}{n_v(n_v-1)}& \text{if }\delta(v)>1\\ \text{undefined}&\text{otherwise}\end{cases}$$
+	- The clustering coefficient $cc(v)$ is defined as: $$cc(v)\overset{\text{def}}{=}\begin{cases}\frac{m_v}{\binom{n_v}{2}}=\frac{2\cdot m_v}{n_v(n_v-1)}& \text{if }\delta(v)>1\\ \text{undefined}&\text{otherwise}\end{cases}$$
 - Let $V^*$ denote the set of vertices $\{v\in V(G)|\delta(v)>1\}$. The clustering coefficient $CC(G)$ is defined as: $$CC(G)\overset{\text{def}}{=}\frac{1}{V^*}\sum_{v\in V^*}cc(v)$$ 
 ## Global view
 - A graph $G$ has $n_{\Delta}(G)$ distinct triangles and $n_{\wedge}(G)$ distinct triples. The **network transitivity** $\tau(G)$ is defined as $\frac{n_{\Delta}(G)}{n_{\wedge}(G)}$
 - $n_{\Delta}(G)=\frac13\sum_{v\in V^*}n_{\Delta}(v)$
-- $n_{\wedge}(v)=\begin{pmatrix}\delta(v)\\ 2\end{pmatrix}=\frac12\delta(v)(\delta(v)-1)$
+- $n_{\wedge}(v)=\binom{\delta(v)}{2}=\frac12\delta(v)(\delta(v)-1)$
 - $cc(v)=\frac{n_{\Delta}(v)}{n_{\wedge}(v)}$
 
 ---

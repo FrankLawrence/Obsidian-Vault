@@ -47,12 +47,10 @@ Created: 2023-05-18 13:42:24
 - $T$ is a **minimum spanning tree** if the sum of its edge weights is minumum among all spanning trees of $G$
 - Let $G$ be a connected, undirected and weighted graph and $A$ be a subset of some MST of $G$
 	- An edge $\langle u,v \rangle \in E(G)$ is a **safe edge for $A$** if $A\cup \{\langle u,v \rangle\}$ is also a subset of some MST of $G$
-## Prim-Jarník Algorithm
 - Let $G$ be a connected, undirected and weighted graph and $S$ be any subset of vertices of $G$
 	- The sets $S,V-S$ is called a **cut** in $G$, and it is denoted by $(S,V-S)$
 	- An edge $\langle u,v\rangle$ **crosses** the cut $(S,V-S)$ if one of its endpoints is in $S$ and the other one is in $V-S$
 	- An edge is called a **light edge** crossing a cut if its weight is the minimum of any edge crossing the cut
-- runs in **$O(m\log n)$** time
 
 > [!info] THEOREM
 > Let $G$ be a connected, undirected and weighted graph. Let
@@ -60,6 +58,9 @@ Created: 2023-05-18 13:42:24
 > - $(S,V-S)$ be any cut of $G$ that does not intersect any edge of $A$
 > - $\langle u,v\rangle$ be a light edge crossing $(S,V-S)$
 > -> Then, the edge $\langle u,v\rangle$ is safe for $A$
+## Prim-Jarník Algorithm
+- Start from an empty tree $A$ and an arbitrary vertex $r\in V(G)$. At every step add a safe edge to $A$
+- runs in **$O(m\log n)$** time
 
 ```python
 for each vertex u in V(G):

@@ -8,10 +8,10 @@ Created: 2023-05-22 21:12:02
 - $ER(n,p)$ denotes the set of *all* ER random graphs with $n$ vertices and probability $p$ that two vertices are joined
 - ER graphs are [[Networks and Graphs Foundations#^4cc75e|simple]]
 ## Degree distribution
-- a vertex $u$ can be a neighbor to at max $n-1$ other vertices -> there are $\begin{pmatrix}n-1\\k\end{pmatrix}$ possibilites for choosing $k$ different vertices to be adjacent to $u$
+- a vertex $u$ can be a neighbor to at max $n-1$ other vertices -> there are $\binom{n-1}{k}$ possibilites for choosing $k$ different vertices to be adjacent to $u$
 - Probability that $v\in V(G)$ is connected to all nodes $\{u_1,...,u_k\}$: $$\overbrace{p\times p\times \cdots \times p}^{k\text{ times}}=p^k$$
 - Probability that $v$ is connected *only* to $\{u_1,...,u_k\}$: $$\overbrace{p\times p\times \cdots \times p}^{k\text{ times}}\times\overbrace{(1-p)\times(1-p)\times \cdots \times (1-p)}^{n-1-k \text{ times}}=p^k(1-p)^{n-1-k}$$
-- The probability that $u$ has exactly $k$ other vertices can be defined as: $$P(\delta(v)=k)=\begin{pmatrix}n-1\\ k\end{pmatrix}p^k(1-p)^{n-1-k}$$
+- The probability that $u$ has exactly $k$ other vertices can be defined as: $$P(\delta(v)=k)=\binom{n-1}{k}p^k(1-p)^{n-1-k}$$
 - The mean vertex degree of an $ER(n,p)$ graph is computed as: $$\bar\delta\overset{\text{def}}{=}\Bbb E[\delta]\overset{\text{def}}{=}\sum_{k=1}^{n-1}k\cdot P(\delta=k)$$
 
 > [!info] THEOREM 7.1
@@ -31,9 +31,8 @@ Created: 2023-05-22 21:12:02
 > > [!info] Proof
 > > Recall that the clustering coefficient is the ratio between the current and maximum number of edges between the neighbors
 > > - Let $n_v$ be the number of neighbors of a node $v$ in $G$
-> > - The expected number of edges between the neighbors of $v$ is $p\begin{pmatrix}n_v\\2\end{pmatrix}=p\frac{n_v(n_v-1)}{2}$
-> > - The maximum number of edges between the neighbors is $\begin{pmatrix}n_v\\2\end{pmatrix}$
-> > - $\frac{p\begin{pmatrix}n_v\\2\end{pmatrix}}{\begin{pmatrix}n_v\\2\end{pmatrix}}=p$
+> > - The expected number of edges between the neighbors of $v$ is $p\binom{n_v}{2}=p\frac{n_v(n_v-1)}{2}$
+> > - The maximum number of edges between the neighbors is $\binom{n_v}{2}$ -> $\displaystyle{\frac{p\binom{n_v}{2}}{\binom{n_v}{2}}=p}$
 
 - Random graphs tend to have a low clustering coefficient
 - networks usually have a **giant component** where most vertices of the graph are contained in after $p$ passes a certain value
@@ -56,7 +55,7 @@ Created: 2023-05-22 21:12:02
 
 > [!info] THEOREM 7.3
 > For any Watts-Strogatz graph $G$ from $WS(n,k,0)$ the clustering coefficient for $G$ is equal to $CC(G)=\frac{3(k-2)}{4(k-1)}$
-> > [!info] Proof
+> > [!info]- Proof
 > > - how far apart are two nodes $i$ and $j$ on the "outer ring" of a $WS(n,k,0)$ graph is defined as: $$d_2^n(i,j)\overset{\text{def}}{=}\text{min}\{|i,j|,n-|i-j|\}$$
 
 - the clustering coefficient of a $WS(n,k,0)$ graph is **independent of its size** and for large values of $k$ it is close to $\frac34$
@@ -109,7 +108,14 @@ Created: 2023-05-22 21:12:02
 
 - Let $G\in BA(n,n_0,m)$ and $v_t$ be the vertex of $G$ that was added to $G$ at time $t$. Then: $$cc(v_t)=\frac{m-1}{8(\sqrt)}$$
 # PageRank
+- Suppose $\vec G$ is a digraph that represents the links between $n$ webpages, and $\overrightarrow {rp}$ a link from page $r$ to page $p$, then: $$\text{rank}(p)=\frac{1-d}{n}+d\sum_{\overrightarrow{rp}\in E(\vec G)}\frac{\text{rank}(r)}{\delta_{\text{out}}(r)}$$ where $d$ is a **damping parameter** ($\approx 0.85$)
 
+> [!info] ALGORITHM
+> Let $\vec G$ be representing a set of $n$ webpages and $V(\vec G)=\{v_1,v_2,...,v_n\}$. Set $t=0$, and $d \approx 0.85$
+> 1. Set $\text{rank}(v_{i},t)=\frac{1}{n}$ for all $v_{i}\in V(\vec G)$
+> 2. For each $v_{i\in}V(\vec G)$, compute $$\text{rank}(v_{i},t+1)= \frac{1-d}{n}+d\sum\limits_{\overrightarrow{rp}\in E(\vec G)} \frac{\text{rank}(r,t)}{\delta_{out}(r)}$$
+> 3. $t\rightarrow t+1$
+> 4. Stop if a maximum number of iterations have been reached or $$\sum\limits_{v\in V(\vec G)}\text{rank}(v,t)-\sum\limits_{v\in V(\vec G)}\text{rank}(v,t-1)$$ is very tiny. Otherwise, go back to step 2
 
 ---
 References:
