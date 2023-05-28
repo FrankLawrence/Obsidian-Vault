@@ -44,9 +44,10 @@ A measure of community structure and connections among neighbors. Different with
 - Let $V^*$ denote the set of vertices $\{v\in V(G)|\delta(v)>1\}$. The clustering coefficient $CC(G)$ is defined as: $$CC(G)\overset{\text{def}}{=}\frac{1}{V^*}\sum_{v\in V^*}cc(v)$$ 
 ## Global view
 - A graph $G$ has $n_{\Delta}(G)$ distinct triangles and $n_{\wedge}(G)$ distinct triples. The **network transitivity** $\tau(G)$ is defined as $\frac{n_{\Delta}(G)}{n_{\wedge}(G)}$
-- $n_{\Delta}(G)=\frac13\sum_{v\in V^*}n_{\Delta}(v)$
-- $n_{\wedge}(v)=\binom{\delta(v)}{2}=\frac12\delta(v)(\delta(v)-1)$
-- $cc(v)=\frac{n_{\Delta}(v)}{n_{\wedge}(v)}$
+- Let $n_{\Delta}(v)$ be the number of triangles of which $v$ is a member and $n_{\wedge}(v)$ is the number of triples at $v$
+	- $n_{\Delta}(G)=\frac13\sum_{v\in V^*}n_{\Delta}(v)$
+	- $n_{\wedge}(v)=\binom{\delta(v)}{2}=\frac12\delta(v)(\delta(v)-1)$
+	- $cc(v)=\frac{n_{\Delta}(v)}{n_{\wedge}(v)}$
 
 ---
 References:

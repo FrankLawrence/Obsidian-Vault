@@ -45,8 +45,8 @@ Created: 2023-05-22 21:12:02
 - A network of size $n$ follows the small world phenomenon if the average shortest-path lengths in the network is in $O(\log n)$ ($\bar d\propto \log n$)
 
 > [!info] ALGORITHM 7.1 (Watts-Strogatz)
-> Consider a set of $n$ vertices $\{v_1,v_2,...,v_n\}$ and an (even) number $k$. In order to ensure that the grahp will have relatively few edges, choose $n$ and $k$ such that $n>>k>>\ln(n)>>1$
-> 1. Order the $n$ vertices into a ring and connect each vertx to its first $k/2$ left-hand neighbors, and its $k/2$ right-hand neighbors, leading to graph $G^1$
+> Consider a set of $n$ vertices $\{v_1,v_2,...,v_n\}$ and an (even) number $k$. In order to ensure that the graph will have relatively few edges, choose $n$ and $k$ such that $n>>k>>\ln(n)>>1$
+> 1. Order the $n$ vertices into a ring and connect each vertex to its first $k/2$ left-hand neighbors, and its $k/2$ right-hand neighbors, leading to graph $G^1$
 > 2. With probability $p$, replace each edge $\langle u,v\rangle$ with an edge $\langle u,w\rangle$ where $w$ is a randomly chosen vertex from $V(G)$ other that $u$, and such that $\langle u,w\rangle$ is not already contained in edge set of $G$
 
 - for a graph in $WS(n,k,0)$ the maximum distance is equal to $\left\lceil \frac{n}{k}\right\rceil$
@@ -83,16 +83,16 @@ Created: 2023-05-22 21:12:02
 > Consider a (relatively small) ER random graph $G_0$ with $n_0$ vertices $V_0$. At each step $s>0$:
 > 1. Add a new vertex $v_s$ to $V_{s-1}$ (i.e., $V_S\leftarrow V_{s-1}\cup\{v_s\}$)
 > 2. Add $m\leq n_0$ edges to the graph, each edge being incident with $v_s$ and a vertex $u$ from $V_{s-1}$ chosen with probability $$P(\text{select } u)=\frac{\delta(u)}{\sum_{w\in V_{s-1}}\delta(w)}$$ that is, choosing a vertex $u$ is proportional to the current vertex degree of $u$. Vertex $u$ must not have been previously chosen during this step.
-> 3. Stop when $n$ vertices have been aded, otherwise repeat the previous two steps
+> 3. Stop when $n$ vertices have been added, otherwise repeat the previous two steps
 
 > [!info] THEOREM 7.5
-> Let $G\in BA(n,n_0,m)$ and $v$ be an arbitrary vertex of $G$. Then the vertex degree of $v$ has degree $k\geq m$ is given by: $$P[\delta(v)=k]\approx \frac{2m^2}{k^3}\propto \frac{1}{k^3}=k^{-3}$$
+> Let $G\in BA(n,n_0,m)$ and $v$ be an arbitrary vertex of $G$. Then probability that vertex $v$ has degree $k\geq m$ is given by: $$P[\delta(v)=k]\approx \frac{2m^2}{k^3}\propto \frac{1}{k^3}=k^{-3}$$
 
 > [!info] ALGORITHM (Generalized Barabási-Albert)
 > Consider a small graph $G_0$ with $n_0$ vertices $V_0$ and no edges. At each step $s>0$
 > 1. Add a new vertex $v_s$ to $V_{s-1}$
 > 2. Add $m\leq n_0$ edges to the graph, each edge being incident with $v_s$ and a vertex $u$ from $V_{s-1}$ chosen with probability $$P(\text{select } u)=\frac{\delta(u)}{\sum_{w\in V_{s-1}}\delta(w)}$$ that is, choosing a vertex $u$ is proportional to the current vertex degree of $u$. Vertex $u$ must not have been previously chosen during this step.
-> 3. For some constant $c\geq 0$, add another $cm$ edges between the vertices in $V_{s-1}$, where the probability of adding an edge between two vertices $u$ and $w$ is proportional to $\delta(u)\cdot\delta(w)$, and that $u$ isn't already connected to $w$ $$P[\langle u,w\rangle]=\frac{\delta{u}\cdot\delta(w)}{\delta(a)\cdot\delta(b)}$$ $a,b$ are maximum degree vertices in $V_{s-1}$
+> 3. For some constant $c\geq 0$, add another $cm$ edges between the vertices in $V_{s-1}$, where the probability of adding an edge between two vertices $u$ and $w$ is proportional to $\delta(u)\cdot\delta(w)$, and that $u$ isn't already connected to $w$ $$P[\langle u,w\rangle]=\frac{\delta(u)\cdot\delta(w)}{\delta(a)\cdot\delta(b)}$$ $a,b$ are maximum degree vertices in $V_{s-1}$
 > 4. Stop when $n$ vertices have been added
 
 - Let $G$ be a generalized $BA(n,n_0,m)$ and $v$ be an arbitrary vertex of $G$. Then: $$P[\delta(v)=k]\propto k^{-(2+\frac{1}{1+2c})}$$
@@ -113,7 +113,7 @@ Created: 2023-05-22 21:12:02
 > [!info] ALGORITHM
 > Let $\vec G$ be representing a set of $n$ webpages and $V(\vec G)=\{v_1,v_2,...,v_n\}$. Set $t=0$, and $d \approx 0.85$
 > 1. Set $\text{rank}(v_{i},t)=\frac{1}{n}$ for all $v_{i}\in V(\vec G)$
-> 2. For each $v_{i\in}V(\vec G)$, compute $$\text{rank}(v_{i},t+1)= \frac{1-d}{n}+d\sum\limits_{\overrightarrow{rp}\in E(\vec G)} \frac{\text{rank}(r,t)}{\delta_{out}(r)}$$
+> 2. For each $v_{i}\in V(\vec G)$, compute $$\text{rank}(v_{i},t+1)= \frac{1-d}{n}+d\sum\limits_{\overrightarrow{rp}\in E(\vec G)} \frac{\text{rank}(r,t)}{\delta_{out}(r)}$$
 > 3. $t\rightarrow t+1$
 > 4. Stop if a maximum number of iterations have been reached or $$\sum\limits_{v\in V(\vec G)}\text{rank}(v,t)-\sum\limits_{v\in V(\vec G)}\text{rank}(v,t-1)$$ is very tiny. Otherwise, go back to step 2
 
