@@ -29,15 +29,15 @@ Created: 2023-05-16 22:50:38
 - collection of all best paths to a given destination forms a (spanning) tree
 - routing tables store on which link the packet must be sent
 
-- Routing table for C:
-
-| To  | Distance | Line |
-| --- | -------- | ---- |
-| A   | 7        | A    |
-| B   | 59       | A    |
-| C   | 0        | -    |
-| D   | 75       | E    |
-| E   | 1        | E    |
+> [!example] Routing table for C
+> 
+> | To  | Distance | Line |
+> | --- | -------- | ---- |
+> | A   | 7        | A    |
+> | B   | 59       | A    |
+> | C   | 0        | -    |
+> | D   | 75       | E    |
+> | E   | 1        | E    |
 
 ## Distance vector routing
 - Send your *distance vector* to your neighbors
@@ -87,7 +87,7 @@ Created: 2023-05-16 22:50:38
 > 	- C, -
 > 	- D, 1
 > - When the connection from B to A breaks, B looks at D and updates its vector table to 2+1=3
-> - D sees that all neightbors have a path of A>2 -> it updates it's value to 4
+> - D sees that all neighbors have a path of A>2 -> it updates it's value to 4
 > - the loop continues
 ## Link state routing
 - Doesn't suffer from *count to infinity problem*
@@ -124,21 +124,26 @@ Created: 2023-05-16 22:50:38
 	- Different maximum packet sizes
 	- Different costs (for ISP)
 	- Different quality of services
+## Structure of the Internet
+- ISPs and (large) corporations are **Autonomous Systems**
+- Large corporation can use multiple points of attachment: *multihoming*
+- Homes and small businesses connect to the Internet via ISPs
+- Peering points (Internet eXchange Points: **IXP**s) connect ISPs and backbones
 ## Open Shortest Path First (OSPF)
-- Routing within an autonomous System
+- Routing within an autonomous System (*Intradomain* routing)
 - uses a form of link state routing and builds a graph representation of the network
-- uses heirarchical routing by dividing the network into different areas for large networks
+- uses hierarchical routing by dividing the network into different areas for large networks
 	- routers inside an area have a RT of other areas and the routers inside the area
-	- area border routers contain address for machines in all the areas connected to it
+	- area border routers contain address for machines in all the areas connected to it 
 - for destinations not in area, go through the backbone (more simple)
 ## Border Gateway Protocol (BGP)
-- Routing between independent networks
+- Routing between independent networks (*Interdomain* routing)
 - policies for routers put in place by ISPs, companies or countries
-- Autonomous system advertise which IP addresses are accessible through it's network to other authonomous systems
+- Autonomous system advertise which IP addresses are accessible through it's network to other autonomous systems
 - uses distance vector routing and path vectors (to see if the path goes through the same router) to mitigate count to infinity problem
 ## Tunneling
 - two connecting networks can use different protocols
-- messages are "wraped" in the protocol of the second network (used to route IPv6 packets over IPv4 networks)
+- messages are "wrapped" in the protocol of the second network (used to route IPv6 packets over IPv4 networks)
 ## Packet fragmentation
 - packet size can be limited by hardware, software, protocols etc.
 ```mermaid
