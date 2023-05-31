@@ -26,8 +26,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Programming/Computer Networks/Lecture 10 Transport Layer Part 2.md",
-                "mode": "source",
+                "file": "Computer Programming/Computer Networks/Lecture 11 Application Layer Part 1.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -88,7 +88,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -117,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Programming/Computer Networks/Lecture 10 Transport Layer Part 2.md",
+                "file": "Computer Programming/Computer Networks/Lecture 11 Application Layer Part 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Programming/Computer Networks/Lecture 10 Transport Layer Part 2.md",
+                "file": "Computer Programming/Computer Networks/Lecture 11 Application Layer Part 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +181,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Computer Programming/Computer Networks/Lecture 10 Transport Layer Part 2.md",
+                "file": "Computer Programming/Computer Networks/Lecture 11 Application Layer Part 1.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -235,18 +236,20 @@
   },
   "active": "c46ac107b3ae3154",
   "lastOpenFiles": [
+    "Computer Programming/Computer Networks/Computer Networks.md",
+    "Computer Programming/Computer Networks/Lecture 11 Application Layer Part 1.md",
+    "Daily Notes/2023-05-31.md",
+    "Computer Programming/Computer Networks/Lecture 8 Network Layer Part 2.md",
+    "Computer Programming/Computer Networks/Lecture 10 Transport Layer Part 2.md",
+    "Computer Programming/Computer Networks/Lecture 9 Transport Layer Part 1.md",
     "Icon\r",
     "Daily Notes/2023-05-30.md",
-    "Computer Programming/Computer Networks/Lecture 10 Transport Layer Part 2.md",
     "Interests/Security and Privacy/Darknet OpSec Bible.md",
     "Files/Additive Increase Multiplicative Decrease control law.png",
     "Files/Additive and multiplicative bandwidth adjustments.png",
     "Files/Max-min bandwidth allocation for four flows.png",
     "Untitled.canvas",
-    "Computer Programming/Computer Networks/Computer Networks.md",
-    "Computer Programming/Computer Networks/Lecture 9 Transport Layer Part 1.md",
     "Computer Programming/Computer Networks/Lecture 3 The Data Link Layer.md",
-    "Computer Programming/Computer Networks/Lecture 8 Network Layer Part 2.md",
     "Files/Pasted image 20230529233606.png",
     "Files/Congestion control Goodput.png",
     "Daily Notes/Favorite Songs.md",
@@ -266,7 +269,6 @@
     "Interests/Security and Privacy/Tor.md",
     "Interests/Security and Privacy/Awesome privacy 2.md",
     "Interests/Security and Privacy/Awesome self-hosted.md",
-    "Interests/Security and Privacy/Awesome privacy.md",
     "Interests/G.tar.gz",
     "Interests/G.tar.gz.gpg",
     "Interests/RR.md.gpg",
@@ -281,7 +283,6 @@
     "Files/Phase transition graph.png",
     "Computer Programming/Computer Networks/Network Layer Model.canvas",
     "Interests/Security and Privacy",
-    "Interests/Mac",
     "Files/Posa's algorithm.png",
     "Computer Programming/Projects/Clinical Trials API.canvas",
     "Computer Programming/Computer Networks/Sliding Windows Abnormal case.canvas",

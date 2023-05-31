@@ -46,6 +46,12 @@ Interface exposed to the application layer:
 		- $x$: length of sequence number
 		- $T$: Maximum time for packets
 - By the time sequence numbers wrap around, old segments with the same sequence number are long gone
+
+> [!question]- In a network with a maximum segment lifetime of 32 seconds, and a transport-layer protocol that uses 16-bit sequence numbers for each segment, and has a maximum segment size of 1024 bytes, what is the maximum data rate per connection?
+> $$\frac{1024 \cdot 2^{16}}{32}=2 \;MiB/s$$
+
+> [!question]- In a network with a maximum segment lifetime of 128 seconds, and a transport-layer protocol that uses 32-bit sequence number for each **byte**, how long does it take for all sequence numbers to be used when downloading data at a rate of 64 MiB/s?
+> $$\frac{2^{23}\text{bytes}}{2^{26}\text{Bps}}=2^6\text{ s}=64\text{ s}$$
 ### Three-way Handshake
 - Send connection request and agree on starting sequence number
 - receive an acknowledgement of the previously sent sequence number
