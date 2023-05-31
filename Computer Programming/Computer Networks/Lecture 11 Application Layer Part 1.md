@@ -76,5 +76,14 @@ Provides functions needed by users
 - Alphabet: [A-Za-z0-9+/] goes from 0 to 64
 - If the binary data is not a multiple of 6, add two 0's and append an equals '=' sign
 
+## How It works
+- Users use **POP3** or **IMAP** to interact with their **mailbox**
+- **Message Transfer Agent** stores emails
+	- Client request emails -> copy emails onto the local machine
+- Users and Message Transfer Agent use **SMTP** to send email from source to a destination
+
+> [!question] How do Message Transfer Agents know where to send the email?
+> With [[#Domain Name System|DNS]] servers!
+
 ---
 References:
