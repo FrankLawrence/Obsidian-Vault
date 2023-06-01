@@ -2,7 +2,7 @@
 Tags: lecture
 Created: 2023-05-16 22:50:38
 ---
-(Links:: [[Computer Networks]])
+(Links:: [[Computer Networks]] -> [[Lecture 8 Network Layer Part 2|Lecture 8]])
 - Data link layer uses switches to connect computers
 - Switches use a hash table to look up the address -> not built for a large network
 
@@ -15,6 +15,7 @@ Created: 2023-05-16 22:50:38
 - Layers above don't know the network graph and how things are connected
 - Router operates on the network layer
 - Routers perform *store-and-forward* packet switching
+
 > [!question] Why does a router have the data link and phisical layer twice?
 > Router can connect to a wireless access point (Wifi) and Ethernet (physical)
 > Router uses a different data link protocol to communicate with ISP
@@ -136,6 +137,7 @@ Created: 2023-05-16 22:50:38
 	- routers inside an area have a RT of other areas and the routers inside the area
 	- area border routers contain address for machines in all the areas connected to it 
 - for destinations not in area, go through the backbone (more simple)
+- Boundary routers connect to another AS -> Uses both an Interior and Exterior Gateway Protocol
 ## Border Gateway Protocol (BGP)
 - Routing between independent networks (*Interdomain* routing)
 - policies for routers put in place by ISPs, companies or countries
@@ -156,4 +158,5 @@ A[Computer] -- "Max packet size:10" --> B[Router] -- "Max packet size:3"--> C[Ro
 	- request sent to source to use smaller packets
 
 ---
+(Links:: [[Computer Networks]] -> [[Lecture 8 Network Layer Part 2|Lecture 8]])
 References:

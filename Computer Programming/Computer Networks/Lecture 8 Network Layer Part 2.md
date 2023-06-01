@@ -2,7 +2,7 @@
 Tags: lecture
 Created: 2023-05-17 01:24:34
 ---
-(Links:: [[Computer Networks]])
+(Links:: [[Lecture 7 Network Layer Part 1|Lecture 7]] <- [[Computer Networks]] -> [[Lecture 9 Transport Layer Part 1|Lecture 9]])
 # The Internet Protocol (IP)
 ## IPv4 Frame header
 - Version: IPv4
@@ -63,20 +63,17 @@ Created: 2023-05-17 01:24:34
 - DHCP server receives a request and offers an available address
 	- Sends the IP address to the MAC address of the machine
 ## Address Resolution Protocol (ARP)
-- Find the MAC address associated with an Network layer address (IPv4) address
+- Find the MAC address associated with a Network layer address (IPv4) address
 - ARP packet is broadcast to all devices requesting MAC address from device with the IP address
 - Request broadcast over Ethernet
 - Station replies with ARP packet (IP and MAC address)
 ## Network-Layer Resource Allocation
-- Connectionless Service: **Datagrams**
-	- Routers use routing algorithm to decide where to send each packet **individually**
-	- No setup required
-	- Router failures have low impact
-- Connection-Oriented Service: **Virtual Circuits**
-	- Decide **fixed route** during connection setup
-	- All packets part of the connection follow the route
-	- Easy congestion control
-	- Easy Quality of Service guarantees
+| Connectionless Service: **Datagrams**                                              | Connection-Oriented Service: **Virtual Circuits**   |
+| ---------------------------------------------------------------------------------- | --------------------------------------------------- |
+| Routers use routing algorithm to decide where to send each packet **individually** | Decide **fixed route** during connection setup      |
+| No setup required                                                                  | All packets part of the connection follow the route |
+| Router failures have low impact                                                    | Easy congestion control                             |
+|                                                                                    | Easy Quality of Service guarantees                  |
 # Congestion Control
 - Make sure the sender does not send information faster than a receiver can accept
 - Combined responsibility of the **network** and **transport** layers
@@ -116,4 +113,5 @@ Regulating Network Resource Usage
 - different applications have different requirements
 
 ---
+(Links:: [[Lecture 7 Network Layer Part 1|Lecture 7]] <- [[Computer Networks]] -> [[Lecture 9 Transport Layer Part 1|Lecture 9]])
 References:

@@ -2,7 +2,7 @@
 Tags: lecture
 Created: 2023-05-30 14:59:16
 ---
-(Links:: [[Computer Networks]])
+(Links:: [[Lecture 9 Transport Layer Part 1|Lecture 9]] <- [[Computer Networks]] -> [[Lecture 11 Application Layer Part 1|Lecture 11]])
 # Revisiting reliable delivery and flow control
 ## Reliable delivery
 - The transport layer is responsible for providing a **reliable** data stream over an unreliable network
@@ -77,4 +77,5 @@ Created: 2023-05-30 14:59:16
 - Reno (Tahoe + fast recovery): set congestion window to threshold $\frac{1}{2}\times \text{window}$
 
 ---
+(Links:: [[Lecture 9 Transport Layer Part 1|Lecture 9]] <- [[Computer Networks]] -> [[Lecture 11 Application Layer Part 1|Lecture 11]])
 References:

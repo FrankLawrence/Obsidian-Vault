@@ -171,7 +171,7 @@ Protocol used to determine who goes next on a multiaccess channel
 	- ethernet format contains VLAN tag
 	- bridges have to be VLAN aware
 	- all machines on a port must belong to the same VLAN
-	- VLANprotocol ID (2 bytes): value 0x8100
+	- VLAN protocol ID (2 bytes): value 0x8100
 	- Subfields (2 bytes): VLAN identifier (12b), priority field (3b), Canonical format indicator
 
 ---

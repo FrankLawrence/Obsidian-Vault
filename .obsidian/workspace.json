@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Programming/Computer Networks/The Data Link Layer.md",
+                "file": "Computer Programming/Computer Networks/Lecture 8 Network Layer Part 2.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Hamming",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Programming/Computer Networks/The Data Link Layer.md",
+                "file": "Computer Programming/Computer Networks/Lecture 8 Network Layer Part 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Programming/Computer Networks/The Data Link Layer.md",
+                "file": "Computer Programming/Computer Networks/Lecture 8 Network Layer Part 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,9 +180,9 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Computer Programming/Computer Networks/The Data Link Layer.md",
+                "file": "Computer Programming/Computer Networks/Lecture 8 Network Layer Part 2.md",
                 "options": {
-                  "collapse-filter": true,
+                  "collapse-filter": false,
                   "search": "",
                   "localJumps": 1,
                   "localBacklinks": true,
@@ -203,7 +203,7 @@
                   "repelStrength": 10,
                   "linkStrength": 1,
                   "linkDistance": 250,
-                  "scale": 0.6145001522327563,
+                  "scale": 0.8442287692025752,
                   "close": true
                 }
               }
@@ -235,20 +235,23 @@
   },
   "active": "c46ac107b3ae3154",
   "lastOpenFiles": [
-    "Computer Programming/Computer Networks/Computer Networks.md",
-    "Computer Programming/Computer Networks/The Physical Layer.md",
-    "Computer Programming/Computer Networks/The Data Link Layer.md",
-    "Computer Programming/Computer Networks/Lecture 7 Network Layer Part 1.md",
-    "Computer Programming/Computer Networks/Lecture 8 Network Layer Part 2.md",
     "Computer Programming/Computer Networks/Lecture 9 Transport Layer Part 1.md",
     "Computer Programming/Computer Networks/Lecture 10 Transport Layer Part 2.md",
     "Computer Programming/Computer Networks/Lecture 11 Application Layer Part 1.md",
+    "Computer Programming/Computer Networks/Computer Networks.md",
+    "Computer Programming/Computer Networks/The Data Link Layer.md",
     "Computer Programming/Computer Networks/Lecture 12 Application Layer Part 2.md",
+    "Computer Programming/Computer Networks/Lecture 8 Network Layer Part 2.md",
+    "Computer Programming/Computer Networks/Lecture 7 Network Layer Part 1.md",
+    "Interests/Security and Privacy/Darknet OpSec Bible.md",
+    "Computer Programming/Computer Networks/The Medium Access Control Sublayer.md",
+    "Computer Programming/Computer Networks/The Network Layer.md",
+    "Computer Programming/Computer Networks/Network Layer Model.canvas",
+    "Computer Programming/Computer Networks/The Physical Layer.md",
     "Personal/Callouts.md",
     "Daily Notes/2023-05-31.md",
     "Icon\r",
     "Daily Notes/2023-05-30.md",
-    "Interests/Security and Privacy/Darknet OpSec Bible.md",
     "Files/Additive Increase Multiplicative Decrease control law.png",
     "Files/Additive and multiplicative bandwidth adjustments.png",
     "Files/Max-min bandwidth allocation for four flows.png",
@@ -266,8 +269,6 @@
     "Interests/Movie List.md",
     "Daily Notes/2023-05-27.md",
     "Daily Notes/2023-05-26.md",
-    "Daily Notes/2023-05-25.md",
-    "Interests/Youtube/2 Dollar Burrito.md",
     "Interests/G.tar.gz",
     "Interests/G.tar.gz.gpg",
     "Interests/RR.md.gpg",
@@ -280,7 +281,6 @@
     "Files/Average path length of ER graphs with varying average vertex degree.png",
     "Files/Relation between clustering coefficient and average path length.png",
     "Files/Phase transition graph.png",
-    "Computer Programming/Computer Networks/Network Layer Model.canvas",
     "Interests/Security and Privacy",
     "Files/Posa's algorithm.png",
     "Computer Programming/Projects/Clinical Trials API.canvas",

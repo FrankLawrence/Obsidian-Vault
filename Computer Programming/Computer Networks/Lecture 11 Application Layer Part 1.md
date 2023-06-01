@@ -2,7 +2,7 @@
 Tags: lecture
 Created: 2023-05-31 13:33:56
 ---
-(Links:: [[Computer Networks]])
+(Links:: [[Lecture 10 Transport Layer Part 2|Lecture 10]] <- [[Computer Networks]] -> [[Lecture 12 Application Layer Part 2|Lecture 12]])
 Provides functions needed by users
 # Domain Name System
 - Application used by the network itself
@@ -86,4 +86,5 @@ Provides functions needed by users
 > With [[#Domain Name System|DNS]] servers!
 
 ---
+(Links:: [[Lecture 10 Transport Layer Part 2|Lecture 10]] <- [[Computer Networks]] -> [[Lecture 12 Application Layer Part 2|Lecture 12]])
 References:

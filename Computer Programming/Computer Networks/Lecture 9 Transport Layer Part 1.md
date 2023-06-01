@@ -2,7 +2,7 @@
 Tags: lecture
 Created: 2023-05-16 22:53:04
 ---
-(Links:: [[Computer Networks]])
+(Links:: [[Lecture 8 Network Layer Part 2|Lecture 8]] <- [[Computer Networks]] -> [[Lecture 10 Transport Layer Part 2|Lecture 10]])
 - Physical layer moves bits over a phisical channel
 - Data link layer translates frames to and from bit/byte streams, provides error detection/correction and flow control
 - Network layer transmits packets across the network from a source host to a destination host and provides congestion control with transport layer
@@ -64,4 +64,5 @@ Interface exposed to the application layer:
 	- The last party to send a message cannot know if it arrived
 
 ---
+(Links:: [[Lecture 8 Network Layer Part 2|Lecture 8]] <- [[Computer Networks]] -> [[Lecture 10 Transport Layer Part 2|Lecture 10]])
 References:

@@ -5,9 +5,6 @@ Tags: MOC course
 (Links:: [[Uni Courses🎓]])
 ## Notes and Ideas
 - [[Computer Networks Reading Material]]
-- [[Computer Networks Structure]]
-- [[Computer Networks Assessment]]
-- [[Network Layer Model.canvas]]
 ## Assignments
 - [[Computer Networks Game Plan]]
 - [[Computer Networks Chapter 2]]
