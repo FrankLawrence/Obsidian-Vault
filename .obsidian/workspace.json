@@ -26,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Programming/Computer Networks/Lecture 8 Network Layer Part 2.md",
+                "file": "Computer Programming/Computer Networks/Lecture 12 Application Layer Part 2.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Programming/Computer Networks/Lecture 8 Network Layer Part 2.md",
+                "file": "Computer Programming/Computer Networks/Lecture 12 Application Layer Part 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Programming/Computer Networks/Lecture 8 Network Layer Part 2.md",
+                "file": "Computer Programming/Computer Networks/Lecture 12 Application Layer Part 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Computer Programming/Computer Networks/Lecture 8 Network Layer Part 2.md",
+                "file": "Computer Programming/Computer Networks/Lecture 12 Application Layer Part 2.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -235,13 +235,13 @@
   },
   "active": "c46ac107b3ae3154",
   "lastOpenFiles": [
+    "Computer Programming/Computer Networks/Computer Networks.md",
+    "Computer Programming/Computer Networks/Lecture 8 Network Layer Part 2.md",
     "Computer Programming/Computer Networks/Lecture 9 Transport Layer Part 1.md",
     "Computer Programming/Computer Networks/Lecture 10 Transport Layer Part 2.md",
     "Computer Programming/Computer Networks/Lecture 11 Application Layer Part 1.md",
-    "Computer Programming/Computer Networks/Computer Networks.md",
     "Computer Programming/Computer Networks/The Data Link Layer.md",
     "Computer Programming/Computer Networks/Lecture 12 Application Layer Part 2.md",
-    "Computer Programming/Computer Networks/Lecture 8 Network Layer Part 2.md",
     "Computer Programming/Computer Networks/Lecture 7 Network Layer Part 1.md",
     "Interests/Security and Privacy/Darknet OpSec Bible.md",
     "Computer Programming/Computer Networks/The Medium Access Control Sublayer.md",

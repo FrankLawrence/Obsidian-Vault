@@ -2,7 +2,7 @@
 Tags: lecture
 Created: 2023-05-31 17:21:36
 ---
-(Links:: [[Computer Networks]])
+(Links:: [[Lecture 11 Application Layer Part 1|Lecture 11]] <- [[Computer Networks]])
 # HTTP In the World Wide Web
 - different HTTP Request Methods to access data (GET, POST, PUT, HEAD,...)
 - **Persistent connections** allow browsers to issue multiple requests over the same TCP connection
