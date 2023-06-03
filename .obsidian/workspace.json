@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "c46ac107b3ae3154",
+            "id": "980eac0cb6257c8f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Programming/Computer Networks/Lecture 12 Application Layer Part 2.md",
+                "file": "Computer Programming/Computer Networks/Computer Networks.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -117,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Programming/Computer Networks/Lecture 12 Application Layer Part 2.md",
+                "file": "Computer Programming/Computer Networks/Computer Networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Programming/Computer Networks/Lecture 12 Application Layer Part 2.md",
+                "file": "Computer Programming/Computer Networks/Computer Networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Computer Programming/Computer Networks/Lecture 12 Application Layer Part 2.md",
+                "file": "Computer Programming/Computer Networks/Computer Networks.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -233,18 +233,25 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c46ac107b3ae3154",
+  "active": "980eac0cb6257c8f",
   "lastOpenFiles": [
+    "Computer Programming/Computer Networks/Computer Networks Chapter 7.md",
+    "Interests/Security and Privacy/Darknet OpSec Bible.md",
+    "Computer Programming/Computer Networks/The Medium Access Control Sublayer.md",
+    "Computer Programming/Computer Networks/Computer Networks Chapter 6.md",
     "Computer Programming/Computer Networks/Computer Networks.md",
+    "Personal/Present Ideas.md",
+    "Computer Programming/Computer Networks/Computer Networks Chapter 5.md",
+    "Computer Programming/Computer Networks/Computer Networks Chapter 4.md",
+    "Computer Programming/Computer Networks/Lecture 12 Application Layer Part 2.md",
+    "Daily Notes/2023-06-02.md",
+    "Daily Notes/2023-06-01.md",
     "Computer Programming/Computer Networks/Lecture 8 Network Layer Part 2.md",
     "Computer Programming/Computer Networks/Lecture 9 Transport Layer Part 1.md",
     "Computer Programming/Computer Networks/Lecture 10 Transport Layer Part 2.md",
     "Computer Programming/Computer Networks/Lecture 11 Application Layer Part 1.md",
     "Computer Programming/Computer Networks/The Data Link Layer.md",
-    "Computer Programming/Computer Networks/Lecture 12 Application Layer Part 2.md",
     "Computer Programming/Computer Networks/Lecture 7 Network Layer Part 1.md",
-    "Interests/Security and Privacy/Darknet OpSec Bible.md",
-    "Computer Programming/Computer Networks/The Medium Access Control Sublayer.md",
     "Computer Programming/Computer Networks/The Network Layer.md",
     "Computer Programming/Computer Networks/Network Layer Model.canvas",
     "Computer Programming/Computer Networks/The Physical Layer.md",
@@ -262,13 +269,6 @@
     "Daily Notes/Favorite Songs.md",
     "Daily Notes/2023-05-29.md",
     "Interests/Programming/MathJax Basic Tutorial.md",
-    "Personal/Present Ideas.md",
-    "Interests/Programming/Bash Oneliners.md",
-    "Interests/G/Femdom list.md",
-    "Daily Notes/2023-05-28.md",
-    "Interests/Movie List.md",
-    "Daily Notes/2023-05-27.md",
-    "Daily Notes/2023-05-26.md",
     "Interests/G.tar.gz",
     "Interests/G.tar.gz.gpg",
     "Interests/RR.md.gpg",

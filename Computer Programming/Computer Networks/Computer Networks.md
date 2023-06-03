@@ -9,6 +9,10 @@ Tags: MOC course
 - [[Computer Networks Game Plan]]
 - [[Computer Networks Chapter 2]]
 - [[Computer Networks Chapter 3]]
+- [[Computer Networks Chapter 4]]
+- [[Computer Networks Chapter 5]]
+- [[Computer Networks Chapter 6]]
+- [[Computer Networks Chapter 7]]
 ## Topics
 - [[Computer Networks Introduction]]
 - [[The Physical Layer]]
