@@ -27,7 +27,7 @@
               "type": "markdown",
               "state": {
                 "file": "Computer Programming/Computer Networks/Computer Networks.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -236,8 +236,10 @@
   },
   "active": "980eac0cb6257c8f",
   "lastOpenFiles": [
-    "Personal/;).canvas",
+    "Computer Programming/Computer Networks/The Medium Access Control Sublayer.md",
     "Computer Programming/Computer Networks/Computer Networks.md",
+    "Computer Programming/Computer Networks/Lecture 3 The Data Link Layer.md",
+    "Personal/;).canvas",
     "Computer Programming/Computer Organization/Computer Organization.md",
     "Computer Programming/Computer Organization/Basic Structure of Computers.md",
     "Computer Programming/Computer Organization/Logic Circuits.md",
@@ -251,7 +253,6 @@
     "Computer Programming/Computer Organization/Parallel Processing and Performance.md",
     "Computer Programming/Computer Networks/Computer Networks Chapter 7.md",
     "Interests/Security and Privacy/Darknet OpSec Bible.md",
-    "Computer Programming/Computer Networks/The Medium Access Control Sublayer.md",
     "Computer Programming/Computer Networks/Computer Networks Chapter 6.md",
     "Personal/Present Ideas.md",
     "Computer Programming/Computer Networks/Computer Networks Chapter 5.md",
