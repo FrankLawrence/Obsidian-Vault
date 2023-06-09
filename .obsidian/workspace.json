@@ -21,13 +21,13 @@
             }
           },
           {
-            "id": "980eac0cb6257c8f",
+            "id": "fedafbe9e26a8914",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Programming/Computer Networks/Computer Networks.md",
-                "mode": "source",
+                "file": "Computer Programming/IJVM Instruction Set.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -118,7 +118,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Programming/Computer Networks/Computer Networks.md",
+                "file": "Computer Programming/IJVM Instruction Set.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +135,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Programming/Computer Networks/Computer Networks.md",
+                "file": "Computer Programming/IJVM Instruction Set.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -169,7 +169,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       },
       {
         "id": "4c6142e30c7eb0ee",
@@ -181,7 +181,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Computer Programming/Computer Networks/Computer Networks.md",
+                "file": "Computer Programming/IJVM Instruction Set.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -234,35 +234,35 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "980eac0cb6257c8f",
+  "active": "fedafbe9e26a8914",
   "lastOpenFiles": [
-    "Computer Programming/Computer Networks/The Medium Access Control Sublayer.md",
+    "Computer Programming/IJVM.md",
+    "Interests/Security and Privacy/Darknet OpSec Bible.md",
+    "Computer Programming/Uni Courses🎓.md",
+    "Computer Programming/IJVM Instruction Set.md",
+    "Daily Notes/2023-06-07.md",
+    "Daily Notes/2023-06-08.md",
+    "Computer Programming/Computer Organization/Logic Circuits.md",
+    "Computer Programming/Computer Organization/Computer Organization.md",
+    "Daily Notes/2023-06-06.md",
+    "Computer Programming/CoPP.md",
     "Computer Programming/Computer Networks/Computer Networks.md",
+    "Daily Notes/2023-06-05.md",
+    "Daily Notes/2023-06-04.md",
+    "Daily Notes/2023-06-03.md",
+    "Daily Notes/2023-06-02.md",
+    "Daily Notes/2023-06-01.md",
+    "Daily Notes/2023-05-31.md",
+    "Computer Programming/Computer Networks/Lecture 11 Application Layer Part 1.md",
+    "Computer Programming/Computer Networks/The Medium Access Control Sublayer.md",
     "Computer Programming/Computer Networks/Lecture 3 The Data Link Layer.md",
     "Personal/;).canvas",
-    "Computer Programming/Computer Organization/Computer Organization.md",
     "Computer Programming/Computer Organization/Basic Structure of Computers.md",
-    "Computer Programming/Computer Organization/Logic Circuits.md",
     "Computer Programming/Computer Organization/Arithmetic.md",
     "Computer Programming/Computer Organization/The Intel IA-32 Architecture.md",
     "Computer Programming/Computer Organization/Introduction Set Architecture.md",
     "Computer Programming/Computer Organization/Basic Processing Unit.md",
     "Computer Programming/Computer Organization/Pipelining.md",
-    "Computer Programming/Computer Organization/Input-Output Organization.md",
-    "Computer Programming/Computer Organization/The Memory System.md",
-    "Computer Programming/Computer Organization/Parallel Processing and Performance.md",
-    "Computer Programming/Computer Networks/Computer Networks Chapter 7.md",
-    "Interests/Security and Privacy/Darknet OpSec Bible.md",
-    "Computer Programming/Computer Networks/Computer Networks Chapter 6.md",
-    "Personal/Present Ideas.md",
-    "Computer Programming/Computer Networks/Computer Networks Chapter 5.md",
-    "Computer Programming/Computer Networks/Computer Networks Chapter 4.md",
-    "Computer Programming/Computer Networks/Lecture 12 Application Layer Part 2.md",
-    "Daily Notes/2023-06-02.md",
-    "Daily Notes/2023-06-01.md",
-    "Computer Programming/Computer Networks/Lecture 8 Network Layer Part 2.md",
-    "Computer Programming/Computer Networks/Lecture 9 Transport Layer Part 1.md",
-    "Computer Programming/Computer Networks/Lecture 10 Transport Layer Part 2.md",
     "Computer Programming/Computer Networks/Network Layer Model.canvas",
     "Icon\r",
     "Files/Additive Increase Multiplicative Decrease control law.png",

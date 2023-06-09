@@ -21,5 +21,6 @@ Created: 2022-09-06 09:35
 - [[Networks and Graphs]]
 - [[Linear Algebra]]
 ## P6
+- [[CoP]]
 ___
 References:
