@@ -1,8 +1,8 @@
 | Hex    | Mnemonic             | Meaning                                                 |
 | ------ | -------------------- | ------------------------------------------------------- |
-| `0x10`   | BIPUSH *byte*        | Push byte onto stack                                    |
-| `0x59`   | DUP                  | Copy top word on stack and push onto stack              |
-| `0xA7`   | GOTO *offset*        | Unconditional branch                                    |
+| `0x10` | BIPUSH *byte*        | Push byte onto stack                                    |
+| `0x59` | DUP                  | Copy top word on stack and push onto stack              |
+| `0xA7` | GOTO *offset*        | Unconditional branch                                    |
 | `0x60` | IADD                 | Pop two words from stack; push their sum                |
 | `0x7E` | IAND                 | Pop two words from stack; push Boolean AND              |
 | `0x99` | IFEQ *offset*        | Pop word from stack and branch if it is zero            |

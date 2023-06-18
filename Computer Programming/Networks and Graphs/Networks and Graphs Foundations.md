@@ -277,6 +277,3 @@ Created: 2023-04-04 00:23:35
 
 > [!question]- Every complete graph with 4 or more vertices is non-planar
 > False
-
----
-References:
