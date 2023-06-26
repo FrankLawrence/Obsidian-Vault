@@ -4,7 +4,6 @@ Tags: MOC course
 (Links:: [[Uni Courses🎓]])
 ## Notes and Ideas
 - [[Linear Algebra Outline]]
-- [[Linear Algebra Assessment]]
 ## Assignments
 ## Topics
 - Linear Equations in Linear Algebra

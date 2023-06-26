@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Programming/CoPP/IJVM Instruction Set.md",
-                "mode": "preview",
+                "file": "Computer Programming/Linear Algebra/Linear Algebra.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Programming/CoPP/IJVM Instruction Set.md",
+                "file": "Computer Programming/Linear Algebra/Linear Algebra.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Programming/CoPP/IJVM Instruction Set.md",
+                "file": "Computer Programming/Linear Algebra/Linear Algebra.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +167,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Computer Programming/CoPP/IJVM Instruction Set.md",
+                "file": "Computer Programming/Linear Algebra/Linear Algebra.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -222,8 +222,25 @@
   },
   "active": "7a82c21d767ae5d1",
   "lastOpenFiles": [
-    "Daily Notes/2023-06-18.md",
+    "Daily Notes/2023-06-26.md",
+    "Daily Notes/2023-06-25.md",
+    "Computer Programming/Linear Algebra/Linear Algebra.md",
+    "Computer Programming/Linear Algebra/Matrix Operations.md",
+    "Computer Programming/Linear Algebra/Introduction to Linear Transformations.md",
+    "Computer Programming/Linear Algebra/Linear Independence.md",
+    "Computer Programming/Linear Algebra/Solution Sets of Linear Systems.md",
+    "Computer Programming/Linear Algebra/Row Reduction and Echelon Forms.md",
+    "Computer Programming/Linear Algebra/The Matrix Equation Ax=b.md",
+    "Computer Programming/Linear Algebra/Systems of Linear Equations.md",
+    "Computer Programming/Linear Algebra/Vector Equations.md",
     "Computer Programming/CoPP/IJVM Instruction Set.md",
+    "Daily Notes/2023-06-24.md",
+    "Daily Notes/2023-06-23.md",
+    "Daily Notes/2023-06-22.md",
+    "Daily Notes/2023-06-21.md",
+    "Daily Notes/2023-06-20.md",
+    "Daily Notes/2023-06-19.md",
+    "Daily Notes/2023-06-18.md",
     "Daily Notes/2023-06-17.md",
     "Computer Programming/Networks and Graphs/Networks and Graphs.md",
     "Computer Programming/Networks and Graphs/Networks and Graphs Random Networks.md",
@@ -231,24 +248,7 @@
     "Computer Programming/Networks and Graphs/Networks and Graphs Trees.md",
     "Computer Programming/Networks and Graphs/Networks and Graphs Traversal.md",
     "Computer Programming/Networks and Graphs/Networks and Graphs Extensions.md",
-    "Computer Programming/Networks and Graphs/Networks and Graphs Foundations.md",
-    "Computer Programming/Uni Courses🎓.md",
     "Computer Programming/CoPP",
-    "Interests/Security and Privacy/Darknet OpSec Bible.md",
-    "Computer Programming/CoPP/IJVM.md",
-    "Daily Notes/2023-06-16.md",
-    "Interests/G/A Damsel in the Desert.md",
-    "Interests/G/Femdom list.md",
-    "Daily Notes/2023-06-15.md",
-    "Daily Notes/2023-06-14.md",
-    "Daily Notes/2023-06-13.md",
-    "Daily Notes/2023-06-12.md",
-    "Daily Notes/2023-06-11.md",
-    "Daily Notes/2023-06-10.md",
-    "Daily Notes/2023-06-09.md",
-    "Daily Notes/2023-06-07.md",
-    "Daily Notes/2023-06-08.md",
-    "Computer Programming/Computer Organization/Logic Circuits.md",
     "Personal/;).canvas",
     "Computer Programming/Computer Networks/Network Layer Model.canvas",
     "Icon\r",
