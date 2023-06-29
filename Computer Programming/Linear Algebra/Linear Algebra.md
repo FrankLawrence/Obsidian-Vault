@@ -20,12 +20,26 @@ Tags: MOC course
 	- [[The Inverse of a Matrix]]
 	- [[Characterizations of Invertible Matrices]]
 	- [[Matrix Factorizations]]
+- Determinants
+	- [[Introduction to Determinants]]
+	- [[Properties of Determinants]]
+	- [[Cramer's Rule, Volume, and Linear Transformations]]
+- Vector Spaces
+	- [[Vector Spaces and Subspaces]]
+	- [[Null Spaces, Column Spaces, Row Spaces, and Linear Transformations]]
+	- [[Linearly Independent Sets; Bases]]
+	- [[Coordinate Systems]]
+	- [[The Dimension of a Vector Space]]
+	- [[Change of Basis]]
 - Eigenvalues and Eigenvectors
 	- [[Eigenvectors and Eigenvalues]]
 	- [[The Characteristic Equation]]
+	- [[Diagonalization]]
 - Orthogonality and Least Squares
 	- [[Inner Product, Length, and Orthogonality]]
 	- [[Orthogonal Sets]]
+	- [[Orthogonal Projections]]
+	- [[The Gram-Schmidt Process]]
 ## Lectures
 ## Extras
 ### Tips
