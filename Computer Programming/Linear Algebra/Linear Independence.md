@@ -18,7 +18,7 @@ Created: 2023-04-10 23:31:15
 > An indexed set $S=\{v_1,...,v_p\}$ of two or more vectors is linearly dependent iff at least one of the vectors in $S$ is a linear combination of the others. In fact, if $S$ is linearly dependent and $v_1\neq0$, then some $v_j$ (with $j>1$) is a linear combination of the preceding vectors $v_j,...,v_{j-1}$
 
 > [!info] THEOREM 8
-> If a set contains more vector than there are entries in each vector, then the set is linearly dependent. That is, any set $\{v_1,...,v_p\}$ in $\Bbb R^n$ is linearly dependent if $p>n$
+> If a set contains more vectors than there are entries in each vector, then the set is linearly dependent. That is, any set $\{v_1,...,v_p\}$ in $\Bbb R^n$ is linearly dependent if $p>n$
 - if $p>n$ then there are more variables than equations -> there is a free variable -> $Ax=0$ has a nontrivial solution
 
 > [!info] THEOREM 9

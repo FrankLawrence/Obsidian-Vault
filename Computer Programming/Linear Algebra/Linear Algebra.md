@@ -20,6 +20,12 @@ Tags: MOC course
 	- [[The Inverse of a Matrix]]
 	- [[Characterizations of Invertible Matrices]]
 	- [[Matrix Factorizations]]
+- Eigenvalues and Eigenvectors
+	- [[Eigenvectors and Eigenvalues]]
+	- [[The Characteristic Equation]]
+- Orthogonality and Least Squares
+	- [[Inner Product, Length, and Orthogonality]]
+	- [[Orthogonal Sets]]
 ## Lectures
 ## Extras
 ### Tips
