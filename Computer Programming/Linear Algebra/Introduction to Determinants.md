@@ -18,6 +18,8 @@ Created: 2023-06-30 00:06:40
 > [!info] THEOREM 2
 > If $A$ is a triangular matrix, then $\text{det }A$ is the product of the entries on the main diagonal of $A$
 
+- $\text{det }I=1$
+
 
 ---
 References:

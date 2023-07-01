@@ -18,7 +18,7 @@ Created: 2023-04-10 23:30:43
 
 - The solution set of a homogeneous equation $Ax=0$ can always be expressed explicitly as Span$\{v_1,...,v_p\}$ for suitable vectors $v_1,...,v_p$
 # Parametric Vector Form
-- Equation $(1)$ is called a **parametric vector equation** usually written as $$x=su+tv\quad(x,t \text{ in } \Bbb R)$$
+- Equation $(1)$ is called a **parametric vector equation** usually written as $$x=su+tv\quad(x,t \text{ in } \Bbb R)$$ where $u$ and $v$ are vectors
 # Solutions of Nonhomogeneous Systems
 - The solutions of $Ax=b$ are obtained by adding the vector $p$ to the solutions of $Ax=0$
 - adding a vector $p$ to the solution can be thought as a geometric *translation* -> $v$ is **translated by $p$** to $v+p$

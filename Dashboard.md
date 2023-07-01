@@ -1,55 +1,46 @@
 ---
+alias: Home
 cssclass: dashboard
 banner: "![[The Dark Side of the Moon album wallpeper minimalist.png]]"
 banner_x: 0.5
 banner_y: 0.5
 ---
 
-# Family
-- 🏈 Sunday Game
-	- [[Spicy-Sweet Buffalo Popcorn]]
-	- [[Guest list]]
-	- [Jalapeno Popper Wantons](https://www.allrecipes.com/recipe/166991/jalapeno-popper-wontons/)
-- 👨‍👩‍👦 Objectives
-	- [[Family Recipes]]
-	- [[Family Calendar]]
-	- [[Education Plan]]
-	- [[Yearly Budget]]
-- 🌅 Exotic Vacations 
-	- [[Peru]]
-	- [[Austria]]
-	- [[Texas]]  
+# Personal
 - 🎥 Movies to Watch
-	- [Sleepless in Seattle](https://www.imdb.com/title/tt0108160/)
-	- [Joe vs the Volcano](https://www.imdb.com/title/tt0099892/)
+- Friends and Family
+	- [[;).canvas|;)]]
+	- 
 
- # Personal Projects
-- 🏡 Remodeling Projects
-	- [[Bathroom Remodel]]
-	- [[Paint entryway]]
-	- [[Research building Garage]] 
- - ✍️ Writing Projects
-	- [[5 ways to love PKM more]]
-	- Read: [Obisidian core principles](https://tfthacker.medium.com/obsidian-understanding-its-core-design-principles-7f3fafbd6e36)
-- 📚 Learning
-	- [[Early American History]]
-	- [[Spanish - Entry Level]]
-
+# Interests
+- Security and Privacy
+	- [[Darknet OpSec Bible]]
+	- [[Awesome privacy]]
+	- [[Steps to become more secure online]]
+- Reading
+	- [[A Damsel in the Desert]]
+	- [[A G for James]]
+	- [[Hi... Neighbor]]
+	- [[Pandamic Prestige]]
+	- [[Borrowing a Bite]]
+- Programming
+	- [[Terminal]]
+	- [[Vim]]
+	- [[MathJax Basic Tutorial]]
+	- [[Bash Oneliners]]
+	- [[Unix Command Reference.canvas|Unix Command Reference]]
 # Work
-- 💼 Projects
-	- [[Cloud backup]]
-	- [[Firewall upgrades]]
-	- [[IT Cybersecurity training]]
-- 💰 Budget review
-	- [[Q1 2022]]
-	- [[Q2 2022]]
-	- [[Q3 2022]]
-	- [[Q4 2022]]
-- 👥 Personnel Review
-	- [[Sally Smith]]
-	- [[Bill Hansen]]
-	- [[Brad Jefferson]]
-	- [[Olga Olson]]
+- [[Uni Courses🎓]]
+	- [[Linear Algebra]]
+	- [[Computer Networks]]
+
+# Recents
+```dataview
+TABLE file.mtime as Edited, file.folder as "Folder"
+FROM "" and !"Daily Notes"
+WHERE date(now) - file.mtime <= dur(3 days) and file.name != "Home🏠.md" 
+SORT file.mtime desc
+```
 
 # Vault Info
 - 🗄️ Recent file updates

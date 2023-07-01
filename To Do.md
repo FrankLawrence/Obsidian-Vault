@@ -1,4 +1,3 @@
-# TO DO
 This note tells me the goals I'm trying to achieve, the items I want to do today, and much more.
 
 ## General To Do
