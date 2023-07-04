@@ -12,7 +12,6 @@ Created: 2023-07-04 18:35:52
 	- Row reduce $[AI]$ to $[IA^{-1}]$
 6. [ ] Show that $V$ is a subspace of a vector space based on properties of the entires of the vectors.
 	- Prove that (1) $V$ contains the $\vec 0$ vector, (2) $V$ is closed under vector addition (3) $V$ is closed under multiplication by scalar
-7. [ ] Let W be the subset of V in which a ≥ c. Is W also a vector subspace? Explain your answer.
 8. [x] Show that $v_1$ is an eigenvector of $A$ and find its corresponding eigenvalue $\lambda_1$
 9. [x] Determine the remaining eigenvalues of A and give a basis for every eigenspace of A.
 10. [x] Determine whether A is diagonalizable. If so, give the diagonalization, i.e., an invertible matrix P and a diagonal matrix D such that A = PDP−1. If not, explain why A is not diagonalizable.
