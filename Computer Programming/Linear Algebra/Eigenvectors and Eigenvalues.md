@@ -18,6 +18,8 @@ Created: 2023-06-28 21:13:32
 > Each vector $x$ with $x_2\neq 0$ is an eigenvector
 > A basis for the eigenspace is $\left\{\begin{bmatrix}1\\1\end{bmatrix}\right\}$
 
+^824f22
+
 - $\lambda$ is an eigenvalue of an $n \times n$ matrix $A$ iff the equation $$(A- \lambda I)x=0$$ has a non trivial solution / free variables
 
 > [!hint]- Reasonable Answers

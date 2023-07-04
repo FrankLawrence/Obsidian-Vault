@@ -4,11 +4,14 @@ Created: 2023-06-30 22:45:56
 ---
 (Links:: [[Linear Algebra]])
 # Cramer's Rule
+
 - For any $n\times n$ matrix $A$ and any $b$ in $\Bbb R^n$, let $A_i(b)$ be the matrix obtained from $A$ by replacing column $i$ by the vector $b$. $$A_i(b)=\begin{bmatrix}a_{1}&\cdots&b&\cdots&a_{n}\end{bmatrix}$$
 
 > [!info] THEOREM 7
 > **Cramer's Rule**
 > Let $A$ be an invertible $n\times n$ matrix. For any $b$ in $\Bbb R^{n}$, the unique solution $x$ of $Ax=b$ has entries given by $$x_{i}=\frac{\text{det }A_i(b)}{\text{det }A},\qquad i=1,2,...,n$$
+
+^df6ce0
 
 # A Forumla for $A^{-1}$
 - **TODO**

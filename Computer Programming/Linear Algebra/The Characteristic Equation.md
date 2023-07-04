@@ -8,6 +8,8 @@ Created: 2023-06-29 00:55:08
 > This is equivalent to finding all $\lambda$ such that the matrix $A-\lambda I$ is *not* invertible, where $$A-\lambda I=\begin{bmatrix}2-\lambda&3\\3&-6-\lambda\end{bmatrix}$$
 > The matrix fails to be invertible when its determinant is zero: $$\text{det}(A-\lambda I)=\text{det}\begin{bmatrix}2-\lambda&3\\3&-6-\lambda\end{bmatrix}=0$$
 
+^26dc57
+
 # Determinants
 > [!info] THEOREM 3
 > **Properties of Determinants**
