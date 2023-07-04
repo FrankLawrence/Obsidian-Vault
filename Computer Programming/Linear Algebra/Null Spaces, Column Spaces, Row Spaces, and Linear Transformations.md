@@ -13,7 +13,7 @@ Created: 2023-07-01 10:39:28
 > The null space of an $m\times n$ matrix $A$ is a subspace of $\Bbb R^n$. Equivalently, the set of all solutions to a system $Ax=0$ of $m$ homogeneous linear equations in $n$ unknowns is a subspace of $\Bbb R^n$
 # An Explicit Description of $\text{Nul }A$
 > [!example] Finding a spanning set for the null space of a matrix $A$
-> Write the solution set of $A$ in [[Solution Sets of Linear Systems#Parametric Vector Form|parametric vector form]] to get the vectors that span the set for $\text{Nul }A$
+> Write the solution set of $Ax=0$ in [[Solution Sets of Linear Systems#Parametric Vector Form|parametric vector form]] to get the vectors that span the set for $\text{Nul }A$
 
 - Finding the spanning set automatically produces a linearly independent set
 - The number of vectors in the spanning set for $\text{Nul }A$ equals the number of free variables in the equation $Ax=0$

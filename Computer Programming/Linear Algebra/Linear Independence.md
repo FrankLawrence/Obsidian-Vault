@@ -9,7 +9,7 @@ Created: 2023-04-10 23:31:15
 
 # Linear Independence of Matrix Columns
 - The columns of a matrix $A$ are linearly independent iff the equation $Ax=0$ has *only* the trivial solution
-- if the equation $Ax=0$ has only basic variables and no free variables, the only there exists only the trivial solution
+- if the equation $Ax=0$ has only basic variables and no free variables, then there only exists the trivial solution
 # Sets of One or Two Vectors
 - A set of two vectors $\{v_1,v_2\}$ is linearly dependent if at least one of the vectors is a multiple of the other. The set is linearly independent iff neither of the vectors is a multiple of the other
 # Sets of Two or More Vectors

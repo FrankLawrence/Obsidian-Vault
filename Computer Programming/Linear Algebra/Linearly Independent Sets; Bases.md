@@ -32,8 +32,6 @@ Created: 2023-07-01 12:10:15
 > [!info] THEOREM 7
 > If two matrices $A$ and $B$ are row equivalent, then their row spaces are the same. If $B$ is in echelon form, the nonzero rows of $B$ form a basis for the row space of $A$ as well as for that of $B$.
 
-# Two Views of a Basis
-
 
 ---
 References:

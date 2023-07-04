@@ -11,7 +11,7 @@ Created: 2023-06-28 21:13:32
 > [!example]- Find eigenvector for a matrix with eigenvalue 7
 > $Ax=7x \to Ax-7x=0 \to (A-7I)x=0$
 > $$A-7I=\begin{bmatrix}1&6\\5&2\end{bmatrix}-\begin{bmatrix}7&0\\0&7\end{bmatrix}=\begin{bmatrix}-6&6\\5&-5\end{bmatrix}$$
-> $A-7I$ is linearly dependent -> the are nontrivial solution -> 7 *is* an eigenvalue of $A$
+> $A-7I$ is linearly dependent -> the are nontrivial solutions -> 7 *is* an eigenvalue of $A$
 > 
 > Finding corresponding eigenvectors: $$\begin{bmatrix}-6&6&0\\5&-5&0\end{bmatrix}\sim \begin{bmatrix}1&-1&0\\0&0&0\end{bmatrix}$$
 > $$x=x_2\begin{bmatrix}1\\1\end{bmatrix}$$

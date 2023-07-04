@@ -19,6 +19,8 @@ Created: 2023-04-10 23:39:53
 > 11. There is an $n\times n$ matrix $D$ such that $AD=I$
 > 12. $A^T$ is an invertible matrix
 
+^286bae
+
 - Let $A$ and $B$ be square matrices. If $AB=IA$, then $A$ and $B$ are both invertible, with $B=A^{-1}$ and $A=B^{-1}$.
 # Invertible Linear Transformations
 > [!info] THEOREM 9
