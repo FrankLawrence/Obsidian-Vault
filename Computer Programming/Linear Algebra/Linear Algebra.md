@@ -5,6 +5,7 @@ Tags: MOC course
 ## Notes and Ideas
 - [[Linear Algebra Outline]]
 ## Assignments
+- [[Linear Algebra exam questions]]
 ## Topics
 - Linear Equations in Linear Algebra
 	- [[Systems of Linear Equations]]

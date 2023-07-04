@@ -18,7 +18,7 @@ Created: 2023-07-01 12:10:15
 > [!example]- Proof that $\text{Span }\{v_1,v_2,v_3\} = \text{Span }\{v_1,v_2\}$ and finding the basis for the subspace $H=\text{Span }\{v_1,v_2,v_3\}$
 > - Find the coefficient values for 2 vectors that make up the "redundant" third vector e.g. $v_3=2v_1+5v_2$
 > - Any vector $x$ in $H$ can be expressed by $$\begin{align}x&=c_1v_1+c_2v_2+c_3(2v_1+5v_{2)}\\ &= (c_1+2c_3)v_1+(c_2+5c_3)v_2\end{align}$$
-> - $\{v_1,v_2\}$ is a basis of $h$ since it's linearly independent
+> - $\{v_1,v_2\}$ is a basis of $H$ since it's linearly independent
 
 > [!info] THEOREM 5
 > **The Spanning Set Theorem**

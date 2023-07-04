@@ -15,7 +15,7 @@ Created: 2023-04-10 23:38:45
 > 6. $r(sA)=(rs)A$
 # Matrix Multiplication
 > [!definition] Matrix multiplication
-> If $A$ is an $m\times n$ matrix, and if $B$ is an $n\times p$ matrix with collumns $b_{1},...,b_{p}$, then the product $AB$ is the $m\times p$ matrix whose columsn are $Ab_{1},...,Ab_{p}$. That is, $$AB=A\begin{bmatrix}b_1&b_2&\cdots&b_{p}\end{bmatrix} = \begin{bmatrix}Ab_{1}&Ab_{2}&\cdots&Ab_{p}\end{bmatrix}$$
+> If $A$ is an $m\times n$ matrix, and if $B$ is an $n\times p$ matrix with collumns $b_{1},...,b_{p}$, then the product $AB$ is the $m\times p$ matrix whose columns are $Ab_{1},...,Ab_{p}$. That is, $$AB=A\begin{bmatrix}b_1&b_2&\cdots&b_{p}\end{bmatrix} = \begin{bmatrix}Ab_{1}&Ab_{2}&\cdots&Ab_{p}\end{bmatrix}$$
 
 - Each column of $AB$ is a linear combination of the columns of $A$ using weights from the corresponding column of $B$
 - **$AB$ has the same number of rows as $A$ and the same number of columns as $B$**

@@ -10,7 +10,7 @@ Created: 2023-04-10 23:39:26
 > Let $A=\begin{bmatrix}a&b\\c&d\end{bmatrix}$. If $ad-bc\neq 0$, then $A$ is invertible and $$A^{-1}=\frac{1}{ad-bd}\begin{bmatrix}\;\;\;d&-b\\-c&\;\;\;a\end{bmatrix}$$
 > If $ad-bc=0$, then $A$ is not invertible.
 
-- $ad-bc$ is called the **determinant** of $A$
+- $ad-bc$ is called the [[Introduction to Determinants|determinant]] of $A$
 	- we write $\text{det }A=ad-bc$
 	- $A$ is invertible iff $\text{det }A\neq 0$
 
