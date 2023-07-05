@@ -26,6 +26,15 @@ Created: 2023-07-04 18:35:52
 11. [ ] Find the distance between $v_3$ and $\text{Span }\{v_1,v_2\}$.
 12. [ ] The map $T$ defined by $T ((x1 , x2 )) = ( x1 + x2 , x1 − x2 , 2 )$ is linear.
 	- Test if $T(x_1+x_2,y_1+y_2)=T(x_1,y_1)+T(x_2,y_2)$ and $T(cx,cy)=cT(x,y)$
+13. [ ] Finding the standard matrix $A$ of $T$
+14. [ ] Determine the LU-factorization of a coefficient matrix
+15. [ ] Let $x=\begin{bmatrix}1\\0\\2\end{bmatrix}$. Find $[x]_\mathcal{B}$ where $\mathcal{B}$ is the basis made out of the columns of a coefficient matrix $B$
+	- $B[x]_\mathcal{B}=x\;\to\;[x]_\mathcal{B}=B^{-1}x$
+16. [ ] Find an orthogonal basis for $W$
+	- Use Gram-Schmidt algorithm
+17. [ ] Find the best approximation of $y=\begin{bmatrix}1\\2\\3\\4\end{bmatrix}\notin W$ by vectors of $W$
+18. [ ] Determine if $\{v_{1},v_{2}\}$ is a basis for $\Bbb R^3$
+	- $A$ doesn't have a pivot position in every row -> doesn't span $\Bbb R^3$
 
 ---
 References:
