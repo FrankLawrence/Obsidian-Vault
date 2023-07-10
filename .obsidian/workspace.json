@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "08ea8c5d5b8b8f9a",
+        "id": "755211410bc6216b",
         "type": "tabs",
         "children": [
           {
-            "id": "2792fc21015fe4ff",
+            "id": "f8758627de5d1405",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Programming/Linear Algebra/Linear Algebra.md",
+                "file": "Dashboard.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -21,12 +21,12 @@
             }
           },
           {
-            "id": "8dbf985fd90125f8",
+            "id": "43813a51b1feef37",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Programming/Linear Algebra/Change of Basis.md",
+                "file": "Computer Programming/Computer Networks/The Data Link Layer.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -34,13 +34,26 @@
             }
           },
           {
-            "id": "afe4dbc3d9b8a994",
+            "id": "7815781dd31a4490",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Programming/Linear Algebra/Linear Algebra exam questions.md",
+                "file": "Testing.md",
                 "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "3ef8af52f0091790",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Movies/Pulp Fiction.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -66,7 +79,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "one-to-one",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -89,7 +102,7 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "byModifiedTime"
+                "sortOrder": "alphabetical"
               }
             }
           },
@@ -101,7 +114,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -130,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Programming/Linear Algebra/Change of Basis.md",
+                "file": "Computer Programming/Computer Networks/The Data Link Layer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -147,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Programming/Linear Algebra/Change of Basis.md",
+                "file": "Computer Programming/Computer Networks/The Data Link Layer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -179,6 +193,16 @@
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "89cc0e471d3f2e0e",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Computer Programming/Computer Networks/The Data Link Layer.md"
+              }
+            }
           }
         ],
         "currentTab": 5
@@ -193,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Computer Programming/Linear Algebra/Change of Basis.md",
+                "file": "Computer Programming/Computer Networks/The Data Link Layer.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -226,8 +250,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.5,
-    "collapsed": true
+    "width": 330.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -246,40 +269,44 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "8dbf985fd90125f8",
+  "active": "14ca63461016b643",
   "lastOpenFiles": [
+    "Dashboard.md",
+    "Personal/PKM/Outline.md",
+    "Computer Programming/Linear Algebra/Solution Sets of Linear Systems.md",
+    "Computer Programming/Computer Networks/The Data Link Layer.md",
+    "Banners/The Dark Side of the Moon Album wallpaper Rosé pine.jpeg",
+    "Banners/E3wGdziUYAENJU_.jpeg",
+    "Banners/blockwavemoon.png",
+    "Testing.md",
+    "Movies/Pulp Fiction.md",
+    "Movies",
+    "Daily Notes/2023-07-11.md",
+    "Computer Programming/Computer Networks/The Medium Access Control Sublayer.md",
+    "Computer Programming/Computer Networks/Computer Networks.md",
+    "Computer Programming/Computer Networks/Computer Networks Chapter 4.md",
+    "Personal/People/Oscar Roy Jäger.md",
+    "Personal/People/Lilly Marie Futner.md",
+    "Daily Notes/2023-07-10.md",
+    "Personal/People/Ellen Anna Reichert.md",
+    "Computer Programming/Computer Networks/The Physical Layer.md",
+    "Computer Programming/Uni Courses🎓.md",
     "Computer Programming/Linear Algebra/Linear Algebra.md",
-    "Computer Programming/Linear Algebra/The Dimension of a Vector Space.md",
-    "Computer Programming/Linear Algebra/Coordinate Systems.md",
-    "Computer Programming/Linear Algebra/Linearly Independent Sets; Bases.md",
-    "Computer Programming/Linear Algebra/Linear Algebra exam questions.md",
-    "Computer Programming/Linear Algebra/Null Spaces, Column Spaces, Row Spaces, and Linear Transformations.md",
-    "Computer Programming/Linear Algebra/Cramer's Rule, Volume, and Linear Transformations.md",
-    "Daily Notes/2023-07-05.md",
-    "Computer Programming/Linear Algebra/Properties of Determinants.md",
-    "Computer Programming/Linear Algebra/Introduction to Determinants.md",
-    "Daily Notes/2023-07-08.md",
-    "Daily Notes/2023-07-07.md",
-    "Daily Notes/2023-07-06.md",
-    "Computer Programming/Linear Algebra/The Inverse of a Matrix.md",
-    "Computer Programming/Linear Algebra/Characterizations of Invertible Matrices.md",
-    "Computer Programming/Linear Algebra/Matrix Operations.md",
-    "Computer Programming/Linear Algebra/Diagonalization.md",
-    "Computer Programming/Linear Algebra/The Characteristic Equation.md",
-    "Daily Notes/2023-07-04.md",
-    "Daily Notes/2023-07-03.md",
-    "Computer Programming/Linear Algebra/Eigenvectors and Eigenvalues.md",
-    "Computer Programming/Linear Algebra/Change of Basis.md",
-    "Computer Programming/Linear Algebra/Vector Spaces and Subspaces.md",
-    "Computer Programming/Linear Algebra/The Matrix of Linear Transformations.md",
-    "Computer Programming/Linear Algebra/Contrast Between Nul A and Col A for an m × n Matrix A.md",
-    "Computer Programming/Linear Algebra/Matrix Factorizations.md",
+    "Computer Programming/Linear Algebra/The Matrix Equation Ax=b.md",
+    "Home🏠.md",
+    "Personal/;).canvas",
+    "Templates/Daily Template.md",
+    "Templates/<%tp.date.now(\"YYYY-MM-DD\", -1)%>.md",
+    "Templates/Daily Light.md",
+    "Templates/Daily.md",
+    "Interests/Programming/Tmux.md",
+    "Interests/Programming/Untitled.md",
+    "Interests/Programming/Cheatsheet.md",
     "Files/Subspaces associated with a linear transformation.png",
     "Computer Programming/Projects/Clinical Trials API.canvas",
     "Files/Is every b the image of at most one vector?.png",
     "Files/Is the range of T all of R^m.png",
     "Computer Programming/CoPP",
-    "Personal/;).canvas",
     "Computer Programming/Computer Networks/Network Layer Model.canvas",
     "Icon\r",
     "Files/Additive Increase Multiplicative Decrease control law.png",
@@ -287,7 +314,6 @@
     "Files/Max-min bandwidth allocation for four flows.png",
     "Untitled.canvas",
     "Files/Pasted image 20230529233606.png",
-    "Files/Congestion control Goodput.png",
     "Interests/G.tar.gz",
     "Interests/G.tar.gz.gpg",
     "Interests/RR.md.gpg",
@@ -295,9 +321,6 @@
     "Interests/G",
     "Personal/People",
     "Personal/PKM",
-    "Personal",
-    "Files/Average path length of ER graphs with varying average vertex degree.png",
-    "Files/Relation between clustering coefficient and average path length.png",
     "Computer Programming/Computer Networks/Sliding Windows Abnormal case.canvas",
     "Computer Programming/Computer Organization/A five-stage organization.canvas",
     "Computer Programming/Information Management for CS/An industry and its competitive forces.canvas",

@@ -2,5 +2,13 @@
   "obsidian-prism-theme@@color-schemes-dt": "pt-color-scheme-raven-dt",
   "obsidian-prism-theme@@accent-style-dt": "pt-accent-style-borderandfilled-dt",
   "obsidian-prism-theme@@dark-accent-color-preset": "pt-accent-color-purple-dt",
-  "obsidian-prism-theme@@highlight-text-accent-dt": "pt-highlight-text-accent-dt"
+  "obsidian-prism-theme@@highlight-text-accent-dt": "pt-highlight-text-accent-dt",
+  "shiba-theme-settings@@shiba-colors-theme-dark": "default-dark-theme",
+  "shiba-theme-settings@@shiba-accent-colors": "accent-orange",
+  "minimal-style@@zoom-off": false,
+  "minimal-style@@tabs-style": "tabs-underline",
+  "minimal-advanced@@cursor": "default",
+  "minimal-style@@workspace-background-translucent@@light": "#E5FF0400",
+  "minimal-style@@window-title-off": false,
+  "minimal-style@@embed-strict": false
 }

@@ -7,6 +7,14 @@ Tags:
 ## Favorite song
 (Favorite_Song:: )
 
+```todoist 
+name: Highest Priority & Date 
+filter: "today | overdue" 
+sorting: 
+- date 
+- priority
+group: true 
+```
 ___
 ## Today's Notes
 ```dataview

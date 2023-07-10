@@ -8,6 +8,14 @@ Links:: [[2021-W<% tp.date.now("WW", 7) %>]]
 - [[My Daily Laws]]
 - ![[<%tp.date.now("YYYY-MM-DD", -1)%>#Improvement for Tomorrow]]
 ### Today's Tasks
+```todoist 
+name: Highest Priority & Date 
+filter: "today | overdue" 
+sorting: 
+- date 
+- priority
+group: true 
+```
 > ![[To Do's (Tq)]]
 
 **ONE 1-2+ Hours Task:**

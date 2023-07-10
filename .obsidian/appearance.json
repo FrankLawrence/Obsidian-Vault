@@ -1,16 +1,15 @@
 {
   "baseFontSize": 15,
   "translucency": false,
-  "cssTheme": "Shiba Inu",
+  "cssTheme": "Minimal",
   "theme": "obsidian",
   "interfaceFontFamily": "",
   "textFontFamily": "Fira Code,Roboto Mono,Source Code Pro",
   "monospaceFontFamily": "FiraCode Nerd Font",
-  "accentColor": "#ff9500",
+  "accentColor": "#c4a7e7",
   "showViewHeader": true,
   "nativeMenus": false,
   "enabledCssSnippets": [
-    "cards",
     "dashboard"
   ]
 }

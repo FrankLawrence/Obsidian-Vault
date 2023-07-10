@@ -14,6 +14,14 @@ WHERE date(Birthday).month = date({{date:YYYY-MM-DD}}).month AND date(Birthday).
 
 ```
 ### Today's Tasks
+```todoist 
+name: Highest Priority & Date 
+filter: "today | overdue" 
+sorting: 
+- date 
+- priority
+group: true 
+```
 > Refer to ![[To Do's (Tq)]]
 ---
 - [ ] <%tp.file.cursor(1)%>

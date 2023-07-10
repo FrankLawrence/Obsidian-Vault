@@ -10,7 +10,7 @@ Created: 2023-06-29 00:55:08
 
 ^26dc57
 
-# Determinants
+# [[Introduction to Determinants|Determinants]]
 > [!info] THEOREM 3
 > **Properties of Determinants**
 > Let $A$ and $B$ be $n\times n$ matrices.

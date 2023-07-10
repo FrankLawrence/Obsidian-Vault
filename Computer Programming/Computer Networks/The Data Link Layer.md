@@ -117,7 +117,7 @@ Created: 2023-04-21 03:14:19
 - encoder processes a sequence of input bits and generates a sequence of output bits
 - output depends on the current and previous input bits (encoder has memory)
 - **constraint length**: number of previous bits on which the output depends
-- ![[The binary convolutional code.png]]
+- ![[The binary convolutional code.png|500]]
 	- convolutional code of $r=1/2$ and $k=7$
 	- one input bit on the left-hand side produces two output bits on the right-hand side that are XOR sums of the input and internal state
 	- every input shifts the values in the registers to the right

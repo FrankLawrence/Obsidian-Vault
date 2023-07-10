@@ -27,5 +27,23 @@ Created: 2022-10-14 04:34:28
 | [Ctrl +b] + x             | Kill the current pane                          |
 | [Ctrl +b] + ?             | Show list of commands                          |
 | [Ctrl +b] + s             | list sessions                                               |
+
+# [Kill session inside of a tmux session](https://superuser.com/posts/1161344/timeline)
+
+
+TMUX Prefix (e.g. `ctrl+b`) + `:kill-session`
+
+or
+
+`tmux kill-session` (could run either from the inside of a session or the outside)
+
+Both styles of invocation can use the flags:
+
+`-t target-session` destroys the given session  
+`-a` destroys all sessions but the given one or the one you are attached to
+
+Running `kill-session` from the outside of TMUX kills the last session you were attached to. `-a` inverts that.
+
+In the event, that you have more than one session running you could kill **all sessions** at once with: `kill-server`
 ___
 References:

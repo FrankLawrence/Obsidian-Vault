@@ -1,9 +1,9 @@
 ---
 alias: Home
 cssclass: dashboard
-banner: "![[The Dark Side of the Moon album wallpeper minimalist.png]]"
+banner: "![[E3wGdziUYAENJU_.jpeg]]"
 banner_x: 0.5
-banner_y: 0.5
+banner_y: 0.4
 ---
 
 # Personal
