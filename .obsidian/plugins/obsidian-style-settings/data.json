@@ -10,5 +10,8 @@
   "minimal-advanced@@cursor": "default",
   "minimal-style@@workspace-background-translucent@@light": "#E5FF0400",
   "minimal-style@@window-title-off": false,
-  "minimal-style@@embed-strict": false
+  "minimal-style@@embed-strict": false,
+  "minimal-cards-style@@cards-max-width": "1fr",
+  "minimal-cards-style@@cards-image-height": "400px",
+  "minimal-style@@image-muted": 1
 }

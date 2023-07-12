@@ -3,14 +3,15 @@ alias: Home
 cssclass: dashboard
 banner: "![[E3wGdziUYAENJU_.jpeg]]"
 banner_x: 0.5
-banner_y: 0.4
+banner_y: 0.57714
 ---
 
 # Personal
-- 🎥 Movies to Watch
+- Entertainment
+	- [Movies](obsidian://open?vault=Media%20Database%20Vault&file=Movies)
 - Friends and Family
 	- [[;).canvas|;)]]
-	- 
+	- [[Present Ideas]] / [[Birthdays]]
 
 # Interests
 - Security and Privacy

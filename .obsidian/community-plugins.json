@@ -16,5 +16,8 @@
   "obsidian-banners",
   "obsidian-style-settings",
   "quick-latex",
-  "todoist-sync-plugin"
+  "todoist-sync-plugin",
+  "obsidian-sortable",
+  "obsidian-contextual-typography",
+  "quickadd"
 ]
