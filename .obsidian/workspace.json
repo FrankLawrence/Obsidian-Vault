@@ -14,27 +14,26 @@
               "type": "markdown",
               "state": {
                 "file": "Dashboard.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
           },
           {
-            "id": "48ea500a8de15785",
+            "id": "ecc2bf4b60020347",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "Miscellaneous/Testing.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +117,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Miscellaneous/Testing.md",
+                "file": "Dashboard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +134,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Miscellaneous/Testing.md",
+                "file": "Dashboard.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Miscellaneous/Testing.md"
+                "file": "Dashboard.md"
               }
             }
           }
@@ -191,7 +190,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Miscellaneous/Testing.md",
+                "file": "Dashboard.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -224,7 +223,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.5
+    "width": 330.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -243,13 +243,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "14ca63461016b643",
+  "active": "7ffbe2e8598e14cf",
   "lastOpenFiles": [
-    "Dashboard.md",
     "Miscellaneous/Testing.md",
+    "Daily Notes/2023-07-12.md",
+    "Daily Notes/2023-07-13.md",
+    "Dashboard.md",
+    "Daily Notes/2023-07-11.md",
+    "Daily Notes/2023-07-10.md",
+    "Daily Notes/2023-07-09.md",
     "Home🏠.md",
     "To Do.md",
-    "Daily Notes/2023-07-10.md",
     "Interests/Movie List.md",
     "Interests/Movie List 1.md",
     "Movies/Movies.md",
@@ -268,10 +272,6 @@
     "Personal/;).canvas",
     "Movies/Finding Nemo.md",
     "Movies/Attack on Titan.md",
-    "Movies/The Little Mermaid.md",
-    "Movies/The Boss Baby.md",
-    "Movies/Star Wars Episode VIII - The Last Jedi.md",
-    "Movies/Star Wars Episode VII - The Force Awakens.md",
     "Miscellaneous/movies.js",
     "Miscellaneous",
     "Banners/The Dark Side of the Moon Album wallpaper Rosé pine.jpeg",

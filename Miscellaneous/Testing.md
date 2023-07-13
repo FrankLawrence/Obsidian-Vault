@@ -1,8 +1,8 @@
 
 - [x] test 1
 - [x] test 2
-- [x] test 3
-- [x] test 4
+- [ ] test 3
+- [ ] test 4
 
 
 `= "<progress value='" + (length(filter(this.file.tasks.completed, (t) => t = true)) / length(this.file.tasks)) * 100 + "' max='100'></progress>" + "<br>" + round((length(filter(this.file.tasks.completed, (t) => t = true)) / length(this.file.tasks)) * 100) + "% completed"`

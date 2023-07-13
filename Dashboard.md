@@ -9,6 +9,7 @@ banner_y: 0.57714
 # Personal
 - Entertainment
 	- [Movies](obsidian://open?vault=Media%20Database%20Vault&file=Movies)
+	- [Series](obsidian://open?vault=Media%20Database%20Vault&file=Series)
 - Friends and Family
 	- [[;).canvas|;)]]
 	- [[Present Ideas]] / [[Birthdays]]
