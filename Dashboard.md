@@ -1,9 +1,9 @@
 ---
 alias: Home
 cssclass: dashboard
-banner: "![[E3wGdziUYAENJU_.jpeg]]"
+banner: "![[Frank Wallpaper OI.jpeg]]"
 banner_x: 0.5
-banner_y: 0.57714
+banner_y: 0.53429
 ---
 
 # Personal

@@ -17,7 +17,6 @@ alias: DSA
 [[Data Structures and Algorithms for CS Lecture 2| Lecture 2]]
 [[Data Structures and Algorithms for CS Lecture 3| Lecture 3]]
 [[Data Structures and Algorithms for CS Lecture 4| Lecture 4]]
-[[Quicksort| Lecture 5]]
 [[Data Structures and Algorithms for CS Lecture 6| Lecture 6]]
 [[Data Structures and Algorithms for CS Lecture 8| Lecture 8]]
 [[Data Structures and Algorithms for CS Lecture 9| Lecture 9]]

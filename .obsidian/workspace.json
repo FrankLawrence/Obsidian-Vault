@@ -8,7 +8,33 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7ffbe2e8598e14cf",
+            "id": "b7ecf7a19ba9e230",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Interests/Security and Privacy/Why we should care about privacy.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "99e532ef48e72ed3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Interests/Security and Privacy/Understanding Privacy.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "359b83108607a557",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -21,19 +47,20 @@
             }
           },
           {
-            "id": "ecc2bf4b60020347",
+            "id": "b1c28dc233f2f4bf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Miscellaneous/Testing.md",
+                "file": "Computer Programming/Computer Networks/Network Security.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -178,7 +205,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       },
       {
         "id": "036d7406e40c04e2",
@@ -243,35 +270,38 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "7ffbe2e8598e14cf",
+  "active": "359b83108607a557",
   "lastOpenFiles": [
-    "Miscellaneous/Testing.md",
-    "Daily Notes/2023-07-12.md",
-    "Daily Notes/2023-07-13.md",
+    "Interests/Security and Privacy/Understanding Privacy.md",
+    "Interests/Security and Privacy/Why we should care about privacy.md",
+    "Computer Programming/Computer Networks/Network Security.md",
+    "Cooking and Baking/Schokotörtchen mit weichem Kern.pdf",
+    "Interests/Security and Privacy/Privacy Violations examples.md",
+    "Computer Programming/Computer Networks/Computer Networks.md",
+    "Computer Programming/Computer Networks/The Network Layer.md",
+    "Computer Programming/Computer Networks/Computer Networks Chapter 7.md",
     "Dashboard.md",
-    "Daily Notes/2023-07-11.md",
-    "Daily Notes/2023-07-10.md",
-    "Daily Notes/2023-07-09.md",
-    "Home🏠.md",
-    "To Do.md",
-    "Interests/Movie List.md",
-    "Interests/Movie List 1.md",
-    "Movies/Movies.md",
-    "Movies/How to Train Your Dragon.md",
-    "Movies/Harry Potter and the Deathly Hallows Part 2.md",
-    "Movies/Harry Potter and the Deathly Hallows Part 1.md",
-    "Movies/Harry Potter and the Half-Blood Prince.md",
-    "Movies/Harry Potter and the Order of the Phoenix.md",
-    "Movies/Harry Potter and the Goblet of Fire.md",
-    "Movies/Harry Potter and the Prisoner of Azkaban.md",
-    "Movies/Harry Potter and the Chamber of Secrets.md",
-    "Movies/Harry Potter and the Sorcerers Stone.md",
-    "Movies/Pulp Fiction.md",
-    "Movies/Spirited Away.md",
-    "Movies/Kaguya-sama Love is War.md",
+    "Miscellaneous/Testing.md",
+    "Computer Programming/Web Technology/Basic CSS.md",
+    "Computer Programming/Web Technology/Web Technology.md",
+    "Computer Programming/Uni Courses🎓.md",
+    "Interests/Security and Privacy/Encryption.md",
+    "Encryption.md",
+    "Computer Programming/Computer Networks/Lecture 8 Network Layer Part 2.md",
+    "Computer Programming/Computer Networks/Lecture 11 Application Layer Part 1.md",
+    "Computer Programming/Networks and Graphs/Networks and Graphs Random Networks.md",
+    "Computer Programming/Networks and Graphs/Networks and Graphs Analysis.md",
+    "Computer Programming/Networks and Graphs/Networks and Graphs Trees.md",
+    "Computer Programming/Networks and Graphs/Networks and Graphs Traversal.md",
+    "Computer Programming/Networks and Graphs/Networks and Graphs Foundations.md",
+    "Cooking and Baking/Lava Cake.md",
+    "Cooking and Baking/Schokotörtchen mit weichem Kern-1.jpg",
+    "Computer Programming/Logic and Sets/Disjunctive and Conjunctive normal forms, Adequate systems of connectives, Satisfiability.md",
+    "Computer Programming/Computer Organization/Computer Organization.md",
+    "Computer Programming/Data Structures and Algorithms for CS/Data Structures and Algorithms for CS.md",
+    "Banners/Frank Wallpaper OI.jpeg",
+    "Computer Programming/Projects/Clinical Trials API.canvas",
     "Personal/;).canvas",
-    "Movies/Finding Nemo.md",
-    "Movies/Attack on Titan.md",
     "Miscellaneous/movies.js",
     "Miscellaneous",
     "Banners/The Dark Side of the Moon Album wallpaper Rosé pine.jpeg",
@@ -279,7 +309,6 @@
     "Banners/blockwavemoon.png",
     "Movies",
     "Files/Subspaces associated with a linear transformation.png",
-    "Computer Programming/Projects/Clinical Trials API.canvas",
     "Files/Is every b the image of at most one vector?.png",
     "Files/Is the range of T all of R^m.png",
     "Computer Programming/CoPP",
@@ -287,14 +316,11 @@
     "Icon\r",
     "Files/Additive Increase Multiplicative Decrease control law.png",
     "Files/Additive and multiplicative bandwidth adjustments.png",
-    "Files/Max-min bandwidth allocation for four flows.png",
     "Untitled.canvas",
-    "Files/Pasted image 20230529233606.png",
     "Interests/G.tar.gz",
     "Interests/G.tar.gz.gpg",
     "Interests/RR.md.gpg",
     "Files/K2-Phy-Magn.&Spul..pdf",
-    "Interests/G",
     "Computer Programming/Computer Networks/Sliding Windows Abnormal case.canvas",
     "Computer Programming/Computer Organization/A five-stage organization.canvas",
     "Computer Programming/Information Management for CS/An industry and its competitive forces.canvas",

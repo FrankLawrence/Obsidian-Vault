@@ -1,6 +1,6 @@
 ---
 Tags: cooking/sweet pastry
-Links: [[2 Dollar Burrito]]
+Links:
 Created: 2022-09-27 03:28
 ---
 Cooking time: 10 min(s)

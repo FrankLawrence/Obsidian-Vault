@@ -1,0 +1,5 @@
+- A newspaper reports the name of a rape victim
+- Reporters deceitfully gain entry to a person's home and secretly photograph and record him
+- the government uses a thermal sensor device to detect heat patterns in a person's home
+- A company markets a list of five million elderly incontinent women.
+- Despite promising not to sell its members’ personal information to others, a company does so anyway.

@@ -166,17 +166,19 @@ Created: 2023-04-04 00:23:35
 > > [!warning]
 > > Complete graphs are the only graphs that do not have a vertex cut
 
-> [!definition] Vertex independent
+> [!definition] Vertex and Edge independent
 > Consider a graph $G$ and a collection $P$ of (u,v)-paths in $G$, with $u,v\in V(G)$
 > - $P$ is **vertex independent** if for all (u,v)-paths $P_1,P_2\in P$ we have that $V(P_1)\cap V(P_2)=\{u,v\}$
 > - The collection is **edge independent** if for all its (u,v)-paths $P_1$ and $P_2$, we have that $E(P_1)\cap E(P_2)=\emptyset$
+
+^472e72
 
 - Two (u, v)-paths $P_1$ and $P_2$ are vertex independent if they share only the vertices $u$ and $v$, and are edge independent if they have no edge in common. 
 
 > [!info] THEOREM 2.5 (Menger)
 > Let $G$ be a connected graph and $u$ and $v$ two nonadjacent vertices in $G$
-> - The minimum number of vertices in a [[#^7639ab|vertex cut]] that disconnects $u$ and $v$ is equal to the maximum number of pairwise vertex-independent paths between $u$ to $v$
-> - The minimum number of edges in an [[#^7639ab|edge cut]] that disconnects $u$ and $v$, is equal to the maximum number of pairwise edge-independent paths between $u$ and $v$
+> - The minimum number of vertices in a [[#^7639ab|vertex cut]] that disconnects $u$ and $v$ is equal to the maximum number of pairwise [[#^472e72|vertex-independent paths]] between $u$ to $v$
+> - The minimum number of edges in an [[#^7639ab|edge cut]] that disconnects $u$ and $v$, is equal to the maximum number of pairwise [[#^472e72|edge-independent paths]] between $u$ and $v$
 
 ^e20f09
 

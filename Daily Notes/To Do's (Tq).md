@@ -1,2 +1,0 @@
-- Learn vim
-- Learn bash scripting 

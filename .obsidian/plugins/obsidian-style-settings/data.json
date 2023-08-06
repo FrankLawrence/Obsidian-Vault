@@ -13,5 +13,11 @@
   "minimal-style@@embed-strict": false,
   "minimal-cards-style@@cards-max-width": "1fr",
   "minimal-cards-style@@cards-image-height": "400px",
-  "minimal-style@@image-muted": 1
+  "minimal-style@@image-muted": 1,
+  "minimal-style@@active-line-on": true,
+  "minimal-style@@italic-color@@dark": "#9CCFD8",
+  "minimal-style@@bold-color@@dark": "#C4A7E7",
+  "minimal-style@@pdf-dark-opacity": 1,
+  "minimal-style@@pdf-blend-light": true,
+  "minimal-style@@pdf-invert-dark": true
 }
