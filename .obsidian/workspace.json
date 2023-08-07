@@ -52,7 +52,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Programming/Computer Networks/Network Security.md",
+                "file": "Computer Programming/Computer Networks/The Medium Access Control Sublayer.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -144,7 +144,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dashboard.md",
+                "file": "Interests/Security and Privacy/Understanding Privacy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +161,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dashboard.md",
+                "file": "Interests/Security and Privacy/Understanding Privacy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,7 +200,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Dashboard.md"
+                "file": "Interests/Security and Privacy/Understanding Privacy.md"
               }
             }
           }
@@ -217,7 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Dashboard.md",
+                "file": "Interests/Security and Privacy/Understanding Privacy.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -270,17 +270,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "359b83108607a557",
+  "active": "99e532ef48e72ed3",
   "lastOpenFiles": [
-    "Interests/Security and Privacy/Understanding Privacy.md",
-    "Interests/Security and Privacy/Why we should care about privacy.md",
-    "Computer Programming/Computer Networks/Network Security.md",
-    "Cooking and Baking/Schokotörtchen mit weichem Kern.pdf",
-    "Interests/Security and Privacy/Privacy Violations examples.md",
+    "Dashboard.md",
+    "Computer Programming/Computer Networks/The Medium Access Control Sublayer.md",
     "Computer Programming/Computer Networks/Computer Networks.md",
     "Computer Programming/Computer Networks/The Network Layer.md",
+    "Computer Programming/Computer Networks/Network Security.md",
+    "Interests/Security and Privacy/Understanding Privacy.md",
+    "Interests/Security and Privacy/Why we should care about privacy.md",
+    "Cooking and Baking/Schokotörtchen mit weichem Kern.pdf",
+    "Interests/Security and Privacy/Privacy Violations examples.md",
     "Computer Programming/Computer Networks/Computer Networks Chapter 7.md",
-    "Dashboard.md",
     "Miscellaneous/Testing.md",
     "Computer Programming/Web Technology/Basic CSS.md",
     "Computer Programming/Web Technology/Web Technology.md",
