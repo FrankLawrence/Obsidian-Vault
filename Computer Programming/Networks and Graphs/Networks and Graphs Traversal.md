@@ -67,7 +67,7 @@ Created: 2023-04-25 00:55:30
 	- make a new graph $G_2$ in which all vertices have even degrees
 	- find an Euler tour in $G_2$
 - "**pair**" each odd-degree vertex $u$ in $G$ with exactly one other odd-degree vertex $v$ in $G$
-	- duplicate a shortest $[u,v]$-path in $G$
+	- duplicate a [[Shortest path|shortest $[u,v]$-path]] in $G$
 
 > [!info] Algorithm Chinese Postman Problem
 > $v_1,v_2,...,v_{2r}$ are the **odd-degree vertices** in $G$ for $r \geq 0$

@@ -24,8 +24,8 @@ Created: 2022-11-01 15:55:07
   Halting problem
 - some problems cannot be solved efficiently
   Hanoi
-- some problems can be solved eefficiently
-  sorting, shortest path
+- some problems can be solved efficiently
+  sorting, [[Shortest path]]
 - for some problems we do not know whether they can be (efficiently) solved
   Collatz
   

@@ -42,7 +42,7 @@ Created: 2023-05-22 21:12:02
 - ![[Phase transition graph.png|500]]
 
 # Small worlds
-- A network of size $n$ follows the small world phenomenon if the average shortest-path lengths in the network is in $O(\log n)$ ($\bar d\propto \log n$)
+- A network of size $n$ follows the small world phenomenon if the average [[Shortest path]] lengths in the network is in $O(\log n)$ ($\bar d\propto \log n$)
 
 > [!info] ALGORITHM 7.1 (Watts-Strogatz)
 > Consider a set of $n$ vertices $\{v_1,v_2,...,v_n\}$ and an (even) number $k$. In order to ensure that the graph will have relatively few edges, choose $n$ and $k$ such that $n>>k>>\ln(n)>>1$
@@ -63,7 +63,7 @@ Created: 2023-05-22 21:12:02
 - if $G\in WS(n,k,0)$ and $k=2$, then $cc(G)=0$
 
 > [!info] THEOREM 7.4
-> For any Watts-Strogatz graph $G$ from $WS(n,k,0)$ the average shortest-path length $\bar d(u)$ from a given vertex $u$ to any other vertex in $G$ is approximated by $$\bar d(u)\approx\frac{(n-1)(n+k-1)}{2kn}\approx \frac{n}{2k}$$
+> For any Watts-Strogatz graph $G$ from $WS(n,k,0)$ the average [[Shortest path]] length $\bar d(u)$ from a given vertex $u$ to any other vertex in $G$ is approximated by $$\bar d(u)\approx\frac{(n-1)(n+k-1)}{2kn}\approx \frac{n}{2k}$$
 
 - when increasing $p$ slightly, the average path length of a WS-graph drops rapidly
 	- ![[Relation between clustering coefficient and average path length.png|500]]

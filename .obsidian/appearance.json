@@ -10,6 +10,7 @@
   "showViewHeader": true,
   "nativeMenus": false,
   "enabledCssSnippets": [
-    "dashboard"
+    "dashboard",
+    "infobox"
   ]
 }

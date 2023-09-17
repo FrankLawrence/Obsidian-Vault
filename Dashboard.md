@@ -3,7 +3,7 @@ alias: Home
 cssclass: dashboard
 banner: "![[Frank Wallpaper OI.jpeg]]"
 banner_x: 0.5
-banner_y: 0.53429
+banner_y: 0.53715
 ---
 
 # Personal
@@ -35,6 +35,8 @@ banner_y: 0.53429
 - [[Uni Courses🎓]]
 	- [[Linear Algebra]]
 	- [[Computer Networks]]
+	- [[Pervasive Computing]]
+	- [[Object Oriented and Functional Programming]]
 
 # Recents
 ```dataview

@@ -119,7 +119,7 @@ return T
 - $O(m\log n)$ runtime when using a binary min-heap for the priority-queue
 - $O(m+n\log n)$ runtime when using a Fibonacci heap for the priority-queue
 
-1. For each vertex $v\in V$, Dijstra's algorithm maintains a value $v.d$, which is called a **shortest-path estimate**
+1. For each vertex $v\in V$, Dijstra's algorithm maintains a value $v.d$, which is called a **[[Shortest path|shortest-path]] estimate**
 2. Initially, the $d$ values of all vertices is set to $\infty$, except for vertex $s$. The algorithm then gradually decreases the values until they reach to their final value, which equals the weight of the shortest path from $s$ to that vertex
 3. For Step 2, the algorithm uses the technique of **relaxation**: the process of **relaxing an edge** consists of testing whether we can improve the shortest path to $v$ found so far by going through $u$
 

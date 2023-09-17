@@ -92,7 +92,7 @@ Created: 2023-05-16 22:50:38
 > - the loop continues
 ## Link state routing
 - Doesn't suffer from *count to infinity problem*
-- uses *shortest path algorithm*
+- uses *[[Shortest path]] algorithm*
 - routers flood network with packets and build overview of the network and run shortest path algorithm
 ## Hierarchical routing
 - Group machines on network layer together to simplify routing tables

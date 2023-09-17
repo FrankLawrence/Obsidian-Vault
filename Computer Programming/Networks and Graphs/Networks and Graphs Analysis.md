@@ -5,7 +5,7 @@ Created: 2023-05-19 19:49:00
 (Links:: [[Networks and Graphs]])
 # Distance statistics
 Specifies how easy it is to reach the other nodes in the network
-- The **distance** between $u$ and $v$, denoted as $d(u,v)$, is the length of the shortest $(u,v)$-path
+- The **distance** between $u$ and $v$, denoted as $d(u,v)$, is the length of the [[Shortest path|shortest $(u,v)$-path]]
 - **eccentricity $\epsilon(u)$**: $max\{d(u,v)|v\in V(G)\}$ (how far is the farthest vertex from $u$)
 - **radius $rad(G)$**: $min\{\epsilon(u)|u\in V(G)\}$ (minimum over all eccentricity values)
 - **diameter $diam(G)$**: $max\{d(u,v)|u,v\in V(G)\}$ (maximal distance in a network)

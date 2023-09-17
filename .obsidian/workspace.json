@@ -8,34 +8,9 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b7ecf7a19ba9e230",
+            "id": "648757359404a38c",
             "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Interests/Security and Privacy/Why we should care about privacy.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "99e532ef48e72ed3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Interests/Security and Privacy/Understanding Privacy.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "359b83108607a557",
-            "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
@@ -43,16 +18,43 @@
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
-              }
+              },
+              "pinned": true
             }
           },
           {
-            "id": "b1c28dc233f2f4bf",
+            "id": "4f9e9b47f67c7426",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Programming/Computer Networks/The Medium Access Control Sublayer.md",
+                "file": "Computer Programming/Pervasive Computing/Pervasive Computing.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "2b6921d410fbfee5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Miscellaneous/Testing.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "0573c57d1b895926",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Programming/Linear Algebra/Linear Algebra.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -60,7 +62,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -115,7 +117,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -144,7 +146,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interests/Security and Privacy/Understanding Privacy.md",
+                "file": "Miscellaneous/Testing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -161,7 +163,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interests/Security and Privacy/Understanding Privacy.md",
+                "file": "Miscellaneous/Testing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,12 +202,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interests/Security and Privacy/Understanding Privacy.md"
+                "file": "Miscellaneous/Testing.md"
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       },
       {
         "id": "036d7406e40c04e2",
@@ -217,7 +219,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Interests/Security and Privacy/Understanding Privacy.md",
+                "file": "Miscellaneous/Testing.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -270,36 +272,46 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "99e532ef48e72ed3",
+  "active": "2b6921d410fbfee5",
   "lastOpenFiles": [
-    "Dashboard.md",
-    "Computer Programming/Computer Networks/The Medium Access Control Sublayer.md",
-    "Computer Programming/Computer Networks/Computer Networks.md",
-    "Computer Programming/Computer Networks/The Network Layer.md",
-    "Computer Programming/Computer Networks/Network Security.md",
-    "Interests/Security and Privacy/Understanding Privacy.md",
-    "Interests/Security and Privacy/Why we should care about privacy.md",
-    "Cooking and Baking/Schokotörtchen mit weichem Kern.pdf",
-    "Interests/Security and Privacy/Privacy Violations examples.md",
-    "Computer Programming/Computer Networks/Computer Networks Chapter 7.md",
+    "Computer Programming/Linear Algebra/Linear Algebra.md",
+    "Computer Programming/Pervasive Computing/Pervasive Computing.md",
+    "Computer Programming/Pervasive Computing/Percom Week 2.md",
     "Miscellaneous/Testing.md",
-    "Computer Programming/Web Technology/Basic CSS.md",
-    "Computer Programming/Web Technology/Web Technology.md",
+    "Interests/Mac/Mac startup key combinations.md",
+    "Interests/Security and Privacy/TLDR Privacy and Security.md",
     "Computer Programming/Uni Courses🎓.md",
-    "Interests/Security and Privacy/Encryption.md",
-    "Encryption.md",
-    "Computer Programming/Computer Networks/Lecture 8 Network Layer Part 2.md",
-    "Computer Programming/Computer Networks/Lecture 11 Application Layer Part 1.md",
-    "Computer Programming/Networks and Graphs/Networks and Graphs Random Networks.md",
-    "Computer Programming/Networks and Graphs/Networks and Graphs Analysis.md",
-    "Computer Programming/Networks and Graphs/Networks and Graphs Trees.md",
+    "Computer Programming/Promotion text.md",
+    "Interests/Security and Privacy/Awesome Hacking.md",
+    "Computer Programming/Pervasive Computing/Percom 2 Signals.md",
+    "School Subjects/Physics/Questions.md",
+    "School Subjects/Physics/Physics⚛.md",
+    "School Subjects/Physics/Mechanische Wellen.md",
+    "Computer Programming/Pervasive Computing/Percom 3 Control Systems.md",
+    "Miscellaneous/Testing2.md",
     "Computer Programming/Networks and Graphs/Networks and Graphs Traversal.md",
-    "Computer Programming/Networks and Graphs/Networks and Graphs Foundations.md",
-    "Cooking and Baking/Lava Cake.md",
+    "Computer Programming/Networks and Graphs/Networks and Graphs Analysis.md",
+    "Computer Programming/Networks and Graphs/Networks and Graphs Random Networks.md",
+    "Computer Programming/Computer Networks/Lecture 7 Network Layer Part 1.md",
+    "Computer Programming/Data Structures and Algorithms for CS/Data Structures and Algorithms for CS Lecture 1.md",
+    "Computer Programming/Networks and Graphs/Networks and Graphs Trees.md",
+    "Computer Programming/Data Structures and Algorithms for CS/Data Structures and Algorithms for CS Lecture 13.md",
+    "Computer Programming/Data Structures and Algorithms for CS/Dijkstra's algorithm.md",
+    "Computer Programming/Pervasive Computing/Percom 1 Introduction.md",
+    "Computer Programming/Analysis I.md",
+    "Computer Programming/Logic and Sets/Logic and Sets.md",
+    "Files/TimeXwaveImg.jpg",
+    "Files/Speech.jpg",
+    "Files/note_gen.jpg",
+    "Files/Rand(10).jpg",
+    "Files/Percom Signal.jpg",
+    "Ubicomp.canvas",
+    "Computer Programming/Pervasive Computing",
+    "Computer Programming/Object Oriented and Functional Programming",
+    "Computer Programming/Computer Organization/A five-stage organization.canvas",
+    "Files/Datapath in a processor.png",
+    "Cooking and Baking/Schokotörtchen mit weichem Kern.pdf",
     "Cooking and Baking/Schokotörtchen mit weichem Kern-1.jpg",
-    "Computer Programming/Logic and Sets/Disjunctive and Conjunctive normal forms, Adequate systems of connectives, Satisfiability.md",
-    "Computer Programming/Computer Organization/Computer Organization.md",
-    "Computer Programming/Data Structures and Algorithms for CS/Data Structures and Algorithms for CS.md",
     "Banners/Frank Wallpaper OI.jpeg",
     "Computer Programming/Projects/Clinical Trials API.canvas",
     "Personal/;).canvas",
@@ -307,23 +319,14 @@
     "Miscellaneous",
     "Banners/The Dark Side of the Moon Album wallpaper Rosé pine.jpeg",
     "Banners/E3wGdziUYAENJU_.jpeg",
-    "Banners/blockwavemoon.png",
     "Movies",
-    "Files/Subspaces associated with a linear transformation.png",
-    "Files/Is every b the image of at most one vector?.png",
-    "Files/Is the range of T all of R^m.png",
     "Computer Programming/CoPP",
     "Computer Programming/Computer Networks/Network Layer Model.canvas",
     "Icon\r",
-    "Files/Additive Increase Multiplicative Decrease control law.png",
-    "Files/Additive and multiplicative bandwidth adjustments.png",
     "Untitled.canvas",
     "Interests/G.tar.gz",
     "Interests/G.tar.gz.gpg",
-    "Interests/RR.md.gpg",
-    "Files/K2-Phy-Magn.&Spul..pdf",
     "Computer Programming/Computer Networks/Sliding Windows Abnormal case.canvas",
-    "Computer Programming/Computer Organization/A five-stage organization.canvas",
     "Computer Programming/Information Management for CS/An industry and its competitive forces.canvas",
     "Computer Programming/Information Management for CS/Information characteristics for managerial decisions.canvas"
   ]

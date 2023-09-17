@@ -3,6 +3,7 @@ tags:
 Created: 2022-09-06 09:35
 ---
 (Links:: [[Home🏠]])
+# Year 1
 ## P1
 - [[Introduction to Computer Science]]
 - [[Computational Thinking for Coders]]
@@ -21,6 +22,16 @@ Created: 2022-09-06 09:35
 - [[Networks and Graphs]]
 - [[Linear Algebra]]
 ## P6
-- [[CoP]]
+- [[CoPP]]
+# Year 2
+## P1
+- [[Pervasive Computing]]
+- [[Object Oriented and Functional Programming]]
+- [[Analysis I]]
+## P2
+## P3
+## P4
+## P5
+## P6
 ___
 References:

@@ -23,6 +23,8 @@ Privacy is the "power to conceal information about themselves that others might 
 Privacy problems are often wrongly interpreted in the law. 
 > Like the emotive word “freedom,” “privacy” means so many different things to so many different people that it has lost any precise legal connotation that it might once have had.
 
+- 
+
 
 
 ---
