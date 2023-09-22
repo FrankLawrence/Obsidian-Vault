@@ -14,6 +14,19 @@ Created: 2023-09-20 11:57:01
 - PE6. We applied the FFT to a sampled signal with 1000 samples and sampling frequency Fs=8000Hz. What does the vector returned by the FFT contain? How long is this vector, and how many elements can we really use? What are the first and last elements? What is the distance between 2 adjacent elements? 
 - PE7. What is a spectrogram? How can we plot it? Sketch a spectrogram for a 0,1 s-long 100 Hz periodic signal.  
 - PE8. Write in pseudocode a rule-based classifier to distinguish an oil bottle from an orange in an image.
+# Exercise 1
+Write a MATLAB function that acquires an image, and returns the number of large objects (BLOBs) in it. The function should also plot (in a mosaic of windows) all the intermediate images used to obtain the result (by using the MATLAB function subplot). Your standard solution should count only round objects.
+
+[BONUS-1] Investigate how to count other shapes - for example, matches.  
+[BONUS-2] Use the MATLAB function imnoise(I,'salt & pepper',d) to add some noise to your image. Investigate the effect of different types of filters (Median, mean). MATLAB Image Processing Toolbox has some functions for this such as medfilt2 and fspecial('average', n);filter2(h, img);
+
+# Exercise 2
+For each signal below, write a MATLAB program that plots the frequency spectrum. Submit the code and the obtained images.
+
+a) a sum of 2 sinusoidal signals (for example, 50Hz and 100Hz).  
+b) the tuning fork signal recorded with a microphone, as you already did in Lab1.
+
+[BONUS] Write a program to plot the spectrogram for the signal from a), b) and the C-major scale that can be found in Canvas.
 
 ---
 References:

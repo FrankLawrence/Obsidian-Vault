@@ -1,8 +1,8 @@
 ---
-Tags: 
+tags: 
 Created: 2023-09-13 11:07:31
+Links: "[[Pervasive Computing]]"
 ---
-(Links:: [[Pervasive Computing]])
 # Autonomy and Controllers
 - Autonomy is the ability to make one's decisions and act on them. Autonomy can be total or partial
 - Controllers provide hardware and software that makes the system autonomous, by using sensor inputs and any other information to decide what to do

@@ -111,6 +111,62 @@ For this exercise you must combine everything you learned in this lab and write 
 [OPTIONAL] If things work fine, you still have fun and there is some time left, try to optimize your program for following a line and take part in the race. Explain in the report your key to success.
 
 ```matlab
+myenv3 = legoev3('usb')
+SpeedToUse = 63
+mA = motor(myenv3, 'A')
+mA.Speed = SpeedToUse
+mC = motor(myenv3, 'C')
+mC.Speed = SpeedToUse
+start(mA)
+start(mC)
+
+myColourSensor1 = colorSensor(myenv3,1)
+myColourSensor2 = colorSensor(myenv3,2)
+UltraSensor = sonicSensor(myenv3)
+
+while 1
+    obstacle = readDistance(UltraSensor)
+    reflectedLeft = readLightIntensity(myColourSensor1,'reflected')
+    reflectedRight = readLightIntensity(myColourSensor2, 'reflected')
+    
+    if reflectedLeft < 15 && reflectedRight < 15
+        pause(0.2)
+        if reflectedLeft < 15 && reflectedRight < 15    
+            break
+        end
+    end
+    if reflectedLeft > 50 
+        mA.Speed = SpeedToUse
+    end
+    if reflectedRight > 50
+        mC.Speed = SpeedToUse/1.5
+    end
+    if reflectedRight < 30
+        mA.Speed = SpeedToUse/2
+    end
+    if reflectedRight < 31
+        mC.Speed = SpeedToUse/2
+    end
+    if reflectedRight < 15
+        mA.Speed = SpeedToUse
+        mC.Speed = 1.65 *(-SpeedToUse)
+        pause(0.09)
+        mA.Speed = SpeedToUse
+        mC.Speed = SpeedToUse
+        pause(0.02)
+    end
+    if reflectedLeft < 15
+        mC.Speed = SpeedToUse
+        mA.Speed = 1.65 * (-SpeedToUse)
+        pause(0.114)
+        mA.Speed = SpeedToUse
+        mC.Speed = SpeedToUse
+        pause(0.02)
+    end
+end
+stop(mA)
+stop(mC)
+clear myenv3
 ```
 
 ---
