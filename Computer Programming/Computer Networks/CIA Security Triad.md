@@ -1,0 +1,3 @@
+- **Confidentiality**: Information is not made available or disclosed to unauthorized individuals, entities, or processes ^001825
+- **Integrity**: Information received is accurate and hasn't been tampered with ^a67d8f
+- **Availability**: Being accessible and usable upon demand by an authorized entity ^89ca31

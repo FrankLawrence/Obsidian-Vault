@@ -13,13 +13,13 @@ Created: 2022-11-03 09:15:00
 > $A \nsubseteq B$ means at least one element of A is not in B
 
 > [!summary]+ equality
-> $A = B$ <=> $A \subseteq$ and $B \subseteq A$
+> $A = B$ <=> $A \subseteq B$ and $B \subseteq A$
 
 > [!summary]+ Definition of empty set
 > $\emptyset$ or $\{\}$ is the (unique) set that has no elements
 
 > [!summary]+ Union and intersection
-> $A \cup B := {s \in (: x \in A and x \in B}$
+> $A \cup B := {s \in (: x \in A\; and\; x \in B})$
 
 
 

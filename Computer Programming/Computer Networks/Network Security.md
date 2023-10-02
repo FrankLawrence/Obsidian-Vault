@@ -4,10 +4,7 @@ Created: 2023-07-29 22:45:29
 ---
 (Links:: [[Computer Networks]])
 # Fundamentals of Network Security
-- **Confidentiality**: keep information away from unauthorised users
-- **Integrity**: information received is the actual information and hasn't been tampered with
-- **Availability**: preventing systems and services from becoming unusable due to crashes, overload situations, or deliberate misconfigurations
-- **Authentication**: determining who you are talking to before revealing sensitive information
+An information system must follow the three functions specified by the [[CIA Security Triad]]. In addition the system must also be able to determine who it's talking to before revealing sensitive information (**Authentication**). 
 ## Fundamental Security Principles
 - guaranteeing security is hard -> we try to improve security as much as we can by applying a set of security principles
 1. **Principle of economy of mechanism**: Complex systems have a higher possibility of containing bugs and vulnerabilities, complex systems are hard to understand -> simple systems are good systems

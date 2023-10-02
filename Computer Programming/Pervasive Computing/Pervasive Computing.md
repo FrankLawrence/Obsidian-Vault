@@ -9,9 +9,9 @@ alias: PC
 - [[Pervasive Computing Assessment]]
 ## Assignments
 - [[Percom Week 1]]
-- [[Percom Week 1 Exercises]]
 - [[Percom Week 2]]
 - [[Percom Week 3]]
+- [[Percom Week 4]]
 ## Topics
 - [[Pervasive Computing, Engineering Smart Systems]]
 - [[Intel Chip Architecture]]
@@ -23,6 +23,8 @@ alias: PC
 - [[Percom 4 Image Processing]]
 - [[Percom 5 Sound Processing]]
 - [[Percom 6 Classification]]
+- [[Percom 7 Classification II]]
+- [[Percom 8 Classification III]]
 ## Extras
 ### Tips
 ### Emails and Resources

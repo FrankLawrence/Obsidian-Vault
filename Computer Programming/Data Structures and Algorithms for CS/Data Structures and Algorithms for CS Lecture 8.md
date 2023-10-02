@@ -36,12 +36,13 @@ Bucket-sort(A)
 		sort list B[i] with insertion sort
 	concatenate the lists B[0],B[1],...,B[n - 1] together in order
 ```
-# Stacks and queues
-**Stack**: last-in, first-out (*LIFO*)
+# [[Stack|Stacks]] and queues
+## Stack
 - If `S.top` = 0, the stack is empty
 - If we attempt to pop an empty stack, the stack *underflows*
 - If `S.top` exceeds $n$, the stack *overflows*
 
+## Queue 
 **Queue**: first-in, first-out (*FIFO*)
 - the queue has a head and a tail
 - an element is enqueued by taking its place at the tail (`Q.tail`)

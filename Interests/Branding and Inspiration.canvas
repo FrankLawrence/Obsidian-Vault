@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"649bceac5075f007","type":"file","file":"Files/SCR-20230930-nqki.png","x":-370,"y":120,"width":219,"height":231},
+		{"id":"958656d227534309","type":"file","file":"Files/SCR-20230930-nqlw.png","x":-112,"y":120,"width":221,"height":232},
+		{"id":"52041b961044cd79","type":"file","file":"Files/SCR-20230930-nqmt.png","x":145,"y":120,"width":220,"height":232},
+		{"id":"a94285e604ada66c","type":"text","text":"# Overall Image\n- Biography / Artist Story\n- Music and Discography\n- Social media and Promo campaigns\n- Live shows & Visuals\n- Artwork\n- Clothing\n - What we're looking for:\n- Extras\n\t- Support\n- Contact Information","x":-363,"y":-360,"width":728,"height":440}
+	],
+	"edges":[]
+}

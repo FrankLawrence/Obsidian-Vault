@@ -8,7 +8,7 @@ An audio signal is usually not sinusoidal and has not just one frequency but a m
 - The component frequencies are multiple of a **fundamental frequency** $$f_{0}=\frac{1}{T}$$
 - They are called **harmonics** $$f_{k}=k\times f_{0}\quad k=1\dots N$$
 
-The Fourier series coefficient for $k=0$, $a_0$ is called **average value** of the signal $x(t)$ or **DC component**. We can calculate the amplitudes using **Fast Fourier Transform**. If we have $N$ samples sampled at $Fs$ and we apply FFT, we obtain a vector with $\frac{N}{2+1}$ positive bins. Each bin collects the energy from a small range of frequencies in the original signal.
+The Fourier series coefficient for $k=0$, $a_0$ is called **average value** of the signal $x(t)$ or **DC component**. We can calculate the amplitudes using **Fast Fourier Transform**. If we have $N$ samples sampled at $Fs$ and we apply FFT, we obtain a vector with $\frac{N}{2}+1$ positive bins. Each bin collects the energy from a small range of frequencies in the original signal.
 
 ## Calculating the FFT of a sinusoidal signal in Matlab
 ```matlab

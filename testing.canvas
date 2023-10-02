@@ -1,0 +1,12 @@
+{
+	"nodes":[
+		{"id":"b810324e9caa5fe8","x":-520,"y":-180,"width":200,"height":120,"color":"4","type":"text","text":"# ELLEN\n192.168.0.45:4431"},
+		{"id":"6fb96ec479ca0114","x":-280,"y":-180,"width":220,"height":120,"type":"text","text":"# ROUTER REICHERT\n192.168.0.1\n37.150.4.107"},
+		{"id":"d4cce2aaec1b56e3","x":540,"y":-180,"width":180,"height":120,"color":"1","type":"text","text":"# FRANK\n192.168.1.234"},
+		{"id":"cbe64be0fae176a4","type":"text","text":"# ROUTER WÜRTHNER\n192.168.1.1\n143.177.54.0","x":280,"y":-180,"width":220,"height":120},
+		{"id":"bb4052fbdaecda4a","type":"text","text":"# ERIK\n192.168.1.201","x":540,"y":-340,"width":180,"height":120,"color":"3"},
+		{"id":"3055885791b94ef1","type":"text","text":"# MAX\n192.168.0.98","x":-520,"y":-340,"width":200,"height":120,"color":"4"},
+		{"id":"6a906bc203b5f99e","x":-410,"y":-600,"width":180,"height":120,"type":"text","text":"# VPN\n37.201.6.130"}
+	],
+	"edges":[]
+}

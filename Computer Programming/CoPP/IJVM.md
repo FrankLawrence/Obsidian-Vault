@@ -3,7 +3,7 @@ Tags:
 Created: 2023-06-06 15:00:04
 ---
 (Links:: [[CoPP]])
-# Stacks
+# [[Stack|Stacks]]
 - reserved for variables
 - register `LV` points to the base of the local variables for the **current procedure**
 	- When a second procedure is called, `LV` is adjusted to point to the second local variables

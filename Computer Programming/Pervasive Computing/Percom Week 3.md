@@ -24,7 +24,45 @@ Write a MATLAB function that acquires an image, and returns the number of large 
 For each signal below, write a MATLAB program that plots the frequency spectrum. Submit the code and the obtained images.
 
 a) a sum of 2 sinusoidal signals (for example, 50Hz and 100Hz).  
+```matlab
+f1 = 50;              % The signal frequency is 50Hz
+f2 = 100;            
+N = 1024;             % Total number of samples is 1024
+Td = 1/f1;            % The signal period is Td
+t = 0:Td/N:1;         % Td/N: Sampling period in seconds and the time axis
+s = sin(2*pi*f1*t);
+Td = 1/f2;
+r = sin(2*pi*f2*t);
+sum = s + r;
+fft_s = fft(sum,N);  % Apply FFT on vector s with N=1024 samples
+m = abs(fft_s);      % fft_s is a complex function so we take only the real part
+
+difference = f2/f1;
+% The graph will scale by f1
+% We always assume that f2 the the higher frequency
+x = (0:difference*2)*f1;
+m = m(1:difference*2+1);
+subplot(2,1,1)
+plot(sum(1:3000))
+subplot(2,1,2)
+stem(x,m)
+```
 b) the tuning fork signal recorded with a microphone, as you already did in Lab1.
+```matlab
+filename = '440 Hz.m4a';
+[speech, Fs] = audioread(filename);
+length = length(speech)
+fft_sound = fft(speech,length)  % Take the entire recording and process through FFT
+subplot(2,1,1)
+plot(speech(1:length-1))
+
+numOfVals = 1000/(Fs/length)
+m = abs(fft_sound); % fft_s is a complex function so we take only the real part
+x = (0:numOfVals-1)*Fs/length;
+subplot(2,1,2)
+stem(x,m(1:numOfVals))
+```
+![[440Hz.jpg]]
 
 [BONUS] Write a program to plot the spectrogram for the signal from a), b) and the C-major scale that can be found in Canvas.
 

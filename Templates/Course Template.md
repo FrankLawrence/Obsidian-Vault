@@ -3,9 +3,9 @@ Tags: MOC course
 ---
 (Links:: [[Uni Courses🎓]])
 ## Notes and Ideas
-- [[{{title}} Outline]]
-- [[{{title}} Structure]]
-- [[{{title}} Assessment]]
+- [[<%tp.file.title%> Outline]]
+- [[<%tp.file.title%> Structure]]
+- [[<%tp.file.title%> Assessment]]
 ## Assignments
 ## Topics
 ## Lectures

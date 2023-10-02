@@ -15,7 +15,7 @@
               "type": "markdown",
               "state": {
                 "file": "Dashboard.md",
-                "mode": "source",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               },
@@ -23,12 +23,12 @@
             }
           },
           {
-            "id": "2b6921d410fbfee5",
+            "id": "6561b7c95a171ed7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interests/Security and Privacy/TLDR Privacy and Security.md",
+                "file": "Computer Programming/Computer Networks/Network Security.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -36,46 +36,20 @@
             }
           },
           {
-            "id": "0a6daaab6f6bd1cc",
+            "id": "3020b9466c4b298f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Programming/Pervasive Computing/Percom Week 3.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "4ad71ed5e8b55939",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Programming/Pervasive Computing/Percom Week 2.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "056171619215d884",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Interests/Security and Privacy/GnuPG.md",
-                "mode": "preview",
+                "file": "Computer Programming/Secure Programming/SP Vulnerabilities.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -94,21 +68,13 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Stack",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "byModifiedTime"
               }
-            }
-          },
-          {
-            "id": "f4330612332e4097",
-            "type": "leaf",
-            "state": {
-              "type": "starred",
-              "state": {}
             }
           },
           {
@@ -129,8 +95,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -159,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Programming/Pervasive Computing/Percom Week 2.md",
+                "file": "Computer Programming/Secure Programming/SP Vulnerabilities.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Programming/Pervasive Computing/Percom Week 2.md",
+                "file": "Computer Programming/Secure Programming/SP Vulnerabilities.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Programming/Pervasive Computing/Percom Week 2.md"
+                "file": "Computer Programming/Secure Programming/SP Vulnerabilities.md"
               }
             }
           }
@@ -232,7 +197,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Computer Programming/Pervasive Computing/Percom Week 2.md",
+                "file": "Computer Programming/Secure Programming/SP Vulnerabilities.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -265,8 +230,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.5,
-    "collapsed": true
+    "width": 330.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -285,44 +249,47 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "4ad71ed5e8b55939",
+  "active": "3020b9466c4b298f",
   "lastOpenFiles": [
+    "Computer Programming/Computer Networks/CIA Security Triad.md",
+    "Computer Programming/Secure Programming/SP Vulnerabilities.md",
+    "Computer Programming/Secure Programming/Secure Programming.md",
+    "Computer Programming/Secure Programming/SP Introduction to Security.md",
+    "Computer Programming/Computer Networks/Network Security.md",
+    "Computer Programming/Secure Programming/Stack.md",
+    "Computer Programming/CoPP/IJVM.md",
+    "Computer Programming/Data Structures and Algorithms for CS/Data Structures and Algorithms for CS Lecture 8.md",
+    "Dashboard.md",
+    "Interests/Security and Privacy/TLDR Privacy and Security.md",
+    "Computer Programming/Object Oriented and Functional Programming/Object Oriented and Functional Programming Assessment.md",
+    "Computer Programming/Object Oriented and Functional Programming/Object Oriented and Functional Programming.md",
+    "Computer Programming/Promotion text.md",
+    "Computer Programming/Computer Networks/Computer Networks.md",
+    "Computer Programming/Pervasive Computing/Percom 8 Classification III.md",
+    "Interests/Branding and Inspiration.canvas",
+    "testing.canvas",
+    "Untitled.md",
+    "Computer Programming/Computer Networks/Lecture 9 Transport Layer Part 1.md",
+    "Computer Programming/Computer Networks/Lecture 10 Transport Layer Part 2.md",
+    "Computer Programming/Computer Networks/Lecture 11 Application Layer Part 1.md",
+    "Computer Programming/Computer Networks/Lecture 12 Application Layer Part 2.md",
     "Computer Programming/Pervasive Computing/Pervasive Computing.md",
-    "Computer Programming/Pervasive Computing/Percom Week 3.md",
-    "Computer Programming/Pervasive Computing/Percom 6 Classification.md",
-    "Computer Programming/Pervasive Computing/Percom 5 Sound Processing.md",
-    "Computer Programming/Pervasive Computing/Percom 4 Image Processing.md",
-    "Computer Programming/Pervasive Computing/Percom 3 Control Systems.md",
+    "Templates/Course Template.md",
+    "Templates/Genre Template.md",
+    "Templates/Daily Light.md",
+    "Computer Programming/Secure Programming",
+    "Files/SCR-20230930-nqmt.png",
+    "Files/SCR-20230930-nqlw.png",
+    "Files/SCR-20230930-nqki.png",
+    "Interests/Untitled.md",
+    "Computer Programming/Pervasive Computing/Percom 7 Classification II.md",
+    "Files/Artificial neuron.png",
+    "Files/440Hz.jpg",
     "Files/Sound wave Spectrogram.jpg",
-    "Templates/Note Template.md",
     "Files/SCR-20230921-towo.png",
     "Files/SCR-20230921-toqo.png",
     "Files/SCR-20230921-tncf.png",
-    "Interests/Security and Privacy/GnuPG.md",
     "Files/histogram-4-1843420717.png",
-    "Computer Programming/Uni Courses🎓.md",
-    "Computer Programming/Object Oriented and Functional Programming/Object Oriented and Functional Programming.md",
-    "Interests/Security and Privacy/TLDR Privacy and Security.md",
-    "Miscellaneous/Testing.md",
-    "Computer Programming/Object Oriented and Functional Programming/SokobanLogic.md",
-    "Interests/Security and Privacy/Encrpyting files.md",
-    "Computer Programming/Linear Algebra/Linear Algebra.md",
-    "Interests/Security and Privacy/Deleting Files.md",
-    "Interests/Security and Privacy/Encryption.md",
-    "Dashboard.md",
-    "Computer Programming/Pervasive Computing/Percom Week 2.md",
-    "Interests/Mac/Mac startup key combinations.md",
-    "Computer Programming/Promotion text.md",
-    "Interests/Security and Privacy/Awesome Hacking.md",
-    "Computer Programming/Pervasive Computing/Percom 2 Signals.md",
-    "School Subjects/Physics/Questions.md",
-    "School Subjects/Physics/Physics⚛.md",
-    "School Subjects/Physics/Mechanische Wellen.md",
-    "Files/TimeXwaveImg.jpg",
-    "Files/Speech.jpg",
-    "Files/note_gen.jpg",
-    "Files/Rand(10).jpg",
-    "Files/Percom Signal.jpg",
     "Ubicomp.canvas",
     "Computer Programming/Pervasive Computing",
     "Computer Programming/Object Oriented and Functional Programming",
@@ -336,9 +303,7 @@
     "Computer Programming/CoPP",
     "Computer Programming/Computer Networks/Network Layer Model.canvas",
     "Icon\r",
-    "Untitled.canvas",
     "Interests/G.tar.gz",
-    "Interests/G.tar.gz.gpg",
     "Computer Programming/Computer Networks/Sliding Windows Abnormal case.canvas",
     "Computer Programming/Information Management for CS/An industry and its competitive forces.canvas",
     "Computer Programming/Information Management for CS/Information characteristics for managerial decisions.canvas"
