@@ -23,12 +23,12 @@
             }
           },
           {
-            "id": "6561b7c95a171ed7",
+            "id": "1da2e3ef5380e660",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Programming/Computer Networks/Network Security.md",
+                "file": "Computer Programming/Object Oriented and Functional Programming/Purity and Side effects.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -36,12 +36,12 @@
             }
           },
           {
-            "id": "3020b9466c4b298f",
+            "id": "6561b7c95a171ed7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Programming/Secure Programming/SP Vulnerabilities.md",
+                "file": "Computer Programming/Computer Networks/Network Security.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -49,7 +49,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -68,7 +68,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Stack",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -124,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Programming/Secure Programming/SP Vulnerabilities.md",
+                "file": "Computer Programming/Object Oriented and Functional Programming/Purity and Side effects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Programming/Secure Programming/SP Vulnerabilities.md",
+                "file": "Computer Programming/Object Oriented and Functional Programming/Purity and Side effects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,12 +180,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Programming/Secure Programming/SP Vulnerabilities.md"
+                "file": "Computer Programming/Object Oriented and Functional Programming/Purity and Side effects.md"
               }
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       },
       {
         "id": "036d7406e40c04e2",
@@ -197,7 +197,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Computer Programming/Secure Programming/SP Vulnerabilities.md",
+                "file": "Computer Programming/Object Oriented and Functional Programming/Purity and Side effects.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -230,7 +230,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.5
+    "width": 330.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -249,47 +250,47 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "3020b9466c4b298f",
+  "active": "1da2e3ef5380e660",
   "lastOpenFiles": [
-    "Computer Programming/Computer Networks/CIA Security Triad.md",
-    "Computer Programming/Secure Programming/SP Vulnerabilities.md",
-    "Computer Programming/Secure Programming/Secure Programming.md",
-    "Computer Programming/Secure Programming/SP Introduction to Security.md",
-    "Computer Programming/Computer Networks/Network Security.md",
-    "Computer Programming/Secure Programming/Stack.md",
-    "Computer Programming/CoPP/IJVM.md",
-    "Computer Programming/Data Structures and Algorithms for CS/Data Structures and Algorithms for CS Lecture 8.md",
-    "Dashboard.md",
-    "Interests/Security and Privacy/TLDR Privacy and Security.md",
-    "Computer Programming/Object Oriented and Functional Programming/Object Oriented and Functional Programming Assessment.md",
     "Computer Programming/Object Oriented and Functional Programming/Object Oriented and Functional Programming.md",
-    "Computer Programming/Promotion text.md",
-    "Computer Programming/Computer Networks/Computer Networks.md",
+    "Computer Programming/Object Oriented and Functional Programming/Purity and Side effects.md",
+    "Computer Programming/Object Oriented and Functional Programming/Immutable Data.md",
+    "Dashboard.md",
+    "Interests/Programming/zsh-cheatsheet.md",
+    "Computer Programming/Computer Networks/Network Security.md",
+    "Computer Programming/Pervasive Computing/PC Matlab Project.md",
     "Computer Programming/Pervasive Computing/Percom 8 Classification III.md",
+    "Computer Programming/Pervasive Computing/Percom 7 Classification II.md",
+    "Computer Programming/Pervasive Computing/Percom 6 Classification.md",
+    "Computer Programming/Pervasive Computing/Pervasive Computing.md",
+    "Computer Programming/Pervasive Computing/Percom Week 4.md",
+    "Personal/People/Abhigya.md",
+    "Computer Programming/Secure Programming/SP Cryptography.md",
+    "Computer Programming/Pervasive Computing/Pervasive Computing Assessment.md",
+    "Interests/Programming/MathJax Basic Tutorial.md",
+    "Computer Programming/Promotion text.md",
+    "Computer Programming/Linear Algebra/Introduction to Determinants.md",
+    "Computer Programming/Linear Algebra/Linear Algebra.md",
+    "Computer Programming/Linear Algebra/Properties of Determinants.md",
+    "Computer Programming/Pervasive Computing/Percom 4 Image Processing.md",
+    "Files/Pasted image 20231007193353.png",
+    "Computer Programming/Secure Programming/Hashes.md",
+    "Computer Programming/Web Technology/More HTML.md",
+    "Computer Programming/Web Technology/Web Technology.md",
+    "Computer Programming/Web Technology/Introduction to Web Programming.md",
+    "Interests/Programming/Bash Oneliners.md",
+    "Files/ROC.png",
+    "Files/Example for 2 classes.png",
     "Interests/Branding and Inspiration.canvas",
     "testing.canvas",
-    "Untitled.md",
-    "Computer Programming/Computer Networks/Lecture 9 Transport Layer Part 1.md",
-    "Computer Programming/Computer Networks/Lecture 10 Transport Layer Part 2.md",
-    "Computer Programming/Computer Networks/Lecture 11 Application Layer Part 1.md",
-    "Computer Programming/Computer Networks/Lecture 12 Application Layer Part 2.md",
-    "Computer Programming/Pervasive Computing/Pervasive Computing.md",
-    "Templates/Course Template.md",
-    "Templates/Genre Template.md",
-    "Templates/Daily Light.md",
     "Computer Programming/Secure Programming",
     "Files/SCR-20230930-nqmt.png",
     "Files/SCR-20230930-nqlw.png",
     "Files/SCR-20230930-nqki.png",
-    "Interests/Untitled.md",
-    "Computer Programming/Pervasive Computing/Percom 7 Classification II.md",
     "Files/Artificial neuron.png",
     "Files/440Hz.jpg",
     "Files/Sound wave Spectrogram.jpg",
     "Files/SCR-20230921-towo.png",
-    "Files/SCR-20230921-toqo.png",
-    "Files/SCR-20230921-tncf.png",
-    "Files/histogram-4-1843420717.png",
     "Ubicomp.canvas",
     "Computer Programming/Pervasive Computing",
     "Computer Programming/Object Oriented and Functional Programming",

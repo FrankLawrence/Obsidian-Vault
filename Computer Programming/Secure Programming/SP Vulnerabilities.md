@@ -20,14 +20,7 @@ The impact of the exploit can vary:
 We usually are more concerned about privilege escalation since programs can always be restarted. 
 The attacker can either perform injected code or code that's already in the program on behalf of the owner or another user with more/different access rights.
 # Overview and vulnerabilities
-A buffer overflow belongs to the group of memory errors. There are many other groups such as (but not exclusive to):
-- Authentication erros
-- Injection vulnerabilities
-- Race conditions
-- Side channels
-- Unsecured communication/storage
-- Users
-- and even: hardware vulnerabilities 
+A buffer overflow belongs to the group of memory errors. There are many other groups which are listed below.
 ## Memory Errors 
 There are many types of memory errors such as:
 - Buffer underflow
@@ -46,7 +39,46 @@ Reason is that programmers using low level languages have to manually manage mem
 ## Authentication Errors
 Authentication is the process of determining the user's identity. This can easily be exploited if the user uses default usernames and passwords. 
 ## Authorization Errors
+Authorization is the process of determining which resources the user may access. An example would be a web user trying to gain access to unprotected files on a server: `http://example.com/image.php?../../../../etc/passwd`
+```php
+<!php
+header("Content-Type: image/jped");
+$data = file_get_contents("images/" . $_GET["name"]);
+print($data);
+!>
+```
+## Injection Vulnerabilities
+Programs are designed to build code that can be executed. Some times, this code can come from an input field. If the input isn't carefully sanitized, then an attacker could write the code.
+## Race Conditions
+Race conditions are situations where the timing of events makes a difference in the outcome. The time-of-check-to-time-of-use vulnerability is typical:
+```python
+if(access(path, R_OK) == 0) {
+	print_file(path);
+}
+```
+If `path` is a symlink under our control, we can change the symlinks between `access` and `print_file` to print the file we wouldn't have access to.
+## Side Channels
+Attackers can get information about the system by observing unintended differences. For example timing, power consumption, electromagnetism,...Ex:
+```php
+userid = Query("SELECT userid FROM users " +
+  "WHERE username=?", username);
+if (userid == null) return false;
+password_db = Query("SELECT password FROM passwords " +
+  "WHERE userid=?", userid);
+return password_db == password;
+```
+In this example, if the user exists, then the request would take longer. Side channels are *very* hard to get rid of.
+## Unsecured Communications/Storage
+We must assume that network traffic can be intercepted and data can be leaked, the impact of this must then be minimized. This means that we must make network traffic unreadable but also unforgeable for third parties. Minimizing the amount of stored sensitive data can help.
+## Users
+Unaware users are probably the biggest vulnerability in existence. Since your system is only as weak as your weakest link, we must educate users. Potential threats could be 
+- phishing
+- scams
+- malware
+- social engineering
+- weak passwords
 
+Users are ready to ignore security warnings/policies if it is more inconvenient to them. They have especially poor awareness of trustworthiness of information if they are in a hurry. *Users believe anything they see*.
 
 ---
 References:

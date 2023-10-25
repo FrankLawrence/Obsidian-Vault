@@ -6,8 +6,9 @@ Tags: MOC course
 ## Notes and Ideas
 - [[Object Oriented and Functional Programming Structure]]
 - [[Object Oriented and Functional Programming Assessment]]
-## Assignments
 ## Topics
+- [[Immutable Data]]
+- [[Purity and Side effects]]
 ## Lectures
 ## Extras
 ### Tips

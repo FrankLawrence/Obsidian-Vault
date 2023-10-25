@@ -64,6 +64,8 @@ This week's schedule:
 
 **TODAY 1700~ Study session 📚**
 **📍NU-2B12**
+These rooms are specifically booked for our program, so if you have any questions ⁉️ about your course or your **homework**, you can ask them during the session to one of our mentors!  
+_DISCLAIMER_‼️🚨: We are not your Teaching Assistants and we won’t be able to help you with every question, but we’ll try our best!
 
 **Wed 15/02 Valentine's day event ❤️ 8pm (doors close at 9pm)**
 **📍Bar SOHO**
@@ -96,3 +98,16 @@ This room is specifically booked for our program, so if you have any questions a
 Some of you said that the questions 31 and 34 on the Kahoot! might be wrong, so pay careful attention to those.
 
 For any questions regarding the format and the grading system of your coming exam, please go to Canvas or reach out to one of the TA's or the prof. Because we as mentors can NOT know 100%.
+
+
+# Test
+Good morning first years!
+This weeks schedule:
+
+***TOMORROW 10/10 ⏰ 17:30~ Study session for CS📚***
+Room: 📍**NU-3B05**
+
+***WED 11/10 ⏰ 15:30~ Study session for AI📚***
+Room: 📍**NU-3B05**  
+
+We won't be having a game night this week 😔, but the mentor team wishes you all the best with your exams‼️

@@ -15,7 +15,7 @@ alias: PC
 ## Topics
 - [[Pervasive Computing, Engineering Smart Systems]]
 - [[Intel Chip Architecture]]
-- [[MATLAB]]
+- [[PC Matlab Project]]
 ## Lectures
 - [[Percom 1 Introduction]]
 - [[Percom 2 Signals]]

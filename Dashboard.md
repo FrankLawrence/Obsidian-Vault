@@ -3,7 +3,7 @@ alias: Home
 cssclass: dashboard
 banner: "![[Frank Wallpaper OI.jpeg]]"
 banner_x: 0.5
-banner_y: 0.53715
+banner_y: 0.52858
 ---
 
 # Personal

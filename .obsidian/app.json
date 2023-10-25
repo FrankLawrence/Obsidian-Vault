@@ -23,5 +23,6 @@
   "vimMode": true,
   "foldHeading": true,
   "showInlineTitle": true,
-  "autoConvertHtml": true
+  "autoConvertHtml": true,
+  "propertiesInDocument": "hidden"
 }

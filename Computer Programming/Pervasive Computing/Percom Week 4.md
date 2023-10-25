@@ -32,3 +32,36 @@ Run an experiment to investigate the effect of the size of training data set on 
 
 ---
 References:
+
+# Gantt
+- Identifying risks/hazards -> Identifying requirements needed, wanted and not wanted
+- Identify features and classes 
+- Create training and test data sets
+- Creating high level design of identification and classification model
+- Creating a state machine diagram (from identification to result)
+- basic Model implementation -> Testing -> Improvements
+- implement *wanted* features (Ex. different coloured pens/ different handwritings)
+
+image --> turn into csv file with as many rows as objects and columns as pixels per object image with label in first column
+
+An image is subdivided into blobs and the image pixels are stored in an array. All blob arrays are stored in one map which links to it's coordinates which the NN loops over.
+
+The output arrays indicate what character the blobs are.
+
+- fractions $$\frac{a}{b}$$
+- square roots $$\sqrt{4}$$
+- limits $$\lim_{x\to 9}$$
+- sum $$\sum\limits_{x=0}^{5}x$$
+- sub and superscripts $x_{2}^{3}$ 
+- braces use \left and \right
+- matricies 
+  $$
+	   \begin{bmatrix}
+	   1 & x & x^2 \\
+	   1 & y & y^2 \\
+	   1 & z & z^2 \\
+	   \end{bmatrix}
+	$$
+
+
+-> we always use braces
