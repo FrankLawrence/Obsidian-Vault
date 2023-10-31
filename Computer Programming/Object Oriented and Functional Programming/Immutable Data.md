@@ -20,18 +20,13 @@ scala.collections.mutable
 scala.collections.immutable
 ```
 
-> [!example]- Mutable and immutable data structures
-> # Mutable
-> - Array
-> - ArrayBuffer
-> - `scala.collection.mutable.Set`
-> - `scala.collection.mutable.Map`
-> - `scala.collection.mutable.Queue`
-> # Immutable
-> - Vector
-> - `scala.collection.immutable.Set`
-> - `scala.collection.immutable.Set`
-> - `scala.collection.immutable.Set`
+| Mutable                          | Immutable                        |
+| -------------------------------- | -------------------------------- |
+| Array                            | Vector                           |
+| ArrayBuffer                      | `scala.collection.mutable.Set`   |
+| `scala.collection.mutable.Set`   | `scala.collection.mutable.Map`   |
+| `scala.collection.mutable.Map`   | `scala.collection.mutable.Queue` |
+| `scala.collection.mutable.Queue` |                                  |
 
 In scala mutable sets have the same interface as immutable Sets, but with more methods for mutations.
 Immutable code can be easier to reason about. When you create the set, you cannot change any of the values, so you know they will be the same later on. 

@@ -1,0 +1,33 @@
+{
+	"nodes":[
+		{"id":"0d834638a0b49939","type":"text","text":"Feasibility study Conops","x":-280,"y":-200,"width":280,"height":60},
+		{"id":"91a6a16ba337e660","type":"text","text":"[[Percom 9 System Engineering I#Hazard analysis|Hazard analysis]]","x":-152,"y":-62,"width":250,"height":60},
+		{"id":"17ec44c578ffef04","type":"text","text":"[[Percom 9 System Engineering I#Requirements specification|Requirements engineering]]","x":-41,"y":82,"width":281,"height":58},
+		{"id":"9f063a4eae4d3a6f","type":"text","text":"Design","x":157,"y":226,"width":250,"height":60},
+		{"id":"d32fa70d8286752f","type":"text","text":"Software & Hardware modules construction","x":340,"y":380,"width":258,"height":72},
+		{"id":"ab57c70806ffe70b","type":"text","text":"Unit testing","x":572,"y":226,"width":176,"height":60},
+		{"id":"9d6b2197d95d8432","type":"text","text":"Integration testing","x":739,"y":82,"width":250,"height":60},
+		{"id":"48e6a72212aece3e","type":"text","text":"System testing","x":900,"y":-62,"width":250,"height":60},
+		{"id":"c020997faab7daa7","type":"text","text":"Acceptance testing","x":1080,"y":-200,"width":250,"height":60},
+		{"id":"b527355e7431dc81","type":"text","text":"Operation and maintenance","x":1260,"y":-360,"width":300,"height":60}
+	],
+	"edges":[
+		{"id":"ef3edfc0930721ae","fromNode":"0d834638a0b49939","fromSide":"bottom","toNode":"91a6a16ba337e660","toSide":"top"},
+		{"id":"c702eb87deeadb10","fromNode":"91a6a16ba337e660","fromSide":"bottom","toNode":"17ec44c578ffef04","toSide":"top"},
+		{"id":"bafcb404b36004a1","fromNode":"17ec44c578ffef04","fromSide":"bottom","toNode":"9f063a4eae4d3a6f","toSide":"top"},
+		{"id":"58b098020bd61816","fromNode":"9f063a4eae4d3a6f","fromSide":"bottom","toNode":"d32fa70d8286752f","toSide":"top"},
+		{"id":"7fc47bf94131dee3","fromNode":"d32fa70d8286752f","fromSide":"top","toNode":"ab57c70806ffe70b","toSide":"bottom"},
+		{"id":"96c84cdbe7f502f8","fromNode":"ab57c70806ffe70b","fromSide":"top","toNode":"9d6b2197d95d8432","toSide":"bottom"},
+		{"id":"82b92a92bd16fa3c","fromNode":"9d6b2197d95d8432","fromSide":"top","toNode":"48e6a72212aece3e","toSide":"bottom"},
+		{"id":"9715a72ed1fa574e","fromNode":"48e6a72212aece3e","fromSide":"top","toNode":"c020997faab7daa7","toSide":"bottom"},
+		{"id":"ecadb8891550070d","fromNode":"c020997faab7daa7","fromSide":"top","toNode":"b527355e7431dc81","toSide":"bottom"},
+		{"id":"e35097db98f6948b","fromNode":"48e6a72212aece3e","fromSide":"left","toNode":"17ec44c578ffef04","toSide":"right","color":"4","label":"verification"},
+		{"id":"c0548cd17c42f167","fromNode":"ab57c70806ffe70b","fromSide":"left","toNode":"9f063a4eae4d3a6f","toSide":"right","color":"4"},
+		{"id":"60585f9614fc5c17","fromNode":"9d6b2197d95d8432","fromSide":"left","toNode":"9f063a4eae4d3a6f","toSide":"right","color":"4"},
+		{"id":"1896f321263051ed","fromNode":"c020997faab7daa7","fromSide":"left","toNode":"0d834638a0b49939","toSide":"right","color":"1","label":"validation"},
+		{"id":"190ef9a8ac9c5d11","fromNode":"17ec44c578ffef04","fromSide":"left","toNode":"0d834638a0b49939","toSide":"left","color":"1"},
+		{"id":"c0b6348661b2e7c7","fromNode":"9f063a4eae4d3a6f","fromSide":"left","toNode":"0d834638a0b49939","toSide":"left","color":"1"},
+		{"id":"274f6acca0192582","fromNode":"91a6a16ba337e660","fromSide":"left","toNode":"0d834638a0b49939","toSide":"left","color":"1"},
+		{"id":"3b7496535d370946","fromNode":"9f063a4eae4d3a6f","fromSide":"left","toNode":"17ec44c578ffef04","toSide":"left","color":"4"}
+	]
+}

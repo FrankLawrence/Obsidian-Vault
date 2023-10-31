@@ -51,7 +51,7 @@ Color schemes
 Plugin 'tomasr/molokai'
 Plugin 'flazz/vim-colorschemes'
 ## New commands
-`*`: find all instances of the word where the current cursor is places
+`*`: find all instances of the word where the current cursor is placed
 ## Neovide
 https://neovide.dev/configuration.html
 ## YouCompleteMe

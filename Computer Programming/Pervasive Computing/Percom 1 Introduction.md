@@ -37,13 +37,14 @@ Created: 2023-09-06 21:07:07
 	- Materials science (smart materials, better batteries, biofuels)
 	- Multimodal human computer interaction
 - **M**icro-**E**lectro**M**echanical **S**ystems
-	- The MEMs technique results in close integration of the mechanical mechanism with the necessary electronic circuit on a single silicon chip
+	- The MEMS technique results in close integration of the mechanical mechanism with the necessary electronic circuit on a single silicon chip
 
 # Smart Systems
 - Key components of robots
 	- **Sensors**: used to gain context information
 	- **Actuators**: used to affect the environment
 	- **Controllers or Agents** (hardware and software): use sensor's data to extract context, decide actions and then control the actuators
+- ![[Smart Systems.png|500]]
 - Main properties for a smart system
 	- Autonomous
 	- Distributed

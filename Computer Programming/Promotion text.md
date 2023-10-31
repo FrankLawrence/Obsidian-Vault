@@ -100,7 +100,7 @@ Some of you said that the questions 31 and 34 on the Kahoot! might be wrong, so 
 For any questions regarding the format and the grading system of your coming exam, please go to Canvas or reach out to one of the TA's or the prof. Because we as mentors can NOT know 100%.
 
 
-# Test
+# Week Text
 Good morning first years!
 This weeks schedule:
 
@@ -111,3 +111,19 @@ Room: 📍**NU-3B05**
 Room: 📍**NU-3B05**  
 
 We won't be having a game night this week 😔, but the mentor team wishes you all the best with your exams‼️
+# Halloween
+Good afternoon first-year students! We hope you are enjoying your time at the university so far 🎉
+
+We are excited to invite you to our Halloween Costume Party on Friday, November 3rd! Here are the details:
+🎃 *What*: Halloween Costume Party
+📅 *When*: 03.11.2023
+📍 *Where*: HOTSHOTS, [Lange Leidsedwarsstraat 64, 1017 NM Amsterdam](https://maps.app.goo.gl/azQvHc5xisCcNsnJ9)
+⏰ *Time*: Exclusive party time 22:00 - 00:30. Security guard won't let anyone in after 23:00.
+
+👻 _Description_: Join us for a spooky night of fun and costumes! Dress up in your best Halloween costume and compete in our costume competition for a chance to win a prize🏆. We will have free drinks🍺🍷 available, including beer, soda, and shots. Please note that no costume means no entry!
+We have *limited spots* so sign up as early as possible.
+
+To sign up for the event, please fill out the form below. Please make sure to bring your student card with you, as you will be denied entry without it.
+[Google Sign Up Form](https://docs.google.com/forms/d/e/1FAIpQLSeGeHQLMYUT1deNd1nEGeBmzUPxAs5SZTMHA0mWvZ5S-zbEXQ/viewform?usp=sf_link)
+
+We can't wait to see you there! 🎉🎃

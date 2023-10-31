@@ -2,17 +2,17 @@
 Tags: MOC course
 ---
 (Links:: [[Uni Courses🎓]])
-## Notes and Ideas
+# Notes and Ideas
 - [[Analysis I Outline]]
 - [[Analysis I Structure]]
 - [[Analysis I Assessment]]
-## Assignments
-## Topics
+# Assignments
+# Topics
 - [[Algebra of Sets]]
-## Lectures
-## Extras
-### Tips
-### Emails and Resources
-### Important Dates
+# Lectures
+# Extras
+## Tips
+## Emails and Resources
+## Important Dates
 ___
 References:

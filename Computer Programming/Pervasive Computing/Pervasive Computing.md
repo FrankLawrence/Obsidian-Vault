@@ -3,20 +3,20 @@ Tags: MOC course
 alias: PC
 ---
 (Links:: [[Uni Courses🎓]])
-## Notes and Ideas
+# Notes and Ideas
 - [[Pervasive Computing Outline]]
 - [[Pervasive Computing Structure]]
 - [[Pervasive Computing Assessment]]
-## Assignments
+# Assignments
 - [[Percom Week 1]]
 - [[Percom Week 2]]
 - [[Percom Week 3]]
 - [[Percom Week 4]]
-## Topics
+# Topics
 - [[Pervasive Computing, Engineering Smart Systems]]
 - [[Intel Chip Architecture]]
 - [[PC Matlab Project]]
-## Lectures
+# Lectures
 - [[Percom 1 Introduction]]
 - [[Percom 2 Signals]]
 - [[Percom 3 Control Systems]]
@@ -25,9 +25,11 @@ alias: PC
 - [[Percom 6 Classification]]
 - [[Percom 7 Classification II]]
 - [[Percom 8 Classification III]]
-## Extras
-### Tips
-### Emails and Resources
-### Important Dates
+- [[Percom 9 System Engineering I]]
+- [[Percom 10 System Engineering II]]
+# Extras
+## Tips
+## Emails and Resources
+## Important Dates
 ___
 References:

@@ -12,6 +12,7 @@ Side affects can therefore be considered as hidden outputs, and side causes as h
 - Easy to test
 - Easier to reason about
 - Compiler can optimize more aggressively
+
 **Disadvantage**:
 - We need side-effects & side-causes 
 

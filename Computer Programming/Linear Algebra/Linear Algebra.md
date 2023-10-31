@@ -2,11 +2,11 @@
 Tags: MOC course
 ---
 (Links:: [[Uni Courses🎓]])
-## Notes and Ideas
+# Notes and Ideas
 - [[Linear Algebra Outline]]
-## Assignments
+# Assignments
 - [[Linear Algebra exam questions]]
-## Topics
+# Topics
 - Linear Equations in Linear Algebra
 	- [[Systems of Linear Equations]]
 	- [[Row Reduction and Echelon Forms]]
@@ -41,10 +41,10 @@ Tags: MOC course
 	- [[Orthogonal Sets]]
 	- [[Orthogonal Projections]]
 	- [[The Gram-Schmidt Process]]
-## Lectures
-## Extras
-### Tips
-### Emails and Resources
-### Important Dates
+# Lectures
+# Extras
+## Tips
+## Emails and Resources
+## Important Dates
 ___
 References:

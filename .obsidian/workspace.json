@@ -23,12 +23,12 @@
             }
           },
           {
-            "id": "1da2e3ef5380e660",
+            "id": "6561b7c95a171ed7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Programming/Object Oriented and Functional Programming/Purity and Side effects.md",
+                "file": "Computer Programming/Computer Networks/Network Security.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -36,20 +36,33 @@
             }
           },
           {
-            "id": "6561b7c95a171ed7",
+            "id": "da5927f2961dd185",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Programming/Computer Networks/Network Security.md",
-                "mode": "source",
+                "file": "Computer Programming/Pervasive Computing/Percom 10 System Engineering II.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "2bade62773ac9038",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Programming/Pervasive Computing/Percom 2 Signals.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -124,7 +137,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Programming/Object Oriented and Functional Programming/Purity and Side effects.md",
+                "file": "Computer Programming/Pervasive Computing/Percom 2 Signals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +154,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Programming/Object Oriented and Functional Programming/Purity and Side effects.md",
+                "file": "Computer Programming/Pervasive Computing/Percom 2 Signals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,12 +193,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Programming/Object Oriented and Functional Programming/Purity and Side effects.md"
+                "file": "Computer Programming/Pervasive Computing/Percom 2 Signals.md"
               }
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       },
       {
         "id": "036d7406e40c04e2",
@@ -197,7 +210,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Computer Programming/Object Oriented and Functional Programming/Purity and Side effects.md",
+                "file": "Computer Programming/Pervasive Computing/Percom 2 Signals.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -250,35 +263,42 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1da2e3ef5380e660",
+  "active": "2bade62773ac9038",
   "lastOpenFiles": [
-    "Computer Programming/Object Oriented and Functional Programming/Object Oriented and Functional Programming.md",
-    "Computer Programming/Object Oriented and Functional Programming/Purity and Side effects.md",
-    "Computer Programming/Object Oriented and Functional Programming/Immutable Data.md",
-    "Dashboard.md",
-    "Interests/Programming/zsh-cheatsheet.md",
-    "Computer Programming/Computer Networks/Network Security.md",
-    "Computer Programming/Pervasive Computing/PC Matlab Project.md",
+    "Computer Programming/Pervasive Computing/Pervasive Computing.md",
+    "Computer Programming/Pervasive Computing/Percom 1 Introduction.md",
+    "Files/Smart Systems.png",
+    "Computer Programming/Pervasive Computing/Percom 10 System Engineering II.md",
     "Computer Programming/Pervasive Computing/Percom 8 Classification III.md",
     "Computer Programming/Pervasive Computing/Percom 7 Classification II.md",
     "Computer Programming/Pervasive Computing/Percom 6 Classification.md",
-    "Computer Programming/Pervasive Computing/Pervasive Computing.md",
-    "Computer Programming/Pervasive Computing/Percom Week 4.md",
-    "Personal/People/Abhigya.md",
-    "Computer Programming/Secure Programming/SP Cryptography.md",
-    "Computer Programming/Pervasive Computing/Pervasive Computing Assessment.md",
-    "Interests/Programming/MathJax Basic Tutorial.md",
-    "Computer Programming/Promotion text.md",
-    "Computer Programming/Linear Algebra/Introduction to Determinants.md",
-    "Computer Programming/Linear Algebra/Linear Algebra.md",
-    "Computer Programming/Linear Algebra/Properties of Determinants.md",
+    "Computer Programming/Pervasive Computing/Percom 5 Sound Processing.md",
     "Computer Programming/Pervasive Computing/Percom 4 Image Processing.md",
+    "Computer Programming/Pervasive Computing/Percom 3 Control Systems.md",
+    "Computer Programming/Pervasive Computing/Percom 2 Signals.md",
+    "Testing Principle.canvas",
+    "Computer Programming/Promotion text.md",
+    "Computer Programming/Pervasive Computing/Percom 9 System Engineering I.md",
+    "Systems engineering diagram.canvas",
+    "Templates/Note Template.md",
+    "Insulin Pump FTA.canvas",
+    "Computer Programming/Object Oriented and Functional Programming/Object Oriented and Functional Programming.md",
+    "Computer Programming/Object Oriented and Functional Programming/Purity and Side effects.md",
+    "Computer Programming/Object Oriented and Functional Programming/Generics, Subtyping and Inheritance.md",
+    "Animals Inheritance class example.canvas",
+    "Anyref.canvas",
+    "Computer Programming/Object Oriented and Functional Programming/Advanced Functions in Scala.md",
+    "Computer Programming/Object Oriented and Functional Programming/Object Oriented and Functional Programming Assessment.md",
+    "Computer Programming/Computer Networks/Network Security.md",
+    "Computer Programming/Pervasive Computing/Percom 9.md",
+    "Computer Programming/Uni Courses🎓.md",
+    "Computer Programming/Analysis I.md",
+    "Computer Programming/CoPP/CoPP.md",
+    "Computer Programming/Linear Algebra/Linear Algebra.md",
+    "Computer Programming/Networks and Graphs/Networks and Graphs.md",
+    "Computer Programming/Projects/Clinical Trials API.canvas",
+    "Files/Subtype of Any.png",
     "Files/Pasted image 20231007193353.png",
-    "Computer Programming/Secure Programming/Hashes.md",
-    "Computer Programming/Web Technology/More HTML.md",
-    "Computer Programming/Web Technology/Web Technology.md",
-    "Computer Programming/Web Technology/Introduction to Web Programming.md",
-    "Interests/Programming/Bash Oneliners.md",
     "Files/ROC.png",
     "Files/Example for 2 classes.png",
     "Interests/Branding and Inspiration.canvas",
@@ -289,24 +309,16 @@
     "Files/SCR-20230930-nqki.png",
     "Files/Artificial neuron.png",
     "Files/440Hz.jpg",
-    "Files/Sound wave Spectrogram.jpg",
-    "Files/SCR-20230921-towo.png",
     "Ubicomp.canvas",
     "Computer Programming/Pervasive Computing",
     "Computer Programming/Object Oriented and Functional Programming",
     "Computer Programming/Computer Organization/A five-stage organization.canvas",
     "Cooking and Baking/Schokotörtchen mit weichem Kern.pdf",
-    "Computer Programming/Projects/Clinical Trials API.canvas",
-    "Personal/;).canvas",
     "Miscellaneous/movies.js",
     "Miscellaneous",
     "Movies",
     "Computer Programming/CoPP",
-    "Computer Programming/Computer Networks/Network Layer Model.canvas",
     "Icon\r",
-    "Interests/G.tar.gz",
-    "Computer Programming/Computer Networks/Sliding Windows Abnormal case.canvas",
-    "Computer Programming/Information Management for CS/An industry and its competitive forces.canvas",
-    "Computer Programming/Information Management for CS/Information characteristics for managerial decisions.canvas"
+    "Interests/G.tar.gz"
   ]
 }

@@ -12,6 +12,8 @@ Created: 2023-09-06 22:28:32
   $f$: signal Frequency
   $s_0$: DC component/offset
   $\phi$: Phase
+
+Signal can be represented in mathematical expressions. Common physical systems produce signals whose graphical representation looks very much like a sinusoid.
 # Signal examples
 - The speech signal is an example of a **one-dimensional continuous time signal**
 - Digitization: Real analog signals must first be converted (sampling and quantization) with an **ADC** to digital signals for computers to process them
