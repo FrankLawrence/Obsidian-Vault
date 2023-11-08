@@ -28,7 +28,7 @@ We can measure the center of a dataset using either the [[Mean]] or **Median** (
 > $mode=7$
 
 # Measure of variation
-If we take two datasets and plot them, they could have the same mean and median values and it could be hard to distinguish them apart.
+If we take two datasets and plot them, they could have the same [[Mean]] and median values and it could be hard to distinguish them apart.
 ```r
 bank1 = (4.1, 5.2, 5.6, 6.2, 6.7, 7.2, 7.7, 7.7, 8.5, 9.3, 11.0)
 bank2 = (6.6, 6.7, 6.7, 6.9, 7.1, 7.2, 7.3, 7.4, 7.7, 7.8, 7.8)

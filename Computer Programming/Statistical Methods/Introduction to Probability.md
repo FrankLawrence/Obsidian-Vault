@@ -80,7 +80,13 @@ $A$ and $B$ are **disjoint** if they exclude each other, i.e. $A\cap B=\emptyset
 > $B=\{3\}$, so $$P(B)=\frac{1}{6}$$
 > Furthermore, $A\cap B=\emptyset$, so $A$ and $B$ are disjoint. Hence, $$\begin{align}P(A\cup B)&=P(A)+P(B)\\&=\frac{1}{2}+\frac{1}{6}\\&=\frac{2}{3}\end{align}$$
 
+**General addition rule for disjoint events**:
+Let $A_{1}, ..., A_{m}$ be disjoint, i.e. $A_{i} \cap A_{j}=\emptyset$ for $i\neq j$. Then: $$P(A_{1}\;\cup\;\cdots\; \cup\; A_{m})=\sum\limits_{i=1}^{m}P(A_{i})$$
 
+**TODO: Example**
+$\bar A$ (or $A^{c}$) is the complement of $A$.
+
+**Complement rule**: $$P(\bar A)=1-P(A)$$
 
 ---
 References:
