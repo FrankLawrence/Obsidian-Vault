@@ -20,6 +20,7 @@ Signal can be represented in mathematical expressions. Common physical systems p
 - Analog to Digital Converter
 	- **Vin**: input analog voltage
 	- Vref: an analog *reference* voltage against which the analog input is compared
+- ![[Analog to Digital Converter.canvas]]
 - Digital to Analog Conversion (DAC) needed to control actuators
 # Digital Signals
 - Sample continuous signal at specific intervals -> $Ts$: **sampling period**

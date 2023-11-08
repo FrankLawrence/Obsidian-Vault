@@ -37,7 +37,7 @@ A system is a combination of interacting elements organized to achieve one or mo
 - Required by all safety regulatory standards
 - Step 1: Identify hazards
 - Step 2: Estimate risk for each hazard
-  Hazard risk = hazard **probability** * hazard *severity*
+  Hazard risk = hazard **probability** $\times$ hazard *severity*
 - Step 3: Eliminate all hazards, or more realistically, their risks have to be reduced to an acceptable level by changing the design or issuing safety-related requirements
 ## Hazard Identification 
 ### Fault tree analysis
@@ -83,6 +83,7 @@ This is then used in step 2 to identify unsafe control actions by taking a look 
 - Unsafe action provided
 - Incorrect Timing/Order
 - Stopped too soon/ Applied too long
+
 The last step includes generating safety requirements to prevent unsafe control actions and therefore mitigate accident causal scenarios.
 # Requirements specification
 A requirement is an expression of desired behaviour. Requirements specification deals with the who, what and why but *not* how! A requirement engineer must understand, capture and write the user requirements for the product. This results in the **system requirements specification** which the user can then give to the developers, designers and testers. The requirement engineer creates the specification being aware that:

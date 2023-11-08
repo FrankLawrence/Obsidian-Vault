@@ -1,8 +1,8 @@
 ---
 Tags: 
 Created: 2023-09-29 12:02:26
-Links: "[[Pervasive Computing]]"
 ---
+(Links:: [[Pervasive Computing]])
 # Probabilistic Classifiers
 ## Probability basics
 **Uncertainty is everywhere**:
@@ -32,20 +32,21 @@ For this to work, all elements in the feature vector must be independent. If we 
 If $P(w_{1}|x) > P(w_{2}|x)$ then $x$ is classified to $w_1$.
 If $P(w_{2}|x) > P(w_{1}|x)$ then $x$ is classified to $w_2$.
 
-**Example**: 
-We must, given a situation with the features *Day, Season, Wind and Rain*, predict if the train is either *On time, Late or Cancelled*. 
-$P(\text{event} = \text{on time})$ is the *prior* probability
-$P(\text{event} = \text{on time}|\text{season = winter})$ is the *posterior* or conditional probability that the train is on time given that it is winter.
-We then calculate from the training set 3 posterior probabilities (for each of the classes) using the Bayes rule.
-
-$P(\text{event} = \text{on time}|...)=P(\text{event} = \text{ontime})\times P(\text{Saturday}|\text{ontime})\times P(\text{winter}|\text{ontime})\times ...$
-$P(\text{event} = \text{late}|...)=P(\text{event} = \text{late})\times P(\text{Saturday}|\text{late})\times P(\text{winter}|\text{late})\times ...$
-$P(\text{event} = \text{cancelled}|...)=P(\text{event} = \text{cancelled})\times P(\text{Saturday}|\text{cancelled})\times P(\text{winter}|\text{cancelled})\times ...$
-
-The highest $P$ in this case is the most probably class. This approach can work well, but features are often not independent, so this wouldn't work.
+> [!example] We must, given a situation with the features *Day, Season, Wind and Rain*, predict if the train is either *On time, Late or Cancelled*. 
+> $P(\text{event} = \text{on time})$ is the *prior* probability
+> $P(\text{event} = \text{on time}|\text{season = winter})$ is the *posterior* or conditional probability that the train is on time given that it is winter.
+> We then calculate from the training set 3 posterior probabilities (for each of the classes) using the Bayes rule.
+> 
+> $P(\text{event} = \text{on time}|...)=P(\text{event} = \text{ontime})\times P(\text{Saturday}|\text{ontime})\times P(\text{winter}|\text{ontime})\times ...$
+> $P(\text{event} = \text{late}|...)=P(\text{event} = \text{late})\times P(\text{Saturday}|\text{late})\times P(\text{winter}|\text{late})\times ...$
+> $P(\text{event} = \text{cancelled}|...)=P(\text{event} = \text{cancelled})\times P(\text{Saturday}|\text{cancelled})\times P(\text{winter}|\text{cancelled})\times ...$
+> 
+> The highest $P$ in this case is the most probable class. This approach can work well, but features are often not independent, so this wouldn't work.
 ## Hidden Markov Models
-HMM is a probabilistic reasoning algorithm that works on a set of temporal data. With each clock tick the system moves to a new state. Theses states are hidden and we only see som **observations**.
-HMM train by calculating 
+HMM is a probabilistic reasoning algorithm that works on a set of temporal data. With each clock tick the system moves to a new state. Theses states are hidden and we only see some **observations**.
+You train a HMM by first calculating the probability $P(x)$ that a person is in a state $x$. We then calculate the transition probability $P(x_j|x_i)$ and the observation probability $P(y_i|x_i)$. The HMM can now be used as a classifier. Given an observation vector $y$ we calculate $P(x_i|y)$. The class with the highest probability $P$ wins.
+
+HMM are Hidden Markov models. These are graphical probabilistic reasoning algorithms that can be used for example for classification. They are dynamic models because the states are evolving in time. They contain hidden states and observable states connected with edges. Each transition from one state into another has a certain probability. The challenge is to infer the hidden states knowing the visible observable states. For example we mount sensors in a house (door, bed, floor, toilet) in order to monitor its inhabitants daily activity(cooking, sleeping, washing, toileting, etc). A HMM will connect the visible states z given by the sensor readings and the hidden states x (cooking, sleeping, washing, toileting, etc). The transition probabilities p(zt|zt-1), p(zt|xt) are established by long days of training, annotation, log books, etc. The hidden states given by the probability that you are in state x knowing the observable z, p(x|z) are inferred by using Bayes theory.
 # Unsupervised learning
 - Do not have any training sets
 - They explore data and search for naturally occurred patterns and clusters within it.
@@ -58,7 +59,7 @@ It tries to partition data in $k$ clusters. Two inputs are **close to each other
 flowchart TD
 	A[Randomly place k points in the feature\n space. These are the initial centroid\n locations of the k classes.] --> B
 	B[Assign each point to that class\n whose centroid lies closest.] --> C
-	C[Have any ponts changed their class\n since the previous iteration?] -- Yes --> D
+	C[Have any points changed their class\n since the previous iteration?] -- Yes --> D
 	D[Recalculate the centroids of each class] --> B
 	C -- No --> E[STOP]
 ```

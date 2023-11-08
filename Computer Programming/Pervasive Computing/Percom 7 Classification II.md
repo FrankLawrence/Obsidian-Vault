@@ -34,7 +34,8 @@ They are a collection of **artificial neurons**, that learn mappings (through al
 ### Artificial neuron
 - Some inputs are more important than others -> Synapses are replaced with **weights** $w_1,w_2...w_m$
 - The output y is binary and depends on a comparison between the weighted sum of the inputs and a threshold θ. $$y=\sum\limits_{j=0}^{p}x_{j}w_{j}$$
-  If k>θ, then the neuron is “**ON**”, output is 1 Otherwise the neuron is “**OFF**”, output is 0
+  If k>θ, then the neuron is “**ON**”, output is 1 
+  Otherwise the neuron is “**OFF**”, output is 0
 - A **set of weighted inputs** -> dendrites + synapses
 - An **adder -> soma**
 - An **activation function** that decides when the neuron fires 
@@ -69,7 +70,7 @@ end
 - Training set contains examples of input (features) and correct output (class)
 - For each example the perceptron adjusts the coefficients until the output is equal to the desired output
 ## A neural network
-- A NN is more complex than a perceptron because it has **hidden** layers layers between the input and output layers
+- A NN is more complex than a perceptron because it has **hidden** layers between the input and output layers
 - The hidden layer is called so, not because we can't see it, but because it has no direct connection to the outside world, like the input and output layers.
 - Also called multi-layer perceptron or **Deep Neural Network**
 ```mermaid

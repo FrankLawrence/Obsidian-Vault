@@ -29,6 +29,9 @@ Created: 2022-09-06 09:35
 - [[Object Oriented and Functional Programming]]
 - [[Analysis I]]
 ## P2
+- [[Operating Systems]]
+- [[Statistical Methods]]
+- [[Secure Programming]]
 ## P3
 ## P4
 ## P5

@@ -127,3 +127,5 @@ To sign up for the event, please fill out the form below. Please make sure to br
 [Google Sign Up Form](https://docs.google.com/forms/d/e/1FAIpQLSeGeHQLMYUT1deNd1nEGeBmzUPxAs5SZTMHA0mWvZ5S-zbEXQ/viewform?usp=sf_link)
 
 We can't wait to see you there! 🎉🎃
+
+We will be closing the Sign up form at *17:00*. If you want to join the halloween event🎃, now's the last chance! Don't forget, the event starts at ⏰ *22:00* at Lange Leidsedwarsstraat 64, 1017 NM Amsterdam, (https://maps.app.goo.gl/azQvHc5xisCcNsnJ9).

@@ -20,7 +20,7 @@ Links: "[[Pervasive Computing]]"
 	- **Planning** is the process of looking ahead at the outcomes of the possible actions and searching for the sequence of actions that will reach the desired goal
 	- **Searching** is the inherent part of planning 
 	- Uses a map
-- **Map**
+- Map
 	- An internal representation of the world
 	- Can be stored in many ways
 	- In navigation systems, the maps are digital and represented as a valued *graph* consisting of *nodes (vertices)* and *edges* with a *cost number* attached
@@ -30,7 +30,7 @@ Links: "[[Pervasive Computing]]"
 	- The **shortest path** is a path with the minimal total cost
 	- Greedy Best First Search
 		- Uses an estimate of how far from the goal any vertex is. It searches only towards the goal
-		- $A^*$ algorithm combines the Dijkstra algorithm with the Greedy Best-First-Search algorithm
+		- $A^*$ algorithm combines the [[Dijkstra algorithm]] with the Greedy Best-First-Search algorithm
 ## Reactive control
 - **Principle**: Don't think, react!
 - No internal representation of the environment
@@ -52,33 +52,32 @@ flowchart LR
 	C -- Output: controlled variable ---> D[Environment]
 ```
 - The controller for the anemometer (pseudocode)
-  ```python
-  while loop:
-    read the wind speed
-
+```python
+while loop:
+	read the wind speed
+	
 	if speed = low then
-	  switch green LED on
+		switch green LED on
 	if speed = medium then
-	  switch orange LED on
+		switch orange LED on
 	if speed = high then
-	  switch red LED on
-	Endloop
+		switch red LED on
+Endloop
   ```
 - **Calibration**
 	- Measures exactly what means dark and what means daylight
 	- Needed before any program can be written
 	- We need to use a sensor called luxmeter
 - Controller for curtains (pseudocode)
-  ```python
-  Set initial curtain
-    state to close
-  Loop:
+```python
+Set initial curtain state to close
+Loop:
     Measure light level
     if (level>10)
-      then open
+	    then open
     if (level<1)
-      then close
-  Endloop
+	    then close
+Endloop
   ```
 - Passive opto-sensor
 	- Measures ambient light: input
@@ -93,7 +92,7 @@ flowchart LR
     B --> C[Controller] --> D[Actuator] --> E[Sensor] --> B
     D --> F[Output: Controlled variable]
   ```
-- **Handling**
+- **Obstacle Handling**
 	- Avoid
 	- Find & retrieve
 	- Track
@@ -129,11 +128,11 @@ end_while
 ```python
 position the robot  
 while (true)  
-  if distance-to-the-wall is the desired one
-    then keep driving  
-  if distance-to-the-wall is larger than desired
-	then turn towards the wall
-    else turn away from the wall
+	if distance-to-the-wall is the desired one
+	    then keep driving  
+	if distance-to-the-wall is larger than desired
+		then turn towards the wall
+	else turn away from the wall
 end_while
 ```
 

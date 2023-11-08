@@ -38,12 +38,14 @@ Morphology is a branch of image processing which is particularly useful for anal
 	- *Dilation*: Center the STREL on each '0' pixel. If a neighbour is '1', then the pixel will be switched to '1'
 	  ![[SCR-20230921-toqo.png|300]]
 	  The binary image increases in size, objects merge, and small holes are filled
-	- *Closing*: Dilation + Erosion -> removes small holes and to joins narrow isthmuses between objects
+	- *Closing*: Dilation + Erosion -> removes small holes and joins narrow isthmuses between objects
 	- *Opening*: Erosion + Dilation -> removes small, isolated noisy objects while main object is preserved
 # BLOB analysis
 **B**inary **L**arge **OB**jet refers to a group of connected pixels in a binary image. Small objects are considered as noise.
 - Connectivity: Decides which pixels are neighbours. Connected pixels are called a BLOB (connected component)
+	- ![[Blob connectivity.png|500]]
 - Labeling: Extracted BLOBs are labeled differently
+
 Matlab has a function `bwlabel` which returns a matrix with labels and the number of BLOBs
 # Conclusion
 - Even before classification, one can extract some useful context information from the environment.

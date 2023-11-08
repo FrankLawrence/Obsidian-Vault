@@ -4,7 +4,7 @@ Created: 2023-09-22 00:53:23
 Links: "[[Pervasive Computing]]"
 ---
 # Pattern recognition
-A patter is the opposite of a chaos; It is an entity vaguely defined, that could be given a name. Recognition is the identification of a pattern as a member of a category we already know, or we are familiar with.
+A pattern is the opposite of a chaos; It is an entity vaguely defined, that could be given a name. Recognition is the identification of a pattern as a member of a category we already know, or we are familiar with.
 **Classification**: 
 - Given a few *classes*.
 - Objects are described by *features*
@@ -38,9 +38,10 @@ Classification algorithms are rule based, such as: `If(colour == Copper) and (di
 Shapes can be described through features such as, the perimeter, form factor, roundness ratio, area and the Euler number. The Euler number is the total number of objects minus the holes in those objects.
 The form factor is the relation between the area and the perimeter (circles have a form factor of 1): $$f=\frac{4\pi A}{P^{2}}$$
 Preprocessing methods explained in [[Percom 4 Image Processing]] can be used such as:
-- Binarization
-- Morphological Operators
-- Segmentation
+- Binarization: Usually presented with a grayscale image, binarization is then simply a matter of choosing a threshold value.
+- Morphological Operators: Remove isolated specks and holes
+- Segmentation: Check connectivity of shapes, label, and isolate
+
 Shape properties can be extracted by using the function `regionprops`
 ```matlab
 stats = regionprops(lables,'area','centroid');

@@ -36,7 +36,7 @@ Created: 2023-09-06 21:07:07
 	- Sensing technology
 	- Materials science (smart materials, better batteries, biofuels)
 	- Multimodal human computer interaction
-- **M**icro-**E**lectro**M**echanical **S**ystems
+- **M**icro-**E**lectro **M**echanical **S**ystems
 	- The MEMS technique results in close integration of the mechanical mechanism with the necessary electronic circuit on a single silicon chip
 
 # Smart Systems

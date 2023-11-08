@@ -4,7 +4,8 @@ Created: 2023-09-21 23:00:00
 Links: "[[Pervasive Computing]]"
 ---
 # Frequency Spectrum
-An audio signal is usually not sinusoidal and has not just one frequency but a mixture of more frequencies. We must use the **Fourier analysis** to find the sinusoidal waves that make up the sound wave.
+An audio signal is usually not sinusoidal and has not just one frequency but a mixture of more frequencies. We must use the **Fourier analysis** to find the sinusoidal waves that make up the sound wave. This can then be plotted in a frequency spectrum.
+- ![[Frequency Spectrum of a periodic signal.png|500]]
 - The component frequencies are multiple of a **fundamental frequency** $$f_{0}=\frac{1}{T}$$
 - They are called **harmonics** $$f_{k}=k\times f_{0}\quad k=1\dots N$$
 
@@ -51,7 +52,7 @@ z = filter(b,a,y);
 	1. Sample the signal
 	2. Compute its spectrum using FFT
 	3. Set noise portions to zero
-	4. Use inverse FFT to synthesize improved signalA
+	4. Use inverse FFT to synthesize improved signal
 # Conclusion
 - We discussed different techniques to obtain frequency information from a sound signal
 - For a frequency analysis, it is easier to represent the signal in frequency domain
@@ -63,6 +64,12 @@ z = filter(b,a,y);
 	1. Plot its waveform in time (but the context information is hidden)
 	2. Plot its frequency spectrum (you will see more about its frequency composition)
 	3. Plot a spectrogram if the signal is too long and its spectrum varies in time
+ 
+> [!question] Exam Question
+> Sketch the frequency spectrum of a signal built as a sum of a DC signal with amplitude 2V and two sinusoidal signals, one of 100Hz and amplitude 2V, and one of 200Hz and amplitude 1V, all with a duration of 0,1 seconds.
+
+> [!question] Exam Question
+> Define the term **spectrogram** and explain how it is constructed. Sketch the spectrogram of a signal built as a sum of two sinusoidal signals, one of 100Hz and amplitude 2V, and one of 200Hz, and amplitude 1V, both with a duration of 0,1 seconds.
 
 ---
 References:
