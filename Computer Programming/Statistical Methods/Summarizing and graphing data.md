@@ -33,5 +33,5 @@ Histograms depend on choices of the number of cells (intervals) and bin location
 In the case below, the graphs on the bottom are better suited, since you can more easily distinguish the difference in scale.
 ![[Graph scale example.png|500]]
 
----
-References:
+___
+References: [[Statistical Methods Lecture1.pdf]]

@@ -20,8 +20,8 @@ Discrete Random Variables:
 Probability $P(A)$
 - We write $P(A)$ as "the fraction of possible worlds in which $A$ is true"
 - $P(A)$ is an *unconditional probability*
-- $P(A|B)$ (*conditional probability*) is the probability that $A$ is true given that $B$ is all we know $$P(A|B)=\frac{P(A \text{ and } B)}{P(B)}$$
-- Bayes rule: $$P(B|A)=\frac{P(A|B)\times P(B)}{P(A)}$$
+- $P(A|B)$ ([[Conditional probability]]) is the probability that $A$ is true given that $B$ is all we know 
+- [[Bayes' Theorem|Bayes rule]]: $$P(B|A)=\frac{P(A|B)\times P(B)}{P(A)}$$
 	- The essence of the Bayesian approach is to provide a mathematical rule explaining how should our existing beliefs $P(B)$ change in the light of new evidence $A$.
 ## Naïve Bayes classifier
 - Given a set of classes: $C_1, C_2, ...C_i,..C_n$ with prior probabilities $P(C_1), P(C_2), ...$
@@ -34,7 +34,7 @@ If $P(w_{2}|x) > P(w_{1}|x)$ then $x$ is classified to $w_2$.
 
 > [!example] We must, given a situation with the features *Day, Season, Wind and Rain*, predict if the train is either *On time, Late or Cancelled*. 
 > $P(\text{event} = \text{on time})$ is the *prior* probability
-> $P(\text{event} = \text{on time}|\text{season = winter})$ is the *posterior* or conditional probability that the train is on time given that it is winter.
+> $P(\text{event} = \text{on time}|\text{season = winter})$ is the *posterior* or [[Conditional probability]] that the train is on time given that it is winter.
 > We then calculate from the training set 3 posterior probabilities (for each of the classes) using the Bayes rule.
 > 
 > $P(\text{event} = \text{on time}|...)=P(\text{event} = \text{ontime})\times P(\text{Saturday}|\text{ontime})\times P(\text{winter}|\text{ontime})\times ...$

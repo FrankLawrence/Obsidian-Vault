@@ -1,4 +1,5 @@
 ---
+alias: SM
 Tags: MOC course
 ---
 (Links:: [[Uni Courses🎓]])
@@ -8,12 +9,11 @@ Tags: MOC course
 - [[Statistical Methods Assessment]]
 ## Assignments
 ## Topics
+- [[R Studio Introduction]]
 - [[Introduction to Statistics]]
 - [[Summarizing and graphing data]]
 - [[Describing Data]]
 - [[Introduction to Probability]]
-- [[Basic Concepts of Probability]]
-- [[Conditional Probability]]
 - [[Law of Total Probability and Bayes Theorem]]
 - [[Probability Distributions]]
 - [[Expectation and standard Deviation]]

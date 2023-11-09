@@ -69,5 +69,5 @@ Samples are a sub-collection of population. Different sample lead to different d
 > 3. Quantitive data, Ratio
 > 4. Qualitative data, Ordinal
 
----
-References:
+___
+References: [[Statistical Methods Lecture1.pdf]]

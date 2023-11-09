@@ -46,5 +46,5 @@ Do not confuse $s$ and $s^{2}$ with **population standard deviation** $\sigma$ a
 Alternative measures of location *and* spread are **percentiles**. Percentile $P_{i}: i\% \text{ of data values } < P_{i}$ *and* $(100-i)\% \text{ of values }\geq P_{i}$.
 Special percentiles: **quartiles** $Q_{1}, Q_{2} \text{ and } Q_{3}$. Divide data set into four groups of $\approx 25\%$ of data values each.
 
----
-References:
+___
+References: [[Statistical Methods Lecture1.pdf]]

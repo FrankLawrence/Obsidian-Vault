@@ -84,9 +84,54 @@ $A$ and $B$ are **disjoint** if they exclude each other, i.e. $A\cap B=\emptyset
 Let $A_{1}, ..., A_{m}$ be disjoint, i.e. $A_{i} \cap A_{j}=\emptyset$ for $i\neq j$. Then: $$P(A_{1}\;\cup\;\cdots\; \cup\; A_{m})=\sum\limits_{i=1}^{m}P(A_{i})$$
 
 **TODO: Example**
+# Complement
 $\bar A$ (or $A^{c}$) is the complement of $A$.
 
 **Complement rule**: $$P(\bar A)=1-P(A)$$
 
----
-References:
+> [!question]- What is the probability **of at least one Head** with 3 fair coin tosses?
+> $A=\{\text{at least 1 Heads}\} \quad \Rightarrow \quad \bar A=\{\text{no Heads}\}$
+> $$P(A)=1-P(\bar A)=1-P(\text{no Heads})=1-P(TTT)=1-\frac{1}{8}=\frac{7}{8}$$
+
+**Complement of at least one**:
+Keep in mind, if we want to find the probability of an event where there is an occurrence of at least one thing, then we can write: $$P(\geq 1 \text{ occurence of ...})=1-P(\text{no occurence of ...})$$
+
+# Conditional Probability
+If we want to calculate the probability of an event $B$ given that $A$ has occurred, we would use [[Conditional probability]]
+
+> [!example] 2 fair coin tosses deliver $HH$
+> What is the conditional probability of "two Heads" given that
+> > [!question]- the first flip is Heads?
+> > Outcome space $\Omega=\{HH,HT,TH,TT\}$
+> > $$B=\{\text{Twice Heads}\}=\{HH\}$$
+> > $$A_{1}=\{\text{First flip Heads}\}=\{HH,HT\}$$
+> > $$A_{1}\cap B=\{HH\}$$
+> > $$P(B|A_{1})=\frac{P(A_{1}\cap B)}{P(A_{1})}=\frac{P(\{HH\})}{P(\{HH,HT\})}=\frac{1/4}{1/2}=\frac{1}{2}$$
+> 
+> > [!question]- at least one is Heads?
+> > $$B=\{\text{Twice Heads}\}=\{HH\}$$
+> > $$A_{2}=\{\text{At least one Heads}\}=\{HH,HT,TH\}$$
+> > $$P(B|A_{2})=\frac{P(A_{2}\cap B)}{P(A_{2})}=\frac{P(\{HH\})}{P(\{HH,HT,TH\})}=\frac{1/4}{3/4}=\frac{1}{3}$$
+
+# Independence
+Two events $A$ and $B$ are **independent** if $$P(A\cap B)=P(A)\times P(B)$$
+Thus: $P(B)=P(B|A)$ when $A$ and $B$ are independent.
+
+> [!example] Roll fair die twice
+> > [!question] Are $A=\{\text{First throw is 1}\}$ and $B=\{\text{Sum is 7}\}$ independent?
+> > $$P(A)=P(\{(1,1),...,(1,6)\})=\frac{6}{36}=\frac{1}{6}$$
+> > $$P(B)=P(\{(1,6),(2,5),(3,4),(4,3),(5,2),(6,1)\})=\frac{6}{36}=\frac{1}{6}$$
+> > $$P(A\cap B)=P(\{\text{First throw is 1 and sum is 7}\})=P((1,6))=\frac{1}{36}$$
+> > $$\Rightarrow P(A\cap B)=\frac{1}{36}=P(A)\times P(B)$$
+> > **$A$ and $B$ are independent!**
+> 
+> Always check independence of events **by definition**, no vague reasoning.
+
+> [!caution] Independence != disjointness
+
+There are two different sampling methods:
+1. Sampling with replacement -> selections are independent events
+2. Sampling without replacement -> selections are dependent events
+
+___
+References: [[Statistical Methods Lecture2.pdf]]
