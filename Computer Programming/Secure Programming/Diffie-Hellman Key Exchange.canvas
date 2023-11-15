@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"105432f47530de68","type":"group","x":-300,"y":-290,"width":320,"height":430,"color":"1","label":"Alice"},
+		{"id":"454e66cd2d10c7b6","type":"group","x":60,"y":-290,"width":320,"height":430,"color":"4","label":"Bob"},
+		{"id":"d9b4c188908d4538","type":"text","text":"Agree on modulus $m$ and base $g$ (need not be hidden)","x":-280,"y":-260,"width":640,"height":60},
+		{"id":"2bf847929cca9bc2","type":"text","text":"Picks secret exponent $a$","x":-280,"y":-180,"width":280,"height":60},
+		{"id":"3b70725eec57ec46","type":"text","text":"Picks secret exponent $b$","x":80,"y":-180,"width":280,"height":60},
+		{"id":"de1bb69daf7bd054","type":"text","text":"Sends $g^a (\\mod m)$","x":-280,"y":-100,"width":280,"height":60},
+		{"id":"af736eb4f79f0b02","type":"text","text":"Sends $g^b (\\mod m)$","x":80,"y":-100,"width":280,"height":60},
+		{"id":"9a9af7bbbd0de3ba","type":"text","text":"Computes $(g^b)^a (\\mod m)$","x":-280,"y":-20,"width":280,"height":60},
+		{"id":"d1ad3a00be7bdd12","type":"text","text":"Computes $(g^a)^b (\\mod m)$","x":80,"y":-20,"width":280,"height":60},
+		{"id":"2a130473d698e97f","type":"text","text":"Both have key $g^{ab}$, which cannot be derived from $g^a$ and $g^b$","x":-280,"y":60,"width":640,"height":60}
+	],
+	"edges":[
+		{"id":"4d323f4da6f9b2e9","fromNode":"de1bb69daf7bd054","fromSide":"right","toNode":"d1ad3a00be7bdd12","toSide":"left"},
+		{"id":"b8fb95f42d77e8a3","fromNode":"af736eb4f79f0b02","fromSide":"left","toNode":"9a9af7bbbd0de3ba","toSide":"right"}
+	]
+}

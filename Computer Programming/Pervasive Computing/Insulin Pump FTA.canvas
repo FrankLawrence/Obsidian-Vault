@@ -1,0 +1,31 @@
+{
+	"nodes":[
+		{"id":"314c03f1494e7445","x":-120,"y":-160,"width":200,"height":80,"type":"text","text":"Correct dose delivered at wrong time"},
+		{"id":"5bdef56955b3b7ee","x":-140,"y":-400,"width":240,"height":80,"type":"text","text":"Incorrect insulin dose administered"},
+		{"id":"510a01c588e820bd","x":100,"y":-160,"width":340,"height":50,"type":"text","text":"Delivery system failure"},
+		{"id":"b94db6d77da3d1ee","x":-480,"y":-160,"width":340,"height":50,"type":"text","text":"Incorrect sugar level measured"},
+		{"id":"e107f812d77f5ad5","x":-340,"y":35,"width":220,"height":65,"type":"text","text":"Sugar computation error"},
+		{"id":"03cedca63f6a0589","x":-540,"y":38,"width":185,"height":50,"type":"text","text":"Sensor failure"},
+		{"id":"ed3c0a5831c52b3b","x":-110,"y":-40,"width":180,"height":60,"type":"text","text":"Timer failure"},
+		{"id":"2e7db79b8e96b965","type":"text","text":"Pump signals incorrect","x":360,"y":35,"width":200,"height":65},
+		{"id":"a6de0150341df94d","type":"text","text":"Insulin computation incorrect","x":80,"y":35,"width":243,"height":65},
+		{"id":"3e8b71e3335dba47","type":"text","text":"Arithmetic error","x":220,"y":220,"width":205,"height":60},
+		{"id":"18145a7ef69cbce5","type":"text","text":"Algorithm error","x":-5,"y":220,"width":210,"height":60},
+		{"id":"73e8efd7e0a46e1a","x":-467,"y":220,"width":210,"height":60,"type":"text","text":"Algorithm error"},
+		{"id":"a9cf0fe4ded8807c","x":-242,"y":220,"width":205,"height":60,"type":"text","text":"Arithmetic error"}
+	],
+	"edges":[
+		{"id":"124d1ae0b629e74f","fromNode":"510a01c588e820bd","fromSide":"top","toNode":"5bdef56955b3b7ee","toSide":"bottom"},
+		{"id":"521502a4cc107c7a","fromNode":"b94db6d77da3d1ee","fromSide":"top","toNode":"5bdef56955b3b7ee","toSide":"bottom"},
+		{"id":"ae09cbfadb08220b","fromNode":"314c03f1494e7445","fromSide":"top","toNode":"5bdef56955b3b7ee","toSide":"bottom"},
+		{"id":"59cdf9c1c9e634b2","fromNode":"03cedca63f6a0589","fromSide":"top","toNode":"b94db6d77da3d1ee","toSide":"bottom"},
+		{"id":"80e279a999fbb0cf","fromNode":"e107f812d77f5ad5","fromSide":"top","toNode":"b94db6d77da3d1ee","toSide":"bottom"},
+		{"id":"b087637b415e2f5e","fromNode":"73e8efd7e0a46e1a","fromSide":"top","toNode":"e107f812d77f5ad5","toSide":"bottom"},
+		{"id":"330492b8b472b7ff","fromNode":"a9cf0fe4ded8807c","fromSide":"top","toNode":"e107f812d77f5ad5","toSide":"bottom"},
+		{"id":"be74707a77920b29","fromNode":"ed3c0a5831c52b3b","fromSide":"top","toNode":"314c03f1494e7445","toSide":"bottom"},
+		{"id":"c9dbb1862d6f57d2","fromNode":"18145a7ef69cbce5","fromSide":"top","toNode":"a6de0150341df94d","toSide":"bottom"},
+		{"id":"3e2e63ae6895b8ab","fromNode":"3e8b71e3335dba47","fromSide":"top","toNode":"a6de0150341df94d","toSide":"bottom"},
+		{"id":"285e786ca05daa46","fromNode":"a6de0150341df94d","fromSide":"top","toNode":"510a01c588e820bd","toSide":"bottom"},
+		{"id":"8f1212ffa90a1b4c","fromNode":"2e7db79b8e96b965","fromSide":"top","toNode":"510a01c588e820bd","toSide":"bottom"}
+	]
+}

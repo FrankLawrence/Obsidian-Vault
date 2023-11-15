@@ -8,8 +8,8 @@ Created: 2023-11-09 20:59:31
 > [!example] Two coin tosses $HH$
 > Throw a fair coin twice. Let the random variable $X$ be the number of heads. $$X(TT)=0 \quad X(HT) = 1 \quad X(TH)=1\quad X(HH)=2$$ $$P(X=0)=\frac{1}{4} \quad P(X=1)=\frac{1}{2}\quad P(X=2)=\frac{1}{4}$$
 
-A **probability distribution** determines probabilities of values of a random variable. It is given by a table, formula or graph. A **discrete random variable** has finite many different values. Its probability distribution is the collection of all their individual probabilities. A **continuous random variable** has uncountably many different values. Its probability distribution is given by the *probability density function*. The probability is computed by the area under this function.
-Another way of describing $P(X=x)$ is through all outcomes: $$P(X=x)=P(\{\omega \in \Omega : X(\omega)=x\})$$
+A **probability distribution** determines probabilities of values of a random variable. It is given by a table, formula or graph. A **discrete random variable** has finite many different values. Its probability distribution is the collection of all their individual probabilities. A **continuous random variable** has uncountably many different values. Its probability distribution is given by the [[Standard normal distribution#Probability density function|probability density function]]. The probability is computed by the area under this function.
+Another way of describing $P(X=x)$ is through all outcomes: $$P(X=x)=P(\{\omega \in \Omega : X(\omega)=x\})$$ ^4bef25
 > [!tip] Recipe for finding probability distribution of discrete random variable
 > 1. Determine sample space of underlying probability experiment and probabilities of outcomes $\omega$
 > 2. List values $X(\omega)$ for all $\omega$ in $\Omega$ 

@@ -19,5 +19,7 @@
   "todoist-sync-plugin",
   "obsidian-sortable",
   "obsidian-contextual-typography",
-  "quickadd"
+  "quickadd",
+  "obsidian-dictionary-plugin",
+  "obsidian-tikzjax"
 ]

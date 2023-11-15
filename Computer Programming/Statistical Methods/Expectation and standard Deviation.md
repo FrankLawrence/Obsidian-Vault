@@ -22,6 +22,7 @@ Expected value of a discrete random variable $X$ with possible values $x_{1},...
 
 # Variance
 The **variance** of a discrete random variable $X$ with values $x_{1},..., x_{k}$: $$\begin{align}\sigma^{2}=Var(X)&=E(X-EX)^{2}=\sum\limits_{i=1}^{k}\left[(x_{i}-\mu)^{2}P(X=x_{i})\right]\\&=EX^{2}-(EX)^{2}=\sum\limits_{i=1}^{k}\left[x_{i}^{2}P(X=x_{i})\right]-\mu^{2}\end{align}$$
+It is a measure of how spread out the distribution of a random variable is (measures how far a set of numbers is spread out from their average value).
 The **standard deviation** of $X$ is $$\sigma = SD(X) = \sqrt{Var(X)}$$
 
 > [!example]- $X = \text{Maximum of two dice throughs}$
@@ -41,7 +42,7 @@ The **standard deviation** of $X$ is $$\sigma = SD(X) = \sqrt{Var(X)}$$
 > $$SD(X)=\sqrt{Var(X)}\approx\sqrt{1.972}\approx1.404$$
 
 # Law of Large Numbers
-Let $X_{1},...,X_{n}$ be $n$ independent versions of the random variable $X$; let $\mu=E(X)$. Their mean $\frac{1}{n}(X_{1}+\cdots+X_{n})$ tends to approach $\mu$.
+Let $X_{1},...,X_{n}$ be $n$ independent versions of the random variable $X$; let $\mu=E(X)$. Their [[Mean]] $\frac{1}{n}(X_{1}+\cdots+X_{n})$ tends to approach $\mu$.
 
 ___
 References: [[Statistical Methods Lecture3.pdf]]

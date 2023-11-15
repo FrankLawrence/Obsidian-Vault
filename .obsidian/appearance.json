@@ -11,6 +11,8 @@
   "nativeMenus": false,
   "enabledCssSnippets": [
     "dashboard",
-    "infobox"
+    "infobox",
+    "big-math",
+    "centerImages"
   ]
 }
