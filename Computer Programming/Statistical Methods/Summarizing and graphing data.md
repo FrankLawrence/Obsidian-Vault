@@ -3,6 +3,7 @@ Tags:
 Created: 2023-11-08 01:49:38
 ---
 (Links:: [[Statistical Methods]])
+
 An example of graphical summary is the **histogram**. It consists of bars whose heights are equal to the numbers of measurements in the corresponding intervals.
 Choose a summary most suitable for the research question. Often, we are interested in the data distribution. A good summary shows:
 - The characteristics of data distribution: location, spread, range, extremes, accumulations, gaps, symmetry,. . .

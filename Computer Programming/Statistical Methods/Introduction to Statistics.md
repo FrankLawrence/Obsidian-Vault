@@ -17,7 +17,7 @@ Statistical study:
 	- Apply statistical methods
 - Conclude
 
-Samples are a sub-collection of population. Different sample lead to different data. Hence, we could possibly get different conclusions about the population, depending on the sample. A sample should therefore be *representative* (same characteristics as population) and *unbiased* (no systematic difference with population)
+Samples are a sub-collection of population. Different samples lead to different data. Hence, we could possibly get different conclusions about the population, depending on the sample. A sample should therefore be *representative* (same characteristics as population) and *unbiased* (no systematic difference with population)
 # Collecting sample data
 
 | Sampling methods          | Description                                                                                                                                      |
@@ -49,8 +49,8 @@ Samples are a sub-collection of population. Different sample lead to different d
   Notation: often Greek symbols, e.g. $\mu$, $\sigma$
 - **Statistic**: A data based measurement describing a characteristic of the sample. 
   Notation: random variables, $X, T, \bar T$; realized (observed) values $x, t, \bar x$, etc.
-	- **Quantitive (numerical)**: Numbers representing measurements; **discrete** (countably many possible values), **continuous** (uncountably many).
 	- **Qualitative (categorical)**: Names or labels represent measurements.
+	- **Quantitive (numerical)**: Numbers representing measurements; **discrete** (countably many possible values), **continuous** (uncountably many).
 - The **level of measurement** of data determines which statistical methods are applicable.
 	- Qualitative data:
 		- **Nominal**: Names, labels, categories (no ordering). 

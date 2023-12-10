@@ -28,7 +28,7 @@ Created: 2023-03-19 16:31:40
 - The cells in each column are connected to a Sense/Write circuit by two bit lines, and the Sense/Write circuits are connected to the data input/output lines of the chip
 - Memory circuits can be organized in different ways, such as a 16 x 8 organization or a 1K x 1 organization
 - Larger memory chips have essentially the same organization as small ones, but with a larger memory cell array and more external connections
-## Statis Memories
+## Static Memories
 - *static memories*: retain their state as long as power is applied.
 - [[A static RAM cell.png]]
 - **Read operation**: word line is activated; if the state is 1, then line $b$ is in state 1
@@ -105,8 +105,9 @@ Created: 2023-03-19 16:31:40
 - normal operation involves only reading the stored data -> ROM
 ## ROM
 - information can be written into it only once at the time of manufacture
-- ![[A ROM cell.png]]
-	- logic value 0 is stored in the cell if the transistor is connected to ground $P$, otherwise a 1 is stored
+
+![[A ROM cell.png|500]]
+- logic value 0 is stored in the cell if the transistor is connected to ground $P$, otherwise a 1 is stored
 ## PROM (programmable)
 - user can insert 1s at the required locations by burning out the fuses at point $P$ using high-current pulses -> irreversible
 - memory chips can be programmed directly by the user

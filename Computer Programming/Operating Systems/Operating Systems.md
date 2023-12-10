@@ -1,4 +1,5 @@
 ---
+alias: OS
 Tags: MOC course
 ---
 (Links:: [[Uni Courses🎓]])
@@ -6,14 +7,14 @@ Tags: MOC course
 - [[Operating Systems Outline]]
 - [[Operating Systems Structure]]
 - [[Operating Systems Assessment]]
-## Assignments
 ## Topics
+- [[Mock Exam OS]]
 ## Lectures
 - [[Operating Systems Introduction]]
 - [[Processes and Threads]]
+- [[Memory Management]]
+- [[File Systems]]
+- [[Input-Output]]
 ## Extras
-### Tips
-### Emails and Resources
-### Important Dates
 ___
 References:

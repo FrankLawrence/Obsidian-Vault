@@ -31,7 +31,7 @@ Created: 2023-03-13 23:37:44
 - ![[A detailed timing diagram for the input transfer.png]]
 	- master sends address and command signals on rising edge $t_0$ -> delay appearing on bus at $t_{AM}$
 	- slave sends requested data at time $t_1$ -> delayed appearance on bus at $t_{DM}$
-	- $t_2-t_{DM}$ must be longer than setup time for regsiter
+	- $t_2-t_{DM}$ must be longer than setup time for register
 - time $t_2-t_0$ must accommodate the longest delays on the bus and slowest device interface -> devices operate at speed of slowest device
 - buses incorporate control signal that represent a response from the device
 - ![[An input transfer using multiple clock cycle.png]]
@@ -95,19 +95,19 @@ Created: 2023-03-13 23:37:44
 > 2. Send character to `DISP_DATA`
 > 	1. clear `DOUT` flag
 > 	2. set new-data to 1
-> 3. Diaplay sets Ready to 0 and reads data from `DISP_DATA`
+> 3. Display sets Ready to 0 and reads data from `DISP_DATA`
 
 ## Serial Interface
 - connect processor to I/O devices that transmit data one bit at a time
 - parallel and serial format transformation: shift registers with parallel access capability
 - [[A serial interface.png]]
-- flags `SIN` and `SOUT` mantained by status and control block
+- flags `SIN` and `SOUT` maintained by status and control block
 - `SIN` set to 1 when new data loaded into `DATAIN` from shift register, and cleared when read by processor
 - `SOUT` set to 0 when processor writes new data into `DATAOUT`, and set to 1 when data transferred from `DATAOUT` to output shift register
 - double buffering used so the processor can read first character loaded into `DATAIN` from the shift registers before the second character from the serial transfer is loaded into the shift registers -> continuous stream of input data
-- timing information from transmitter to reciever must be encoded in data transmitted: asynchronous and synchronous transmission:
+- timing information from transmitter to receiver must be encoded in data transmitted: asynchronous and synchronous transmission:
 	- **Asynchronous Transmission**: 
-		- Each charater is transmitted as a Start bit followed by 8 data bits and 1 or 2 Stop bits
+		- Each character is transmitted as a Start bit followed by 8 data bits and 1 or 2 Stop bits
 		- *start-stop transmission*: 1-to-0 transmission at start bit alerts receiver that data transmission is about to begin
 		- stop bit ensures that start bit of next character will be recognized
 		- line remains in 1 state until next character

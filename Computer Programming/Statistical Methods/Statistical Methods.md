@@ -25,6 +25,16 @@ Tags: MOC course
 - [[Sampling distributions and estimators]]
 - [[Estimating a Population Mean]]
 - [[Estimating a Population Proportion]]
+---
+- [[Basics of Hypothesis Testing]]
+- [[Testing a Claim about a proportion]]
+- [[Basics of Hypothesis Testing - additional information]]
+- [[Testing a Claim about a mean]]
+- [[Two samples problems]]
+- [[Relationship between variables and linear correlation]]
+- [[Simple linear regression]]
+- [[Goodness-of-fit]]
+- [[Contingency tables]]
 ## Extras
 ### Tips
 ### Emails and Resources

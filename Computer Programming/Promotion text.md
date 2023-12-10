@@ -1,4 +1,5 @@
-# Big Event Description Template:
+# Big Event Description 
+## Template
 
 Good evening!! We hope that you had an amazing first two weeks 🎊
 
@@ -19,7 +20,7 @@ Laan van Kronenburg 7a,
 
 Have a beautiful week from your mentors
 
-## Examples:
+## Valentine 2022
 
 We invite you to join our Valentine’s Day party taking place February 15th at SOHO Amsterdam! 
 
@@ -36,7 +37,8 @@ https://maps.app.goo.gl/S7SemaFLSZnVPiyKA?g_st=ic
 ‼️Please bring your student card with you. Without it, you will be denied entry.
 
 ❤️ Sign up here: https://docs.google.com/forms
-___
+
+## Christmas Borrel 2022
 
 Good afternoon!! We hope you had a wonderful week 🎊
 
@@ -58,60 +60,8 @@ SIGN UP: https://docs.google.com/forms
 
 Have a beautiful week from the mentors ❤️
 
-# Weekly Event Text:
-Good monday everyone! 
-This week's schedule:
+## Halloween 2023
 
-**TODAY 1700~ Study session 📚**
-**📍NU-2B12**
-These rooms are specifically booked for our program, so if you have any questions ⁉️ about your course or your **homework**, you can ask them during the session to one of our mentors!  
-_DISCLAIMER_‼️🚨: We are not your Teaching Assistants and we won’t be able to help you with every question, but we’ll try our best!
-
-**Wed 15/02 Valentine's day event ❤️ 8pm (doors close at 9pm)**
-**📍Bar SOHO**
-
-**Fri 17/02 17.00~ Game night🃏**
-**📍NU-2B18**
-Come cool off from this busy week by playing some (board) games with your fellow students.
-
-Have a great week ! :) From the mentor team
-
--------------------------------------------------------------------------------------------------------------------
-
-Goodmorning first years! 
-This week we'll have the following activities:
-
-**TODAY 20/02 1730~ Study session 📚**
-**📍NU-4B43**
-This room is specifically booked for our program, so if you have any questions about CO, LS for AI or another course you have right now, you can ask that during the session to one of our mentors!
-
-**THU 23/02 12.00~ COMPUTER ORGANIZATION midterm prep WITH TA's**
-**📍NU-3A57**
-
-**FRI 24/02 17.00~ Game night!**
-**📍NU-2B05**
-**Come cool off and get some free hot chocolates!**
-
-# Disclaimers:
-❗DISCLAIMER: This Kahoot! doesn't guarantee at all that (any of) the questions will be on your exam. Anything said by me today cannot be used as an argument when you get a question wrong on the exam. Use this Kahoot! as a way to genuinely practice by not just taking the answers for granted but asking yourself "why". Good luck!❗
-
-Some of you said that the questions 31 and 34 on the Kahoot! might be wrong, so pay careful attention to those.
-
-For any questions regarding the format and the grading system of your coming exam, please go to Canvas or reach out to one of the TA's or the prof. Because we as mentors can NOT know 100%.
-
-
-# Week Text
-Good morning first years!
-This weeks schedule:
-
-***TOMORROW 10/10 ⏰ 17:30~ Study session for CS📚***
-Room: 📍**NU-3B05**
-
-***WED 11/10 ⏰ 15:30~ Study session for AI📚***
-Room: 📍**NU-3B05**  
-
-We won't be having a game night this week 😔, but the mentor team wishes you all the best with your exams‼️
-# Halloween
 Good afternoon first-year students! We hope you are enjoying your time at the university so far 🎉
 
 We are excited to invite you to our Halloween Costume Party on Friday, November 3rd! Here are the details:
@@ -129,3 +79,140 @@ To sign up for the event, please fill out the form below. Please make sure to br
 We can't wait to see you there! 🎉🎃
 
 We will be closing the Sign up form at *17:00*. If you want to join the halloween event🎃, now's the last chance! Don't forget, the event starts at ⏰ *22:00* at Lange Leidsedwarsstraat 64, 1017 NM Amsterdam, (https://maps.app.goo.gl/azQvHc5xisCcNsnJ9).
+
+---
+
+Hey peeps!  
+Due to the upcoming bad weather, you won’t _need_ a costume to enter, but you should come dressed up *Halloween themed🎃*. Don’t forget, there’s lots of *_free drinks_*🍺🍷 (including non-alcoholic), and you can stay past 0:30.  
+Hope to see you there!
+
+## December Event and more 2023
+Good afternoon fellow students! We have alot ready for you in the next 3 weeks, so pull out your calendars!
+
+Next week *Wednesday* on _6.12_ 📅, the first year AI students will be able to join our python exam prep, where we will discuss *last years exam* at the usual time _17:30_ ⏰ in _NU-3B05_.
+Next week *Friday* on _8.12_ 📅 we will have a _movie night_ 🎥 with free pizza 🍕🤤 at _16:00_ ⏰! The sign up form for this will be released next week *Tuesday*. We will inform you in which room the movie night will take place next week.
+
+On *Monday* the _11.12_ 📅, the STORM association will be hosting a Christmas dinner🎄 from _17:00-21:00_ ⏰. By signing up through our sign-up form however, you will get *free food*. You have to be quick tho, because we have *limited spots*. The sign-up form will be released _next Monday_. 
+
+Finally, we will have _another event_ on *Thursday* the _14.12_ 📅. You will have free entrance to Het Amsterdamse Winterparadijs (https://www.hetamsterdamsewinterparadijs.nl/en/) at *Amsterdam RAI* where you have access to _tons_ of activities (https://www.hetamsterdamsewinterparadijs.nl/en/explore/activities/) including Ice skating ⛸️, live performances, shows, carnival rides 🎡, sledding 🛷 and more. The entrance time is from *14:00-18:00* ⏰. Once again, there will be *limited spots*, and the sign-up form will be released *tomorrow*, so keep your eyes peeled for an announcement 👀.
+
+As always, we will be hosting a *study session* 📚 this week _Wednesday_ at _17:30_ in _NU-3A06_.
+We will also have a *game night* 🎲 on _Friday_ at _16:00_ in _NU-3B05_.
+
+If this was too much information, don't worry, we will be sending out reminders. We are really excited for these events, and we can't wait to see you there ‼️
+
+---
+
+Dear students, the Christmas event is _booked out_, so we will officially *close* the sign-up form. You however may still sign up where you will be put on the *waiting list*. If any spots get free, we will notify those on the waiting list. 
+
+We will also already open the sign-up form for the STORM Christmas dinner tomorrow at *13:00* ⏰. Once again there will only be limited spots available.
+
+---
+
+Below you can find the *sign-up* form for the STORM Christmas dinner. _Be quick_ because we have few spaces left. Make sure to sign-up with you vu-email!
+https://docs.google.com/forms/d/e/1FAIpQLSd53HGTjwBeCZg8GLej_O-ELMaRPJTqZupTnE4cdc_8hvyiQw/viewform?usp=sf_link
+
+## December Event
+Hi everyone, hope you're all having a fantastic day!
+
+We will have an event on Thursday the *14.12* 📅 at *Amsterdam RAI* 📍, where you will have free entrance to the Het Amsterdamse Winterparadijs (https://www.hetamsterdamsewinterparadijs.nl/en/). A list of activities can be found here: https://www.hetamsterdamsewinterparadijs.nl/en/explore/activities/. The *sign up form* can be found at the bottom, but read this before signing up.
+The event is _not_ booked only for us, and you are free to go where ever you like. Before signing up, please take a look at the house rules, otherwise you might *not be able to enter*: https://www.hetamsterdamsewinterparadijs.nl/en/houserules/. There is also more important information (including allowed bag size) here: https://www.hetamsterdamsewinterparadijs.nl/en/information/during-the-event/. You will only be able to enter from *14:00-18:00* ⏰ (but you can stay until 23:00). 
+
+You have time until this week *Sunday 3.12* to sign up. We cannot guarantee a ticket if you sign up late
+
+We will also be having a _photographer_ 📸, whom you can go to if you'd like a polaroid taken. 
+
+In addition to this, we have a brand new *instagram account*: https://instagram.com/bscmentorsprogram?igshid=MTk0NTkyODZkYg%3D%3D&utm_source=qr. Here, you will be able to see the _pictures taken from previous events_. If you want to have _your picture_ posted on the account, then submit a picture through this link: https://drive.google.com/drive/folders/1SwsabCKkS6_4gwng0wtSy2rr20PBnR7-?usp=sharing
+
+Lastly, we will also have a fun *photography challenge*. If you want a chance to win a *prize*, then complete as many challenges on the list as you can‼️ The list of challenges will be posted over on our _instagram account_.
+
+*Event Sign up form*:
+https://docs.google.com/forms/d/e/1FAIpQLSdjQA8pbs4DqoiewwEMaGL8sQKoR8FvDjgmcHqkSFhZIVVhDg/viewform?usp=sf_link
+
+# Weekly Event Text:
+## Example 1
+Good monday everyone! 
+This week's schedule:
+
+**TODAY 1700~ Study session 📚**
+**📍NU-2B12**
+These rooms are specifically booked for our program, so if you have any questions ⁉️ about your course or your **homework**, you can ask them during the session to one of our mentors!  
+_DISCLAIMER_‼️🚨: We are not your Teaching Assistants and we won’t be able to help you with every question, but we’ll try our best!
+
+**Wed 15/02 Valentine's day event ❤️ 8pm (doors close at 9pm)**
+**📍Bar SOHO**
+
+**Fri 17/02 17.00~ Game night🃏**
+**📍NU-2B18**
+Come cool off from this busy week by playing some (board) games with your fellow students.
+
+Have a great week ! :) From the mentor team
+
+## Example 2
+Goodmorning first years! 
+This week we'll have the following activities:
+
+**TODAY 20/02 1730~ Study session 📚**
+**📍NU-4B43**
+This room is specifically booked for our program, so if you have any questions about CO, LS for AI or another course you have right now, you can ask that during the session to one of our mentors!
+
+**THU 23/02 12.00~ COMPUTER ORGANIZATION midterm prep WITH TA's**
+**📍NU-3A57**
+
+**FRI 24/02 17.00~ Game night!**
+**📍NU-2B05**
+**Come cool off and get some free hot chocolates!**
+
+## Example 3
+Good morning first years!
+This weeks schedule:
+
+***TOMORROW 10/10 ⏰ 17:30~ Study session for CS📚***
+Room: 📍**NU-3B05**
+
+***WED 11/10 ⏰ 15:30~ Study session for AI📚***
+Room: 📍**NU-3B05**  
+
+We won't be having a game night this week 😔, but the mentor team wishes you all the best with your exams‼️
+
+## Example 4
+Good afternoon students!
+As a quick reminder for this week:
+
+We still have *one spot left* for the STORM Christmas dinner _next week monday_. Since we had some questions, _yes_, you should come to the event in *formal attire* (you don't need a black tie).
+Tomorrow we will be having the *Python exam prep* for AI students at *17:30* ⏰ in NU-3B05 📍.
+
+Finally, we will be having the *Christmas movie night* on Friday at _16:00_ ⏰ in *WN KC-137* 📍. with *_free pizza_*. The sign-up form is down below. Don't forget to vote for your favorite movie 🎥!
+
+*Movie Night sign-up form*:
+https://docs.google.com/forms/d/e/1FAIpQLSc-jFMx4JMh1T_gpPCWh8c-PeTnEahJyUtpzkp63V8iPGKA9w/viewform?usp=sf_link
+*SIGN IN TO GOOGLE WITH YOUR VU EMAIL, OTHERWISE YOU WON'T HAVE ACCESS!!*
+
+## Exam prep
+
+Hello Everyone!  
+Since this is exam week, we won’t be hosting any study sessions or game nights 😔. Do get you ready for your exams, we will have two **_**exam preparations****_ for the _courses _Intro to Python\ _and _Intro to Psychology__.
+
+****Intro to Psychology📚****
+
+_Time **⏰** and date **📆_ : **Thursday 26/10 18:00****
+
+**Room:📍**NU-3A65****  
+****Intro to Python**📚**
+
+_Time **⏰** and date **📆_ : **Friday 27/10 15:30****
+
+**Room:📍**NU-3A65****
+
+The python course will have a kahoot quiz 🧐 (Winners might get a prize!). For the psychology course we have a mock exam which we will go over together.  
+That’s not all tho, keep your eyes peeled 👀 for the upcoming Halloween event 🎃👻. More information will follow soon‼️
+
+### Disclaimers:
+❗DISCLAIMER: This Kahoot! doesn't guarantee at all that (any of) the questions will be on your exam. Anything said by me today cannot be used as an argument when you get a question wrong on the exam. Use this Kahoot! as a way to genuinely practice by not just taking the answers for granted but asking yourself "why". Good luck!❗
+
+Some of you said that the questions 31 and 34 on the Kahoot! might be wrong, so pay careful attention to those.
+
+For any questions regarding the format and the grading system of your coming exam, please go to Canvas or reach out to one of the TA's or the prof. Because we as mentors can NOT know 100%.
+
+
+

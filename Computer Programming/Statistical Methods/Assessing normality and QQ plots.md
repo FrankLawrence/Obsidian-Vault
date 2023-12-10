@@ -43,7 +43,7 @@ Draw (an imaginary) straight line through the middle of QQ plot.
   => Left tail of $N(0,1)$ is heavier than left tail of sample
 - Are there points on the right side below the straight line?
   => Right tail of sample is heavier than right tail of $N(0,1)$
-- Are there points on the left side above the straight line?
+- Are there points on the right side above the straight line?
   => Right tail of $N(0,1)$ is heavier than right tail of sample
   
 > [!summary]- How to assess normality of data with QQ plot
