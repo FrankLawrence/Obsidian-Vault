@@ -22,7 +22,7 @@
 		{"id":"5f36686c69eff3a1","type":"text","text":"9 Bits","x":85,"y":-300,"width":185,"height":50},
 		{"id":"38df52912828fe6f","type":"text","text":"9 Bits","x":270,"y":260,"width":185,"height":50},
 		{"id":"5b16d58eebb1bcf4","type":"text","text":"9 Bits","x":85,"y":260,"width":185,"height":50},
-		{"id":"5d2e335804030de9","type":"text","text":"512 entries\n4k object size","x":387,"y":380,"width":160,"height":100},
+		{"id":"5d2e335804030de9","type":"text","text":"512 entries\n4k object size","x":387,"y":380,"width":173,"height":60},
 		{"id":"927c9c704b214ed9","type":"text","text":"","x":497,"y":-180,"width":123,"height":60},
 		{"id":"728d35e527a82945","type":"text","text":"","x":497,"y":-120,"width":123,"height":60},
 		{"id":"55ecd11fe8cb9827","type":"text","text":"","x":497,"y":-60,"width":123,"height":60},

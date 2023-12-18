@@ -215,4 +215,24 @@ Some of you said that the questions 31 and 34 on the Kahoot! might be wrong, so 
 For any questions regarding the format and the grading system of your coming exam, please go to Canvas or reach out to one of the TA's or the prof. Because we as mentors can NOT know 100%.
 
 
+## Notes
 
+Hello everyone! As promised, here are the *notes* for the course Pervasive Computing. These notes are a summary of the material covered on the lecture slides from our previous experiences in this course in the last period, and as such the material might have _changed a bit_. Additionally, our notes may leave out some information found on the slides. Therefore, we would like to emphasize that we do not take any responsibility for the accuracy or completeness of these notes. They are simply meant to be a *helpful resource for you as you navigate the course material*. Thank you, and best of luck in your studies - the mentor team.
+
+## Email Go-karting
+Dear Race Planet Team, I hope this email finds you well. I am reaching out on behalf of the mentor program at Vrije University to inquire about the possibility of organizing a go-karting and laser tag event at your venue, Race Planet, on January 19th or 20th, similar to the event we held last year. We were highly satisfied with the previous event, and we would like the same experience for our first-year students. The details for the previous event are as follows:
+
+- Time: 7:00 pm until approximately 9:30 pm
+- Program: 10-minute go-kart race + 12-minute laser tag
+- Price: €29.50 per person for the combination ticket of karting and laser tag
+- Number of Karting Spots at One Time: 11
+- Maximum Number of Participants for Karting and Laser Tag: 55 (excluding mentors)
+- Snacks: 15 vegetarian and 20 regular snacks provided after the activities
+- Drinks: 65 coins for soft drinks, beer, or wine
+- Total Cost: Approximately €2,100
+
+We kindly request a similar arrangement for this year's event. Please confirm if the mentioned date is available and provide the total cost and any necessary details for the booking. We also kindly ask if we can get this invoiced by the VU. We are looking forward to the possibility of hosting our event at Race Planet again. Thank you for your attention, and we hope to hear from you soon. 
+
+Best regards,
+Frank Lawrence
+Mentor Program, Vrije University

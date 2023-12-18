@@ -23,59 +23,20 @@
             }
           },
           {
-            "id": "7756690bfb417d67",
+            "id": "619dce40e1baa698",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Programming/Operating Systems/Input-Output.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "dc65cdc1b0ad7018",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Programming/Operating Systems/Memory Management.md",
+                "file": "Computer Programming/Statistical Methods/Statistical Methods.md",
                 "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "9cecfef28b719410",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Personal/Callouts.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "c1dd95810e222f0a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Programming/Computer Organization/Input-Output Organization.md",
-                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -94,7 +55,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cache",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -150,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Programming/Computer Organization/Input-Output Organization.md",
+                "file": "Computer Programming/Statistical Methods/Statistical Methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -189,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Programming/Computer Organization/Input-Output Organization.md"
+                "file": "Computer Programming/Statistical Methods/Statistical Methods.md"
               }
             }
           },
@@ -199,7 +160,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Programming/Computer Organization/Input-Output Organization.md",
+                "file": "Computer Programming/Statistical Methods/Statistical Methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -223,9 +184,9 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Computer Programming/Computer Organization/Input-Output Organization.md",
+                "file": "Computer Programming/Statistical Methods/Statistical Methods.md",
                 "options": {
-                  "collapse-filter": true,
+                  "collapse-filter": false,
                   "search": "",
                   "localJumps": 1,
                   "localBacklinks": true,
@@ -276,58 +237,57 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "c1dd95810e222f0a",
+  "active": "619dce40e1baa698",
   "lastOpenFiles": [
-    "Computer Programming/Operating Systems/Input-Output.md",
-    "Personal/Callouts.md",
+    "Computer Programming/Promotion text.md",
+    "Computer Programming/Statistical Methods/Statistical Methods.md",
+    "Computer Programming/Statistical Methods/Two samples problems.md",
+    "Dashboard.md",
+    "Computer Programming/Operating Systems/Processes and Threads.md",
     "Computer Programming/Operating Systems/Operating Systems.md",
+    "Computer Programming/Operating Systems/Input-Output.md",
     "Computer Programming/Operating Systems/File Systems.md",
     "Computer Programming/Operating Systems/Memory Management.md",
-    "Files/Spread i-nodes over disk.png",
-    "Files/A file system to be dumped.png",
-    "Files/Block size impact.png",
-    "Files/Handle long file names.png",
-    "Files/Directory entry.png",
-    "Files/FAT12 Layout.png",
-    "Files/UNIX i-node.png",
-    "Files/Linked list allocation using a file allocation table in main memory.png",
-    "Files/Storing a file as a linked list of disk blocks.png",
-    "Files/Virtual File Systems.png",
+    "Four-Level Page Tables.canvas",
     "Computer Programming/Operating Systems/Operating Systems Introduction.md",
+    "Files/Layers of the I-O system and the main functions of each layer.png",
+    "Files/PDF/Chapter 03 - Memory Management Alt 3-20.pptx.pdf",
+    "Files/MULTICS virtual memory segment descriptor.png",
+    "Files/MULTICS virtual memory.png",
+    "Files/Page fault handling with an external pager.png",
+    "Personal/Callouts.md",
+    "Files/Pasted image 20231210234024.png",
+    "Files/User and system time, memory allocation.png",
+    "Files/Demand paging 2.png",
+    "Files/Demand paging 1.png",
+    "Files/PDF/Chapter 06 - Deadlocks Alt 6-19.pptx.pdf",
+    "Files/PDF/Chapter 04 - MOS FileSystems.pptx.pdf",
+    "Files/PDF/Chapter 02 - Processes and Threads.pptx.pdf",
+    "Files/PDF/Chapter 05 - Input-Output Alt 5-35.pptx.pdf",
+    "Files/PDF/Chapter 01. intro.pdf",
+    "Files/PDF/Statistical Methods Lecture6.pdf",
+    "Files/PDF/Statistical Methods Lecture5.pdf",
+    "Files/PDF/Statistical Methods Lecture4.pdf",
+    "Files/PDF/Statistical Methods Lecture3.pdf",
+    "Excalidraw/Drawing 2023-12-10 21.43.55.excalidraw.md",
+    "Files/SCR-20231210-rarm.png",
+    "Files/Shortest Seek First.png",
+    "Computer Programming/Computer Organization/Input-Output Organization.md",
     "Computer Programming/Computer Organization/The Memory System.md",
     "Computer Programming/Computer Organization/Computer Organization.md",
-    "Four-Level Page Tables.canvas",
     "Slab Allocator.canvas",
     "Untitled.canvas",
     "Computer Programming/Statistical Methods/Statistical Methods Assessment.md",
-    "Computer Programming/Statistical Methods/Statistical Methods.md",
     "Computer Programming/Uni Courses🎓.md",
-    "Dashboard.md",
     "Computer Programming/Web Technology/Javascript in the Browser.md",
     "Miscellaneous/Testing.md",
-    "Computer Programming/Operating Systems/Processes and Threads.md",
     "Computer Programming/Statistical Methods/Contingency tables.md",
     "Computer Programming/Statistical Methods/Goodness-of-fit.md",
     "Computer Programming/Statistical Methods/Simple linear regression.md",
     "Computer Programming/Statistical Methods/Relationship between variables and linear correlation.md",
-    "Computer Programming/Statistical Methods/Two samples problems.md",
     "Computer Programming/Statistical Methods/Testing a Claim about a mean.md",
     "Computer Programming/Statistical Methods/Basics of Hypothesis Testing - additional information.md",
-    "Computer Programming/Statistical Methods/Testing a Claim about a proportion.md",
-    "Computer Programming/Statistical Methods/Basics of Hypothesis Testing.md",
-    "Computer Programming/Statistical Methods/Describing Data.md",
-    "Computer Programming/Statistical Methods/Introduction to Probability.md",
     "Interests/Programming/Unix Command Reference.canvas",
-    "Files/Statistical Methods Lecture5.pdf",
-    "Files/Statistical Methods Lecture4.pdf",
-    "Computer Programming/Analysis",
-    "Files/Statistical Methods Lecture6.pdf",
-    "Files/Statistical Methods Lecture1.pdf",
-    "Files/Statistical Methods Lecture3.pdf",
-    "Files/Statistical Methods Lecture2.pdf",
-    "Files/SM Lecture2.pdf",
-    "Files/SM Lecture1.pdf",
-    "Files/Lecture1.pdf",
     "Computer Programming/Projects/Clinical Trials API.canvas",
     "Diffie-Hellman Key Exchange.canvas",
     "Testing Principle.canvas",

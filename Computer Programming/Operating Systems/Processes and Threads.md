@@ -32,7 +32,7 @@ Sooner or later the process will terminate, usually due to one of the following 
 4. Killed by another process (involuntary)
 
 ## Process Management
-There are a few popular was of managing processes:
+There are a few popular ways of managing processes:
 - `fork`: Creates a new process
 	- Child is a "private" *clone* of the parent
 	- Shares *some* resources with the parent
@@ -46,7 +46,7 @@ There are a few popular was of managing processes:
 ## Process States
 A process can be in either of 3 states, as shown in the state diagram below: 
 1. Running (actually using the CPU at that instant)
-2. Ready (runnable; temporarily sopped to let another process run)
+2. Ready (runnable; temporarily stopped to let another process run)
 3. Blocked (unable to run until some external event happens)
 
 ```mermaid
@@ -83,19 +83,20 @@ When we stop a process, all sorts of information is stored in the operating syst
 > | Children's CPU time       |                               |                   |
 > | Time of next alarm        |                               |                   |
 
-The scheduler must some how stop a process, and therefore uses **interrupts**. When an interrupt is called, we deallocate the CPU with the help of the interrupt hardware. To do this we need control, so we allow the scheduler to periodically get control, whenever the hardware generates an interrupt. The specific interrupt service procedure is pointed to be the **interrupt vector**:
+The scheduler must some how stop a process, and therefore uses **interrupts**. When an interrupt is called, we deallocate the CPU with the help of the interrupt hardware. To do this we need control, so we allow the scheduler to periodically get control, whenever the hardware generates an interrupt. The specific interrupt service procedure is pointed to by the **interrupt vector**:
 - Associated with each I/O device and interrupt line
 - Part of the **interrupt descriptor table**
 - Contains the start address of an OS-provided internal procedure (**interrupt handler**)
+
 The interrupt handler continues the execution.
 
 > [!summary] What happens when an interrupt occurs
 > 1. Hardware stacks program counter, etc.
-> 2. Hardware loads new program counter form interrupt vector
+> 2. Hardware loads new program counter from interrupt vector
 > 3. Assembly language procedure saves registers
 > 4. Assembly language procedure sets up new stack.
 > 5. C interrupt service runs (typically reads and buffers input)
-> 6. Scheduler decides which process is to run next
+> 6. [[#Scheduling|Scheduler]] decides which process is to run next
 > 7. C procedure returns to the assembly code
 > 8. Assembly language procedure starts up new current process
 
@@ -353,4 +354,4 @@ There are two different types of schedulers: ones that are *preemptive* and can 
   $P_i$: frequency of process $i$
 
 ---
-References:
+References: [[Chapter 02 - Processes and Threads.pptx.pdf]]
