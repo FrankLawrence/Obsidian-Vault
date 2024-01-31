@@ -1,0 +1,5 @@
+- Which was one of the reasons for doing large computation in the Netherlands before 1940?
+	- Land reclamation projects
+- Why was Bolter's defining technology" bringing the use of the language or memory metaphor to a new level?
+	- It was bringing the metaphor back to descrive it's origins. natural language and human memroy in term of computer technology (logical) language and storage
+- 

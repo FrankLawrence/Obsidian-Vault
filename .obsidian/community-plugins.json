@@ -21,5 +21,7 @@
   "obsidian-contextual-typography",
   "quickadd",
   "obsidian-dictionary-plugin",
-  "obsidian-tikzjax"
+  "obsidian-tikzjax",
+  "obsidian-focus-mode",
+  "cm-typewriter-scroll-obsidian"
 ]

@@ -129,6 +129,57 @@ Lastly, we will also have a fun *photography challenge*. If you want a chance to
 *Event Sign up form*:
 https://docs.google.com/forms/d/e/1FAIpQLSdjQA8pbs4DqoiewwEMaGL8sQKoR8FvDjgmcHqkSFhZIVVhDg/viewform?usp=sf_link
 
+## STORM Winter Gala
+Good afternoon first-year students! We hope you are enjoying your time at the university so far 🎉 We are excited to invite you to the *Winter Gala* on _Wednesday_ organized by *STORM*, January 24th, 2024! Here are the details:  
+🎩 **What**: Winter Gala  
+📅 **When**: Wednesday, 24th January 2024  
+📍 **Where**: Jimmy Woo, Korte Leidsedwarsstraat 18, 1017 RC Amsterdam  
+⏰ **Time**: Entrance from 22:00 to 23:30 
+
+🌟 _Description_: Get ready for an enchanting evening at our Winter Gala! Join us for a night of elegance and celebration. Dress to impress and dance the night away. We have limited spots available, so be sure to sign up early. To sign up for the event, please fill out the form below. Don't miss out on this memorable night!  
+*Sign Up Form*: https://forms.gle/XbKMcfD3DiSU6E9F6
+
+We can't wait to see you there! 🎩🎉
+
+## Karting/Lasertag Event
+We know how hard it is to go back to university after the relaxing winter holiday❄️, that's why we decided to make it a bit more fun😁.
+
+Next week on *Saturday the 20th of January* we have planned a go-karting _and_ laser-tag event at *Race Planet Amsterdam* https://maps.app.goo.gl/HMY914FqDCpMGdMt7‼️
+*Race against 🏎️💨 your friends*, trying to claim the *_first place_* 🥇!
+After that, compete against others in a _terrifying laser tag arena_ 🔫 for *DOMINATION*.
+Of course we will also be having *free snacks and a free drink* 🥨🍺 (Alcohol only after racing).
+
+You _must_ show up between *18:30 and 19:00*, otherwise you will be denied access, so *be punctual*⏱️❗
+To take part you must be *18 years old and older*.
+You will also be held accountable for *damages* caused as a result of collisions, crashes or reckless driving. We are also not liable for loss, theft or damage of properties.
+*Sign up here* 👉: https://docs.google.com/forms/d/e/1FAIpQLSeKlUIgHICwTJX9uqZZ8sS_bE1V52RUweq0z_przqwsLSdEqw/viewform?usp=sf_link
+
+## Valentine Club
+🎉🌟 *Exclusive Club Night at INN* 🌟🎉
+
+Greetings everyone!
+🚨 Big News Ahead! 🚨
+
+We've managed to snag *50 exclusive tickets* for an unforgettable night at *Club INN*! Check out the location here: INN Club Location https://maps.app.goo.gl/q3AVLZFiXq38QYA97.
+🎶 *Double the Beats*: Get ready to immerse yourself in a world of rhythm with *two separate stages*:
+   - Stage 1: Commercial Pop & Hits for those who love the mainstream vibes.
+   - Stage 2: Underground House/Tech for the soulful, deep beat enthusiasts.
+   
+🌈 *Wristband Wonders*: Express yourself with our unique wristbands, indicating your relationship status - 'Single', 'Complicated', or 'Taken'. A fun way to mingle or just enjoy the vibe your way!
+🕙 *Timing*: Mark your calendars for **22:00 - 03:00**. A night of music, dance, and unforgettable memories.
+🤝 *In Good Company*: We're joining forces with AIM, KallioPPE, Mercurius, VSPA, Merlijn, Metis, and Uni Life. Maybe ESN and AIM Utrecht will join us too!
+🎟️ *Grab Your Ticket*: Limited tickets available! Sign up here 👉: https://forms.gle/H4sZrWzHCU4ptM1QA to secure your spot.
+
+Let's make it a night to remember! 🎉
+Please drink responsibly. Age 18+ event. Club rules and dress code apply.
+## Weekly Lectures
+Good Morning Students! We have something amazing to announce! 🎉
+
+Although you are taught a lot in your courses, there are some crucial skills and tools that students use hundreds of hours over the course of their education, that are left out!! In the next couple of weeks, the mentor team will be hosting lectures for all sorts of topics.
+The first lecture will be *next week on Wednesday* 📅 at *13:00* ⏰. We will be show casing how to use *git and Github* for collaborative work and some helpful tools 🛠️. We will also be sharing *_notes_* 🗒️ from the mentors, and a place where you can contribute! (Even if you do know the basics of git, we still recommend that you come). We know that you have to attend to your studies, so we'll try to keep it as brisk as possible. 
+Make sure that you at least have _git installed_, since you'll be needing it during the presentation!
+
+The mentor team wishes you all the best with your upcoming exams 🍀!
 # Weekly Event Text:
 ## Example 1
 Good monday everyone! 
@@ -191,7 +242,7 @@ https://docs.google.com/forms/d/e/1FAIpQLSc-jFMx4JMh1T_gpPCWh8c-PeTnEahJyUtpzkp6
 ## Exam prep
 
 Hello Everyone!  
-Since this is exam week, we won’t be hosting any study sessions or game nights 😔. Do get you ready for your exams, we will have two **_**exam preparations****_ for the _courses _Intro to Python\ _and _Intro to Psychology__.
+Since this is exam week, we won’t be hosting any study sessions or game nights 😔. To get you ready for your exams, we will have two **_**exam preparations****_ for the _courses _Intro to Python\ _and _Intro to Psychology__.
 
 ****Intro to Psychology📚****
 

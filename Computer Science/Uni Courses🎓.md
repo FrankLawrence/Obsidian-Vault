@@ -33,6 +33,9 @@ Created: 2022-09-06 09:35
 - [[Statistical Methods]]
 - [[Secure Programming]]
 ## P3
+- [[Professional Development]]
+- [[Academic Writing]]
+- [[History of CS]]
 ## P4
 ## P5
 ## P6

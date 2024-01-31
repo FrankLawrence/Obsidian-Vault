@@ -30,7 +30,7 @@ tags: MOC
 	2. Quantenobjekt Photon
 	3. Quantenobjekt Elektron
 6. [[Formelsammlung]]
-7. [[Questions]]
+7. [[School Subjects/Physics/Questions]]
 ### Reference
 1. [[K2-Phy-Magn.&Spul..pdf]]
 2. [[ElektrischeFelder.pptx]]
