@@ -13,28 +13,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Mentor Program Lectures.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "960e5fe58e71d434",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Promotion text.md",
+                "file": "Dashboard.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -101,7 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Promotion text.md",
+                "file": "Dashboard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Promotion text.md",
+                "file": "Dashboard.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +127,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Promotion text.md"
+                "file": "Dashboard.md"
               }
             }
           },
@@ -163,9 +149,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
-      "templater-obsidian:Templater": false,
       "markdown-importer:Open format converter": false,
       "random-note:Open random note": false,
       "audio-recorder:Start/stop recording": false,
@@ -176,11 +159,15 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
+      "templater-obsidian:Templater": false,
       "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
     }
   },
-  "active": "960e5fe58e71d434",
+  "active": "aafe507db99ae9c1",
   "lastOpenFiles": [
+    "Dashboard.md",
     "Computer Science/Mentor Program Lectures.md",
     "Computer Science/Promotion text.md",
     "Computer Programming/Promotion text.md",
@@ -207,7 +194,6 @@
     "Computer Science/Web Technology/Mobile Web Development.md",
     "Computer Science/Web Technology/Javascript in the Browser.md",
     "Computer Science/Web Technology/Introduction to Web Programming.md",
-    "Computer Science/Web Technology/Internet basics.md",
     "Computer Science/Secure Programming/Diffie-Hellman Key Exchange.canvas",
     "Computer Science/Projects/Clinical Trials API.canvas",
     "Computer Science/Pervasive Computing/Testing Principle.canvas",
