@@ -4,20 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "b6ffa9dc58b9af17",
+        "id": "8f75042e830e43ed",
         "type": "tabs",
         "children": [
           {
-            "id": "aafe507db99ae9c1",
+            "id": "533653947c68cbc4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Dashboard.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -70,8 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4cb2d27869f02707",
@@ -87,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Dashboard.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Dashboard.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Dashboard.md"
-              }
+              "state": {}
             }
           },
           {
@@ -161,13 +151,30 @@
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
-      "templater-obsidian:Templater": false,
-      "obsidian-focus-mode:Toggle Focus Mode (Shift + Click to show active pane only)": false
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "aafe507db99ae9c1",
+  "active": "2160ab9d0795b4b5",
   "lastOpenFiles": [
+    "The Effects of Misunderstanding Data Collection.md",
+    "Interests/Security and Privacy/Privacy attitudes and privacy behaviour.md",
+    "Interests/Security and Privacy/Exploring Motivations for Online Privacy Protection Behavior.md",
+    "Computer Programming/Academic Writing/Privacy concerns, dead or misunderstood?.md",
+    "Interests/Security and Privacy/\"I've Got Nothing to Hide\" and Other Misunderstandings of Privacy.md",
+    "Personal/Present Ideas.md",
+    "Computer Programming/Computational Thinking for Coders/3.1 Debugging.md",
+    "Computer Programming/Computational Thinking for Coders/3.3 Problem Exploration.md",
+    "Computer Programming/Computational Thinking for Coders/5.1  Reverse Polish Notation.md",
+    "Computer Programming/Computational Thinking for Coders/5.2 Containers.md",
+    "Computer Programming/Computational Thinking for Coders/5.3 Convergence Detector.md",
+    "Computer Programming/Computer Programming/H4 Knight's Tour.md",
+    "Computer Programming/Computer Programming/H5 The Maze generator.md",
+    "Computer Programming/Mentor Program/Promotion text.md",
+    "Computer Programming/Academic Writing",
+    "Interests/Security and Privacy/Understanding Privacy.md",
+    "Interests/Security and Privacy/Why we should care about privacy.md",
     "Dashboard.md",
+    "Interests/Programming/Bash Oneliners.md",
     "Computer Science/Mentor Program Lectures.md",
     "Computer Science/Promotion text.md",
     "Computer Programming/Promotion text.md",
@@ -176,24 +183,7 @@
     "Computer Science/Operating Systems/Operating Systems.md",
     "Computer Science/Operating Systems/Operating Systems Introduction.md",
     "Computer Science/Operating Systems/Memory Management.md",
-    "Computer Science/Operating Systems/Input-Output.md",
     "Computer Science/Operating Systems/Four-Level Page Tables.canvas",
-    "Computer Science/Operating Systems/File Systems.md",
-    "Computer Science/Web Technology/Web Technology.md",
-    "Computer Science/Web Technology/Web Technology Structure.md",
-    "Computer Science/Web Technology/Web Technology Outline.md",
-    "Computer Science/Web Technology/Web Servers (REST architecture).md",
-    "Computer Science/Web Technology/Web Science.md",
-    "Computer Science/Web Technology/Semantic versioning.md",
-    "Computer Science/Web Technology/Search on the Web.md",
-    "Computer Science/Web Technology/Node.js.md",
-    "Computer Science/Web Technology/React.md",
-    "Computer Science/Web Technology/Pupular middleware for express.md",
-    "Computer Science/Web Technology/Primary layers of the full stack.md",
-    "Computer Science/Web Technology/More HTML.md",
-    "Computer Science/Web Technology/Mobile Web Development.md",
-    "Computer Science/Web Technology/Javascript in the Browser.md",
-    "Computer Science/Web Technology/Introduction to Web Programming.md",
     "Computer Science/Secure Programming/Diffie-Hellman Key Exchange.canvas",
     "Computer Science/Projects/Clinical Trials API.canvas",
     "Computer Science/Pervasive Computing/Testing Principle.canvas",
@@ -212,7 +202,6 @@
     "Computer Science/Object Oriented and Functional Programming",
     "Computer Science/Networks and Graphs",
     "Computer Science/Logic and Sets",
-    "Computer Science/Linear Algebra",
     "Files/Twenty Five (2006).jpg",
     "Files/EDVAC logical architecture.png",
     "Files/ENIAC.jpeg"

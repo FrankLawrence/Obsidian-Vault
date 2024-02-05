@@ -173,13 +173,31 @@ We've managed to snag *50 exclusive tickets* for an unforgettable night at *Club
 Let's make it a night to remember! 🎉
 Please drink responsibly. Age 18+ event. Club rules and dress code apply.
 ## Weekly Lectures
-Good Morning Students! We have something amazing to announce! 🎉
+Good Afternoon Students! We have something amazing to announce! 🎉
 
 Although you are taught a lot in your courses, there are some crucial skills and tools that students use hundreds of hours over the course of their education, that are left out!! In the next couple of weeks, the mentor team will be hosting lectures for all sorts of topics.
 The first lecture will be *next week on Wednesday* 📅 at *13:00* ⏰. We will be show casing how to use *git and Github* for collaborative work and some helpful tools 🛠️. We will also be sharing *_notes_* 🗒️ from the mentors, and a place where you can contribute! (Even if you do know the basics of git, we still recommend that you come). We know that you have to attend to your studies, so we'll try to keep it as brisk as possible. 
 Make sure that you at least have _git installed_, since you'll be needing it during the presentation!
 
 The mentor team wishes you all the best with your upcoming exams 🍀!
+## Pub Quiz
+Good evening students!
+
+Take part in our exiting pub quiz 😁 on the 8th of January 📆 at 17:30 ⏰. Compete against others while enjoying some snacks and drinks 🍻 with us!
+If you want to join, come to Tuinzaal in the WN building at wing S.
+Join via the sign up form here 👉: https://docs.google.com/forms/d/e/1FAIpQLSfdqAioUT7c78QLEcVzJOhZvJ8ZnvMV6ELoLUqYJ-Fgt_KzwA/viewform?usp=sf_link
+## February Events
+Good evening students 👋, we are happy to have so much planned for this Month!
+
+🎓 *Extracurricular lectures*: These lectures will be showcasing helpful tools that are indispensable to all. They are designed to be *interactive*, so they won't be boring lectures 😴 . 
+
+🧐 *Pub quiz*: Come to _Tuinzaal_ in the _Wn building_ at **17:30** ⏰ and have some snacks and drinks 🍻 with us! The winner of the quiz will also receive a *_prize_* 🏆. Join via this sign up form: https://forms.gle/c5k8zpZQzKn4a8mX6
+
+🪩 *Club INN party*: Celebrate Valentines with a blast at Club INN  ‼️ (https://maps.app.goo.gl/q3AVLZFiXq38QYA97). Show up before *midnight* and enjoy the party with students from ton of other student associations. Grab your tickets here: https://forms.gle/H4sZrWzHCU4ptM1QA
+
+👀 *Upcoming Events*: Club INN will _not be the only event_ that we will be having this month, so keep an ear open 👂 for future announcements.
+
+⚽️ *Football*: Come and play with the *Dutch Student League* every week on Sunday at _16:30_ here: https://maps.app.goo.gl/VnfY65B2HYVzwy4S8?g_st=ic
 # Weekly Event Text:
 ## Example 1
 Good monday everyone! 

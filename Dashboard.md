@@ -12,7 +12,7 @@ banner_y: 0.52858
 	- [Series](obsidian://open?vault=Media%20Database%20Vault&file=Series)
 - Friends and Family
 	- [[;).canvas|;)]]
-	- [[Present Ideas]] / [[Birthdays]]
+	- [[Present Ideas]]
 
 # Interests
 - Security and Privacy
@@ -35,8 +35,10 @@ banner_y: 0.52858
 - [[Uni Courses🎓]]
 	- [[Linear Algebra]]
 	- [[Computer Networks]]
-	- [[Pervasive Computing]]
-	- [[Object Oriented and Functional Programming]]
+	- [[Computer Organization]]
+- Mentor Program
+	- [[Promotion text]]
+	- [[Mentor Program Lectures]]
 
 # Recents
 ```dataview

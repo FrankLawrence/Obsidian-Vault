@@ -1,5 +1,5 @@
 ---
-Tags: Homework/Computer_Programming
+Tags:
 Created: 2022-09-29 21:20
 ---
 (Links:: [[Computer Programming]])
