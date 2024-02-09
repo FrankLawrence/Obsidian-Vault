@@ -37,7 +37,10 @@ Created: 2022-09-06 09:35
 - [[Academic Writing]]
 - [[History of CS]]
 ## P4
+- [[Software Design]]
+- [[Human Computer Interaction]]
 ## P5
+- [[Databases]]
 ## P6
 ___
 References:

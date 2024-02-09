@@ -305,3 +305,10 @@ We kindly request a similar arrangement for this year's event. Please confirm if
 Best regards,
 Frank Lawrence
 Mentor Program, Vrije University
+## Git lecture and pub quiz
+Good afternoon students!
+Regarding the Git and Github tutorial *tomorrow*, it will take place at *17:30* ⏰ in *NU-3B05* 📍
+Don't forget to have git installed and a working _Github account_!
+
+If you want to take part in the _*pub quiz*_ on *Thursday* at *17:30-20:00*, you can sign up here: https://forms.gle/c5k8zpZQzKn4a8mX6
+Free _snacks and drinks_ 🍻 are included! You will be competing against other *_pairs_* to win our special prize 🏆!
