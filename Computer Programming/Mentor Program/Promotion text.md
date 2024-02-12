@@ -198,6 +198,22 @@ Good evening students 👋, we are happy to have so much planned for this Month!
 👀 *Upcoming Events*: Club INN will _not be the only event_ that we will be having this month, so keep an ear open 👂 for future announcements.
 
 ⚽️ *Football*: Come and play with the *Dutch Student League* every week on Sunday at _16:30_ here: https://maps.app.goo.gl/VnfY65B2HYVzwy4S8?g_st=ic
+## Valentines Dinner
+🌹 **Valentine's 3 Course Dinner** 🌹
+
+Join us for a delightful evening at **Bar Botanique** on **23 Feb** at **20:30**. Indulge in a special 3-course dinner and enjoy the romantic ambiance. Don't miss the chance to gift a rose to a special someone (anonymously, of course)!
+
+⚠️ Limited spots available, so sign up soon: https://forms.gle/BrNbeUsYsJNN3baE7
+
+⚠️ Only 2 drinks per person, with options including beer, wine, or a soft drink. Please indicate any food allergies or special requirements when you sign up.
+
+👔 Dress Code: Business Casual
+
+🍽️ **Menu and Food Preference Form**: Choose one entree, one main course, and one dessert. Main courses include fries and green salad.
+
+📍 **Location**: Bar Botanique, Eerste Van Swindenstraat 581, 1093 LC Amsterdam
+
+We can't wait to celebrate with you! Let's make it a night to remember.
 # Weekly Event Text:
 ## Example 1
 Good monday everyone! 

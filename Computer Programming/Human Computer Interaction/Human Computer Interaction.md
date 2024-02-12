@@ -7,6 +7,7 @@ Tags: MOC course
 - [[Human Computer Interaction Assessment]]
 ## Assignments
 ## Topics
+- [[HCI Historical Context]]
 ## Lectures
 ## Extras
 ### Tips
