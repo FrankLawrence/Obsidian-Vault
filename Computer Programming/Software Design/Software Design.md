@@ -7,8 +7,11 @@ Tags: MOC course
 - [[Software Design Structure]]
 - [[Software Design Assessment]]
 ## Assignments
+- [[SD Project]]
+- [[SD Assignment 1]]
+- [[SD Assignment 2]]
+- [[SD Assignment 3]]
 ## Topics
-## Lectures
 ## Extras
 ### Tips
 ### Emails and Resources

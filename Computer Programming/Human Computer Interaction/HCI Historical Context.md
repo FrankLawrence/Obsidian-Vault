@@ -18,6 +18,8 @@ Created: 2024-02-12 01:13:39
 - Invention of the mouse (Douglas Engelbart, 1963)
 	- the light pen was too physically demanding
 	- potentiometers were controlled by two perpendicular wheels, that spun when moving the mouse
+	- selection operation was needed to interact with the user interface (*point-select*/*point-and-click operation*)
+	- operating away from the screen required an position indicator (cursor)
 
 ---
 References:
