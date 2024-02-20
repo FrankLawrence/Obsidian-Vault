@@ -65,7 +65,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Programming/Linear Algebra/Linear Algebra.md",
+                "file": "Computer Programming/Computer Organization/Arithmetic.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Programming/Linear Algebra/Linear Algebra.md",
+                "file": "Computer Programming/Computer Organization/Arithmetic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Programming/Linear Algebra/Linear Algebra.md",
+                "file": "Computer Programming/Computer Organization/Arithmetic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Programming/Linear Algebra/Linear Algebra.md"
+                "file": "Computer Programming/Computer Organization/Arithmetic.md"
               }
             }
           },
@@ -219,15 +219,17 @@
   },
   "active": "a690fb3fd5047483",
   "lastOpenFiles": [
-    "Computer Programming/Linear Algebra/Introduction to Linear Transformations.md",
+    "Computer Programming/Computer Organization/Computer Organization.md",
+    "Computer Programming/Computer Organization/Logic Circuits.md",
     "Computer Programming/Linear Algebra/Linear Algebra.md",
+    "Computer Programming/Linear Algebra/Solution Sets of Linear Systems.md",
+    "Computer Programming/Linear Algebra/Introduction to Linear Transformations.md",
     "Computer Programming/Linear Algebra/Linear Independence.md",
     "Computer Programming/Linear Algebra/The Matrix Equation Ax=b.md",
     "Computer Programming/Linear Algebra/Vector Equations.md",
     "Computer Programming/Linear Algebra/Row Reduction and Echelon Forms.md",
     "Computer Programming/Linear Algebra/Systems of Linear Equations.md",
     "Computer Programming/Human Computer Interaction/HCI Historical Context.md",
-    "Computer Programming/Computer Organization/Computer Organization.md",
     "Computer Programming/Computer Organization/Instruction set reference.md",
     "Computer Programming/Software Design/SD Assignment 1.md",
     "Computer Programming/Software Design/SD Project.md",
@@ -237,14 +239,12 @@
     "Computer Programming/Human Computer Interaction/Human Computer Interaction.md",
     "Computer Programming/Computer Organization/Binary, signed-integer representations.md",
     "Computer Programming/Computer Organization/Basic Structure of Computers.md",
-    "Computer Programming/Computer Organization/Logic Circuits.md",
     "Personal/Mermaid.md",
     "Personal/Query language.md",
     "Personal/Problems.md",
     "Personal/Quotes.md",
     "Personal/Templater.md",
     "Personal/Winter Holiday.md",
-    "Personal/Personal.md",
     "Files/Microprogrammed control unit organization.png",
     "Computer Programming/Software Design",
     "Computer Programming/Human Computer Interaction",
