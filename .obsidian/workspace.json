@@ -60,12 +60,12 @@
             }
           },
           {
-            "id": "a690fb3fd5047483",
+            "id": "5d2277d13b2e5cc0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Programming/Computer Organization/Arithmetic.md",
+                "file": "Computer Programming/Logic and Sets/Algebra of Sets.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -140,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Programming/Computer Organization/Arithmetic.md",
+                "file": "Computer Programming/Logic and Sets/Algebra of Sets.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Programming/Computer Organization/Arithmetic.md",
+                "file": "Computer Programming/Logic and Sets/Algebra of Sets.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Programming/Computer Organization/Arithmetic.md"
+                "file": "Computer Programming/Logic and Sets/Algebra of Sets.md"
               }
             }
           },
@@ -217,8 +217,14 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a690fb3fd5047483",
+  "active": "5d2277d13b2e5cc0",
   "lastOpenFiles": [
+    "Computer Programming/Logic and Sets/Untitled.md",
+    "Computer Programming/Logic and Sets/Algebra of Sets.md",
+    "Computer Programming/Logic and Sets/Logic and Sets.md",
+    "Computer Programming/Human Computer Interaction/HCI Historical Context.md",
+    "Computer Programming/Computer Organization/Arithmetic.md",
+    "Computer Programming/Mentor Program/Promotion text.md",
     "Computer Programming/Computer Organization/Computer Organization.md",
     "Computer Programming/Computer Organization/Logic Circuits.md",
     "Computer Programming/Linear Algebra/Linear Algebra.md",
@@ -229,7 +235,6 @@
     "Computer Programming/Linear Algebra/Vector Equations.md",
     "Computer Programming/Linear Algebra/Row Reduction and Echelon Forms.md",
     "Computer Programming/Linear Algebra/Systems of Linear Equations.md",
-    "Computer Programming/Human Computer Interaction/HCI Historical Context.md",
     "Computer Programming/Computer Organization/Instruction set reference.md",
     "Computer Programming/Software Design/SD Assignment 1.md",
     "Computer Programming/Software Design/SD Project.md",
@@ -240,11 +245,6 @@
     "Computer Programming/Computer Organization/Binary, signed-integer representations.md",
     "Computer Programming/Computer Organization/Basic Structure of Computers.md",
     "Personal/Mermaid.md",
-    "Personal/Query language.md",
-    "Personal/Problems.md",
-    "Personal/Quotes.md",
-    "Personal/Templater.md",
-    "Personal/Winter Holiday.md",
     "Files/Microprogrammed control unit organization.png",
     "Computer Programming/Software Design",
     "Computer Programming/Human Computer Interaction",
