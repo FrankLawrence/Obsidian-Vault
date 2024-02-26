@@ -8,38 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "533653947c68cbc4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Programming/Software Design/SD Assignment 1.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
             "id": "20c649e9cba4e98c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Programming/Software Design/SD Project.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "2733001ba9f1017f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Programming/Human Computer Interaction/Human Computer Interaction.md",
+                "file": "Computer Programming/Software Design/Software Design.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -47,33 +21,43 @@
             }
           },
           {
-            "id": "d9411eb7b5f5be9b",
+            "id": "3f8f453196d44819",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Programming/Human Computer Interaction/HCI Historical Context.md",
-                "mode": "source",
+                "file": "Computer Programming/Software Design/Software Abstraction and Modelling.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
           },
           {
-            "id": "5d2277d13b2e5cc0",
+            "id": "c4292723881803f9",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.5.8"
+              }
+            }
+          },
+          {
+            "id": "94a4fb7e3e47b7cc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Programming/Logic and Sets/Algebra of Sets.md",
-                "mode": "preview",
+                "file": "Computer Programming/Computer Networks/Computer Networks Chapter 5.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -102,7 +86,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "CISC",
+                "query": "mermaid",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -119,7 +103,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -140,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Programming/Logic and Sets/Algebra of Sets.md",
+                "file": "Computer Programming/Software Design/Software Abstraction and Modelling.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Programming/Logic and Sets/Algebra of Sets.md",
+                "file": "Computer Programming/Software Design/Software Abstraction and Modelling.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Programming/Logic and Sets/Algebra of Sets.md"
+                "file": "Computer Programming/Software Design/Software Abstraction and Modelling.md"
               }
             }
           },
@@ -217,16 +202,23 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5d2277d13b2e5cc0",
+  "active": "c4292723881803f9",
   "lastOpenFiles": [
-    "Computer Programming/Logic and Sets/Untitled.md",
-    "Computer Programming/Logic and Sets/Algebra of Sets.md",
-    "Computer Programming/Logic and Sets/Logic and Sets.md",
+    "Computer Programming/Computer Networks/Computer Networks Chapter 5.md",
+    "Computer Programming/Software Design/Software Abstraction and Modelling.md",
+    "Computer Programming/Software Design/Software Design.md",
+    "Computer Programming/Software Design/SD Assignment 1.md",
+    "Computer Programming/Software Design/SD Project.md",
+    "Computer Programming/Human Computer Interaction/Human Computer Interaction.md",
     "Computer Programming/Human Computer Interaction/HCI Historical Context.md",
-    "Computer Programming/Computer Organization/Arithmetic.md",
-    "Computer Programming/Mentor Program/Promotion text.md",
-    "Computer Programming/Computer Organization/Computer Organization.md",
     "Computer Programming/Computer Organization/Logic Circuits.md",
+    "Computer Programming/Computer Organization/Computer Organization.md",
+    "Computer Programming/Computer Organization/Basic Structure of Computers.md",
+    "Computer Programming/Computer Organization/Arithmetic.md",
+    "Computer Programming/Logic and Sets/Algebra of Sets.md",
+    "Computer Programming/Logic and Sets/Untitled.md",
+    "Computer Programming/Logic and Sets/Logic and Sets.md",
+    "Computer Programming/Mentor Program/Promotion text.md",
     "Computer Programming/Linear Algebra/Linear Algebra.md",
     "Computer Programming/Linear Algebra/Solution Sets of Linear Systems.md",
     "Computer Programming/Linear Algebra/Introduction to Linear Transformations.md",
@@ -236,15 +228,8 @@
     "Computer Programming/Linear Algebra/Row Reduction and Echelon Forms.md",
     "Computer Programming/Linear Algebra/Systems of Linear Equations.md",
     "Computer Programming/Computer Organization/Instruction set reference.md",
-    "Computer Programming/Software Design/SD Assignment 1.md",
-    "Computer Programming/Software Design/SD Project.md",
-    "Computer Programming/Software Design/Software Design.md",
     "Computer Programming/Software Design/SD Assignment 3.md",
     "Computer Programming/Software Design/SD Assignment 2.md",
-    "Computer Programming/Human Computer Interaction/Human Computer Interaction.md",
-    "Computer Programming/Computer Organization/Binary, signed-integer representations.md",
-    "Computer Programming/Computer Organization/Basic Structure of Computers.md",
-    "Personal/Mermaid.md",
     "Files/Microprogrammed control unit organization.png",
     "Computer Programming/Software Design",
     "Computer Programming/Human Computer Interaction",

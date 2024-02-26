@@ -12,6 +12,12 @@ Tags: MOC course
 - [[SD Assignment 2]]
 - [[SD Assignment 3]]
 ## Topics
+- [[Software Abstraction and Modelling]]
+- [[UML Diagrams]]
+- [[UML Class Diagrams]]
+- [[UML Object and Package Diagrams]]
+- [[Core Design Principles]]
+- [[UML State Machines]]
 ## Extras
 ### Tips
 ### Emails and Resources
