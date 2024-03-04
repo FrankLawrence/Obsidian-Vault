@@ -233,11 +233,29 @@ drwx------+ 47 user group 1.5K Jan 12 18:08 ..
    If you’re on macOS, note that the default BSD `find` is different from the one included in [GNU coreutils](https://en.wikipedia.org/wiki/List_of_GNU_Core_Utilities_commands). You can use `-print0` on `find` and the `-0` flag on `xargs`. As a macOS user, you should be aware that command-line utilities shipped with macOS may differ from the GNU counterparts; you can install the GNU versions if you like by [using brew](https://formulae.brew.sh/formula/coreutils).
 5. (Advanced) Write a command or script to recursively find the most recently modified file in a directory. More generally, can you list all files by recency?
 # Command-Line Environment
+- Tmux
+- bashrc
+- starship
+- eza
+- bat
+- fzf
+- zoxide
+- btop
+- alacritty
+- tldr
+- lazygit
+- brew
 # Vim Editor
-# Data Wrangling
-# Debugging and Profiling
-# LaTeX
-# Git Version Control and Github
-- Lazygit
 # Security and Cryptography
 # Regex
+# Intro to CS
+- `awk`
+- `cat`
+- `cut`
+- `grep`
+- `head`
+- `sed`
+- `sort`
+- `tr`
+- `uniq`
+- `wc`

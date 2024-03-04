@@ -15,5 +15,140 @@ This project requires the implementation of software for learning a given langua
 2. integrate an engine for the semi-automatic generation of new flashcards for a given language
 3. integration of a sound module for allowing the user to train also their listening and speaking skills.
 
+```mermaid
+---
+title: Class Diagram
+---
+
+classDiagram
+
+%% Done %%
+    FlashCard "1..*" --* "1" Section
+    Section "1..*" --* "1" SystemLevel
+    Section "1..*" --* "1" UserLevel
+    json_Data <.. menu : {Read only}
+    Statistics "1" *-- "1" Achievements
+    SystemLevel --|> ABSTRACT_Level
+    UserLevel --|> ABSTRACT_Level
+    LearningMode --|> ABSTRACT_SubMenu
+    Achievements --|> ABSTRACT_SubMenu
+    LevelEditor --|> ABSTRACT_SubMenu
+    JFrame <-- main
+    main "1" *-- "0..1" ABSTRACT_SubMenu
+    main "1" *-- "0..1" menu
+%% Not Done %%
+    ABSTRACT_SubMenu --|> menu
+    UserLevel --|> LevelEditor
+    Section "1" *-- "1" LearningMode
+    Statistics <-- LearningMode
+
+%% XOR ABSTRACT SUBMENU AND MENU %%
+%% XOR USER_LEVEL AND SYSTEM_LEVEL %%
+
+    class FlashCard{
+        -question: string
+        -answer: string
+        -userResult: boolean
+        -attempted: boolean
+        +setQuestion(question: string) void
+        +setUserResult(userResult: boolean) void
+        +setAttempted(attempted: boolean) void
+        +setAnswer(answer: boolean) void
+        +getAttempted() boolean
+        +getQuestion() boolean
+        +getUserResult() boolean
+        +getAnswer() boolean
+    }
+    class Section{
+        -name: String
+        -Flashcards: List<FlashCard>
+        +setName(name: string) void
+        +moveFlashCards(pos1: int, pos2: int) void
+        +addFlashCard(curFlashCard: FlashCard) void
+        +deleteFlashCard(pos: int) void
+        +getFlashCard(pos: int) FlashCard
+    }
+    class SystemLevel{
+        -difficulty: int
+        +setDifficulty(difficulty: int) void
+        +getDifficulty() int
+    }
+    class UserLevel{
+        
+    }
+    class ABSTRACT_Level{
+        -name: string
+        -SectionList: List<Section>
+        +setName(name: string) void
+        +addSection(curSection: Section) void
+        +moveSection(pos1: int, pos2: int) void
+        +removeSection(pos: int) void
+        +editSection(pos: int) void
+        +getSection(pos: int) Section
+        +getName() string
+    }
+    class json_Data{
+
+    }
+
+    class menu{
+        -exit: ActionListener
+        -LevelList: List<Level>
+        -updateMenu() void
+        -drawMenu() void
+        +displayLevels() void
+        +displaySections(curlevel: Level) void
+        +startLevelEditor() void
+        +startAchievements() void
+        +startLearningMode(curSection: Section) void
+    }
+    class ABSTRACT_ SubMenu{
+        -exit: ActionListener
+        -updateSubMenu() void
+        -drawSubMenu() void
+        -leaveSubMenu() void
+    }
+    class LearningMode{
+        -curAnswer: string
+        -updateStatistics() void
+        +checkAnswer(curAnswer: string) void
+        +nextFlashCard() void
+    }
+    class Achievements{
+		-progress: int
+		-target: int
+		+updateProgress(progress: int) void
+    }
+    class LevelEditor{
+        +addLevel(curLevel: Level) void
+        +moveLevel(pos1: int, pos2: int) void
+
+    }
+    class Statistics{
+        -totalXP: int
+        -totalLevels: int
+        -streak: int
+        +addXP() void
+        +getXP() int
+        +incLevels() void
+        +getLevels() int
+        +incStreak() void
+        +getStreak() int
+    }
+    class JFrame{
+    }
+    class main{
+	    -frame: JFrame
+	    -exit: ActionListener
+	    +exit() void
+		-initProgram() void
+		-runMenu() void
+		-runLevelEditor() void
+		-runAchievements() void
+		-runLearningMode() void
+		+main() void
+    }
+```
+
 ---
 References:

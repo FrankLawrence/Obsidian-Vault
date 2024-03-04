@@ -36,10 +36,64 @@ ___
 > All models are wrong, but some are useful
 
 ```mermaid
-graph LR;
-	a[Subject] --- b[Model] ---- c[Intent]
+graph TD;
+	b[Model] ---- c[Intent] -..- f[Model created with the intent \n that satisfies a particular purpose]
+	e[The thing that the model is about] -..- a[Subject] --- b
 	b --- d[Consumer]
+	g[Uses the model to satisfy/\narchieve his goals] -..- d
 ```
+- A consumer may be a human, but also software
+- Consumer and intent influence the model's **abstraction level**
+- The importance of a model may vary during its lifetime
+
+# Models
+**Descriptive models**:
+- *Sketches* and throw-away models
+	- to better understand reality and to explore possible solutions
+	- short lifetime (usually)
+- Models of ideas and vision about the system *to be developed*
+	- to exploit the model for having feedback before implementing the system
+- Models *extracted* from a running system or source code
+	- for example, to visualize all the calls between a set of Java classes
+
+![[Descriptive Model of a Submarine.jpeg|500]]
+
+**Prescriptive models**:
+- They *guide* the development of the system
+	- more detailed than descriptive models
+	- specify constraints for the system
+- The most common *consumers* of prescriptive models are code generators -> model-driving engineering (MDE)
+- Prescriptive models are often used for development
+	- their *importance* might decrease when the system is implemented
+
+![[Prescriptive Model of a Submarine.jpeg|500]]
+
+---
+- Informal notations
+	- Ad-hoc visualizations with no clear semantics
+	- Examples: "box-and-line" or PowerPoint diagrams
+- Semiformal notations
+	- Standardized graphical elements and construction rules, semantics are mostly specified to allow basic analysis
+	- Examples: [[UML Diagrams|UML]], SYsML
+- Formal notations
+	- Precise semantics based on mathematical constructs that allow full formal analysis for syntax and semantics
+	- Examples: architectures description language (ADLs), e.g. Acme, AADL, AUTOSAR
+
+> [!question] Why do we need architecture and design?
+> - They enable reasoning about large systems
+>   -> abstractions and hierarchies help to manage complexity
+> - They are the driver for software quality (not *what* the system does, but *how* it does it)
+> - They enable separating a system into parts to let teams work on them in parallel
+> - They are the bridge between the requirements and the implementation
+
+- **Abstraction** is indispensable for complex software systems
+- **Models** are abstract representations of a system
+	- Low-level details are safely ignored
+	- Models can be used for many purposes
+	- Descriptive vs. prescriptive models
+	- Informal vs. (semi-)formal notations
+- **Software design** is decision making while using and creating models of a system
+- 
 
 ---
 References:
