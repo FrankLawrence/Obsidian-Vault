@@ -205,14 +205,167 @@ flowchart LR
 		- After the execution of the operation, the parameter has adopted a new value
 	- `inout`: combined input/output parameter
 - `Type`: Type of the return value
-# Class variables and class operations
+## Class variables and class operations
 - Instance variable (= instance attribute): attributes defined on instance level
 - Class variable (= class attribute, static attribute)
 	- Defined only once per class
 - Class operation (= static operation)
 	- Can be used if no instance of the corresponding class was created
 - Notation: underlining the name of a class variable or class operation
+# Relationships
+- Relationships
+	- Binary Association
+	- N-ary Association
+	- Association Class
+	- Aggregation / Composition
+	- Generalization (inheritance and abstract classes)
 
+Binary association connects instances of two classes with one another.
+![[Binary Association.png|500]]
+
+**Navigability**: an object knows its partner objects and can therefore access their visible attributes and operations
+- Indicated by open arrow head
+
+Non-navigabiltiy
+- Indicated by cross, but this is also often left out
+
+Example: 
+- *A* can access the visible attributes and operations of *B*
+- *B* cannot access any attributes and operations of *A*
+```mermaid
+classDiagram
+	direction LR
+	A --> B
+```
+
+Navigability undefined 
+- Bidirectional navigability is assumed
+```mermaid
+classDiagram
+	direction LR
+	A -- B
+```
+## Multiplicity
+Number of objects that may be associated with exactly one object of the opposite side.
+```mermaid
+classDiagram
+	direction LR
+	Lecturer "1" -- "*" Assignment : issues
+```
+```mermaid
+classDiagram
+	direction TD
+	Lecturer "1..*" -- "1..*" Lecture: gives
+```
+Describes the way in which an object is involved in an association relationship
+
+> [!example]-
+> ```java
+> public class Person {
+> 	public ArrayList\<Person> examiner;
+> 	public ArrayList\<Person> examinee;
+> }
+> ```
+> ```mermaid
+> classDiagram
+> 	direction RL
+> 	Person "* +examiner" -- "* +examinee" Person : examines
+> ```
+
+## Xor constraint
+An object of class `Exam` is associated with an object of class `Office` *or* an object of class `LectureHall`, *but not with both*.
+![[Xor constraint.png|500]]
+## n-ary association
+- Student, Exam -> Lecturer
+	- One student takes one exam with either one or no lecturer
+- Exam, Lecturer -> Student
+	- One exam with one lecturer can be taken by any number of students
+- Student, Lecturer -> Exam
+	- One student can be graded by one lecturer for any number of exams
+
+![[Ternary association.png|500]]
+## Association Class
+Assign attributes to the relationship between classes rather than to a class itself
+![[Association class.png|500]]
+- Mandatory when modelling `n:m` associations 
+
+> [!example]- Association class vs. regular class
+> ![[73035.png|300]]
+> - A `Student` can enroll for one particular `StudyProgram` only *once*
+> ![[60081.png|300]]
+> - A `Student` can have *multiple* `Enrollments` for one and the same `StudyProgram`
+
+## Aggregation
+- Special form of association
+- Used to express that a class *is part of* another class
+- Properties of the aggregation association
+	- **Transitive**: if *B* is part of *A* and *C* is part of *B*, *C* is also part of *A*
+	- **Asymmetric**: it is not possible for *A* to be part of *B* and *B* to be part of *A* simultaneously
+- Two types
+	- (Shared) aggregation
+	- Composition
+### (Shared) Aggregation
+- Expresses a weak belonging of the parts to a whole
+	- Parts also exist independently of the whole
+- Multiplicity at the aggregating end may be >1
+	- One element can be part of multiple other elements simultaneously
+
+`Student` is part of `LabClass`
+```mermaid
+classDiagram
+	direction TB
+	LabClass "0..1" o-- "*" Student
+```
+
+`Course` is part of `StudyProgram`
+```mermaid
+classDiagram
+	direction TB
+	StudyProgram "1..*" o-- "*" Course
+```
+### Composition
+- **Existence dependency** between the composite object and its parts
+- An existing part is contained in at most one composite object at one specific point in time
+	- Multiplicity at the aggregating end max 1
+- If the composite object is deleted, its parts are also deleted 
+  -> the part usually cannot exist without the whole (exceptions are possible with multiplicity 0..1 instead of 1)
+
+> [!example]
+> ```mermaid
+> classDiagram
+> 	direction TB
+> 	Car "0..1" *-- "4" Tire
+> ```
+
+## Inheritance
+- Attributes, operations, and relationships of the general class *are passed on to its subclasses* (except private one)
+- Every instance of a subclass is also an indirect instance of the superclass
+- Subclasses may have further characteristics and relationships
+- Generalizations are transitive
+## Abstract classes
+- Used to highlight common characteristics of their subclasses while ensuring *no direct instances of the superclass*
+- Only its non-abstract subclasses can be instantiated
+- Useful in the context of generalization relationships
+# Creating UML Class Diagrams
+- Usually not possible to extract classes, attributes, and associations from natural language automatically
+- Guidelines
+	- *Nouns* often indicate classes, but can also be attributes
+	- *Adjectives* often indicate attribute values
+	- *Verbs* often indicate operations or relationships
+
+> [!example]
+> - A university consists of multiple faculties, which are composed of various institutes. 
+> - Each faculty and each institute has a name. 
+> - An address is known for each institute.  
+> - Each faculty is led by a dean, who is an employee of the university.  
+> - The total number of employees is known.  
+> - Employees have a social security number, a name, and an email address. There is a distinction between research and administrative personnel.  
+> - Research associates are assigned to at least one institute. The field of study of each research associate is known. Furthermore, research associates can be involved in projects for a certain number of hours, and the name, starting date, and end date of the projects are known.  
+> - Some research associates hold courses. Then they are called lecturers.  
+> - Courses have a unique number (ID), a name, and a weekly duration in hours.
+> ![[Class Diagram University example.png|600]]
 
 ---
-References:
+References: 
+[[02_3_class_diagrams_relationships.pdf]]
+[[02_4_class_diagrams_creating.pdf]]

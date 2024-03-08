@@ -328,3 +328,10 @@ Don't forget to have git installed and a working _Github account_!
 
 If you want to take part in the _*pub quiz*_ on *Thursday* at *17:30-20:00*, you can sign up here: https://forms.gle/c5k8zpZQzKn4a8mX6
 Free _snacks and drinks_ 🍻 are included! You will be competing against other *_pairs_* to win our special prize 🏆!
+## Shell Tools and Command Line Environment
+Hey everyone! 
+
+📢 Just a friendly reminder that our tutorial on "Shell tools and Command Line Environment" is happening this *tomorrow* at *17:30*. 
+Many people find it hard to work in the terminal, because of it's text based user interface. We'll be diving into how to make the terminal useful by showcasing some awesome tools like tmux, oh my bash, lazygit, tldr and much more! We will also show you how to change the terminal to your liking, so don't miss out on customizing your terminal for maximum efficiency! See you there! 🚀🖥️
+
+Those using _Mac_ should have brew (https://brew.sh) installed!

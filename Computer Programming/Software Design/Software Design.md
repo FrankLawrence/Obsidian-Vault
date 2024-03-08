@@ -14,10 +14,10 @@ Tags: MOC course
 ## Topics
 - [[Software Abstraction and Modelling]]
 - [[UML Diagrams]]
-- [[UML Class Diagrams]]
 - [[UML Object and Package Diagrams]]
 - [[Core Design Principles]]
 - [[UML State Machines]]
+- [[UML Sequence Diagrams]]
 ## Extras
 ### Tips
 ### Emails and Resources
