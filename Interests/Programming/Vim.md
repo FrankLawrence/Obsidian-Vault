@@ -1,7 +1,8 @@
 ---
 Status:
 Tags: 
-___
+---
+
 (Links: )
 ## Plugins
 - [The Nerd Tree](https://github.com/scrooloose/nerdtree)
