@@ -40,8 +40,3 @@ Tags: MOC course
 ___
 References:
 
-
-# lasdjf
-**laksjdf** *ladksj* 
-`lasjkdfj`
-

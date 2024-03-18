@@ -32,8 +32,22 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "78776a643d04c36c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Programming/Computer Organization/Pipelining.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -62,7 +76,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Chi-sq",
+                "query": "CISC",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -101,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interests/Programming/Vim.md",
+                "file": "Computer Programming/Computer Organization/Pipelining.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interests/Programming/Vim.md",
+                "file": "Computer Programming/Computer Organization/Pipelining.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interests/Programming/Vim.md"
+                "file": "Computer Programming/Computer Organization/Pipelining.md"
               }
             }
           },
@@ -178,14 +192,19 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0d517d4fd1cd4ef6",
+  "active": "78776a643d04c36c",
   "lastOpenFiles": [
+    "Computer Programming/Computer Organization/Computer Organization.md",
+    "Computer Programming/Computer Organization/The Memory System.md",
+    "Computer Programming/Computer Organization/Basic Processing Unit.md",
+    "Computer Programming/Computer Organization/Input-Output Organization.md",
+    "Computer Programming/Computer Organization/The Intel IA-32 Architecture.md",
+    "Interests/Programming/Vim.md",
     "Computer Programming/Software Design/Software Design.md",
     "Computer Programming/Software Design/UML Sequence Diagrams.md",
     "Computer Programming/Computer Organization/Logic Circuits.md",
     "Computer Programming/Statistical Methods/Goodness-of-fit.md",
     "Computer Programming/Statistical Methods/Statistical Methods.md",
-    "Computer Programming/Computer Organization/Computer Organization.md",
     "UML Diagram.md",
     "Computer Programming/Software Design/SD Project.md",
     "Computer Programming/Software Design/UML Diagrams.md",
@@ -211,11 +230,6 @@
     "Computer Programming/Operating Systems/Four-Level Page Tables.canvas",
     "Computer Programming/Linear Algebra/Linear Algebra.md",
     "Computer Programming/Linear Algebra/Null Spaces, Column Spaces, Row Spaces, and Linear Transformations.md",
-    "Computer Programming/Linear Algebra/Properties of Determinants.md",
-    "Computer Programming/Linear Algebra/Matrix Factorizations.md",
-    "Computer Programming/Linear Algebra/Linear Independence.md",
-    "Computer Programming/Computer Organization/Basic Processing Unit.md",
-    "Computer Programming/Computer Organization/Basic Structure of Computers.md",
     "Files/PDF/03_1_core_design_principles.pdf",
     "Files/04_sequence_diagrams.pdf",
     "Files/03_3_state_machines_advanced.pdf",

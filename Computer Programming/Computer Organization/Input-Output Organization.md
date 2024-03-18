@@ -5,7 +5,7 @@ Created: 2023-03-13 23:37:44
 (Links:: [[Computer Organization]])
 
 # Bus Structure
-- ![[I-O interface for an input device.png]]
+- ![[I-O interface for an input device.png|500]]
 - address placed on address line from processor is examined by all address decoders
 - processor uses control lines to request READ and WRITE operation
 - requested data transferred over data lines
@@ -28,13 +28,13 @@ Created: 2023-03-13 23:37:44
 > - address decoders must be fast enough before next clock pulse $t_1$
 > - master loads data on data lines into one register at end of clock cycle $t_2$
 
-- ![[A detailed timing diagram for the input transfer.png]]
+- ![[A detailed timing diagram for the input transfer.png|500]]
 	- master sends address and command signals on rising edge $t_0$ -> delay appearing on bus at $t_{AM}$
 	- slave sends requested data at time $t_1$ -> delayed appearance on bus at $t_{DM}$
 	- $t_2-t_{DM}$ must be longer than setup time for register
 - time $t_2-t_0$ must accommodate the longest delays on the bus and slowest device interface -> devices operate at speed of slowest device
 - buses incorporate control signal that represent a response from the device
-- ![[An input transfer using multiple clock cycle.png]]
+- ![[An input transfer using multiple clock cycle.png|500]]
 	- request data on active edge -> delay to long -> slave cannot respond immediately
 	- data ready and placed during clock cycle 3 -> slave ready signal
 	- master sends new address and command signals to start in cycle 4
@@ -43,7 +43,7 @@ Created: 2023-03-13 23:37:44
 - control line master-ready indicates ready for a data transfer
 	- devices decode address from bus -> slave performs operation -> activates Slave-ready
 	- master waits for Slave-ready before removing signals from bus
-- ![[Handshake control of data transfer during an input operation.png]]
+- ![[Handshake control of data transfer during an input operation.png|500]]
 - Master-slave signal should not arrive at device ahead of the address command information -> $t_1-t_0$ is longer than maximum possible bus skew (lines have different propagation speeds)
 - $t_2 − t_1$ depends on the distance between master and slave and on the delays introduced by the slave’s circuitry
 - Master-ready signal dropped when data has been received
@@ -81,16 +81,16 @@ Created: 2023-03-13 23:37:44
 ## Parallel Interface
 ### Input Interface
 - connection of a keyboard to a processor through two registers: data register `KBD_DATA`, and status register `KBD_STATUS`
-- ![[Keyboard to processor connection.png]]
+- ![[Keyboard to processor connection.png|500]]
 	- Output of encoder:
 		- Data output represents one byte of an encoded character -> `KBD_DATA`
 		- control signal is set to 1 -> `KBD_STATUS`
-- [[An input interface circuit.png]]
+- [[An input interface circuit.png|500]]
 ### Output Interface
 - two handshake signals: New-data and Ready
 
 > [!example]+ Display
-> [[Display to processor connection.png]]
+> [[Display to processor connection.png|500]]
 > 1. Assert Ready signal -> `DOUT` in `DISP_STATUS` set to 1
 > 2. Send character to `DISP_DATA`
 > 	1. clear `DOUT` flag
@@ -100,7 +100,7 @@ Created: 2023-03-13 23:37:44
 ## Serial Interface
 - connect processor to I/O devices that transmit data one bit at a time
 - parallel and serial format transformation: shift registers with parallel access capability
-- [[A serial interface.png]]
+- [[A serial interface.png|500]]
 - flags `SIN` and `SOUT` maintained by status and control block
 - `SIN` set to 1 when new data loaded into `DATAIN` from shift register, and cleared when read by processor
 - `SOUT` set to 0 when processor writes new data into `DATAOUT`, and set to 1 when data transferred from `DATAOUT` to output shift register
