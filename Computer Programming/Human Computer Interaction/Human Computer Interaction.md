@@ -12,6 +12,8 @@ alias: HCI
 - [[HCI Historical Context]]
 ## Lectures
 - [[Experimentation]]
+- [[Metaphors, Principles & Guidelines]]
+- [[Descriptive Models]]
 ## Extras
 ### Tips
 ### Emails and Resources
