@@ -1,5 +1,6 @@
 ---
 Tags: MOC course
+alias: SD
 ---
 (Links:: [[Uni Courses🎓]])
 ## Notes and Ideas
@@ -18,6 +19,7 @@ Tags: MOC course
 - [[Core Design Principles]]
 - [[UML State Machines]]
 - [[UML Sequence Diagrams]]
+- [[Design Patterns]]
 ## Extras
 ### Tips
 ### Emails and Resources

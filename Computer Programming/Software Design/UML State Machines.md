@@ -4,6 +4,13 @@ Created: 2024-03-05 17:01:12
 ---
 (Links:: [[Software Design]])
 
+> [!summary]
+> - Design principles:
+> 	- SRP
+> 	- Encapsulation & Immutability
+> 	- Avoid complexity
+> - State machine used for modelling the **internal states** of objects in your system
+
 # Basic
 Objects can be in concrete states:
 ```java

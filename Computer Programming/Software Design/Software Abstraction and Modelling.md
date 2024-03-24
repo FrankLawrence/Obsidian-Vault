@@ -93,7 +93,6 @@ graph TD;
 	- Descriptive vs. prescriptive models
 	- Informal vs. (semi-)formal notations
 - **Software design** is decision making while using and creating models of a system
-- 
 
 ---
 References:
