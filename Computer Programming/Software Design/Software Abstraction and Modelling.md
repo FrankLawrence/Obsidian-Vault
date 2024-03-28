@@ -12,6 +12,15 @@ Created: 2024-02-23 17:07:52
 > 5. How do you test billions of lines of code?
 > 6. How do you work in teams across the globe?
 
+> [!summary]+
+> - **Abstraction** is indispensable for complex software systems
+> - **Models** are abstract representations of a system
+> 	- Low-level details are safely ignored
+> 	- Models can be used for many purposes
+> 	- Descriptive vs. prescriptive models
+> 	- Informal vs. (semi-)formal notations
+> - **Software design** is decision making while using and creating models of a system
+
 - Engineers abstract away from a number of details that can be ignored **safely**
 
 > [!definition] Software design
@@ -85,14 +94,6 @@ graph TD;
 > - They are the driver for software quality (not *what* the system does, but *how* it does it)
 > - They enable separating a system into parts to let teams work on them in parallel
 > - They are the bridge between the requirements and the implementation
-
-- **Abstraction** is indispensable for complex software systems
-- **Models** are abstract representations of a system
-	- Low-level details are safely ignored
-	- Models can be used for many purposes
-	- Descriptive vs. prescriptive models
-	- Informal vs. (semi-)formal notations
-- **Software design** is decision making while using and creating models of a system
 
 ---
 References:

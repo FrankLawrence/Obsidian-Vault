@@ -17,46 +17,27 @@ Created: 2024-03-23 21:33:16
 > 	- Functionality-centric programming instead of data-centric
 > 	- You "inject" new functionalities without changing the interface of your classes
 
-> [!summary] Design patterns in UML
+> [!summary]- Design patterns in UML
 > - Flyweight
-    - You can share common data across multiple objects
-        
-    - Memory efficiency
-        
-- Adapter pattern
-    
-    - You can mask the complexity of libraries, external APIs, etc.
-        
-    - Useful also when you need to work with old libraries
-        
-- Decorator pattern
-    
-    - You can add/remove functionalities to objects at run-time
-        
-    - Added functionalities are transparent to client code
-        
-- Command pattern
-    
-    - You can do/redo/undo commands
-        
-    - You can keep an history of executed commands
-        
-    - You can delay/queue/batch commands
-        
-- Template method pattern
-    
-    - You break a fixed algorithm into fixed steps
-        
-    - Hooks for special cases
-        
-    - Avoid code duplication for the common part
-        
-
-• Chain of responsibility pattern
-
-- you ask the service to the head of the chain
-    
-- the chain will find the object for performing the service by itself
+>     - You can share common data across multiple objects
+>     - Memory efficiency
+> - Adapter pattern
+>     - You can mask the complexity of libraries, external APIs, etc.
+>     - Useful also when you need to work with old libraries
+> - Decorator pattern
+>     - You can add/remove functionalities to objects at run-time
+>     - Added functionalities are transparent to client code
+> - Command pattern
+>     - You can do/redo/undo commands
+>     - You can keep an history of executed commands
+>     - You can delay/queue/batch commands
+> - Template method pattern
+>     - You break a fixed algorithm into fixed steps
+>     - Hooks for special cases
+>     - Avoid code duplication for the common part
+> - Chain of responsibility pattern
+> 	- you ask the service to the head of the chain
+> 	- the chain will find the object for performing the service by itself
 
 # The Law of Dementer
 > [!abstract] Avoid as much as possible long chains of message calls

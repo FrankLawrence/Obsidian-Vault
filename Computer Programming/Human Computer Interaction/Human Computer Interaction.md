@@ -16,6 +16,7 @@ alias: HCI
 - [[Metaphors, Principles & Guidelines]]
 - [[Descriptive Models]]
 ## Extras
+- [[Book stuff]]
 - [[HCI W7]]
 ### Tips
 ### Emails and Resources

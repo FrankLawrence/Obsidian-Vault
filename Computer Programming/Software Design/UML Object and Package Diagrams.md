@@ -7,7 +7,7 @@ Created: 2024-03-05 01:35:46
 - A class is a *construction plan* for a set of similar objects, i.e. objects are instances of classes
 - Attributes: different value for each instance (= object)
 - Operations: identical for all objects of a class
-- -> not depicted in object diagram
+  -> not depicted in object diagram
 
 ![[UML object.png|500]]
 - Object diagram:

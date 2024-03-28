@@ -337,7 +337,7 @@ classDiagram
 > 	Car "0..1" *-- "4" Tire
 > ```
 
-## Inheritance
+## Inheritance/Generalization
 - Attributes, operations, and relationships of the general class *are passed on to its subclasses* (except private one)
 - Every instance of a subclass is also an indirect instance of the superclass
 - Subclasses may have further characteristics and relationships

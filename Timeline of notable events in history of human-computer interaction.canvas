@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"f0287228ca572101","x":240,"y":140,"width":250,"height":80,"type":"text","text":"# 1963\nDouglas Engelbart invents the computer mosue"},
+		{"id":"70e426424880ab4f","x":-120,"y":140,"width":250,"height":80,"type":"text","text":"# 1961\n*Xerox Star* launched"},
+		{"id":"3fcea075ee6debf5","x":240,"y":420,"width":250,"height":80,"type":"text","text":"# 1964\nApple *Macintosh* launched"},
+		{"id":"8caf0d0871cf7125","x":-120,"y":400,"width":250,"height":120,"type":"text","text":"# 2007\n25th Anniversary of \"CHI\", the SIGCHI annual conference"},
+		{"id":"c552c186d78df1c8","x":240,"y":1,"width":250,"height":84,"type":"text","text":"# 1962\nIvan Sutherland develops *Sketchpad*"},
+		{"id":"bf41fd47d82f32bc","x":-120,"y":-17,"width":245,"height":120,"type":"text","text":"# 1945\nVannevar Bush publishes \"As We May Think\" in *The Atlantic Monthly*"},
+		{"id":"7b2c04855a25ff11","x":-120,"y":271,"width":250,"height":85,"type":"text","text":"# 1982\nACM SIGCHI formed"},
+		{"id":"3fdbea06a701834e","x":240,"y":262,"width":250,"height":103,"type":"text","text":"# 1963\nCard, Moran, and Newell publish *The Psychology of Human-Computer Interaction*"}
+	],
+	"edges":[
+		{"id":"ce5a6183c4cafb76","fromNode":"bf41fd47d82f32bc","fromSide":"right","toNode":"c552c186d78df1c8","toSide":"left"},
+		{"id":"6f4514deea36842f","fromNode":"c552c186d78df1c8","fromSide":"bottom","toNode":"f0287228ca572101","toSide":"top"},
+		{"id":"86dcff907d3e875d","fromNode":"f0287228ca572101","fromSide":"left","toNode":"70e426424880ab4f","toSide":"right"},
+		{"id":"83dee55b8399b8a8","fromNode":"70e426424880ab4f","fromSide":"bottom","toNode":"7b2c04855a25ff11","toSide":"top"},
+		{"id":"7d5c2eb77c46ecce","fromNode":"7b2c04855a25ff11","fromSide":"right","toNode":"3fdbea06a701834e","toSide":"left"},
+		{"id":"efe6e3bec31ee2ee","fromNode":"3fdbea06a701834e","fromSide":"bottom","toNode":"3fcea075ee6debf5","toSide":"top"},
+		{"id":"5c6197bbb63e48a6","fromNode":"3fcea075ee6debf5","fromSide":"left","toNode":"8caf0d0871cf7125","toSide":"right"}
+	]
+}
