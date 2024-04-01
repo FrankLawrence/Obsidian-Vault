@@ -11,8 +11,13 @@
             "id": "1bf96226f439bdb3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Computer Programming/Software Design/Design Patterns.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ]
@@ -61,8 +66,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -83,6 +87,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Computer Programming/Software Design/Design Patterns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,6 +104,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Computer Programming/Software Design/Design Patterns.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -120,7 +126,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Computer Programming/Software Design/Design Patterns.md"
+              }
             }
           },
           {
@@ -166,6 +174,9 @@
   },
   "active": "1bf96226f439bdb3",
   "lastOpenFiles": [
+    "CO Questions.md",
+    "Computer Programming/Software Design/Design Patterns.md",
+    "Computer Programming/Software Design/Software Design.md",
     "Computer Programming/Human Computer Interaction/Experimentation.md",
     "Computer Programming/Human Computer Interaction/Human Computer Interaction.md",
     "Computer Programming/Human Computer Interaction/Metaphors, Principles & Guidelines.md",
@@ -179,15 +190,13 @@
     "Files/56003.png",
     "Personal/Callouts.md",
     "Computer Programming/Pervasive Computing/Percom 6 Classification.md",
-    "Timeline of notable events in history of human-computer interaction.canvas",
+    "Computer Programming/Human Computer Interaction/Timeline of notable events in history of human-computer interaction.canvas",
     "Computer Programming/Software Design/Core Design Principles.md",
-    "Computer Programming/Software Design/Design Patterns.md",
     "Computer Programming/Software Design/UML Sequence Diagrams.md",
     "Computer Programming/Software Design/UML State Machines.md",
     "Computer Programming/Software Design/UML Object and Package Diagrams.md",
     "Computer Programming/Software Design/UML Diagrams.md",
     "Computer Programming/Software Design/Software Abstraction and Modelling.md",
-    "Computer Programming/Software Design/Software Design.md",
     "Computer Programming/Human Computer Interaction/Untitled.md",
     "Computer Programming/Human Computer Interaction/Untitled 1.md",
     "Computer Programming/Human Computer Interaction/Untitled 2.md",
@@ -203,7 +212,6 @@
     "Computer Programming/Human Computer Interaction/HCI W3.md",
     "Computer Programming/Computer Organization/Pipelining.md",
     "LICENSE",
-    "Untitled.md",
     "Files/PDF/03_2_state_machines_basics.pdf",
     "Files/PDF/03_3_state_machines_advanced.pdf",
     "Computer Programming/Projects/Clinical Trials API.canvas",
