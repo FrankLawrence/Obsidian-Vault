@@ -1,5 +1,6 @@
 ---
 Tags: MOC course
+alias: LA
 ---
 (Links:: [[Uni Courses🎓]])
 # Notes and Ideas

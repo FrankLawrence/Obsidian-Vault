@@ -13,7 +13,7 @@ Tags: MOC course
 - [[A3]]
 # Topics
 - [[Introduction to Web Programming]]
-- [[Computer Programming/Web Technology/HTML]]
+- [[Computer Science/Web Technology/HTML]]
 - [[More HTML]]
 - [[Basic CSS]]
 - [[Advanced CSS]]

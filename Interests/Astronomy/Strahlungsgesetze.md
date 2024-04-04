@@ -13,9 +13,9 @@ Created: 2022-12-03 23:45:40
 	- Elektron kann sich in einem Atom nur auf bestimmten deskreten Bahnen um den Kern bewegen
 	  => Elektron kann im Atom nur bestimmte Energiebeträge aufnehmen
 
-![[Übergänge im H-Atom.excalidraw|100%]]
+![[Übergänge im H-Atom.excalidraw|50%]]
 
-![[hydrogen-energy-levels.png|100%]]
+![[hydrogen-energy-levels.png|500]]
 # Was ist Schwarzkörperstrahlung?
 ## Wie entstehen Farben?
 - weißes Licht -> trifft auf ein grünes Blatt

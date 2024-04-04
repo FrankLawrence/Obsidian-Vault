@@ -1,0 +1,4 @@
+- The grade will be composed of
+    - the final grade for the final exam,
+    - bonus points for the homework.
+- You need to pass the exam to get the bonus points.

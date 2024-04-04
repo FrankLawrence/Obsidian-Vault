@@ -1,4 +1,4 @@
-![Untitled](Interests/Programming/Pen%20testing/Port%20Swigger/SQL%20commands/Untitled.png)
+![Untitled](Interests/Programming%20and%20computers/Pen%20testing/Port%20Swigger/SQL%20commands/Untitled.png)
 
 ![Untitled](Untitled%201.png)
 

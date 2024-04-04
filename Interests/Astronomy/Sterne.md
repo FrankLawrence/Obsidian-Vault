@@ -42,7 +42,7 @@ Created: 2022-11-30 14:21:26
 	- Zusammenhang Farbe-Temp: Wiensches VG
 ## Klassifikation von Sternspektren
 **H-Linien**
-![[spektralklassen-2890632653.png]]
+![[spektralklassen-2890632653.png|500]]
 - Die Spektralklassen teilen 99% aller Steren in siben Grundtypen ein: 
   O, B, A, F, G, K, M
 - Zwischen den Temperaturen der Sternoberflächen und den Spektralklassen besteht ein direkter Zusammenhang
@@ -53,7 +53,7 @@ Warum sind die Spektralklassen eigentlich T-Klassen?
 - je höher T desto mehr Stoffe befinden sich im angeregten Zustand (Hierbei Anregung durch thermische Energie oder Photonen)
   ganze hohe T: IONISIERUNG
 - für jedes Element gibt es ein T-abhängiges Maximum
-![[bohr-6-360630245.jpg]]
+![[bohr-6-360630245.jpg|500]]
 
 ## Absorbtionsspektrum
 Let us assume now that the hydrogen gas is not at a high enough temperature to excite the electrons to higher energy levels. In such a situation, there is no emission of radiation. If white light (continuous spectrum) is passed through the *cool* hydrogen gas, it will absorb light of only those frequencies which give electrons just enough energy to make a transition to one of the excited energy levels. Therefore, just as photons of certain energies are emitted by hydrogen gas at a high temperature, photons of the same energies are absorbed by the *cool* hydrogen gas.
@@ -78,7 +78,7 @@ Thus when white light passes through a cool hydrogen gas, we obtain a series of 
 
 ## Hertzsprung-Russell-Diagramm
 Ausgangsfrage: Gibt es bei Sternen einen Zusammenhang zwischen der **Farbe (Spektralklasse)/Temperatur** und der **Helligkeit**?
-![[HRDiagram.png]]
+![[HRDiagram.png|500]]
 Das Hertzsprung-Russell-Diagramm, zeigt grob die Entwicklungsverteilung der Sterne. Wird dazu der Spektraltyp gegen die absolute Helligkeit aufgetragen, ergeben sich bei einer genügenden Anzahl von Eintragungen charakteristische linienartige Häufungen.
 
 Die Konzentration der Sterne auf die verschiedenen Gruppen lässt sich aus der Theorie der Sternentwicklung erklären. Die Entwicklungszustände der Sterne sind voneinander mehr oder weniger klar abgegrenzt und finden sich an ganz bestimmten Stellen des HRD wieder. Im Laufe der Zeit ändern sich die beiden Zustandsgrößen der Effektivtemperatur und der Leuchtkraft eines Sterns in Abhängigkeit von den nuklearen Vorgängen in seinem Inneren, so dass jeder Stern einen gewissen Entwicklungsweg durch das HRD durchläuft. Dies geschieht mit unterschiedlicher Geschwindigkeit. Entwicklungszustände, die lange Zeit anhalten, sind dementsprechend häufiger zu beobachten (z. B. in der Hauptreihe) als schnelle, nur kurz anhaltende Entwicklungsstufen (z. B. im Bereich der Hertzsprung-Lücke). Jenseits von Effektivtemperaturen von etwa 3000–5000 Kelvin finden sich im HRD keine Sterne mehr, weil hier der Bereich der Protosterne liegt, welche eine sehr hohe Entwicklungsgeschwindigkeit haben. Diese nahezu senkrecht verlaufende „Linie“ wird Hayashi-Linie genannt. Da der Spektraltyp grob mit der Oberflächentemperatur des Sterns zusammenhängt, kann das HRD als Temperatur-Leuchtkraft-Diagramm angesehen werden. 
