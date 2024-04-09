@@ -10,7 +10,6 @@ alias: LM
 ## Assignments
 ## Topics
 ## Lectures
-- [[Logic and Modelling Lecture 2]]
 ## Extras
 ### Tips
 ### Emails and Resources
