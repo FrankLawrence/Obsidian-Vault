@@ -53,14 +53,27 @@
               "type": "markdown",
               "state": {
                 "file": "Computer Science/Databases.md",
-                "mode": "preview",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "19d365f475f89725",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Science/Non-Monotonic Queries.md",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -127,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Databases.md",
+                "file": "Computer Science/Non-Monotonic Queries.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Databases.md",
+                "file": "Computer Science/Non-Monotonic Queries.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Databases.md"
+                "file": "Computer Science/Non-Monotonic Queries.md"
               }
             }
           },
@@ -212,40 +225,40 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "534190a2c0b4e952",
+  "active": "19d365f475f89725",
   "lastOpenFiles": [
+    "Computer Science/Statistical Methods/General normal distributions.md",
+    "Files/PDF/Statistical Methods Lecture4.pdf",
+    "Computer Science/Statistical Methods/Statistical Methods.md",
+    "Computer Science/Statistical Methods/Standard normal distribution.md",
+    "Computer Science/Statistical Methods/Expectation and standard Deviation.md",
+    "Computer Science/Statistical Methods/Central Limit Theorem.md",
+    "Computer Science/Statistical Methods/Sampling distributions and estimators.md",
+    "Computer Science/Statistical Methods/Estimating a Population Mean.md",
+    "Computer Science/Statistical Methods/Basics of Hypothesis Testing - additional information.md",
+    "Computer Science/Statistical Methods/Testing a Claim about a mean.md",
+    "Computer Science/Statistical Methods/Introduction to Probability.md",
+    "Computer Science/Statistical Methods/Law of Total Probability and Bayes' Theorem.md",
+    "Computer Science/Statistical Methods/Probability Distributions.md",
+    "Computer Science/Statistical Methods/Basics of Hypothesis Testing.md",
+    "Computer Science/Statistical Methods/Testing a Claim about a proportion.md",
+    "Computer Science/Statistical Methods/Simple linear regression.md",
+    "Computer Science/Statistical Methods/Relationship between variables and linear correlation.md",
+    "Computer Science/Non-Monotonic Queries.md",
+    "Computer Science/Statistical Methods/Describing Data.md",
+    "Computer Science/Databases.md",
     "Computer Science/Logic and Modelling.md",
     "Computer Science/Logic and Modelling Lecture 2.md",
-    "Computer Science/Databases.md",
     "Computer Science/Linear Algebra/Linear Algebra.md",
     "Computer Science/Linear Algebra/Orthogonal Sets.md",
     "Computer Science/Linear Algebra/Eigenvectors and Eigenvalues.md",
     "Computer Science/Linear Algebra/Vector Spaces and Subspaces.md",
-    "Computer Science/Linear Algebra/Introduction to Determinants.md",
-    "Computer Science/Linear Algebra/Characterizations of Invertible Matrices.md",
-    "Computer Science/Uni Courses🎓.md",
-    "Dashboard.md",
-    "Computer Science/Databases Outline.md",
-    "Computer Science/Databases Assessment.md",
-    "Computer Science/Databases Structure.md",
-    "Interests/Programming and computers/Shell Scripting/Shell Scripting Primer.md",
-    "Interests/Programming and computers/Bash Oneliners.md",
-    "Interests/Programming and computers/Shell Scripting/Before You Begin.md",
-    "Interests/Programming and computers/Shell Scripting/Flow Control, Expansion, and Parsing.md",
-    "Interests/Programming and computers/Shell Scripting/Subroutines, Scoping, and Sourcing.md",
-    "Interests/Programming and computers/Shell Scripting/Special Shell Variables.md",
-    "Interests/Programming and computers/Shell Scripting/Other Tools and Information.md",
-    "Interests/Programming and computers/Shell Scripting/Shell Script Basics.md",
-    "Interests/Mac/Apps.md",
-    "Miscellaneous/Testing.md",
     "Banners/Frank Wallpaper OI.jpeg",
     "Banners/E3wGdziUYAENJU_.jpeg",
     "Banners/blockwavemoon.png",
     "Files/15351.png",
     "Files/19897.png",
-    "Interests/Mac/Mac startup key combinations.md",
     "Interests/Branding and Inspiration.canvas",
-    "Interests/Accessories.md",
     "Interests/G.tar.gz.gpg_gpg(tzv).tmp",
     "Interests/Programming and computers/Shell Scripting",
     "Files/56003.png",
@@ -263,7 +276,6 @@
     "Files/PDF/04_sequence_diagrams 1.pdf",
     "Files/PDF/03_3_state_machines_advanced 1.pdf",
     "Files/PDF/03_2_state_machines_basics 1.pdf",
-    "Files/PDF/03_1_core_design_principles 1.pdf",
     "Computer Science/Operating Systems/Four-Level Page Tables.canvas",
     "Computer Science/Secure Programming/Diffie-Hellman Key Exchange.canvas",
     "Computer Science/Projects/Clinical Trials API.canvas",

@@ -9,6 +9,7 @@ alias: DB
 - [[Databases Assessment]]
 ## Assignments
 ## Topics
+- [[Non-Monotonic Queries]]
 ## Lectures
 ## Extras
 ### Tips
