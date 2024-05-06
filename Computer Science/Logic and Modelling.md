@@ -7,8 +7,8 @@ alias: LM
 - [[Logic and Modelling Outline]]
 - [[Logic and Modelling Structure]]
 - [[Logic and Modelling Assessment]]
-## Assignments
 ## Topics
+- [[Semantics of Predicate Logic]]
 ## Lectures
 ## Extras
 ### Tips

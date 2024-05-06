@@ -8,85 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4a9e4838bc0a63f9",
+            "id": "5d50d7fbecc6d00b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Dashboard.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "edae18133bd842f7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Uni Courses🎓.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "e9b7f01d5dd9c2c5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Logic and Modelling.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "534190a2c0b4e952",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Databases.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "19d365f475f89725",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Non-Monotonic Queries.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "62c690e370602fb8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Computer Networks/The Physical Layer.md",
+                "file": "Computer Science/Semantics of Predicate Logic.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -115,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Nyquist",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -154,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Computer Networks/The Physical Layer.md",
+                "file": "Computer Science/Semantics of Predicate Logic.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Computer Networks/The Physical Layer.md",
+                "file": "Computer Science/Semantics of Predicate Logic.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Computer Networks/The Physical Layer.md"
+                "file": "Computer Science/Semantics of Predicate Logic.md"
               }
             }
           },
@@ -239,35 +173,35 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "62c690e370602fb8",
+  "active": "5d50d7fbecc6d00b",
   "lastOpenFiles": [
-    "Computer Science/Computer Networks/Computer Networks Chapter 2.md",
+    "Interests/Programming and computers/MathJax Basic Tutorial.md",
+    "Computer Science/CoPP/CoPP.md",
+    "Computer Science/Semantics of Predicate Logic.md",
+    "Computer Science/SQL - Non-Monotonic Queries.md",
+    "Computer Science/Databases.md",
+    "School Subjects/Math/Math🧮.md",
+    "Interests/G/Table of Contents.md",
+    "Dashboard.md",
+    "Computer Science/Uni Courses🎓.md",
+    "Computer Science/Logic and Modelling.md",
+    "Computer Science/Statistical Methods/Expectation and standard Deviation.md",
+    "Computer Science/Statistical Methods/Statistical Methods.md",
+    "Computer Science/Web Technology/Semantic versioning.md",
     "Computer Science/Computer Networks/The Physical Layer.md",
+    "Computer Science/Secure Programming/Secure Programming.md",
+    "Computer Science/Secure Programming/SP Conservative Programming.md",
+    "Computer Science/Secure Programming/SP Secure Design.md",
+    "Computer Science/Secure Programming/SP Vulnerabilities.md",
+    "Computer Science/Secure Programming/SP Introduction to Security.md",
+    "Computer Science/Computer Networks/Computer Networks Chapter 2.md",
     "Computer Science/Pervasive Computing/Percom 2 Signals.md",
     "Computer Science/Computer Networks/Computer Networks.md",
     "Computer Science/Computer Networks/The Network Layer.md",
     "Computer Science/Computer Networks/The Medium Access Control Sublayer.md",
     "Computer Science/Computer Networks/The Data Link Layer.md",
     "Computer Science/Computer Networks/Comparison of circuit-switched and packet-switched networks.md",
-    "Computer Science/Data Structures and Algorithms for CS/Data Structures and Algorithms for CS.md",
-    "Personal/Callouts.md",
-    "Computer Science/Data Structures and Algorithms for CS/Data Structures and Algorithms for CS Lecture 1.md",
-    "Computer Science/Data Structures and Algorithms for CS/Data Structures and Algorithms for CS Lecture 8.md",
-    "Computer Science/Uni Courses🎓.md",
-    "Computer Science/Linear Algebra/Linear Algebra.md",
-    "Computer Science/Linear Algebra/Eigenvectors and Eigenvalues.md",
-    "Computer Science/Linear Algebra/Linearly Independent Sets; Bases.md",
-    "Computer Science/Linear Algebra/Vector Spaces and Subspaces.md",
-    "Computer Science/Non-Monotonic Queries.md",
-    "Computer Science/Statistical Methods/General normal distributions.md",
     "Files/PDF/Statistical Methods Lecture4.pdf",
-    "Computer Science/Statistical Methods/Statistical Methods.md",
-    "Computer Science/Statistical Methods/Standard normal distribution.md",
-    "Computer Science/Statistical Methods/Expectation and standard Deviation.md",
-    "Computer Science/Statistical Methods/Central Limit Theorem.md",
-    "Computer Science/Statistical Methods/Sampling distributions and estimators.md",
-    "Computer Science/Statistical Methods/Estimating a Population Mean.md",
-    "Computer Science/Statistical Methods/Basics of Hypothesis Testing - additional information.md",
     "Banners/Frank Wallpaper OI.jpeg",
     "Banners/E3wGdziUYAENJU_.jpeg",
     "Banners/blockwavemoon.png",
