@@ -22,7 +22,7 @@ The axioms of Boolean algebra are:
 | $\lnot$               | $'$               |
 
 Propositional logic coincides with set theory with a universe of a single element.
-# Equivalence relation
+# [[Equivalence relations]]
 A binary relation *R* is an **equivalence relation** if, for all elements *x*,*y*,*z* in its domain, *R* satisfies the following three properties:
 - Reflexive
 - Symmetric

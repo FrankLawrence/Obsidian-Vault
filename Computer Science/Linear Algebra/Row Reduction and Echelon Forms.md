@@ -123,7 +123,7 @@ $$
 > [!info] THEOREM 2
 > **Existence and Uniqueness Theorem**
 > A linear system is consistent if and only if the rightmost column of the augmented matrix is *not* a pivot column-that is, if and only if an echelon form of the augmented matrix has *no* row of the form $$[0\;\cdots\; 0 \quad b]\qquad \text{ with $b$ nonzero}$$
-> If a linear system is consistent, then the solution set constains either (i) a unique solution, when there are no free variables, or (ii) inifinitely many solutions, when there is at least one free variable
+> If a linear system is consistent, then the solution set contains either (i) a unique solution, when there are no free variables, or (ii) inifinitely many solutions, when there is at least one free variable
 
 ---
 References:

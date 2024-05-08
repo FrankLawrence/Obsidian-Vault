@@ -296,7 +296,34 @@ The truth of a formula $\phi$ in a model $\mathcal{M}$ with universe $A$ with re
 > Let $\phi$ be a sentence. Then it holds for all environments $\mathscr{l}$ and $\mathscr{l}\,'$: $$\mathcal{M}\vDash_{\mathscr{l}} \,\phi\quad \Longleftrightarrow \quad \mathcal{M}\vDash_{\mathscr{l}\,'} \phi$$
 > -> For sentences $\phi$ we can write $$\mathcal{M}\vDash \phi \quad\textrm{ for } \quad\mathcal{M}\vDash_{\mathscr{l}}\phi$$ since $\mathscr{l}$ is irrelevant
 
-# Semantic Entailment
+# [[Semantic Entialment]]
+In [[Introduction to propositional logic|propositional logic]]: $\phi_{1},...,\phi_{n}\vDash \psi$ means that for all valuations *$v$*: $$v(\phi_{1})=T,...,v(\phi_{n})=T \;\Longrightarrow\; v(\psi)=T$$
+In [[Predicate logic]]: $\phi_{1},...,\phi_{n}\vDash \psi$ means that for all models $\mathcal{M}$, and all environments $\mathscr{l}$: $$\mathcal{M}\vDash_{\mathscr{l}}\;\phi_{1}\;,...,\;\mathcal{M}\vDash_{\mathscr{l}}\;\phi_{n}\; \Longrightarrow \; \mathcal{M}\vDash_{\mathscr{l}}\psi$$
+
+> [!example]- Proving Semantic Entailment $\exists y\forall xR(x,y)\vDash \forall x\exists yR(x,y)$
+> For all models $\mathcal{M}$ with domain $A$ and environments $\mathscr{l}$ we find: $$
+> \begin{align}
+> 	\mathcal{M} & \vDash_{\mathscr{l}} \;\; \exists y\forall x R(x,y) \\
+> 	& \Longleftrightarrow \textrm{there is } b\in A \textrm{ such that } \mathcal{M} \vDash_{\mathscr{l}[y\mapsto b]} \forall x R(x,y) \\
+> 	& \Longleftrightarrow \textrm{there is } b \in A \textrm{ such that for all } a \in A: \mathcal{M} \vDash_{\mathscr{l}[y\mapsto b][x\mapsto a]} R(x,y) \\
+> 	& \Longrightarrow \textrm{for all } a \in A \textrm{ there is } b \in A \textrm{ such that }: \mathcal{M} \vDash_{\mathscr{l}[y\mapsto b][x\mapsto a]} R(x,y) \\
+> 	& \Longleftrightarrow \textrm{for all } a \in A \textrm{ there is } b \in A \textrm{ such that }: \mathcal{M} \vDash_{\mathscr{l}[x\mapsto a][y\mapsto b]} R(x,y) \\
+> 	& \Longleftrightarrow \textrm{for all } a \in A: \mathcal{M} \vDash_{\mathscr{l}[x\mapsto a]} \exists yR(x,y) \\
+> 	& \Longleftrightarrow \mathcal{M} \vDash_{\mathscr{l}} \forall x\exists yR(x,y)
+> \end{align}$$
+> Hence we can conclude: $\exists y\forall xR(x,y)\vDash \forall x\exists yR(x,y)$
+
+> [!example]- Proving Semantic Entailment $\neg \forall xP(x) \vDash \exists x\neg P(x)$
+> For all models $\mathcal{M}$ with domain $A$ and environments $\mathscr{l}$ we find:
+> $$\begin{align}
+> \mathcal{M} & \vDash_{\mathscr{l}} \neg \forall x P(x) \\
+> 	& \Longleftrightarrow \textrm{not } \mathcal{M} \vDash_{\mathscr{l}} \forall x P(x) \\
+> 	& \Longleftrightarrow \textrm{there exists } a \in A \textrm{ such that not } \mathcal{M} \vDash_{\mathscr{l}[x\mapsto a]} P(x) \\
+> 	& \Longleftrightarrow \textrm{there exists } a \in A \textrm{ such that }: \mathcal{M} \nvDash_{\mathscr{l}[x\mapsto a]} P(x) \\
+> 	& \Longleftrightarrow \textrm{there exists } a \in A \textrm{ such that }: \mathcal{M} \vDash_{\mathscr{l}[x\mapsto a]} \neg P(x) \\
+> 	& \Longleftrightarrow \mathcal{M} \mapsto_{\mathscr{l}} \exists x \neg P(x)
+> \end{align}$$
+> Hence we can conclude: $\neg \forall xP(x) \vDash \exists x\neg P(x)$
 
 ---
 References:

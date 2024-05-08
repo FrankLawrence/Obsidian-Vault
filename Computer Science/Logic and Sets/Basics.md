@@ -26,7 +26,7 @@ Created: 2022-11-01 13:55:19
 3. $\to \; \leftrightarrow$
 ## Semantic equivalence
 > [!definition]+
-> Formulas $\phi$ and $\psi$ are *semantically equivalent*, notation $\phi \equiv \psi$, if they have identical columsn in their truth tables
+> Formulas $\phi$ and $\psi$ are *semantically equivalent*, notation $\phi \equiv \psi$, if they have identical columns in their truth tables
 
 
 ---

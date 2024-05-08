@@ -13,14 +13,54 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Semantics of Predicate Logic.md",
+                "file": "Computer Science/Linear Algebra/Vector Equations.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
             }
+          },
+          {
+            "id": "37076b60b113e46e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Science/Linear Algebra/Linear Algebra.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "fea9c1f6c0d8bdd5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Science/Semantics of, and Translations into, Predicate Logic.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "187297dbdebe6f12",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Interests/Security and Privacy/\"I've Got Nothing to Hide\" and Other Misunderstandings of Privacy.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -49,7 +89,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "mermaid",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -66,8 +106,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -88,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Semantics of Predicate Logic.md",
+                "file": "Interests/Security and Privacy/\"I've Got Nothing to Hide\" and Other Misunderstandings of Privacy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Semantics of Predicate Logic.md",
+                "file": "Interests/Security and Privacy/\"I've Got Nothing to Hide\" and Other Misunderstandings of Privacy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Semantics of Predicate Logic.md"
+                "file": "Interests/Security and Privacy/\"I've Got Nothing to Hide\" and Other Misunderstandings of Privacy.md"
               }
             }
           },
@@ -173,63 +212,63 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "5d50d7fbecc6d00b",
+  "active": "2160ab9d0795b4b5",
   "lastOpenFiles": [
-    "Interests/Programming and computers/MathJax Basic Tutorial.md",
-    "Computer Science/CoPP/CoPP.md",
-    "Computer Science/Semantics of Predicate Logic.md",
-    "Computer Science/SQL - Non-Monotonic Queries.md",
-    "Computer Science/Databases.md",
-    "School Subjects/Math/Math🧮.md",
-    "Interests/G/Table of Contents.md",
-    "Dashboard.md",
+    "\"I've Got Nothing to Hide\" and Other Misunderstandings of Privacy.md",
+    "Computer Science/Semantics of, and Translations into, Predicate Logic.md",
     "Computer Science/Uni Courses🎓.md",
-    "Computer Science/Logic and Modelling.md",
-    "Computer Science/Statistical Methods/Expectation and standard Deviation.md",
-    "Computer Science/Statistical Methods/Statistical Methods.md",
-    "Computer Science/Web Technology/Semantic versioning.md",
-    "Computer Science/Computer Networks/The Physical Layer.md",
-    "Computer Science/Secure Programming/Secure Programming.md",
-    "Computer Science/Secure Programming/SP Conservative Programming.md",
-    "Computer Science/Secure Programming/SP Secure Design.md",
-    "Computer Science/Secure Programming/SP Vulnerabilities.md",
-    "Computer Science/Secure Programming/SP Introduction to Security.md",
-    "Computer Science/Computer Networks/Computer Networks Chapter 2.md",
-    "Computer Science/Pervasive Computing/Percom 2 Signals.md",
-    "Computer Science/Computer Networks/Computer Networks.md",
-    "Computer Science/Computer Networks/The Network Layer.md",
-    "Computer Science/Computer Networks/The Medium Access Control Sublayer.md",
-    "Computer Science/Computer Networks/The Data Link Layer.md",
-    "Computer Science/Computer Networks/Comparison of circuit-switched and packet-switched networks.md",
-    "Files/PDF/Statistical Methods Lecture4.pdf",
-    "Banners/Frank Wallpaper OI.jpeg",
-    "Banners/E3wGdziUYAENJU_.jpeg",
-    "Banners/blockwavemoon.png",
-    "Files/15351.png",
-    "Files/19897.png",
-    "Interests/Branding and Inspiration.canvas",
-    "Interests/G.tar.gz.gpg_gpg(tzv).tmp",
-    "Interests/Programming and computers/Shell Scripting",
-    "Files/56003.png",
-    "Computer Science/Human Computer Interaction/Timeline of notable events in history of human-computer interaction.canvas",
-    "Files/40467.png",
-    "Files/36641.png",
-    "Files/5889.png",
-    "Files/72853.png",
-    "LICENSE",
-    "Files/PDF/03_2_state_machines_basics.pdf",
-    "Files/PDF/03_3_state_machines_advanced.pdf",
-    "Computer Science/Projects/Clinical Trials API.canvas",
-    "Computer Science/Operating Systems/Four-Level Page Tables.canvas",
-    "Files/PDF/03_1_core_design_principles.pdf",
-    "Files/PDF/04_sequence_diagrams 1.pdf",
-    "Files/PDF/03_3_state_machines_advanced 1.pdf",
-    "Files/PDF/03_2_state_machines_basics 1.pdf",
-    "Computer Science/Operating Systems/Four-Level Page Tables.canvas",
-    "Computer Science/Secure Programming/Diffie-Hellman Key Exchange.canvas",
-    "Computer Science/Projects/Clinical Trials API.canvas",
-    "Computer Science/Pervasive Computing/Testing Principle.canvas",
-    "Computer Science/Pervasive Computing/Systems engineering diagram.canvas",
-    "Computer Science/Pervasive Computing/Insulin Pump FTA.canvas"
+    "Computer Science/Linear Algebra/Linear Algebra.md",
+    "Computer Programming/Uni Courses🎓.md",
+    "Interests/Programming/Pen testing/Port Swigger/Java script/XSS/DOM.md",
+    "Interests/Programming/Pen testing/Programs/python3/mssqclient py.md",
+    "Interests/Programming/Pen testing/Port Swigger/file uploads/php code.md",
+    "Interests/Programming/Pen testing/Port Swigger/file uploads/htaccess.md",
+    "Interests/Programming/Pen testing/Port Swigger/file uploads/IMG spoofing.md",
+    "Interests/Programming/Pen testing/Port Swigger/SQL commands/Untitled.png",
+    "Interests/Programming/Pen testing/Port Swigger/SQL commands/Untitled 1.png",
+    "Interests/Programming/Pen testing/Port Swigger/Python scripts/Turbo intruder.md",
+    "Interests/Programming/Pen testing/Port Swigger/Java script/XSS.md",
+    "Interests/Programming/Pen testing/Port Swigger/Java script/Example.md",
+    "Interests/Programming/Pen testing/Port Swigger/Command injection/Untitled.png",
+    "Interests/Programming/Pen testing/Port Swigger/Java script/XSS",
+    "Interests/Programming/Pen testing/Port Swigger/CSRF/Same site restrictions.md",
+    "Interests/Programming/Pen testing/Programs/python3.md",
+    "Interests/Programming/Pen testing/Programs/python3",
+    "Interests/Programming/Pen testing/Programs/Searchsploit.md",
+    "Interests/Programming/Pen testing/Programs/Gobuster.md",
+    "Interests/Programming/Pen testing/Port Swigger/html.md",
+    "Interests/Programming/Pen testing/Port Swigger/file uploads.md",
+    "Interests/Programming/Pen testing/Port Swigger/SQL commands.md",
+    "Interests/Programming/Pen testing/Port Swigger/Subdomain.md",
+    "Interests/Programming/Pen testing/Port Swigger/file uploads",
+    "Interests/Programming/Pen testing/Port Swigger/SQL commands",
+    "Interests/Programming/Pen testing/Port Swigger/Python scripts.md",
+    "Interests/Programming/Pen testing/Port Swigger/Python scripts",
+    "Interests/Programming/Pen testing/Port Swigger/Packet edits.md",
+    "Interests/Programming/Pen testing/Port Swigger/Java script.md",
+    "Interests/Programming/Pen testing/Port Swigger/Command injection.md",
+    "Interests/Programming/Pen testing/Port Swigger/Hydra.md",
+    "Interests/Programming/Pen testing/Port Swigger/Java script",
+    "Interests/Programming/Pen testing/Port Swigger/Command injection",
+    "Interests/Programming/Pen testing/Port Swigger/CSRF",
+    "Interests/Programming/Pen testing/Programs",
+    "Interests/Programming/Pen testing/Port Swigger",
+    "Interests/Programming/Unix Command Reference.canvas",
+    "Computer Programming/Secure Programming/Diffie-Hellman Key Exchange.canvas",
+    "Computer Programming/Projects/Clinical Trials API.canvas",
+    "Computer Programming/Pervasive Computing/Testing Principle.canvas",
+    "Computer Programming/Pervasive Computing/Systems engineering diagram.canvas",
+    "Computer Programming/Pervasive Computing/Insulin Pump FTA.canvas",
+    "Computer Programming/Pervasive Computing/Analog to Digital Converter.canvas",
+    "Computer Programming/Operating Systems/Four-Level Page Tables.canvas",
+    "Computer Programming/Object Oriented and Functional Programming/Animals Inheritance class example.canvas",
+    "Computer Programming/Object Oriented and Functional Programming/Anyref.canvas",
+    "Files/SCR-20240304-tnia.png",
+    "Files/SCR-20240304-tnia-2.png",
+    "Files/Pasted image 20240322175058.png",
+    "Files/95736.png",
+    "Files/85036.jpeg",
+    "Files/8065856_0.webp",
+    "Files/78290.png"
   ]
 }

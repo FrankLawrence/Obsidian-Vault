@@ -67,7 +67,7 @@ is called the **augmented matrix** of the system
 
 > [!hint]- Reasonable Answers
 > Substitute your solution into the original equations. 
-> If upon rechecking your arithmetic, you find the correct values, you can be confident you have the correct solution to the system of equations. Otherwise there is an error in the original calculations
+> If upon re-checking your arithmetic, you find the correct values, you can be confident you have the correct solution to the system of equations. Otherwise there is an error in the original calculations
 
 
 ---
