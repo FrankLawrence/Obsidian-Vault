@@ -34,7 +34,7 @@ cssclass: dashboard
 	- [[Statistical Methods]]
 	- [[Secure Programming]]
 - P3
-	- [[Professional Development]]
+	- [[Professional Development 1]]
 	- [[Academic Writing]]
 	- [[History of CS]]
 - P4
