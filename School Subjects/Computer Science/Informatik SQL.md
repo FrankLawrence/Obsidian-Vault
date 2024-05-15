@@ -1,11 +1,9 @@
 (Links:: [[Computer Science💻👨🏼‍💻]])
-tags:
 - Relationale Datenbank: Sammlung von Tabellen
 - Die erste Zeile einer Tabelle enthält in jeder Spalte einen Namen für die Daten dieser Spalte.
 - Jede weitere Zeile einer Tabelle enthält einen Datensatz. Da jeder Datensatz einer Tabelle eindeutig identifizierbar sein muss, müssen eine Spalte oder eine Kombination von Spalten eindeutige Werte enthalten.
 - Mithilfe von Primärschlüsseln lassen sich Tabellen miteinander verknüpfen.
--------------------
-## Begriffe
+# Begriffe
 | Umgangssprache               | Informatische Fachsprache                                             |
 | ---------------------------- | --------------------------------------------------------------------- |
 | Tabelle                      | Relation                                                              |
@@ -17,11 +15,10 @@ tags:
 
 [[Begrifflichkeiten.jpg]]
 
-## [[SQL Abfragen]]
-## [[JOIN]]
-## Darstellung
-- [[Entity-Realtionship-Model]]
-- [[Datenbankschema]]
-
-
-## [[Aggregatfunktionen]]
+# Themen
+- [[SQL Abfragen]]
+- [[JOIN]]
+- Darstellung
+	- [[Entity-Realtionship-Model]]
+	- [[Datenbankschema]]
+- [[Aggregatfunktionen]]

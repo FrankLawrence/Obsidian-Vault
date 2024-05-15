@@ -15,9 +15,11 @@ OR
 NOT
 BETWEEN a AND b
 
-_Beispeiel_:
-**SELECT** Titel, PersNr **FROM** Kurs
-**WHERE** Titel = 'Datenbank' **OR** Titel = 'HTML';
+_Beispiel_:
+```SQL
+SELECT Titel, PersNr FROM Kurs
+WHERE Titel = 'Datenbank' OR Titel = 'HTML';
+```
 
 _Textmuster_:
 **SELECT** * **FROM** Student **WHERE** Name **LIKE** 'M%';

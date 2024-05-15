@@ -82,10 +82,39 @@ For all formulas $\phi$, $\psi$ the following statements are equivalent:
 > > Consequently $\mathcal{M}\nvDash \phi$
 > > Hence there is no model satisfying both formulas in the set.
 
-
 # Translation into Predicate Logic and the Interplay of Quantifiers
 
+
 # Interplay between Quantifiers and Connectives
+> [!definition] Proposition
+> For all variables $\mathbf{x}$ and formulas $\phi$ it holds:
+> 1. $\neg \forall \mathbf{x}\phi\equiv \exists \mathbf{x}\neg \phi$
+> 2. $\neg \exists \mathbf{x}\phi\equiv \forall \mathbf{x}\neg \phi$
+> 3. $\forall \mathbf{x}\phi\equiv \neg \exists \mathbf{x}\neg \phi$
+> 4. $\exists \mathbf{x}\phi\equiv \neg \forall \mathbf{x}\neg \phi$
+
+> [!definition] Proposition
+> For all variables $\mathbf{x}$ and formulas $\phi$ it holds:
+> 1. $\forall\mathbf{x}(\phi\land \psi)\equiv\forall \mathbf{x}\phi \land\forall\mathbf{x}\psi$
+> 2. $\exists \mathbf{x}(\phi\lor\psi)\equiv\exists \mathbf{x}\phi\lor\exists\mathbf{x}\psi$
+> 
+> For all variables $\mathbf{x}$ and formulas $\phi$ these formulas are **valid**:
+> 1. $\forall \mathbf{x}(\phi\to\psi)\to(\forall\mathbf{x}\phi\to\forall\mathbf{x}\psi)$
+> 1. $(\exists\mathbf{x}\phi\to\exists\mathbf{x}\psi)\to\exists \mathbf{x}(\phi\to\psi)$
+
+> [!definition] Proposition
+> For all variables $\mathbf{x},\mathbf{y}$ and formulas $\phi$ it holds:
+> 1. $\forall \mathbf{x}\forall\mathbf{y}\phi\equiv\forall\mathbf{y}\forall\mathbf{x}\phi$
+> 2. $\exists \mathbf{x}\exists\mathbf{y}\phi\equiv\exists\mathbf{y}\exists\mathbf{x}\phi$
+> 3. $\forall \mathbf{x}\phi\equiv\phi\quad\text{if } \mathbf{x} \text{ not free in } \phi$
+> 3. $\exists \mathbf{x}\phi\equiv\phi\quad\text{if } \mathbf{x} \text{ not free in } \phi$
+
+> [!definition] Proposition
+> For all variables $\mathbf{x}$ and formulas $\phi$ it holds:
+> 1. $\exists \mathbf{x}\phi\equiv\exists \mathbf{z}\phi[\frac{\mathbf{z}}{\mathbf{x}]\quad}\text{if } \mathbf{z} \text{ not free in }\phi$
+> 1. $\forall \mathbf{x}\phi\equiv\forall \mathbf{z}\phi[\frac{\mathbf{z}}{\mathbf{x}]\quad}\text{if } \mathbf{z} \text{ not free in }\phi$
+
+Recall that $$\phi[t/\mathbf{x}]$$ is the result of replacing all free occurrences of $\mathbf{x}$ in $\phi$ by $t$ if **no capture of free variables happens**, otherwise *undefined*.
 
 
 ---
