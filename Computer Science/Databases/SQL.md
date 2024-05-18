@@ -25,6 +25,10 @@ For each table in the `FROM` clause there is a tuple variable. If the name of th
 > FROM Exercises E     -- Leaving out E, will require changing all occurrences of the tuple variable with 'Exercises'
 > WHERE E.category = 'homework'
 > ```
+> |number|topic|
+> |---|---|
+> |1|Logic|
+> |2|SQL|
 
 ## Attribute References
 Let $R$ be a tuple variable and $A$ an attribute of $R$. Attributes are referenced in the form $$R.A$$ If $R$ is the *only* tuple variable with attribute $A$, then it suffices to write $A$
@@ -41,6 +45,11 @@ Let $R$ be a tuple variable and $A$ an attribute of $R$. Attributes are referenc
 > WHERE    S.sid = R.sid
 > 	AND first = 'George' AND last = 'Orwell'
 > ```
+> |category|number|points|
+> |---|---|---|
+> |exam|1|12|
+> |homework|1|10|
+> |homework|2|8|
 
 ## Query Formulation Traps
 
@@ -60,6 +69,11 @@ FROM      Students S, Results R
 WHERE     S.sid = R.sid        -- Join Condition
 	AND first = 'George' AND last = 'Orwell'
 ```
+|category|number|points|
+|---|---|---|
+|exam|1|12|
+|homework|1|10|
+|homework|2|8|
 
 > [!error]
 > It is almost always an **error** if there are two tuple variables which are **not linked** (directly or indirectly) via join conditions.
@@ -90,6 +104,11 @@ Typically, the conditions correspond to the **foreign key relationships** betwee
 > > 	AND S.sid = R.sid
 > > 	AND R.category = E.category AND R.number = E.number
 > > ```
+> > |topic|
+> > |---|
+> > |SQL|
+> > |Logic|
+> > |SQL|
 ## Unnecessary Joins
 > [!warning]
 > Do not join **more** tables than needed.
@@ -114,8 +133,14 @@ Typically, the conditions correspond to the **foreign key relationships** betwee
 > ```
 > > [!done]- Solution
 > > Yes!
+> > 
+> > |sid|points|
+> > |---|---|
+> > |101|10|
+> > |102|9|
+> > |103|5|
 
-> [!question]+
+> [!question]+ Exercise
 > Is there any difference between these two queries?
 > ```SQL
 > SELECT    S.first, S.last
@@ -128,6 +153,20 @@ Typically, the conditions correspond to the **foreign key relationships** betwee
 > ```
 > > [!done]- Solution
 > > In the second query, people with the *same first name*, but not necessarily the same last name will be will be left out. Also, only those students who have results will be shown (which not all must have).
+> > 
+> > |first|last|
+> > |---|---|
+> > |George|Orwell|
+> > |Elvis|Presley|
+> > |Lisa|Simpson|
+> > |Bart|Simpson|
+> > |George|Washington|
+> > 
+> > |first|last|
+> > |---|---|
+> > |George|Orwell|
+> > |Elvis|Presley|
+> > |Lisa|Simpson|
 
 # Self Joins
 In some query scenarios, we might have to consider **more than one tuple of the same relation** to generate a result tuple.
@@ -136,11 +175,14 @@ In some query scenarios, we might have to consider **more than one tuple of the 
 > ```SQL
 > SELECT   S.first, S.last
 > FROM     Students S, Results H1, Results H2
-> WHERE    S.sid = H.sid and S.sid = H2.sid
+> WHERE    S.sid = H1.sid and S.sid = H2.sid
 > 	AND  H1.category = 'homework' AND H1.number = 1
 > 	AND  H2.category = 'homework' AND H2.number = 2
 > 	AND  H1.points = 9 AND H2.points = 9
 > ```
+> |first|last|
+> |---|---|
+> |Elvis|Presley|
 
 > [!question]- Students that solved at least two homework assignments
 > ```SQL
@@ -149,6 +191,17 @@ In some query scenarios, we might have to consider **more than one tuple of the 
 > WHERE    S.sid = R1.sid AND R1.category = 'homework'
 > 	AND  S.sid = R2.sid AND R2.category = 'homework'
 > ```
+> |first|last|
+> |---|---|
+> |George|Orwell|
+> |George|Orwell|
+> |Elvis|Presley|
+> |Elvis|Presley|
+> |Lisa|Simpson|
+> |George|Orwell|
+> |George|Orwell|
+> |Elvis|Presley|
+> |Elvis|Presley|
 > > [!warning] We need to ensure that `R1` and `R2` refer to distinct results:
 > > ```SQL
 > > ...
@@ -156,6 +209,12 @@ In some query scenarios, we might have to consider **more than one tuple of the 
 > > 	 R1.category <> R2.category OR
 > > 	 R1.number <> R2.number)
 > > ```
+> > |first|last|
+> > |---|---|
+> > |George|Orwell|
+> > |Elvis|Presley|
+> > |George|Orwell|
+> > |Elvis|Presley|
 
 # Duplicate Elimination
 A core difference between SQL and relational algebra is that **duplicates have to be explicitly eliminated** in SQL. The `distinct` modifier may be applied to the `SELECT` clause to request explicit duplicate row elimination. You should avoid unnecessary duplicate elimination.
@@ -175,6 +234,13 @@ A core difference between SQL and relational algebra is that **duplicates have t
 > > FROM     Students S, Results R
 > > WHERE    R.category = 'homework' AND R.sid = S.sid
 > > ```
+> > |first|last|number|points|
+> > |---|---|---|---|
+> > |George|Orwell|1|10|
+> > |George|Orwell|2|8|
+> > |Elvis|Presley|1|9|
+> > |Elvis|Presley|2|9|
+> > |Lisa|Simpson|1|5|
 > > Let us assume that $\{\textsf{ first, last }\}$ is a key for $\textsf{Students}$.
 > > 1. Initialiste $\mathcal{K}=\{\textsf{ S.first, S.last, R.number, R.points }\}$
 > > 2. $\mathcal{K}+\{\textsf{ R.category }\}$ because of $\textsf{R.category}=\textsf{'homework'}$
@@ -218,6 +284,10 @@ With `IN` and `NOT IN`, it is possible to check whether an attribute value appea
 > 					FROM      Results
 > 					WHERE     category = 'homework')
 > ```
+> |first|last|
+> |---|---|
+> |Bart|Simpson|
+> |George|Washington|
 
 The **subquery** is evaluated before the **main query**. This can be visualised as two seperate tables.
 
@@ -239,6 +309,10 @@ Then, for every tuple of `Students`, a matching `sid` is search in the subquery 
 > 				   FROM    Results
 > 				   WHERE   category = 'homework')
 > ```
+> |topic|
+> |---|
+> |Logic|
+> |SQL|
 > > [!question]- Is there a difference to this query?
 > > ```SQL
 > > SELECT  distinct topic
@@ -262,6 +336,10 @@ The construct `NOT EXISTS` enables the main (or outer) query to check whether th
 > 					WHERE   R.category = 'homework'
 > 					AND     R.sid = S.sid)
 > ```
+> |first|last|
+> |---|---|
+> |Bart|Simpson|
+> |George|Washington|
 
 In the subquery, tuple variables declared in the `FROM` clause of the outer query may be referenced (but the **converse is illegal**!). The subquery is said to be "*parameterized*"/"correlated". In the above example, conceptually the tuple variable `S` loops over the 5 rows in `Students`. As a result, the subquery is evaluated 5 times.
 You can imagine the subquery as a stand alone query by replacing `S.sid` with a fixed value (such as 101).
@@ -281,6 +359,11 @@ Non-correlated subqueries evaluate to a set/relation **constant** and may make p
 > 				WHERE   R.category = 'homework'
 > 				AND     R.sid = S.sid)
 > ```
+> |sid|first|last|
+> |---|---|---|
+> |101|George|Orwell|
+> |102|Elvis|Presley|
+> |103|Lisa|Simpson|
 > > [!tip]- Solution
 > > ```SQL
 > > SELECT  sid, first, last
@@ -321,15 +404,18 @@ SQL does also not have $\Rightarrow$. The commonly used pattern $$\forall X(\alp
 > >         WHERE  Y.category = 'homework' AND Y.number = 1
 > > 	        AND Y.points > X.points)
 > > ```
+> > |first|last|points|
+> > |---|---|---|
+> > |George|Orwell|10|
 > 
 > > [!tip]- Alternative Solution
 > > ```SQL
 > > SELECT first, last, points
-> > FROM Students S, Results R1
-> > WHERE S.sid = R1.sid AND R1.category = 'homework' AND R1.number = 1
+> > FROM Students S, Results X
+> > WHERE S.sid = X.sid AND X.category = 'homework' AND X.number = 1
 > >     AND points >= (SELECT MAX(points)
-> >                 FROM   Results R
-> >                 WHERE  R.category = 'homework' AND R.number = 1)
+> > 	               FROM   Results Y
+> > 		           WHERE  Y.category = 'homework' AND Y.number = 1)
 > > ```
 
 # Nested Subqueries
@@ -342,18 +428,190 @@ Subqueries may be nested.
 > 					 FROM    Exercises E
 > 					 WHERE   category = 'homework'
 > 						 AND NOT EXISTS (SELECT  *
-> 										 FROM    Results
+> 										 FROM    Results R
 > 										 WHERE   R.sid = S.sid
 > 											 AND R.number = E.number
 > 											 AND R.category = E.category))
 > ```
+> |first|last|
+> |---|---|
+> |George|Orwell|
+> |Elvis|Presley|
 > Inner query: All results for student $S$ and homework $E$.
 > Middle query: Homework of student $S$ for which no result exists.
 > Outer query: Students that have no homework without results.
 # All, Any, Some
+SQL allows to compare *single value* with all values computed by a *single-column* subquery. Such comparisons may be universally or existentially quantified.
+
+> [!question]- Who got the best result for homework 1?
+> ```SQL
+> SELECT   S.first, S.last, X.points
+> FROM     Students S, Results X
+> WHERE    S.sid = X.sid
+> 	AND X.category = 'homework' AND X.number = 1
+> 	AND X.points >= ALL (SELECT   Y.points
+> 						 FROM     Results Y
+> 						 WHERE    Y.category = 'homework'
+> 							AND  Y.number = 1)
+> ```
+> |first|last|points|
+> |---|---|---|
+> |George|Orwell|10|
+> > [!tip]- Alternative Solution from previous query (but with `ANY`)
+> > SELECT   S.first, S.last, X.points
+> > FROM     Students S, Results X
+> > WHERE    S.sid = X.sid
+> > 	AND X.category = 'homework' AND X.number = 1
+> > 	AND NOT X.points < ANY (SELECT   Y.points
+> > 						 FROM     Results Y
+> > 						 WHERE    Y.category = 'homework'
+> > 							AND  Y.number = 1)
+> > ```
+
+The subquery must yield a **single result column**!
+> [!info] $\{\text{ALL, ANY, SOME}\}$ do **not** extend SQL's expressiveness
+> The statement $$A < \text{ANY} \;(\text{SELECT \;B\; FROM\; $...$\; WHERE \;$...$\;})$$ is equivalent to $$\text{EXISTS}\; (\text{SELECT \;B\; FROM \;$...$\; WHERE \;$...$\; AND}\; A<B)$$
+> ---
+> The statement $$x \text{ in } S$$ is equivalent to $$x = \text{ any } S$$
 # Single Value Subqueries
+If **none of the keywords** `ALL, ANY, SOME` are present, i.e. $$...\;\text{WHERE } \;x = (\text{SELECT \;A \;FROM \;}...),$$ the subquery must yield *single column and* **at most one row**. So the comparison is between atomic values.
+> [!question]- Who got full points for homework 1?
+> ```SQL
+> SELECT  S.first, S.last
+> FROM    Students S, Results R
+> WHERE   S.sid = R.sid AND category = 'homework' AND number = 1
+> 	AND points = (SELECT  maxPoints
+> 				  FROM    Exercises
+> 				  WHERE   category = 'homework' AND number = 1)
+> ```
+> |first|last|
+> |---|---|
+> |George|Orwell|
+> > [!question]- Why is this query guaranteed to return a single column & row?
+> > Because *category* and *number* together form a primary key, which returns a tuple. maxPoints dictates which column of the tuple should be returned.
+
+Use constraints to ensure that the query returns only one row! If the subquery has an empty result, the *null value* is returned.
 # Views & Subqueries under From
+Since an SQL query returns a table, it makes sense to use a subquery wherever a table might be specified. SQL allows subqueries *in the `FROM` clause*.
+
+> [!question]- Points (in %) achieved in homework exercise 1
+> ```SQL
+> SELECT  X.sid, (X.points * 100 / X.maxPoints) as percent
+> FROM    (SELECT  E.category, E.number, R.sid, R.points, E.maxPoints
+> 		 FROM    Exercises E, Results R
+> 		 WHERE   E.category = R.category AND E.number = R.number) X
+> WHERE   X.category = 'homework' AND X.number = 1
+> ```
+> |sid|percent|
+> |---|---|
+> |101|100.0000|
+> |102|90.0000|
+> |103|50.0000|
+
+One use of subqueries under `FROM` are **nested aggregations**. 
+
+> [!warning] Inside the subquery, tuple variables introduced in the same `FROM` clause **may not be referenced**.
+> ```SQL
+> SELECT  S.first, S.last, X.number, X.points
+> FROM    Students S, (SELECT  R.number, R.points
+> 					 FROM    Results R
+> 					 WHERE   R.category = 'homework'
+> 						 AND R.sid = S.sid) X     -- Fails here!
+> ```
+
+If you do not want to create the table as a subquery, a **view declaration** registers a **query (not a query result)** under a given identifier in the database.
+> [!example]-
+> ```SQL
+> CREATE  VIEW HomeworkPoints AS
+> SELECT  S.first, S.last, R.number, R.points
+> FROM    Students S, Results R
+> WHERE   S.sid = R.sid AND R.category = 'homework'
+> ```
+
 # Aggregation Functions
+Aggregation functions are functions from a set or multiset to a single value, e.g., $$min\{42,57,5,12,27\}=5$$ They take as input the values of an entire column. Aggregation functions are also known as *group functions*/*column functions*. SQL-92 defines 5 aggregation functions: `COUNT`, `SUM`, `AVG`, `MAX`, `MIN`.
+> [!question]- How many Students in the current database state?
+> ```SQL
+> SELECT  COUNT(*)
+> FROM    Students
+> ```
+> |COUNT(*)|
+> |--------|
+> |5       |
+
+Some aggregation functions are sensitive to **duplicates**: `SUM`, `COUNT`, `AVF`. Some are insensitive: `MIN`, `MAX`. You can request to ignore these: `COUNT(DISTINCT A)`. Simple aggregations feed the value set of an entire column into an aggregation function.
+
+> [!question]- Best and average result for homework 1?
+> ```SQL
+> SELECT  MAX(points), AVG(points)
+> FROM    Results
+> WHERE   category = 'homework' AND number = 1
+> ```
+> 
+> | MAX(points) | AVG(points) |
+> |-------------|-------------|
+> | 10          | 8           |
+
+> [!question]- How many Students have submitted a homework?
+> ```SQL
+> SELECT  COUNT(DISTINCT sid)
+> FROM    Results
+> WHERE   category = 'homework'
+> ```
+> 
+> | COUNT(DISTINCT sid) |
+> |---------------------|
+> | 3                   |
+
+> [!question]- What is the total number of points student 101 got for her homework?
+> ```SQL
+> SELECT  SUM(points)
+> FROM    Results R
+> WHERE   sid = 101 AND R.category = 'homework'
+>```
+> | SUM(points) |
+> |-------------|
+> | 18          |
+
+SQL also allows to write formulas.
+
+> [!question]- What average percentage of the maximum points did the students reach for homework 1
+> ```SQL
+> SELECT  AVG(R.points / E.maxPoints) * 100
+> FROM    Results R, Exercises E
+> WHERE   R.category = 'homework' AND R.number  = 1
+>     AND E.category = 'homework' AND E.number = 1
+> ```
+> |AVG(R.points / E.maxPoints) * 100|
+> |---------------------------------|
+> |80.00000000                      |
+
+> [!question]- Homework points for student 101 plus 3 bonus points
+> ```SQL
+> SELECT  SUM(points) + 3 AS "total homework points"
+> FROM    Results
+> WHERE   sid = 101 AND category = 'homework'
+> ```
+> |total homework points|
+> |---------------------|
+> |21                   |
+
+> [!error]
+> Aggregations may not be used in the `WHERE` clause:
+> ```SQL
+> ... WHERE SUM(A) > 100 ...
+> ```
+> If an aggregation function is used without `GROUP BY`, **no attributes** may appear in the `SELECT` clause:
+> ```SQL
+> SELECT  category, number, AVG(points)
+> FROM    Results
+> ```
+
+Usually, null values are ignored (filtered out) before the aggregation operator is applied. The exception is:
+- `COUNT(*)` counts null values
+- `COUNT(*)` counts rows, not attribute values
+
+If the input set is empty, aggregation functions yield `NULL`. The exception is `COUNT` returns 0 (since it counts rows).
 # Aggregations with Group By and Having
 # Aggregation Subqueries
 # Union & Case & Coalesce
