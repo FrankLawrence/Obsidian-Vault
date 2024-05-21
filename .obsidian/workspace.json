@@ -34,19 +34,6 @@
             }
           },
           {
-            "id": "a6e1f7514c12ad06",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Logic and Modelling/Semantics of Predicate Logic.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
             "id": "ec4a4c58f37f289a",
             "type": "leaf",
             "state": {
@@ -71,22 +58,9 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "df256d458ef4e2ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Pervasive Computing/Percom 5 Sound Processing.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -154,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Pervasive Computing/Percom 5 Sound Processing.md",
+                "file": "Computer Science/Databases/SQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -171,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Pervasive Computing/Percom 5 Sound Processing.md",
+                "file": "Computer Science/Databases/SQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -194,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Pervasive Computing/Percom 5 Sound Processing.md"
+                "file": "Computer Science/Databases/SQL.md"
               }
             }
           },
@@ -239,16 +213,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "df256d458ef4e2ab",
+  "active": "ec4a4c58f37f289a",
   "lastOpenFiles": [
-    "Computer Science/Pervasive Computing/Pervasive Computing.md",
-    "Computer Science/Databases/SQL.md",
     "Computer Science/Databases/Database Transactions.md",
     "Computer Science/Logic and Modelling/Modal Logic.md",
+    "Computer Science/Databases/SQL.md",
+    "Computer Science/Linear Algebra/Linear Algebra.md",
     "Computer Science/Logic and Modelling/Semantics of Predicate Logic.md",
+    "Computer Science/Pervasive Computing/Percom 5 Sound Processing.md",
+    "Computer Science/Pervasive Computing/Pervasive Computing.md",
     "Linear Algebra Exam Prep.md",
     "Computer Science/Linear Algebra/Linear Algebra exam questions.md",
-    "Computer Science/Linear Algebra/Linear Algebra.md",
     "Computer Science/Linear Algebra/Diagonalization.md",
     "Computer Science/Linear Algebra/Linear Independence.md",
     "Computer Science/Linear Algebra/Solution Sets of Linear Systems.md",
@@ -268,7 +243,6 @@
     "Computer Science/Databases/Databases.md",
     "Personal/Callouts.md",
     "School Subjects/Computer Science/Informatik SQL.md",
-    "School Subjects/Computer Science/SQL Abfragen.md",
     "Untitled.canvas",
     "Computer Science/Logic and Modelling",
     "Computer Science/Databases",

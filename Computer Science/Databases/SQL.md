@@ -613,8 +613,79 @@ Usually, null values are ignored (filtered out) before the aggregation operator 
 
 If the input set is empty, aggregation functions yield `NULL`. The exception is `COUNT` returns 0 (since it counts rows).
 # Aggregations with Group By and Having
+`GROUP BY` **partitions** the rows of a table into **disjoint groups**: based on **value equality for the `GROUP BY` attributes**. Aggregation functions applied for each group separately. 
+> [!example] Average points for each homework
+> ```SQL
+> SELECT   number, AVG(points)
+> FROM     Results
+> WHERE    category = 'homework'
+> GROUP BY number
+> ```
+
+All tuples agreeing in their `number` values for a group:
+
+| sid | category | number | points |
+| --- | -------- | ------ | ------ |
+| 101 | homework | 1      | 10     |
+| 102 | homework | 1      | 9      |
+| 103 | homework | 1      | 5      |
+| --- | -------- | ------ | ------ |
+| 101 | homework | 2      | 8      |
+| 101 | homework | 2      | 9      |
+
+The groups are formed **after** the evaluation of the `FROM` and `WHERE` clauses. Aggregation is subsequently done for every group (yielding as many rows as groups). The `GROUP BY` **never** produces empty groups. The `GROUP BY` attributes may be used in the `SELECT` clause since they have a **unique value for every group**. A reference to any other attribute is illegal. 
+
+> [!question]- Is there any semantical difference between these queries?
+> ```SQL
+> SELECT   topic, AVG(points / maxPoints)
+> FROM     Exercises E, Results R
+> WHERE    E.category = 'homework' AND R.category = 'homework'
+>     AND  E.number = R.number
+> GROUP BY topic
+> ```
+> ```SQL
+> SELECT   topic, AVG(points / maxPoints)
+> FROM     Exercises E, Results R
+> WHERE    E.category = 'homework' AND R.category = 'homework'
+> 	AND  E.number = R.number
+> GROUP BY topic, E.number
+> ```
+> > [!tip]- Solution
+> > Yes!
+
+Aggregations may not be used in the `WHERE` clause. With `GROUP BY`, however, it makes sense to **filter out entire groups** based on some aggregated group property. This is possible with SQL's `HAVING` clause.
+
+> [!example]
+> ```SQL
+> SELECT   ...           -- output columns
+> FROM     ...           -- what tuples
+> WHERE    ...           -- filter tuples
+> GROUP BY ...           -- group tuples
+> HAVING   COUNT(*) > n  -- filter groups
+> ```
+
+The condition in the `HAVING` clause may (only) involve aggregation functions.
+
+> [!question] Which Students got at least 18 homework points?
+> ```SQL
+> SELECT   first, last
+> FROM     Students S, Results R
+> WHERE    S.sid = R.sid AND R.category = 'homework'
+> GROUP BY S.sid, first, last
+> HAVING   SUM(points) >= 18
+> ```
 # Aggregation Subqueries
 # Union & Case & Coalesce
+"Union" allows to combine the results of two queries. This is needed since there is no other method to construct one result column that draws from different tables/columns. "Union" is necessary, for example, if specialisations of a concept ("subclasses") are stored in separate tables.
+> [!example]
+> If we have tables
+> - `graduate_courses` and
+> - `undergraduate_courses`
+> 
+> both of which are specialisations of the concept `course`.
+
+> [!question] Total number of homework points for *every* student
+> 
 # Order By
 # Left & Right Outer and Inner Joins
 
