@@ -16,26 +16,72 @@ Created: 2023-07-04 18:35:52
 	- $A^{-1}=\frac{1}{\text{det }A}\text{adj }A$
 6. [x] Show that $V$ is a subspace of a vector space based on properties of the entires of the vectors.
 	- Prove that (1) $V$ contains the $\vec 0$ vector, (2) $V$ is closed under vector addition (3) $V$ is closed under multiplication by scalar
-7. [x] Show that $v_1$ is an eigenvector of $A$ and find its corresponding eigenvalue $\lambda_1$
+
+$$\begin{bmatrix}s+3t \\ s-t \\ 2s-t \\ 4t\end{bmatrix}=s\begin{bmatrix}1 \\ 1 \\ 2 \\ 0\end{bmatrix}+t\begin{bmatrix}3 \\ 1 \\ -1 \\ 4\end{bmatrix}$$
+1. [x] Show that $v_1$ is an eigenvector of $A$ and find its corresponding eigenvalue $\lambda_1$
 	- Multiply $A$ with $v_1$ to find $\lambda_{1}v_{1}$
-8. [x] [[The Characteristic Equation#^26dc57|Determine the remaining eigenvalues of A]] and give a [[Eigenvectors and Eigenvalues#^824f22|basis for every eigenspace]] of $A$.
-9. [x] Determine whether $A$ is diagonalizable. If so, give the diagonalization, i.e., an invertible matrix $P$ and a diagonal matrix $D$ such that $A = PDP−1$. If not, explain why $A$ is not diagonalizable.
+2. [x] [[The Characteristic Equation#^26dc57|Determine the remaining eigenvalues of A]] and give a [[Eigenvectors and Eigenvalues#^824f22|basis for every eigenspace]] of $A$.
+3. [x] Determine whether $A$ is diagonalizable. If so, give the diagonalization, i.e., an invertible matrix $P$ and a diagonal matrix $D$ such that $A = PDP−1$. If not, explain why $A$ is not diagonalizable.
 	- $A$ is diagonalizable iff there are $n$ distinct eigenvalues
 	- $D$ contains the eigenvalues along the diagonal (easier to computer powers with)
 	- $P$ contains the eigenvectors (belonging to the correct eigenvalues)
-10. [x] Use the given basis to produce an orthonormal basis for $\Bbb R^3$.
+4. [x] Use the given basis to produce an orthonormal basis for $\Bbb R^3$.
+$$\begin{bmatrix} 1 \\ -4 \\ 0 \\ 1 \end{bmatrix},\begin{bmatrix} 7 \\ -7 \\ -4 \\ 1 \end{bmatrix}$$
+$$v_{1}=x_{1} = \begin{bmatrix} 1 \\ -4 \\ 0 \\ 1 \end{bmatrix}$$
+$$v_{2}=\begin{bmatrix} 7 \\ -7 \\ -4 \\ 1 \end{bmatrix}-\frac{36}{18}\begin{bmatrix} 1 \\ -4 \\ 0 \\ 1 \end{bmatrix}=\begin{bmatrix}5 \\ 1 \\ -4 \\ -1 \end{bmatrix}$$
+$$u_{1}=\frac{1}{\mid\mid v_{1} \mid\mid}v_{1}=\frac{1}{\sqrt{18}}\begin{bmatrix}1 \\ -4 \\ 0 \\ 1\end{bmatrix}=\begin{bmatrix} 1/\sqrt{18} \\ -4/\sqrt{18} \\0 \\ 1/\sqrt{18} \\\end{bmatrix}$$
+$$u_{2}=\frac{1}{\mid\mid v_{2} \mid\mid}v_{2}=\frac{1}{\sqrt{115}}\begin{bmatrix}7 \\ -7 \\ -4 \\ 1\end{bmatrix}=\begin{bmatrix} 7/\sqrt{115} \\ -7/\sqrt{115} \\-4/\sqrt{115} \\ 1/\sqrt{115} \\\end{bmatrix}$$
+
 11. [x] Find the distance between $v_3$ and $\text{Span }\{v_1,v_2\}$.
-12. [x] The map $T$ defined by $T ((x1 , x2 )) = ( x1 + x2 , x1 − x2 , 2 )$ is linear.
-	- Test if $T(x_1+x_2,y_1+y_2)=T(x_1,y_1)+T(x_2,y_2)$ and $T(cx,cy)=cT(x,y)$
-13. [x] Finding the standard matrix $A$ of $T$
-14. [x] Determine the LU-factorization of a coefficient matrix
-15. [x] Let $x=\begin{bmatrix}1\\0\\2\end{bmatrix}$. Find $[x]_\mathcal{B}$ where $\mathcal{B}$ is the basis made out of the columns of a coefficient matrix $B$
+
+Let $v_1 = (1, 2, 1)$, $v_2 = (0, 1, 1)$, and $v_3 = (2, 3, 4)$. Find the distance between the vector $v_3$ and the subspace $\text{Span }\{v_1, v_2\}$.
+
+Solution:
+To find the distance between a vector and a subspace, we need to find the orthogonal projection of the vector onto the subspace and then calculate the distance between the vector and its projection.
+
+Step 1: Find an orthonormal basis for the subspace $\text{Span }\{v_1, v_2\}$ using the Gram-Schmidt process.
+
+$$u_1 = v_1 = \begin{bmatrix}1  \\ 2 \\ 1\end{bmatrix}$$
+$$u_2 = \begin{bmatrix}0  \\ 1 \\ 1\end{bmatrix} - \frac{3}{6}\begin{bmatrix}1  \\ 2 \\ 1\end{bmatrix} = \begin{bmatrix}-1/2  \\ 0 \\ 1/2\end{bmatrix}$$
+
+Normalize $u_1$ and $u_2$:
+
+$$e_1 = \frac{u_1}{||u_1||} = \begin{bmatrix}1/\sqrt{6} \\  2/\sqrt{6} \\  1/\sqrt{6}\end{bmatrix}$$
+$$e_2 = \frac{u_2}{||u_2||} = \begin{bmatrix}-1/\sqrt{2}  \\ 0 \\  1/\sqrt{2}\end{bmatrix}$$
+
+Step 2: Find the orthogonal projection of $v_3$ onto $\text{Span }\{v_1, v_2\}$ using the orthonormal basis $\{e_1, e_2\}$.
+
+$$\begin{align}
+\hat v_3 &= (v_3 \cdot e_1)e_1 + (v_3 \cdot e_2)e_{2}\\
+&= \frac{12}{\sqrt{6}} \begin{bmatrix}1/\sqrt{6} \\  2/\sqrt{6} \\  1/\sqrt{6}\end{bmatrix} + \frac{2}{\sqrt{2}}\begin{bmatrix}-1/\sqrt{2}  \\ 0 \\  1/\sqrt{2}\end{bmatrix}\\
+&= \begin{bmatrix}2 \\ 4 \\ 2\end{bmatrix} + \begin{bmatrix} -1 \\ 0 \\ 1\end{bmatrix} = \begin{bmatrix}1 \\ 4 \\ 3\end{bmatrix}
+\end{align}$$
+
+Step 3: Calculate the distance between $v_3$ and its projection.
+
+$d(v_3, \text{Span }\{v_1, v_2\}) = ||v_3 - \text{proj}_{\text{Span }\{v_1, v_2\}}v_3|| = ||(\frac{1}{2}, -\frac{1}{3}, \frac{3}{2})|| = \sqrt{\frac{1}{4} + \frac{1}{9} + \frac{9}{4}} = \frac{\sqrt{34}}{3}$
+
+$$dist(\hat v_{3},v_{3})=\sqrt{(2-1)^{2}+(4-3)^{2}+(3-4)^2}=\sqrt{3}$$
+
+1. [x] The map $T$ defined by $T ((x1 , x2 )) = ( x1 + x2 , x1 − x2 , 2 )$ is linear.
+	- Test if $$T(x_1+x_2,y_1+y_2)=T(x_1,y_1)+T(x_2,y_2)$$ and $$T(cx,cy)=cT(x,y)$$
+$$T((x_{1}+x_{2}), (y_{1}+y_{2}))=T(x_{1}+x_{2}, x_{1}+x_{2}+y_{1}+y_{2}, 2)$$
+$$\begin{align}
+T(x_{1},y_{1})+T(x_{2},y_{2}) & =(x_{1},x_{1}+y_{1},2)+(x_{2},x_{2}+y_{2},2) \\
+& =T(x_{1}+x_{2},x_{1}+x_{2}+y_{1}+y_{2},4) \\
+& \neq T(x_{1}+x_{2}, x_{1}+x_{2}+y_{1}+y_{2}, 2)
+\end{align}$$
+$$T\left(\begin{bmatrix}x\\ y \end{bmatrix}\right)=\begin{bmatrix}x+y \\ 2x \\ 3y \\ 2x+3y \end{bmatrix}=x\begin{bmatrix}1 \\ 2 \\ 0 \\ 2 \end{bmatrix}=y\begin{bmatrix}1 \\ 0 \\ 3 \\ 3 \end{bmatrix}\to A=\begin{bmatrix}1 & 1 \\ 2 & 0 \\ 0 & 3 \\ 2 & 3 \end{bmatrix}$$
+1. [x] Finding the standard matrix $A$ of $T$
+2. [x] Determine the LU-factorization of a coefficient matrix
+3. [x] Let $x=\begin{bmatrix}1\\0\\2\end{bmatrix}$. Find $[x]_\mathcal{B}$ where $\mathcal{B}$ is the basis made out of the columns of a coefficient matrix $B$
 	- $B[x]_\mathcal{B}=x\;\to\;[x]_\mathcal{B}=B^{-1}x$
-16. [x] Find an orthogonal basis for $W$
+4. [x] Find an orthogonal basis for $W$
 	- Use Gram-Schmidt algorithm
-17. [x] Find the best approximation of $y=\begin{bmatrix}1\\2\\3\\4\end{bmatrix}\notin W$ by vectors of $W$
+5. [ ] Find the best approximation of $y=\begin{bmatrix}3\\-7\\2\\3\end{bmatrix}\notin W$ by vectors of $W$
+
+$$W=Span\left\{\begin{bmatrix}2 \\ -1 \\ -3 \\ 1\end{bmatrix},\begin{bmatrix}1 \\ 1 \\ 0 \\ -1\end{bmatrix}\right\}$$
+
 18. [x] Determine if $\{v_{1},v_{2}\}$ is a basis for $\Bbb R^3$
 	- $A$ doesn't have a pivot position in every row -> doesn't span $\Bbb R^3$
 
----
-References:

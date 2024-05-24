@@ -43,3 +43,5 @@ References:
 [^3]: Burgoon et al. 1989 - Maintaining and restoring privacy through communication in different types of relationship
 [^4]: [Privacy Knowledge Base](https://privacyhq.com/) 2005
 [^5]: Harper and Singleton - With a grain of salt: what consumer privacy surveys don't tell us
+
+[[Internet users’ perceptions of ‘privacy concerns’ and ‘privacy actions'.pdf]]

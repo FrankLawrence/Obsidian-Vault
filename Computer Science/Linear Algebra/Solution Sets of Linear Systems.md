@@ -4,7 +4,7 @@ Created: 2023-04-10 23:30:43
 ---
 (Links:: [[Linear Algebra]])
 # Homogeneous Linear Systems
-- $Ax=0$ is said to be **homogeneous**
+- $Ax=0$ is said to be **homogeneous** if
 	- such a system *always* has one solution $x=0$ called the **trivial solution**
 	- $Ax=0$ has a nontrivial solution iff the equation has at least one free variable
 - Assume that for a given matrix equation the solution set is described by 

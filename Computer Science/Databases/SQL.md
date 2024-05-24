@@ -666,7 +666,7 @@ Aggregations may not be used in the `WHERE` clause. With `GROUP BY`, however, it
 
 The condition in the `HAVING` clause may (only) involve aggregation functions.
 
-> [!question] Which Students got at least 18 homework points?
+> [!question]- Which Students got at least 18 homework points?
 > ```SQL
 > SELECT   first, last
 > FROM     Students S, Results R
@@ -674,7 +674,119 @@ The condition in the `HAVING` clause may (only) involve aggregation functions.
 > GROUP BY S.sid, first, last
 > HAVING   SUM(points) >= 18
 > ```
+> 
+> | first  | last    |
+> |--------|---------|
+> | George | Orwell  |
+> | Elvis  | Presley |
+
+- The `WHERE` clause refers to single tuples
+- The `HAVING` clause applies to **entire groups**
+
+The `HAVING` clause should not contain direct attribute references, only aggregation functions. 
 # Aggregation Subqueries
+> [!question]- Who has the best result for homework 1?
+> ```SQL
+> SELECT S.first, S.last, R.points
+> FROM   Students S, Results R
+> WHERE  S.sid = R.sid
+> 	AND R.category = 'homework' AND R.number = 1
+> 	AND R.points = (select max(points)
+> 					FROM   Results
+> 					WHERE  category = 'homework'
+> 					AND number = 1)
+> ```
+
+The aggregate in the subquery is guaranteed to yield exactly one row as required. Aggregation subqueries may be used in the `SELECT` clause. 
+
+> [!question]- The homework points of the individual Students
+> ```SQL
+> SELECT  first, last, (SELECT  SUM(points)
+> 					  FROM    Results R
+> 					  WHERE   R.sid = S.sid
+> 						  AND R.category = 'homework'
+> 					 ) AS homeworkPoints
+> FROM    Students S
+> ```
+> > [!question] Is there a difference between the previous query and the following?
+> > ```SQL
+> > SELECT   S.first, S.last, SUM(R.points) AS homeworkPoints
+> > FROM     Students S, Results R
+> > WHERE    R.category = 'homework' AND S.sid = R.sid
+> > GROUP BY S.first, S.last
+> > ```
+> > > [!tip]- Solution
+> > > The previous query shows students which did not complete any homework
+> > > 
+> > > |first|last|homeworkPoints|
+> > > |---|---|---|
+> > > |George|Orwell|18|
+> > > |Elvis|Presley|18|
+> > > |Lisa|Simpson|5|
+> > > |Bart|Simpson|null|
+> > > |George|Washington|null|
+> > > 
+> > > |first|last|homeworkPoints|
+> > > |---|---|---|
+> > > |George|Orwell|18|
+> > > |Elvis|Presley|18|
+> > > |Lisa|Simpson|5|
+> 
+> > [!tip]- Alternative Solution
+> > ```SQL
+> > SELECT   S.first, S.last, SUM(points) AS homeworkPoints
+> > FROM     Students S LEFT JOIN Results R ON S.sid = R.sid
+> > WHERE    R.category = 'homework' OR R.category IS NULL
+> > GROUP BY S.first, S.last
+> > ```
+
+**Nested aggregations** require a subquery in the `FROM` clause.
+
+> [!question]- What is the average number of homework points (excluding those Students who did not submit anything)?
+> ```SQL
+> SELECT  AVG(X.homeworkPoints)
+> FROM    (SELECT   sid, SUM(points) AS homeworkPoints
+> 		 FROM     Results
+> 		 WHERE    category = 'homework'
+> 		 GROUP BY sid) X
+> ```
+> |AVG(X.homeworkPoints)|
+> |---|
+> |13.6667|
+
+> [!question]- Who has the best overall homework result? (maximum sum of homework points)
+> ```SQL
+> SELECT   first, last, SUM(points) AS total
+> FROM     Students S, Results R
+> WHERE    S.sid = R.sid AND R.category = 'homework'
+> GROUP BY S.sid, first, last
+> HAVING   SUM(points) >= ALL (SELECT   SUM(points)
+> 						  FROM     Results
+> 						  WHERE    category = 'homework'
+> 						  GROUP BY sid)
+> ```
+> |first|last|total|
+> |---|---|---|
+> |George|Orwell|18|
+> |Elvis|Presley|18|
+> 
+> > [!tip]- Alternative Solution
+> > ```SQL
+> > CREATE VIEW HomeworkPoints AS
+> > SELECT   sid, SUM(points) AS total
+> > FROM     Results
+> > WHERE    category = 'homework'
+> > GROUP BY sid
+> > ```
+> > ```SQL
+> > SELECT  S.firt, S.last, H.total
+> > FROM    Students S, HomeworkPoints H
+> > WHERE   S.sid = H.sid
+> > 	AND H.total = (SELECT MAX(total)
+> > 				   FROM HomeworkPoints)
+> > ```
+
+
 # Union & Case & Coalesce
 "Union" allows to combine the results of two queries. This is needed since there is no other method to construct one result column that draws from different tables/columns. "Union" is necessary, for example, if specialisations of a concept ("subclasses") are stored in separate tables.
 > [!example]
@@ -684,10 +796,144 @@ The condition in the `HAVING` clause may (only) involve aggregation functions.
 > 
 > both of which are specialisations of the concept `course`.
 
-> [!question] Total number of homework points for *every* student
+> [!question]- Total number of homework points for *every* student
+> ```SQL
+> SELECT   S.first, S.last, SUM(R.points) AS total
+> FROM     Students S, Results R
+> WHERE    S.sid = R.sid AND R.category = 'homework'
+> GROUP BY S.sid, S.first, S.last
 > 
+> UNION ALL
+> 
+> SELECT   S.first, S.last, 0 AS total
+> FROM     Students S
+> WHERE    S.sid NOT IN (SELECT sid
+> 					   FROM   Results
+> 					   WHERE  category = 'homework')
+> ```
+> > [!tip]- Alternative Solution
+> > ```SQL
+> > SELECT   S.first, S.last, COALESCE(SUM(points),0) as total
+> > FROM     Students S LEFT JOIN Results R ON S.sid = R.sid
+> > WHERE    R.category = 'homework' OR R.category IS NULL
+> > GROUP BY S.first, S.last, S.sid
+> > ```
+
+The `UNION` operand subqueries must return tables with the same number of columns and compatible data types. SQL distinguishes between 
+- `UNION`: with **duplicate elimination**, and
+- `UNION ALL`: **concatenation** (duplicates retained).
+
+## Conditional Expressions
+`UNION` is the portable way to conduct a case analysis. Sometimes a conditional expression suffices & more efficient: 
+
+> [!example] Assigning student grades based on homework 1
+> ```SQL
+> SELECT  S.sid, CASE WHEN points >= 9 THEN 'A'
+> 					WHEN points >= 7 AND points < 9 THEN 'B'
+> 					WHEN points >= 5 AND points < 7 THEN 'C'
+> 			   ELSE 'F' END AS 'grade'
+> FROM    Students S, Results R
+> WHERE   S.sid = R.sid
+> 	AND R.category = 'homework' AND R.number = 1
+> ```
+
+A typical application is to **replace a null value** by a value $Y$: $$\cdots \text{ case when $X$ is not null then $X$ else $Y$ end } \cdots$$
+In SQL-92, this may be abbreviated to `... COALESECE (X,Y) ...`
+> [!example] List all addresses of all students
+> ```SQL
+> SELECT  first, last, COALESCE(address, '(unknown)')
+> FROM    Students
+> ```
 # Order By
+If query output is to be read by humans, enforcing a certain **tuple order** helps in interpreting the result. "Order by" allows to specify a **list of sorting criteria**. Without such an ordering, the order is **unpredictable**: 
+- Depends on the internal algorithms of the query optimiser.
+- Order may change even query to query. 
+
+```SQL
+ORDER BY  attribute1 [asc|desc], attribute2 [asc|desc], ...
+```
+
+An `ORDER BY` clause may specify multiple attribute names:
+- The second attribute is used for tuple ordering if they agree on the first attribute, and so on ([[Cartesian lexicographic order]])
+- Sort in **ascending** order (default): `ASC`, 
+- Sort in **descending** order: `DESC`
+
+> [!example] Homework Results sorted by exercise (best result first). In case of a tie, sort alphabetically by student name.
+> ```SQL
+> SELECT   R.number, R.points, S.first, S.last
+> FROM     Students S, Results R
+> WHERE    S.sid = R.sid AND R.category = 'homework'
+> ORDER BY R.number, R.points DESC, S.last, S.first
+> ```
+> - First, compare `R.number`
+> - If the first criterion leads to a tie, compare `points DESC`
+> - If we still have a tie, compare `S.last`
+> - If we still have a tie, compare `S.first`
+> 
+> | number | points | first  | last    |
+> | ------ | ------ | ------ | ------- |
+> | 1      | 10     | George | Orwell  |
+> | 1      | 9      | Elvis  | Presley |
+> | 1      | 5      | Lisa   | Simpson |
+> | 2      | 9      | Elvis  | Presley |
+> | 2      | 8      | George | Orwell  |
+
+In some application scenarios it is necessary to **add columns** to a table to obtain suitable **sorting criteria**. Example: If the Students names were sorted in the form 'George_Orwell', sorting by last name is more or less impossible. Having separate columns for first and last name is better.
+**Null values** are all listed first or all listed last in the sorted sequence (depending on the database). Since the effect of `ORDER BY` is purely "cosmetic", `ORDER BY` may *not* be applied to a subquery.
 # Left & Right Outer and Inner Joins
+Instead of always having to specify the join operation/condition, SQL-92 can automatically do this with `JOIN`: 
+> [!example] 'Natural join'
+> ```SQL
+> SELECT  sid, number, (points / maxPoints) * 100
+> FROM    Results natural JOIN Exercises
+> WHERE   category = 'homework'
+> ```
+> DBMS automatically adds the join predicate to the query: 
+> ```SQL
+> Results.category = Exercises.category
+> AND Results.number = Exercises.number
+> ```
+
+In a natural join, the join predicate arises implicitly by **comparing all columns with the same name** in both tables.
+The **join predicate** may be specified as follows:
+- `NATURAL` prepended to join operator name.
+  ```SQL
+  Results NATURAL JOIN Exercises
+  ```
+  Yields comparison of columns with the same name.
+- `USING (A1,...,An)` after the second table.
+  ```SQL
+  Results JOIN Exercises USING (category, number)
+  ```
+  The $A_{i}$ must be columns appearing in both tables. The join predicate then is `R.A1 = S.A1 AND ... AND R.An = S.An`
+- `ON (CONDITION)` after the second table.
+  ```SQL
+  Students S JOIN Results R ON (S.sid = R.sid)
+  ```
+  The matching condition works similar to the where clause but is important in combination with left/right joins.
+
+The `CROSS JOIN` operator has no join predicate. SQL-92 supports the following **join types**:
+- `[INNER] JOIN`: usual join
+- `LEFT [OUTER] JOIN`: preserves rows of left table
+- `RIGHT [OUTER] JOIN`: preserves rows of right table
+- `FULL [OUTER] JOIN`: preserves rows of both tables
+- `CROSS JOIN`: Cartesian product (all combinations)
+
+> [!example]
+> | A     | B     |
+> | ----- | ----- |
+> | $a_1$ | $b_1$ |
+> | $a_2$ | $b_2$ |
+> 
+> | B     | C     |
+> | ----- | ----- |
+> | $b_2$ | $c_2$ |
+> | $b_3$ | $c_3$ |
+> 
+> | A     | B     | C     |
+> | ----- | ----- | ----- |
+> | $a_2$ | $b_2$ | $c_2$ |
+
 
 ---
 References:

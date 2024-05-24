@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Linear Algebra/Linear Algebra.md",
+                "file": "Computer Science/Linear Algebra/Cramer's Rule, Volume, and Linear Transformations.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -40,7 +40,7 @@
               "type": "markdown",
               "state": {
                 "file": "Computer Science/Databases/SQL.md",
-                "mode": "preview",
+                "mode": "source",
                 "backlinks": false,
                 "source": true
               }
@@ -58,9 +58,22 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "b040e93a217f832a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Science/Linear Algebra/Linear Algebra exam questions.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -106,8 +119,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -128,7 +140,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Databases/SQL.md",
+                "file": "Computer Science/Linear Algebra/Linear Algebra exam questions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +157,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Databases/SQL.md",
+                "file": "Computer Science/Linear Algebra/Linear Algebra exam questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +180,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Databases/SQL.md"
+                "file": "Computer Science/Linear Algebra/Linear Algebra exam questions.md"
               }
             }
           },
@@ -213,36 +225,37 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "ec4a4c58f37f289a",
+  "active": "b040e93a217f832a",
   "lastOpenFiles": [
-    "Computer Science/Databases/Database Transactions.md",
-    "Computer Science/Logic and Modelling/Modal Logic.md",
-    "Computer Science/Databases/SQL.md",
+    "Interests/Programming and computers/MathJax Basic Tutorial.md",
+    "Computer Science/Linear Algebra/Linear Algebra exam questions.md",
+    "Computer Science/Linear Algebra/Cramer's Rule, Volume, and Linear Transformations.md",
     "Computer Science/Linear Algebra/Linear Algebra.md",
+    "Computer Science/Linear Algebra/The Inverse of a Matrix.md",
+    "Computer Science/Linear Algebra/Properties of Determinants.md",
+    "Interests/Programming/MathJax Basic Tutorial.md",
+    "Computer Science/Logic and Modelling/Modal Logic.md",
+    "Computer Science/Linear Algebra/Introduction to Determinants.md",
+    "Computer Science/Linear Algebra/Matrix Factorizations.md",
+    "Computer Science/Linear Algebra/Characterizations of Invertible Matrices.md",
+    "Computer Science/Linear Algebra/Linearly Independent Sets; Bases.md",
+    "Computer Science/Linear Algebra/Vector Spaces and Subspaces.md",
+    "Interests/Security and Privacy/Exploring Motivations for Online Privacy Protection Behavior.md",
+    "Computer Science/Databases/SQL.md",
+    "Computer Science/Promotion text.md",
+    "Computer Science/Databases/Database Transactions.md",
+    "Interests/Security and Privacy/Internet users' perceptions of 'privacy concerns' and 'privacy actions'.md",
+    "Files/Internet users’ perceptions of ‘privacy concerns’ and ‘privacy actions'.pdf",
+    "Computer Science/Linear Algebra/Matrix Operations.md",
+    "Computer Science/Linear Algebra/The Matrix of Linear Transformations.md",
+    "Computer Science/Linear Algebra/Introduction to Linear Transformations.md",
+    "Computer Science/Linear Algebra/Linear Independence.md",
+    "Computer Science/Linear Algebra/Solution Sets of Linear Systems.md",
     "Computer Science/Logic and Modelling/Semantics of Predicate Logic.md",
     "Computer Science/Pervasive Computing/Percom 5 Sound Processing.md",
     "Computer Science/Pervasive Computing/Pervasive Computing.md",
-    "Linear Algebra Exam Prep.md",
-    "Computer Science/Linear Algebra/Linear Algebra exam questions.md",
-    "Computer Science/Linear Algebra/Diagonalization.md",
-    "Computer Science/Linear Algebra/Linear Independence.md",
-    "Computer Science/Linear Algebra/Solution Sets of Linear Systems.md",
-    "Computer Science/Linear Algebra/The Matrix Equation Ax=b.md",
-    "Computer Science/Linear Algebra/Vector Equations.md",
-    "Computer Science/Linear Algebra/Row Reduction and Echelon Forms.md",
-    "Computer Science/Linear Algebra/Systems of Linear Equations.md",
-    "Computer Science/Linear Algebra/Matrix Operations.md",
-    "Computer Science/Linear Algebra/Introduction to Linear Transformations.md",
-    "Computer Science/Philosophy and Ethics/Philosophy & Ethics Lecture 3.md",
-    "Computer Science/Philosophy and Ethics/Philosophy and Ethics.md",
-    "Computer Science/Philosophy and Ethics/Philosophy & Ethics Lecture 4.md",
-    "Interests/Programming and computers/MathJax Basic Tutorial.md",
-    "Computer Science/Databases/Existential quantification.md",
     "Files/56322.png",
     "Files/57862.png",
-    "Computer Science/Databases/Databases.md",
-    "Personal/Callouts.md",
-    "School Subjects/Computer Science/Informatik SQL.md",
     "Untitled.canvas",
     "Computer Science/Logic and Modelling",
     "Computer Science/Databases",
@@ -256,7 +269,6 @@
     "Interests/Programming/Pen testing/Port Swigger/SQL commands",
     "Interests/Programming/Pen testing/Port Swigger/Python scripts",
     "Interests/Programming/Pen testing/Port Swigger/Java script",
-    "Interests/Programming/Pen testing/Port Swigger/Command injection",
     "Interests/Programming/Unix Command Reference.canvas",
     "Computer Programming/Secure Programming/Diffie-Hellman Key Exchange.canvas",
     "Computer Programming/Projects/Clinical Trials API.canvas",
