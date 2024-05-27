@@ -458,6 +458,7 @@ SQL allows to compare *single value* with all values computed by a *single-colum
 > |---|---|---|
 > |George|Orwell|10|
 > > [!tip]- Alternative Solution from previous query (but with `ANY`)
+> > ```SQL
 > > SELECT   S.first, S.last, X.points
 > > FROM     Students S, Results X
 > > WHERE    S.sid = X.sid
@@ -696,6 +697,9 @@ The `HAVING` clause should not contain direct attribute references, only aggrega
 > 					WHERE  category = 'homework'
 > 					AND number = 1)
 > ```
+> |first|last|points|
+> |---|---|---|
+> |George|Orwell|10|
 
 The aggregate in the subquery is guaranteed to yield exactly one row as required. Aggregation subqueries may be used in the `SELECT` clause. 
 
@@ -811,6 +815,13 @@ The aggregate in the subquery is guaranteed to yield exactly one row as required
 > 					   FROM   Results
 > 					   WHERE  category = 'homework')
 > ```
+> |first|last|total|
+> |---|---|---|
+> |George|Orwell|18|
+> |Elvis|Presley|18|
+> |Lisa|Simpson|5|
+> |Bart|Simpson|0|
+> |George|Washington|0|
 > > [!tip]- Alternative Solution
 > > ```SQL
 > > SELECT   S.first, S.last, COALESCE(SUM(points),0) as total
@@ -836,6 +847,11 @@ The `UNION` operand subqueries must return tables with the same number of column
 > WHERE   S.sid = R.sid
 > 	AND R.category = 'homework' AND R.number = 1
 > ```
+> |sid|grade|
+> |---|---|
+> |101|A|
+> |102|A|
+> |103|C|
 
 A typical application is to **replace a null value** by a value $Y$: $$\cdots \text{ case when $X$ is not null then $X$ else $Y$ end } \cdots$$
 In SQL-92, this may be abbreviated to `... COALESECE (X,Y) ...`
@@ -844,6 +860,13 @@ In SQL-92, this may be abbreviated to `... COALESECE (X,Y) ...`
 > SELECT  first, last, COALESCE(address, '(unknown)')
 > FROM    Students
 > ```
+> |first|last|COALESCE(address, '(unknown)')|
+> |---|---|---|
+> |George|Orwell|London|
+> |Elvis|Presley|Memphis|
+> |Lisa|Simpson|Springfield|
+> |Bart|Simpson|Springfield|
+> |George|Washington|(unknown)|
 # Order By
 If query output is to be read by humans, enforcing a certain **tuple order** helps in interpreting the result. "Order by" allows to specify a **list of sorting criteria**. Without such an ordering, the order is **unpredictable**: 
 - Depends on the internal algorithms of the query optimiser.
@@ -888,6 +911,13 @@ Instead of always having to specify the join operation/condition, SQL-92 can aut
 > FROM    Results natural JOIN Exercises
 > WHERE   category = 'homework'
 > ```
+> |sid|number|(points / maxPoints) * 100|
+> |---|---|---|
+> |101|1|100.0000|
+> |102|1|90.0000|
+> |103|1|50.0000|
+> |101|2|80.0000|
+> |102|2|90.0000|
 > DBMS automatically adds the join predicate to the query: 
 > ```SQL
 > Results.category = Exercises.category
@@ -920,7 +950,8 @@ The `CROSS JOIN` operator has no join predicate. SQL-92 supports the following *
 - `CROSS JOIN`: Cartesian product (all combinations)
 
 > [!example]
-> | A     | B     |
+> 
+> | a     | b     |
 > | ----- | ----- |
 > | $a_1$ | $b_1$ |
 > | $a_2$ | $b_2$ |
@@ -929,11 +960,131 @@ The `CROSS JOIN` operator has no join predicate. SQL-92 supports the following *
 > | ----- | ----- |
 > | $b_2$ | $c_2$ |
 > | $b_3$ | $c_3$ |
+> > [!example]- A join eliminates tuples without partner
+> > 
+> > | A     | B     | C     |
+> > | ----- | ----- | ----- |
+> > | $a_2$ | $b_2$ | $c_2$ |
 > 
-> | A     | B     | C     |
-> | ----- | ----- | ----- |
-> | $a_2$ | $b_2$ | $c_2$ |
+> > [!example]- The left outer join preserves all tuples in its **left argument**:
+> > 
+> > | A     | B     | C     |
+> > | ----- | ----- | ----- |
+> > | $a_1$ | $b_1$ | (null) |
+> > | $a_2$ | $b_2$ | $c_2$ |
+> 
+> > [!example]- The right outer join preserves all tuples in its **right argument**:
+> > 
+> > | A      | B    | C     |
+> > | -----  | ---- | ----- |
+> > | $a_2$  | $b_2$ | $c_2$ |
+> > | (null) | $b_3$ | $c_3$ |
+> 
+> > [!example]- The full outer join preserves all tuples in its **both argument**:
+> > 
+> > | A      | B    | C     |
+> > | -----  | ---- | ----- |
+> > | $a_1$ | $b_1$ | (null) |
+> > | $a_2$  | $b_2$ | $c_2$ |
+> > | (null) | $b_3$ | $c_3$ |
+> 
+> > [!example]- The cross join is the [[Cartesian Product]]
+> > 
+> > | A     | B     | B     | C     |
+> > | ----- | ----- | ----- | ----- |
+> > | $a_1$ | $b_1$ | $b_2$ | $c_2$ |
+> > | $a_1$ | $b_1$ | $b_3$ | $c_3$ |
+> > | $a_2$ | $b_2$ | $b_2$ | $c_2$ |
+> > | $a_2$ | $b_2$ | $b_3$ | $c_3$ |
 
+> [!question]- Number of submission per homework (0 if no submission)
+> ```SQL
+> SELECT   E.number, COUNT(sid)
+> FROM     Exercises E LEFT OUTER JOIN Results R
+>     ON   E.category = R.category AND E.number = R.number
+> WHERE    E.category = 'homework'
+> GROUP BY E.number
+> ```
+> |number|COUNT(sid)|
+> |---|---|
+> |1|3|
+> |2|2|
+> > [!tip]- Alternative Solution
+> > ```SQL
+> > SELECT   E.number, COUNT(sid)
+> > FROM     Exercises E NATURAL LEFT JOIN Results R
+> > WHERE    E.category = 'homework'
+> > GROUP BY E.number
+> > ```
+
+> [!question]- Is there a problem with the following query? 
+> 
+> ```SQL
+> -- Number of homeowrk solved per student (including 0)
+> SELECT    first, last, COUNT(number)
+> FROM      Students S LEFT OUTER JOIN Results R
+> 	ON    S.sid = R.sid
+> WHERE     R.category = 'homework'
+> GROUP BY  S.sid, first, last
+> ```
+> > [!tip]- Solution
+> > The other students who did do homework aren't showed because the `WHERE` clause does not take `null` into account. We must either
+> > - restrict the join inputs before the outer join is performed, or
+> > - move restrictions into the `ON` clause
+> > 
+> > |first|last|COUNT(number)|
+> > |---|---|---|
+> > |George|Orwell|2|
+> > |Elvis|Presley|2|
+> > |Lisa|Simpson|1|
+> > 
+> > # Correction
+> > ```SQL
+> > SELECT    first, last, COUNT(number)
+> > FROM      Students S LEFT OUTER JOIN Results R
+> > 	ON    (S.sid = R.sid AND R.category = 'homework')
+> > GROUP BY  S.sid, first, last
+> > ```
+> > |first|last|COUNT(number)|
+> > |---|---|---|
+> > |George|Orwell|2|
+> > |Elvis|Presley|2|
+> > |Lisa|Simpson|1|
+> > |Bart|Simpson|0|
+> > |George|Washington|0|
+
+> [!question]- Will exams appear in the output? 
+> ```SQL
+> SELECT E.category, E.number, R.sid, R.points
+> FROM   Exercises E LEFT OUTER JOIN Results R
+> 	ON  E.category = 'homework'
+> 	AND R.category = 'homework'
+> 	AND E.number = R.number
+> ```
+> > [!tip]- Solution
+> > Yes, exams will appear! Conditions filtering the left table make little sense in a left outer join predicate. The left outer join will make the "filtered" tuples appear anyway
+> > 
+> > |sid|category|number|points|
+> > |---|---|---|---|
+> > |null|exam|1|null|
+> > |101|homework|1|10|
+> > |102|homework|1|9|
+> > |103|homework|1|5|
+> > |101|homework|2|8|
+> > |102|homework|2|9|
+> > # Correction
+> > ```SQL
+> > SELECT E.category, E.number, R.sid, R.points
+> > FROM   (SELECT * FROM Exercises WHERE category = 'homework') E LEFT OUTER JOIN Results R
+> > 	ON (R.category = 'homework' AND E.number = R.number)
+> > ```
+> > |sid|category|number|points|
+> > |---|---|---|---|
+> > |101|homework|1|10|
+> > |102|homework|1|9|
+> > |103|homework|1|5|
+> > |101|homework|2|8|
+> > |102|homework|2|9|
 
 ---
 References:

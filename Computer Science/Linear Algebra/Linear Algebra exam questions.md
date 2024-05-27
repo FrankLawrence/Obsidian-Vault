@@ -30,7 +30,7 @@ $$\begin{bmatrix} 1 \\ -4 \\ 0 \\ 1 \end{bmatrix},\begin{bmatrix} 7 \\ -7 \\ -4 
 $$v_{1}=x_{1} = \begin{bmatrix} 1 \\ -4 \\ 0 \\ 1 \end{bmatrix}$$
 $$v_{2}=\begin{bmatrix} 7 \\ -7 \\ -4 \\ 1 \end{bmatrix}-\frac{36}{18}\begin{bmatrix} 1 \\ -4 \\ 0 \\ 1 \end{bmatrix}=\begin{bmatrix}5 \\ 1 \\ -4 \\ -1 \end{bmatrix}$$
 $$u_{1}=\frac{1}{\mid\mid v_{1} \mid\mid}v_{1}=\frac{1}{\sqrt{18}}\begin{bmatrix}1 \\ -4 \\ 0 \\ 1\end{bmatrix}=\begin{bmatrix} 1/\sqrt{18} \\ -4/\sqrt{18} \\0 \\ 1/\sqrt{18} \\\end{bmatrix}$$
-$$u_{2}=\frac{1}{\mid\mid v_{2} \mid\mid}v_{2}=\frac{1}{\sqrt{115}}\begin{bmatrix}7 \\ -7 \\ -4 \\ 1\end{bmatrix}=\begin{bmatrix} 7/\sqrt{115} \\ -7/\sqrt{115} \\-4/\sqrt{115} \\ 1/\sqrt{115} \\\end{bmatrix}$$
+$$u_{2}=\frac{1}{\mid\mid v_{2} \mid\mid}v_{2}=\frac{1}{\sqrt{43}}\begin{bmatrix}5 \\ 1 \\ -4 \\ -1\end{bmatrix}=\begin{bmatrix} 5/\sqrt{43} \\ 1/\sqrt{43} \\-4/\sqrt{43} \\ -1/\sqrt{43} \\\end{bmatrix}$$
 
 11. [x] Find the distance between $v_3$ and $\text{Span }\{v_1,v_2\}$.
 
@@ -41,27 +41,25 @@ To find the distance between a vector and a subspace, we need to find the orthog
 
 Step 1: Find an orthonormal basis for the subspace $\text{Span }\{v_1, v_2\}$ using the Gram-Schmidt process.
 
-$$u_1 = v_1 = \begin{bmatrix}1  \\ 2 \\ 1\end{bmatrix}$$
-$$u_2 = \begin{bmatrix}0  \\ 1 \\ 1\end{bmatrix} - \frac{3}{6}\begin{bmatrix}1  \\ 2 \\ 1\end{bmatrix} = \begin{bmatrix}-1/2  \\ 0 \\ 1/2\end{bmatrix}$$
+$$v_1 = \begin{bmatrix}1  \\ 2 \\ 1\end{bmatrix}$$
+$$v_2 = \begin{bmatrix}0  \\ 1 \\ 1\end{bmatrix} - \frac{3}{6}\begin{bmatrix}1  \\ 2 \\ 1\end{bmatrix} = \begin{bmatrix}-1/2  \\ 0 \\ 1/2\end{bmatrix}$$
 
 Normalize $u_1$ and $u_2$:
 
-$$e_1 = \frac{u_1}{||u_1||} = \begin{bmatrix}1/\sqrt{6} \\  2/\sqrt{6} \\  1/\sqrt{6}\end{bmatrix}$$
-$$e_2 = \frac{u_2}{||u_2||} = \begin{bmatrix}-1/\sqrt{2}  \\ 0 \\  1/\sqrt{2}\end{bmatrix}$$
+$$u_1 = \frac{v_1}{||v_1||} = \begin{bmatrix}1/\sqrt{6} \\  2/\sqrt{6} \\  1/\sqrt{6}\end{bmatrix}$$
+$$u_2 = \frac{v_2}{||v_2||} = \begin{bmatrix}-1/\sqrt{2}  \\ 0 \\  1/\sqrt{2}\end{bmatrix}$$
 
 Step 2: Find the orthogonal projection of $v_3$ onto $\text{Span }\{v_1, v_2\}$ using the orthonormal basis $\{e_1, e_2\}$.
 
 $$\begin{align}
-\hat v_3 &= (v_3 \cdot e_1)e_1 + (v_3 \cdot e_2)e_{2}\\
-&= \frac{12}{\sqrt{6}} \begin{bmatrix}1/\sqrt{6} \\  2/\sqrt{6} \\  1/\sqrt{6}\end{bmatrix} + \frac{2}{\sqrt{2}}\begin{bmatrix}-1/\sqrt{2}  \\ 0 \\  1/\sqrt{2}\end{bmatrix}\\
-&= \begin{bmatrix}2 \\ 4 \\ 2\end{bmatrix} + \begin{bmatrix} -1 \\ 0 \\ 1\end{bmatrix} = \begin{bmatrix}1 \\ 4 \\ 3\end{bmatrix}
+v_3 &= \begin{bmatrix}2\\3\\4\end{bmatrix}-(x_3 \cdot u_1)u_1 - (x_3 \cdot u_2)u_{2}\\
+&= \begin{bmatrix}2\\3\\4\end{bmatrix}-\frac{12}{\sqrt{6}} \begin{bmatrix}1/\sqrt{6} \\  2/\sqrt{6} \\  1/\sqrt{6}\end{bmatrix} - \frac{2}{\sqrt{2}}\begin{bmatrix}-1/\sqrt{2}  \\ 0 \\  1/\sqrt{2}\end{bmatrix}\\
+&= \begin{bmatrix}2\\3\\4\end{bmatrix}-\begin{bmatrix}2 \\ 4 \\ 2\end{bmatrix} - \begin{bmatrix} -1 \\ 0 \\ 1\end{bmatrix} = \begin{bmatrix}1 \\ 0 \\ 1\end{bmatrix}
 \end{align}$$
 
 Step 3: Calculate the distance between $v_3$ and its projection.
 
-$d(v_3, \text{Span }\{v_1, v_2\}) = ||v_3 - \text{proj}_{\text{Span }\{v_1, v_2\}}v_3|| = ||(\frac{1}{2}, -\frac{1}{3}, \frac{3}{2})|| = \sqrt{\frac{1}{4} + \frac{1}{9} + \frac{9}{4}} = \frac{\sqrt{34}}{3}$
-
-$$dist(\hat v_{3},v_{3})=\sqrt{(2-1)^{2}+(4-3)^{2}+(3-4)^2}=\sqrt{3}$$
+$$dist(v_{3},x_{3})=\sqrt{(2-1)^{2}+(3-0)^{2}+(4-1)^2}=\sqrt{19}$$
 
 1. [x] The map $T$ defined by $T ((x1 , x2 )) = ( x1 + x2 , x1 − x2 , 2 )$ is linear.
 	- Test if $$T(x_1+x_2,y_1+y_2)=T(x_1,y_1)+T(x_2,y_2)$$ and $$T(cx,cy)=cT(x,y)$$
@@ -81,6 +79,10 @@ $$T\left(\begin{bmatrix}x\\ y \end{bmatrix}\right)=\begin{bmatrix}x+y \\ 2x \\ 3
 5. [ ] Find the best approximation of $y=\begin{bmatrix}3\\-7\\2\\3\end{bmatrix}\notin W$ by vectors of $W$
 
 $$W=Span\left\{\begin{bmatrix}2 \\ -1 \\ -3 \\ 1\end{bmatrix},\begin{bmatrix}1 \\ 1 \\ 0 \\ -1\end{bmatrix}\right\}$$
+$$v_1=\begin{bmatrix}1 \\ 1 \\ 0 \\ -1\end{bmatrix} \quad v_2=\begin{bmatrix}2 \\ -1 \\ -3 \\ 1\end{bmatrix}$$
+$$\begin{align}v_{3}&=\begin{bmatrix}3 \\ -7 \\ 2 \\ 3\end{bmatrix}-\frac{10}{15}\begin{bmatrix}2 \\ -1 \\ -3 \\ 1\end{bmatrix}+ \frac{7}{3}\begin{bmatrix}1 \\ 1 \\ 0 \\ -1\end{bmatrix}\\
+& = \begin{bmatrix}11/3 \\ -16/3 \\ 3 \\ -2/3\end{bmatrix}
+\end{align}$$
 
 18. [x] Determine if $\{v_{1},v_{2}\}$ is a basis for $\Bbb R^3$
 	- $A$ doesn't have a pivot position in every row -> doesn't span $\Bbb R^3$

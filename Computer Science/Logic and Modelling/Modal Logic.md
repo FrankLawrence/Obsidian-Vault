@@ -140,5 +140,50 @@ x \Vdash \diamond \, \phi \quad & \Longleftrightarrow \quad \text{there exists }
 x \Vdash \square \, \phi \quad & \Longleftrightarrow \quad \text{for all } y \in W \text{ with } R(x,y) \text{ holds: } y \Vdash \phi
 \end{align}$$
 
+## Truth in Kripke Models
+The formula $\phi$ is true in Kripke model $\mathcal{M}=(W,R,L)$, denoted $$\mathcal{M}\vDash \phi$$ if and only if $x\Vdash\phi$ **for every world** $x\in W$.
+> [!example]
+> ```mermaid
+> flowchart
+> 	subgraph "Model"
+> 		 a((p)) --> b((p,r))
+> 		 b --> c((q))
+> 		 a --> c
+> 	end
+> ```
+> $$L(w_{1})=\{\,p\,\}$$
+> $$L(w_{2})=\{\,q\,\}$$
+> $$L(w_{3})=\{\,p,r\,\}$$
+> $$\mathcal{M}\nvDash q\qquad \mathcal{M}\vDash p\lor q\qquad \mathcal{M}\vDash q\lor \diamond \,q$$
+> - $\mathcal{M}\vDash p\to \diamond \,q$
+> - $\mathcal{M}\vDash \diamond\, r\to \diamond\, q$
+> - $\mathcal{M}\nvDash \square\, q\to r$
+> - $\mathcal{M}\vDash q\to(q\to p)$
+> - $\mathcal{M}\vDash q\to \square\, p$
+
+> [!definition] We define $\phi_1,...,\phi_n\vDash\psi$ as 
+> In **every world** $w$ in **every Kripke model** $\mathcal{M}$ where $$\mathcal{M},w\Vdash \phi_{1}\text{ and }\ldots \text{ and } \mathcal{M}, w\Vdash \phi_{n}$$ it holds also $$\mathcal{M},w\Vdash \psi$$
+
+> [!example]
+> $$\begin{align}
+> \square \,p &\nvDash \diamond\, p \\
+> \square\, p,\diamond \, q &\vDash \diamond\, p \\
+> \square\diamond\, p &\nvDash \diamond\square\,p \\
+> \diamond\square\,p &\nvDash \square\diamond\, p \\
+> \square (p\to q),\; \diamond p&\vDash \diamond q
+> \end{align}$$
+
+## Modal Validity
+Modal validity is semantic implication with zero premises.
+> [!definition] Modal validity: $\vDash \psi$ as
+> In every world $w$ in every Kripke model $\mathcal{M}$ holds $\mathcal{M},w\Vdash \psi$. 
+
+$$\begin{align}
+& \vDash \square\,(\phi \to \psi) \to (\square \,\phi\to\square\,\psi) \\
+& \vDash \neg \square\,\phi \to \diamond \neg \phi \\
+& \vDash \square\,\phi \lor \neg \square \,\phi
+\end{align}$$
+## Modal Logic Equivalence
+
 ---
 References:

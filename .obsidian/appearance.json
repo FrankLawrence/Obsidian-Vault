@@ -1,8 +1,8 @@
 {
   "baseFontSize": 12,
   "translucency": false,
-  "cssTheme": "",
-  "theme": "moonstone",
+  "cssTheme": "Minimal",
+  "theme": "obsidian",
   "interfaceFontFamily": "",
   "textFontFamily": "Fira Code,Roboto Mono,Source Code Pro",
   "monospaceFontFamily": "FiraCode Nerd Font",

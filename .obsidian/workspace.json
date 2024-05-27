@@ -8,19 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "37076b60b113e46e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Linear Algebra/Cramer's Rule, Volume, and Linear Transformations.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
             "id": "c8c6d8bca186d9ca",
             "type": "leaf",
             "state": {
@@ -34,13 +21,26 @@
             }
           },
           {
+            "id": "997bae94517ef63a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Science/Logic and Modelling/Logic and Modelling.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
             "id": "ec4a4c58f37f289a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Databases/SQL.md",
-                "mode": "source",
+                "file": "Computer Science/Databases/Databases.md",
+                "mode": "preview",
                 "backlinks": false,
                 "source": true
               }
@@ -53,19 +53,6 @@
               "type": "markdown",
               "state": {
                 "file": "Computer Science/Databases/Database Transactions.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "b040e93a217f832a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Linear Algebra/Linear Algebra exam questions.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -73,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -140,7 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Linear Algebra/Linear Algebra exam questions.md",
+                "file": "Computer Science/Databases/Databases.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +144,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Linear Algebra/Linear Algebra exam questions.md",
+                "file": "Computer Science/Databases/Databases.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -180,7 +167,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Linear Algebra/Linear Algebra exam questions.md"
+                "file": "Computer Science/Databases/Databases.md"
               }
             }
           },
@@ -201,7 +188,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -225,35 +212,35 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b040e93a217f832a",
+  "active": "ec4a4c58f37f289a",
   "lastOpenFiles": [
-    "Interests/Programming and computers/MathJax Basic Tutorial.md",
+    "Computer Science/Databases/Database Transactions.md",
+    "Files/PDF/Chapter 01. intro.pdf",
+    "Computer Science/Logic and Modelling/Modal Logic.md",
+    "Computer Science/Logic and Modelling/Logic and Modelling.md",
+    "Computer Science/Databases/Databases.md",
+    "Computer Science/Information Management for CS/Information Management for CS.md",
+    "Computer Science/Information Management for CS/Information systems development - an overview.md",
+    "Computer Science/Information Management for CS/Business Intelligence.md",
+    "Computer Science/Information Management for CS/Electronic Commerce and business.md",
+    "Computer Science/Information Management for CS/Strategy and Information Systems.md",
+    "Computer Science/Information Management for CS/Information Systems.md",
+    "Computer Science/Logic and Modelling/Semantics of, and Translations into, Predicate Logic.md",
     "Computer Science/Linear Algebra/Linear Algebra exam questions.md",
-    "Computer Science/Linear Algebra/Cramer's Rule, Volume, and Linear Transformations.md",
     "Computer Science/Linear Algebra/Linear Algebra.md",
+    "Computer Science/Databases/SQL.md",
+    "Computer Science/Linear Algebra/Cramer's Rule, Volume, and Linear Transformations.md",
+    "Interests/Programming and computers/MathJax Basic Tutorial.md",
     "Computer Science/Linear Algebra/The Inverse of a Matrix.md",
     "Computer Science/Linear Algebra/Properties of Determinants.md",
     "Interests/Programming/MathJax Basic Tutorial.md",
-    "Computer Science/Logic and Modelling/Modal Logic.md",
     "Computer Science/Linear Algebra/Introduction to Determinants.md",
     "Computer Science/Linear Algebra/Matrix Factorizations.md",
     "Computer Science/Linear Algebra/Characterizations of Invertible Matrices.md",
     "Computer Science/Linear Algebra/Linearly Independent Sets; Bases.md",
     "Computer Science/Linear Algebra/Vector Spaces and Subspaces.md",
     "Interests/Security and Privacy/Exploring Motivations for Online Privacy Protection Behavior.md",
-    "Computer Science/Databases/SQL.md",
-    "Computer Science/Promotion text.md",
-    "Computer Science/Databases/Database Transactions.md",
-    "Interests/Security and Privacy/Internet users' perceptions of 'privacy concerns' and 'privacy actions'.md",
     "Files/Internet users’ perceptions of ‘privacy concerns’ and ‘privacy actions'.pdf",
-    "Computer Science/Linear Algebra/Matrix Operations.md",
-    "Computer Science/Linear Algebra/The Matrix of Linear Transformations.md",
-    "Computer Science/Linear Algebra/Introduction to Linear Transformations.md",
-    "Computer Science/Linear Algebra/Linear Independence.md",
-    "Computer Science/Linear Algebra/Solution Sets of Linear Systems.md",
-    "Computer Science/Logic and Modelling/Semantics of Predicate Logic.md",
-    "Computer Science/Pervasive Computing/Percom 5 Sound Processing.md",
-    "Computer Science/Pervasive Computing/Pervasive Computing.md",
     "Files/56322.png",
     "Files/57862.png",
     "Untitled.canvas",
@@ -268,7 +255,6 @@
     "Interests/Programming/Pen testing/Port Swigger/file uploads",
     "Interests/Programming/Pen testing/Port Swigger/SQL commands",
     "Interests/Programming/Pen testing/Port Swigger/Python scripts",
-    "Interests/Programming/Pen testing/Port Swigger/Java script",
     "Interests/Programming/Unix Command Reference.canvas",
     "Computer Programming/Secure Programming/Diffie-Hellman Key Exchange.canvas",
     "Computer Programming/Projects/Clinical Trials API.canvas",
