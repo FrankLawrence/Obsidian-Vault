@@ -178,12 +178,38 @@ Modal validity is semantic implication with zero premises.
 > [!definition] Modal validity: $\vDash \psi$ as
 > In every world $w$ in every Kripke model $\mathcal{M}$ holds $\mathcal{M},w\Vdash \psi$. 
 
+Some examples:
 $$\begin{align}
 & \vDash \square\,(\phi \to \psi) \to (\square \,\phi\to\square\,\psi) \\
 & \vDash \neg \square\,\phi \to \diamond \neg \phi \\
 & \vDash \square\,\phi \lor \neg \square \,\phi
 \end{align}$$
 ## Modal Logic Equivalence
+> [!definition] We define $\phi \equiv\psi$ as
+> In every world $w$ in every Kripke model $\mathcal{M}$ $$\mathcal{M},w\Vdash \phi \Longleftrightarrow \mathcal{M}, w\Vdash \psi$$
+> OR $$\phi \equiv \psi \quad\Longleftrightarrow \quad \phi \vDash \psi \text{ and } \psi \vDash \phi$$
+
+Some examples: 
+$$\begin{align}
+\square\,\phi & \equiv \neg\diamond\neg\phi \\
+\diamond\,\phi & \equiv \neg\square\neg\phi \\
+\diamond\neg\phi & \equiv \neg \square \,\phi \\
+\square(\phi\land \psi) & \equiv \square\,\phi \land \square\,\psi \\
+\square(\phi\lor \psi) & \not\equiv \square\,\phi \lor \square\,\psi \\
+\phi\lor \psi & \equiv \neg \phi \to \psi
+\end{align}$$
+> [!question]- Are the following equivalences valid?
+> $$\begin{align}
+> \neg \diamond \psi & \equiv \diamond \neg \phi \\
+> \diamond(\phi\land\psi) & \equiv \diamond \phi \land \diamond \psi \\
+> \diamond(\phi \lor \psi) & \equiv \diamond \phi \lor \diamond \psi 
+> \end{align}$$
+> > [!tip]- Solution
+> > 1. No
+> > 2. No
+> > 3. Yes
+
+
 
 ---
 References:
