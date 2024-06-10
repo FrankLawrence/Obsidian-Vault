@@ -111,8 +111,8 @@ For all formulas $\phi$, $\psi$ the following statements are equivalent:
 
 > [!definition] Proposition
 > For all variables $\mathbf{x}$ and formulas $\phi$ it holds:
-> 1. $\exists \mathbf{x}\phi\equiv\exists \mathbf{z}\phi[\frac{\mathbf{z}}{\mathbf{x}]\quad}\text{if } \mathbf{z} \text{ not free in }\phi$
-> 1. $\forall \mathbf{x}\phi\equiv\forall \mathbf{z}\phi[\frac{\mathbf{z}}{\mathbf{x}]\quad}\text{if } \mathbf{z} \text{ not free in }\phi$
+> 1. $\exists \mathbf{x}\phi\equiv\exists \mathbf{z}\phi[\mathbf{z}/\mathbf{x}]\quad\text{if } \mathbf{z} \text{ not free in }\phi$
+> 1. $\forall \mathbf{x}\phi\equiv\forall \mathbf{z}\phi[\mathbf{z}/\mathbf{x}]\quad\text{if } \mathbf{z} \text{ not free in }\phi$
 
 Recall that $$\phi[t/\mathbf{x}]$$ is the result of replacing all free occurrences of $\mathbf{x}$ in $\phi$ by $t$ if **no capture of free variables happens**, otherwise *undefined*.
 

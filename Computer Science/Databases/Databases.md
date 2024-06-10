@@ -10,7 +10,9 @@ alias: DB
 ## Assignments
 ## Topics
 - [[SQL]]
+- [[Database Normalization]]
 - [[Database Transactions]]
+- [[Database Modelling]]
 
 ## Lectures
 ## Extras

@@ -134,7 +134,7 @@ x \nVdash \bot\quad & \\
 x \Vdash p \quad & \Longleftrightarrow \quad p \in L(x)\\
 x \Vdash \neg\phi \quad & \Longleftrightarrow \quad x \nVdash \phi \\
 x \Vdash \phi \land \psi \quad & \Longleftrightarrow \quad x\Vdash \phi \text{ and } x\Vdash \psi \\
-c \Vdash \phi \lor \psi \quad & \Longleftrightarrow\quad x \Vdash \phi \text{ or } x\Vdash \psi \\
+x \Vdash \phi \lor \psi \quad & \Longleftrightarrow\quad x \Vdash \phi \text{ or } x\Vdash \psi \\
 x \Vdash \phi \to \psi \quad & \Longleftrightarrow \quad \text{if } x \Vdash \phi \text{ then also } x \Vdash \psi \\
 x \Vdash \diamond \, \phi \quad & \Longleftrightarrow \quad \text{there exists } y \in W \text{ with } R(x,y) \text{ and } y \Vdash \phi \\
 x \Vdash \square \, \phi \quad & \Longleftrightarrow \quad \text{for all } y \in W \text{ with } R(x,y) \text{ holds: } y \Vdash \phi

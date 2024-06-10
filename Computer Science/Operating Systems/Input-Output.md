@@ -79,13 +79,13 @@ These are the typical steps after a **hardware interrupt completes**:
 5. Copy registers from where they were saved to process table
 6. Run the interrupt-service procedure. It will extract information from the interrupting device controller’s registers.
 7. Choose which process to run next. If the interrupt has caused some high-priority process that was blocked to become ready, it may be chosen to run now.
-8. Set up the MMU context for the process to run next. Some TLB set- up may also be needed.
+8. Set up the [[MMU]] context for the process to run next. Some TLB set- up may also be needed.
 9. Load the new process’ registers, including its PSW. 
 10. Start running the new process.
 
 **Device drivers**, as mentioned before, sit between the CPU and the device. They accept abstract requests (such as a read request to the device) from device-independent layer and *transform them into commands for the device*. They can accept *multiple requests* and save them in a queue. We usually need to *wait for the completion* of a request before we can send a new command. After getting the response, it checks it for errors and then sends a response to the device-independent layer.
 
-On top of the device drivers sit the **device-independent software** such as the file system. These must implement the following functions:
+On top of the device drivers sit the **device-independent software** such as the [[File Systems|file system]]. These must implement the following functions:
 - Uniform interfacing for device drivers: Driver interface, naming, protection
 - Buffering: Necessary for both character and block devices
 - Error reporting: Hardware-level, driver-level

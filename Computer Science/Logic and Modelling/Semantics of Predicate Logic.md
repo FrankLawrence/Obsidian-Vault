@@ -14,7 +14,7 @@ $$v(p\lor q \to r)=T$$
 $$v(q \land r \to \neg r)=T$$
 $$v(\neg (r\land \neg q))=F$$
 
-For $v(\neg (r\land \neg q))=F$, we know by **semantic reasoning** that the following must hold: $v(r)=T$, and $v(q)=F$. Every evaluation of $v(r)=T$ and $v(q)=F$ fulfils the formulas above. The valuation *$v$* is known to be a **countermodel** to $$p \lor q \to r, q \land r \to \neg q \vDash \neg (r \land \neg q)$$ and implies (via the soundness theorem), that $$p \lor q \to r, q \land r \to \neg q \nvdash \neg (r \land \neg q)$$
+For $v(\neg (r\land \neg q))=F$, we know by **semantic reasoning** that the following must hold: $v(r)=T$, and $v(q)=F$. Every evaluation of $v(r)=T$ and $v(q)=F$ fulfils the formulas above. The valuation *$v$* is known to be a **countermodel** to $$p \lor q \to r, q \land r \to \neg q \vDash \neg (r \land \neg q)$$ and implies (via the [[Metatheorems of Predicate Logic#Soundness Theorem]]), that $$p \lor q \to r, q \land r \to \neg q \nvdash \neg (r \land \neg q)$$
 ## Proof Theory\Syntax ($\vdash$) versus Semantics ($\vDash$)
 | Proof theory with entailment $\vdash$                                                                                                                                                                                            | Semantics with entailment $\vDash$                         |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
@@ -184,7 +184,7 @@ $$\mathcal{M} \vDash P(t_{1}, ..., t_{n}) \Longleftrightarrow \langle t_{1}^{\ma
 > > & \Longleftrightarrow \textrm{not } \mathcal{M} \vDash P(c) \qquad (\textrm{by definition of } \vDash) \\
 > > & \Longleftrightarrow \textrm{not } c^{\mathcal{M}} \in P^{\mathcal{M}} \qquad (\textrm{by definition of } \vDash) \\
 > > & \Longleftrightarrow c^{\mathcal{M}} \notin P^{\mathcal{M}} \\
-> > & a_{3} \notin \{a_{1},a_{2}\} \quad \checkmark \qquad (\textrm{by definition of } \mathcal{M}) 
+> > & \Longleftrightarrow a_{3} \notin \{a_{1},a_{2}\} \quad \checkmark \qquad (\textrm{by definition of } \mathcal{M}) 
 > > \end{align}$$
 > > Hence we conclude: $\mathcal{M} \vDash \neg P(c)$
 > 
@@ -193,7 +193,7 @@ $$\mathcal{M} \vDash P(t_{1}, ..., t_{n}) \Longleftrightarrow \langle t_{1}^{\ma
 > > $$\begin{align}
 > > \mathcal{M} & \vDash R(c,c) \quad \color{red}{\checkmark} \\
 > > & \Longleftrightarrow \langle c^{\mathcal{M}}, c^{\mathcal{M}}\rangle \in R^{\mathcal{M}} \qquad (\textrm{by definition of } \vDash) \\
-> > & \Longleftrightarrow \langle a_{3},a_{3}\rangle \in \{\langle a_{1},a_{2}\rangle,\langle a_{1},a_{3}\rangle,\langle a_{3},a_{2}\rangle,\langle a_{2},a_{3}\rangle\} \quad\checkmark \quad (\textrm{by definition of } \mathcal{M})
+> > & \Longleftrightarrow \langle a_{3},a_{3}\rangle \in \{\langle a_{1},a_{2}\rangle,\langle a_{1},a_{3}\rangle,\langle a_{3},a_{2}\rangle,\langle a_{3},a_{3}\rangle\} \quad\checkmark \quad (\textrm{by definition of } \mathcal{M})
 > > \end{align}$$
 > > Hence we conclude: $\mathcal{M} \vDash R(c,c)$
 > 
@@ -203,7 +203,7 @@ $$\mathcal{M} \vDash P(t_{1}, ..., t_{n}) \Longleftrightarrow \langle t_{1}^{\ma
 > > \mathcal{M} & \vDash R(c,c) \land P(c)\quad \checkmark \\
 > > & \Longleftrightarrow \mathcal{M} \vDash R(c,c) \textrm{ or } \mathcal{M} \vDash P(c) \qquad (\textrm{by definition of }\vDash) \\
 > > & \Longleftrightarrow \langle c^{\mathcal{M}}, c^{\mathcal{M}}\rangle \in R^{\mathcal{M}} \textrm{ or } c^{\mathcal{M}} \in P^{\mathcal{M}} \quad\checkmark\\
-> > & \Longleftrightarrow \langle a_{3},a_{3}\rangle \in \{\langle a_{1},a_{2}\rangle,\langle a_{1},a_{3}\rangle,\langle a_{3},a_{2}\rangle,\langle a_{2},a_{3}\rangle\} \quad\checkmark \\
+> > & \Longleftrightarrow \langle a_{3},a_{3}\rangle \in \{\langle a_{1},a_{2}\rangle,\langle a_{1},a_{3}\rangle,\langle a_{3},a_{2}\rangle,\langle a_{3},a_{3}\rangle\} \quad\checkmark \\
 > > &\qquad \textrm{ or } a_{3} \in \{a_{1},a_{2}\} \quad\texttimes \qquad (\textrm{by definition of }\mathcal{M})
 > > \end{align}$$
 > > Hence we conclude: $\mathcal{M} \vDash R(c,c) \lor P(c)$
