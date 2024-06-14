@@ -19,8 +19,22 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "fe303417e35b40c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mentor Interviews.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -88,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Operating Systems/Input-Output.md",
+                "file": "Mentor Interviews.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Operating Systems/Input-Output.md",
+                "file": "Mentor Interviews.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Operating Systems/Input-Output.md"
+                "file": "Mentor Interviews.md"
               }
             }
           },
@@ -162,25 +176,26 @@
       "random-note:Open random note": false,
       "audio-recorder:Start/stop recording": false,
       "workspaces:Manage workspace layouts": false,
-      "switcher:Open quick switcher": false,
+      "switcher:Open quick switcher": true,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:New Excalidraw drawing": false,
+      "templates:Insert template": true,
+      "command-palette:Open command palette": true,
+      "table-editor-obsidian:Advanced Tables Toolbar": true,
+      "obsidian-excalidraw-plugin:New Excalidraw drawing": true,
       "templater-obsidian:Templater": false
     }
   },
-  "active": "49347a54bc0b3cbb",
+  "active": "fe303417e35b40c5",
   "lastOpenFiles": [
+    "Computer Science/Operating Systems/Input-Output.md",
+    "Mentor Interviews.md",
     "Computer Science/Databases/Database Transactions.md",
     "Computer Science/Databases/Databases.md",
     "Computer Science/Databases/SQL.md",
     "Computer Science/Databases/Database Modelling.md",
     "Computer Science/Databases/Database Normalization.md",
-    "Computer Science/Operating Systems/Input-Output.md",
     "Interests/Programming and computers/MathJax Basic Tutorial.md",
     "Computer Science/Logic and Modelling/Undecidability and Incompleteness of Predicate Logic.md",
     "Computer Science/Logic and Modelling/Metatheorems of Predicate Logic.md",
@@ -201,7 +216,6 @@
     "Computer Science/Information Management for CS/Electronic Commerce and business.md",
     "Computer Science/Information Management for CS/Strategy and Information Systems.md",
     "Computer Science/Information Management for CS/Information Systems.md",
-    "Computer Science/Linear Algebra/Linear Algebra exam questions.md",
     "Files/Internet users’ perceptions of ‘privacy concerns’ and ‘privacy actions'.pdf",
     "Files/56322.png",
     "Files/57862.png",

@@ -1,0 +1,188 @@
+# Questions
+- Can you briefly tell us about yourself and your background?
+- For contract reasons, are you from inside or outside of the EU? 
+- Why are you applying for the job?
+- What are your expectations of the job?
+- What do you think are the most important qualities of a good mentor?
+- Why do you think you’ll be a good mentor?
+- Do you have any other responsibilities that would not allow you to work 8 hours a week?
+- Are you planning on TAing for any of the courses?
+- Are you/will you be following the honours programme?  
+- <If they have a job> How many hours do you have on your contract and    would this affect your availability for the mentor programme?
+- Mentor program lasts throughout the whole academic year. How do you plan to manage this  commitment alongside your other responsibilities?
+- Have you had any other working experience?
+- Have you had any experience in teaching?
+- Do you have any previous experiences with organising events? What were the problems that came with it and how did you deal with them?
+- Describe the Mentor Programme, <and after ask the question below>
+- What new activities or ideas would you bring to the program to make it more engaging?
+- Would you want to be involved more in the social or academic aspect? 
+- What courses would you be comfortable conducting an exam prep for ?
+- Do you have any ideas on how to improve our academic events? What do you think about the “extra” lectures that we gave this year? 
+- Would you add some more?
+- What would you do to ensure that academic activities are engaging and effective for the mentees? 
+- What approach would you take to ensure all mentees feel included during events?
+- How would you create and ensure the lasting of the community feeling in the mentor programme?
+- Describe a time when you had to lead a team. How did you ensure that the team worked well together? 
+- How do you plan and organise events to ensure they run smoothly and meet the goals of the programme?
+- Suppose an event is not going as planned. What would you do?
+- Can you discuss a time when an event you organised faced unexpected challenges and how you managed them?
+- Can you describe a time when you had to resolve a conflict within a group? How did you handle it?
+- Given <scenario> what would you do to solve the problem?
+- What sets you apart from other candidates applying for this position?
+- Exercise: Take any course of your first year, and choose any topic. You have two minutes to prepare and after that you should explain the topic to me in a minute. 
+- Mid questions that Henri added but might not be needed:  
+- How do you handle stress and time management, especially when balancing multiple responsibilities?
+- Can you provide an example of a time when you had to prioritise tasks under a tight schedule?
+
+# Diana Ceausescu 
+- Can you briefly tell us about yourself and your background?
+- For contract reasons, are you from inside or outside of the EU? 
+	- EU
+- Why are you applying for the job?
+- What are your expectations of the job?
+- What do you think are the most important qualities of a good mentor?
+- Why do you think you’ll be a good mentor?
+- Do you have any other responsibilities that would not allow you to work 8 hours a week?
+	- No
+- Are you planning on TAing for any of the courses?
+- Are you/will you be following the honours programme?  
+	- Yes
+- <If they have a job> How many hours do you have on your contract and would this affect your availability for the mentor programme?
+- Mentor program lasts throughout the whole academic year. How do you plan to manage this  commitment alongside your other responsibilities?
+	- Yes the entire year
+- Have you had any other working experience?
+	- Creating events
+- Have you had any experience in teaching?
+	- she taught coding
+- Do you have any previous experiences with organising events? What were the problems that came with it and how did you deal with them?
+	- Interact. Yes: timing and showup and sponsorships
+- Describe the Mentor Programme, <and after ask the question below>
+- What new activities or ideas would you bring to the program to make it more engaging?
+	- Meeting with friends
+- Would you want to be involved more in the social or academic aspect? 
+	- More academic: making ai exam prep
+- What courses would you be comfortable conducting an exam prep for ?
+	- LS, python, DM
+- Do you have any ideas on how to improve our academic events? What do you think about the “extra” lectures that we gave this year? 
+	- finds extra lectures ok
+- Would you add some more?
+- What would you do to ensure that academic activities are engaging and effective for the mentees? 
+- What approach would you take to ensure all mentees feel included during events?
+- How would you create and ensure the lasting of the community feeling in the mentor programme?
+	- More events at the beginning
+- Describe a time when you had to lead a team. How did you ensure that the team worked well together? 
+- How do you plan and organise events to ensure they run smoothly and meet the goals of the programme?
+- Suppose an event is not going as planned. What would you do?
+- Can you discuss a time when an event you organised faced unexpected challenges and how you managed them?
+- Can you describe a time when you had to resolve a conflict within a group? How did you handle it?
+- Given <scenario> what would you do to solve the problem?
+- What sets you apart from other candidates applying for this position?
+- Exercise: Take any course of your first year, and choose any topic. You have two minutes to prepare and after that you should explain the topic to me in a minute. 
+- Mid questions that Henri added but might not be needed:  
+- How do you handle stress and time management, especially when balancing multiple responsibilities?
+- Can you provide an example of a time when you had to prioritise tasks under a tight schedule?
+
+- Thought of things of what to do in a problem
+- More writing as a title
+
+# Samuel Power
+- Can you briefly tell us about yourself and your background?
+- For contract reasons, are you from inside or outside of the EU? 
+- Why are you applying for the job?
+- What are your expectations of the job?
+	- Asked us
+- What do you think are the most important qualities of a good mentor?
+	- Teamwork, teaching, focused (not social), reliability, know whats up
+- Why do you think you’ll be a good mentor?
+	- Good at explaining
+- Do you have any other responsibilities that would not allow you to work 8 hours a week?
+	- No
+- Are you planning on TAing for any of the courses?
+	- No
+- Are you/will you be following the honours programme?  
+	- No
+- <If they have a job> How many hours do you have on your contract and would this affect your availability for the mentor programme?
+- Mentor program lasts throughout the whole academic year. How do you plan to manage this  commitment alongside your other responsibilities?
+	- Entire year
+- Have you had any other working experience?
+	- Yes
+- Have you had any experience in teaching?
+	- No
+- Do you have any previous experiences with organising events? What were the problems that came with it and how did you deal with them?
+	- Yes, in clubs
+- Describe the Mentor Programme, <and after ask the question below>
+	- Very well done
+- What new activities or ideas would you bring to the program to make it more engaging?
+	- good ideas: cooking and trampoline park
+- Would you want to be involved more in the social or academic aspect? 
+	- social
+- What courses would you be comfortable conducting an exam prep for ?
+	- CP
+- Do you have any ideas on how to improve our academic events? What do you think about the “extra” lectures that we gave this year? 
+	- Says its good
+	- Have polls for what 
+- Would you add some more?
+- What would you do to ensure that academic activities are engaging and effective for the mentees? 
+	- Everything is good
+- What approach would you take to ensure all mentees feel included during events?
+	- randomize and create groups
+- How would you create and ensure the lasting of the community feeling in the mentor programme?
+	- make first event memorable, make them interact with each other
+	- event with a lot of get together: sports day and mini gold
+- Describe a time when you had to lead a team. How did you ensure that the team worked well together? 
+	- Swimming teaching: found the goal what people wanted and helped with that even when people had different opinions
+- How do you plan and organise events to ensure they run smoothly and meet the goals of the programme?
+	- timeline and organization
+- Suppose an event is not going as planned. What would you do?
+	- Wait another day, depends on payment and if you can move
+- Can you discuss a time when an event you organised faced unexpected challenges and how you managed them?
+- Given <scenario> what would you do to solve the problem?
+	- If you work with someone who doesn't work, what will you do
+		- Talk to them first, talk about what to do next time. Ask head mentors for advice
+- What sets you apart from other candidates applying for this position?
+	- Can work with others, very social, is enthusiastic, will have fun
+- Exercise: Take any course of your first year, and choose any topic. You have two minutes to prepare and after that you should explain the topic to me in a minute. 
+	- Very good
+- What did you not like about the program, was there anything that you would like more
+- What role would you take
+	- Treasurer
+- Mid questions that Henri added but might not be needed:  
+- How do you handle stress and time management, especially when balancing multiple responsibilities?
+- Can you provide an example of a time when you had to prioritise tasks under a tight schedule?
+
+- Will organize and will do as told
+# Aida 
+- Can you briefly tell us about yourself and your background?
+- For contract reasons, are you from inside or outside of the EU? 
+- Why are you applying for the job?
+- What are your expectations of the job?
+- What do you think are the most important qualities of a good mentor?
+- Why do you think you’ll be a good mentor?
+- Do you have any other responsibilities that would not allow you to work 8 hours a week?
+- Are you planning on TAing for any of the courses?
+- Are you/will you be following the honours programme?  
+- <If they have a job> How many hours do you have on your contract and    would this affect your availability for the mentor programme?
+- Mentor program lasts throughout the whole academic year. How do you plan to manage this  commitment alongside your other responsibilities?
+- Have you had any other working experience?
+- Have you had any experience in teaching?
+- Do you have any previous experiences with organising events? What were the problems that came with it and how did you deal with them?
+- Describe the Mentor Programme, <and after ask the question below>
+- What new activities or ideas would you bring to the program to make it more engaging?
+- Would you want to be involved more in the social or academic aspect? 
+- What courses would you be comfortable conducting an exam prep for ?
+- Do you have any ideas on how to improve our academic events? What do you think about the “extra” lectures that we gave this year? 
+- Would you add some more?
+- What would you do to ensure that academic activities are engaging and effective for the mentees? 
+- What approach would you take to ensure all mentees feel included during events?
+- How would you create and ensure the lasting of the community feeling in the mentor programme?
+- Describe a time when you had to lead a team. How did you ensure that the team worked well together? 
+- How do you plan and organise events to ensure they run smoothly and meet the goals of the programme?
+- Suppose an event is not going as planned. What would you do?
+- Can you discuss a time when an event you organised faced unexpected challenges and how you managed them?
+- Can you describe a time when you had to resolve a conflict within a group? How did you handle it?
+- Given <scenario> what would you do to solve the problem?
+- What sets you apart from other candidates applying for this position?
+- Exercise: Take any course of your first year, and choose any topic. You have two minutes to prepare and after that you should explain the topic to me in a minute. 
+- Mid questions that Henri added but might not be needed:  
+- How do you handle stress and time management, especially when balancing multiple responsibilities?
+- Can you provide an example of a time when you had to prioritise tasks under a tight schedule?

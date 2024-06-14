@@ -25,5 +25,7 @@
   "showInlineTitle": true,
   "autoConvertHtml": true,
   "propertiesInDocument": "hidden",
-  "spellcheck": true
+  "spellcheck": true,
+  "rightToLeft": false,
+  "showRibbon": true
 }
