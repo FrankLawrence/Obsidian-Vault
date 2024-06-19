@@ -21,16 +21,11 @@
             }
           },
           {
-            "id": "fe303417e35b40c5",
+            "id": "306d32ac6aee8a65",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mentor Interviews.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
@@ -102,7 +97,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mentor Interviews.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +113,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mentor Interviews.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,9 +134,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Mentor Interviews.md"
-              }
+              "state": {}
             }
           },
           {
@@ -187,7 +178,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "fe303417e35b40c5",
+  "active": "306d32ac6aee8a65",
   "lastOpenFiles": [
     "Computer Science/Operating Systems/Input-Output.md",
     "Mentor Interviews.md",
