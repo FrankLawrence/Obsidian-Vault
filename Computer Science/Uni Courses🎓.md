@@ -45,3 +45,4 @@ cssclass: dashboard
 	- [[Logic and Modelling]]
 	- [[Philosophy and Ethics]]
 - P6
+	- [[Software Engineering Processes]]

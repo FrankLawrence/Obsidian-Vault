@@ -24,12 +24,43 @@
             "id": "306d32ac6aee8a65",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Computer Science/Uni Courses🎓.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "9b984c16758f0e14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Science/Software Engineering Processes.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "b7defab09c760247",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Science/SEP Lecture 1.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -97,6 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Computer Science/SEP Lecture 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Computer Science/SEP Lecture 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -134,7 +167,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Computer Science/SEP Lecture 1.md"
+              }
             }
           },
           {
@@ -178,8 +213,12 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "306d32ac6aee8a65",
+  "active": "b7defab09c760247",
   "lastOpenFiles": [
+    "Files/Boehm's Spiral Model.jpeg",
+    "Computer Science/Software Engineering Processes.md",
+    "Computer Science/SEP Lecture 1.md",
+    "Computer Science/Uni Courses🎓.md",
     "Computer Science/Operating Systems/Input-Output.md",
     "Mentor Interviews.md",
     "Computer Science/Databases/Database Transactions.md",
@@ -203,10 +242,6 @@
     "Files/PDF/Chapter 01. intro.pdf",
     "Computer Science/Information Management for CS/Information Management for CS.md",
     "Computer Science/Information Management for CS/Information systems development - an overview.md",
-    "Computer Science/Information Management for CS/Business Intelligence.md",
-    "Computer Science/Information Management for CS/Electronic Commerce and business.md",
-    "Computer Science/Information Management for CS/Strategy and Information Systems.md",
-    "Computer Science/Information Management for CS/Information Systems.md",
     "Files/Internet users’ perceptions of ‘privacy concerns’ and ‘privacy actions'.pdf",
     "Files/56322.png",
     "Files/57862.png",
