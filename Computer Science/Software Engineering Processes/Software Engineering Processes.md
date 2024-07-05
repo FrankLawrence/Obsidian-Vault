@@ -9,9 +9,13 @@ alias: SEP
 - [[Software Engineering Processes Assessment]]
 ## Lectures
 - [[SEP Lecture 1]]
+- [[SEP Lecture 2 SCRUM]]
+- [[SEP Lecture 2 UP]]
+- [[SEP Lecture 3]]
+- [[SEP Lecture 4]]
+- [[SEP Lecture 6]]
+- [[SEP Lecture 7]]
 ## Extras
-### Tips
-### Emails and Resources
-### Important Dates
+![[Diagram of how all the software processes relate.canvas|Diagram of how all the software processes relate]]
 ___
 References:

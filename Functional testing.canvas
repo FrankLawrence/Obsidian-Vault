@@ -1,0 +1,16 @@
+{
+	"nodes":[
+		{"id":"fc3efb62892694ea","type":"text","text":"# Unit testing\nThe aim of unit testing is to test program units in isolation. Individual code units are tested by the programmer as they are developed.","x":-178,"y":-200,"width":238,"height":180},
+		{"id":"562eb61d3ec065fc","type":"text","text":"# Start","x":-107,"y":-320,"width":98,"height":50},
+		{"id":"0d420019db6e0810","type":"text","text":"# System testing\nCode units are integrated to create a working version of the system. This checks the interaction of features.","x":-193,"y":260,"width":250,"height":157},
+		{"id":"c049ad4f51b4873e","type":"text","text":"# Release testing\nThe system is packaged for release to customers and the release is tested to check that it operates as expected.","x":-500,"y":42,"width":250,"height":156},
+		{"id":"f0f4d1866b4fa7b6","type":"text","text":"# Feature Testing\nCode units are integrated to create features.","x":140,"y":60,"width":177,"height":120}
+	],
+	"edges":[
+		{"id":"0625d99e047aed80","fromNode":"fc3efb62892694ea","fromSide":"right","toNode":"f0f4d1866b4fa7b6","toSide":"top"},
+		{"id":"6c382d182e79c9cf","fromNode":"562eb61d3ec065fc","fromSide":"bottom","toNode":"fc3efb62892694ea","toSide":"top"},
+		{"id":"8b71f2ece204fa0e","fromNode":"f0f4d1866b4fa7b6","fromSide":"bottom","toNode":"0d420019db6e0810","toSide":"right"},
+		{"id":"d1e1e385db4503f8","fromNode":"0d420019db6e0810","fromSide":"left","toNode":"c049ad4f51b4873e","toSide":"bottom"},
+		{"id":"ae0e0c79b3e63a05","fromNode":"c049ad4f51b4873e","fromSide":"top","toNode":"fc3efb62892694ea","toSide":"left"}
+	]
+}

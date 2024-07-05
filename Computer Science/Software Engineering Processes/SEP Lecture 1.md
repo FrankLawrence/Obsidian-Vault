@@ -14,9 +14,9 @@ Them main activities are:
 - Software evolution
 
 These all belong to software engineering because it helps with the following.
-- Development of **tools**, **frameworks**, etc. to support/easy software development
+- **Development** of tools, frameworks, etc. to support/easy software development
 - **Management** of the software development
-- Specification of **steps**, **rules**, **processes**, etc. to develop software
+- **Specification** of steps, rules, processes, etc. to develop software
 
 SE is important because
 - **Software is everywhere**
@@ -67,7 +67,7 @@ There are however still some issues with software:
 - Pre- and post-conditions: Which are the statements true before and after a process activity has been enacted or a product produced.
 
 ## Types of Software Process Models
-| Plan-driven                                   | Agile                                                                                                        |
+| Plan-driven                                   | [[SEP Lecture 2 SCRUM#Agile Software Development]]                                                                                                        |
 | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
 | All process activities are planned in advance | Planning is *incremental* and it is *easier to change* the process to reflect changing customer requirements |
 | Progress is measured against this plan        |                                                                                                              |
@@ -81,7 +81,7 @@ There are no right or wrong software processes! In practice, applied processes i
 - [[#Incremental Development]]
 	- Activities are interleaved
 	- Plan-driven or agile
-- **Reuse-oriented** software engineering
+- [[#Reuse Oriented Software Engineering]]
 	- Software is assembled from existing components
 	- Plan-driven or agile
 ## Waterfall
@@ -209,11 +209,35 @@ flowchart TD
 - No fixed phases such as specification or design - loops in the spiral are chosen depending on what is required
 - Risks are explicitly assessed and resolved throughout the process
 
-![[Boehm's Spiral Model.jpeg]]
+![[Boehm's Spiral Model.jpeg|600]]
 #### Sectors
 - Objective setting: Specific objectives for the phase are identified
 - Risk assessment and reduction: Risks are assessed and activities put in place to reduce the key risks
 - Development and validation: A development model for the system is chosen which can be any of the generic models.
+- Planning: The project is reviewed and the next phase is planned
+#### Usage
+1. Introduced **iteration** in software processes
+2. Introduced the **risk-driven** approach to development
+3. In practice, however, the model is rarely used as published for practical software development
+## Reuse Oriented Software Engineering
+- Systematic reuse of available software
+- Systems are integrated from existing components or COTS (Commercial-off-the-shelf) systems
+- Process steps:
+	- Component analysis
+	- Requirements modification/adaptation
+	- System design with reuse
+	- Development and integration
+- Reuse is now the standard approach for building many types of business system
+```mermaid
+flowchart LR
+	a([Requirements \n specification]) --> b([Component \n analysis]) --> c([Requirements \n modification]) --> d([System dseign \n with reuse]) --> e([Development \n and integration]) --> f([System \n validation])
+```
+
+> [!example]
+> - Web services developed according to service standards and available  for remote invocation
+> - Collections of objects developed as a package to be integrated with a component framework such as .NET or J2EE
+> - **Stand-alone software systems** (COTS) configured for use in particular environment
+
 
 ---
 References:

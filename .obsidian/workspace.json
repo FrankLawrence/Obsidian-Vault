@@ -19,48 +19,8 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "306d32ac6aee8a65",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Uni Courses🎓.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "9b984c16758f0e14",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Software Engineering Processes.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "b7defab09c760247",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/SEP Lecture 1.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -89,7 +49,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "consistency path:\"Computer Science/Logic and Modelling\"  ",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -128,7 +88,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/SEP Lecture 1.md",
+                "file": "Computer Science/Operating Systems/Input-Output.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +105,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/SEP Lecture 1.md",
+                "file": "Computer Science/Operating Systems/Input-Output.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/SEP Lecture 1.md"
+                "file": "Computer Science/Operating Systems/Input-Output.md"
               }
             }
           },
@@ -213,13 +173,38 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b7defab09c760247",
+  "active": "49347a54bc0b3cbb",
   "lastOpenFiles": [
-    "Files/Boehm's Spiral Model.jpeg",
-    "Computer Science/Software Engineering Processes.md",
-    "Computer Science/SEP Lecture 1.md",
-    "Computer Science/Uni Courses🎓.md",
+    "Computer Science/Software Engineering Processes/SEP Lecture 7.md",
+    "Computer Science/Software Engineering Processes/SEP Lecture 6.md",
+    "Software Release Process.canvas",
+    "Computer Science/Software Engineering Processes/SEP Lecture 4.md",
+    "Functional testing.canvas",
+    "Computer Science/Software Engineering Processes/SEP Lecture 3.md",
+    "Computer Science/Software Engineering Processes/SEP Lecture 2 UP.md",
+    "Computer Science/Software Engineering Processes/SEP Lecture 2 SCRUM.md",
+    "Computer Science/Software Engineering Processes/SEP Lecture 1.md",
+    "Diagram of how all the software processes relate.canvas",
+    "Computer Science/Software Engineering Processes/Software Engineering Processes.md",
     "Computer Science/Operating Systems/Input-Output.md",
+    "Files/SEP2024-Lecture5-git-and-GitHub-and-OpenSource.pdf",
+    "Files/SEP2024-Lecture6-DevOps.pdf",
+    "Files/SEP2024-Lecture7-CI_CD.pdf",
+    "Files/CI CD.png",
+    "Files/DevOps.png",
+    "Personal/Callouts.md",
+    "Files/SEP2024-Lecture4-Testing.pdf",
+    "Files/SEP2024-Lecture3.pdf",
+    "Files/SEP2024-Lecture2-SCRUM.pdf",
+    "Files/SEP2024-Lecture2-UP.pdf",
+    "Files/UP disciplines.png",
+    "Files/UP Iterations and Phases.png",
+    "Files/Unified Process.png",
+    "Files/Iterative, Incremental, Evolutionary Development.png",
+    "Computer Science/Uni Courses🎓.md",
+    "Files/SEP2024-Lecture1.pdf",
+    "Computer Science/Software Engineering Processes",
+    "Files/Boehm's Spiral Model.jpeg",
     "Mentor Interviews.md",
     "Computer Science/Databases/Database Transactions.md",
     "Computer Science/Databases/Databases.md",
@@ -234,42 +219,16 @@
     "Computer Science/Logic and Modelling/Modal Logic.md",
     "Computer Science/Logic and Modelling/Semantics of, and Translations into, Predicate Logic.md",
     "Computer Science/Logic and Modelling/Logic and Modelling.md",
-    "Computer Science/Linear Algebra/Linear Algebra.md",
-    "Computer Science/Operating Systems/Operating Systems.md",
-    "Computer Science/Linear Algebra/Vector Spaces and Subspaces.md",
-    "Computer Science/Linear Algebra/Matrix Factorizations.md",
-    "Computer Science/Linear Algebra/Properties of Determinants.md",
     "Files/PDF/Chapter 01. intro.pdf",
-    "Computer Science/Information Management for CS/Information Management for CS.md",
-    "Computer Science/Information Management for CS/Information systems development - an overview.md",
-    "Files/Internet users’ perceptions of ‘privacy concerns’ and ‘privacy actions'.pdf",
     "Files/56322.png",
     "Files/57862.png",
-    "Untitled.canvas",
-    "Computer Science/Logic and Modelling",
-    "Computer Science/Databases",
-    "Computer Science/Philosophy and Ethics",
     "Interests/Programming/Pen testing/Port Swigger/SQL commands/Untitled.png",
-    "Interests/Programming/Pen testing/Port Swigger/SQL commands/Untitled 1.png",
-    "Interests/Programming/Pen testing/Port Swigger/Command injection/Untitled.png",
-    "Interests/Programming/Pen testing/Port Swigger/Java script/XSS",
-    "Interests/Programming/Pen testing/Programs/python3",
-    "Interests/Programming/Pen testing/Port Swigger/file uploads",
-    "Interests/Programming/Pen testing/Port Swigger/SQL commands",
-    "Interests/Programming/Pen testing/Port Swigger/Python scripts",
     "Interests/Programming/Unix Command Reference.canvas",
     "Computer Programming/Secure Programming/Diffie-Hellman Key Exchange.canvas",
     "Computer Programming/Projects/Clinical Trials API.canvas",
     "Computer Programming/Pervasive Computing/Testing Principle.canvas",
     "Computer Programming/Pervasive Computing/Systems engineering diagram.canvas",
     "Computer Programming/Pervasive Computing/Insulin Pump FTA.canvas",
-    "Computer Programming/Pervasive Computing/Analog to Digital Converter.canvas",
-    "Computer Programming/Operating Systems/Four-Level Page Tables.canvas",
-    "Computer Programming/Object Oriented and Functional Programming/Animals Inheritance class example.canvas",
-    "Files/SCR-20240304-tnia.png",
-    "Files/SCR-20240304-tnia-2.png",
-    "Files/Pasted image 20240322175058.png",
-    "Files/95736.png",
-    "Files/85036.jpeg"
+    "Computer Programming/Pervasive Computing/Analog to Digital Converter.canvas"
   ]
 }
