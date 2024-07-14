@@ -19,8 +19,22 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "a0adf662eaac8dfd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Science/CISCO Networking Basics/CISCO Networking Basics.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -66,8 +80,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -88,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Operating Systems/Input-Output.md",
+                "file": "Computer Science/CISCO Networking Basics/CISCO Networking Basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Operating Systems/Input-Output.md",
+                "file": "Computer Science/CISCO Networking Basics/CISCO Networking Basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -128,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Operating Systems/Input-Output.md"
+                "file": "Computer Science/CISCO Networking Basics/CISCO Networking Basics.md"
               }
             }
           },
@@ -173,8 +186,15 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "49347a54bc0b3cbb",
+  "active": "a0adf662eaac8dfd",
   "lastOpenFiles": [
+    "Computer Science/CISCO Networking Basics/Wireless and Mobile Networks.md",
+    "Computer Science/CISCO Networking Basics/CISCO Networking Basics.md",
+    "Computer Science/CISCO Networking Basics/Communication in a Connected World.md",
+    "Computer Science/CISCO Networking Basics/Network Components, Types, and Connections.md",
+    "Computer Science/Operating Systems/Input-Output.md",
+    "Computer Science/Definitions/Client and Server.md",
+    "Computer Science/CISCO Networking Basics",
     "Computer Science/Software Engineering Processes/SEP Lecture 7.md",
     "Computer Science/Software Engineering Processes/SEP Lecture 6.md",
     "Software Release Process.canvas",
@@ -186,7 +206,6 @@
     "Computer Science/Software Engineering Processes/SEP Lecture 1.md",
     "Diagram of how all the software processes relate.canvas",
     "Computer Science/Software Engineering Processes/Software Engineering Processes.md",
-    "Computer Science/Operating Systems/Input-Output.md",
     "Files/SEP2024-Lecture5-git-and-GitHub-and-OpenSource.pdf",
     "Files/SEP2024-Lecture6-DevOps.pdf",
     "Files/SEP2024-Lecture7-CI_CD.pdf",
@@ -215,11 +234,6 @@
     "Computer Science/Logic and Modelling/Undecidability and Incompleteness of Predicate Logic.md",
     "Computer Science/Logic and Modelling/Metatheorems of Predicate Logic.md",
     "Computer Science/Logic and Modelling/Semantics of Predicate Logic.md",
-    "Computer Science/Logic and Modelling/Modal Logic, Formulas, and Frame Properties.md",
-    "Computer Science/Logic and Modelling/Modal Logic.md",
-    "Computer Science/Logic and Modelling/Semantics of, and Translations into, Predicate Logic.md",
-    "Computer Science/Logic and Modelling/Logic and Modelling.md",
-    "Files/PDF/Chapter 01. intro.pdf",
     "Files/56322.png",
     "Files/57862.png",
     "Interests/Programming/Pen testing/Port Swigger/SQL commands/Untitled.png",

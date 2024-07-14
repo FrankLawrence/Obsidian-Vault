@@ -239,8 +239,19 @@ int fd, const char *pathkey, const char *pathcert) {
 }
 ```
 
-# Blockchain
-BitCoin is a decentralized digital currency. People can transfer money directly to others without involving banks. It is based on the **blockchain**, where each block of transactions contains a **hash of the previous block**.
+# [[Blockchain]]
+[[BitCoin]] is a decentralized digital currency. People can transfer money directly to others without involving banks. It is based on the **blockchain**, where each block of transactions contains a **hash of the previous block**. Thus you cannot change past transactions without changing the later ones. With more users, the 'real' chain will be that one with >50% of users. That's why you would need an insane amount of computing power (at least 505 of the network) to cheat.
+
+Blockchain is widely proposed for other uses aswell: Especially smart contracts (basically computer programs), Timestamping and also to achieve random other security goals.
+
+> [!info] BitCoin security is not just blockchain and blockchain is not inherently secure
+> There also needs to be a way to correctly identify the last block.
+
+Be careful whenever blockchain is mentioned. 
+- It may not be necessary (if decentralized not needed usually public key signatures work)
+- May not be secure
+- May be old stuff with a trendy new name
+- May not really be BlockchainMay be random nonsense
 
 ---
 References:
