@@ -32,9 +32,32 @@
                 "source": true
               }
             }
+          },
+          {
+            "id": "f09b5357f0504ee4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Science/Mentor Program/Mentor Interviews.md",
+                "mode": "source",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "f02f86870287ffdc",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -101,7 +124,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/CISCO Networking Basics/CISCO Networking Basics.md",
+                "file": "Computer Science/Mentor Program/Mentor Interviews.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +141,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/CISCO Networking Basics/CISCO Networking Basics.md",
+                "file": "Computer Science/Mentor Program/Mentor Interviews.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -141,7 +164,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/CISCO Networking Basics/CISCO Networking Basics.md"
+                "file": "Computer Science/Mentor Program/Mentor Interviews.md"
               }
             }
           },
@@ -186,10 +209,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "a0adf662eaac8dfd",
+  "active": "f02f86870287ffdc",
   "lastOpenFiles": [
-    "Computer Science/CISCO Networking Basics/Wireless and Mobile Networks.md",
+    "Computer Science/Mentor Program/Mentor Program 2024-2025.md",
     "Computer Science/CISCO Networking Basics/CISCO Networking Basics.md",
+    "Computer Science/Mentor Program/Mentor Interviews.md",
+    "Computer Science/Software Engineering Processes/Diagram of how all the software processes relate.canvas",
+    "Computer Science/Software Engineering Processes/Functional testing.canvas",
+    "Computer Science/Software Engineering Processes/Software Release Process.canvas",
+    "Personal/Portugal Trip.md",
+    "Linear Algebra Exam Prep.md",
+    "Interests/Programming/sed.md",
+    "Computer Science/CISCO Networking Basics/Wireless and Mobile Networks.md",
     "Computer Science/CISCO Networking Basics/Communication in a Connected World.md",
     "Computer Science/CISCO Networking Basics/Network Components, Types, and Connections.md",
     "Computer Science/Operating Systems/Input-Output.md",
@@ -197,14 +228,11 @@
     "Computer Science/CISCO Networking Basics",
     "Computer Science/Software Engineering Processes/SEP Lecture 7.md",
     "Computer Science/Software Engineering Processes/SEP Lecture 6.md",
-    "Software Release Process.canvas",
     "Computer Science/Software Engineering Processes/SEP Lecture 4.md",
-    "Functional testing.canvas",
     "Computer Science/Software Engineering Processes/SEP Lecture 3.md",
     "Computer Science/Software Engineering Processes/SEP Lecture 2 UP.md",
     "Computer Science/Software Engineering Processes/SEP Lecture 2 SCRUM.md",
     "Computer Science/Software Engineering Processes/SEP Lecture 1.md",
-    "Diagram of how all the software processes relate.canvas",
     "Computer Science/Software Engineering Processes/Software Engineering Processes.md",
     "Files/SEP2024-Lecture5-git-and-GitHub-and-OpenSource.pdf",
     "Files/SEP2024-Lecture6-DevOps.pdf",
@@ -224,16 +252,11 @@
     "Files/SEP2024-Lecture1.pdf",
     "Computer Science/Software Engineering Processes",
     "Files/Boehm's Spiral Model.jpeg",
-    "Mentor Interviews.md",
     "Computer Science/Databases/Database Transactions.md",
     "Computer Science/Databases/Databases.md",
     "Computer Science/Databases/SQL.md",
     "Computer Science/Databases/Database Modelling.md",
     "Computer Science/Databases/Database Normalization.md",
-    "Interests/Programming and computers/MathJax Basic Tutorial.md",
-    "Computer Science/Logic and Modelling/Undecidability and Incompleteness of Predicate Logic.md",
-    "Computer Science/Logic and Modelling/Metatheorems of Predicate Logic.md",
-    "Computer Science/Logic and Modelling/Semantics of Predicate Logic.md",
     "Files/56322.png",
     "Files/57862.png",
     "Interests/Programming/Pen testing/Port Swigger/SQL commands/Untitled.png",

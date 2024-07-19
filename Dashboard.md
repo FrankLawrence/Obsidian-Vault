@@ -37,8 +37,8 @@ banner_y: 0.52858
 	- [[Computer Networks]]
 	- [[Computer Organization]]
 - Mentor Program
-	- [[Promotion text]]
-	- [[Mentor Program Lectures]]
+	- [[Promotion text 1]]
+	- [[Mentor Program Lectures 1]]
 
 # Recents
 ```dataview
