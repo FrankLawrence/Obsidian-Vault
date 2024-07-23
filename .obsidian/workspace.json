@@ -45,19 +45,9 @@
                 "source": true
               }
             }
-          },
-          {
-            "id": "f02f86870287ffdc",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.6.7"
-              }
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -209,7 +199,7 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f02f86870287ffdc",
+  "active": "f09b5357f0504ee4",
   "lastOpenFiles": [
     "Computer Science/Mentor Program/Mentor Program 2024-2025.md",
     "Computer Science/CISCO Networking Basics/CISCO Networking Basics.md",
