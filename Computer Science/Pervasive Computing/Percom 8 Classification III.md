@@ -79,7 +79,7 @@ $$\text{Accuracy} = 1 - \text{Error rate}$$
 Evaluation falls under either of 4 classes: 
 - **True** positive (TP): An instance of class $A$ is correctly classified as class $A$ (true)
 - **True** negatives (TN): An instances not from class $A$ is correctly rejected as not being in $A$
-- **False** positives (FP): An instance that is not from $A$ is wrongly classified as in $A$
+- **False** positives (FP): An instance that is not from $A$ is wrongly classified as in $A$ ^7a83ed
 - **False** negatives (FN): An instance that is from $A$ was wrongly rejected as not from $A$ -> **Danger**
 ## Confusion Matrix
 A confusion matrix shows how often each class was correctly/falsely classified. Each entry describes the count.
