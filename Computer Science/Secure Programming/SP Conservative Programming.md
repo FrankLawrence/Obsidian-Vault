@@ -376,6 +376,26 @@ mov %eax, -0x4(%rbp)   # store %eax back into memory
 > - Many others...
 
 - Almost all calls can fail, usually in multiple ways
+## Error Handling Goals
+- Even if an error happens we should ensure
+	- Any resources (memory, open files, mutexes, network connections, temporary files, ...) are still released
+	- Persistent state (files/databases) remains consistent
+	- Program continues to work (if possible)
+	- Program remains secure
+	- Program state remains consistent
+- Usually, it is also desirable to inform the user and/or log the error for later analysis or debugging
+## How not to Handle (most) Errors
+- Terminating immediately (common in PHP) leaves no way to clean up resources and persistent state
+  ```php
+  $handle = fopen('myfile.txt', 'r') or die('open failed');
+  ```
+- Ignoring is easy in C but means state will be inconsistent with expectations, which may threaten security
+  ```C
+  FILE *file = fopen("myfile.txt", "r");
+  fread(buf, sizeof(buf), 1, file); // buf uninitialized
+  ```
+- Some languages actively encourage bad programmers
+  `On Error Resume Next`
 # Memory Management
 
 ---
