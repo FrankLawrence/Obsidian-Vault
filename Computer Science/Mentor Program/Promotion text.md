@@ -214,6 +214,10 @@ Join us for a delightful evening at **Bar Botanique** on **23 Feb** at **20:30**
 📍 **Location**: Bar Botanique, Eerste Van Swindenstraat 581, 1093 LC Amsterdam
 
 We can't wait to celebrate with you! Let's make it a night to remember.
+## Goodbye Picnic
+Summer is coming, and the weather is finally starting to look better☀️🥳!! (as opposed to June 15th… 😓) We did not want this to be the end of our wonderful year together… soooo since you all enjoyed Sports Day, we would like to invite you all to our 🧺✨Goodbye Picnic~!❤️🧃  
+  
+It’s gonna be a simple fun day in the sun with drinks🍺 , food 🍕and fun 🛝<3 You can go swimming👙, play volleyball 🏐 or lounge around in the sun 🕶️☀️ do as much or as little as you’d like!!
 # Weekly Event Text:
 ## Example 1
 Good monday everyone! 

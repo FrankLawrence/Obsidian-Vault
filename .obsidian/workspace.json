@@ -60,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -128,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interests/Self Hosting/Synology central storage unit.md",
+                "file": "Computer Science/CISCO Networking Basics/CISCO Networking Basics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interests/Self Hosting/Synology central storage unit.md",
+                "file": "Computer Science/CISCO Networking Basics/CISCO Networking Basics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interests/Self Hosting/Synology central storage unit.md"
+                "file": "Computer Science/CISCO Networking Basics/CISCO Networking Basics.md"
               }
             }
           },
@@ -213,14 +213,17 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "1a5448d7789c3fb0",
+  "active": "a0adf662eaac8dfd",
   "lastOpenFiles": [
-    "Interests/Self Hosting",
-    "Computer Science/Secure Programming/SP Conservative Programming.md",
-    "Interests/Self Hosting/Synology central storage unit.md",
-    "Dashboard.md",
+    "Computer Science/Operating Systems/Input-Output.md",
     "Computer Science/CISCO Networking Basics/CISCO Networking Basics.md",
     "Computer Science/CISCO Networking Basics/Communication Principles.md",
+    "Interests/Self Hosting/Synology central storage unit.md",
+    "Computer Science/Mentor Program/Mentor Program Lectures.md",
+    "Computer Science/Mentor Program/Promotion text.md",
+    "Interests/Self Hosting",
+    "Computer Science/Secure Programming/SP Conservative Programming.md",
+    "Dashboard.md",
     "Interests/Programming/Missing Semeseter.md",
     "Interests/Programming and computers/Missing Semeseter.md",
     "Computer Science/Pervasive Computing/Percom 8 Classification III.md",
@@ -239,8 +242,6 @@
     "Computer Science/Software Engineering Processes/SEP Lecture 4.md",
     "Computer Science/Software Engineering Processes/SEP Lecture 3.md",
     "Personal/Callouts.md",
-    "Computer Science/Secure Programming/Secure Programming.md",
-    "Interests/Security and Privacy/GnuPG.md",
     "Computer Science/Software Engineering Processes/Diagram of how all the software processes relate.canvas",
     "Computer Science/Software Engineering Processes/Functional testing.canvas",
     "Computer Science/Software Engineering Processes/Software Release Process.canvas",
@@ -259,7 +260,6 @@
     "Files/Unified Process.png",
     "Files/Iterative, Incremental, Evolutionary Development.png",
     "Files/SEP2024-Lecture1.pdf",
-    "Computer Science/Software Engineering Processes",
     "Files/Boehm's Spiral Model.jpeg",
     "Files/56322.png",
     "Files/57862.png",
