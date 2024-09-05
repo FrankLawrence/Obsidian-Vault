@@ -34,12 +34,12 @@
             }
           },
           {
-            "id": "1a84c50521561be2",
+            "id": "ec7c8c6f1e80a426",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/CISCO Networking Basics/Communication Principles.md",
+                "file": "Computer Science/CISCO Networking Basics/Routing Between Networks.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -215,9 +215,17 @@
   },
   "active": "a0adf662eaac8dfd",
   "lastOpenFiles": [
-    "Computer Science/Operating Systems/Input-Output.md",
+    "Computer Science/CISCO Networking Basics/Network Testing Utilities.md",
     "Computer Science/CISCO Networking Basics/CISCO Networking Basics.md",
+    "Computer Science/CISCO Networking Basics/TCP and UDP.md",
+    "Computer Science/CISCO Networking Basics/The ARP Process.md",
+    "Computer Science/CISCO Networking Basics/Routing Between Networks.md",
+    "Computer Science/CISCO Networking Basics/Gateways to Other Networks.md",
+    "Computer Science/CISCO Networking Basics/Dynamic Addressing with DHCP.md",
+    "Computer Science/CISCO Networking Basics/IPv6 Addressing Formats and Rules.md",
+    "Computer Science/CISCO Networking Basics/IPv4 and Network Segmentation.md",
     "Computer Science/CISCO Networking Basics/Communication Principles.md",
+    "Computer Science/Operating Systems/Input-Output.md",
     "Interests/Self Hosting/Synology central storage unit.md",
     "Computer Science/Mentor Program/Mentor Program Lectures.md",
     "Computer Science/Mentor Program/Promotion text.md",
@@ -234,14 +242,6 @@
     "Computer Science/Uni Courses🎓.md",
     "Computer Science/Logic and Modelling/Logic and Modelling.md",
     "Computer Science/Logic and Modelling/Semantics of Predicate Logic.md",
-    "Computer Science/Software Engineering Processes/Software Engineering Processes.md",
-    "Computer Science/Software Engineering Processes/SEP Lecture 7.md",
-    "Computer Science/Software Engineering Processes/SEP Lecture 6.md",
-    "Computer Science/Software Engineering Processes/SEP Lecture 2 SCRUM.md",
-    "Computer Science/Software Engineering Processes/SEP Lecture 2 UP.md",
-    "Computer Science/Software Engineering Processes/SEP Lecture 4.md",
-    "Computer Science/Software Engineering Processes/SEP Lecture 3.md",
-    "Personal/Callouts.md",
     "Computer Science/Software Engineering Processes/Diagram of how all the software processes relate.canvas",
     "Computer Science/Software Engineering Processes/Functional testing.canvas",
     "Computer Science/Software Engineering Processes/Software Release Process.canvas",
