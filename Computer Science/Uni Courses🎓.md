@@ -46,3 +46,8 @@ cssclass: dashboard
 	- [[Philosophy and Ethics]]
 - P6
 	- [[Software Engineering Processes]]
+
+# Year 3
+- P1
+	- [[Equational Programming]]
+	- [[Advanced Network Programming]]
