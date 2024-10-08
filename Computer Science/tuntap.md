@@ -69,40 +69,42 @@ Copyright (C) 1999-2000 Maxim Krasnyansky <max_mk@yahoo.com>
 3. Program interface 
   3.1 Network device allocation:
 
-  char *dev should be the name of the device with a format string (e.g.
+  `char *dev` should be the name of the device with a format string (e.g.
   "tun%d"), but (as far as I can see) this can be any valid network device name.
   Note that the character pointer becomes overwritten with the real device name
   (e.g. "tun0")
 
-  #include <linux/if.h>
-  #include <linux/if_tun.h>
+```c
+#include <linux/if.h>
+#include <linux/if_tun.h>
 
-  int tun_alloc(char *dev)
-  {
-      struct ifreq ifr;
-      int fd, err;
+int tun_alloc(char *dev)
+{
+	struct ifreq ifr;
+	int fd, err;
+	
+	if( (fd = open("/dev/net/tun", O_RDWR)) < 0 )
+		return tun_alloc_old(dev);
 
-      if( (fd = open("/dev/net/tun", O_RDWR)) < 0 )
-         return tun_alloc_old(dev);
-
-      memset(&ifr, 0, sizeof(ifr));
-
-      /* Flags: IFF_TUN   - TUN device (no Ethernet headers) 
-       *        IFF_TAP   - TAP device  
-       *
-       *        IFF_NO_PI - Do not provide packet information  
-       */ 
-      ifr.ifr_flags = IFF_TUN; 
-      if( *dev )
-         strncpy(ifr.ifr_name, dev, IFNAMSIZ);
-
-      if( (err = ioctl(fd, TUNSETIFF, (void *) &ifr)) < 0 ){
-         close(fd);
-         return err;
-      }
-      strcpy(dev, ifr.ifr_name);
-      return fd;
-  }              
+	memset(&ifr, 0, sizeof(ifr));
+	
+	/* Flags: IFF_TUN   - TUN device (no Ethernet headers) 
+	*        IFF_TAP   - TAP device  
+	*
+	*        IFF_NO_PI - Do not provide packet information  
+	*/ 
+	ifr.ifr_flags = IFF_TUN; 
+	if( *dev )
+		strncpy(ifr.ifr_name, dev, IFNAMSIZ);
+	
+	if( (err = ioctl(fd, TUNSETIFF, (void *) &ifr)) < 0 ){
+		close(fd);
+		return err;
+	}
+	strcpy(dev, ifr.ifr_name);
+		return fd;
+	}              
+```
  
   3.2 Frame format:
   If flag IFF_NO_PI is not set each frame format is: 
@@ -118,11 +120,12 @@ Copyright (C) 1999-2000 Maxim Krasnyansky <max_mk@yahoo.com>
   queues, TUNSETIFF with the same device name must be called many times with
   IFF_MULTI_QUEUE flag.
 
-  char *dev should be the name of the device, queues is the number of queues to
+  `char *dev` should be the name of the device, queues is the number of queues to
   be created, fds is used to store and return the file descriptors (queues)
   created to the caller. Each file descriptor were served as the interface of a
   queue which could be accessed by userspace.
 
+```c
   #include <linux/if.h>
   #include <linux/if_tun.h>
 
@@ -161,6 +164,7 @@ Copyright (C) 1999-2000 Maxim Krasnyansky <max_mk@yahoo.com>
           close(fds[i]);
       return err;
   }
+```
 
   A new ioctl(TUNSETQUEUE) were introduced to enable or disable a queue. When
   calling it with IFF_DETACH_QUEUE flag, the queue were disabled. And when
@@ -170,6 +174,7 @@ Copyright (C) 1999-2000 Maxim Krasnyansky <max_mk@yahoo.com>
   fd is the file descriptor (queue) that we want to enable or disable, when
   enable is true we enable it, otherwise we disable it
 
+```c
   #include <linux/if.h>
   #include <linux/if_tun.h>
 
@@ -186,6 +191,7 @@ Copyright (C) 1999-2000 Maxim Krasnyansky <max_mk@yahoo.com>
 
       return ioctl(fd, TUNSETQUEUE, (void *)&ifr);
   }
+```
 
 Universal TUN/TAP device driver Frequently Asked Question.
    

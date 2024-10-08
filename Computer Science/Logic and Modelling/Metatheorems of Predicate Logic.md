@@ -71,7 +71,90 @@ Define $\psi_{n}$ for $n\in \Bbb{N}$ with $n\geq 1$: $$\psi_{n}=\forall x_{1}...
 > 1. $\mathcal{M}\vDash\phi_{n} \quad \Longleftrightarrow \quad A$ has at least $n$ elements (i.e. $\mid A\mid \geq n$)
 > 2. $\mathcal{M}\vDash\psi_{n} \quad \Longleftrightarrow \quad A$ has at most $n$ elements (i.e. $\mid A\mid \leq n$)
 > 3. $\mathcal{M}\vDash\phi_{n}\land \psi_{n} \quad \Longleftrightarrow \quad A$ has precisely $n$ elements (i.e. $\mid A\mid = n$)
+
+> [!definition] Proposition
+> There is a set $\Delta$ of sentences such that for all $\mathcal{M}$: $$\mathcal{M}\vDash\Delta\Longleftrightarrow \mathcal{M}\text{ has an {\color{red}infinite} domain}$$
+> > [!info]- Proof
+> > Let $\Delta=\{\phi_{2},\phi_{3},\phi_{4},...\}$ where $\phi_{n}$ expresses 'at least $n$ values'.
+> > Then it holds for all models $\mathcal{M}$:
+> > $$\begin{align}
+> > \mathcal{M}\vDash \Delta &\Longleftrightarrow \mathcal{M} \vDash \phi_{n} \text{ for al } n\geq 2\\
+> > &\Longleftrightarrow \mathcal{M} \text{ has at least } n \text{ values, for all } n \in N\\
+> > &\Longleftrightarrow \mathcal{M} \text{ has infinitely many values} \\
+> > &\Longleftrightarrow \text{ has an infinite domain}
+> > \end{align}$$
+
+> [!definition] Theorem (Finiteness is Undefinable)
+> There is **no** sentence $\psi$ such that for all $\mathcal{M}$: $$\mathcal{M}\vDash\psi \Longleftrightarrow \mathcal{M} \text{ has a {\color{red}finite} domain}\tag{*} $$
+> > [!info]- Proof
+> > 1. Suppose sentence $\psi$ expresses finiteness in the sense $\eqref{*}$. 
+> >    Consider the set $\Delta=\{\psi\}\cup\{\phi_{2},\phi_{3},\phi_{4},...\}$.
+> > 2. The set $\Delta$ is **inconsistent**.
+> > 3. Yet every finite $\Delta_{0}\subseteq\Delta$ is **consistent**.
+> > 
+> > A set $\Delta$ with 2 and 3 **contradicts** the compactness theorem.
+> > The problem must be assumption 1. Hence there cannot be such a formula $\psi$.
+
+> [!definition] Theorem (Finiteness is Undefinable)
+> There is **no** set of formulas $\Gamma$ such that for all $\mathcal{M}$: $$\mathcal{M}\vDash\Gamma\Longleftrightarrow\mathcal{M}\text{ has a {\color{red}finite} domain}\tag{*}$$
+> > [!info]- Proof
+> > 1. Suppose a set $\Gamma$ expresses finiteness in the sense $\eqref{*}$
+> >    Consider the set $\Delta=\Gamma\cup\{\phi_{2},\phi_{3},\phi_{4},...\}$
+> > 2. The set $\Delta$ is **inconsistent**
+> > 3. Yet every finite $\Delta_{0}\subseteq \Delta$ is **consistent**
+> >
+> > A set $\Delta$ with 2 and 3 contradicts the compactness theorem.
+> > The problem must be assumption 1. Hence there cannot be such a set of formulas $\Gamma$.
+
+> [!Corollary]
+> There is **no** sentence $\psi$ such that for all $\mathcal{M}$: $$\mathcal{M}\vDash\psi\Longleftrightarrow\mathcal{M} \text{ has an {\color{red}infinite} domain}\tag{*}$$
+
 ## Definability and Undefinability Results for Reachability
+We define $R(x,y):x\text{ is child of } y$. We search for formulas $\chi_{n}$ that express reachability in $n$ steps: 
+$$\begin{align}
+&\chi_{0} : u=v\\
+&\chi_{1} : R(u,v) \\
+&\chi_{2} : \exists x_{1}(R(u,x_1)\land R(x_1,v)) \\
+&\chi_{3} : \exists x_1\exists x_2(R(u,x_1)\land R(x_1,x_2)\land R(x_2,v)) \\
+&\;\vdots\qquad\vdots \\
+&\chi_n : \exists x_1\exists x_2 \dots \exists x_{n-1}(R(u,x_1)\land R(x_1,x_2)\land\dots\land R(x_{n-1},v))
+\end{align}$$
+
+We work with constants c,d: we write $\chi(c,d)$ for $\chi[c/u][d/v]$.
+
+> [!definition] Theorem
+> It holds for all models $\mathcal{M}$: $$\mathcal{M} \vDash \chi_n(c,d)\Longleftrightarrow d^{\mathcal{M}} \text{ reachable from } c^{\mathcal{M}} \text{ by } {\color{green}n\; R}^{\mathcal{M}}\text{-steps}$$
+
+> [!definition] Theorem
+> There is **no** sentence $\chi(c,d)$ such that for all $\mathcal{M}$: $$\mathcal{M}\vDash \chi(c,d)\Longleftrightarrow d^{\mathcal{M}} \text{ reachable from } c^{\mathcal{M}} \text{ by } {\color{green}R}^{\mathcal{M}}\text{-steps}\tag{*}$$
+> > [!info]- Proof
+> > 1. Suppose that there exists $\chi(c,d)$ with $\eqref{*}$
+> > 2. Then we consider the set $\Delta$ of formulas: $$\Delta = \{\;\chi(c,d)\;\}\cup\{\;\neg \chi_0(c,d),\neg \chi_1(c,d),\neg \chi_2(c,d),\dots\;\}$$
+> > 3. The set $\Delta$ is **inconsistent**.
+> > 4. Yet every finite $\Delta_0 \subseteq \Delta$ is **consistent**.
+> > 5. A set $\Delta$ of formulas with 3 and 4 contradicts the compactness theorem.
+> > 6. The problem must be assumption 1.
+> >
+> > So we conclude that there cannot be such a formula $\chi$.
+
+> [!definition] Proposition
+> Let *$R$* be a binary relation symbol.
+> 1. In predicate logic, reachability by *$R$*-steps is:
+>   - **not definable** by a sentence
+>   - **not definable** by a set of sentences
+> 2. In predicate logic, unreachability by *$R$*-steps is:
+>   - **not definable** by a sentence
+>   - **definable** by a set of sentences
+
+## Overview
+| Property       | Definable by a sentence | Definable by a set of sentences |
+| -------------- | ----------------------- | ------------------------------- |
+| at least       | ✅                      | ✅                              |
+| at most        | ✅                      | ✅                              |
+| finiteness     | ❌                      | ❌                              |
+| infiniteness   | ❌                      | ✅                              |
+| reachability   | ❌                      | ❌                              |
+| unreachability | ❌                      | ✅                              |
 
 ---
 References:

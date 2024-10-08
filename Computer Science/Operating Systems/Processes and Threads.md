@@ -100,6 +100,8 @@ The interrupt handler continues the execution.
 > 7. C procedure returns to the assembly code
 > 8. Assembly language procedure starts up new current process
 
+^4c1449
+
 If the average process computes only 20% of the time it is sitting in memory, then we can improve the CPU utilization by having more processes.
 ![[CPU utilization as a function of the number of processes in memory.png|500]]
 ## Signal Handling

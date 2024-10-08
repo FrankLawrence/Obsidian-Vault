@@ -8,19 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "49347a54bc0b3cbb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Operating Systems/Input-Output.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
             "id": "1a5448d7789c3fb0",
             "type": "leaf",
             "state": {
@@ -34,12 +21,25 @@
             }
           },
           {
-            "id": "de78d021a3f0b136",
+            "id": "eac5822c067b0a0c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Equational Programming.md",
+                "file": "Computer Science/Lecture 7 Equational Programming.md",
+                "mode": "preview",
+                "backlinks": false,
+                "source": true
+              }
+            }
+          },
+          {
+            "id": "99341d4ff4d8238e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Science/Advanced Network Programming/Advanced Network Programming.md",
                 "mode": "source",
                 "backlinks": false,
                 "source": true
@@ -47,25 +47,12 @@
             }
           },
           {
-            "id": "0e076dc7a7c3e962",
+            "id": "f751d998d324a2fd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Uni Courses🎓.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "921cfb8f9f642555",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Advanced Network Programming.md",
+                "file": "Computer Science/Advanced Network Programming/Network Internals.md",
                 "mode": "preview",
                 "backlinks": false,
                 "source": true
@@ -73,7 +60,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -102,7 +89,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Equivalence Relation",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -141,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Advanced Network Programming.md",
+                "file": "Computer Science/Advanced Network Programming/Network Internals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -158,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Advanced Network Programming.md",
+                "file": "Computer Science/Advanced Network Programming/Network Internals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -181,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Advanced Network Programming.md"
+                "file": "Computer Science/Advanced Network Programming/Network Internals.md"
               }
             }
           },
@@ -226,57 +213,56 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "921cfb8f9f642555",
+  "active": "f751d998d324a2fd",
   "lastOpenFiles": [
-    "Computer Science/tuntap.md",
-    "Computer Science/Advanced Network Programming.md",
-    "Computer Science/Uni Courses🎓.md",
-    "Computer Science/Equational Programming.md",
-    "Computer Science/Lecture 1 Equational Programming.md",
+    "Computer Science/Operating Systems/Processes and Threads.md",
+    "Computer Science/Advanced Network Programming/Network Internals.md",
+    "Computer Science/Advanced Network Programming/Network Internals.md~",
+    "Files/Transferring data between NIC and end-Host.png",
+    "Computer Science/Advanced Network Programming/Advanced Network Programming.md",
+    "Computer Science/Advanced Network Programming/ANP Introduction.md",
+    "Computer Science/Advanced Network Programming/ANP Introduction.md~",
+    "Computer Science/Lecture 7 Equational Programming.md",
+    "Computer Science/Lecture 7 Equational Programming.md~",
     "Interests/Self Hosting/Synology central storage unit.md",
+    "Computer Science/Lecture 6 Equational Programming.md",
+    "Computer Science/Lecture 8 Equational Programming.md",
+    "Computer Science/Equational Programming.md",
+    "Computer Science/Lecture 5 Equational Programming.md",
+    "Computer Science/Lecture 4 Equational Programming.md",
+    "Computer Science/Lecture 3 Equational Programming.md",
+    "Computer Science/Lecture 2 Equational Programming.md",
+    "Computer Science/Equational Programming_1.md",
+    "Computer Science/Equational Programming",
+    "Computer Science/Web Technology/Equational Programming",
+    "Computer Science/Uni Courses🎓.md",
+    "Computer Science/Logic and Modelling/Undecidability and Incompleteness of Predicate Logic.md",
+    "Computer Science/Logic and Modelling/Logic and Modelling.md",
+    "Computer Science/Logic and Modelling/Metatheorems of Predicate Logic.md",
+    "Computer Science/Logic and Modelling/Metatheorems of Predicate Logic.md~",
+    "Computer Science/Logic and Modelling/Modal Logic, Formulas, and Frame Properties.md",
     "Computer Science/Operating Systems/Input-Output.md",
-    "Computer Science/CISCO Networking Basics/CISCO Networking Basics.md",
-    "Computer Science/CISCO Networking Basics/Network Testing Utilities.md",
-    "Computer Science/CISCO Networking Basics/TCP and UDP.md",
-    "Computer Science/CISCO Networking Basics/The ARP Process.md",
-    "Computer Science/CISCO Networking Basics/Routing Between Networks.md",
-    "Computer Science/CISCO Networking Basics/Gateways to Other Networks.md",
-    "Computer Science/CISCO Networking Basics/Dynamic Addressing with DHCP.md",
-    "Computer Science/CISCO Networking Basics/IPv6 Addressing Formats and Rules.md",
-    "Computer Science/CISCO Networking Basics/IPv4 and Network Segmentation.md",
-    "Computer Science/CISCO Networking Basics/Communication Principles.md",
-    "Computer Science/Mentor Program/Mentor Program Lectures.md",
-    "Computer Science/Mentor Program/Promotion text.md",
+    "Computer Science/Operating Systems/Operating Systems.md",
+    "Interests/G/A Damsel in the Desert.md",
+    "Interests/Programming and computers/MathJax Basic Tutorial.md",
+    "Computer Science/Advanced Network Programming/Interdomain Routing.md",
+    "Personal/Present Ideas.md",
+    "Computer Science/Advanced Network Programming",
+    "Files/15836.png",
+    "Files/66707.png",
+    "Files/3965.png",
+    "Files/75865.png",
     "Interests/Self Hosting",
-    "Computer Science/Secure Programming/SP Conservative Programming.md",
-    "Dashboard.md",
-    "Interests/Programming/Missing Semeseter.md",
-    "Interests/Programming and computers/Missing Semeseter.md",
-    "Computer Science/Pervasive Computing/Percom 8 Classification III.md",
-    "Interests/Programming and computers/Vim.md",
-    "Computer Science/Databases/SQL.md",
     "Computer Science/Software Engineering Processes/Diagram of how all the software processes relate.canvas",
     "Computer Science/Software Engineering Processes/Functional testing.canvas",
     "Computer Science/Software Engineering Processes/Software Release Process.canvas",
     "Computer Science/CISCO Networking Basics",
     "Files/SEP2024-Lecture5-git-and-GitHub-and-OpenSource.pdf",
-    "Files/SEP2024-Lecture6-DevOps.pdf",
-    "Files/SEP2024-Lecture7-CI_CD.pdf",
     "Files/CI CD.png",
     "Files/DevOps.png",
-    "Files/SEP2024-Lecture4-Testing.pdf",
-    "Files/SEP2024-Lecture3.pdf",
-    "Files/SEP2024-Lecture2-SCRUM.pdf",
-    "Files/SEP2024-Lecture2-UP.pdf",
     "Files/UP disciplines.png",
     "Files/UP Iterations and Phases.png",
     "Files/Unified Process.png",
-    "Files/Iterative, Incremental, Evolutionary Development.png",
-    "Files/SEP2024-Lecture1.pdf",
-    "Files/Boehm's Spiral Model.jpeg",
-    "Files/56322.png",
-    "Files/57862.png",
-    "Interests/Programming/Pen testing/Port Swigger/SQL commands/Untitled.png",
     "Interests/Programming/Unix Command Reference.canvas",
     "Computer Programming/Secure Programming/Diffie-Hellman Key Exchange.canvas",
     "Computer Programming/Projects/Clinical Trials API.canvas",

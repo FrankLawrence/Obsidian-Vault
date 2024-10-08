@@ -82,9 +82,12 @@ We say that $\mathcal{M}$ is a Kripke model on $\mathcal{F}$.
 > ```mermaid
 > flowchart
 > 	subgraph "Frame"
-> 		 a(( )) --> b(( ))
+> 		 c --> b
+> 		 a --> c
 > 		 b --> c(( ))
+> 		 b --> a
 > 		 c --> a
+> 		 a(( )) --> b(( ))
 > 	end
 > ```
 > - $W = \{\;w_{1},w_{2},w_{3}\;\}$
