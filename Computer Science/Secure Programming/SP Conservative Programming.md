@@ -3,6 +3,7 @@ Tags:
 Created: 2023-10-03 00:28:50
 Links: "[[Secure Programming]]"
 ---
+(Links:: [[Secure Programming]])
 # Handling User Input
 User input is the main attack surface of most programs. Trying weird inputs is the first thing attackers will try. Data retrieved from files/databases previously provided by the user is equally risky. 
 In such cases we can use: [[#Sanitization]], [[#Escaping]], or [[#Authorization]].
@@ -70,7 +71,7 @@ Immediately reject inputs that are not suitable:
 - Each application compartment performs its own sanitization
   - Even when the data was already sanitized on the other end
 
-> [!question] Find the Vulnerabilities
+> [!question]- Find the Vulnerabilities
 > ```c
 > int user_is_allowed(sqlite3 *db, const char *name, const char *pwd){
 >   int found, r;
@@ -128,12 +129,13 @@ Immediately reject inputs that are not suitable:
 - Multiple layers may be needed
   - Example: a string in Javascript used to generate HTML
 
-> [!example] How to Escape Examples
-| Language   | HTML                  | Javascript string                  | URL                 |
-| C#         | `WebUtility.HtmlEncode` | `HttpUtility.JavaScriptStringEncode` | `Uri.EscapeUriString` |
-| Javascript | (use DOM)             | `JSON.stringify`                     | `encodeURI`           |
-| PHP        | `htmlspecialchars`      | `json_encode`                        | `url_encode`          |
-| Python     | `html.escape`           | `json_dumps`                         | `urllib.parse.quote         |
+> [!example]- How to Escape Examples
+> | Language   | HTML                    | Javascript string                    | URL                   |
+> | ---------- | ----------------------- | ------------------------------------ | --------------------- |
+> | C#         | `WebUtility.HtmlEncode` | `HttpUtility.JavaScriptStringEncode` | `Uri.EscapeUriString` |
+> | Javascript | (use DOM)               | `JSON.stringify`                     | `encodeURI`           |
+> | PHP        | `htmlspecialchars`      | `json_encode`                        | `url_encode`          |
+> | Python     | `html.escape`           | `json_dumps`                         | `urllib.parse.quote   |
 
 - SQL injection major security threat due to incorrect escaping
 - Best approach: let database handle it
@@ -351,11 +353,11 @@ mov %eax, -0x4(%rbp)   # store %eax back into memory
 | ----- | ------- | ------- |
 | 0     | read 0  |         |
 | 0     | add 1   |         |
+| 0     |         | read 0  |
 | 0     | store 1 |         |
-| 1     |         | read 1  |
-| 1     |         | add 2   |
-| 1     |         | store 2 |
-| 2     |         |         |
+| 1     |         | add 1   |
+| 1     |         | store 1 |
+| 1     |         |         |
 
 - Always verify whether system is in expected state before executing command, and fail if it is not
 	- Example: do not edit current record with no record selected
@@ -396,7 +398,321 @@ mov %eax, -0x4(%rbp)   # store %eax back into memory
   ```
 - Some languages actively encourage bad programmers
   `On Error Resume Next`
+## Reporting Errors
+- Functions report errors by
+	- Return value (C,PHP, UNIX API, Windows API)
+	- Exception (C++, C#, Java, Javascript, Python)
+	- Error code in memory (many third-party libraries)
+## Handling Error Return Codes
+- Traditionally, return code indicates errors
+	- Pointer NULL for C standard library
+	- Integer -1 for UNIX API
+	- Boolean FALSE for Windows API
+- Handling errors is hard
+	- Remember to always check for errors
+	- The number of error handling paths grows quickly with number of calls that may fail
+	- Each path introduces possibility of incorrect cleanup
+
+> [!example]- Getting a Password from the Database
+> ```c
+> int get_pwd(const char *dpath, const char *name, char **pwd_p) { 
+> 	sqlite3 *db;  
+> 	const char *sql;  
+> 	sqlite3_stmt *stmt;
+> 	/* open database */
+> 	sqlite3_open(dbpath, &db); /* prepare query */  
+> 	sql = "SELECT pwd FROM user "
+> 	  "WHERE name = @name";
+> 	sqlite3_prepare_v2(db, sql, -1, &stmt, NULL);
+> 	sqlite3_bind_text(stmt, 1, name,-1,SQLITE_STATIC); /* execute query */  
+> 	switch (sqlite3_step(stmt)) { 
+> 		case SQLITE_DONE: /* no data */
+> 		  *pwd_p = NULL;
+> 		  break;
+> 		case SQLITE_ROW: /* data found */
+> 			*pwd_p = (char *)
+> 			sqlite3_column_text(stmt, 0);
+> 			break;
+> 	}
+> 	/* clean up */
+> 	sqlite3_finalize(stmt);
+> 	sqlite3_close(stmt);
+> }
+> int main(int argc, char** argv) {
+> 	char *pwd;
+> 	get_pwd("test.db", "erik", &pwd);
+> 	printf("pwd: %s\n", pwd);
+> 	return 0;
+> }
+> ```
+> Error handling needed
+> - Report to user
+> - Clean up
+> - Abort operation
+
+> [!warning] Handling Errors comes with drawbacks
+> - 6x as many statements
+> - It gets worse as more resources are allocated
+> - And we still ignore finalize and close errors
+> 
+> > [!info] The dreaded `goto` to the rescue!
+> > - Amount of code no longer grows dramatically with number of calls
+> > - Initialization is now critical: Label `cleanup` can be reached through multiple paths
+> > 
+> > > [!example]-
+> > > ```c
+> > > int get_pwd(const char *dbpath,
+> > > 	const char *name, char **pwd_p) {
+> > > 	sqlite3 *db = NULL;
+> > > 	int r = SQLITE_OK;
+> > > 	sqlite3_stmt *stmt = NULL;
+> > > 	/* ... */
+> > > 	r = sqlite3_bind_text(stmt, 1, name, -1, SQLITE_STATIC);
+> > > 	if (r != SQLITE_OK) goto cleanup;
+> > > cleanup:
+> > > 	if (r != SQLITE_OK)
+> > > 	  fprintf(stderr, "database error: %s\n", sqlite3_errmsg(db));
+> > > 	if (stmt) sqlite3_finalize(stmt);
+> > > 	if (db) sqlite3_close(db);
+> > > 	return (r == SQLITE_OK) ? 0 : -1;
+> > > }
+> > > ```
+
+We can also separate code into smaller functions which: improves readability, and each function has less resources to worry about. Usually 0 indicates a *success* and -1 indicates an *error*.
+## Reference Parameters
+```c
+*pwd_p = (char *)sqlite3_column_text(stmt, 0);
+```
+In this code, when `sqlite3_finalize` is called, `pwd_p` becomes a **dangling pointer**. Using `strdup()` the *caller* becomes the owner and must free `pwd`.
+```c
+*pwd_p = strdup((char *)sqlite3_column_text(stmt, 0));
+```
+Pass by reference is also unsafe, since the value can freed in the callee's code and freed again in the callers code.
+> [!important] Always initialize a reference parameter
+> ```c
+> *pwd_p = NULL;
+> ```
+
+Initialization at start of function prevents uninitialized values in case function fails before assigning reference parameter. Now `main` can always safely free the pointer.
+> [!example] C++ can do cleanup automatically
+> ```cpp
+> class Database {
+> 	public:
+> 		int open(const char *dbpath) {
+> 		    int r = sqlite3_open(dbpath, &conn);
+> 		    if (r != SQLITE_OK) {
+> 			    fprintf(stderr, "open database %s failed: %s\n",
+> 					dbpath, sqlite3_errmsg(conn));
+> 			    return -1;
+> 			}
+> 		return 0;
+> 		}
+> 	~Database() {
+> 		if (conn) sqlite3_close(conn);
+> 	}
+> 	sqlite3 *conn = NULL;
+> };
+> int get_pwd(const char *dbpath, const char *name, char **pwd_p) {
+> 	Database db;
+> 	if (db.open(dbpath) != 0) return -1;
+> 	/* ... */
+> 	return 0;
+> }
+> ```
+> - Any return from `get_pwd` automatically calls destructor
+> - This is known as *Resource Acquisition Is Initialization* (RAII)
+> - Usually constructor opens, but it cannot return error code
+
+## Exceptions
+Exceptions provide a better alternative in most languages. Whenever an exception is thrown, execution continues at the exception handler of the most recent open try block.
+- Code between exception throw and exception handler is skipped
+- try blocks also allow to catch *specific* exceptions
+
+> [!warning] Code can be skipped: account for cleanup!
+
+> [!example]+
+> 
+> ```cpp
+> class ExceptionA : public std::exception
+> {};
+> class ExceptionB : public std::exception
+> {};
+> 
+> void func2() {
+> 	try {
+> 		std::cout << "func2-A\n"; 
+> 		throw ExceptionA(); 
+> 		std::cout << "func2-B\n";
+> 	} catch(const ExceptionB &e) {
+> 	    std::cout << "func2-C\n";
+> 	}
+> }
+> void func1() {
+>   std::cout << "func1-A\n";
+>   func2();
+>   std::cout << "func1-B\n";
+> }
+> 
+> int main(int argc, char **argv) { 
+> 	try {
+> 	    std::cout << "main-A\n";
+> 	    func1();
+> 	    std::cout << "main-B\n";
+> 	} catch(const std::exception &e) {
+> 	    std::cout << "main-C\n";
+> 	}
+> }
+> ```
+> > [!question]- What gets printed?
+> > ```
+> > main-A
+> > func1-A
+> > func2-A
+> > main-C
+> > ```
+
+Attackers love errors messages; segmentation fault, 500 internal server error,... are usually a sign that there may be a vulnerability. 
 # Memory Management
+Programmers are often tasked with:
+1. Allocating right amounts of memory
+2. Avoiding reading or writing past allocation boundaries
+3. Initializing memory before reading it
+4. Reading data from memory with the same type as it was written
+5. Deallocating in time to avoid memory leaks
+6. Ensuring memory is not used after deallocation
+
+> [!info]+ Types of Memory
+> # Global Memory
+> - Used for global and static variables
+> - Allocated by linker for lifetime of program
+> - No manual management needed
+> 
+> # Stack Memory
+> - Used for local non-static variables
+> - Allocated by the compiler for lifetime of function
+> - No manual management needed
+> 
+> # Heap Memory
+> - Used for dynamic memory allocations
+> - Allocated explicitly with `malloc` (and friends) and `new`
+> - Programmer must ensure size and lifetime matches needs
+
+> [!example]- Allocating Memory
+> ```c
+> struct data {
+> 	char a;    // 1 byte
+> 	long b;    // 8 bytes
+> 	short c;   // 2 bytes
+> 	int d;     // 4 bytes
+> }
+> sizeof(struct data) // 24 bytes
+> ```
+> ```
+> |0|1|2|3|4|5|6|7||0|1|2|3|4|5|6|7||0|1|2|3|4|5|6|7|
+> |a|             ||       b       || c |   |   d   |
+> ```
+
+The main issue is having to allocate enough and the right amount of space for data. This it is **advised** to use the stack over the heap (e.g. in c++ use `new`). **Don't** use fixed size numbers to `malloc` but use `sizeof`! Don't forget to check the return value of `malloc`.
+## Respecting Object Bounds
+- some functions ignore boundaries: `strcpy` copies until null terminator
+- `strncpy` requires size of destination buffer: `strncpy(buf, argv[1], sizeof(buf));`
+	- does not copy null terminator if there is no space
+- `snprintf` does secure string formatting and always writes a null terminator -> string *shortened* if too long
+- `strdup` allocates flexible amount of memory on the heap -> must be *freed*
+
+> [!warning] Avoid functions with no boundary checks!
+> Example: `strcpy`, `strcat`, `gets`, `sprintf`
+> Replacements: `strncpy`, `strncat`, `fgets`, `snprintf`
+## Memory Initialization
+
+> [!question]- Find the Bug
+> ```c
+> void example(int authenticated, const char *auth_username) {
+> 	char username[256];  
+> 	if (authenticated)
+> 	    strncpy(username, auth_username, sizeof(username));
+> 	/* ... */  
+> 	if (strlen(username) > 0)
+> 	    perform_operation_for(username);
+> }
+> ```
+> > [!info]- Solution
+> > - `username` is not always initialized; program works fine if the first byte happens to be 0
+> > - Attacker may be able to make the program initialize this stack location in an earlier function call, forcing `username` to a chosen value
+
+Often variables such as `char *buf[256]` are not initialized, and if *not written to*, can be used to leak information or corrupt memory. We differentiate these types:
+1. Global memory automatically initialized to zero (if not specified)
+2. Stack memory not automatically initialized
+3. Heap memory not initialized by `malloc`, but `calloc` does
+
+> [!tip] Initialize everything at *allocation time*
+
+> [!question]- Find the Bug
+> ```cpp
+> class ClassA { };
+> class ClassB : public ClassA { public: int value; };
+> class ClassC : public ClassA { public: char *value; };
+> 
+> void foo(ClassA *obj) {
+> 	ClassC *objC = static_cast<ClassC*>(obj);
+> 	const char *str = objC ? objC->value : "no string";
+> 	std:cout << str << "\n";
+> }
+> void bar(int uservalue) {
+> 	ClassB obj;
+> 	obj.value = uservalue;
+> 	foo(&obj);
+> }
+> ```
+> > [!info]- Solution
+> > An attacker can specify an integer that will be used as a pointer!
+
+A memory access is **type-unsafe** if the value is read as another type than it was written (occurs often with incorrect type conversion/casting) -> **Avoid casts if possible**.
+## Object Lifetime
+
+> [!example]- Freeing memory at wrong time
+> ```c
+> char *str = strdup(argv[1]);
+> printf("%s\n", str);
+> //pointer goes out of scope
+> ```
+> ```c
+> char *str = strdup(argv[1]);
+> free(str);
+> printf("%s\n", str);
+> ```
+
+These types of bugs usually cause **Memory Leaks** and [[User-after-free Vulnerability]] (UAF). They occur often in heap memory, however UAF is only applicable in stack memory, and it is not found in global memory.
+- Use stack allocations (fixed size)
+- Never return pointer to stack variable, and never store it in data structure that survives function
+- After `free` set variable to `NULL`
+### Smart Pointers in C++
+- `std::unique_ptr`
+	- Prevents copying pointer
+	- Frees object when pointer lifetime ends  
+	- Full protection against UAF and mem leaks, but not always possible
+- `std::shared_ptr`
+	- Keeps track of number of copies of pointer  
+	- Frees object when no more copies of pointer exist 
+	- Full protection against UAF  
+	- Memory leaks possible with circular references
+## Integer Overflows
+- Can be used to bypass checks or overflow buffers
+- Signed integers: result is officially undefined
+	- In practice on most CPUs (including x86) it is still mod 2n, but now half of the possible numbers are negative
+	- Therefore INT_MAX+1 == INT_MIN and INT_MIN–1 == INT_MAX
+	- Note that INT_MAX=2n-1-1 (0x7fffffff) and INT_MIN=-2n-1 (-0x80000000)
+- Mitigation:
+	- Think about possible inputs
+	- Choose types based on these ranges
+	- Verify whether each input is in range before converting/storing it
+- The right integer type must follow the following rules
+	- Fits the full expected range
+	- Is ideally the same between values used together in computations
+	- Is ideally signed if you perform any subtractions or check before
+	- May be larger than strictly required (overhead usually minimal)
+- Use safe/efficient [overflow checks](https://gcc.gnu.org/onlinedocs/gcc/Integer-Overflow-Builtins.html) in C/C++
+
 
 ---
 References:

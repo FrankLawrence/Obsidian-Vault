@@ -3,6 +3,7 @@ Tags:
 Created: 2023-10-03 00:28:36
 Links: "[[Secure Programming]]"
 ---
+(Links:: [[Secure Programming]])
 # Introduction
 Cryptography allows two people to communicate securely without anyone intercepting or modifying the messages. Cryptography tries to prevail confidentiality, integrity, authentication and non-repudiation (denying something you sent).
 ## Terminology
@@ -20,6 +21,25 @@ To prevent anyone from denying that they signed something, we must use **asymmet
 Hash functions map a message to a hash. These hash algorithms are designed so that the original message is really hard to find out (**hard to reverse**). This also makes it really hard to **create another message** with the same hash.
 
 Cryptographic algorithms require unpredictable numbers for key generation. It is common knowledge however that computers cannot create truly random numbers since CPU's are deterministic. Instead we must use cryptographically secure pseudo-random number generators (PRNG). The pseudo-random number is created from a seed such as the date and time.
+### Hash Properties
+- Pre-image resistance
+	- Given a hash $h$, it is hard to find message $m$ such that $hash(m)=h$
+	- Prevents attacker from reversing hash
+- Second Pre-image resistance
+	- Given a message $m_{1}$, it is hard to find another message $m_{2}$ such that $hash(m_{1})=hash(m_{2})$
+	- Prevents attacker from creating a message with same signature as a signed message
+- Collision resistance
+	- It is hard to find two different messages $m_{1}$ and $m_{2}$ such that $hash(m_{1})=hash(m_{2})$
+	- Prevents attacker from having a message signed and then replacing it with another message with the same signature
+### Length Extension Attacks
+- Hash algorithms work like this
+	- Loop over blocks of input data
+	- Each block is used to modify internal state
+	- Hash derived from internal state at the end
+- If we know internal state at the end, we can add more data
+	- Compute hash of extended input
+- Some hash algorithms allow attacker to guess final internal state from the hash
+	- We can get hash of extended input without knowing the original
 # Symmetric Cryptography
 Symmetric Cryptography uses a **single key** to encrypt plaintext and decrypt cipher text. It protects confidentiality and with symmetric signatures it provides integrity and authentication.
 A type of cipher called the block cipher divides the data into blocks and maps each plaintext block to a cipher block. This is commonly known as Electronic Codebook (ECB). It however allows an attacker to reorder blocks and in most cases reveals repetitions, since the same plaintext transforms to the same cipher text.
@@ -105,6 +125,7 @@ int main(int argc, char **argv) {
 	} 
 ```
 
+## RSA signing in OpenSSL
 RSA is not only used for encryption, but can also be used to digitally sign messages:
 1. Alice computes $hash(m)$. 
 2. She encrypts it with her private key $d$. 
@@ -116,7 +137,6 @@ Bob then has to verify the signature:
 3. Bob computes $E_{e}(E_{d}(hash(m)))$
 4. If the two are equal, signature is correct
 
-## RSA signing in OpenSSL
 ### Signing
 ```c
 #include <openssl/evp.h>
@@ -200,7 +220,7 @@ These files contain:
 
 When Bob creates a certificate signing request, the CA will verify Bob's identity and give in return a certificate and sign it with it's private key. Bob can now use the certificate to prove the public key is his.
 
-Anyone eavesdropping on communication can read [[HTTP]]. This is desirable for private information like passwords and online banking. **Secure Sockets Layer** (SSL) ensures cryptographic protection for a network connection on top of [[TCP]]. Any TCP protocol can be modified to run on top of SSL (ex: HTTPS). 
+Anyone eavesdropping on communication can read [[HTTP]]. This is desirable for private information like passwords and online banking. [[Secure Sockets Layer]] (SSL) ensures cryptographic protection for a network connection on top of [[TCP]]. Any TCP protocol can be modified to run on top of SSL (ex: HTTPS). 
 
 ## SSL in OpenSSL
 ### Client
@@ -240,7 +260,7 @@ int fd, const char *pathkey, const char *pathcert) {
 ```
 
 # [[Blockchain]]
-[[BitCoin]] is a decentralized digital currency. People can transfer money directly to others without involving banks. It is based on the **blockchain**, where each block of transactions contains a **hash of the previous block**. Thus you cannot change past transactions without changing the later ones. With more users, the 'real' chain will be that one with >50% of users. That's why you would need an insane amount of computing power (at least 505 of the network) to cheat.
+[[BitCoin]] is a decentralized digital currency. People can transfer money directly to others without involving banks. It is based on the **blockchain**, where each block of transactions contains a **hash of the previous block**. Thus you cannot change past transactions without changing the later ones. With more users, the 'real' chain will be that one with >50% of users. That's why you would need an insane amount of computing power (at least 50% of the network) to cheat.
 
 Blockchain is widely proposed for other uses aswell: Especially smart contracts (basically computer programs), Timestamping and also to achieve random other security goals.
 

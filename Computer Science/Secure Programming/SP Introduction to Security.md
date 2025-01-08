@@ -3,6 +3,7 @@ Tags:
 Created: 2023-10-02 02:06:41
 Links: "[[Secure Programming]]"
 ---
+(Links:: [[Secure Programming]])
 # What is security according to ISO?
 **Information security** follow three rules specified by the [[CIA Security Triad]]: Preservation of confidentiality, integrity, and availability of information
 ## What is security in practice? 

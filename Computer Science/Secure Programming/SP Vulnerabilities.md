@@ -3,8 +3,24 @@ Tags:
 Created: 2023-10-02 17:23:25
 Links: "[[Secure Programming]]"
 ---
+(Links:: [[Secure Programming]])
 # What can go wrong?
-There exists three types of memory: local variables on the [[Stack]], heap memory allocated by programmer, and global memory used for storing global and static variables.
+There exists three types of memory: local variables on the [[Stack]], heap memory allocated by programmer, and global memory used for storing global and static variables. On the stack we store
+- function parameters
+- local variables
+- return address - where to continue after return
+- frame pointer - where is caller's stack frame
+- other temporary storage needed by compiler
+```c
+int global1 = 42;
+void func(void) {
+    static int global2 = 42;
+    int stack = 42;
+	int *heap = malloc(sizeof(int));
+	*heap = 42;
+}
+```
+- **careful**: heap is stored on the stack
 
 If values are stored on the stack in an uncontrolled manner (such as when saving too much information in a buffer), the return address or frame pointer can be overwritten. It is the programmer's responsibility to check for *array bounds*. Attacker's can take advantage of this and return to a different memory location.
 # Terminology
@@ -50,7 +66,7 @@ print($data);
 ## Injection Vulnerabilities
 Programs are designed to build code that can be executed. Some times, this code can come from an input field. If the input isn't carefully sanitized, then an attacker could write the code.
 ## Race Conditions
-Race conditions are situations where the timing of events makes a difference in the outcome. The time-of-check-to-time-of-use vulnerability is typical:
+Race conditions are situations where the timing of events makes a difference in the outcome. The time-of-check-to-time-of-use (TOCTTOU) vulnerability is typical:
 ```python
 if(access(path, R_OK) == 0) {
 	print_file(path);
@@ -79,6 +95,12 @@ Unaware users are probably the biggest vulnerability in existence. Since your sy
 - weak passwords
 
 Users are ready to ignore security warnings/policies if it is more inconvenient to them. They have especially poor awareness of trustworthiness of information if they are in a hurry. *Users believe anything they see*.
+# Questions
+error = Stackoverflow
+fault & vulnerability = missing size check
+exploit = 65 or more characters & FILENO at least 65
+impact = arbitrary code execution with privilege escalation
+fix it = add bound check
 
 ---
 References:

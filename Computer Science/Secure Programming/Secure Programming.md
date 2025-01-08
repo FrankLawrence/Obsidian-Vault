@@ -21,7 +21,6 @@ aliases:
 - [[SP Exploitation]]
 - [[SP Defenses]]
 - [[SP Web Security]]
-- [[SP Git basics]]
 - [[SP Assembly]]
 ## Lectures
 ## Extras
