@@ -4,63 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "40916b82d97fd6f2",
+        "id": "f8f02d911bd725f3",
         "type": "tabs",
         "children": [
           {
-            "id": "1a5448d7789c3fb0",
+            "id": "e4aae391ffa87959",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Interests/Self Hosting/Synology central storage unit.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "eac5822c067b0a0c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Lecture 7 Equational Programming.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "99341d4ff4d8238e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Advanced Network Programming/Advanced Network Programming.md",
-                "mode": "source",
-                "backlinks": false,
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "f751d998d324a2fd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Advanced Network Programming/Network Internals.md",
-                "mode": "preview",
-                "backlinks": false,
-                "source": true
-              }
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -80,7 +37,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -89,13 +48,15 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Equivalence Relation",
-                "matchingCase": false,
+                "query": "",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -103,16 +64,16 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "4cb2d27869f02707",
@@ -128,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Advanced Network Programming/Network Internals.md",
+                "file": "Computer Science/Mentor Program/Promotion text.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -136,7 +97,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Promotion text"
             }
           },
           {
@@ -145,10 +108,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Advanced Network Programming/Network Internals.md",
+                "file": "Computer Science/Mentor Program/Promotion text.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Promotion text"
             }
           },
           {
@@ -159,7 +124,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -168,8 +135,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Advanced Network Programming/Network Internals.md"
-              }
+                "file": "Computer Science/Secure Programming/SP Secure Design.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of SP Secure Design"
             }
           },
           {
@@ -177,7 +146,9 @@
             "type": "leaf",
             "state": {
               "type": "calendar",
-              "state": {}
+              "state": {},
+              "icon": "calendar-with-checkmark",
+              "title": "Calendar"
             }
           },
           {
@@ -185,11 +156,12 @@
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
-              "state": {}
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
@@ -213,56 +185,57 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "f751d998d324a2fd",
+  "active": "e4aae391ffa87959",
   "lastOpenFiles": [
-    "Computer Science/Operating Systems/Processes and Threads.md",
-    "Computer Science/Advanced Network Programming/Network Internals.md",
+    "Computer Science/Mentor Program/Promotion text.md",
+    "Computer Science/Equational Programming/Exam Prep EP.md",
+    "Computer Science/Tcpdump Tutorial.md",
+    "ICMP.md",
+    "Computer Science/Advanced Network Programming/tuntap.md",
+    "Computer Science/Concurrency and Multithreading/The Art of Multiprocessor Programming Exercises.md",
+    "Computer Science/Concurrency and Multithreading/Queue Locks.md",
+    "Computer Science/Concurrency and Multithreading/Monitors and Barriers.md",
+    "Computer Science/Concurrency and Multithreading/Mutual Exclusion.md",
+    "Computer Science/Advanced Network Programming/SKB.md",
+    "Computer Science/Advanced Network Programming/Project README.md",
+    "Computer Science/Concurrency and Multithreading/Consensus.md",
+    "Computer Science/Definitions/False Sharing.md",
+    "Computer Science/Equational Programming/Equational Programming.md",
+    "Computer Science/Concurrency and Multithreading",
+    "Computer Science/Advanced Network Programming/ANP SUB.md",
+    "Cooking and Baking/Kung Pao Chicken.md",
+    "Cooking and Baking/Spicy Sausage Rice.md",
+    "Cooking and Baking/Burrito.md",
+    "Cooking and Baking/Pad See Ew.md",
+    "Personal/Present Ideas.md",
+    "Cooking and Baking/Tiramisu.md",
+    "Cooking and Baking/Tikki Masala.md",
+    "Cooking and Baking/Honey Sriracha Chicken.md",
+    "Cooking and Baking/Beef Stir Fry.md",
+    "Interests/Hardware.md",
+    "Inte.md",
+    "Files/CORS php example.png",
+    "Files/49939.png",
+    "Files/37684.png",
+    "Files/27667.png",
+    "Files/96311.png",
+    "Files/89568.png",
+    "Files/38368.png",
+    "Files/81315.png",
+    "Files/81488.png",
+    "Files/16388.png",
+    "Files/Congestion Control.svg~",
+    "Files/Congestion.svg~",
+    "Files/Congestion Control export.svg~",
     "Computer Science/Advanced Network Programming/Network Internals.md~",
-    "Files/Transferring data between NIC and end-Host.png",
-    "Computer Science/Advanced Network Programming/Advanced Network Programming.md",
-    "Computer Science/Advanced Network Programming/ANP Introduction.md",
     "Computer Science/Advanced Network Programming/ANP Introduction.md~",
-    "Computer Science/Lecture 7 Equational Programming.md",
     "Computer Science/Lecture 7 Equational Programming.md~",
-    "Interests/Self Hosting/Synology central storage unit.md",
-    "Computer Science/Lecture 6 Equational Programming.md",
-    "Computer Science/Lecture 8 Equational Programming.md",
-    "Computer Science/Equational Programming.md",
-    "Computer Science/Lecture 5 Equational Programming.md",
-    "Computer Science/Lecture 4 Equational Programming.md",
-    "Computer Science/Lecture 3 Equational Programming.md",
-    "Computer Science/Lecture 2 Equational Programming.md",
-    "Computer Science/Equational Programming_1.md",
     "Computer Science/Equational Programming",
     "Computer Science/Web Technology/Equational Programming",
-    "Computer Science/Uni Courses🎓.md",
-    "Computer Science/Logic and Modelling/Undecidability and Incompleteness of Predicate Logic.md",
-    "Computer Science/Logic and Modelling/Logic and Modelling.md",
-    "Computer Science/Logic and Modelling/Metatheorems of Predicate Logic.md",
     "Computer Science/Logic and Modelling/Metatheorems of Predicate Logic.md~",
-    "Computer Science/Logic and Modelling/Modal Logic, Formulas, and Frame Properties.md",
-    "Computer Science/Operating Systems/Input-Output.md",
-    "Computer Science/Operating Systems/Operating Systems.md",
-    "Interests/G/A Damsel in the Desert.md",
-    "Interests/Programming and computers/MathJax Basic Tutorial.md",
-    "Computer Science/Advanced Network Programming/Interdomain Routing.md",
-    "Personal/Present Ideas.md",
-    "Computer Science/Advanced Network Programming",
-    "Files/15836.png",
-    "Files/66707.png",
-    "Files/3965.png",
-    "Files/75865.png",
-    "Interests/Self Hosting",
     "Computer Science/Software Engineering Processes/Diagram of how all the software processes relate.canvas",
     "Computer Science/Software Engineering Processes/Functional testing.canvas",
     "Computer Science/Software Engineering Processes/Software Release Process.canvas",
-    "Computer Science/CISCO Networking Basics",
-    "Files/SEP2024-Lecture5-git-and-GitHub-and-OpenSource.pdf",
-    "Files/CI CD.png",
-    "Files/DevOps.png",
-    "Files/UP disciplines.png",
-    "Files/UP Iterations and Phases.png",
-    "Files/Unified Process.png",
     "Interests/Programming/Unix Command Reference.canvas",
     "Computer Programming/Secure Programming/Diffie-Hellman Key Exchange.canvas",
     "Computer Programming/Projects/Clinical Trials API.canvas",

@@ -6,13 +6,14 @@
   "interfaceFontFamily": "",
   "textFontFamily": "Fira Code,Roboto Mono,Source Code Pro",
   "monospaceFontFamily": "FiraCode Nerd Font",
-  "accentColor": "#c4a7e7",
+  "accentColor": "#eb6f92",
   "showViewHeader": true,
   "nativeMenus": false,
   "enabledCssSnippets": [
     "dashboard",
-    "infobox",
     "big-math",
+    "remove-left-border-embed",
+    "infobox",
     "centerImages"
   ]
 }

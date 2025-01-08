@@ -7,7 +7,7 @@
   "shiba-theme-settings@@shiba-accent-colors": "accent-orange",
   "minimal-style@@zoom-off": false,
   "minimal-style@@tabs-style": "tabs-underline",
-  "minimal-advanced@@cursor": "default",
+  "minimal-advanced@@cursor": "crosshair",
   "minimal-style@@workspace-background-translucent@@light": "#E5FF0400",
   "minimal-style@@window-title-off": false,
   "minimal-style@@embed-strict": false,

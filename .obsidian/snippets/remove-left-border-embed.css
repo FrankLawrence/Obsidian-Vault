@@ -1,0 +1,15 @@
+/* Remove the left border from embedded Markdown files */
+.svg-embed .markdown-embed {
+    border-inline-start: none; /* Remove left border */
+    width: 600px;
+    margin: auto;
+}
+.workspace .markdown-preview-view .markdown-embed {
+    margin: auto;
+}
+
+
+.markdown-embed-title {
+    display: none; /* Hides the title element */
+}
+
