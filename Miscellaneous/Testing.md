@@ -1,6 +1,7 @@
 ---
 cssclasses:
   - infobox
+  - remove-left-border
 ---
 > [!infobox]
 > ![[A serial interface.png]]
@@ -25,3 +26,5 @@ Sint laborum sint magna occaecat minim velit Lorem labore enim esse commodo. Rep
 Qui anim officia duis irure consequat dolor ea id excepteur occaecat culpa sunt sit ad exercitation. Non anim officia nulla aliquip et laboris occaecat exercitation laboris. Mollit esse duis incididunt culpa ex quis deserunt culpa culpa magna amet consectetur sit. Dolor voluptate ut do officia cillum ad anim laborum esse. Enim voluptate irure eu officia commodo minim commodo ex nisi. Cupidatat deserunt duis nulla quis reprehenderit esse esse duis culpa consequat deserunt. Ut voluptate culpa esse in laborum ad ad anim sint dolore sunt reprehenderit et. Commodo officia nostrud dolore ex laboris dolor sint.
 
 Magna commodo sit deserunt deserunt do dolor. Eu voluptate ullamco ipsum duis exercitation. Adipisicing excepteur esse dolore. Consequat aliqua quis anim in do elit tempor sint. Enim non aliqua dolor dolore et. Officia sint eu voluptate deserunt anim cillum elit elit ex ad.
+
+![[Files/Congestion control]]

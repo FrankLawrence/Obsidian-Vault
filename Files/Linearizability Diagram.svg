@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="182.56723mm"
+   height="86.552834mm"
+   viewBox="0 0 182.56723 86.552834"
+   version="1.1"
+   id="svg1"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="ArrowWideHeavy"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:context-stroke;fill-rule:evenodd;stroke:none"
+         d="m 1,0 -3,3 h -2 l 3,-3 -3,-3 h 2 z"
+         id="path3" />
+    </marker>
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-2.9322842,-26.501952)">
+    <path
+       style="fill:none;stroke:#31748f;stroke-width:1.83402;stroke-linecap:round;stroke-dasharray:none;marker-end:url(#ArrowWideHeavy)"
+       d="M 18.628392,93.954731 H 183.6655"
+       id="path1" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:none;stroke:#31748f;stroke-width:1.796;stroke-linecap:round;stroke-dasharray:none"
+       x="90.071274"
+       y="104.64301"
+       id="text1"><tspan
+         id="tspan1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#31748f;stroke:none;stroke-width:1.796"
+         x="90.071274"
+         y="104.64301">Time</tspan></text>
+    <rect
+       style="fill:#eb6f92;stroke:none;stroke-width:1.796;stroke-linecap:round;stroke-dasharray:none"
+       id="rect2"
+       width="40.17054"
+       height="13.007604"
+       x="28.310669"
+       y="33.666737"
+       ry="2.5999334" />
+    <rect
+       style="fill:#eb6f92;stroke:none;stroke-width:1.796;stroke-linecap:round;stroke-dasharray:none"
+       id="rect2-4"
+       width="40.17054"
+       height="13.007604"
+       x="55.5625"
+       y="60.325001"
+       ry="2.5999334" />
+    <rect
+       style="fill:#eb6f92;stroke:none;stroke-width:1.796;stroke-linecap:round;stroke-dasharray:none"
+       id="rect2-4-2"
+       width="40.17054"
+       height="13.007604"
+       x="110.02415"
+       y="60.325001"
+       ry="2.5999334" />
+    <rect
+       style="fill:#eb6f92;stroke:none;stroke-width:1.796;stroke-linecap:round;stroke-dasharray:none"
+       id="rect2-4-1"
+       width="40.17054"
+       height="13.007604"
+       x="134.16539"
+       y="33.666737"
+       ry="2.5999334" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#eb6f92;stroke:none;stroke-width:1.796;stroke-linecap:round;stroke-dasharray:none"
+       x="2.9694912"
+       y="44.799713"
+       id="text2"><tspan
+         id="tspan2"
+         style="stroke-width:1.796"
+         x="2.9694912"
+         y="44.799713">T1</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:12.7px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#eb6f92;stroke:none;stroke-width:1.796;stroke-linecap:round;stroke-dasharray:none"
+       x="2.6780362"
+       y="71.332878"
+       id="text2-1"><tspan
+         id="tspan2-5"
+         style="stroke-width:1.796"
+         x="2.6780362"
+         y="71.332878">T2</tspan></text>
+    <path
+       style="fill:#eb6f92;stroke:#c4a7e7;stroke-width:4;stroke-linecap:round;stroke-dasharray:none"
+       d="m 38.257657,28.501953 v 23.33717"
+       id="path2" />
+    <path
+       style="fill:#eb6f92;stroke:#c4a7e7;stroke-width:4;stroke-linecap:round;stroke-dasharray:none"
+       d="m 84.558432,55.160218 v 23.33717"
+       id="path2-4" />
+    <path
+       style="fill:#eb6f92;stroke:#c4a7e7;stroke-width:4;stroke-linecap:round;stroke-dasharray:none"
+       d="M 121.32708,54.3875 V 77.72467"
+       id="path2-4-9" />
+    <path
+       style="fill:#eb6f92;stroke:#c4a7e7;stroke-width:4;stroke-linecap:round;stroke-dasharray:none"
+       d="m 162.62421,28.501953 v 23.33717"
+       id="path2-4-5" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.76111px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#eb6f92;stroke:#c4a7e7;stroke-width:4;stroke-linecap:round;stroke-dasharray:none"
+       x="31.698938"
+       y="42.338192"
+       id="text3"><tspan
+         id="tspan3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.76111px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#191724;stroke:none;stroke-width:4"
+         x="31.698938"
+         y="42.338192">q.enq(x)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.76111px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#eb6f92;stroke:#c4a7e7;stroke-width:4;stroke-linecap:round;stroke-dasharray:none"
+       x="58.950771"
+       y="68.99646"
+       id="text3-9"><tspan
+         id="tspan3-4"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.76111px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#191724;stroke:none;stroke-width:4"
+         x="58.950771"
+         y="68.99646">q.enq(y)</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.76111px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#eb6f92;stroke:#c4a7e7;stroke-width:4;stroke-linecap:round;stroke-dasharray:none"
+       x="113.41242"
+       y="68.99646"
+       id="text3-9-5"><tspan
+         id="tspan3-4-6"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.76111px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#191724;stroke:none;stroke-width:4"
+         x="113.41242"
+         y="68.99646">q.deq()x</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.76111px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#eb6f92;stroke:#c4a7e7;stroke-width:4;stroke-linecap:round;stroke-dasharray:none"
+       x="137.55367"
+       y="42.338192"
+       id="text3-9-5-0"><tspan
+         id="tspan3-4-6-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.76111px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#191724;stroke:none;stroke-width:4"
+         x="137.55367"
+         y="42.338192">q.deq()x</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.7611px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#191724;stroke:none;stroke-width:4;stroke-linecap:round;stroke-dasharray:none"
+       x="72.723022"
+       y="113.05479"
+       id="text4"><tspan
+         id="tspan4"
+         style="fill:#f6c177;stroke:none;stroke-width:4"
+         x="72.723022"
+         y="113.05479">LINEARIZABLE</tspan></text>
+  </g>
+</svg>
