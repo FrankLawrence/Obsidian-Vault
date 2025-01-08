@@ -34,7 +34,7 @@ Created: 2023-05-30 14:59:16
 - When new connections enter the network, the bandwidth needs to be reallocated
 - we need to dynamically adjust bandwidth usage using trial and error
 - Keep trying to increase bandwidth usage and slow down when congestion signal is received
-- **Additive increase, multiplicative decrease** (**AIMD**)
+- **Additive increase, multiplicative decrease** (**AIMD**) ^7d4bba
 	- ![[Additive and multiplicative bandwidth adjustments.png|500]]
 	- Additive increase/decrease moves the point at a 45° angle since both bandwidth's are increased the same amount
 	- Multiplicative increase/decrease moves the point at an angle proportional to the current bandwidth

@@ -134,7 +134,7 @@ Created: 2023-03-28 17:11:39
   $T_{\text{orig}}$: execution time on some computer
   $f_{\text{enh}}$: fraction of the execution time affected by enhancement
   $p$: factor by which the portion of time is reduced due to the performance enhancement
-- **Amdahl's law**: *speedup* is ratio $T_{\text{orig}}/T_{\text{new}}$: $$\frac{1}{(f_{\text{unenh}}+f_{\text{enh}}/p)}$$
+- **Amdahl's law**: *speedup* is ratio $T_{\text{orig}}/T_{\text{new}}$: $$\frac{1}{(f_{\text{unenh}}+f_{\text{enh}}/p)}$$ ^3d1eae
 - Amdahl's law can provide insight in the improvemnet factor before implementation -> helps justify effort and expense to implement the enhancement
 
 ---

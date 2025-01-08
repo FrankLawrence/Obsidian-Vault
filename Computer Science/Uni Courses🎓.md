@@ -51,3 +51,5 @@ cssclass: dashboard
 - P1
 	- [[Equational Programming]]
 	- [[Advanced Network Programming]]
+- P2
+	- [[Concurrency and Multithreading]]
