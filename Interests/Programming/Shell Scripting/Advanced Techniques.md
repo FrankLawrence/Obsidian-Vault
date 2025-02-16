@@ -342,7 +342,7 @@ For example, if you want to create a four-column table of name, address, phone n
 
 |   |
 |---|
-|#/bin/sh|
+|`#/bin/sh`|
 ||
 |NAME="John Doe"|
 |ADDRESS="1 Fictitious Rd, Bucksnort, TN"|
@@ -705,10 +705,10 @@ With that caveat, you can perform nonblocking I/O by writing a small C helper su
 
 |   |
 |---|
-|#include <unistd.h>|
-|#include <stdio.h>|
-|#include <stdlib.h>|
-|#include <fcntl.h>|
+|`#include <unistd.h>`|
+|`#include <stdio.h>`|
+|`#include <stdlib.h>`|
+|`#include <fcntl.h>`|
 ||
 |int main(int argc, char *argv[])|
 |{|

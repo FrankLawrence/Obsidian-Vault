@@ -1,5 +1,5 @@
 ---
-Tags: 
+Tags: Math
 Created: 2023-12-06 04:03:04
 ---
 (Links:: [[Statistical Methods]])

@@ -11,9 +11,10 @@
   "nativeMenus": false,
   "enabledCssSnippets": [
     "dashboard",
-    "big-math",
     "remove-left-border-embed",
     "infobox",
-    "centerImages"
-  ]
+    "centerImages",
+    "big-math"
+  ],
+  "showRibbon": true
 }

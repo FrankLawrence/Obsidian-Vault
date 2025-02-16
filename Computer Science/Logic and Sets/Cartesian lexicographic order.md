@@ -1,5 +1,5 @@
 ---
-Tags: 
+Tags: Math
 Created: 2022-11-17 09:03:01
 ---
 (Links:: [[Logic and Sets]])

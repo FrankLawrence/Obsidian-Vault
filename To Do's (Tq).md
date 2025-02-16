@@ -1,0 +1,21 @@
+- [x] Grade P1
+- [x] Grade A2
+- [x] Grade A3
+	- [x] Fix issue with server is busy
+- [x] Do website for automation
+- [x] Update google drive Mentor Program
+- [x] Submit Assignment 3 CoCo
+- [ ] DHL packet
+- [x] Tikkie everyone for gift
+- [x] Get gift for Melisa
+- [x] Plan Maurice's birthday
+	- [ ] Get gift for Maurice
+- [ ] Plan reunion for Mentor Program
+	- [ ] Create card game
+- [x] Upload pictures for PONG
+- [x] Meeting with CO TAs on Thursday 30th at 11:00
+- [ ] Read paper for Bala
+- [x] Improve project proposal RE
+- [x] Get hoodies
+- [ ] Get Dad a gift
+- [x] Create presentation for taster day

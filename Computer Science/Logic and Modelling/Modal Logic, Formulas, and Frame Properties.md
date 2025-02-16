@@ -1,5 +1,5 @@
 ---
-Tags: 
+Tags: Math
 Created: 2024-05-27 17:09:10
 ---
 (Links:: [[Logic and Modelling]])

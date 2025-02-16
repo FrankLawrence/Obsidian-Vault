@@ -22,7 +22,7 @@
 	        </g>
 	        <g transform="matrix(1,0,0,1,411.593,216.272)">
 	            <g id="text4-7-64">
-	                <text x="0px" y="0px" style="font-family:'Helvetica';font-size:9px;fill:var(--text-normal);">T<tspan x="5.168px 7.167px " y="0px 0px ">im</tspan>e</text>
+	                <text x="0px" y="0px" style="font-family:'Helvetica';font-size:9px;fill:var(--text-normal);">Time</text>
 	            </g>
 	        </g>
 	        <g transform="matrix(1,0,0,1,141.461,100.412)">

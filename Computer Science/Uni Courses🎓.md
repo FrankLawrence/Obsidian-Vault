@@ -53,3 +53,9 @@ cssclass: dashboard
 	- [[Advanced Network Programming]]
 - P2
 	- [[Concurrency and Multithreading]]
+	- [[Secure Programming]]
+- P3
+	- [[Compiler Construction]]
+- P4
+	- [[Machine Learning]]
+	- [[Automata and Complexity]]

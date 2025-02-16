@@ -1,6 +1,6 @@
 ---
-alias: SM
-Tags: MOC course
+Tags: MOC course Math
+alias: SM 
 ---
 (Links:: [[Uni Courses🎓]])
 ## Notes and Ideas
@@ -35,9 +35,6 @@ Tags: MOC course
 - [[Simple linear regression]]
 - [[Goodness-of-fit]]
 - [[Contingency tables]]
-## Extras
-### Tips
-### Emails and Resources
-### Important Dates
+
 ___
 References:

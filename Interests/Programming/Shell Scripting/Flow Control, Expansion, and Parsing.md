@@ -45,7 +45,7 @@ For example:
 
 |   |
 |---|
-|#/bin/sh|
+|`#/bin/sh`|
 ||
 |read A|
 |if [ "$A" = "foo" ] ; then|

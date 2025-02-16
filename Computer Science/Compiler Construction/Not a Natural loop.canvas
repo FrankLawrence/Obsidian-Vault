@@ -1,0 +1,22 @@
+{
+	"nodes":[
+		{"id":"c223c9c7aee57036","x":-180,"y":-220,"width":100,"height":50,"type":"text","text":"Entry"},
+		{"id":"62f8d8b1f9045ab2","type":"text","text":"","x":-180,"y":-120,"width":100,"height":50},
+		{"id":"d448baee3fc40773","type":"text","text":"\t c","x":-180,"y":-20,"width":100,"height":50},
+		{"id":"0fd26fe71dd31cce","type":"text","text":"\t h","x":-180,"y":80,"width":100,"height":50},
+		{"id":"0cd6eb42f0ac2e5d","type":"text","text":"\t d","x":-180,"y":180,"width":100,"height":50},
+		{"id":"58d7bdc37b827e9f","type":"text","text":"\t b","x":-280,"y":300,"width":100,"height":50},
+		{"id":"9d923fa387a72a9f","type":"text","text":"","x":-80,"y":300,"width":100,"height":50},
+		{"id":"25321e9ae0711828","x":20,"y":-145,"width":250,"height":150,"type":"text","text":"$h$ does not dominate $b$ since there is a path to $b$ from the Entry node that does not go through $h$\n\nHence, $b \\to h$ does not induce a natural loop."}
+	],
+	"edges":[
+		{"id":"1efe7f8f0f3a4319","fromNode":"c223c9c7aee57036","fromSide":"bottom","toNode":"62f8d8b1f9045ab2","toSide":"top"},
+		{"id":"7567838919586064","fromNode":"62f8d8b1f9045ab2","fromSide":"bottom","toNode":"d448baee3fc40773","toSide":"top"},
+		{"id":"1737ea4c774d282d","fromNode":"d448baee3fc40773","fromSide":"bottom","toNode":"0fd26fe71dd31cce","toSide":"top"},
+		{"id":"d30f7140ce2d7886","fromNode":"0fd26fe71dd31cce","fromSide":"bottom","toNode":"0cd6eb42f0ac2e5d","toSide":"top"},
+		{"id":"4a2c29b0b28f3c0c","fromNode":"0cd6eb42f0ac2e5d","fromSide":"bottom","toNode":"58d7bdc37b827e9f","toSide":"top"},
+		{"id":"4bd1b531503c338a","fromNode":"58d7bdc37b827e9f","fromSide":"left","toNode":"0fd26fe71dd31cce","toSide":"left","label":"b -> h\nBack Edge"},
+		{"id":"eb5dbd5b267a5260","fromNode":"0cd6eb42f0ac2e5d","fromSide":"bottom","toNode":"9d923fa387a72a9f","toSide":"top"},
+		{"id":"3628baa5008c8f31","fromNode":"d448baee3fc40773","fromSide":"right","toNode":"0cd6eb42f0ac2e5d","toSide":"right"}
+	]
+}

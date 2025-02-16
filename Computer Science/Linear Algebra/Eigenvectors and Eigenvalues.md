@@ -1,5 +1,5 @@
 ---
-Tags: 
+Tags: Math
 Created: 2023-06-28 21:13:32
 ---
 (Links:: [[Linear Algebra]])

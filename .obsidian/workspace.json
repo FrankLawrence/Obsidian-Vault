@@ -8,16 +8,126 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e4aae391ffa87959",
+            "id": "4c144f56ff1bc108",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Computer Science/Machine Learning/Machine Learning Project.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Machine Learning Project"
+            }
+          },
+          {
+            "id": "8e8731c1fc0404d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Science/Machine Learning/Model evaluation.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Model evaluation"
+            }
+          },
+          {
+            "id": "71416bee37d015d0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Science/Automata and Comlexity/Automata and Complexity.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Automata and Complexity"
+            }
+          },
+          {
+            "id": "0b9caf4874593b48",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Science/Automata and Comlexity/Finite Automata.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Finite Automata"
+            }
+          },
+          {
+            "id": "d6de761c98b76988",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Files/Branch Search.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Branch Search"
+            }
+          },
+          {
+            "id": "318d569ac52a1497",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://mlvu.github.io/introduction/#video-076",
+                "title": "Lecture 1: Introduction | MLVU",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Lecture 1: Introduction | MLVU"
+            }
+          },
+          {
+            "id": "9d417d96cfb7ff6b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Interests/Programming and computers/MathJax Basic Tutorial.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "MathJax Basic Tutorial"
+            }
+          },
+          {
+            "id": "d18f0afa10c5cb93",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Files/Congestion control.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Congestion control"
             }
           }
-        ]
+        ],
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -36,7 +146,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -73,7 +184,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "4cb2d27869f02707",
@@ -89,7 +201,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Mentor Program/Promotion text.md",
+                "file": "Files/Congestion control.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -99,7 +211,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Promotion text"
+              "title": "Backlinks for Congestion control"
             }
           },
           {
@@ -108,12 +220,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Mentor Program/Promotion text.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Promotion text"
+              "title": "Outgoing links"
             }
           },
           {
@@ -123,7 +234,9 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -135,10 +248,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Secure Programming/SP Secure Design.md"
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of SP Secure Design"
+              "title": "Outline"
             }
           },
           {
@@ -162,10 +277,53 @@
             }
           }
         ]
+      },
+      {
+        "id": "818802a40b9b4fd6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "973620870455776b",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "Files/Congestion control.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 0.7893690582501388,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of Congestion control"
+            }
+          }
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300,
+    "width": 391.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -185,63 +343,63 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "e4aae391ffa87959",
+  "active": "d18f0afa10c5cb93",
   "lastOpenFiles": [
-    "Computer Science/Mentor Program/Promotion text.md",
-    "Computer Science/Equational Programming/Exam Prep EP.md",
-    "Computer Science/Tcpdump Tutorial.md",
-    "ICMP.md",
-    "Computer Science/Advanced Network Programming/tuntap.md",
-    "Computer Science/Concurrency and Multithreading/The Art of Multiprocessor Programming Exercises.md",
-    "Computer Science/Concurrency and Multithreading/Queue Locks.md",
-    "Computer Science/Concurrency and Multithreading/Monitors and Barriers.md",
-    "Computer Science/Concurrency and Multithreading/Mutual Exclusion.md",
-    "Computer Science/Advanced Network Programming/SKB.md",
-    "Computer Science/Advanced Network Programming/Project README.md",
-    "Computer Science/Concurrency and Multithreading/Consensus.md",
-    "Computer Science/Definitions/False Sharing.md",
-    "Computer Science/Equational Programming/Equational Programming.md",
+    "Files/Congestion control.md",
+    "Computer Science/Advanced Network Programming/Congestion Control.md",
+    "Computer Science/Advanced Network Programming/Advanced Network Programming.md",
+    "Cooking and Baking/Spaghetti with Shrimp.md",
+    "Computer Science/Automata and Comlexity/Finite Automata.md",
+    "Interests/Programming and computers/MathJax Basic Tutorial.md",
+    "Computer Science/Machine Learning/Model evaluation.md",
+    "Computer Science/Machine Learning/Machine Learning.md",
+    "Computer Science/Machine Learning/Machine Learning Schedule.md",
+    "Computer Science/Machine Learning/Machine Learning Sample Reports.md",
+    "Computer Science/Machine Learning/Linear models and search.md",
+    "Computer Science/Machine Learning/Machine Learning Project.md",
+    "Computer Science/Automata and Comlexity/Automata and Complexity.md",
+    "Files/Branch Search.md",
+    "Files/Branch Search.svg",
+    "Computer Science/Machine Learning/Machine Learning Outline.md",
+    "Computer Science/Introduction to Computer Science/Introduction to Machine Learning.md",
+    "Files/Binary Classification Direction.md",
+    "Files/2D_decision_boundary.md",
+    "Computer Science/Secure Programming/SP Cryptography.md",
+    "Computer Science/Secure Programming/Secure Programming.md",
+    "Computer Science/Secure Programming/SP Testing.md",
+    "Computer Science/Secure Programming/SP Secure Design.md",
+    "Computer Science/Secure Programming/SP Vulnerabilities.md",
+    "Computer Science/Secure Programming/SP Introduction to Security.md",
+    "Computer Science/Advanced Network Programming/BGP, Anycast, CDN.md",
+    "Personal/Callouts.md",
+    "Abstract tasks of Machine Learning.canvas",
+    "Computer Science/Machine Learning",
+    "Computer Science/Automata and Comlexity",
+    "Computer ScienceCompiler Construction",
+    "Computer Science/Compiler Construction/Syntax Analysis Diagram.canvas",
+    "Computer Science/Compiler Construction/Not a Natural loop.canvas",
+    "Computer Science/Compiler Construction/CFG and Basic Blocks.canvas",
+    "Computer Science/Compiler Construction 1",
+    "Files/Pasted image 20250128191102.png",
+    "Files/Pasted image 20250128191050.png",
+    "Files/Pasted image 20250128183946.png",
+    "Files/Pasted image 20250128182857.png",
+    "Computer Science/Compiler Construction",
     "Computer Science/Concurrency and Multithreading",
-    "Computer Science/Advanced Network Programming/ANP SUB.md",
-    "Cooking and Baking/Kung Pao Chicken.md",
-    "Cooking and Baking/Spicy Sausage Rice.md",
-    "Cooking and Baking/Burrito.md",
-    "Cooking and Baking/Pad See Ew.md",
-    "Personal/Present Ideas.md",
-    "Cooking and Baking/Tiramisu.md",
-    "Cooking and Baking/Tikki Masala.md",
-    "Cooking and Baking/Honey Sriracha Chicken.md",
-    "Cooking and Baking/Beef Stir Fry.md",
-    "Interests/Hardware.md",
-    "Inte.md",
     "Files/CORS php example.png",
     "Files/49939.png",
     "Files/37684.png",
     "Files/27667.png",
     "Files/96311.png",
-    "Files/89568.png",
-    "Files/38368.png",
-    "Files/81315.png",
-    "Files/81488.png",
-    "Files/16388.png",
     "Files/Congestion Control.svg~",
     "Files/Congestion.svg~",
     "Files/Congestion Control export.svg~",
     "Computer Science/Advanced Network Programming/Network Internals.md~",
-    "Computer Science/Advanced Network Programming/ANP Introduction.md~",
-    "Computer Science/Lecture 7 Equational Programming.md~",
-    "Computer Science/Equational Programming",
-    "Computer Science/Web Technology/Equational Programming",
-    "Computer Science/Logic and Modelling/Metatheorems of Predicate Logic.md~",
     "Computer Science/Software Engineering Processes/Diagram of how all the software processes relate.canvas",
     "Computer Science/Software Engineering Processes/Functional testing.canvas",
     "Computer Science/Software Engineering Processes/Software Release Process.canvas",
     "Interests/Programming/Unix Command Reference.canvas",
     "Computer Programming/Secure Programming/Diffie-Hellman Key Exchange.canvas",
-    "Computer Programming/Projects/Clinical Trials API.canvas",
-    "Computer Programming/Pervasive Computing/Testing Principle.canvas",
-    "Computer Programming/Pervasive Computing/Systems engineering diagram.canvas",
-    "Computer Programming/Pervasive Computing/Insulin Pump FTA.canvas",
-    "Computer Programming/Pervasive Computing/Analog to Digital Converter.canvas"
+    "Computer Programming/Projects/Clinical Trials API.canvas"
   ]
 }

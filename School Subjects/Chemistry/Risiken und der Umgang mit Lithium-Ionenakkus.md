@@ -1,7 +1,7 @@
-Status: #✅
-Tags: [[Chemistry]]
-Links:
-___
+---
+Tags:
+---
+(Links: [[Chemistry🧪]])
 ## Gefährdungen
 - (elektrische/thermische) Beschädigungen an Batterie bzw. Akku 
 - Elektrolyt ist brennbar

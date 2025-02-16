@@ -1,9 +1,8 @@
 ---
-tags: [MOC]
+tags: MOC
 ---
 Links: [[School📚🏫]]
 ___
-# Math MOC🧮
 **Inhaltsbezogene Kompetenzen**
 Gleichungen 
 vgl. unten: "Erwartete Kompetenzen im Bereich der Gleichungslehre"

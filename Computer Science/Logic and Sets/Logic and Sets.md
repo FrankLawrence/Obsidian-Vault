@@ -1,5 +1,5 @@
 ---
-tags: MOC
+tags: MOC Math
 alias: LS
 ---
 (Links:: [[Uni Courses🎓]])

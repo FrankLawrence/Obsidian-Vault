@@ -1,0 +1,21 @@
+{
+	"nodes":[
+		{"id":"fb2a206c849f4ee0","x":-140,"y":-260,"width":320,"height":50,"type":"text","text":"Learning to interact with the world?"},
+		{"id":"f775705e0e722c82","x":-420,"y":-140,"width":230,"height":50,"type":"text","text":"[[Reinforcement Learning]]"},
+		{"id":"e7e63ee9ba70b5e2","x":-160,"y":-90,"width":360,"height":50,"type":"text","text":"Learning and predicting at the same time?"},
+		{"id":"f1eea3f84e93e536","x":-395,"y":40,"width":180,"height":50,"type":"text","text":"**Online Learning**"},
+		{"id":"0d3422d85bf7777d","x":-100,"y":90,"width":240,"height":50,"type":"text","text":"Example input *and* output?"},
+		{"id":"3c2ae3da532b8275","x":-430,"y":225,"width":250,"height":105,"type":"text","text":"(**semi**) **supervised learning**\n- [[Introduction to Machine Learning#Classification|classification]]\n- [[Introduction to Machine Learning#Regression|regression]]"},
+		{"id":"e361d566f18a28e2","x":-115,"y":225,"width":270,"height":90,"type":"text","text":"[[Introduction to Machine Learning#Self-supervised learning|Self-supervised learning]]\n- masking\n- autoregressive modelling"},
+		{"id":"4a995b42f0d310ba","x":240,"y":225,"width":250,"height":115,"type":"text","text":"[[Introduction to Machine Learning#Unsupervised tasks|Unsupervised Learning]]\n- clustering\n- density estimation\n- generative modeling"}
+	],
+	"edges":[
+		{"id":"9c13a2750c2f8dba","fromNode":"fb2a206c849f4ee0","fromSide":"left","toNode":"f775705e0e722c82","toSide":"top","label":"yes"},
+		{"id":"60e2fcd9475e55bd","fromNode":"fb2a206c849f4ee0","fromSide":"bottom","toNode":"e7e63ee9ba70b5e2","toSide":"top","label":"no"},
+		{"id":"af9d968dbab7dcae","fromNode":"e7e63ee9ba70b5e2","fromSide":"left","toNode":"f1eea3f84e93e536","toSide":"top","label":"yes"},
+		{"id":"d09b898c29ad1ba9","fromNode":"e7e63ee9ba70b5e2","fromSide":"bottom","toNode":"0d3422d85bf7777d","toSide":"top","label":"no\n\n"},
+		{"id":"fee19c3d2a5adcc1","fromNode":"0d3422d85bf7777d","fromSide":"bottom","toNode":"e361d566f18a28e2","toSide":"top","label":"no"},
+		{"id":"e2e7c8683911baf4","fromNode":"0d3422d85bf7777d","fromSide":"left","toNode":"3c2ae3da532b8275","toSide":"top"},
+		{"id":"419346f79ae9bd1e","fromNode":"0d3422d85bf7777d","fromSide":"right","toNode":"4a995b42f0d310ba","toSide":"top","label":"no"}
+	]
+}
