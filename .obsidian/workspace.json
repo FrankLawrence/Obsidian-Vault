@@ -13,43 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Machine Learning/Machine Learning Project.md",
+                "file": "Computer Science/Machine Learning/Probabilistic models.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Machine Learning Project"
-            }
-          },
-          {
-            "id": "8e8731c1fc0404d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Machine Learning/Model evaluation.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Model evaluation"
-            }
-          },
-          {
-            "id": "71416bee37d015d0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Automata and Comlexity/Automata and Complexity.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Automata and Complexity"
+              "title": "Probabilistic models"
             }
           },
           {
@@ -68,66 +38,81 @@
             }
           },
           {
-            "id": "d6de761c98b76988",
+            "id": "4096c06c6acdbac4",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Files/03_finite_automata.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "03_finite_automata"
+            }
+          },
+          {
+            "id": "69eda7a264c193b5",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "PR, ROC and AUC.canvas",
+                "viewState": {
+                  "x": 195.9556958535716,
+                  "y": -190.36520361666493,
+                  "zoom": 0.035697133988142095
+                }
+              },
+              "icon": "lucide-layout-dashboard",
+              "title": "PR, ROC and AUC"
+            }
+          },
+          {
+            "id": "f3f38d1d4af22221",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Files/Branch Search.md",
+                "file": "Computer Science/Statistical Methods/Statistical Methods.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Branch Search"
+              "title": "Statistical Methods"
             }
           },
+          {
+            "id": "658bce6724eb8ee1",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ],
+        "currentTab": 5
+      },
+      {
+        "id": "0c95d5b5002333ca",
+        "type": "tabs",
+        "children": [
           {
             "id": "318d569ac52a1497",
             "type": "leaf",
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://mlvu.github.io/introduction/#video-076",
-                "title": "Lecture 1: Introduction | MLVU",
+                "url": "https://mlvu.github.io/probability/#video-021",
+                "title": "Lecture 4: Probabilistic models | MLVU",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Lecture 1: Introduction | MLVU"
-            }
-          },
-          {
-            "id": "9d417d96cfb7ff6b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Interests/Programming and computers/MathJax Basic Tutorial.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "MathJax Basic Tutorial"
-            }
-          },
-          {
-            "id": "d18f0afa10c5cb93",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Files/Congestion control.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Congestion control"
+              "title": "Lecture 4: Probabilistic models | MLVU"
             }
           }
-        ],
-        "currentTab": 7
+        ]
       }
     ],
     "direction": "vertical"
@@ -180,7 +165,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -201,7 +187,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Files/Congestion control.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -211,7 +196,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Congestion control"
+              "title": "Backlinks"
             }
           },
           {
@@ -288,7 +273,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Files/Congestion control.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -316,7 +300,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Congestion control"
+              "title": "Graph view"
             }
           }
         ]
@@ -340,38 +324,48 @@
       "command-palette:Open command palette": true,
       "table-editor-obsidian:Advanced Tables Toolbar": true,
       "obsidian-excalidraw-plugin:New Excalidraw drawing": true,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "obsidian-advanced-slides:Show Slide Preview": false
     }
   },
-  "active": "d18f0afa10c5cb93",
+  "active": "658bce6724eb8ee1",
   "lastOpenFiles": [
+    "Computer Science/Machine Learning/Probabilistic models.md",
+    "Computer Science/Statistical Methods/Standard normal distribution.md",
+    "Computer Science/Automata and Comlexity/Finite Automata.md",
+    "Computer Science/Statistical Methods/Statistical Methods.md",
+    "PR, ROC and AUC.canvas",
+    "Computer Science/Statistical Methods/Law of Total Probability and Bayes' Theorem.md",
+    "Computer Science/Machine Learning/Linear models and search.md",
+    "Computer Science/Machine Learning/Machine Learning.md",
+    "Computer Science/Introduction to Computer Science/Introduction to Machine Learning.md",
+    "Computer Science/Definitions/Conditional probability.md",
+    "Interests/Programming and computers/MathJax Basic Tutorial.md",
+    "Computer Science/Definitions/Bayes' Theorem.md",
+    "Computer Science/Projects/Clinical Trials API.canvas",
+    "Computer Science/Object Oriented and Functional Programming/Anyref.canvas",
+    "Computer Science/Automata and Comlexity/Automata and Complexity.md",
+    "Files/03_finite_automata.pdf",
+    "Computer Science/Definitions/Confusion Matrix.md",
+    "Files/Branch Search.md",
+    "Computer Science/Machine Learning/Model evaluation.md",
+    "Personal/Callouts.md",
+    "Computer Science/Machine Learning/Machine Learning Outline.md",
+    "Computer Science/Machine Learning/Machine Learning Project.md",
+    "Ranking Classifiers.md",
+    "Ranking Classifiers.md",
     "Files/Congestion control.md",
     "Computer Science/Advanced Network Programming/Congestion Control.md",
     "Computer Science/Advanced Network Programming/Advanced Network Programming.md",
-    "Cooking and Baking/Spaghetti with Shrimp.md",
-    "Computer Science/Automata and Comlexity/Finite Automata.md",
-    "Interests/Programming and computers/MathJax Basic Tutorial.md",
-    "Computer Science/Machine Learning/Model evaluation.md",
-    "Computer Science/Machine Learning/Machine Learning.md",
-    "Computer Science/Machine Learning/Machine Learning Schedule.md",
-    "Computer Science/Machine Learning/Machine Learning Sample Reports.md",
-    "Computer Science/Machine Learning/Linear models and search.md",
-    "Computer Science/Machine Learning/Machine Learning Project.md",
-    "Computer Science/Automata and Comlexity/Automata and Complexity.md",
-    "Files/Branch Search.md",
+    "Files/ROC.svg",
+    "Computer Science/Secure Programming/SP Conservative Programming.md",
+    "Computer Science/Pervasive Computing/Percom 8 Classification III.md",
+    "DFA to Regex.md",
+    "Files/blood-age.png",
+    "Files/female.png",
+    "Files/tmpodqbu0ly.png",
+    "Files/tmpo9sn8zg7.png",
     "Files/Branch Search.svg",
-    "Computer Science/Machine Learning/Machine Learning Outline.md",
-    "Computer Science/Introduction to Computer Science/Introduction to Machine Learning.md",
-    "Files/Binary Classification Direction.md",
-    "Files/2D_decision_boundary.md",
-    "Computer Science/Secure Programming/SP Cryptography.md",
-    "Computer Science/Secure Programming/Secure Programming.md",
-    "Computer Science/Secure Programming/SP Testing.md",
-    "Computer Science/Secure Programming/SP Secure Design.md",
-    "Computer Science/Secure Programming/SP Vulnerabilities.md",
-    "Computer Science/Secure Programming/SP Introduction to Security.md",
-    "Computer Science/Advanced Network Programming/BGP, Anycast, CDN.md",
-    "Personal/Callouts.md",
     "Abstract tasks of Machine Learning.canvas",
     "Computer Science/Machine Learning",
     "Computer Science/Automata and Comlexity",
@@ -386,20 +380,11 @@
     "Files/Pasted image 20250128182857.png",
     "Computer Science/Compiler Construction",
     "Computer Science/Concurrency and Multithreading",
-    "Files/CORS php example.png",
-    "Files/49939.png",
-    "Files/37684.png",
-    "Files/27667.png",
-    "Files/96311.png",
     "Files/Congestion Control.svg~",
     "Files/Congestion.svg~",
     "Files/Congestion Control export.svg~",
-    "Computer Science/Advanced Network Programming/Network Internals.md~",
     "Computer Science/Software Engineering Processes/Diagram of how all the software processes relate.canvas",
     "Computer Science/Software Engineering Processes/Functional testing.canvas",
-    "Computer Science/Software Engineering Processes/Software Release Process.canvas",
-    "Interests/Programming/Unix Command Reference.canvas",
-    "Computer Programming/Secure Programming/Diffie-Hellman Key Exchange.canvas",
-    "Computer Programming/Projects/Clinical Trials API.canvas"
+    "Computer Science/Software Engineering Processes/Software Release Process.canvas"
   ]
 }

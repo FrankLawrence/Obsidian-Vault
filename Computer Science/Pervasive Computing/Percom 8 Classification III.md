@@ -81,19 +81,8 @@ Evaluation falls under either of 4 classes:
 - **True** negatives (TN): An instances not from class $A$ is correctly rejected as not being in $A$
 - **False** positives (FP): An instance that is not from $A$ is wrongly classified as in $A$ ^7a83ed
 - **False** negatives (FN): An instance that is from $A$ was wrongly rejected as not from $A$ -> **Danger**
-## Confusion Matrix
-A confusion matrix shows how often each class was correctly/falsely classified. Each entry describes the count.
 
-|                 | Pedestrians | Non-pedestrians | Total Instances |
-| --------------- | ----------- | --------------- | --------------- |
-| Pedestrians     | TP 800      | FN 100          | P 900           |
-| Non-pedestrians | FP 5        | TN 95           | N 100           |
-
-From the confusion matrix you can calculate different statistics about the classification model:
-$$\text{Accuracy } a=\frac{TP+TN}{n}$$
-$$\text{Precision } p = \frac{TP}{TP+FP}$$
-$$\text{Recall (True postive rate) } r = \frac{TP}{TP+FN}$$
-$$\text{False positive rate} = \frac{FP}{FP+TN}$$
+These metrics can also be shown via a [[Confusion Matrix]]
 ## Receiver operation graph (ROC)
 ROC graphs depict the tradeoff between hit rates and false alarm rates over noisy channels.
 ![[ROC.png|500]]

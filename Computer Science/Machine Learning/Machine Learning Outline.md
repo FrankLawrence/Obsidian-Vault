@@ -101,7 +101,7 @@ Once you open a retake quiz, it will be submitted and the cap will apply, so do 
 
 #### The Exam
 
-[**Download the formula/cheat sheet.**](https://canvas.vu.nl/courses/81035/files/8514905/download?wrap=1 "cheat-sheet.pdf") [Download Download the formula/cheat sheet.](https://canvas.vu.nl/courses/81035/files/8514905/download?download_frd=1)
+[**Download the formula/cheat sheet.**](https://canvas.vu.nl/courses/81035/files/8514905/download?wrap=1 "cheat-sheet.pdf") [Download the formula/cheat sheet.](https://canvas.vu.nl/courses/81035/files/8514905/download?download_frd=1)
 
 The exam covers material from **the lectures**, from **the required reading**, and from **the homework**. The focus will be on the material covered in the lectures, in the way that it is covered in the lectures. However, things mentioned in the reading but not in the lectures may occur in the exam.
 

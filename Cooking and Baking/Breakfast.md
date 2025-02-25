@@ -1,0 +1,5 @@
+- 250G quark
+- 15g honey
+- cinnamon
+- 40g oats
+- 100g frozen fuit
