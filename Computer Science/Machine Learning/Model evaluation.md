@@ -94,7 +94,7 @@ $$
 # PR, ROC and AUC
 Two other popular metrics are the **True positive rate** and the **False positive rate**.
 An **ROC** curve plots these two metrics, as they commonly are a tradeoff:
-![|500](https://mlvu.github.io/evaluation/21.Methodology1.key-stage-0088.svg)
+![[ROC curves.svg|500]]
 - a *timid* classifier would classify everything as false (bottom left)
 - a *brave* classifier would be more daring and classify more things as correct (upper right)
 - **Ranking Classifier**: in addition provides *score* of how negative or positive a point is 

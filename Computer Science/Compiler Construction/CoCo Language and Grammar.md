@@ -68,7 +68,7 @@ As a compiler, we want to be able to interpret the meaning of a sentence. To do 
 > > 
 > > -> ( 1 * ( 1 + 1 ) )
 
-In context-free grammars, when there are multiple productions with the same LHS we can use shorthand notation: `S -> a S a | T` where `|` indicates multiple productions.
+In [[Context-free Grammars]], when there are multiple productions with the same LHS we can use shorthand notation: `S -> a S a | T` where `|` indicates multiple productions.
 
 > [!info] Properties of Grammars
 > - Left- and right-recursive production (where $\alpha$ is a string of terminals and\or non-terminals)
@@ -76,7 +76,7 @@ In context-free grammars, when there are multiple productions with the same LHS 
 > 	- $N\to \alpha N$
 > - Nullable symbol: $N ^{*}\to \varepsilon$
 > - Useless symbol never produces a string of only terminal symbols: $\text{Exp} \to \text{'+' Exp } | \text{ '-' Exp}$
-> - **Ambiguous grammar**: Has two parse trees for same string
+> - [[Context-free Languages#Ambiguity|Ambiguous grammar]]: Has two parse trees for same string
 # Recognizer
 - Given a string $\xi$ and a grammar $G$ the recognizer will return "yes" if $\xi \in L(G)$ (usually also want to answer "no" if $\xi \notin L(G)$)
 - **Scanner**:

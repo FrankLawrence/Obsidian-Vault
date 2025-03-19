@@ -16,7 +16,6 @@ alias: A&C
 	- [[Regular Grammars]]
 	- [[Regular Expressions]]
 	- [[Properties of Regular Languages]]
-	- [[Word Matching]]
 	- [[Automata Minimization]]
 	- [[Pumping Lemma for Regular Languages]]
 - [[Context-free Languages]]
@@ -54,10 +53,10 @@ Thomas A. Sudkamp, *Languages and Machines*, Addison Wesley, 2006 (3e editie)
 - [Wikipedia: Formal languages Links to an external site.](http://www.wikipedia.org/wiki/Formal_language)
 - [A.M. Turing, "On Computable Numbers, with an Application to the Entscheidungsproblem". Proc. London Math. Soc. (1937) s2-42 (1): 230-265. Links to an external site.](http://dx.doi.org/10.1112/plms/s2-42.1.230)
 ### Important Dates
-- [ ] Homework 1 on Languages and DFAs: 16 Feb
-- [ ] Homework 2 on Regular Languages: 23 Feb
-- [ ] Homework 3 on Context-free Grammars and Parsing: 02 Mar
-- [ ] Homework 4 on Pushdown Automata and Pumping Lemma: 09 Mar
+- [x] Homework 1 on Languages and DFAs: 16 Feb
+- [x] Homework 2 on Regular Languages: 23 Feb
+- [x] Homework 3 on Context-free Grammars and Parsing: 02 Mar
+- [x] Homework 4 on Pushdown Automata and Pumping Lemma: 09 Mar
 - [ ] Homework 5 on Turing Machines: 16 Mar
 ___
 References:

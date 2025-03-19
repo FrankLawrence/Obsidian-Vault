@@ -13,7 +13,7 @@ Created: 2025-02-07 14:08:47
 > - a set $F\subseteq Q$ of **final states**
 
 
-> [!example] DFA
+> [!example]- DFA
 > Let $M=(Q,\Sigma, \delta, q_{0},F)$ with $Q=\{q_{0},q_{1}\}, \Sigma = \{a,b\}, F=\{q_{0}\}$, $$\delta (q_{0}, a)=q_{0}\qquad \qquad \delta(q_{1}, a)=q_{1}$$ $$\delta(q_{0}, b)=q_{1} \qquad \qquad \delta(q_{1},b)=q_{0}$$
 > We can also write the transition functions all in table notation:
 > 
@@ -76,8 +76,68 @@ With this we can also define $\vdash^{*}$ as the **reflexive transitive closure 
 > > - final states $F=\{z_{0},z_{1}\}$
 
 ## Paths in DFAs
-For a word $w=a_{1}\cdots a_{n}, n\geq 0$, we write $$q_{0}\overset{w}{\twoheadrightarrow}q_{n}$$ if there are states $q_{1},...,q_{n-1}$ such that $$q_{0}\overset{a_{1}}{\to}q_{1}\quad q_{1}\overset{a_{2}}{\to}q_{2} \quad\cdots\quad q_{n-1}\overset{a_{n}}{\to}q_{n}$$
+- For a word $w=a_{1}\cdots a_{n}, n\geq 0$, we write $$q_{0}\overset{w}{\twoheadrightarrow}q_{n}$$ if there are states $q_{1},...,q_{n-1}$ such that $$q_{0}\overset{a_{1}}{\to}q_{1}\quad q_{1}\overset{a_{2}}{\to}q_{2} \quad\cdots\quad q_{n-1}\overset{a_{n}}{\to}q_{n}$$
+
+> [!info] THEOREM
+> $$q \overset{w}{\twoheadrightarrow} q' \Longleftrightarrow (q,w)\vdash^{*}(q',\lambda)$$
 # Regular Languages
+- The language accepted by DFA $M=(Q,\Sigma, \delta, q_{0}, F)$ is $$\begin{align*}L(M) &= \{w\in \Sigma^{*}\,|\, (q_{0},w) \vdash^{*} (q,\lambda) \text{ with } q\in F\} \\ &= \{w\in \Sigma^{*}\,|\, q_{0} \overset{w}{\twoheadrightarrow} q \text{ with } q\in F\} \end{align*}$$
+- A language $L$ is **regular** if there exists a DFA $M$ with $L(M)=L$
+- **DFAs are deterministic**: For every state $q\in Q$ and every symbol $a\in \Sigma$, the state $q$ has **precisely one outgoing arrow** with label $a$ 
+	- there is only one path from starting state through the transition graph.
+- If $L$ is a regular language, then $\bar L$ is also regular (flip all accepting and non-accepting states)
+- If $L_{1}$ and $L_{2}$ are regular, then $L_{1}\cup L_{2}$ is regular. (same for $L_{1}\cap L_{2}$ and $L_{1}\setminus L_{2}$)
+- Every **finite** language $L$ is regular
+# Nondeterministic Finite Automata
+NFAs are defined like DFAs, except that NFAs allow for:
+- **Multiple starting states**
+- **Any number of outgoing arrows** with the same label
+- **Empty steps**: arrows labelled $\lambda$ (do not consume input)
+
+> [!definition] NFAs
+> A **nondeterministic finite automaton** consists of: 
+> - a finite set $Q$ of states
+> - a finite input alphabet $\Sigma$
+> - a transition function $\delta : Q\times (\Sigma \;{\color{#F08} \cup \{\lambda\}})\to {\color{#F08}2^Q}$
+> - a set of starting states ${\color{#F08}S\subseteq Q}$
+> - a set $F\subseteq Q$ of final states
+
+- Let $M=(Q,\Sigma, \delta, S,F)$ be a NFA. The **step relation** $\vdash$ of $M$ is defined on configurations by $$(q,{\color{#F08}\alpha} w)\vdash(q',w) \quad \text{if ${\color{#F08}q' \in}\; \delta(q,{\color{#F08}\alpha})$ with $\alpha \in \Sigma \,{\color{#F08}\cup \{\lambda\}}$}$$
+
+- For a word $w$, we write $$q\overset{w}{\twoheadrightarrow}q'$$ if $w=\alpha_{1}\cdots \alpha_{n}$ for some $\alpha_{1},\cdots,\alpha_{n}\in (\Sigma \cup \{\lambda\})$ and there are states $q_{1},...,q_{n-1}$ such that $$q\overset{\alpha_{1}}{\to}q_{1}\quad q_{1}\overset{\alpha_{2}}{\to}q_{2} \quad\cdots\quad q_{n-1}\overset{\alpha_{n}}{\to}q'$$
+- The language accepted by NFA $M=(Q,\Sigma, \delta, S, F)$ is $$\begin{align*}L(M) &= \{w\in \Sigma^{*}\,|\, (q_{0},w) \vdash^{*} (q,\lambda) \text{ with } q_{0} \in S, q\in F\} \\ &= \{w\in \Sigma^{*}\,|\, q_{0} \overset{w}{\twoheadrightarrow} q \text{ with }q_{0}\in S, q\in F\} \end{align*}$$
+- For every NFA $M$ there is an NFA $N$ such that $L(M)=L(N)$ and $N$ has a **single starting state**
+
+> [!info]- Construction NFA single starting state
+> Let $N=(Q,\Sigma, \delta, S, F)$ be an NFA. Define $M$ to be obtained from $N$ as follows
+> - add a fresh state $q_{0}$
+> - add transitions $q_{0}\overset{\lambda}{\to} q$ for every $q \in S$, and 
+> - make $q_{0}$ the only starting state of $M$
+> 
+> Then $M$ has a single starting state and $L(N)=L(M)$
+
+- A language $L$ is accepted by a NFA $\Longleftrightarrow L$ is regular
+
+> [!info]- NFA to DFA
+> Let $M=(Q,\Sigma,\delta,S,F)$ be a NFA. **Idea**: state of DFA = set of all states the NFA can be in
+> We construct a DFA $N=(Q',\Sigma,\delta',q_{0}', F')$ where
+> $$\begin{align*}
+> Q' &= 2^{Q}=\{X\,|\,X\subseteq Q\}\\
+> \delta'(X,a) &= \{q'\in Q \,|\, q \overset{a}{\twoheadrightarrow} q' \text{ for some } q\in X\} \\
+> q_{0}' &= \{q' \in Q \,|\, q \overset{\lambda}{\twoheadrightarrow} q' \text{ for some } q\in S\}\} \\
+> F' &= \{X \subseteq Q \,|\, X\cap F \neq \emptyset\}
+> \end{align*}$$
+> For every $w \in \Sigma^{*}$ and $X\subseteq Q$ it holds that $$X\overset{w}{\twoheadrightarrow} X' \text{ in }N \quad \Longleftrightarrow \quad X' = \{q' \,|\, q \in X, q\overset{w}{\twoheadrightarrow} q' \text{ in }M\}$$
+
+- if $L$ is regular, then its reverse $L^{R}$ is regular
+
+> [!info]- Construct reverse language
+> Let $L$ be a regular language. Then there is an NFA $M=(Q, \Sigma,\delta,S,F)$ with $L(M)=L$. Let $N$ be the NFA obtained from $M$ by 
+> - reversing all arrows (transitions)
+> - exchanging starting states $S$ and final states $F$
+> 
+> Then we have $$q \overset{w}{\twoheadrightarrow} q' \text{ in }M \Longleftrightarrow q' \overset{w^{R}}{\twoheadrightarrow} q \text{ in }N$$
+> Since starting and final states are swapped, it follows that $$w \in L(M) \Longleftrightarrow w^{R} \in L(N)$$
 
 ---
 References:

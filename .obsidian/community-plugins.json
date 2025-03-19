@@ -1,13 +1,11 @@
 [
   "table-editor-obsidian",
-  "calendar",
   "obsidian-outliner",
   "obsidian-excalidraw-plugin",
   "nldates-obsidian",
   "hotkeysplus-obsidian",
   "templater-obsidian",
   "obsidian-icons-plugin",
-  "obsidian-relative-line-numbers",
   "obsidian-pandoc",
   "dataview",
   "obsidian-minimal-settings",
@@ -17,10 +15,7 @@
   "obsidian-style-settings",
   "quick-latex",
   "obsidian-sortable",
-  "obsidian-contextual-typography",
   "quickadd",
-  "obsidian-dictionary-plugin",
-  "obsidian-tikzjax",
   "cm-typewriter-scroll-obsidian",
-  "obsidian-advanced-slides"
+  "obsidian-tikzjax"
 ]

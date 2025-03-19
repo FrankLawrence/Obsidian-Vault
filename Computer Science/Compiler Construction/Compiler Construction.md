@@ -1,5 +1,6 @@
 ---
 Tags: MOC course
+alias: coco
 ---
 (Links:: [[Uni Courses🎓]])
 ## Notes and Ideas

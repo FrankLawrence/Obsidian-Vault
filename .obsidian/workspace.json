@@ -8,108 +8,92 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4c144f56ff1bc108",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Machine Learning/Probabilistic models.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Probabilistic models"
-            }
-          },
-          {
             "id": "0b9caf4874593b48",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Automata and Comlexity/Finite Automata.md",
+                "file": "Computer Science/Automata and Comlexity/Automata and Complexity.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Finite Automata"
+              "title": "Automata and Complexity"
             }
           },
           {
-            "id": "4096c06c6acdbac4",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Files/03_finite_automata.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "03_finite_automata"
-            }
-          },
-          {
-            "id": "69eda7a264c193b5",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "PR, ROC and AUC.canvas",
-                "viewState": {
-                  "x": 195.9556958535716,
-                  "y": -190.36520361666493,
-                  "zoom": 0.035697133988142095
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "PR, ROC and AUC"
-            }
-          },
-          {
-            "id": "f3f38d1d4af22221",
+            "id": "942f6498125a4f09",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Statistical Methods/Statistical Methods.md",
+                "file": "Computer Science/Logic and Sets/Functions.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Statistical Methods"
+              "title": "Functions"
             }
           },
           {
-            "id": "658bce6724eb8ee1",
+            "id": "7b12abc35f4e72e3",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Computer Science/Machine Learning/Machine Learning.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Machine Learning"
             }
-          }
-        ],
-        "currentTab": 5
-      },
-      {
-        "id": "0c95d5b5002333ca",
-        "type": "tabs",
-        "children": [
+          },
           {
-            "id": "318d569ac52a1497",
+            "id": "98edf74616a33a46",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Science/Machine Learning/Deep learning.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Deep learning"
+            }
+          },
+          {
+            "id": "7cd4f5b8f45e1e30",
             "type": "leaf",
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://mlvu.github.io/probability/#video-021",
-                "title": "Lecture 4: Probabilistic models | MLVU",
+                "url": "https://mlvu.github.io/lecture07/#video-067",
+                "title": "Lecture 7: Deep learning | MLVU",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Lecture 4: Probabilistic models | MLVU"
+              "title": "Lecture 7: Deep learning | MLVU"
+            }
+          },
+          {
+            "id": "9b6bc3f5963da874",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "To Do's (Tq).md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "To Do's (Tq)"
             }
           }
         ]
@@ -144,7 +128,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "surject",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -165,8 +149,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -187,6 +170,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Computer Science/Machine Learning/Deep learning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -196,7 +180,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Deep learning"
             }
           },
           {
@@ -205,11 +189,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Computer Science/Machine Learning/Deep learning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Deep learning"
             }
           },
           {
@@ -233,32 +218,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "Computer Science/Machine Learning/Deep learning.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
-            }
-          },
-          {
-            "id": "2f18b66d315145e2",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "calendar-with-checkmark",
-              "title": "Calendar"
-            }
-          },
-          {
-            "id": "73e26331eacd0048",
-            "type": "leaf",
-            "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {},
-              "icon": "spreadsheet",
-              "title": "Advanced Tables"
+              "title": "Outline of Deep learning"
             }
           }
         ]
@@ -273,6 +239,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "Computer Science/Machine Learning/Deep learning.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -300,7 +267,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Graph of Deep learning"
             }
           }
         ]
@@ -324,67 +291,66 @@
       "command-palette:Open command palette": true,
       "table-editor-obsidian:Advanced Tables Toolbar": true,
       "obsidian-excalidraw-plugin:New Excalidraw drawing": true,
-      "templater-obsidian:Templater": false,
-      "obsidian-advanced-slides:Show Slide Preview": false
+      "templater-obsidian:Templater": false
     }
   },
-  "active": "658bce6724eb8ee1",
+  "active": "0b9caf4874593b48",
   "lastOpenFiles": [
-    "Computer Science/Machine Learning/Probabilistic models.md",
-    "Computer Science/Statistical Methods/Standard normal distribution.md",
-    "Computer Science/Automata and Comlexity/Finite Automata.md",
-    "Computer Science/Statistical Methods/Statistical Methods.md",
-    "PR, ROC and AUC.canvas",
-    "Computer Science/Statistical Methods/Law of Total Probability and Bayes' Theorem.md",
-    "Computer Science/Machine Learning/Linear models and search.md",
+    "Computer Science/Automata and Comlexity/Chomsky Normal Form.md",
+    "Computer Science/Automata and Comlexity/Automata and Complexity.md",
+    "Computer Science/Automata and Comlexity/Context-free Grammars.md",
+    "Cooking and Baking/Garlic Bread.md",
+    "Computer Science/Automata and Comlexity/Turing Machines.md",
+    "Computer Science/Logic and Sets/Functions.md",
+    "Computer Science/Logic and Modelling/Logic and Modelling.md",
+    "Computer Science/Logic and Sets/Logic and Sets.md",
+    "Computer Science/Logic and Sets/Predicate logic.md",
+    "Computer Science/Computer Programming/How to write clean code?.md",
     "Computer Science/Machine Learning/Machine Learning.md",
-    "Computer Science/Introduction to Computer Science/Introduction to Machine Learning.md",
-    "Computer Science/Definitions/Conditional probability.md",
+    "To Do's (Tq).md",
+    "Computer Science/Automata and Comlexity/Automata Minimization.md",
+    "Computer Science/Automata and Comlexity/Context-free Languages.md",
+    "Computer Science/Automata and Comlexity/Untitled.md",
+    "Files/Pasted image 20250319135132.png",
+    "Computer Science/Compiler Construction/CoCo Language and Grammar.md",
     "Interests/Programming and computers/MathJax Basic Tutorial.md",
-    "Computer Science/Definitions/Bayes' Theorem.md",
+    "Cooking and Baking/Honey Sriracha Chicken.md",
+    "Cooking and Baking/Kung Pao Chicken.md",
+    "Cooking and Baking/Chocolate Cookies.md",
+    "Computer Science/Automata and Comlexity/Pumping Lemma for Regular Languages.md",
+    "Computer Science/Compiler Construction/Compiler Construction.md",
+    "Computer Science/Compiler Construction/Control Flow Graph.md",
+    "Computer Science/Automata and Comlexity/Finite Automata.md",
+    "Computer Science/Automata and Comlexity/Languages A&C.md",
+    "Computer Science/Machine Learning/Deep learning.md",
+    "Files/Pasted image 20250317113743.png",
+    "Compressed Files/Behavioral Analysis of Open DNS Resolvers.pdf",
+    "Compressed Files/DNSSEC Ecosystem.pdf",
+    "Untitled.canvas",
+    "Compressed Files/two-input to four-output decoder.png",
+    "Compressed Files/tmpodqbu0ly.png",
+    "Compressed Files/tmpo9sn8zg7.png",
+    "Compressed Files/spektralklassen-2890632653.png",
+    "Compressed Files/signal-2024-10-12-202418_004.png",
+    "Compressed Files/signal-2024-10-12-202418_003.png",
+    "Compressed Files/signal-2024-10-12-202418_002.png",
+    "Compressed Files/note_gen.jpg",
+    "Compressed Files",
+    "untitled folder",
+    "Computer Science/Machine Learning/PR, ROC and AUC.canvas",
+    "Personal/;).canvas",
+    "Files/PDF/SEP2024-Lecture7-CI_CD.pdf",
+    "Files/PDF/SEP2024-Lecture6-DevOps.pdf",
+    "Files/PDF/SEP2024-Lecture5-git-and-GitHub-and-OpenSource.pdf",
+    "Files/PDF/SEP2024-Lecture4-Testing.pdf",
+    "Files/PDF/SEP2024-Lecture3.pdf",
+    "Files/PDF/SEP2024-Lecture2-UP.pdf",
+    "Computer Science/Operating Systems/Four-Level Page Tables.canvas",
     "Computer Science/Projects/Clinical Trials API.canvas",
     "Computer Science/Object Oriented and Functional Programming/Anyref.canvas",
-    "Computer Science/Automata and Comlexity/Automata and Complexity.md",
-    "Files/03_finite_automata.pdf",
-    "Computer Science/Definitions/Confusion Matrix.md",
-    "Files/Branch Search.md",
-    "Computer Science/Machine Learning/Model evaluation.md",
-    "Personal/Callouts.md",
-    "Computer Science/Machine Learning/Machine Learning Outline.md",
-    "Computer Science/Machine Learning/Machine Learning Project.md",
-    "Ranking Classifiers.md",
-    "Ranking Classifiers.md",
-    "Files/Congestion control.md",
-    "Computer Science/Advanced Network Programming/Congestion Control.md",
-    "Computer Science/Advanced Network Programming/Advanced Network Programming.md",
-    "Files/ROC.svg",
-    "Computer Science/Secure Programming/SP Conservative Programming.md",
-    "Computer Science/Pervasive Computing/Percom 8 Classification III.md",
-    "DFA to Regex.md",
-    "Files/blood-age.png",
-    "Files/female.png",
-    "Files/tmpodqbu0ly.png",
-    "Files/tmpo9sn8zg7.png",
-    "Files/Branch Search.svg",
-    "Abstract tasks of Machine Learning.canvas",
-    "Computer Science/Machine Learning",
-    "Computer Science/Automata and Comlexity",
-    "Computer ScienceCompiler Construction",
+    "Computer Science/Machine Learning/Abstract tasks of Machine Learning.canvas",
     "Computer Science/Compiler Construction/Syntax Analysis Diagram.canvas",
     "Computer Science/Compiler Construction/Not a Natural loop.canvas",
-    "Computer Science/Compiler Construction/CFG and Basic Blocks.canvas",
-    "Computer Science/Compiler Construction 1",
-    "Files/Pasted image 20250128191102.png",
-    "Files/Pasted image 20250128191050.png",
-    "Files/Pasted image 20250128183946.png",
-    "Files/Pasted image 20250128182857.png",
-    "Computer Science/Compiler Construction",
-    "Computer Science/Concurrency and Multithreading",
-    "Files/Congestion Control.svg~",
-    "Files/Congestion.svg~",
-    "Files/Congestion Control export.svg~",
-    "Computer Science/Software Engineering Processes/Diagram of how all the software processes relate.canvas",
-    "Computer Science/Software Engineering Processes/Functional testing.canvas",
-    "Computer Science/Software Engineering Processes/Software Release Process.canvas"
+    "Computer Science/Compiler Construction/CFG and Basic Blocks.canvas"
   ]
 }

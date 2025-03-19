@@ -1,21 +1,21 @@
-- [x] Grade P1
-- [x] Grade A2
-- [x] Grade A3
-	- [x] Fix issue with server is busy
-- [x] Do website for automation
-- [x] Update google drive Mentor Program
-- [x] Submit Assignment 3 CoCo
 - [ ] DHL packet
-- [x] Tikkie everyone for gift
-- [x] Get gift for Melisa
-- [x] Plan Maurice's birthday
-	- [ ] Get gift for Maurice
+- [ ] Get gift for Maurice
 - [ ] Plan reunion for Mentor Program
 	- [ ] Create card game
-- [x] Upload pictures for PONG
-- [x] Meeting with CO TAs on Thursday 30th at 11:00
-- [ ] Read paper for Bala
-- [x] Improve project proposal RE
-- [x] Get hoodies
 - [ ] Get Dad a gift
-- [x] Create presentation for taster day
+- [ ] Get Henri soldering
+- [x] Ask Bala about VM (and DNS server) and about papers to read
+	- [x] Write introduction in group
+- [x] Look for alternative to [Iluminati](https://github.com/luminati-io/luminati-proxy)
+- [ ] Setup github for thesis
+- [x] Setup presentation for thesis
+- [ ] ESP32 or Arduino
+- [x] Grade assignments
+- [x] Look at exercise 4
+	- [x] Post comment for group 5
+- [x] Look at assignment 2
+	- [x] Tell students about investor position
+- [ ] Change ing to student account
+- [x] Pay tikkie abhigya
+- [x] scrum retrospective/review
+- [x] Product backlog features?

@@ -367,5 +367,5 @@ classDiagram
 
 ---
 References: 
-[[02_3_class_diagrams_relationships.pdf]]
 [[02_4_class_diagrams_creating.pdf]]
+[[02_3_class_diagrams_relationships.pdf]]
