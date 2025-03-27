@@ -152,6 +152,159 @@ k_{1} &= w_{11}x_{1}+w_{21}x_{2}+b_{1}
 > [!summary]- Loss functions
 > ![|500](https://mlvu.github.io/beyondlinear/32.Linear.key-stage-0080.svg)
 # Support Vector Machines
+## 🔹 Introduction
+
+Support Vector Machines (**SVMs**) are powerful models for **classification and regression** that extend **linear models** to handle **non-linearly separable data** using **kernel tricks**.
+
+The main ideas behind **SVMs**:  
+- **Maximize margin** between classes.  
+- **Use kernels** to map data to higher dimensions.  
+- **Handle non-separable cases** with **slack variables**.
+
+---
+
+## 📌 Recap: Linear SVMs
+
+A **hard-margin SVM** (for linearly separable data) finds a decision boundary:
+
+$$w^{\top}x+b=0$$
+
+The goal is to **maximize the margin** $\frac{2}{\lVert w\rVert}$, leading to the **optimization problem**:
+
+$$\underset{w,b}{\min} \frac{1}{2} {\lVert w\rVert}^2$$
+
+subject to:
+
+$$y_i (w^T x_i + b) \geq 1, \quad \forall i$$
+
+where:
+
+- $w$ is the weight vector,
+- $b$ is the bias,
+- $y_i \in \{+1, -1\}$ are class labels.
+
+> [!warning] **Limitations of Linear SVMs**
+> 
+> - Only works for **linearly separable** data.
+> - Sensitive to **outliers**.
+> - Can't model **complex decision boundaries**.
+
+---
+
+## 🔥 Soft-Margin SVM (Handling Overlap & Noise)
+
+For **non-separable data**, we introduce **slack variables** $\xi_i$ to allow some misclassification:
+
+$$y_i (w^T x_i + b) \geq 1 - \xi_i, \quad \forall i$$
+
+The new **objective function** balances **margin size** and **misclassification**:
+
+$$\min_{w, b, \xi} \frac{1}{2} \|w\|^2 + C \sum_{i=1}^{n} \xi_i$$
+
+where:
+
+- $C$ is a **regularization parameter** controlling the trade-off between **margin size** and **misclassification**.
+
+> [!info] **Choosing $C$**
+> 
+> - **Large $C$** → fewer misclassifications (overfitting).
+> - **Small $C$** → larger margin with more misclassifications (better generalization).
+
+---
+
+## 🎭 Non-Linearly Separable Data: The Kernel Trick
+
+If data **isn't linearly separable**, we map it to a **higher-dimensional space** using a **feature transformation** $\phi(x)$:
+
+$$\Phi: \mathbb{R}^d \to \mathbb{R}^{D}, \quad D \gg d$$
+
+> [!question] **Why not explicitly transform data?**  
+> Computing $\Phi(x)$ directly is **computationally expensive**. Instead, we use **Kernels** to compute dot products **efficiently** in the transformed space.
+
+### Kernel Trick
+
+Instead of computing $\Phi(x)$ explicitly, we compute:
+
+$$K(x, x') = \langle \Phi(x), \Phi(x') \rangle$$
+
+where $K(x, x')$ is a **kernel function** that measures similarity.
+
+> [!tip] **Think of kernels as a shortcut!**  
+> Instead of transforming data, we compute the dot product in the **high-dimensional space directly**.
+
+---
+
+## 🔑 Common Kernel Functions
+
+### 1️⃣ Polynomial Kernel
+
+$$K(x, x') = (x^T x' + c)^d$$
+
+- Allows learning **curved decision boundaries**.
+- $d$ controls the degree of the polynomial.
+- Larger $d$ makes the boundary more flexible.
+
+### 2️⃣ Radial Basis Function (RBF) Kernel
+
+$$K(x, x') = \exp \left(-\gamma \|x - x'\|^2 \right)$$
+
+- Maps data to an **infinite-dimensional space**!
+- **$\gamma$** controls spread → small $\gamma$ means smoother decision boundary.
+
+### 3️⃣ Sigmoid Kernel (Used in Neural Networks)
+
+$$K(x, x') = \tanh(\alpha x^T x' + c)$$
+
+- Inspired by **neural networks**.
+- Less commonly used in practice.
+
+> [!info] **Which kernel should I choose?**
+> 
+> - **Linear Kernel** → Use when data is roughly linear.
+> - **Polynomial Kernel** → When data has polynomial-like structure.
+> - **RBF Kernel** → Default choice for most problems.
+
+---
+
+## ⚙️ **Dual Formulation of SVMs**
+
+Instead of solving in **primal space**, we reformulate in terms of **Lagrange multipliers** $\alpha_i$:
+
+$$\max_{\alpha} \sum_{i=1}^{n} \alpha_i - \frac{1}{2} \sum_{i=1}^{n} \sum_{j=1}^{n} y_i y_j \alpha_i \alpha_j K(x_i, x_j)$$
+
+subject to:
+
+$$0 \leq \alpha_i \leq C, \quad \sum_{i=1}^{n} \alpha_i y_i = 0$$
+
+where $\alpha_i$ controls how much influence each support vector has.
+
+### **Decision Function**
+
+Once trained, classification is done via:
+
+$$f(x) = \sum_{i=1}^{n} \alpha_i y_i K(x_i, x) + b$$
+
+> [!note] **Key Insights**
+> 
+> - Only **support vectors** have $\alpha_i > 0$ (most points don’t matter).
+> - Kernel trick is **used here** to compute similarities efficiently.
+
+---
+
+## 🏁 **Summary**
+
+✅ **SVMs maximize margin** to improve generalization.  
+✅ **Soft-margin SVM** allows handling **overlapping classes**.  
+✅ **Kernel trick** enables modeling **non-linearly separable** data.  
+✅ **RBF kernel is the most widely used**.  
+✅ **Only support vectors determine decision boundary**.
+
+---
+
+## 🎯 **Final Thoughts**
+
+SVMs are **versatile and powerful**, especially for small to medium-sized datasets. However, they can be **computationally expensive** for large datasets, where **deep learning** may be more practical.
+
 
 ---
 References:https://mlvu.github.io/beyondlinear/

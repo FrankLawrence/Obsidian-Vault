@@ -13,72 +13,45 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Automata and Comlexity/Automata and Complexity.md",
+                "file": "Computer Science/Automata and Comlexity/Automata and Complexity Theorems.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Automata and Complexity"
+              "title": "Automata and Complexity Theorems"
             }
           },
           {
-            "id": "942f6498125a4f09",
+            "id": "b18ca69d7376ea08",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Logic and Sets/Functions.md",
+                "file": "Computer Science/Automata and Comlexity/Automata and Complexity Definitions.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Functions"
+              "title": "Automata and Complexity Definitions"
             }
           },
           {
-            "id": "7b12abc35f4e72e3",
+            "id": "b0f5a1687f187ff4",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Computer Science/Machine Learning/Machine Learning.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": false
+                "file": "Chomsky Hierarchy.canvas",
+                "viewState": {
+                  "x": 0,
+                  "y": 0,
+                  "zoom": 0
+                }
               },
-              "icon": "lucide-file",
-              "title": "Machine Learning"
-            }
-          },
-          {
-            "id": "98edf74616a33a46",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Machine Learning/Deep learning.md",
-                "mode": "source",
-                "source": true,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Deep learning"
-            }
-          },
-          {
-            "id": "7cd4f5b8f45e1e30",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://mlvu.github.io/lecture07/#video-067",
-                "title": "Lecture 7: Deep learning | MLVU",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Lecture 7: Deep learning | MLVU"
+              "icon": "lucide-layout-dashboard",
+              "title": "Chomsky Hierarchy"
             }
           },
           {
@@ -96,7 +69,8 @@
               "title": "To Do's (Tq)"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -128,7 +102,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "surject",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -149,7 +123,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -170,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Machine Learning/Deep learning.md",
+                "file": "Computer Science/Machine Learning/Model evaluation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -180,7 +155,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Deep learning"
+              "title": "Backlinks for Model evaluation"
             }
           },
           {
@@ -218,16 +193,37 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Machine Learning/Deep learning.md",
+                "file": "Computer Science/Machine Learning/Model evaluation.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Deep learning"
+              "title": "Outline of Model evaluation"
+            }
+          },
+          {
+            "id": "0d39273fa84d6476",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {},
+              "icon": "history",
+              "title": "History"
+            }
+          },
+          {
+            "id": "cb291de2df1448c5",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       },
       {
         "id": "818802a40b9b4fd6",
@@ -239,7 +235,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Computer Science/Machine Learning/Deep learning.md",
+                "file": "Computer Science/Machine Learning/Model evaluation.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -267,7 +263,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Deep learning"
+              "title": "Graph of Model evaluation"
             }
           }
         ]
@@ -294,47 +290,46 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "0b9caf4874593b48",
+  "active": "b0f5a1687f187ff4",
   "lastOpenFiles": [
-    "Computer Science/Automata and Comlexity/Chomsky Normal Form.md",
     "Computer Science/Automata and Comlexity/Automata and Complexity.md",
-    "Computer Science/Automata and Comlexity/Context-free Grammars.md",
-    "Cooking and Baking/Garlic Bread.md",
-    "Computer Science/Automata and Comlexity/Turing Machines.md",
-    "Computer Science/Logic and Sets/Functions.md",
-    "Computer Science/Logic and Modelling/Logic and Modelling.md",
-    "Computer Science/Logic and Sets/Logic and Sets.md",
-    "Computer Science/Logic and Sets/Predicate logic.md",
-    "Computer Science/Computer Programming/How to write clean code?.md",
-    "Computer Science/Machine Learning/Machine Learning.md",
-    "To Do's (Tq).md",
-    "Computer Science/Automata and Comlexity/Automata Minimization.md",
-    "Computer Science/Automata and Comlexity/Context-free Languages.md",
-    "Computer Science/Automata and Comlexity/Untitled.md",
-    "Files/Pasted image 20250319135132.png",
-    "Computer Science/Compiler Construction/CoCo Language and Grammar.md",
-    "Interests/Programming and computers/MathJax Basic Tutorial.md",
-    "Cooking and Baking/Honey Sriracha Chicken.md",
-    "Cooking and Baking/Kung Pao Chicken.md",
-    "Cooking and Baking/Chocolate Cookies.md",
+    "Chomsky Hierarchy.canvas",
     "Computer Science/Automata and Comlexity/Pumping Lemma for Regular Languages.md",
-    "Computer Science/Compiler Construction/Compiler Construction.md",
-    "Computer Science/Compiler Construction/Control Flow Graph.md",
+    "Computer Science/Automata and Comlexity/Automata and Complexity Definitions.md",
+    "Computer Science/Automata and Comlexity/Automata and Complexity Theorems.md",
+    "To Do's (Tq).md",
+    "Computer Science/Networks and Graphs/Harary Graphs.md",
+    "Computer Science/Networks and Graphs/Networks and Graphs Foundations.md",
+    "Files/Harary graphs.png",
+    "Computer Science/Automata and Comlexity/Context-free Languages.md",
+    "Computer Science/Automata and Comlexity/Recursively Enumerable Languages.md",
+    "Computer Science/Automata and Comlexity/Properties of Context-free Languages.md",
+    "Computer Science/Automata and Comlexity/Automata and Complexity Algorithms.md",
+    "Computer Science/Automata and Comlexity/Properties of Regular Languages.md",
+    "Computer Science/Automata and Comlexity/Regular Expressions.md",
+    "Computer Science/Machine Learning/Decision Tree ML Exercise 3.md",
+    "Computer Science/Machine Learning/ML Exercise 3 ROC curves, Naive Bayes and Entropy.md",
+    "Computer Science/Automata and Comlexity/Regular Grammars.md",
     "Computer Science/Automata and Comlexity/Finite Automata.md",
     "Computer Science/Automata and Comlexity/Languages A&C.md",
-    "Computer Science/Machine Learning/Deep learning.md",
-    "Files/Pasted image 20250317113743.png",
+    "Computer Science/Networks and Graphs/Networks and Graphs.md",
+    "Computer Science/Networks and Graphs/Networks and Graphs Trees.md",
+    "Computer Science/Machine Learning/Machine Learning.md",
+    "Computer Science/Machine Learning/ML Exercise 4 SVMs and Backpropagation.md",
+    "Computer Science/Machine Learning/Tree Models.md",
+    "Computer Science/Logic and Sets/Functions.md",
+    "Computer Science/Databases/SQL.md",
+    "Files/Maximum Likelihood Normal Distribution.svg",
+    "Files/Pasted image 20250322161848.png",
+    "Files/Pasted image 20250320114401.png",
+    "Files/Pasted image 20250320112834.png",
+    "Files/Pasted image 20250320111614.png",
+    "Files/Pasted image 20250320111515.png",
+    "Files/Pasted image 20250320085914.png",
+    "Files/Pasted image 20250320085140.png",
+    "Files/Pasted image 20250320084803.png",
     "Compressed Files/Behavioral Analysis of Open DNS Resolvers.pdf",
     "Compressed Files/DNSSEC Ecosystem.pdf",
-    "Untitled.canvas",
-    "Compressed Files/two-input to four-output decoder.png",
-    "Compressed Files/tmpodqbu0ly.png",
-    "Compressed Files/tmpo9sn8zg7.png",
-    "Compressed Files/spektralklassen-2890632653.png",
-    "Compressed Files/signal-2024-10-12-202418_004.png",
-    "Compressed Files/signal-2024-10-12-202418_003.png",
-    "Compressed Files/signal-2024-10-12-202418_002.png",
-    "Compressed Files/note_gen.jpg",
     "Compressed Files",
     "untitled folder",
     "Computer Science/Machine Learning/PR, ROC and AUC.canvas",

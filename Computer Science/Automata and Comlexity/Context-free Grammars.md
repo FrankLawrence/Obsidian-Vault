@@ -21,7 +21,7 @@ The resulting grammar $G$ has the property $L(G)=L \setminus \{\lambda\}$
 
 > [!example]
 > Consider the following grammar
-> $$S\to ABaC \qquad A\to BC \qquad B \to b \,\vert\, \lambda \qquad C \to D \,\vert\, \lambda \qquad D \to d$$
+> $$S\to ABaC \qquad A\to BC \qquad B \to b \mid \lambda \qquad C \to D \mid \lambda \qquad D \to d$$
 > > [!question]- Which variables can produce $\lambda$?
 > > - $B\Rightarrow ^{*}\lambda$ since $B\to \lambda$
 > > - $C\Rightarrow ^{*}\lambda$ since $C\to \lambda$
@@ -29,8 +29,8 @@ The resulting grammar $G$ has the property $L(G)=L \setminus \{\lambda\}$
 > 
 > The result of removing all $\lambda$-rules is:
 > $$\begin{align}
-> S &\to ABaC \;\vert\; BaC \;\vert\; AaC \;\vert\; ABa \;\vert\; aC \;\vert\; Ba \;\vert\; Aa \;\vert\; a \\
-> A &\to BC \;\vert\; C \;\vert\; B \\
+> S &\to ABaC \mid BaC \mid AaC \mid ABa \mid aC \mid Ba \mid Aa \mid a \\
+> A &\to BC \mid C \mid B \\
 > B &\to b \\
 > C &\to D \\
 > D &\to d
@@ -51,7 +51,7 @@ The resulting grammar $G$ has no $\lambda$- and unit-productions and it has the 
 
 > [!example]
 > Remove all unit production rules from 
-> $$S\to Aa \;\vert\; B \qquad A \to a \;\vert\; bc \;\vert\; B \qquad B \to A \;\vert\; bb$$
+> $$S\to Aa \mid B \qquad A \to a \mid bc \mid B \qquad B \to A \mid bb$$
 > Note that there are no $\lambda$-productions. So no need to first remove $\lambda$-productions.
 > 1. We determine all pairs $A\neq B$ with $A\Rightarrow^{+}B$:
 > 	1. $S\Rightarrow^{+}B$
@@ -67,12 +67,12 @@ The resulting grammar $G$ has no $\lambda$- and unit-productions and it has the 
 > 
 > Applying this reasoning also to $A$ and $B$, we get the following rules:
 > $$\begin{align}
-> S &\to Aa \;\vert\; B \;\vert\; a \;\vert\; bc \;\vert\; A \;\vert\; bb \\
-> A &\to a \;\vert\; bc \;\vert\; B \;\vert\; A \;\vert\; bb \\
-> B &\to A \;\vert\; bb \;\vert\; a \;\vert\; bc \;\vert\; B
+> S &\to Aa \mid B \mid a \mid bc \mid A \mid bb \\
+> A &\to a \mid bc \mid B \mid A \mid bb \\
+> B &\to A \mid bb \mid a \mid bc \mid B
 > \end{align}$$
 > 1. Removing all unit production rules yields the final result:
-> 2. $$S \to a \;\vert\; bb \;\vert\; bc \;\vert\; Aa \qquad A \to a \;\vert\; bb \;\vert\; bc \qquad B \to a \;\vert\; bb \;\vert\; bc$$
+> 2. $$S \to a \mid bb \mid bc \mid Aa \qquad A \to a \mid bb \mid bc \qquad B \to a \mid bb \mid bc$$
 ## Removal of Useless variables
 A variable is *useless* if it cannot be part of a derivation from the starting symbol to a terminal word.
 
@@ -80,13 +80,13 @@ A variable is *useless* if it cannot be part of a derivation from the starting s
 - Removing production rules that contain a useless variable from a grammar does not change the generated language.
 
 > [!example]-
-> Consider the following grammar: $$S \to aSb \;\vert\; BC \;\vert\; \lambda \qquad A \to Sb \qquad B \to a \qquad C\to C$$
+> Consider the following grammar: $$S \to aSb \mid BC \mid \lambda \qquad A \to Sb \qquad B \to a \qquad C\to C$$
 > Which variables are useless?
 > - $A$ because there is no derivation $S\Rightarrow^{*}uAv$
 > - $C$ because there is no derivation $C\Rightarrow^{*}w$ with $w\in T^{*}$
 > - $B$ because $B$ can be reached only together with $C$
 > 
-> The resulting grammar is $$S\to aSb \;\vert\; \lambda$$
+> The resulting grammar is $$S\to aSb \mid \lambda$$
 
 - A variable $A$ is called **productive** if $A \Rightarrow^{+}w$ with $w\in T^{*}$
   non-productive variables are useless
@@ -100,7 +100,7 @@ So the set of productive variables can be computed iteratively as follows:
 3. Repeat step 2 until there is nothing new to add
 
 > [!example]-
-> $$S \to aSb \;\vert\; BC \;\vert\; \lambda \qquad A \to Sb \qquad B \to a \qquad C\to C$$
+> $$S \to aSb \mid BC \mid \lambda \qquad A \to Sb \qquad B \to a \qquad C\to C$$
 > We determine the productive variables:
 > - $P=\emptyset$
 > - we add $S$ to $P$ because of the rule $S\to \lambda$; now $P=\{\;S\;\}$
@@ -116,13 +116,13 @@ First, we remove all rules that contain a **non**-productive variable. Second, w
 Third, we remove all rules that contain a **non**-reachable variable. A variable of the original grammar is *useless* if it does not occur in one of the remaining rules
 
 > [!example]-
-> $$S \to aSb \;\vert\; BC \;\vert\; \lambda \qquad A \to Sb \qquad B \to a \qquad C\to C$$
+> $$S \to aSb \mid BC \mid \lambda \qquad A \to Sb \qquad B \to a \qquad C\to C$$
 > The set of productive variables is $\{\;S,A,B\;\}$. So $C$ is the only non-productive variable.
-> We remove all rules containing non-productive variables: $$S\to aSb\;\vert\;\lambda \qquad A\to Sb \qquad B\to a$$
+> We remove all rules containing non-productive variables: $$S\to aSb\mid\lambda \qquad A\to Sb \qquad B\to a$$
 > Which variables are reachable from $S$? 
 > - only $S$ is reachable
 > 
-> We remove all rules containing non-reachable variables: $$S\to aSb\;\vert\; \lambda$$
+> We remove all rules containing non-reachable variables: $$S\to aSb\mid \lambda$$
 > Hence only $S$ is useful, the variables $A,B$ and $C$ are not useful.
 
 ---

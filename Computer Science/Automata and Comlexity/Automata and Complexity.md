@@ -1,6 +1,6 @@
 ---
 Tags: MOC course Math
-alias: A&C
+alias: AC
 ---
 (Links:: [[Uni Courses🎓]])
 ## Notes and Ideas
@@ -8,6 +8,9 @@ alias: A&C
 - [[Automata and Complexity Structure]]
 ## Assignments
 ## Topics
+- [[Automata and Complexity Theorems]]
+- [[Automata and Complexity Definitions]]
+- [[Automata and Complexity Algorithms]]
 ## Lectures
 - [[Introduction to A&C]]
 - [[Languages A&C]]
@@ -24,14 +27,14 @@ alias: A&C
 	- [[CYK Parsing]]
 	- [[LL Parsing]]
 	- [[Pushdown Automata]]
-	- [[Pumping Lemma for Context-free Languages]]
-	- [[Properties of Context-free Languages]]
+	- [ ] [[Pumping Lemma for Context-free Languages]]
+	- [ ] [[Properties of Context-free Languages]]
 - [[Recursively Enumerable Languages]]
 	- [[Turing Machines]]
-	- [[Recursively Enumerable Languages]]
-	- [[Unrestricted Grammars]]
+	- [ ] [[Recursively Enumerable Languages]]
+	- [ ] [[Unrestricted Grammars]]
 - [[Context-Sensitive Languages]]
-- [[Chomsky Hierarchy]]
+- [[Chomsky Hierarchy]] 
 - [[Undecidability]]
 - [[Complexity]]
 ## Extras

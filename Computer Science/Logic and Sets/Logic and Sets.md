@@ -18,6 +18,7 @@ alias: LS
 - [[Logic Exercises 6]]
 - [[Exam questions]]
 ## Topics
+[[Logic and Sets Summary]]
 ### Logic
 [[Basics]]
 [[Declaritive sentences]]

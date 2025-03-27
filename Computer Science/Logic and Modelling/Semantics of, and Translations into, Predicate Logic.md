@@ -5,19 +5,19 @@ Created: 2024-05-07 12:42:06
 (Links:: [[Logic and Modelling]])
 # [[Equivalence relations|Logic Equivalence ]]
 > [!definition] Logical equivalence
-> Formulas $\phi$ and $\psi$ are **logically equivalent**, denoted by $$\phi = \psi$$ if for all models $\mathcal{M}$ and environments $\mathscr{l}$: $$\mathcal{M}\vDash_{\mathscr{l}}\;\phi \Longleftrightarrow \mathcal{M}\vDash_{\mathscr{l}}\;\psi$$
+> Formulas $\phi$ and $\psi$ are **logically equivalent**, denoted by $$\phi = \psi$$ if for all models $\mathcal{M}$ and environments $\mathscr{l}$: $$\mathcal{M}\vDash_{\mathscr{l}}\;\phi \iff \mathcal{M}\vDash_{\mathscr{l}}\;\psi$$
 > That is, $\phi$ and $\psi$ are true in precisely the same models when interpreted with the same environments.
 
 > [!info] Theorem
-> $$\phi \equiv \psi \quad \Longleftrightarrow \quad \phi \vDash \psi \;\textrm{ and }\; \psi \vDash \phi$$
+> $$\phi \equiv \psi \quad \iff \quad \phi \vDash \psi \;\textrm{ and }\; \psi \vDash \phi$$
 > > [!info]- Proof
 > > $$\begin{align}
 > > \phi & \equiv \psi \\
-> > 	& \Longleftrightarrow \textrm{for all } \mathcal{M} \textrm{ and } \mathscr{l}: \\  
+> > 	& \iff \textrm{for all } \mathcal{M} \textrm{ and } \mathscr{l}: \\  
 > > 	& \qquad \;(\mathcal{M} \vDash_{\mathscr{l}} \,\phi\Rightarrow \mathcal{M} \vDash_{\mathscr{l}}\,\psi) \textrm{ and } (\mathcal{M} \vDash_{\mathscr{l}} \,\psi\Rightarrow \mathcal{M} \vDash_{\mathscr{l}}\,\phi) \\
-> > 	& \Longleftrightarrow \textrm{for all } \mathcal{M} \textrm{ and } \mathscr{l}: (\mathcal{M} \vDash_{\mathscr{l}} \,\phi\Rightarrow \mathcal{M} \vDash_{\mathscr{l}}\,\psi) \\  
+> > 	& \iff \textrm{for all } \mathcal{M} \textrm{ and } \mathscr{l}: (\mathcal{M} \vDash_{\mathscr{l}} \,\phi\Rightarrow \mathcal{M} \vDash_{\mathscr{l}}\,\psi) \\  
 > > 	& \qquad \,\textrm{ and for all } \mathcal{M} \textrm{ and } \mathscr{l}: (\mathcal{M} \vDash_{\mathscr{l}} \,\psi\Rightarrow \mathcal{M} \vDash_{\mathscr{l}}\,\phi) \\
-> > 	& \Longleftrightarrow \phi \vDash \psi \;\textrm{ and }\; \psi \vDash \phi
+> > 	& \iff \phi \vDash \psi \;\textrm{ and }\; \psi \vDash \phi
 > > \end{align}$$
 
 > [!example]- Proving Logical Equivalence
@@ -25,12 +25,12 @@ Created: 2024-05-07 12:42:06
 > For all models $\mathcal{M}$ with domain $A$ and environments $\mathscr{l}$ we find:
 > $$\begin{align}
 > \mathcal{M} & \vDash_{\mathscr{l}} \;\neg \forall xP(x) \\
-> 	& \Longleftrightarrow \text{not: } \mathcal{M} \vDash_{\mathscr{l}} \forall x P(x) \\
-> 	& \Longleftrightarrow \text{not for all } a\in A: \mathcal{M} \vDash_{\mathscr{l}[x\mapsto a]} P(x) \\
-> 	& \Longleftrightarrow \text{there exists } a \in A \text{ such that not: } \mathcal{M} \vDash_{\mathscr{l}[x\mapsto a]} P(x) \\
-> 	& \Longleftrightarrow \text{there exists } a \in A \text{ such that: } \mathcal{M} \nvDash_{\mathscr{l}[x\mapsto a]} P(x) \\
-> 	& \Longleftrightarrow \text{there exists } a \in A \text{ such that not: } \mathcal{M} \vDash_{\mathscr{l}[x\mapsto a]} \neg P(x) \\
-> 	& \Longleftrightarrow \mathcal{M} \vDash_{\mathscr{l}} \exists x \,\neg P(x)
+> 	& \iff \text{not: } \mathcal{M} \vDash_{\mathscr{l}} \forall x P(x) \\
+> 	& \iff \text{not for all } a\in A: \mathcal{M} \vDash_{\mathscr{l}[x\mapsto a]} P(x) \\
+> 	& \iff \text{there exists } a \in A \text{ such that not: } \mathcal{M} \vDash_{\mathscr{l}[x\mapsto a]} P(x) \\
+> 	& \iff \text{there exists } a \in A \text{ such that: } \mathcal{M} \nvDash_{\mathscr{l}[x\mapsto a]} P(x) \\
+> 	& \iff \text{there exists } a \in A \text{ such that not: } \mathcal{M} \vDash_{\mathscr{l}[x\mapsto a]} \neg P(x) \\
+> 	& \iff \mathcal{M} \vDash_{\mathscr{l}} \exists x \,\neg P(x)
 > \end{align}$$
 > Hence we can conclude: $\neg \forall xP(x) \equiv \exists x\,\neg P(x)$.
 
@@ -49,11 +49,11 @@ For all formulas $\phi$, $\psi$ the following statements are equivalent:
 > For all models $\mathcal{M}$ and environments $\mathscr{l}$ it holds:
 > $$\begin{align}
 > \mathcal{M} & \vDash_{\mathscr{l}} \;\phi \leftrightarrow \psi \\
-> 	& \Longleftrightarrow \mathcal{M} \vDash_{\mathscr{l}} (\phi \to \psi)\land (\psi \to \phi) \\
-> 	& \Longleftrightarrow \mathcal{M} \vDash_{\mathscr{l}} \phi \to \psi \text{ and } \mathcal{M} \vDash_{\mathscr{l}} \psi \to \phi \\
-> 	& \Longleftrightarrow \quad\;\;\; \text{if } \mathcal{M} \vDash_{\mathscr{l}} \phi, \text{ then }\mathcal{M} \vDash_{\mathscr{l}} \psi, \\
+> 	& \iff \mathcal{M} \vDash_{\mathscr{l}} (\phi \to \psi)\land (\psi \to \phi) \\
+> 	& \iff \mathcal{M} \vDash_{\mathscr{l}} \phi \to \psi \text{ and } \mathcal{M} \vDash_{\mathscr{l}} \psi \to \phi \\
+> 	& \iff \quad\;\;\; \text{if } \mathcal{M} \vDash_{\mathscr{l}} \phi, \text{ then }\mathcal{M} \vDash_{\mathscr{l}} \psi, \\
 > 	& \qquad\;\, \text{and if } \mathcal{M} \vDash_{\mathscr{l}} \psi, \text{ then } \mathcal{M} \vDash_{\mathscr{l}} \phi \\
-> 	& \Longleftrightarrow (\mathcal{M} \vDash_{\mathscr{l}} \phi \Longleftrightarrow \mathcal{M}\vDash_{\mathscr{l}}\psi)
+> 	& \iff (\mathcal{M} \vDash_{\mathscr{l}} \phi \iff \mathcal{M}\vDash_{\mathscr{l}}\psi)
 > \end{align}$$
 > From this we conclude: $\phi\leftrightarrow \psi$ is valid if and only if $\phi\equiv \psi$
 

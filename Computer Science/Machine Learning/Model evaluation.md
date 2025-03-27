@@ -74,14 +74,12 @@ Models can be compared using [[Percom 8 Classification III#Classifiers evaluatio
 - *Majority class classifier*: Used as a **base line** (assigns anything the class with most instances)
 - [[Confusion Matrix|Confusion Matrix]]
 $$
-\begin{array}{cc}
 \begin{array}{c|ccc}
  & \text{pos} & \text{neg} \\
 \hline
 \text{pos} & 6 & 1 & 7\\
 \text{neg} & 2 & 5 & 7\\
 & 8 & 6
-\end{array}
 \end{array}
 $$
 

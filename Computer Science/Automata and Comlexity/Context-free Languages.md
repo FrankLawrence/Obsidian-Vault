@@ -6,7 +6,7 @@ Created: 2025-03-18 09:49:44
 A grammar $G=(V,T,S,P)$ is called **context-free** if all production rules are of the form $$A\to u$$ where $A\in V$ and $u\in (V\cup T)^{*}$. That is, the left-hand side of all rules is a single variable. A language $L$ is **context-free** if there is a context-free grammar with $L=L(G)$.
 
 > [!question]
-> Show that the following language is context-free: $$\{a^{n}b^{m}c^{2n} \,|\, n\geq 0, m \geq 0\}$$ 
+> Show that the following language is context-free: $$\{a^{n}b^{m}c^{2n} \mid n\geq 0, m \geq 0\}$$ 
 > > [!tip]- Solution 
 > > We give a context-free grammar for the language
 > > $$\begin{align*}

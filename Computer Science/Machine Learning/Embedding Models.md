@@ -10,4 +10,4 @@ Created: 2025-03-02 23:45:54
 # Validation
 
 ---
-References:
+References: https://mlvu.github.io/lecture12/

@@ -10,4 +10,4 @@ Created: 2025-03-02 23:46:33
 # Social Impact 4
 
 ---
-References:
+References: https://mlvu.github.io/lecture13/

@@ -373,7 +373,7 @@ Non-correlated subqueries evaluate to a set/relation **constant** and may make p
 > > 				WHERE   R.category = 'homework')
 > > ```
 # For All & Implication
-$\exists X(\varphi)$ ($\exists$: [[Existential Quantification]]) shows that there is an $X$ that satisfies formula $\varphi$. Similarly, $\forall X(\varphi)$ ($\forall$: [[Universal Quantification]]) shows that for all $X$, formula $\phi$ is satisfied. SQL does *not* offer a universal quantifier, but only the existential quantifier `EXISTS`. This proves no problem since we know that $$\forall X(\varphi)\quad\Longleftrightarrow\quad\neg\exists X(\neg\varphi)$$
+$\exists X(\varphi)$ ($\exists$: [[Existential Quantification]]) shows that there is an $X$ that satisfies formula $\varphi$. Similarly, $\forall X(\varphi)$ ($\forall$: [[Universal Quantification]]) shows that for all $X$, formula $\phi$ is satisfied. SQL does *not* offer a universal quantifier, but only the existential quantifier `EXISTS`. This proves no problem since we know that $$\forall X(\varphi)\quad\iff\quad\neg\exists X(\neg\varphi)$$
 SQL does also not have $\Rightarrow$. The commonly used pattern $$\forall X(\alpha\Rightarrow \beta)$$ becomes $$\neg\exists X(\alpha\land\neg\beta)$$
 
 > [!question]- Who got the best result for homework 1?

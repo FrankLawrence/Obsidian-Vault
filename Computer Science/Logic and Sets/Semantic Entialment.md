@@ -10,7 +10,7 @@ Created: 2022-11-08 13:49:08
 
 > [!important]+ Deduction Theorem
 > For all formulas $\phi_1 ,\dots ,\phi_n \; \text{and} \; \psi:$
-> $$\phi_1 ,\dots ,\phi_n \vDash \psi \Longleftrightarrow \phi_1,\dots,\phi_{n-1} \vDash \phi_n \to \psi$$
+> $$\phi_1 ,\dots ,\phi_n \vDash \psi \iff \phi_1,\dots,\phi_{n-1} \vDash \phi_n \to \psi$$
 
 ---
 References:

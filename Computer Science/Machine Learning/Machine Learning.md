@@ -10,6 +10,11 @@ alias: ML
 - [[Machine Learning Project]]
 - [[Machine Learning Schedule]]
 ## Assignments
+- [[ML Exercise 1 Preliminaries]]
+- [[ML Exercise 2 Gradients]]
+- [[ML Exercise 3 ROC curves, Naive Bayes and Entropy]]
+- [[ML Exercise 4 SVMs and Backpropagation]]
+- [[ML Exercise 5 Markov models and Tensor Backpropagation]]
 ## Topics
 ## Lectures
 - [[Introduction to Machine Learning]]

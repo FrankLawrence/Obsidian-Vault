@@ -4,18 +4,15 @@
 	- [ ] Create card game
 - [ ] Get Dad a gift
 - [ ] Get Henri soldering
-- [x] Ask Bala about VM (and DNS server) and about papers to read
-	- [x] Write introduction in group
-- [x] Look for alternative to [Iluminati](https://github.com/luminati-io/luminati-proxy)
 - [ ] Setup github for thesis
-- [x] Setup presentation for thesis
+	- [ ] setup google group
 - [ ] ESP32 or Arduino
-- [x] Grade assignments
-- [x] Look at exercise 4
-	- [x] Post comment for group 5
-- [x] Look at assignment 2
-	- [x] Tell students about investor position
 - [ ] Change ing to student account
-- [x] Pay tikkie abhigya
-- [x] scrum retrospective/review
-- [x] Product backlog features?
+- [ ] Ask for regrading
+- [ ] Grade assignment 2
+	- [ ] Inform students that they failed
+- [ ] Get reimbursed STORM
+- [x] Ask bala for the papers I should read
+- [x] Write construction of $First(w)$
+- [x] Write construction of $Follow(w)$
+- [x] Practice LL(1)

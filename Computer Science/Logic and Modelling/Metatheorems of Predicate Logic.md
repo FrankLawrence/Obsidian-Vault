@@ -8,7 +8,7 @@ Created: 2024-05-27 21:12:34
 > - $\Gamma \vdash \psi$: there is a natural deduction derivation of $\psi$ that uses only premises in $\Gamma$ 
 > - $\Gamma \vDash \psi$: for all $\mathcal{M}$ and $\ell$: if $\mathcal{M}\vDash_{\ell}\phi$ for every $\phi \in \Gamma$ , then $\mathcal{M}\vDash\psi$
 ## Soundness and Completeness Theorem
-The syntactic version $\vdash$ and the semantic version $\vDash$ of logical entailment **coincide**: $$\Gamma\vdash \phi\quad\Longleftrightarrow\quad\Gamma\vDash\phi$$ holds for all formulas $\phi$, and every set $\Gamma$ of formulas.
+The syntactic version $\vdash$ and the semantic version $\vDash$ of logical entailment **coincide**: $$\Gamma\vdash \phi\quad\iff\quad\Gamma\vDash\phi$$ holds for all formulas $\phi$, and every set $\Gamma$ of formulas.
 Two directions: $$\begin{align}
 & \Longrightarrow\;:\text{ soundness (correctness)} \\
 & \Longleftarrow\;:\text{ completeness}
@@ -34,7 +34,7 @@ We [[Semantics of, and Translations into, Predicate Logic#Satisfiability, Validi
 A set $\Gamma$ of formulas is syntactically consistent if: $$\Gamma\nvdash\bot$$ (That is, there is no derivation of $\bot$ from $\Gamma$.)
 
 > [!definition] Theorem (Consistency)
-> For every set $\Gamma$ of formulas it holds: $$\Gamma \text{ is consistent }\quad\Longleftrightarrow\quad\Gamma \text{ is syntactically consistent}$$ or, put differently: $$\Gamma \text{ has a model }\quad\Longleftrightarrow\quad\text{ there is no derivation of $\bot$ from } \Gamma$$
+> For every set $\Gamma$ of formulas it holds: $$\Gamma \text{ is consistent }\quad\iff\quad\Gamma \text{ is syntactically consistent}$$ or, put differently: $$\Gamma \text{ has a model }\quad\iff\quad\text{ there is no derivation of $\bot$ from } \Gamma$$
 > > [!info]- Proof of $\Rightarrow$
 > > 1. Let $\mathcal{M}$ and $\ell$ such that $\mathcal{M}\vDash_{\ell}\Gamma$
 > > 2. Note that $\mathcal{M}\nvDash_{\ell}\bot$
@@ -49,7 +49,7 @@ A set $\Gamma$ of formulas is syntactically consistent if: $$\Gamma\nvdash\bot$$
 
 ## Compactness Theorem
 > [!definition] Theorem (Compactness)
-> For every set $\Gamma$ of formulas it holds: $$\Gamma \text{ is consistent}\quad\Longleftrightarrow\quad\text{ every finite subset }\Gamma_{0}\subset\Gamma\text{ is consistent}$$
+> For every set $\Gamma$ of formulas it holds: $$\Gamma \text{ is consistent}\quad\iff\quad\text{ every finite subset }\Gamma_{0}\subset\Gamma\text{ is consistent}$$
 > > [!info]- Proof of $\Rightarrow$
 > > Every model for $\Gamma$ also is a model for all subsets $\Gamma_{0}\subset\Gamma$ 
 > 
@@ -68,24 +68,24 @@ Define $\psi_{n}$ for $n\in \Bbb{N}$ with $n\geq 1$: $$\psi_{n}=\forall x_{1}...
 
 > [!definition] Proposition
 > For all models $\mathcal{M}$ and all $n\geq 2$ it holds: 
-> 1. $\mathcal{M}\vDash\phi_{n} \quad \Longleftrightarrow \quad A$ has at least $n$ elements (i.e. $\mid A\mid \geq n$)
-> 2. $\mathcal{M}\vDash\psi_{n} \quad \Longleftrightarrow \quad A$ has at most $n$ elements (i.e. $\mid A\mid \leq n$)
-> 3. $\mathcal{M}\vDash\phi_{n}\land \psi_{n} \quad \Longleftrightarrow \quad A$ has precisely $n$ elements (i.e. $\mid A\mid = n$)
+> 1. $\mathcal{M}\vDash\phi_{n} \quad \iff \quad A$ has at least $n$ elements (i.e. $\mid A\mid \geq n$)
+> 2. $\mathcal{M}\vDash\psi_{n} \quad \iff \quad A$ has at most $n$ elements (i.e. $\mid A\mid \leq n$)
+> 3. $\mathcal{M}\vDash\phi_{n}\land \psi_{n} \quad \iff \quad A$ has precisely $n$ elements (i.e. $\mid A\mid = n$)
 
 > [!definition] Proposition
-> There is a set $\Delta$ of sentences such that for all $\mathcal{M}$: $$\mathcal{M}\vDash\Delta\Longleftrightarrow \mathcal{M}\text{ has an {\color{red}infinite} domain}$$
+> There is a set $\Delta$ of sentences such that for all $\mathcal{M}$: $$\mathcal{M}\vDash\Delta\iff \mathcal{M}\text{ has an {\color{red}infinite} domain}$$
 > > [!info]- Proof
 > > Let $\Delta=\{\phi_{2},\phi_{3},\phi_{4},...\}$ where $\phi_{n}$ expresses 'at least $n$ values'.
 > > Then it holds for all models $\mathcal{M}$:
 > > $$\begin{align}
-> > \mathcal{M}\vDash \Delta &\Longleftrightarrow \mathcal{M} \vDash \phi_{n} \text{ for al } n\geq 2\\
-> > &\Longleftrightarrow \mathcal{M} \text{ has at least } n \text{ values, for all } n \in N\\
-> > &\Longleftrightarrow \mathcal{M} \text{ has infinitely many values} \\
-> > &\Longleftrightarrow \text{ has an infinite domain}
+> > \mathcal{M}\vDash \Delta &\iff \mathcal{M} \vDash \phi_{n} \text{ for al } n\geq 2\\
+> > &\iff \mathcal{M} \text{ has at least } n \text{ values, for all } n \in N\\
+> > &\iff \mathcal{M} \text{ has infinitely many values} \\
+> > &\iff \text{ has an infinite domain}
 > > \end{align}$$
 
 > [!definition] Theorem (Finiteness is Undefinable)
-> There is **no** sentence $\psi$ such that for all $\mathcal{M}$: $$\mathcal{M}\vDash\psi \Longleftrightarrow \mathcal{M} \text{ has a {\color{red}finite} domain}\tag{*} $$
+> There is **no** sentence $\psi$ such that for all $\mathcal{M}$: $$\mathcal{M}\vDash\psi \iff \mathcal{M} \text{ has a {\color{red}finite} domain}\tag{*} $$
 > > [!info]- Proof
 > > 1. Suppose sentence $\psi$ expresses finiteness in the sense $\eqref{*}$. 
 > >    Consider the set $\Delta=\{\psi\}\cup\{\phi_{2},\phi_{3},\phi_{4},...\}$.
@@ -96,7 +96,7 @@ Define $\psi_{n}$ for $n\in \Bbb{N}$ with $n\geq 1$: $$\psi_{n}=\forall x_{1}...
 > > The problem must be assumption 1. Hence there cannot be such a formula $\psi$.
 
 > [!definition] Theorem (Finiteness is Undefinable)
-> There is **no** set of formulas $\Gamma$ such that for all $\mathcal{M}$: $$\mathcal{M}\vDash\Gamma\Longleftrightarrow\mathcal{M}\text{ has a {\color{red}finite} domain}\tag{*}$$
+> There is **no** set of formulas $\Gamma$ such that for all $\mathcal{M}$: $$\mathcal{M}\vDash\Gamma\iff\mathcal{M}\text{ has a {\color{red}finite} domain}\tag{*}$$
 > > [!info]- Proof
 > > 1. Suppose a set $\Gamma$ expresses finiteness in the sense $\eqref{*}$
 > >    Consider the set $\Delta=\Gamma\cup\{\phi_{2},\phi_{3},\phi_{4},...\}$
@@ -107,7 +107,7 @@ Define $\psi_{n}$ for $n\in \Bbb{N}$ with $n\geq 1$: $$\psi_{n}=\forall x_{1}...
 > > The problem must be assumption 1. Hence there cannot be such a set of formulas $\Gamma$.
 
 > [!Corollary]
-> There is **no** sentence $\psi$ such that for all $\mathcal{M}$: $$\mathcal{M}\vDash\psi\Longleftrightarrow\mathcal{M} \text{ has an {\color{red}infinite} domain}\tag{*}$$
+> There is **no** sentence $\psi$ such that for all $\mathcal{M}$: $$\mathcal{M}\vDash\psi\iff\mathcal{M} \text{ has an {\color{red}infinite} domain}\tag{*}$$
 
 ## Definability and Undefinability Results for Reachability
 We define $R(x,y):x\text{ is child of } y$. We search for formulas $\chi_{n}$ that express reachability in $n$ steps: 
@@ -123,10 +123,10 @@ $$\begin{align}
 We work with constants c,d: we write $\chi(c,d)$ for $\chi[c/u][d/v]$.
 
 > [!definition] Theorem
-> It holds for all models $\mathcal{M}$: $$\mathcal{M} \vDash \chi_n(c,d)\Longleftrightarrow d^{\mathcal{M}} \text{ reachable from } c^{\mathcal{M}} \text{ by } {\color{green}n\; R}^{\mathcal{M}}\text{-steps}$$
+> It holds for all models $\mathcal{M}$: $$\mathcal{M} \vDash \chi_n(c,d)\iff d^{\mathcal{M}} \text{ reachable from } c^{\mathcal{M}} \text{ by } {\color{green}n\; R}^{\mathcal{M}}\text{-steps}$$
 
 > [!definition] Theorem
-> There is **no** sentence $\chi(c,d)$ such that for all $\mathcal{M}$: $$\mathcal{M}\vDash \chi(c,d)\Longleftrightarrow d^{\mathcal{M}} \text{ reachable from } c^{\mathcal{M}} \text{ by } {\color{green}R}^{\mathcal{M}}\text{-steps}\tag{*}$$
+> There is **no** sentence $\chi(c,d)$ such that for all $\mathcal{M}$: $$\mathcal{M}\vDash \chi(c,d)\iff d^{\mathcal{M}} \text{ reachable from } c^{\mathcal{M}} \text{ by } {\color{green}R}^{\mathcal{M}}\text{-steps}\tag{*}$$
 > > [!info]- Proof
 > > 1. Suppose that there exists $\chi(c,d)$ with $\eqref{*}$
 > > 2. Then we consider the set $\Delta$ of formulas: $$\Delta = \{\;\chi(c,d)\;\}\cup\{\;\neg \chi_0(c,d),\neg \chi_1(c,d),\neg \chi_2(c,d),\dots\;\}$$

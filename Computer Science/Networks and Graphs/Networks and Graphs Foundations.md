@@ -83,7 +83,7 @@ Created: 2023-04-04 00:23:35
 > $n^2$ words to store $G$ of $n$ vertices
 > **Properties of the adjacency matrix of a graph $G$**
 > - symmetric: $\forall u,v:A_G[u,v] = A_G[v,u]$
-> - $G$ is simple $\Longleftrightarrow \forall u,v : A_G[u,v]=1$ and $A[u,u]= 0$
+> - $G$ is simple $\iff \forall u,v : A_G[u,v]=1$ and $A[u,u]= 0$
 > - $\forall u : \sum A_G[u,v] = \delta(u)$
 
 ^5eab95
@@ -204,11 +204,12 @@ Created: 2023-04-04 00:23:35
 	- **k is even**: construct $H_{k,n}$ join vertex $i$ to $k/2$ closest left-handed and right-handed neighbors
 	- **k is odd, n is even**: construct $H_{k-1,n}$ and add $n/2$ edges by joining $i$ to left-hand neighbor at distance $\frac n2$
 	- **k is odd, n is odd**: construct $H_{k-1,n}$ and add $(n+1)/2$ edges $\langle 0,\frac{n-1}{2}\rangle,\langle1,1+\frac{n-1}2\rangle,...,\langle\frac{n-1}2,n-1\rangle$
-- ![[Harary graphs.png|500]]
-	- (a) $H_{4,8}$
-	- (b) $H_{5,8}$
-	- (c) $H_{4,9}$
-	- (d) $H_{5,9}$
+
+![[Harary Graphs]]
+- (a) $H_{4,8}$
+- (b) $H_{5,8}$
+- (c) $H_{4,9}$
+- (d) $H_{5,9}$
 
 > [!info] THEOREM 2.6
 > The Harary graph $H_{k,n}$ is $k$-connected

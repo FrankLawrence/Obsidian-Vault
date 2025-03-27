@@ -10,9 +10,9 @@ Created: 2025-03-17 12:56:11
 	- States $q_{1},q_{2}\in Q$ are distinguishable if there exists $w\in \Sigma^{*}$ s.t. $$q_{1}\overset{w}{\twoheadrightarrow}q_{1}' \in F \qquad $q_{2}\overset{w}{\twoheadrightarrow}q_{2}' \notin F$$, or vice versa
 	- We construct the partitioning stepwise:
 		- Initial partitioning is $\{Q\setminus F,F\}$
-		- If there are partitions $R$ and $S$ such that $$\delta(q,a)\in S\qquad \text{and}\qquad \delta(q',a)\notin S$$, for some $a\in \Sigma$ and $q,q' \in R$, then we split $R$ in $$\{q\in R \,|\, \delta(q,a)\in S\}\qquad \{q\in R\,|\, \delta(q,a)\notin S\}$$ We keep splitting until no more split is possible
+		- If there are partitions $R$ and $S$ such that $$\delta(q,a)\in S\qquad \text{and}\qquad \delta(q',a)\notin S$$, for some $a\in \Sigma$ and $q,q' \in R$, then we split $R$ in $$\{q\in R \mid \delta(q,a)\in S\}\qquad \{q\in R\mid \delta(q,a)\notin S\}$$ We keep splitting until no more split is possible
 3. Read off the minimal DFA
-   Let $Q_{1},...,Q_{n}$ be the final partition of $Q$. These are the *states* of the minimal DFA $\hat M$. The *transitions* of $\hat M$ are: $$Q_{i}\overset{a}{\to} Q_{j}\quad \Longleftrightarrow \quad q\overset{a}{\to} q' \text{ for some } q\in Q_{i},q'\in Q_{j}$$ The *starting state* is the set that contains $q_{0}$. The *final states* are the subsets of $F$
+   Let $Q_{1},...,Q_{n}$ be the final partition of $Q$. These are the *states* of the minimal DFA $\hat M$. The *transitions* of $\hat M$ are: $$Q_{i}\overset{a}{\to} Q_{j}\quad \iff \quad q\overset{a}{\to} q' \text{ for some } q\in Q_{i},q'\in Q_{j}$$ The *starting state* is the set that contains $q_{0}$. The *final states* are the subsets of $F$
 
 > [!example]-
 > ```mermaid

@@ -150,8 +150,30 @@ $$p(X_{1},X_{2}\,\vert\,Y)=p(X_{1}\,\vert\,Y)p(X_{2}\,\vert\,Y)$$
 	- $q_{x}$: our classifier $q_{x}(C)=p(C\,\vert\,x)$ $$q_{x}(\text{Pos})=0.1\quad q_{x}(\text{Neg})=0.9$$
 	- split data into positives $X_{P}$ and negatives $X_{N}$
 	- Find the classifier $q$ that maximizes the probability of the true class (use maximum likelihood objective)
-- instances are independent -> probability of all class labels is product of all individual class labels
-- 
+- assume instances are independent -> probability of all class labels is product of all individual class labels $$p(D)=\prod_{x,C\in D} q_{x}(C)$$
+
+- log loss function:
+$$\begin{align}
+\underset{q}{\text{arg max}} \prod_{C,x}q_{x}(C) &= \underset{q}{\text{arg max }} \log \prod_{C,x}q_{x}(C) \\
+&= \underset{q}{\text{arg min }} - \log \prod_{C,x}q_{x}(C) \\
+&= \underset{q}{\text{arg min }} \sum\limits_{C,x} -\log q_{x}(C) \\
+&= \underset{q}{\text{arg min }} - \sum\limits_{x\in X_{P}} \log q_{x}(P) - \sum\limits_{x\in X_{N}} \log q_{x}(N)\\
+\end{align}$$
+- logarithmic loss tries to maximize the sum of their probabilities (arrows pushing on curve) ![|500](https://mlvu.github.io/probability/31.ProbabilisticModels1.key-stage-0055.svg)
+- To minimize we will use gradient descent which requires computing the gradient: 
+  $$\begin{align}
+  \frac{\partial \text{loss}({\color{orange}w}, {\color{#58F}b})}{\partial {\color{orange}w_{i}}} &= \frac{\partial \left( - \sum_{x\in X_{P}} \log q_{x}(P) - \sum_{x\in X_{N}}\log q_{x}(N)\right)}{\partial {\color{orange}w_{i}}} \\
+  &= \sum\limits_{x\in X_{P}} \bbox[5px,border:2px solid #F08]{- \frac{\partial \log q_{x}(P)}{\partial {\color{orange}w_{i}}}} + \sum\limits_{x\in X_{N}}- \frac{\partial \log q_{x}(N)}{\partial {\color{orange}w_{i}}}
+  \end{align}$$
+
+$${\color{#F08}y}={\color{orange}w}^{\top}x+{\color{#58F}b} \quad\to\quad \frac{\partial {\color{#F08}y}}{\partial {\color{orange}w_{i}}}=x_{i} $$
+$$\begin{align}
+-\frac{\partial \log q_{x}(P)}{\partial {\color{orange}w_{i}}} &= - \frac{\partial \log \sigma({\color{#F08}y})}{\partial {\color{orange}w_{i}}} \\
+&= - \frac{\partial \log \sigma({\color{#F08}y})}{\partial \sigma({\color{#F08}y})} &&\times \frac{\partial \sigma({\color{#F08}y})}{\partial {\color{#F08}y}} &&\times \frac{\partial {\color{#F08}y}}{\partial {\color{orange}w_{i}}} \\
+&= -\frac{1}{\cancel{\sigma({\color{#F08}y})}} &&\times \cancel{\sigma({\color{#F08}y})}(1-\sigma({\color{#F08}y})) &&\times x_{i} \\
+&= -(1-\sigma({\color{#F08}y}))x_{i} \\ 
+&= -q_{x}(N)x_{i}
+\end{align}$$
 # Information Theory
 - we can encode an outcome of decision tree with *codes*
 	- the trees are called **prefix-free trees** and the resulting codes **prefix-free codes** -> no codeword is the prefix of another (just like with [[Data Structures and Algorithms for CS Lecture 13#Huffman codes]])
@@ -163,7 +185,8 @@ $$p(X_{1},X_{2}\,\vert\,Y)=p(X_{1}\,\vert\,Y)p(X_{2}\,\vert\,Y)$$
 - **Entropy**: code-length of each outcome multiplied with probability and summed $$H(p)=\sum\limits_{x\in X}p(x)L(x)$$
 - entropy of a distribution is the expected codelength of an element sampled from that distribution
 - **Uncertainty**: Indicates if words are uniformly long (and thus their probability mass) -> more uniform the higher the entropy
-- cross-entropy: expected code-length if we use $q$ (our model), but the data comes from $p$ (source of our data)
+- cross-entropy: expected code-length if we use distribution $q$ (our model), but the data comes from distribution $p$ (source of our data) $$\begin{align}H(p,q) &= \mathbb{E}_{p}L^{q}(x) \\ &= - \sum\limits_{x\in X}p(x)\log q(x)\end{align}$$
+- The cross entropy is a good way to **quantify the distance between two distributions** (because it’s minimal when the two are the same).
 
 ---
 References:

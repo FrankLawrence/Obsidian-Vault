@@ -4,7 +4,7 @@ Created: 2022-12-16 12:52:24
 ---
 (Links:: [[Logic and Sets]])
 - A function *$f:A\to B$* is a binary relation of type $A\times A$ such that every $x\in A$ relates to at most one $y\in B$
-  *Notation:* $f(x)=y \quad\Longleftrightarrow\quad \langle x, y \rangle \in F$
+  *Notation:* $f(x)=y \quad\iff\quad \langle x, y \rangle \in F$
 - *domain* A
 - *codomain* B
 - *domain of definition* $D_f := \{x\in A: f(x)=y \text{ for }y \in B\}$

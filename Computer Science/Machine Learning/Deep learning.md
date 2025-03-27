@@ -118,4 +118,55 @@ $${\color{orange}W}^{\nabla}=\begin{bmatrix}{\color{#0C8}k_{1}}^{\nabla}x_{1}  &
 	- momentum vector gives every weight a separate momentum scalar that changes how much that weight will change separate from all the other weights
 
 ---
-References:
+
+# 🛠️ Making It Work: Practical Tips for Deep Learning
+
+## 1. Weight Initialization
+
+- **Problem**: Improper initialization can lead to vanishing or exploding activations
+- **Solution**: Use initialization schemes that consider the activation function and layer size
+    - **Xavier Initialization**: For tanh activation functions, initialize weights with a variance of, where is the number of input neurons
+    - **He Initialization**: For ReLU activation functions, initialize weights with a variance of
+
+## 2. Batch Normalization
+- **Purpose**:Stabilizes and accelerates training by normalizing the inputs of each layer
+- **How**:Normalize the output of a layer to have zero mean and unit variance, then scale and shift using learnable parameters
+- **Benefits**:
+    -Allows for higher learning rates
+    -Reduces sensitivity to weight initialization
+
+## 3. Gradient Descent Optimization
+- **Stochastic Gradient Descent (SGD)**:Updates weights using a single or a few training examples
+- **Challenges with SGD**:
+    -Choosing an appropriate learning rate
+    -Potentially slow convergence
+- **Advanced Optimizers**:
+    - **Momentum**:Accelerates SGD by adding a fraction of the previous update to the current one
+    - **RMSprop**:Adapts the learning rate for each parameter by dividing by a moving average of recent gradients
+    - **Adam**:Combines momentum and RMSprop by computing adaptive learning rates for each parameter
+
+## 4. Regularization Techniques
+- **Purpose**:Prevent overfitting and improve model generalization
+- **Methods**:
+    - **Dropout**:Randomly sets a fraction of input units to zero during training to prevent co-adaptation
+    - **L2 Regularization**:Adds a penalty equal to the squared magnitude of weights to the loss function
+
+## 5. Learning Rate Scheduling
+- **Why**:A constant learning rate may not be optimal throughout training
+- **Strategies**:
+    - **Step Decay**:Reduce the learning rate by a factor after a fixed number of epochs
+    - **Exponential Decay**:Continuously decrease the learning rate by a factor of the epoch number
+    - **Adaptive Methods**:Adjust the learning rate based on the performance on a validation set
+
+## 6. Early Stopping
+- **Concept**:Stop training when performance on a validation set starts to degrade, indicating potential overfitting
+- **Implementation**:
+    -Monitor the validation loss after each epoch
+    -If the loss doesn't improve for a predetermined number of epochs (patience), stop training
+
+---
+
+These strategies are essential for effectively training deep learning models and ensuring they generalize well to unseen data
+
+---
+References: https://mlvu.github.io/lecture07/

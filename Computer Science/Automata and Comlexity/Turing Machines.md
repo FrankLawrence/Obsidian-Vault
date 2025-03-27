@@ -125,7 +125,7 @@ where $v,w\in \Gamma^{*}$, $a,c\in \Gamma$ and $q\in Q$
 - A universal TM gets as input A turing machine $M$ and input word $u$ and then executes $M$ on $u$
 
 > [!info] THEOREM
-> There exists a universal Turing machine.
+> There exists a universal Turing machine
 
 ---
 References:

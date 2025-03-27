@@ -28,7 +28,7 @@ $\phi \vDash \psi$ if $\psi$ is true and $\phi$ is false -> not symmetry
 $\phi \vDash \psi , \psi \vDash \chi$ when $\phi$ is true then $\psi$ is true by(1) and also $\chi$ is true by(2) -> transitive
 b)
 $\phi \equiv \psi$ iff $\phi \equiv \psi$ and $\psi \vDash \phi$ -> reflexive
-$\phi \equiv \psi \Longleftrightarrow \psi \equiv \phi$ -> symmetry
+$\phi \equiv \psi \iff \psi \equiv \phi$ -> symmetry
 - transitive
 
 4.

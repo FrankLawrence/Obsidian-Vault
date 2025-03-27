@@ -41,7 +41,7 @@ Formally:
 - $R=\{\langle w_{1},w_{2}\rangle, \langle w_{1},w_{3}\rangle, \langle w_{3},w_{2}\rangle\}$
 - $L(w_{1})=\{\,p\,\}\quad L(w_{2})=\{\, q\,\}\quad L(w_{3})=\{\, p,r\,\}$
 
-The notation $$\mathcal{M},w\Vdash \phi$$ means: formula $\phi$ is true in the world $w$ of Kripke model $\mathcal{M}$. It is often abbreviated as $$w\Vdash \phi$$ if the Kripke model $\mathcal{M}$ is clear from the context. The **labelling function** $\color{green}{L}$ tells which propositional letters are true in which world: $$w\Vdash p\Longleftrightarrow p\in L(w)$$ $L(w)$ are the propositional letters that are true in world $w$.
+The notation $$\mathcal{M},w\Vdash \phi$$ means: formula $\phi$ is true in the world $w$ of Kripke model $\mathcal{M}$. It is often abbreviated as $$w\Vdash \phi$$ if the Kripke model $\mathcal{M}$ is clear from the context. The **labelling function** $\color{green}{L}$ tells which propositional letters are true in which world: $$w\Vdash p\iff p\in L(w)$$ $L(w)$ are the propositional letters that are true in world $w$.
 
 > [!example]-
 > ```mermaid
@@ -131,13 +131,13 @@ In Kripke model $\mathcal{M}=(W,R,L)$ we first define **truth per world**.
 Definition of $\mathcal{M},x\Vdash \phi$:
 $$\begin{align}
 x \nVdash \bot\quad & \\
-x \Vdash p \quad & \Longleftrightarrow \quad p \in L(x)\\
-x \Vdash \neg\phi \quad & \Longleftrightarrow \quad x \nVdash \phi \\
-x \Vdash \phi \land \psi \quad & \Longleftrightarrow \quad x\Vdash \phi \text{ and } x\Vdash \psi \\
-x \Vdash \phi \lor \psi \quad & \Longleftrightarrow\quad x \Vdash \phi \text{ or } x\Vdash \psi \\
-x \Vdash \phi \to \psi \quad & \Longleftrightarrow \quad \text{if } x \Vdash \phi \text{ then also } x \Vdash \psi \\
-x \Vdash \diamond \, \phi \quad & \Longleftrightarrow \quad \text{there exists } y \in W \text{ with } R(x,y) \text{ and } y \Vdash \phi \\
-x \Vdash \square \, \phi \quad & \Longleftrightarrow \quad \text{for all } y \in W \text{ with } R(x,y) \text{ holds: } y \Vdash \phi
+x \Vdash p \quad & \iff \quad p \in L(x)\\
+x \Vdash \neg\phi \quad & \iff \quad x \nVdash \phi \\
+x \Vdash \phi \land \psi \quad & \iff \quad x\Vdash \phi \text{ and } x\Vdash \psi \\
+x \Vdash \phi \lor \psi \quad & \iff\quad x \Vdash \phi \text{ or } x\Vdash \psi \\
+x \Vdash \phi \to \psi \quad & \iff \quad \text{if } x \Vdash \phi \text{ then also } x \Vdash \psi \\
+x \Vdash \diamond \, \phi \quad & \iff \quad \text{there exists } y \in W \text{ with } R(x,y) \text{ and } y \Vdash \phi \\
+x \Vdash \square \, \phi \quad & \iff \quad \text{for all } y \in W \text{ with } R(x,y) \text{ holds: } y \Vdash \phi
 \end{align}$$
 
 ## Truth in Kripke Models
@@ -186,8 +186,8 @@ $$\begin{align}
 \end{align}$$
 ## Modal Logic Equivalence
 > [!definition] We define $\phi \equiv\psi$ as
-> In every world $w$ in every Kripke model $\mathcal{M}$ $$\mathcal{M},w\Vdash \phi \Longleftrightarrow \mathcal{M}, w\Vdash \psi$$
-> OR $$\phi \equiv \psi \quad\Longleftrightarrow \quad \phi \vDash \psi \text{ and } \psi \vDash \phi$$
+> In every world $w$ in every Kripke model $\mathcal{M}$ $$\mathcal{M},w\Vdash \phi \iff \mathcal{M}, w\Vdash \psi$$
+> OR $$\phi \equiv \psi \quad\iff \quad \phi \vDash \psi \text{ and } \psi \vDash \phi$$
 
 Some examples: 
 $$\begin{align}
