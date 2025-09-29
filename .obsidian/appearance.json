@@ -14,7 +14,10 @@
     "remove-left-border-embed",
     "infobox",
     "centerImages",
-    "big-math"
+    "big-math",
+    "test",
+    "svg",
+    "image-blending"
   ],
   "showRibbon": true
 }

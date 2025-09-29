@@ -1,6 +1,10 @@
 ---
-Tags: MOC course Math
-alias: AC
+Tags:
+  - MOC
+  - course
+  - Math
+aliases:
+  - AC
 ---
 (Links:: [[Uni Courses🎓]])
 ## Notes and Ideas
@@ -27,14 +31,14 @@ alias: AC
 	- [[CYK Parsing]]
 	- [[LL Parsing]]
 	- [[Pushdown Automata]]
-	- [ ] [[Pumping Lemma for Context-free Languages]]
-	- [ ] [[Properties of Context-free Languages]]
+	- [[Pumping Lemma for Context-free Languages]]
+	- [[Properties of Context-free Languages]]
 - [[Recursively Enumerable Languages]]
 	- [[Turing Machines]]
-	- [ ] [[Recursively Enumerable Languages]]
-	- [ ] [[Unrestricted Grammars]]
+	- [[Recursively Enumerable Languages]]
+	- [[Unrestricted Grammars]]
 - [[Context-Sensitive Languages]]
-- [[Chomsky Hierarchy]] 
+- [[Chomsky Hierarchy.canvas|Chomsky Hierarchy]]
 - [[Undecidability]]
 - [[Complexity]]
 ## Extras

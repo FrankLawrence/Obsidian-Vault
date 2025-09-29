@@ -1,5 +1,6 @@
 ---
-Tags: lecture 
+Tags:
+  - lecture
 Created: 2023-02-02 18:30:53
 ---
 (Links:: [[Web Technology]])

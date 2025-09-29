@@ -39,7 +39,9 @@ This creates and array starting at 10 and ending at 100 with numbers in between,
 ```matlab
 a = rand(10)
 ``` 
-creates a 10x10 array with random values and saves it to the variable `a`. We can plot `a` and get the following graph: ![[Rand(10).jpg|500]]
+creates a 10x10 array with random values and saves it to the variable `a`. We can plot `a` and get the following graph: 
+
+![[Files/Rand(10).jpg#invert_B|500]]
 # Task 3
 ```matlab
 function [s] = note_gen(f,fs,Td)
@@ -49,7 +51,8 @@ note = sin(2*pi*f*t)
 sound(note, 8000)
 ```
 This is the resulting graph when plotting `note` 
-![[note_gen.jpg|500]]
+
+![[note_gen.jpg#invert_B|500]]
 # Task 4
 
 ```matlab
@@ -75,7 +78,9 @@ plot(t2,speech2)
 subplot(1,3,3)
 plot(t3,speech3)
 ```
-This code results in the following graphs being displayed: ![[Speech.jpg]]
+This code results in the following graphs being displayed:
+
+![[Speech.jpg#invert_B]]
 # Task 5
 ## 5a
 The speeches become muffled and much quieter. This happens because the sampling points will often not land on the maximum and minimum amplitudes of the frequencies.
@@ -88,7 +93,8 @@ speech = getaudiodata (rec)
 ```
 # Task 6
 We measured the sound, and found the length of one period: $2,7909s - 2,789$. The difference is $0,0019s$ which is and equivalent of $1/0,0019s = 536Hz$
-![[TimeXwaveImg.jpg]]
+
+![[TimeXwaveImg.jpg#invert_B]]
 # Task 7
 ```matlab
 x = zeros(200,200,3);

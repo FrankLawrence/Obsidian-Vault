@@ -176,6 +176,38 @@ Since $L$ is regular, there exists a regular expression $r$ with $L \left(\right
 Then $r^{*}$ is a regular expression and hence $L \left(\right. r^{*} \left.\right) = L^{*}$ is a regular language.
 
 # Context-free Language
+## Context-free Grammar
+- The labels of the leaves of a derivation tree, read from left to right (skipping $\lambda$) form a word in $L(G)$
+- Ambiguity is undecidable
+- For every context-free language $L$ there is a context-free grammar $G$ without $\lambda$-rules such that $L(G)=L\setminus \{\lambda\}$
+- For every context-free language $L$ there is a context-free grammar $G$ without $\lambda$- and unit-productions with $L(G)=L \setminus \{\lambda\}$
+- Removing production rules that contain a useless variable from a grammar does not change the generated language
+- For every context-free language $L$ there is a context-free grammar $G$ in *Chomsky normal form* with $L(G)=L\setminus \{\lambda\}$
+## Parsing
+- For context-free grammars, parsing is possible in $O(\lvert w\rvert^{3})$ time
+- For every $k$, the class of $LL(k)$ grammars is strictly contained in $LL(k+1)$
+## Pushdown Automata
+1. Acceptance with an empty stack can be transformed into acceptance in final states: For every NPDA $M$ there exists an NPDA $N$ having a single accepting state and such that $$L(N)=L_{\text{empty stack}}(N)=L_\text{empty stack}(M)$$
+2. Acceptance in final states can be transformed into acceptance with an empty stack: For every NPDA $M$ there exists an NPDA $N$ having a single accepting state and such that $$L(N)=L_{\text{empty stack}}(N)=L(M)$$
+
+- The language accepted by a NPDA is context-free
+- Every context-free language is accepted by a NPDA
+- Let $L$ be a context-free language
+	- There exists a NPDA $M$ such that $M$ having only 2 states and $L(M)=L$
+	- There exists a NPDA $M$ such that $M$ having only 1 state and $L_\text{empty stack}(M)=L$
+- A language $L$ is **deterministic context-free** if there exists a DPDA $M$ with $L(M)=L$
+- Not all context-free languages are deterministic context-free
+- G'eroud S'enizergues Theorem: It is **decidable** if two DPDA's generate the same language
+## Properties of Context-Free Languages
+- If $L_{1}$ and $L_{2}$ are context-free, then also $$L_{1}\cup L_{2}\qquad L_{1}L_{2} \qquad L_{1}^{*} \qquad L_{1}^{R}$$ but *not* $$L_{1}\cap L_{2} \qquad \overline{L_{1}} \qquad L_{1}\setminus L_{2}$$
+- If $L_{1}$ is context-free and $L_{2}$ regular, then $L_{1}\cap L_{2}$ is context-free
+- If $L_{1}$ is context-free and $L_{2}$ regular, then $L_{1}\setminus L_{2}$ is context-free
+- If $L_{1}$ is context-free and $L_{2}$ regular, then not always $L_{2}\setminus L_{1}$ is context-free
+## Decidability
+- Membership of $w$ in Context-free language is decidable
+- Emptiness of context-free language is decidable
+- All 
+
 
 ---
 References:

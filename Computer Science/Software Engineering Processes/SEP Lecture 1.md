@@ -85,7 +85,7 @@ There are no right or wrong software processes! In practice, applied processes i
 	- Software is assembled from existing components
 	- Plan-driven or agile
 ## Waterfall
-1. Analysis: requirements analysis and specification
+1. Analysis ([[Requirements Engineering]]): requirements analysis and specification
 2. Design: solution proposal and description
 3. Implementation and unit testing: coding and testing
 4. Integration, system testing and Deployment

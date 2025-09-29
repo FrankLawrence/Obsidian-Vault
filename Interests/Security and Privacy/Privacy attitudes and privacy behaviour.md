@@ -1,5 +1,7 @@
 ---
-Tags: article privacy
+Tags:
+  - article
+  - privacy
 Created: 2024-02-02 00:48:24
 ---
 - People value their online browsing history at 7 Euros [^1]

@@ -5,6 +5,39 @@ Created: 2025-02-28 18:58:04
 (Links:: [[Automata and Complexity]])
 
 # Normal Forms
+## Erasable variables
+- A variable $A$ is called **erasable** if $A\Rightarrow^{*} \lambda$
+
+### Construction
+The set of erasable variables is the smallest set such that:
+
+- If $A \rightarrow \lambda$ is a rule, then $A$ is erasable.
+- If $A \rightarrow B_{1} \cdots B_{n}$ is a rule and $B_{1} , \ldots , B_{n}$ are erasable, then $A$ is erasable.
+
+We can construct the set of erasable variables iteratively as follows:
+
+1. Let $E = \emptyset$.
+2. Repeat the following until there is nothing fresh to add:
+	- If $A \rightarrow \lambda$ is a rule, then add $A$ to $E$.
+	- If $A \rightarrow B_{1} \cdots B_{n}$ is a rule and $B_{1} , \ldots , B_{n}$ are in $E$, then add $A$ to $E$.
+3. Finally, $E$ is the set of erasable variables.
+
+> [!example]-
+> Consider the following grammar:
+> 
+> $$
+> \begin{align}
+> S & \rightarrow A c B & A & \rightarrow C B C & B & \rightarrow a b B & C & \rightarrow c C d \\ & & & & B & \rightarrow \lambda & C & \rightarrow B B
+> \end{align}
+> $$
+> 
+> We have:
+> 
+> - $B$ is erasable because of the rule $B \rightarrow \lambda$,
+> - $C$ is erasable because of the rule $C \rightarrow B B$ and $B$ is erasable, and
+> - $A$ is erasable because of the rule $A \rightarrow C B C$ and both $B$ and $C$ are erasable.
+> 
+> So the variables $A , B , C$ are erasable.
 ## Removal of Lambda Productions
 - A production rule $A \to \lambda$ is called $\lambda$-**production rule**.
 
@@ -89,7 +122,7 @@ A variable is *useless* if it cannot be part of a derivation from the starting s
 > The resulting grammar is $$S\to aSb \mid \lambda$$
 
 - A variable $A$ is called **productive** if $A \Rightarrow^{+}w$ with $w\in T^{*}$
-  non-productive variables are useless
+- non-productive variables are useless
 ### Construction: Productive Variables
 The set of productive variables is the smallest set such that:
 - If $A\to y$ is a rule and all variables in $y$ are productive, then $A$ is productive

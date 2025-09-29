@@ -1,6 +1,10 @@
 ---
-Tags: MOC course
-alias: PC, percom
+Tags:
+  - MOC
+  - course
+aliases:
+  - PC
+  - percom
 ---
 (Links:: [[Uni Courses🎓]])
 # Notes and Ideas

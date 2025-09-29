@@ -1,4 +1,3 @@
-(Link:: [[Ellen Anna Reichert]])
 Zu einer gut sortierten Küche gehört eine Waage wie der Salzstreuer zum Ei. Aber was soll man tun, wenn die elektronische Abteilung streikt? Wenn Batterien schlapp machen oder die Küchenwaage einen Defekt hat? Keine Panik! Mit unseren Tipps geht die Arbeit in der Küche auch ohne Waage auf das Gramm genau einfach weiter. Hier kommen die Umrechnungshilfen für das Abmessen der häufigsten Küchenzutaten. Ganz ohne Waage aber mit Hilfe von Bechern, Tassen und Löffeln.
 
 ## Abmessen mit Messbechern

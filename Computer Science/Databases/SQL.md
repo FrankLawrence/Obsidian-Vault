@@ -291,9 +291,24 @@ With `IN` and `NOT IN`, it is possible to check whether an attribute value appea
 
 The **subquery** is evaluated before the **main query**. This can be visualised as two seperate tables.
 
-![[57862.png|500]]
-
-![[56322.png|300]]
+$$\begin{array}{c}
+\text{Students} \\ \hline
+\begin{array}{c|l|l|l}
+\textbf{sid} & \textbf{first} & \textbf{last} & \textbf{address} \\ \hline
+101 & \text{George} & \text{Orwell} & \text{London} \\
+102 & \text{Elvis} & \text{Presley} & \text{Memphis} \\
+103 & \text{Lisa} & \text{Simpson} & \text{Springfield} \\
+104 & \text{Bart} & \text{Simpson} & \text{Springfield} \\
+105 & \text{George} & \text{Washington} & \text{null} \\
+\end{array}
+\end{array}$$
+$$\begin{array}{c}
+\text{Subquery result} \\ \hline
+\textbf{sid} \\ \hline
+101 \\
+102 \\
+103 \\
+\end{array}$$
 
 Then, for every tuple of `Students`, a matching `sid` is search in the subquery result. If there is none, the tuple is not part of the output.
 

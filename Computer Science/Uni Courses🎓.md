@@ -1,10 +1,12 @@
 ---
-tags: 
+tags:
 Created: 2022-09-06 09:35
-cssclass: dashboard
+cssclasses:
+  - dashboard
 ---
 (Links:: [[Home🏠]])
-# Year 1
+# Bachelor Computer Science
+## Year 1
 - P1
 	- [[Introduction to Computer Science]]
 	- [[Computational Thinking for Coders]]
@@ -24,7 +26,7 @@ cssclass: dashboard
 	- [[Linear Algebra]]
 - P6
 	- [[CoPP]]
-# Year 2
+## Year 2
 - P1
 	- [[Pervasive Computing]]
 	- [[Object Oriented and Functional Programming]]
@@ -47,7 +49,7 @@ cssclass: dashboard
 - P6
 	- [[Software Engineering Processes]]
 
-# Year 3
+## Year 3
 - P1
 	- [[Equational Programming]]
 	- [[Advanced Network Programming]]
@@ -59,3 +61,11 @@ cssclass: dashboard
 - P4
 	- [[Machine Learning]]
 	- [[Automata and Complexity]]
+- P5
+	- [[Discrete Math and Calculus]]
+# Masters Cybersecurity
+## Semester 1
+- [[Network Security]]
+- [[System Security]]
+- [[Security Engineering]]
+- [[Algorithms Labs]]

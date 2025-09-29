@@ -1,5 +1,7 @@
 ---
-Tags: DNS Security
+Tags:
+  - DNS
+  - Security
 Created: 2025-03-04 10:14:37
 ---
 # Background
@@ -18,9 +20,6 @@ Created: 2025-03-04 10:14:37
   [[DNSSEC Ecosystem.pdf#page=7&selection=65,6,67,39|DNSSEC Ecosystem, page 7]]
 - Cloudflare supports [CDS and CDNSKEY](https://datatracker.ietf.org/doc/rfc8078/) since 2018: https://blog.cloudflare.com/automatically-provision-and-maintain-dnssec/
   [[DNSSEC Ecosystem.pdf#page=7&selection=189,39,189,57|DNSSEC Ecosystem, page 7]]
-  
-# TODO
-- [ ] 
 
 ---
 References: [[DNSSEC Ecosystem.pdf]]

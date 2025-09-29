@@ -1,5 +1,6 @@
 ---
-Tags: Math
+Tags:
+  - Math
 Created: 2025-02-07 14:08:47
 ---
 (Links:: [[Automata and Complexity]])

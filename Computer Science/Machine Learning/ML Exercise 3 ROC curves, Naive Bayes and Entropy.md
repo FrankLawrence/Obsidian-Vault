@@ -1,6 +1,7 @@
 ---
 title: Week 3 Answers
-cssclass: remove-left-border-embed
+cssclasses:
+  - remove-left-border-embed
 ---
 
 # Exam Questions

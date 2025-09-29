@@ -1,5 +1,6 @@
 ---
-Tags: Math
+Tags:
+  - Math
 Created: 2024-05-07 12:42:06
 ---
 (Links:: [[Logic and Modelling]])

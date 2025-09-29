@@ -1,5 +1,6 @@
 ---
-Tags: cooking/savory
+Tags:
+  - cooking/savory
 Created: 2022-10-25 23:51:43
 ---
 (Links:: [[Ellen Anna Reichert]])

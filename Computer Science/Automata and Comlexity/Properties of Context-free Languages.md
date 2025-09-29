@@ -53,7 +53,7 @@ Given context-free grammar $G$ and $H$. Which of the following questions are **d
 5. Does $L(G)=L(H)$ hold?
 6. Is $L(G)\cap L(H)$ empty?
 
-- Only the first two questions are decidable
+- Only the first two questions are decidable. Remove all $\lambda$ and unit productions
 	- $\{v \mid S \Rightarrow^{*} v, \lvert v \rvert \leq \lvert w \rvert \}$ can be computed in finite time
 	- $L(G)$ is empty $\iff$ starting variable is useless
 

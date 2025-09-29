@@ -1,5 +1,7 @@
 ---
-Tags: cooking/sweet pastry
+Tags:
+  - cooking/sweet
+  - pastry
 Links:
 Created: 2022-09-27 03:28
 ---

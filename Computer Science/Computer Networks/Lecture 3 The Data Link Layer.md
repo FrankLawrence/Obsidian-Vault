@@ -1,5 +1,6 @@
 ---
-Tags: lecture
+Tags:
+  - lecture
 Created: 2023-04-19 12:22:06
 ---
 (Links:: [[Computer Networks]])

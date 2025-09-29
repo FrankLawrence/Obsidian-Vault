@@ -1,5 +1,7 @@
 ---
-Tags: article privacy
+Tags:
+  - article
+  - privacy
 Created: 2024-02-02 14:47:55
 ---
 > [!quote]

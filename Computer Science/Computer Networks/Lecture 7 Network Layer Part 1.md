@@ -1,5 +1,6 @@
 ---
-Tags: lecture
+Tags:
+  - lecture
 Created: 2023-05-16 22:50:38
 ---
 (Links:: [[Computer Networks]] -> [[Lecture 8 Network Layer Part 2|Lecture 8]])

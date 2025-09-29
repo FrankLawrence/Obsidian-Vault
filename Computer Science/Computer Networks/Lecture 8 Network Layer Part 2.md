@@ -1,5 +1,6 @@
 ---
-Tags: lecture
+Tags:
+  - lecture
 Created: 2023-05-17 01:24:34
 ---
 (Links:: [[Lecture 7 Network Layer Part 1|Lecture 7]] <- [[Computer Networks]] -> [[Lecture 9 Transport Layer Part 1|Lecture 9]])

@@ -22,7 +22,7 @@ sorting:
 - priority
 group: true 
 ```
-> Refer to ![[To Do's (Tq)]]
+> Refer to ![[To Do's]]
 ---
 - [ ] <%tp.file.cursor(1)%>
 <%* if (tp.date.now("ddd") == "Sun") { %>

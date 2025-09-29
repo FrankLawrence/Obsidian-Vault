@@ -1,5 +1,6 @@
 ---
-tags: Math
+tags:
+  - Math
 ---
 
 | Nul $A$                                                                                                            | Col $A$                                                                                                                  |

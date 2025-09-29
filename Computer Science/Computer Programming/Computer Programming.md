@@ -1,7 +1,10 @@
 ---
-tags: MOC course
+tags:
+  - MOC
+  - course
 Created: 2022-10-01
-alias: CP
+aliases:
+  - CP
 ---
 (Links:: [[Uni Courses🎓]])
 # [Computer Programming](https://canvas.vu.nl/courses/64304)

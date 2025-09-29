@@ -1,0 +1,41 @@
+{
+	"nodes":[
+		{"id":"701ed3989a1cff48","type":"group","x":-1260,"y":20,"width":1300,"height":320,"label":"Phase 2: Data Enrichment & Classification"},
+		{"id":"dc7d6e519d7b042b","type":"group","x":-850,"y":480,"width":1220,"height":200,"label":"Phase 3: Analysis"},
+		{"id":"9fec472985a86165","type":"group","x":-850,"y":-180,"width":1220,"height":120,"label":"Phase 1: Data Collection"},
+		{"id":"c83a0c62431bb9ce","type":"text","text":"AS Assocation","x":-760,"y":270,"width":160,"height":50},
+		{"id":"f9f5673ae3ed8318","type":"text","text":"Openintel .gov domains Dataset","x":100,"y":-155,"width":250,"height":50,"color":"1"},
+		{"id":"3c455bba6897b424","type":"text","text":"Geolocation Association","x":-532,"y":268,"width":222,"height":50},
+		{"id":"c11223341166990d","type":"text","text":"Zmap port 53 scan from VU and Utah","x":-817,"y":-155,"width":280,"height":50},
+		{"id":"84440173c02fa7b6","type":"text","text":"Open RDNS Set","x":-802,"y":40,"width":250,"height":50},
+		{"id":"de1b7f2094f5e48e","type":"text","text":"Traceroute Measurements","x":-200,"y":267,"width":228,"height":52},
+		{"id":"22d1925111c23b2b","type":"text","text":"GeoIPLookup","x":-501,"y":160,"width":160,"height":50},
+		{"id":"0bd4eeecf17723b6","type":"text","text":"Centralization metrics (Gini coefficient, Grouping)","x":-817,"y":490,"width":274,"height":61},
+		{"id":"a1b282375677a14f","type":"text","text":"Open DNSSEC RDNS Set","x":-1240,"y":220,"width":250,"height":50},
+		{"id":"51c7bebf24fa5d9a","type":"text","text":"RIPEstat API","x":-311,"y":-155,"width":140,"height":50,"color":"1"},
+		{"id":"dcf8fc5b034299ae","type":"text","text":"Intermediate AS Risk","x":-185,"y":490,"width":199,"height":50},
+		{"id":"b0a90cad556962b2","type":"text","text":"Open RDNS and ADNS organization overlap","x":95,"y":600,"width":250,"height":60},
+		{"id":"56ef842818b4cc9e","x":100,"y":490,"width":240,"height":50,"type":"text","text":"Organizational Ownership"},
+		{"id":"d962f3a66b55b6b9","x":-990,"y":267,"width":158,"height":50,"type":"text","text":"IPv4 Grouping"}
+	],
+	"edges":[
+		{"id":"10a26990f3bab2ca","fromNode":"f9f5673ae3ed8318","fromSide":"bottom","toNode":"56ef842818b4cc9e","toSide":"top","label":"NS Domain Extraction"},
+		{"id":"26c644a6d56087da","fromNode":"c11223341166990d","fromSide":"bottom","toNode":"84440173c02fa7b6","toSide":"top","label":"RA flag presence & google.com DNS A record query"},
+		{"id":"d2ac905bd3aa17c1","fromNode":"84440173c02fa7b6","fromSide":"left","toNode":"a1b282375677a14f","toSide":"top","label":"AD Flag and RRSIG Presence"},
+		{"id":"3cc30710b0e3e996","fromNode":"51c7bebf24fa5d9a","fromSide":"bottom","toNode":"c83a0c62431bb9ce","toSide":"top"},
+		{"id":"59c56bb2f1a73c47","fromNode":"84440173c02fa7b6","fromSide":"bottom","toNode":"c83a0c62431bb9ce","toSide":"top"},
+		{"id":"1a71da93b688680a","fromNode":"22d1925111c23b2b","fromSide":"bottom","toNode":"3c455bba6897b424","toSide":"top"},
+		{"id":"e37041ddde3a8236","fromNode":"51c7bebf24fa5d9a","fromSide":"bottom","toNode":"3c455bba6897b424","toSide":"right"},
+		{"id":"8fa09e285b8dc93e","fromNode":"84440173c02fa7b6","fromSide":"right","toNode":"22d1925111c23b2b","toSide":"top"},
+		{"id":"7297ccbe7e5c6753","fromNode":"84440173c02fa7b6","fromSide":"right","toNode":"de1b7f2094f5e48e","toSide":"top"},
+		{"id":"03893b9f5de85254","fromNode":"de1b7f2094f5e48e","fromSide":"bottom","toNode":"dcf8fc5b034299ae","toSide":"top","label":"Intermediate Hop analysis"},
+		{"id":"dc062c4494bd669c","fromNode":"51c7bebf24fa5d9a","fromSide":"bottom","toNode":"dcf8fc5b034299ae","toSide":"left"},
+		{"id":"fbd207338c1f9d1d","fromNode":"84440173c02fa7b6","fromSide":"right","toNode":"56ef842818b4cc9e","toSide":"top","label":"PTR Lookup"},
+		{"id":"cf22143fee65c7ff","fromNode":"c83a0c62431bb9ce","fromSide":"bottom","toNode":"0bd4eeecf17723b6","toSide":"top","label":"Metrics calculation"},
+		{"id":"7bcf2641197c9d7a","fromNode":"a1b282375677a14f","fromSide":"bottom","toNode":"0bd4eeecf17723b6","toSide":"left","label":"subset"},
+		{"id":"587cd3db65d9600c","fromNode":"56ef842818b4cc9e","fromSide":"bottom","toNode":"b0a90cad556962b2","toSide":"top","label":"Domain Intersection"},
+		{"id":"aa3806b583d7096f","fromNode":"84440173c02fa7b6","fromSide":"left","toNode":"d962f3a66b55b6b9","toSide":"top"},
+		{"id":"575b4c048a1ceded","fromNode":"d962f3a66b55b6b9","fromSide":"bottom","toNode":"0bd4eeecf17723b6","toSide":"top"},
+		{"id":"4c44748f9a6dc2c6","fromNode":"3c455bba6897b424","fromSide":"bottom","toNode":"0bd4eeecf17723b6","toSide":"top"}
+	]
+}

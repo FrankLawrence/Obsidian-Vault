@@ -1,5 +1,6 @@
 ---
-tags: MOC
+tags:
+  - MOC
 ---
 (Links:: [[School📚🏫]])
 # Physics MOC ⚛

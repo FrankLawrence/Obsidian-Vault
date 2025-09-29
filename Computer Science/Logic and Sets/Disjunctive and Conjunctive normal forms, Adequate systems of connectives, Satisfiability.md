@@ -1,5 +1,7 @@
 ---
-Tags: lecture Math
+Tags:
+  - lecture
+  - Math
 Created: 2022-11-14 17:03:53
 ---
 (Links:: [[Logic and Sets]])

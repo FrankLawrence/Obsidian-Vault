@@ -1,6 +1,9 @@
 ---
-tags: [MOC]
-alias: ["000", "Start"]
+tags:
+  - MOC
+aliases:
+  - "000"
+  - Start
 ---
 This is your launchpad and homebase. Where I can orientate myself. Your personal North Star. That's here. That's home.
 

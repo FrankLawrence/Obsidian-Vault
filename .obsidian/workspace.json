@@ -8,65 +8,80 @@
         "type": "tabs",
         "children": [
           {
-            "id": "0b9caf4874593b48",
+            "id": "c016cc58ebf7292f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Automata and Comlexity/Automata and Complexity Theorems.md",
+                "file": "Homelab Setup.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Automata and Complexity Theorems"
+              "title": "Homelab Setup"
             }
           },
           {
-            "id": "b18ca69d7376ea08",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Automata and Comlexity/Automata and Complexity Definitions.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Automata and Complexity Definitions"
-            }
-          },
-          {
-            "id": "b0f5a1687f187ff4",
+            "id": "39a32ee3b330c53b",
             "type": "leaf",
             "state": {
               "type": "canvas",
               "state": {
-                "file": "Chomsky Hierarchy.canvas",
+                "file": "Interests/Self Hosting/Home Network.canvas",
                 "viewState": {
-                  "x": 0,
-                  "y": 0,
-                  "zoom": 0
+                  "x": 2106.110863992344,
+                  "y": 155.9953439207644,
+                  "zoom": -0.69467140627906
                 }
               },
               "icon": "lucide-layout-dashboard",
-              "title": "Chomsky Hierarchy"
+              "title": "Home Network"
             }
           },
           {
-            "id": "9b6bc3f5963da874",
+            "id": "9fbbe7eed8604402",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "To Do's (Tq).md",
+                "file": "Computer Science/Security Engineering Introduction.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Security Engineering Introduction"
+            }
+          },
+          {
+            "id": "8d062f3d68347147",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Science/Security Engineering Requirements Engineering.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "To Do's (Tq)"
+              "title": "Security Engineering Requirements Engineering"
+            }
+          },
+          {
+            "id": "2f175edeec957f32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Computer Science/Border Gateway Protocol Security.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Border Gateway Protocol Security"
             }
           }
         ],
@@ -193,13 +208,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Machine Learning/Model evaluation.md",
+                "file": "Computer Science/Security Engineering Introduction.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Model evaluation"
+              "title": "Outline of Security Engineering Introduction"
             }
           },
           {
@@ -235,7 +250,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Computer Science/Machine Learning/Model evaluation.md",
+                "file": "Computer Science/Security Engineering Introduction.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -263,7 +278,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Model evaluation"
+              "title": "Graph of Security Engineering Introduction"
             }
           }
         ]
@@ -275,6 +290,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "markdown-importer:Open format converter": false,
       "random-note:Open random note": false,
       "audio-recorder:Start/stop recording": false,
@@ -286,66 +302,66 @@
       "templates:Insert template": true,
       "command-palette:Open command palette": true,
       "table-editor-obsidian:Advanced Tables Toolbar": true,
-      "obsidian-excalidraw-plugin:New Excalidraw drawing": true,
       "templater-obsidian:Templater": false
     }
   },
-  "active": "b0f5a1687f187ff4",
+  "active": "9fbbe7eed8604402",
   "lastOpenFiles": [
-    "Computer Science/Automata and Comlexity/Automata and Complexity.md",
-    "Chomsky Hierarchy.canvas",
-    "Computer Science/Automata and Comlexity/Pumping Lemma for Regular Languages.md",
-    "Computer Science/Automata and Comlexity/Automata and Complexity Definitions.md",
-    "Computer Science/Automata and Comlexity/Automata and Complexity Theorems.md",
-    "To Do's (Tq).md",
-    "Computer Science/Networks and Graphs/Harary Graphs.md",
-    "Computer Science/Networks and Graphs/Networks and Graphs Foundations.md",
-    "Files/Harary graphs.png",
-    "Computer Science/Automata and Comlexity/Context-free Languages.md",
-    "Computer Science/Automata and Comlexity/Recursively Enumerable Languages.md",
-    "Computer Science/Automata and Comlexity/Properties of Context-free Languages.md",
-    "Computer Science/Automata and Comlexity/Automata and Complexity Algorithms.md",
-    "Computer Science/Automata and Comlexity/Properties of Regular Languages.md",
-    "Computer Science/Automata and Comlexity/Regular Expressions.md",
-    "Computer Science/Machine Learning/Decision Tree ML Exercise 3.md",
-    "Computer Science/Machine Learning/ML Exercise 3 ROC curves, Naive Bayes and Entropy.md",
-    "Computer Science/Automata and Comlexity/Regular Grammars.md",
-    "Computer Science/Automata and Comlexity/Finite Automata.md",
-    "Computer Science/Automata and Comlexity/Languages A&C.md",
-    "Computer Science/Networks and Graphs/Networks and Graphs.md",
-    "Computer Science/Networks and Graphs/Networks and Graphs Trees.md",
-    "Computer Science/Machine Learning/Machine Learning.md",
-    "Computer Science/Machine Learning/ML Exercise 4 SVMs and Backpropagation.md",
-    "Computer Science/Machine Learning/Tree Models.md",
-    "Computer Science/Logic and Sets/Functions.md",
-    "Computer Science/Databases/SQL.md",
-    "Files/Maximum Likelihood Normal Distribution.svg",
-    "Files/Pasted image 20250322161848.png",
-    "Files/Pasted image 20250320114401.png",
-    "Files/Pasted image 20250320112834.png",
-    "Files/Pasted image 20250320111614.png",
-    "Files/Pasted image 20250320111515.png",
-    "Files/Pasted image 20250320085914.png",
-    "Files/Pasted image 20250320085140.png",
-    "Files/Pasted image 20250320084803.png",
-    "Compressed Files/Behavioral Analysis of Open DNS Resolvers.pdf",
+    "Computer Science/Security Engineering Requirements Engineering.md",
+    "Computer Science/Security Engineering Introduction.md",
+    "Homelab Setup.md",
+    "Interests/Self Hosting/Home Network.canvas",
+    "Computer Science/Border Gateway Protocol Security.md",
+    "Files/Congestion control.md",
+    "Computer Science/Advanced Network Programming/Congestion Control.md",
+    "Computer Science/Web Technology/Basic CSS.md",
+    "Files/Distribution of ROAs.svg",
+    "Distribution of ROAs.md",
+    "Computer Science/Pervasive Computing/Percom 2 Signals.md",
+    "Computer Science/Pervasive Computing/Percom 5 Sound Processing.md",
+    "Computer Science/Pervasive Computing/Percom Week 1.md",
+    "School Subjects/Physics/Magnetisches Feld.md",
+    "Interests/Programming and computers/Shell Scripting/Flow Control, Expansion, and Parsing.md",
+    "School Subjects/Computer Science/Entity-Realtionship-Model.md",
+    "Computer Science/Algorithms Labs.md",
+    "Cooking and Baking/Burrito.md",
+    "Computer Science/Network Security.md",
+    "Computer Science/Network Security Introduction and Organization.md",
+    "System Security week 1.md",
+    "System Security.md",
+    "Interests/Programming and computers/MathJax Basic Tutorial.md",
+    "Personal/PKM/Obsidian/Callouts.md",
+    "Computer Science/Data Structures and Algorithms for CS/Data Structures and Algorithms for CS Lecture 11.md",
+    "Computer Science/Data Structures and Algorithms for CS/Data Structures and Algorithms for CS Lecture 12.md",
+    "Computer Science/Uni Courses🎓.md",
+    "Computer Science/Security Engineering Assignment 1.md",
+    "Computer Science/Software Engineering Processes/Diagram of how all the software processes relate.canvas",
+    "Cooking and Baking/Schokotörtchen mit weichem Kern.pdf",
+    "Cooking and Baking/Schokotörtchen mit weichem Kern-1.jpg",
     "Compressed Files/DNSSEC Ecosystem.pdf",
-    "Compressed Files",
-    "untitled folder",
+    "Computer Science/Thesis/Thesis Methodology Pipeline Diagram.canvas",
+    "Computer Science/Thesis Research expanded.epub",
+    "Computer Science/Automata and Comlexity/Chomsky Hierarchy.canvas",
+    "Interests/Self Hosting/awesome-selfhosted/_static/awesome.png",
+    "Interests/Self Hosting/awesome-selfhosted/_static",
+    "Interests/Self Hosting/awesome-selfhosted/LICENSE",
+    "Interests/Self Hosting/awesome-selfhosted",
+    "awesome-privacy/web/yarn.lock",
+    "awesome-privacy/web/tsconfig.json",
+    "awesome-privacy/web/svelte.config.js",
+    "awesome-privacy/web/src/utils/security-check-mappings.ts",
+    "awesome-privacy/web/public/favicon.svg",
+    "awesome-privacy/web/public/favicon.png",
+    "awesome-privacy/web/public/broken-image.png",
+    "awesome-privacy/web/public/banner.png",
+    "awesome-privacy/web/public/apple-touch-icon.png",
+    "Interests/Security and Privacy/awesome-privacy/misc/logo.png",
+    "Interests/Security and Privacy/awesome-privacy/misc/forbidden.png",
+    "Interests/Branding and Inspiration.canvas",
     "Computer Science/Machine Learning/PR, ROC and AUC.canvas",
     "Personal/;).canvas",
-    "Files/PDF/SEP2024-Lecture7-CI_CD.pdf",
-    "Files/PDF/SEP2024-Lecture6-DevOps.pdf",
-    "Files/PDF/SEP2024-Lecture5-git-and-GitHub-and-OpenSource.pdf",
-    "Files/PDF/SEP2024-Lecture4-Testing.pdf",
-    "Files/PDF/SEP2024-Lecture3.pdf",
-    "Files/PDF/SEP2024-Lecture2-UP.pdf",
     "Computer Science/Operating Systems/Four-Level Page Tables.canvas",
     "Computer Science/Projects/Clinical Trials API.canvas",
-    "Computer Science/Object Oriented and Functional Programming/Anyref.canvas",
-    "Computer Science/Machine Learning/Abstract tasks of Machine Learning.canvas",
-    "Computer Science/Compiler Construction/Syntax Analysis Diagram.canvas",
-    "Computer Science/Compiler Construction/Not a Natural loop.canvas",
-    "Computer Science/Compiler Construction/CFG and Basic Blocks.canvas"
+    "Computer Science/Object Oriented and Functional Programming/Anyref.canvas"
   ]
 }

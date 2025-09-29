@@ -1,6 +1,8 @@
 ---
-alias: Home
-cssclass: dashboard
+aliases:
+  - Home
+cssclasses:
+  - dashboard
 banner: "![[Frank Wallpaper OI.jpeg]]"
 banner_x: 0.5
 banner_y: 0.52858
@@ -11,7 +13,6 @@ banner_y: 0.52858
 	- [Movies](obsidian://open?vault=Media%20Database%20Vault&file=Movies)
 	- [Series](obsidian://open?vault=Media%20Database%20Vault&file=Series)
 - Friends and Family
-	- [[;).canvas|;)]]
 	- [[Present Ideas]]
 
 # Interests

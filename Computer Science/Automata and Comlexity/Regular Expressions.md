@@ -17,7 +17,9 @@ Created: 2025-03-17 11:06:09
 
 ### Construction: Regular expression -> NFA
 We construct $M$ by induction (recursion) on $r$:
+
 ![[Pasted image 20250317113743.png|500]]
+![|500](https://isubmit.endrullis.de/images/isubmit/block/49/2/translation.svg)
 
 [!info]+ Construction regular expression from NFA
 1. Transform $M$ such that there is precisely one initial and final state
@@ -31,7 +33,7 @@ We construct $M$ by induction (recursion) on $r$:
     <text x="100" y="115" font-size="20" font-family="Arial" fill="var(--text-normal)">r<tspan font-size="10" baseline-shift="sub">2</tspan></text>
 	<defs>
 	    <marker id="arrow" markerWidth="10" markerHeight="10" refX="5" refY="5" orient="auto">  
-		    <path d="M 0 0 L 10 5 L 0 10 z" fill="black" />  
+		    <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--text-normal)" />  
 	    </marker>  
 	</defs>
 	<path d="m 45 65 q 60 -20 120 0" marker-end='url(#arrow)' fill="none" stroke="var(--text-normal)"/>

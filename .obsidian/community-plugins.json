@@ -1,7 +1,6 @@
 [
   "table-editor-obsidian",
   "obsidian-outliner",
-  "obsidian-excalidraw-plugin",
   "nldates-obsidian",
   "hotkeysplus-obsidian",
   "templater-obsidian",
@@ -17,5 +16,5 @@
   "obsidian-sortable",
   "quickadd",
   "cm-typewriter-scroll-obsidian",
-  "obsidian-tikzjax"
+  "obsidian-zotero-desktop-connector"
 ]

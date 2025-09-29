@@ -79,13 +79,48 @@ with $\left|\right. x y \left|\right. \leq m$ and $\left|\right. y \left|\right.
 > [!important] Every regular language has the pumping property.
 
 # Context-free Language 
-### Context-Free Grammars
+## Context-Free Grammars
 
 A grammar $G = \left(\right. V , T , S , P \left.\right)$ is called **context-free** if all production rules are of the form
 $$ A \rightarrow u $$
 where $A \in V$ and $u \in \left( V \cup T \right)^{*}$.
 
-A language $L$ is **context-free** if there exists a context-free grammar $G$ such that $L \left(\right. G \left.\right) = L$.
+- A language $L$ is **context-free** if there exists a context-free grammar $G$ such that $L \left(\right. G \left.\right) = L$.
+- **Ambiguous Grammar**: A context-free grammar $G$ is ambiguous if there exists a word $w\in L(G)$ for which there are multiple derivation trees
+- A context-free language $L$ is **inherently ambiguous** if **every** grammar $G$ with $L(G)=L$ is ambiguous
+### Normal Forms
+- A variable $A$ is called **erasable** if $A\Rightarrow^{*} \lambda$
+- A production rule $A \to \lambda$ is called $\lambda$-**production rule**.
+- A rule $A\to B$ where $A, B\in V$ is called **unit production rule**
+- A variable $A$ is **useless** for a context-free grammar if there exists **no** derivation of the form $$S\Rightarrow^{*}uAv \Rightarrow^{+}w\qquad \text{with }w\in T^{*}$$
+- A variable $A$ is called **productive** if $A \Rightarrow^{+}w$ with $w\in T^{*}$
+- A grammar is in **Chomsky normal form** if all rules have the form $$A\to BC \quad \text{or} \quad A\to a$$
+## Parsing
+- Parsing is the search for a derivation tree for a given word
+- A grammar is $LL(1)$ if its $LL(1)$ parsing table contains in every cell at most one production rule
+- An $LL(k)$ parser looks $k$ symbols ahead to choose the rule
+## Pushdown Automata
+> [!definition] NPDA
+> A **nondeterministic pushdown automaton** is a tuple $$M=(Q,\Sigma,\Gamma,\delta,q_{0},z,F)$$
+> - a finite set $Q$ of states
+> - a finite input alphabet $\Sigma$
+> - a finite stack alphabet ${\color{#F08}\Gamma}$
+> - a transition function $${\color{#F08}\delta : Q\times (\Sigma \; \cup \{\lambda\}) \times \Gamma \to 2^{Q \times \Gamma^{*}}}$$ where $\delta(q,\alpha,b)$ is always finite
+> - a starting state $q_{0}\in Q$
+> - a stack starting symbol ${\color{#F08}z\in \Gamma}$
+> - a set $F\subseteq Q$ of final states
+
+- Let $M=(Q,\Sigma,\Gamma,\delta,q_{0},z,F)$ be a NPDA. The **computation step relation** $\vdash_M$ for $M$ over $Q\times \Sigma^{*} \times \Gamma^{*}$ is defined by $$(q,aw,bu)\vdash_{M}(q',w,vu) \quad \iff \quad (q',v)\in \delta(q,a,b)$$ for states $q,q'\in Q$, input letters $a \in \Sigma\cup \{\lambda\}$, stack symbols $b\in \Gamma$ and words $w\in \Sigma^{*},u\in \Gamma^{*}$
+___
+- A **run** of a NPDA $M=(Q,\Sigma,\Gamma,\delta,q_{0},z,F)$ for the input word $w$ is a sequence of steps $$(q_{0},w,z)\vdash \cdots \vdash (q_{n},\lambda,u)$$ where $n\geq 0$ and $u\in \Gamma^{*}$. The run is called **accepting** if $q_{n}$ is a final state ($q_n \in F$)
+- The language accepted by NPDA $M=(Q,\Sigma, \Gamma, \delta, q_{0}, z, F)$ is $$\begin{align*}L(M) 
+  &= \{w\in \Sigma^{*}\mid \text{$M$ has an accepting run for $w$}\} \\
+  &= \{w\in \Sigma^{*}\mid (q_{0},w, z) \vdash^{*} (q',\lambda,u) \text{ with } q' \in F, u\in \Gamma^{*}\} 
+  \end{align*}$$
+- Am empty stack language (accepted only when stack is empty) is $$L_{\lambda}(M)=\{w\in \Sigma^{*} \mid (q_{0},w,z) \vdash^{*} (q', \lambda, \lambda) \text{ where }q' \in Q\}$$
+- A deterministic pushdown automaton (DPDA) is an NPDA such that
+	- $\delta(q,\alpha, b)$ contains at most one element
+	- If $\delta(q,\lambda, b)\neq \emptyset$, then $\delta(q,a,b)=\emptyset$ for every $a\in \Sigma$
 
 ---
 References:

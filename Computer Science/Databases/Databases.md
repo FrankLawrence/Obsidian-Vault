@@ -1,6 +1,9 @@
 ---
-Tags: MOC course
-alias: DB
+Tags:
+  - MOC
+  - course
+aliases:
+  - DB
 ---
 (Links:: [[Uni Courses🎓]])
 ## Notes and Ideas

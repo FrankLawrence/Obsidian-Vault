@@ -1,6 +1,9 @@
 ---
-Tags: MOC course
-alias: ML
+Tags:
+  - MOC
+  - course
+aliases:
+  - ML
 ---
 (Links:: [[Uni Courses🎓]])
 ## Notes and Ideas
