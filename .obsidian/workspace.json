@@ -8,69 +8,37 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c016cc58ebf7292f",
+            "id": "2f175edeec957f32",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Homelab Setup.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Homelab Setup"
-            }
-          },
-          {
-            "id": "39a32ee3b330c53b",
-            "type": "leaf",
-            "state": {
-              "type": "canvas",
-              "state": {
-                "file": "Interests/Self Hosting/Home Network.canvas",
-                "viewState": {
-                  "x": 2106.110863992344,
-                  "y": 155.9953439207644,
-                  "zoom": -0.69467140627906
-                }
-              },
-              "icon": "lucide-layout-dashboard",
-              "title": "Home Network"
-            }
-          },
-          {
-            "id": "9fbbe7eed8604402",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Security Engineering Introduction.md",
+                "file": "Computer Science/SCION.md",
                 "mode": "source",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Security Engineering Introduction"
+              "title": "SCION"
             }
           },
           {
-            "id": "8d062f3d68347147",
+            "id": "682074f8821c7098",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Security Engineering Requirements Engineering.md",
+                "file": "Side Channel Attacks.md",
                 "mode": "preview",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Security Engineering Requirements Engineering"
+              "title": "Side Channel Attacks"
             }
           },
           {
-            "id": "2f175edeec957f32",
+            "id": "f1acdf3bc3bacd66",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -85,7 +53,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -117,10 +85,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": true,
-                "explainSearch": false,
-                "collapseAll": false,
+                "query": "canary",
+                "matchingCase": false,
+                "explainSearch": true,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
@@ -208,13 +176,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Security Engineering Introduction.md",
+                "file": "Computer Science/Border Gateway Protocol Security.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Security Engineering Introduction"
+              "title": "Outline of Border Gateway Protocol Security"
             }
           },
           {
@@ -250,7 +218,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Computer Science/Security Engineering Introduction.md",
+                "file": "Computer Science/Border Gateway Protocol Security.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -278,7 +246,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Security Engineering Introduction"
+              "title": "Graph of Border Gateway Protocol Security"
             }
           }
         ]
@@ -305,36 +273,38 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9fbbe7eed8604402",
+  "active": "682074f8821c7098",
   "lastOpenFiles": [
-    "Computer Science/Security Engineering Requirements Engineering.md",
-    "Computer Science/Security Engineering Introduction.md",
-    "Homelab Setup.md",
-    "Interests/Self Hosting/Home Network.canvas",
     "Computer Science/Border Gateway Protocol Security.md",
-    "Files/Congestion control.md",
+    "Computer Science/Machine Learning/Beyond linear models.md",
+    "Computer Science/Machine Learning/Machine Learning.md",
+    "Computer Science/Machine Learning/Data pre-processing.md",
+    "Computer Science/Machine Learning/Probabilistic models.md",
+    "Computer Science/Machine Learning/Linear models and search.md",
+    "Computer Science/Networks and Graphs/Networks and Graphs Foundations.md",
+    "Computer Science/Networks and Graphs/Harary Graphs.md",
+    "Computer Science/Networks and Graphs/Networks and Graphs.md",
     "Computer Science/Advanced Network Programming/Congestion Control.md",
-    "Computer Science/Web Technology/Basic CSS.md",
-    "Files/Distribution of ROAs.svg",
-    "Distribution of ROAs.md",
-    "Computer Science/Pervasive Computing/Percom 2 Signals.md",
-    "Computer Science/Pervasive Computing/Percom 5 Sound Processing.md",
-    "Computer Science/Pervasive Computing/Percom Week 1.md",
-    "School Subjects/Physics/Magnetisches Feld.md",
-    "Interests/Programming and computers/Shell Scripting/Flow Control, Expansion, and Parsing.md",
-    "School Subjects/Computer Science/Entity-Realtionship-Model.md",
-    "Computer Science/Algorithms Labs.md",
-    "Cooking and Baking/Burrito.md",
-    "Computer Science/Network Security.md",
-    "Computer Science/Network Security Introduction and Organization.md",
-    "System Security week 1.md",
+    "Files/Congestion control.md",
+    "Computer Science/Advanced Network Programming/Advanced Network Programming.md",
+    "Computer Science/Advanced Network Programming/Interdomain Routing.md",
+    "Computer Science/Advanced Network Programming/BGP, Anycast, CDN.md",
+    "Side Channel Attacks.md",
+    "Computer Science/Automata and Comlexity/Finite Automata.md",
+    "System Security week 2.md",
+    "Computer Science/Secure Programming/SP Exploitation.md",
+    "Computer Science/Secure Programming/Secure Programming.md",
+    "Computer Science/Secure Programming/SP Defenses.md",
+    "Computer Science/Secure Programming/Stack.md",
+    "Computer Science/Compiler Construction/Control Flow Graph.md",
+    "Computer Science/SCION.md",
+    "Computer Science/Security Engineering.md",
     "System Security.md",
-    "Interests/Programming and computers/MathJax Basic Tutorial.md",
-    "Personal/PKM/Obsidian/Callouts.md",
-    "Computer Science/Data Structures and Algorithms for CS/Data Structures and Algorithms for CS Lecture 11.md",
-    "Computer Science/Data Structures and Algorithms for CS/Data Structures and Algorithms for CS Lecture 12.md",
-    "Computer Science/Uni Courses🎓.md",
-    "Computer Science/Security Engineering Assignment 1.md",
+    "Computer Science/Algorithms Labs.md",
+    "Security Context.canvas",
+    "Files/Network Security-Prefix Hijacking.svg",
+    "Interests/Self Hosting/Home Network.canvas",
+    "Files/Distribution of ROAs.svg",
     "Computer Science/Software Engineering Processes/Diagram of how all the software processes relate.canvas",
     "Cooking and Baking/Schokotörtchen mit weichem Kern.pdf",
     "Cooking and Baking/Schokotörtchen mit weichem Kern-1.jpg",
@@ -355,13 +325,10 @@
     "awesome-privacy/web/public/broken-image.png",
     "awesome-privacy/web/public/banner.png",
     "awesome-privacy/web/public/apple-touch-icon.png",
-    "Interests/Security and Privacy/awesome-privacy/misc/logo.png",
-    "Interests/Security and Privacy/awesome-privacy/misc/forbidden.png",
     "Interests/Branding and Inspiration.canvas",
     "Computer Science/Machine Learning/PR, ROC and AUC.canvas",
     "Personal/;).canvas",
     "Computer Science/Operating Systems/Four-Level Page Tables.canvas",
-    "Computer Science/Projects/Clinical Trials API.canvas",
-    "Computer Science/Object Oriented and Functional Programming/Anyref.canvas"
+    "Computer Science/Projects/Clinical Trials API.canvas"
   ]
 }

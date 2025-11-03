@@ -136,7 +136,15 @@ Created: 2025-09-17 08:25:00
 - DevOps approach
 	- requires good engineers; responsibilities include managing availability, performance, change management, monitoring, emergency response ...
 	- **scalability** achieved through automation
-	- 
+---
+> [!question] Where does security fit in?
+> There is no standard development process that explicitly supports security. Security usually treated as an ad-hoc add-on at the end.
+
+# Summary
+- Methods and tools are needed to master the complexity of software produciton
+- Security needs particular attention
+	- security aspects are typically poorly engineered
+	- systems usually operate in highly malicious environments
 
 ---
 References:

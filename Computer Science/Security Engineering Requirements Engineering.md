@@ -3,6 +3,12 @@ Tags:
 Created: 2025-09-24 10:09:58
 ---
 (Links:: [[Security Engineering]])
+
+> **Requirements Engineering** is about eliciting, understanding, and specifying what the system should do and which properties it should satisfy.
+> Basically, determine the goals for a system, infer the functions, and their contraints.
+
+![[Security Context.canvas]]
+
 ## Functional versus non-functional requirements
 > [!error] Requirements are not always clearly categorizable
 

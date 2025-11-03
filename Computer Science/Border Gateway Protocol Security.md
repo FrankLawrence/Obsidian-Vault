@@ -18,14 +18,15 @@ Created: 2025-09-23 10:37:12
 > - Attracting traffic enables **attacks against protocols / end-hosts**
 
 - Routing attacks can be used to...
-	- **obtain fake TLS certificates**
-	- **deanonymize TOR users**
-	- **hijack DNS requests**
-	- **partition the Bitcoin network**
+	- [obtain fake TLS certificates](https://secure-certificates.princeton.edu/)
+	- [deanonymize TOR users](https://www.usenix.org/node/190965)
+	- [hijack DNS requests](https://www.theverge.com/2018/4/24/17275982/myetherwallet-hack-bgp-dns-hijacking-stolen-ethereum)
+	- [partition the Bitcoin network](https://btc-hijack.ethz.ch/)
 # Mechanisms and Attacks
 - originally built in 1989 -> no security mechanisms considered
 - IP prefix *origination* into BGP
-	- Prefix advertised/announced by the AS who owns the prefix • ... or by upstream provider(s) on its behalf
+	- Prefix advertised/announced by the AS who owns the prefix 
+	- ... or by upstream provider(s) on its behalf
 - IP prefix *hijacking*
 	- A malicious (or misconfigured) AS announces a prefix it does not own
 
@@ -33,7 +34,7 @@ Created: 2025-09-23 10:37:12
 
 ## Prefix Hijacking
 
-- ... 
+![[Network Security-Prefix Hijacking.svg|800]]
 
 > [!question] What can be done to the hijacked traffic?
 > - Blackholed
@@ -142,6 +143,8 @@ ___
 2. BGP routers in other ASes check against ROAs in RPKI for prefix $v$
 3. BGP routers would drop the announcement since no valid ROA for AS $M$
 
+==TODO: Make the diagram==
+
 <svg viewBox="0 0 310 100" width="100%" height="20vh" xmlns="http://www.w3.org/2000/svg">
 	<path id="lineAC" d="M 50 50 q 105 -50 210 0" stroke="var(--color-red,red)" stroke-width="1,5" fill="none"/>
 	
@@ -187,8 +190,32 @@ ___
 	- Entities that participate need to be trusted
 	- Most security solutions are simple patches
 	- Fundamental security problems don't go away -> Redesign inter-domain routing
-- 
+- [[SCION]] aims to combat the security issues of BGP
 
+# Background
+- **Allocation and ownership of IP adresses**: ICANN and IANA
+- The internet has over 60000 autonomous systems (ISPs, backbone networks, universities and large companies, ...)
+- BGP "glues" the internet together: routing protocol between ASes
+
+```
++---------------------------------------------------+
+| Withdrawn Routes Length (2 octets)                |
+| Withdrawn Routes (variable)                       | IP prefixes which are no longer reachable
+| Rotal Path Attribute Length (2 octets)            |
+| Path Attributes (variable)                        | Information about the path itself, i.e., which ASes it traverses
+| Network Layer Reachability Information (variable) | Details of prefixes which an be reached via this path
++---------------------------------------------------+
+```
+
+- **peering policies** between ASes determine whether routes are accepted, which may be used to prevent route leaks (falsely announced prefixes)
+
+> [!example]- How to create your own ISP in 4 steps
+> 1. Register an autonomous system number to be able to connect via BGP to other networks
+> 2. Request Internet number resources from your regional network coordination center: Get assigned IPv4 and IPv6 prefixes which can be announced over BGP
+> 3. Find other networks to connect to and exchange traffic with:
+> 	1. Typically interconnection at an exchange point such as SwissX (peering)
+> 	2. Find an upstream ISP which will carry traffic to other parts of the world (IP transit)
+> 4. Deploy hardware to the peering location and announce IP prefixes
 
 ---
 References:

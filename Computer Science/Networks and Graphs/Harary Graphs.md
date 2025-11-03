@@ -2,7 +2,7 @@
 	<!------------------------ (c) ------------------------>
 	<text x="188" y="700" font-size="20" font-family="Arial" fill="var(--text-normal,black)">(c)</text>
 	
-	<circle cx="200" cy="450" r="5" fill="var(black)"></circle> <!-- 0 -->
+	<circle cx="200" cy="450" r="5" fill="var(--text-normal,black)"></circle> <!-- 0 -->
 	<text x="194" y="440" font-size="20" font-family="Arial" fill="var(--text-normal,black)">0</text>
 	<circle cx="257" cy="475" r="5" fill="var(--text-normal,black)"></circle> <!-- 1 -->
 	<text x="267" y="467" font-size="20" font-family="Arial" fill="var(--text-normal,black)">1</text>

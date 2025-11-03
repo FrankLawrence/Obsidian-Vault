@@ -11,6 +11,7 @@ aliases: SE
 - [[Security Engineering Assessment]]
 ## Assignments
 - [[Security Engineering Assignment 1]]
+- [[Security Engineering Assignment 2]]
 ## Topics
 ## Lectures
 - [[Security Engineering Introduction | Introduction]]

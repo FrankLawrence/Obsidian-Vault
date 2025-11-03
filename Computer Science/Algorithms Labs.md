@@ -9,6 +9,7 @@ Tags:
 - [[Algorithms Labs Structure]]
 - [[Algorithms Labs Assessment]]
 ## Assignments
+- [[Dynamic Programming and Sliding Window]]
 ## Topics
 ## Lectures
 ## Extras
