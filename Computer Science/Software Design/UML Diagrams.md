@@ -5,9 +5,9 @@ Created: 2024-02-29 11:24:09
 (Links:: [[Software Design]])
 
 # Introduction
-- UML = Unified Modelling Language
+- [[UML]] = Unified Modelling Language
 - Standardized software design language
-- Under the umbrella of Object Management Group (OMG)
+- Under the umbrella of Object Management Group (like [[Security Engineering Model Driven Security#Model Driven Architecture|MDA]])
 - The "Swiss Army Knife" of notations
 - It is not tied to **any development process**
 	- Waterfall, Scrum, Kanban, XP, etc.
@@ -30,89 +30,6 @@ Created: 2024-02-29 11:24:09
   -> Its core concepts have well-defined **semantics**
 - Emphasize the **static description** of the element of the system being modelled
 - Structural elements may have an associated behaviour
-
-```mermaid
-classDiagram
-	User <|-- Lecturer
-	User <|-- Student
-	Student "*" -- "*" Course
-	Submission "*" --* "1" Participation
-	Task "1" -- "*" Submission : for
-	Task "*" --* "1" Course
-	Lecturer "1..*" -- "*" Course : gives
-	Lecturer "1..*" -- "1..*" Course : participates
-	Lecturer "1" -- "*" Submission : assesses
-	class User{
-		name
-		login
-		password
-		authorization: BType
-		notification()
-		updateData()
-		getAuthorization()
-		checkPW()
-		getData()
-	}
-	class Submission{
-		paper
-		date
-		points
-		correction
-		getData()
-		updateData()
-		assignLecturer()
-		setGrade()
-		setPaper()
-	}
-	class Participation{
-		/totalPoints
-		/Grade
-		certificateissued
-		getPoints()
-		getSubmission()
-		updatePoints()
-		issueCertificate()
-	}
-	class Student{
-		matNo
-		getData()
-		getParticipants()
-		certificateInfo()
-	}
-	class Task{
-		name
-		description
-		deadline
-		points
-		submissionDeadline
-		getData()
-		updateData()
-		getSubmissions()
-	}
-	class Lecturer{
-		getCourses()
-		getCourseAdministration()
-	}
-	class Course{
-		name
-		semester
-		addCourseAdministrator()
-		delCourseAdministrator()
-		getData()
-		updateData()
-		addParticipation
-		addTask()
-		issueCertificate()
-		informStudent()
-		informLecturer()
-	}
-	class BType{
-		<<enumeration>>
-		admin
-		standard
-	}
-```
-
 - Behavior = the direct consequences of an action of at least one object
 - Affects how the states of objects change over time
 - Behavior can
@@ -274,7 +191,9 @@ Describes the way in which an object is involved in an association relationship
 
 ## Xor constraint
 An object of class `Exam` is associated with an object of class `Office` *or* an object of class `LectureHall`, *but not with both*.
-![[Xor constraint.png|500]]
+
+![[XOR constraint.svg|400]]
+
 ## n-ary association
 - Student, Exam -> Lecturer
 	- One student takes one exam with either one or no lecturer
@@ -363,7 +282,8 @@ classDiagram
 > - Research associates are assigned to at least one institute. The field of study of each research associate is known. Furthermore, research associates can be involved in projects for a certain number of hours, and the name, starting date, and end date of the projects are known.  
 > - Some research associates hold courses. Then they are called lecturers.  
 > - Courses have a unique number (ID), a name, and a weekly duration in hours.
-> ![[Class Diagram University example.png|600]]
+> 
+> ![[Example Class Diagram University.svg|600]]
 
 ---
 References: 

@@ -1,5 +1,5 @@
 ---
-Tags: 
+Tags: favorite
 Created: 2022-11-15 03:46:15
 ---
 (Links:: [[LaTeX]])
