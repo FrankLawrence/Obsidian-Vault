@@ -3,7 +3,7 @@ Tags:
 Created: 2024-06-24 22:25:26
 ---
 (Links:: [[Software Engineering Processes]])
-![[Software Release Process.canvas|Software Release Process]]
+![[Software Release Process.svg]]
 
 ## Challenges in the release process
 1. Communication and collaboration between developers and operations

@@ -13,11 +13,10 @@
     "dashboard",
     "remove-left-border-embed",
     "infobox",
-    "centerImages",
-    "big-math",
     "test",
-    "svg",
-    "image-blending"
+    "big-math",
+    "image-blending",
+    "svg"
   ],
   "showRibbon": true
 }
