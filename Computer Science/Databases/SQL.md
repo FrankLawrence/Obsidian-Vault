@@ -291,9 +291,24 @@ With `IN` and `NOT IN`, it is possible to check whether an attribute value appea
 
 The **subquery** is evaluated before the **main query**. This can be visualised as two seperate tables.
 
-![[57862.png|500]]
-
-![[56322.png|300]]
+$$\begin{array}{c}
+\text{Students} \\ \hline
+\begin{array}{c|l|l|l}
+\textbf{sid} & \textbf{first} & \textbf{last} & \textbf{address} \\ \hline
+101 & \text{George} & \text{Orwell} & \text{London} \\
+102 & \text{Elvis} & \text{Presley} & \text{Memphis} \\
+103 & \text{Lisa} & \text{Simpson} & \text{Springfield} \\
+104 & \text{Bart} & \text{Simpson} & \text{Springfield} \\
+105 & \text{George} & \text{Washington} & \text{null} \\
+\end{array}
+\end{array}$$
+$$\begin{array}{c}
+\text{Subquery result} \\ \hline
+\textbf{sid} \\ \hline
+101 \\
+102 \\
+103 \\
+\end{array}$$
 
 Then, for every tuple of `Students`, a matching `sid` is search in the subquery result. If there is none, the tuple is not part of the output.
 
@@ -373,7 +388,7 @@ Non-correlated subqueries evaluate to a set/relation **constant** and may make p
 > > 				WHERE   R.category = 'homework')
 > > ```
 # For All & Implication
-$\exists X(\varphi)$ ($\exists$: [[Existential Quantification]]) shows that there is an $X$ that satisfies formula $\varphi$. Similarly, $\forall X(\varphi)$ ($\forall$: [[Universal Quantification]]) shows that for all $X$, formula $\phi$ is satisfied. SQL does *not* offer a universal quantifier, but only the existential quantifier `EXISTS`. This proves no problem since we know that $$\forall X(\varphi)\quad\Longleftrightarrow\quad\neg\exists X(\neg\varphi)$$
+$\exists X(\varphi)$ ($\exists$: [[Existential Quantification]]) shows that there is an $X$ that satisfies formula $\varphi$. Similarly, $\forall X(\varphi)$ ($\forall$: [[Universal Quantification]]) shows that for all $X$, formula $\phi$ is satisfied. SQL does *not* offer a universal quantifier, but only the existential quantifier `EXISTS`. This proves no problem since we know that $$\forall X(\varphi)\quad\iff\quad\neg\exists X(\neg\varphi)$$
 SQL does also not have $\Rightarrow$. The commonly used pattern $$\forall X(\alpha\Rightarrow \beta)$$ becomes $$\neg\exists X(\alpha\land\neg\beta)$$
 
 > [!question]- Who got the best result for homework 1?

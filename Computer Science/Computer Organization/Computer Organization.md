@@ -1,6 +1,9 @@
 ---
-Alias: CO
-Tags: MOC course
+aliases:
+  - CO
+Tags:
+  - MOC
+  - course
 ---
 (Links:: [[Uni Courses🎓]])
 # Notes and Ideas

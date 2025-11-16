@@ -23,7 +23,7 @@ Probability $P(A)$
 - $P(A|B)$ ([[Conditional probability]]) is the probability that $A$ is true given that $B$ is all we know 
 - [[Bayes' Theorem|Bayes rule]]: $$P(B|A)=\frac{P(A|B)\times P(B)}{P(A)}$$
 	- The essence of the Bayesian approach is to provide a mathematical rule explaining how should our existing beliefs $P(B)$ change in the light of new evidence $A$.
-## Naïve Bayes classifier
+## [[Probabilistic models#(Naive) Bayes Classifiers]]
 - Given a set of classes: $C_1, C_2, ...C_i,..C_n$ with prior probabilities $P(C_1), P(C_2), ...$
 - Use Bayes rule to calculate the posterior probabilities that an object with the features vector $X$ belongs to class $C_i, P(C_i|X), i=1..n$
 - The class with the highest posterior probability is the most likely class.
@@ -43,7 +43,7 @@ If $P(w_{2}|x) > P(w_{1}|x)$ then $x$ is classified to $w_2$.
 > 
 > The highest $P$ in this case is the most probable class. This approach can work well, but features are often not independent, so this wouldn't work.
 ## Hidden Markov Models
-HMM is a probabilistic reasoning algorithm that works on a set of temporal data. With each clock tick the system moves to a new state. Theses states are hidden and we only see some **observations**.
+[[Sequential Models#Markov Models|HMM]] is a probabilistic reasoning algorithm that works on a set of temporal data. With each clock tick the system moves to a new state. Theses states are hidden and we only see some **observations**.
 You train a HMM by first calculating the probability $P(x)$ that a person is in a state $x$. We then calculate the transition probability $P(x_j|x_i)$ and the observation probability $P(y_i|x_i)$. The HMM can now be used as a classifier. Given an observation vector $y$ we calculate $P(x_i|y)$. The class with the highest probability $P$ wins.
 
 HMM are Hidden Markov models. These are graphical probabilistic reasoning algorithms that can be used for example for classification. They are dynamic models because the states are evolving in time. They contain hidden states and observable states connected with edges. Each transition from one state into another has a certain probability. The challenge is to infer the hidden states knowing the visible observable states. For example we mount sensors in a house (door, bed, floor, toilet) in order to monitor its inhabitants daily activity(cooking, sleeping, washing, toileting, etc). A HMM will connect the visible states z given by the sensor readings and the hidden states x (cooking, sleeping, washing, toileting, etc). The transition probabilities p(zt|zt-1), p(zt|xt) are established by long days of training, annotation, log books, etc. The hidden states given by the probability that you are in state x knowing the observable z, p(x|z) are inferred by using Bayes theory.
@@ -81,20 +81,9 @@ Evaluation falls under either of 4 classes:
 - **True** negatives (TN): An instances not from class $A$ is correctly rejected as not being in $A$
 - **False** positives (FP): An instance that is not from $A$ is wrongly classified as in $A$ ^7a83ed
 - **False** negatives (FN): An instance that is from $A$ was wrongly rejected as not from $A$ -> **Danger**
-## Confusion Matrix
-A confusion matrix shows how often each class was correctly/falsely classified. Each entry describes the count.
 
-|                 | Pedestrians | Non-pedestrians | Total Instances |
-| --------------- | ----------- | --------------- | --------------- |
-| Pedestrians     | TP 800      | FN 100          | P 900           |
-| Non-pedestrians | FP 5        | TN 95           | N 100           |
-
-From the confusion matrix you can calculate different statistics about the classification model:
-$$\text{Accuracy } a=\frac{TP+TN}{n}$$
-$$\text{Precision } p = \frac{TP}{TP+FP}$$
-$$\text{Recall (True postive rate) } r = \frac{TP}{TP+FN}$$
-$$\text{False positive rate} = \frac{FP}{FP+TN}$$
-## Receiver operation graph (ROC)
+These metrics can also be shown via a [[Confusion Matrix]]
+## [[Model evaluation#PR, ROC and AUC|Receiver operation graph (ROC)]]
 ROC graphs depict the tradeoff between hit rates and false alarm rates over noisy channels.
 ![[ROC.png|500]]
 True positive rate: $tpr$

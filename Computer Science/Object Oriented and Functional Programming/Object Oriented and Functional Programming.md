@@ -1,6 +1,9 @@
 ---
-alias: OOFP
-Tags: MOC course
+aliases:
+  - OOFP
+Tags:
+  - MOC
+  - course
 ---
 (Links:: [[Uni Courses🎓]])
 # Notes and Ideas

@@ -1,0 +1,6 @@
+[submodule "Interests/Security and Privacy/awesome-privacy"]
+	path = Interests/Security and Privacy/awesome-privacy
+	url = https://github.com/pluja/awesome-privacy
+[submodule "Interests/Self Hosting/awesome-selfhosted"]
+	path = Interests/Self Hosting/awesome-selfhosted
+	url = https://github.com/awesome-selfhosted/awesome-selfhosted

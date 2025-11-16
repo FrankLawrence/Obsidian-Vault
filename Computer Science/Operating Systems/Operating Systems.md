@@ -1,6 +1,9 @@
 ---
-alias: OS
-Tags: MOC course
+aliases:
+  - OS
+Tags:
+  - MOC
+  - course
 ---
 (Links:: [[Uni Courses🎓]])
 ## Notes and Ideas

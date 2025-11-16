@@ -1,6 +1,9 @@
 ---
-Tags: MOC course
-alias: SD
+Tags:
+  - MOC
+  - course
+aliases:
+  - SD
 ---
 (Links:: [[Uni Courses🎓]])
 ## Notes and Ideas

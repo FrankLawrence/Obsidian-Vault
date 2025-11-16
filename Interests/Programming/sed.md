@@ -1,5 +1,6 @@
 ---
-tags: cli
+tags:
+  - cli
 ---
 # A Practical Guide to GNU sed With Examples
 ## The Basics of sed

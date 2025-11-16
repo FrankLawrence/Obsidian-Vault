@@ -1,6 +1,9 @@
 ---
-alias: webtech
-Tags: MOC course
+aliases:
+  - webtech
+Tags:
+  - MOC
+  - course
 ---
 (Links:: [[Uni Courses🎓]])
 # Notes and Ideas

@@ -1,6 +1,9 @@
 ---
-alias: CN
-Tags: MOC course
+aliases:
+  - CN
+Tags:
+  - MOC
+  - course
 ---
 (Links:: [[Uni Courses🎓]])
 # Notes and Ideas
@@ -14,14 +17,13 @@ Tags: MOC course
 - [[Computer Networks Chapter 6]]
 - [[Computer Networks Chapter 7]]
 # Topics
-- [[Computer Networks Introduction]]
 - [[The Physical Layer]]
 - [[The Data Link Layer]]
 - [[The Medium Access Control Sublayer]]
 - [[The Network Layer]]
 - [[The Transport Layer]]
 - [[The Application Layer]]
-- [[Network Security]]
+- [[Fundamentals Network Security]]
 # Lectures
 - [[Lecture 3 The Data Link Layer]]
 - [[Lecture 7 Network Layer Part 1]]

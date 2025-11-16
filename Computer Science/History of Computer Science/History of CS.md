@@ -1,5 +1,7 @@
 ---
-Tags: MOC course
+Tags:
+  - MOC
+  - course
 ---
 (Links:: [[Uni Courses🎓]])
 ## Notes and Ideas

@@ -1,5 +1,6 @@
 ---
-Tags: cooking/savory
+Tags:
+  - cooking/savory
 Created: 2024-01-29 12:23:09
 ---
 # Ingredients

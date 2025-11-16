@@ -1,5 +1,7 @@
 ---
-Tags: article privacy
+Tags:
+  - article
+  - privacy
 Created: 2024-02-01 17:25:02
 ---
 - personal information can be used in a variety of fields (website usability, convenience, personalised products) with the effect of less informational privacy [p.945]

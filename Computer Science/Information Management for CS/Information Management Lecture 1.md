@@ -1,5 +1,6 @@
 ---
-Tags: lecture
+Tags:
+  - lecture
 Created: 2023-02-20 11:35:04
 ---
 (Links:: [[Information Management for CS]])

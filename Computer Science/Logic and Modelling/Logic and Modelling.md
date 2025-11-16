@@ -1,6 +1,10 @@
 ---
-Tags: MOC course Math
-alias: LM
+Tags:
+  - MOC
+  - course
+  - Math
+aliases:
+  - LM
 ---
 (Links:: [[Uni Courses🎓]])
 ## Notes and Ideas

@@ -1,6 +1,10 @@
 ---
-Tags: MOC course Math
-alias: EP
+Tags:
+  - MOC
+  - course
+  - Math
+aliases:
+  - EP
 ---
 (Links:: [[Uni Courses🎓]])
 ## Notes and Ideas

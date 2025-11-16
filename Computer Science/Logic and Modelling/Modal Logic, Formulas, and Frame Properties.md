@@ -1,5 +1,6 @@
 ---
-Tags: Math
+Tags:
+  - Math
 Created: 2024-05-27 17:09:10
 ---
 (Links:: [[Logic and Modelling]])
@@ -116,7 +117,7 @@ An [[Equivalence relations]] is a relation that is
 
 ## Reflexive Frames: $\square\, p\to p$
 > [!definition] Theorem
-> $$\mathcal{F}\vDash \square\,p\to p\quad \Longleftrightarrow \quad \text{ the frame } \mathcal{F} \text{ is reflexive}$$
+> $$\mathcal{F}\vDash \square\,p\to p\quad \iff \quad \text{ the frame } \mathcal{F} \text{ is reflexive}$$
 > > [!info] Proof
 ### A Kripke Model on a Reflexive Frame
 ```mermaid
@@ -138,20 +139,20 @@ $$\begin{align}
 ## Symmetric Frames: $q\to \square \diamond \, q$
 We can now make precise why it is impossible to make $$q\to \square\diamond q$$ false on the frame $\mathcal{F}$. The reason is that $R$ is **symmetric**: $\forall x\forall y(R(x,y)\to R(y,x))$
 > [!definition] Theorem
-> $$\mathcal{F}\vDash q\to \square \diamond \, q\quad \Longleftrightarrow \quad \text{ the frame } \mathcal{F} \text{ is symmetric}$$
+> $$\mathcal{F}\vDash q\to \square \diamond \, q\quad \iff \quad \text{ the frame } \mathcal{F} \text{ is symmetric}$$
 > > [!info] Proof
 
 
 ## Transitive Frames: $\diamond\diamond\,p\to\diamond\,p$
 > [!definition] Theorem
-> $$\mathcal{F}\vDash \diamond\diamond\,p\to \diamond\,p\quad\Longleftrightarrow\quad \text{ the frame } \mathcal{F} \text{ is transitive}$$
+> $$\mathcal{F}\vDash \diamond\diamond\,p\to \diamond\,p\quad\iff\quad \text{ the frame } \mathcal{F} \text{ is transitive}$$
 > > [!info] Proof $\Leftarrow$
 > 
 > > [!info] Proof $\Rightarrow$
 ## Correspondence of Formulas and Frame Properties
-We now know that the formula $$\square\, p\to p$$ is valid **precisely** on the reflexive frames: $$\mathcal{F} \vDash \square\, p\to p \quad\Longleftrightarrow \quad \mathcal{F}\text{ is reflexive}$$
+We now know that the formula $$\square\, p\to p$$ is valid **precisely** on the reflexive frames: $$\mathcal{F} \vDash \square\, p\to p \quad\iff \quad \mathcal{F}\text{ is reflexive}$$
 We say that the formula $\square\, p\to p$ corresponds with the frame property **reflexivity**. In general:
-> [!info] A modal formula $\phi$ **corresponds** with a frame property $E$ if: $$\mathcal{F}\vDash\phi \quad\Longleftrightarrow\quad \mathcal{F} \text{ has property } E$$
+> [!info] A modal formula $\phi$ **corresponds** with a frame property $E$ if: $$\mathcal{F}\vDash\phi \quad\iff\quad \mathcal{F} \text{ has property } E$$
 
 ---
 References:

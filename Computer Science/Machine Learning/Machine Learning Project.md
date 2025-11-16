@@ -24,9 +24,9 @@ Below are some general approaches that make for a good project. If you have some
 - Pick a machine learning algorithm, and **implement it from scratch**, using only numpy (or a similar library in another language). Your report should summarize the algorithm formally, reflect on what you learned along the way, and show experimental results proving that your implementation works. Depending on the algorithm, this is either very simple, or much too ambitious. kNNs can be very simple to implement, basic SVMs or decision trees are ambitious but achievable. Simple neural networks with backpropagation are a good choice, but convolutional or recurrent neural networks are probably too complicated. Your TA should be able to help you figure out which algorithm matches your level of ambition.  
 - If your model is simple (like linear regression) you can try to implement different search methods, and experiment on some simple datasets to test their performance.
 - A **deep learning project**. This is an ambitious subject to choose, but using [Keras](https://keras.io/), you can put something together pretty quickly. We've provided an optional worksheet to get you started, and there are plenty of online tutorials to help you out. The report should show that *you actually understood what you did* (describe the model without code), and a proper empirical evaluation of its performance. Some ideas:
-- Build an MNIST or CIFAR classifier, and see how close you get to [the state-of-the-art](http://rodrigob.github.io/are_we_there_yet/build/classification_datasets_results.html).
-- Build an [LSTM](http://colah.github.io/posts/2015-08-Understanding-LSTMs/) [language model](http://karpathy.github.io/2015/05/21/rnn-effectiveness/), and train it to generate some chosen type of text.
-- Build a (variational) autoencoder for MNIST and try to generate some digits, or visualize the latent space.
+	- Build an MNIST or CIFAR classifier, and see how close you get to [the state-of-the-art](http://rodrigob.github.io/are_we_there_yet/build/classification_datasets_results.html).
+	- Build an [LSTM](http://colah.github.io/posts/2015-08-Understanding-LSTMs/) [language model](http://karpathy.github.io/2015/05/21/rnn-effectiveness/), and train it to generate some chosen type of text.
+	- Build a (variational) autoencoder for MNIST and try to generate some digits, or visualize the latent space.
 
 ## Suggested planning, presentation
 

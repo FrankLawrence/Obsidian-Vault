@@ -1,6 +1,7 @@
 ---
-Alias: 
-Tags: people
+aliases:
+Tags:
+  - people
 Created: <%tp.date.now()%>
 ---
 (Links:: )

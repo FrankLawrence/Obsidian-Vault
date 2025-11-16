@@ -1,6 +1,9 @@
 ---
-Tags: MOC course
-alias: ANP
+Tags:
+  - MOC
+  - course
+aliases:
+  - ANP
 ---
 (Links:: [[Uni Courses🎓]])
 ## Notes and Ideas

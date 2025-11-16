@@ -1,5 +1,6 @@
 ---
-Tags: lecture
+Tags:
+  - lecture
 Created: 2022-11-15 03:32:49
 ---
 (Links:: [[Data Structures and Algorithms for CS]])

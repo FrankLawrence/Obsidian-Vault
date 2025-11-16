@@ -1,5 +1,6 @@
 ---
-Tags: Math
+Tags:
+  - Math
 Created: 2024-04-24 19:12:04
 ---
 (Links:: [[Logic and Modelling]])
@@ -19,7 +20,7 @@ For $v(\neg (r\land \neg q))=F$, we know by **semantic reasoning** that the foll
 | Proof theory with entailment $\vdash$                                                                                                                                                                                            | Semantics with entailment $\vDash$                         |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
 | rules prove **operative** explanation to logical symbols                                                                                                                                                                         | gives **meaning** to logical symbols                       |
-| gives an **existential characterisation** of the formulas that are true in a logic: $$\phi_1,...,\phi_{n}\vdash \phi\Longleftrightarrow \textrm{there exists a derivation of } \phi \textrm{ from premises } \phi_1,...,\phi_n$$ | gives a **universal characterisation** of the formulas that are true in a logic: $$\phi_1,...,\phi_{n}\vDash \phi\Longleftrightarrow \textrm{all models that satisfy } \phi_1,...,\phi_n \textrm{ also satisfy } \phi$$                                                            | 
+| gives an **existential characterisation** of the formulas that are true in a logic: $$\phi_1,...,\phi_{n}\vdash \phi\iff \textrm{there exists a derivation of } \phi \textrm{ from premises } \phi_1,...,\phi_n$$ | gives a **universal characterisation** of the formulas that are true in a logic: $$\phi_1,...,\phi_{n}\vDash \phi\iff \textrm{all models that satisfy } \phi_1,...,\phi_n \textrm{ also satisfy } \phi$$                                                            | 
 | convenient for **positive** arguments: give a derivation                                                                                                                                                                         | convenient for **negative** arguments: give a countermodel |
 
 # Models
@@ -140,20 +141,20 @@ We will be interested in interpreting in $\mathcal{M}$ formulas like:
 
 ## Formulas without quantifiers and free variables
 **Truth** definition for a formula $\phi$ without quantifiers and [[free variable|free variables]] in a model $\mathcal{M}$ by induction on the structure of $\phi$:
-$$\mathcal{M} \vDash \neg \phi \Longleftrightarrow \textrm{not } \mathcal{M} \vDash \phi \Longleftrightarrow \mathcal{M} \nvDash \phi$$
+$$\mathcal{M} \vDash \neg \phi \iff \textrm{not } \mathcal{M} \vDash \phi \iff \mathcal{M} \nvDash \phi$$
 
-$$\mathcal{M} \vDash \phi \land \psi \Longleftrightarrow \mathcal{M} \vDash \phi \textrm{ and } \mathcal{M} \vDash \psi$$
+$$\mathcal{M} \vDash \phi \land \psi \iff \mathcal{M} \vDash \phi \textrm{ and } \mathcal{M} \vDash \psi$$
 
-$$\mathcal{M} \vDash \phi \lor \psi \Longleftrightarrow \mathcal{M} \vDash \phi \textrm{ or } \mathcal{M} \vDash \psi$$
+$$\mathcal{M} \vDash \phi \lor \psi \iff \mathcal{M} \vDash \phi \textrm{ or } \mathcal{M} \vDash \psi$$
 
 $$
 \begin{align}
-\mathcal{M} \vDash \phi \to \psi & \Longleftrightarrow ((\mathcal{M} \vDash \phi) \Longrightarrow (\mathcal{M} \vDash \psi)) \\
-& \Longleftrightarrow (\textrm{if } \mathcal{M} \vDash \phi \textrm{ then } \mathcal{M} \vDash \psi) \\
-& \Longleftrightarrow \textrm{not } (\mathcal{M} \vDash \phi \textrm{ and } \mathcal{M} \nvDash \psi)
+\mathcal{M} \vDash \phi \to \psi & \iff ((\mathcal{M} \vDash \phi) \Longrightarrow (\mathcal{M} \vDash \psi)) \\
+& \iff (\textrm{if } \mathcal{M} \vDash \phi \textrm{ then } \mathcal{M} \vDash \psi) \\
+& \iff \textrm{not } (\mathcal{M} \vDash \phi \textrm{ and } \mathcal{M} \nvDash \psi)
 \end{align}
 $$
-$$\mathcal{M} \vDash P(t_{1}, ..., t_{n}) \Longleftrightarrow \langle t_{1}^{\mathcal{M}},...,t_{n}^{\mathcal{M}}\rangle \in P^{\mathcal{M}}$$
+$$\mathcal{M} \vDash P(t_{1}, ..., t_{n}) \iff \langle t_{1}^{\mathcal{M}},...,t_{n}^{\mathcal{M}}\rangle \in P^{\mathcal{M}}$$
 
 > [!example]
 > ```mermaid
@@ -173,18 +174,18 @@ $$\mathcal{M} \vDash P(t_{1}, ..., t_{n}) \Longleftrightarrow \langle t_{1}^{\ma
 > > We can use the formal definition to prove whether $\mathcal{M} \vDash P(c)$ or $\mathcal{M} \nvDash P(c)$ holds:
 > > $$\begin{align}
 > > \mathcal{M} & \vDash P(c)\quad \color{red}{\texttimes} \\
-> > & \Longleftrightarrow c^{\mathcal{M}} \in P^{\mathcal{M}} \qquad \qquad(\textrm{by definition of } \vDash)\\
-> > & \Longleftrightarrow a_{3} \in \{a_{1}, a_{2}\} \quad \texttimes \quad (\textrm{by definition of }\mathcal{M})
+> > & \iff c^{\mathcal{M}} \in P^{\mathcal{M}} \qquad \qquad(\textrm{by definition of } \vDash)\\
+> > & \iff a_{3} \in \{a_{1}, a_{2}\} \quad \texttimes \quad (\textrm{by definition of }\mathcal{M})
 > > \end{align}$$
 > 
 > > [!example]-
 > > We can use the formal definition to prove whether $\mathcal{M} \vDash \neg P(c)$ holds:
 > > $$\begin{align}
 > > \mathcal{M} & \vDash \neg P(c) \quad\color{red}{\checkmark} \\
-> > & \Longleftrightarrow \textrm{not } \mathcal{M} \vDash P(c) \qquad (\textrm{by definition of } \vDash) \\
-> > & \Longleftrightarrow \textrm{not } c^{\mathcal{M}} \in P^{\mathcal{M}} \qquad (\textrm{by definition of } \vDash) \\
-> > & \Longleftrightarrow c^{\mathcal{M}} \notin P^{\mathcal{M}} \\
-> > & \Longleftrightarrow a_{3} \notin \{a_{1},a_{2}\} \quad \checkmark \qquad (\textrm{by definition of } \mathcal{M}) 
+> > & \iff \textrm{not } \mathcal{M} \vDash P(c) \qquad (\textrm{by definition of } \vDash) \\
+> > & \iff \textrm{not } c^{\mathcal{M}} \in P^{\mathcal{M}} \qquad (\textrm{by definition of } \vDash) \\
+> > & \iff c^{\mathcal{M}} \notin P^{\mathcal{M}} \\
+> > & \iff a_{3} \notin \{a_{1},a_{2}\} \quad \checkmark \qquad (\textrm{by definition of } \mathcal{M}) 
 > > \end{align}$$
 > > Hence we conclude: $\mathcal{M} \vDash \neg P(c)$
 > 
@@ -192,8 +193,8 @@ $$\mathcal{M} \vDash P(t_{1}, ..., t_{n}) \Longleftrightarrow \langle t_{1}^{\ma
 > > We can use the formal definition to check whether $\mathcal{M} \vDash R(c,c)$ holds:
 > > $$\begin{align}
 > > \mathcal{M} & \vDash R(c,c) \quad \color{red}{\checkmark} \\
-> > & \Longleftrightarrow \langle c^{\mathcal{M}}, c^{\mathcal{M}}\rangle \in R^{\mathcal{M}} \qquad (\textrm{by definition of } \vDash) \\
-> > & \Longleftrightarrow \langle a_{3},a_{3}\rangle \in \{\langle a_{1},a_{2}\rangle,\langle a_{1},a_{3}\rangle,\langle a_{3},a_{2}\rangle,\langle a_{3},a_{3}\rangle\} \quad\checkmark \quad (\textrm{by definition of } \mathcal{M})
+> > & \iff \langle c^{\mathcal{M}}, c^{\mathcal{M}}\rangle \in R^{\mathcal{M}} \qquad (\textrm{by definition of } \vDash) \\
+> > & \iff \langle a_{3},a_{3}\rangle \in \{\langle a_{1},a_{2}\rangle,\langle a_{1},a_{3}\rangle,\langle a_{3},a_{2}\rangle,\langle a_{3},a_{3}\rangle\} \quad\checkmark \quad (\textrm{by definition of } \mathcal{M})
 > > \end{align}$$
 > > Hence we conclude: $\mathcal{M} \vDash R(c,c)$
 > 
@@ -201,9 +202,9 @@ $$\mathcal{M} \vDash P(t_{1}, ..., t_{n}) \Longleftrightarrow \langle t_{1}^{\ma
 > > We can use the formal definition to check whether $\mathcal{M} \vDash R(c,c) \lor P(c)$ holds:
 > > $$\begin{align}
 > > \mathcal{M} & \vDash R(c,c) \land P(c)\quad \checkmark \\
-> > & \Longleftrightarrow \mathcal{M} \vDash R(c,c) \textrm{ or } \mathcal{M} \vDash P(c) \qquad (\textrm{by definition of }\vDash) \\
-> > & \Longleftrightarrow \langle c^{\mathcal{M}}, c^{\mathcal{M}}\rangle \in R^{\mathcal{M}} \textrm{ or } c^{\mathcal{M}} \in P^{\mathcal{M}} \quad\checkmark\\
-> > & \Longleftrightarrow \langle a_{3},a_{3}\rangle \in \{\langle a_{1},a_{2}\rangle,\langle a_{1},a_{3}\rangle,\langle a_{3},a_{2}\rangle,\langle a_{3},a_{3}\rangle\} \quad\checkmark \\
+> > & \iff \mathcal{M} \vDash R(c,c) \textrm{ or } \mathcal{M} \vDash P(c) \qquad (\textrm{by definition of }\vDash) \\
+> > & \iff \langle c^{\mathcal{M}}, c^{\mathcal{M}}\rangle \in R^{\mathcal{M}} \textrm{ or } c^{\mathcal{M}} \in P^{\mathcal{M}} \quad\checkmark\\
+> > & \iff \langle a_{3},a_{3}\rangle \in \{\langle a_{1},a_{2}\rangle,\langle a_{1},a_{3}\rangle,\langle a_{3},a_{2}\rangle,\langle a_{3},a_{3}\rangle\} \quad\checkmark \\
 > > &\qquad \textrm{ or } a_{3} \in \{a_{1},a_{2}\} \quad\texttimes \qquad (\textrm{by definition of }\mathcal{M})
 > > \end{align}$$
 > > Hence we conclude: $\mathcal{M} \vDash R(c,c) \lor P(c)$
@@ -282,18 +283,18 @@ Let $\mathcal{M}$ be a model and $\mathscr{l}$ an environment.
 > \end{cases}$$
 
 The truth of a formula $\phi$ in a model $\mathcal{M}$ with universe $A$ with respect to environment $\mathscr{l}$ is defined by induction on the structure of $\phi$:
-- $\mathcal{M}\vDash_{\mathscr{l}} \neg \phi \Longleftrightarrow \mathcal{M}\nvDash_{\mathscr{l}}\phi$
-- $\mathcal{M}\vDash_{\mathscr{l}}\phi\land \psi \Longleftrightarrow \mathcal{M}\vDash_{\mathscr{l}} \phi$ and $\mathcal{M}\vDash_{\mathscr{l}} \psi$
-- $\mathcal{M}\vDash_{\mathscr{l}}\phi\lor \psi \Longleftrightarrow \mathcal{M}\vDash_{\mathscr{l}} \phi$ or $\mathcal{M}\vDash_{\mathscr{l}} \psi$
-- $\mathcal{M}\vDash_{\mathscr{l}}\phi \to \psi \Longleftrightarrow (\text{if } \mathcal{M}\vDash_{\mathscr{l}} \phi \;\text{ then }\;\mathcal{M}\vDash_{\mathscr{l}} \psi )$
-- $\mathcal{M}\vDash_{\mathscr{l}}P(t_{1},...,t_{n}) \Longleftrightarrow \langle t_{1}^{\mathcal{M},\mathscr{l}},...,t_{n}^{\mathcal{M},\mathscr{l}}\rangle\in P^{\mathcal{M}}$
-- $\mathcal{M}\vDash_{\mathscr{l}} \forall x\,\phi \Longleftrightarrow \textrm{ for all } a \in A \textrm{ it holds: } \mathcal{M} \vDash_{l[x\mapsto a]} \;\phi$
-- $\mathcal{M}\vDash_{\mathscr{l}} \exists x\,\phi \Longleftrightarrow \textrm{ for some } a \in A \textrm{ it holds: } \mathcal{M} \vDash_{l[x\mapsto a]} \;\phi$
+- $\mathcal{M}\vDash_{\mathscr{l}} \neg \phi \iff \mathcal{M}\nvDash_{\mathscr{l}}\phi$
+- $\mathcal{M}\vDash_{\mathscr{l}}\phi\land \psi \iff \mathcal{M}\vDash_{\mathscr{l}} \phi$ and $\mathcal{M}\vDash_{\mathscr{l}} \psi$
+- $\mathcal{M}\vDash_{\mathscr{l}}\phi\lor \psi \iff \mathcal{M}\vDash_{\mathscr{l}} \phi$ or $\mathcal{M}\vDash_{\mathscr{l}} \psi$
+- $\mathcal{M}\vDash_{\mathscr{l}}\phi \to \psi \iff (\text{if } \mathcal{M}\vDash_{\mathscr{l}} \phi \;\text{ then }\;\mathcal{M}\vDash_{\mathscr{l}} \psi )$
+- $\mathcal{M}\vDash_{\mathscr{l}}P(t_{1},...,t_{n}) \iff \langle t_{1}^{\mathcal{M},\mathscr{l}},...,t_{n}^{\mathcal{M},\mathscr{l}}\rangle\in P^{\mathcal{M}}$
+- $\mathcal{M}\vDash_{\mathscr{l}} \forall x\,\phi \iff \textrm{ for all } a \in A \textrm{ it holds: } \mathcal{M} \vDash_{l[x\mapsto a]} \;\phi$
+- $\mathcal{M}\vDash_{\mathscr{l}} \exists x\,\phi \iff \textrm{ for some } a \in A \textrm{ it holds: } \mathcal{M} \vDash_{l[x\mapsto a]} \;\phi$
 
 > [!definition] Proposition
-> If $\mathscr{l}$ and $\mathscr{l\,'}$ coincide on the free variables of $\phi$, then: $$\mathcal{M}\vDash_{\mathscr{l}}\, \phi \quad \Longleftrightarrow \quad \mathcal{M} \vDash_{\mathscr{l}\,'} \phi$$
+> If $\mathscr{l}$ and $\mathscr{l\,'}$ coincide on the free variables of $\phi$, then: $$\mathcal{M}\vDash_{\mathscr{l}}\, \phi \quad \iff \quad \mathcal{M} \vDash_{\mathscr{l}\,'} \phi$$
 > A formula $\phi$ is a **sentence** if $\phi$ does not have free variables.
-> Let $\phi$ be a sentence. Then it holds for all environments $\mathscr{l}$ and $\mathscr{l}\,'$: $$\mathcal{M}\vDash_{\mathscr{l}} \,\phi\quad \Longleftrightarrow \quad \mathcal{M}\vDash_{\mathscr{l}\,'} \phi$$
+> Let $\phi$ be a sentence. Then it holds for all environments $\mathscr{l}$ and $\mathscr{l}\,'$: $$\mathcal{M}\vDash_{\mathscr{l}} \,\phi\quad \iff \quad \mathcal{M}\vDash_{\mathscr{l}\,'} \phi$$
 > -> For sentences $\phi$ we can write $$\mathcal{M}\vDash \phi \quad\textrm{ for } \quad\mathcal{M}\vDash_{\mathscr{l}}\phi$$ since $\mathscr{l}$ is irrelevant
 
 # [[Semantic Entialment]]
@@ -304,12 +305,12 @@ In [[Predicate logic]]: $\phi_{1},...,\phi_{n}\vDash \psi$ means that for all mo
 > For all models $\mathcal{M}$ with domain $A$ and environments $\mathscr{l}$ we find: $$
 > \begin{align}
 > 	\mathcal{M} & \vDash_{\mathscr{l}} \;\; \exists y\forall x R(x,y) \\
-> 	& \Longleftrightarrow \textrm{there is } b\in A \textrm{ such that } \mathcal{M} \vDash_{\mathscr{l}[y\mapsto b]} \forall x R(x,y) \\
-> 	& \Longleftrightarrow \textrm{there is } b \in A \textrm{ such that for all } a \in A: \mathcal{M} \vDash_{\mathscr{l}[y\mapsto b][x\mapsto a]} R(x,y) \\
+> 	& \iff \textrm{there is } b\in A \textrm{ such that } \mathcal{M} \vDash_{\mathscr{l}[y\mapsto b]} \forall x R(x,y) \\
+> 	& \iff \textrm{there is } b \in A \textrm{ such that for all } a \in A: \mathcal{M} \vDash_{\mathscr{l}[y\mapsto b][x\mapsto a]} R(x,y) \\
 > 	& \Longrightarrow \textrm{for all } a \in A \textrm{ there is } b \in A \textrm{ such that }: \mathcal{M} \vDash_{\mathscr{l}[y\mapsto b][x\mapsto a]} R(x,y) \\
-> 	& \Longleftrightarrow \textrm{for all } a \in A \textrm{ there is } b \in A \textrm{ such that }: \mathcal{M} \vDash_{\mathscr{l}[x\mapsto a][y\mapsto b]} R(x,y) \\
-> 	& \Longleftrightarrow \textrm{for all } a \in A: \mathcal{M} \vDash_{\mathscr{l}[x\mapsto a]} \exists yR(x,y) \\
-> 	& \Longleftrightarrow \mathcal{M} \vDash_{\mathscr{l}} \forall x\exists yR(x,y)
+> 	& \iff \textrm{for all } a \in A \textrm{ there is } b \in A \textrm{ such that }: \mathcal{M} \vDash_{\mathscr{l}[x\mapsto a][y\mapsto b]} R(x,y) \\
+> 	& \iff \textrm{for all } a \in A: \mathcal{M} \vDash_{\mathscr{l}[x\mapsto a]} \exists yR(x,y) \\
+> 	& \iff \mathcal{M} \vDash_{\mathscr{l}} \forall x\exists yR(x,y)
 > \end{align}$$
 > Hence we can conclude: $\exists y\forall xR(x,y)\vDash \forall x\exists yR(x,y)$
 
@@ -317,11 +318,11 @@ In [[Predicate logic]]: $\phi_{1},...,\phi_{n}\vDash \psi$ means that for all mo
 > For all models $\mathcal{M}$ with domain $A$ and environments $\mathscr{l}$ we find:
 > $$\begin{align}
 > \mathcal{M} & \vDash_{\mathscr{l}} \neg \forall x P(x) \\
-> 	& \Longleftrightarrow \textrm{not } \mathcal{M} \vDash_{\mathscr{l}} \forall x P(x) \\
-> 	& \Longleftrightarrow \textrm{there exists } a \in A \textrm{ such that not } \mathcal{M} \vDash_{\mathscr{l}[x\mapsto a]} P(x) \\
-> 	& \Longleftrightarrow \textrm{there exists } a \in A \textrm{ such that }: \mathcal{M} \nvDash_{\mathscr{l}[x\mapsto a]} P(x) \\
-> 	& \Longleftrightarrow \textrm{there exists } a \in A \textrm{ such that }: \mathcal{M} \vDash_{\mathscr{l}[x\mapsto a]} \neg P(x) \\
-> 	& \Longleftrightarrow \mathcal{M} \mapsto_{\mathscr{l}} \exists x \neg P(x)
+> 	& \iff \textrm{not } \mathcal{M} \vDash_{\mathscr{l}} \forall x P(x) \\
+> 	& \iff \textrm{there exists } a \in A \textrm{ such that not } \mathcal{M} \vDash_{\mathscr{l}[x\mapsto a]} P(x) \\
+> 	& \iff \textrm{there exists } a \in A \textrm{ such that }: \mathcal{M} \nvDash_{\mathscr{l}[x\mapsto a]} P(x) \\
+> 	& \iff \textrm{there exists } a \in A \textrm{ such that }: \mathcal{M} \vDash_{\mathscr{l}[x\mapsto a]} \neg P(x) \\
+> 	& \iff \mathcal{M} \mapsto_{\mathscr{l}} \exists x \neg P(x)
 > \end{align}$$
 > Hence we can conclude: $\neg \forall xP(x) \vDash \exists x\neg P(x)$
 

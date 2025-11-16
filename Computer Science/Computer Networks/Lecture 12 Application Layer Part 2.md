@@ -1,5 +1,6 @@
 ---
-Tags: lecture
+Tags:
+  - lecture
 Created: 2023-05-31 17:21:36
 ---
 (Links:: [[Lecture 11 Application Layer Part 1|Lecture 11]] <- [[Computer Networks]])

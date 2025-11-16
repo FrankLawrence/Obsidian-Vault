@@ -1,0 +1,26 @@
+{
+	"nodes":[
+		{"id":"c79c276f3fd58f53","type":"group","x":-340,"y":-315,"width":360,"height":395,"color":"4","label":"recursively enumerable"},
+		{"id":"13f5cd7bceec4a1d","type":"group","x":60,"y":-315,"width":360,"height":395,"color":"1","label":"TM"},
+		{"id":"02cd0e672d83c762","type":"group","x":460,"y":-315,"width":360,"height":395,"color":"6","label":"unrestricted"},
+		{"id":"26955f4dc2b50130","type":"group","x":-320,"y":-271,"width":320,"height":338,"color":"4","label":"recursive"},
+		{"id":"133db54cb283924f","type":"group","x":80,"y":-271,"width":320,"height":338,"color":"1","label":"terminating TM"},
+		{"id":"4674183a5519d3d4","type":"group","x":-300,"y":-232,"width":280,"height":280,"color":"4","label":"context-sensitive CS"},
+		{"id":"c6866844f0e4b97a","type":"group","x":100,"y":-232,"width":280,"height":280,"color":"1","label":"LBA"},
+		{"id":"aedd8f6e3a399075","type":"group","x":500,"y":-232,"width":280,"height":280,"color":"6","label":"context-sensitive"},
+		{"id":"64f56d49847137c3","type":"group","x":-280,"y":-192,"width":240,"height":220,"color":"4","label":"deterministic CS"},
+		{"id":"0b7fb496e199c115","type":"group","x":120,"y":-192,"width":240,"height":220,"color":"1","label":"DLBA"},
+		{"id":"cc4d450e5288670e","type":"group","x":-260,"y":-152,"width":200,"height":160,"color":"4","label":"context-free CF"},
+		{"id":"f87bbcbbd9b53910","type":"group","x":140,"y":-152,"width":200,"height":160,"color":"1","label":"NPDA"},
+		{"id":"e016afd66e77798e","type":"group","x":540,"y":-152,"width":200,"height":160,"color":"6","label":"context-free"},
+		{"id":"0278deda9760a7cb","type":"group","x":-240,"y":-111,"width":160,"height":100,"color":"4","label":"deterministic CF"},
+		{"id":"657966d0102e63eb","type":"group","x":160,"y":-111,"width":160,"height":100,"color":"1","label":"DPDA"},
+		{"id":"fbe8843836570852","type":"text","text":"Regular","x":-220,"y":-91,"width":120,"height":50,"color":"4"},
+		{"id":"ddee01a3567ccb54","type":"text","text":"# Languages","x":-345,"y":140,"width":365,"height":50},
+		{"id":"cfb5d4188b7f44b3","type":"text","text":"DFA & NFA","x":180,"y":-91,"width":120,"height":50,"color":"1"},
+		{"id":"1395f3ef89697e92","type":"text","text":"# Automata","x":58,"y":140,"width":365,"height":50},
+		{"id":"6981dc4c96223d39","type":"text","text":"right-linear","x":570,"y":-100,"width":140,"height":50,"color":"6"},
+		{"id":"d48169aca195d40b","type":"text","text":"# Grammars","x":457,"y":140,"width":365,"height":50}
+	],
+	"edges":[]
+}

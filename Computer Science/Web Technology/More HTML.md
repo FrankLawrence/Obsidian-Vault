@@ -75,13 +75,13 @@ Created: 2023-01-09 10:26:39
   <input type="password" name="secret" size="20" maxlength="10">
 - **Fieldset**
   <fieldset>
-    <legend>Favorite person</legend>
+    <legend>Favorite Band</legend>
     <input type="radio" name="person" value="Person 1" id="Person1">
-    <label for="Person1">Ellen</label>
+    <label for="Person1">Pink Floyd</label>
     <input type="radio" name="person" value="Person 2" id="Person2">
-    <label for="Person2">Ellen</label>
+    <label for="Person2">Coldplay</label>
     <input type="radio" name="person" value="Person 3" id="Person3">
-    <label for="Person3">Ellen</label>
+    <label for="Person3">Phil Collins</label>
     </fieldset>
 # Additional form widgets
 - **Date picker**

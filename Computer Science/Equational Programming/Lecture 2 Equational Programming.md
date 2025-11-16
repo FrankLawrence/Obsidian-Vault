@@ -1,5 +1,6 @@
 ---
-Tags: Math
+Tags:
+  - Math
 Created: 2024-09-06 16:05:43
 ---
 (Links:: [[Equational Programming]])

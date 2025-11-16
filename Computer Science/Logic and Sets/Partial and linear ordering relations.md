@@ -1,5 +1,6 @@
 ---
-Tags: Math
+Tags:
+  - Math
 Created: 2022-11-17 09:02:34
 ---
 (Links:: [[Logic and Sets]])
@@ -10,7 +11,7 @@ Created: 2022-11-17 09:02:34
   Ex: $V:=\{1,2\}\Rightarrow \mathcal P(V)=\{\emptyset,\{1\},\{2\},\{1,2\}\}$
 - $x,y\in V$ are **comparable** if $x\,R\,y\text{ or }y\,R\,x$
   $R$ is a **linear** (or **total**) **order** if all $x,y\in V$ are comparable
-- A **strict partial order** $S$ corresponding to $R$ is defined by $$x\,S\,y \Longleftrightarrow x\, R\, y \text{ and } x\neq y$$ -> **irreflexive**
+- A **strict partial order** $S$ corresponding to $R$ is defined by $$x\,S\,y \iff x\, R\, y \text{ and } x\neq y$$ -> **irreflexive**
 
 ---
 References:

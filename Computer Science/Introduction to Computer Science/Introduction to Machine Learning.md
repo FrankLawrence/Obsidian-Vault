@@ -9,7 +9,7 @@ Three types of machine learning tasks
 - **Supervised learning** is the task of inferring a classification or regression from labeled training data.
 - **Unsupervised learning** is the task used to draw inferences from datasets consisting of input data without labeled responses.
 - **Reinforcement learning (RL)** is the task concerned with how software agents ought to take actions in an environment in order to maximize cumulative (delayed) rewards.
-## Deep Learning
+## [[Deep Learning]]
 - Update/transform parameters of network with errors of previous tests.
 - Input activates other neurons that are triggered on different parameters.
 - All the parameters of a neural network are trained in order to **minimize a cost function**.
@@ -49,7 +49,7 @@ To be able to create such agents, we need a *framework* such that we can make th
 
 **Supervised learning tasks**:
 - [[#Classification]]: Assign a "class" to each example
-- *Regression*: Assign a number to each example
+- [[#Regression]]: Assign a number to each example
 
 Machine learning is often misinterpreted: 
 - *Artificial Intelligence*: An encompassing field, that also deals with other non-machine learning associated tasks (e.g. Automated reasoning, planning)
@@ -131,9 +131,9 @@ This is another type of supervised learning, but instead we are predicting a *nu
 To determine how good a model is, we can use the following loss function (aka **mean-squared-error** loss): $$loss(f) = \frac{1}{n} \sum_{i}\big({\color{red}f(x_{i})-t_{i}}\big)^{2}$$
 The **residual** (marked in red) is the difference between the predicted value and the actual data (this should be small). Here are the predictions depending on the chosen model:
 
-![](https://mlvu.github.io/introduction/11.Introduction.0.key-stage-0056.svg)
-![](https://mlvu.github.io/introduction/11.Introduction.0.key-stage-0057.svg)
-![](https://mlvu.github.io/introduction/11.Introduction.0.key-stage-0058.svg)
+![|500](https://mlvu.github.io/introduction/11.Introduction.0.key-stage-0056.svg)
+![|500](https://mlvu.github.io/introduction/11.Introduction.0.key-stage-0057.svg)
+![|500](https://mlvu.github.io/introduction/11.Introduction.0.key-stage-0058.svg)
 
 ## Unsupervised tasks
 ### Clustering

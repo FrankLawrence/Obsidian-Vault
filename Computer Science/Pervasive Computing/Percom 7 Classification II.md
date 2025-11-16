@@ -28,7 +28,7 @@ flowchart LR
 ---> : recognition
 ## Template matching evaluation
 It's a classification algorithm from the **supervised learning** category which needs a set of examples and training. It's simple, but it's training data must have the same parameters (size, illumination,...). It's downside is that it's slow.
-# Neural Networks
+# [[Beyond linear models#Neural Networks|Neural Networks]]
 ## Artificial neural networks
 They are a collection of **artificial neurons**, that learn mappings (through algorithms) between input and output. 
 ### Artificial neuron

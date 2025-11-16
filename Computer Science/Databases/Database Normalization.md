@@ -28,11 +28,11 @@ The functional dependency 𝐴1,…,𝐴𝑛→𝐵1,…,𝐵𝑚 holds.
 > When the algorithm stops, $Z$ is the cover of $X:X^{+}=Z$.
 
 > [!info] THEOREM
-> A functional dependency $X\to Y$ is implied by a set of functional dependencies $F\Longleftrightarrow Y\subseteq X^{+}$.
+> A functional dependency $X\to Y$ is implied by a set of functional dependencies $F\iff Y\subseteq X^{+}$.
 ## Minimal Keys
 Let $R$ be a relation with attributes $\Gamma$, and let $F$ be a set of functional dependencies.
 > [!info] THEOREM
-> A set of attributes $X\subseteq \Gamma$ is a **key** of $R\Longleftrightarrow X^{+}=\Gamma$.
+> A set of attributes $X\subseteq \Gamma$ is a **key** of $R\iff X^{+}=\Gamma$.
 
 > [!definition]
 > A key $X$ is **minimal** if every attribute $A\in X$ is **vital**, that is, $(X-\{A\})^{+}\neq \Gamma$.

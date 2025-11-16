@@ -38,7 +38,7 @@ Signal can be represented in mathematical expressions. Common physical systems p
 - A signal from the environment, in order to be processed by a digital computer, needs to be converted into a digital signal, through digitization = **sampling + quantization**.
 - Sampling has to be done with a frequency > 2x signal frequency. Undersampling causes aliasing
 # Questions
-![[Percom Signal.jpg]]
+![[Percom Signal.jpg#invert_B]]
 > [!question] a) Determine its DC component, amplitude, period and frequency. Show how you calculate the frequency. [5p]
 
 > [!question] b) Suggest a reasonable sampling frequency for this signal. Justify your answer. [5p]

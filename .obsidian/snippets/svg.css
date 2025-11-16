@@ -1,0 +1,10 @@
+.el-svg {
+  text {
+    font-family: var(--font-text);
+    font-size: var(--font-adaptive-normal);
+    font-weight: var(--normal-weight);
+    fill: var(--text-normal);
+  }
+}
+.theme-dark .el-svg path {  }
+.theme-light .el-svg path {  }

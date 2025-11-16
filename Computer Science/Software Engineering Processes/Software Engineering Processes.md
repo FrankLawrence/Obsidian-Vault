@@ -1,6 +1,9 @@
 ---
-Tags: MOC course
-alias: SEP
+Tags:
+  - MOC
+  - course
+aliases:
+  - SEP
 ---
 (Links:: [[Uni Courses🎓]])
 ## Notes and Ideas

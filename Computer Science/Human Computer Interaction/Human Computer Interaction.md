@@ -1,6 +1,9 @@
 ---
-Tags: MOC course
-alias: HCI
+Tags:
+  - MOC
+  - course
+aliases:
+  - HCI
 ---
 (Links:: [[Uni Courses🎓]])
 ## Notes and Ideas

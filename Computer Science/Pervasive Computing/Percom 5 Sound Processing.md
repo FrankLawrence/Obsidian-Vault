@@ -31,6 +31,7 @@ stem(x,m);
 ```
 # Spectrograms
 If the frequency spectrum varies in time, a graph is used where the $x$-axis is **time**, the $y$-axis is **frequency** and the color is the **amplitude** of each frequency. 
+
 ![[Sound wave Spectrogram.jpg|400]]
 # Digital filtering techniques
 Some digital signals contain noise that must be removed.

@@ -16,7 +16,7 @@ sorting:
 - priority
 group: true 
 ```
-> ![[To Do's (Tq)]]
+> ![[To Do's]]
 
 **ONE 1-2+ Hours Task:**
 - [ ] <%tp.file.cursor(1)%>

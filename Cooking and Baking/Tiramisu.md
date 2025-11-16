@@ -1,5 +1,6 @@
 ---
-Tags: cooking/sweet
+Tags:
+  - cooking/sweet
 Created: 2024-01-29 12:28:56
 ---
 [Servings:: 8]

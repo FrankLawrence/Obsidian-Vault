@@ -1,5 +1,7 @@
 ---
-tags: MOC course
+tags:
+  - MOC
+  - course
 ---
 (Links:: [[Uni Courses🎓]])
 After following this course, you will

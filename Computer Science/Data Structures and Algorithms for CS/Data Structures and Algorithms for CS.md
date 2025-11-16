@@ -1,6 +1,9 @@
 ---
-tags: MOC course
-alias: DSA
+tags:
+  - MOC
+  - course
+aliases:
+  - DSA
 ---
 (Links:: [[Uni Courses🎓]])
 # [Data Structures and Algorithms for CS](https://canvas.vu.nl/courses/63793)

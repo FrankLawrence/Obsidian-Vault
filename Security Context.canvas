@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"7dd9b98043312e36","x":260,"y":-180,"width":280,"height":104,"color":"1","type":"text","text":"# Threat Model\ndata pathways, threats, vulnerabilities, impact & risk"},
+		{"id":"d9516b075afc4257","x":260,"y":-20,"width":280,"height":120,"color":"4","type":"text","text":"# Security Architecture\nsecurity mechanisms, security functions, software/system architecture adjustments"},
+		{"id":"e58a350931c2aa94","x":-178,"y":-70,"width":298,"height":50,"type":"text","text":"# Software & System Architecture"},
+		{"id":"efc6a491b971b775","x":260,"y":-340,"width":280,"height":107,"color":"3","type":"text","text":"# Security Requirements\ngeneral, information security, authorization policy"},
+		{"id":"0d6288b24a92941f","x":-180,"y":-346,"width":300,"height":120,"type":"text","text":"# Requirements\nfunctional (information & process model), non-functional"}
+	],
+	"edges":[
+		{"id":"d25c750575455678","fromNode":"0d6288b24a92941f","fromSide":"bottom","toNode":"e58a350931c2aa94","toSide":"top"},
+		{"id":"663976756da1faaf","fromNode":"e58a350931c2aa94","fromSide":"right","toNode":"7dd9b98043312e36","toSide":"left"},
+		{"id":"3b0055dbe7b5f2a5","fromNode":"0d6288b24a92941f","fromSide":"right","toNode":"efc6a491b971b775","toSide":"left"},
+		{"id":"55bda2f38ab5b5e8","fromNode":"efc6a491b971b775","fromSide":"bottom","toNode":"7dd9b98043312e36","toSide":"top"},
+		{"id":"03f1b602cb27832a","fromNode":"e58a350931c2aa94","fromSide":"bottom","toNode":"d9516b075afc4257","toSide":"left","fromEnd":"arrow"},
+		{"id":"855abd6b0278a0da","fromNode":"7dd9b98043312e36","fromSide":"bottom","toNode":"d9516b075afc4257","toSide":"top"}
+	]
+}

@@ -1,5 +1,5 @@
 <div style="display: flex; justify-content: center; align-items: center;">
-	<svg width="100%" height="100%" viewBox="0 0 362 239" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:10;">
+	<svg width="100vh" height="100%" viewBox="0 0 362 239" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-miterlimit:10;">
 	    <g id="layer1" transform="matrix(1,0,0,1,-107.642,-56.9531)">
 	        <circle id="path5" cx="247.066" cy="133.772" r="31.503" style="fill:var(--color-red);fill-opacity:0.5;"/>
 	        <g id="path1" transform="matrix(1,-0,-0,1,107.642,56.9531)">

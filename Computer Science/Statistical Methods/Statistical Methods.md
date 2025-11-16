@@ -1,6 +1,10 @@
 ---
-Tags: MOC course Math
-alias: SM 
+Tags:
+  - MOC
+  - course
+  - Math
+aliases:
+  - SM
 ---
 (Links:: [[Uni Courses🎓]])
 ## Notes and Ideas

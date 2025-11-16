@@ -1,6 +1,9 @@
 ---
-tags: MOC Math
-alias: LS
+tags:
+  - MOC
+  - Math
+aliases:
+  - LS
 ---
 (Links:: [[Uni Courses🎓]])
 # [Logic and Sets](https://canvas.vu.nl/courses/63792)
@@ -18,6 +21,7 @@ alias: LS
 - [[Logic Exercises 6]]
 - [[Exam questions]]
 ## Topics
+[[Logic and Sets Summary]]
 ### Logic
 [[Basics]]
 [[Declaritive sentences]]

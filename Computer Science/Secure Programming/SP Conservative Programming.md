@@ -237,7 +237,7 @@ function UserCheckPassword($name, $pwd) {
 | Malicious | false negative | true positive  |
 
 #### Comparing Intrusion Detection
-![[Percom 8 Classification III#Confusion Matrix]]
+![[Confusion Matrix]]
 $$\text{F1 score }=2\times \frac{\text{precision} \times \text{ recall}}{\text{precisoin } + \text{ recall}}$$
 
 > [!example]
