@@ -4,56 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f8f02d911bd725f3",
+        "id": "7cb8e67a8266bf10",
         "type": "tabs",
         "children": [
           {
-            "id": "2f175edeec957f32",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Software Engineering Processes/SEP Lecture 6.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "SEP Lecture 6"
-            }
-          },
-          {
-            "id": "682074f8821c7098",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Side Channel Attacks.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Side Channel Attacks"
-            }
-          },
-          {
-            "id": "f1acdf3bc3bacd66",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Border Gateway Protocol Security.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": false
-              },
-              "icon": "lucide-file",
-              "title": "Border Gateway Protocol Security"
-            }
-          },
-          {
-            "id": "6e055eb35b68c6ab",
+            "id": "2e9fbf4328802209",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -66,9 +21,20 @@
               "icon": "lucide-file",
               "title": "Security Engineering Model Driven Security"
             }
+          },
+          {
+            "id": "b1ab4948958440a2",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.3"
+            }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -100,10 +66,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"fault tree",
-                "matchingCase": false,
-                "explainSearch": true,
-                "collapseAll": true,
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               },
@@ -121,8 +87,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -143,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Security Engineering Model Driven Security.md",
+                "file": "Files/Congestion control.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -153,7 +118,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Security Engineering Model Driven Security"
+              "title": "Backlinks for Congestion control"
             }
           },
           {
@@ -162,12 +127,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Security Engineering Model Driven Security.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Security Engineering Model Driven Security"
+              "title": "Outgoing links"
             }
           },
           {
@@ -178,7 +142,7 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true,
-                "showSearch": true,
+                "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
@@ -191,33 +155,32 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Security Engineering Model Driven Security.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Security Engineering Model Driven Security"
+              "title": "Outline"
             }
           },
           {
-            "id": "0d39273fa84d6476",
+            "id": "2f18b66d315145e2",
             "type": "leaf",
             "state": {
-              "type": "git-history-view",
+              "type": "calendar",
               "state": {},
-              "icon": "history",
-              "title": "History"
+              "icon": "lucide-ghost",
+              "title": "calendar"
             }
           },
           {
-            "id": "cb291de2df1448c5",
+            "id": "73e26331eacd0048",
             "type": "leaf",
             "state": {
-              "type": "git-view",
+              "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
+              "icon": "lucide-ghost",
+              "title": "advanced-tables-toolbar"
             }
           }
         ]
@@ -232,14 +195,14 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Computer Science/Security Engineering Model Driven Security.md",
+                "file": "Files/Congestion control.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
-                  "localJumps": 2,
+                  "localJumps": 1,
                   "localBacklinks": true,
                   "localForelinks": true,
-                  "localInterlinks": true,
+                  "localInterlinks": false,
                   "showTags": false,
                   "showAttachments": false,
                   "hideUnresolved": false,
@@ -260,7 +223,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Security Engineering Model Driven Security"
+              "title": "Graph of Congestion control"
             }
           }
         ]
@@ -283,67 +246,67 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": true,
       "command-palette:Open command palette": true,
-      "table-editor-obsidian:Advanced Tables Toolbar": true,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false
     }
   },
-  "active": "6e055eb35b68c6ab",
+  "active": "2e9fbf4328802209",
   "lastOpenFiles": [
-    "Computer Science/Border Gateway Protocol Security.md",
-    "Computer Science/Security Engineering Model Driven Security.md",
-    "Computer Science/Pervasive Computing/Percom 9 System Engineering I.md",
-    "Computer Science/Software Design/UML Diagrams.md",
-    "Computer Science/Network Security.md",
-    "Dashboard.md",
-    "Computer Science/Machine Learning/Model evaluation.md",
-    "Computer Science/Definitions/Confusion Matrix.md",
-    "Computer Science/Machine Learning/Machine Learning.md",
-    "Computer Science/Software Engineering Processes/SEP Lecture 6.md",
-    "Side Channel Attacks.md",
-    "Computer Science/Software Engineering Processes/Software Engineering Processes.md",
-    "Computer Science/Software Engineering Processes/Diagram of how all the software processes relate.canvas",
-    "Files/BGP Attack.md",
-    "Files/Software Release Process 1.svg",
-    "Files/Software Release Process.svg",
-    "Computer Science/Software Engineering Processes/Software Release Process.canvas",
-    "Computer Science/Compiler Construction/Syntax Analysis Diagram.canvas",
-    "Computer Science/Pervasive Computing/Testing Principle.canvas",
-    "Computer Science/Pervasive Computing/Systems engineering diagram.canvas",
-    "Computer Science/SCION.md",
-    "Files/XOR constraint.svg",
-    "Files/XOR constraint.svg",
-    "Files/Xor constraint.png",
-    "Files/Congestion control.md",
-    "Computer Science/Advanced Network Programming/Congestion Control.md",
-    "Files/Branch Search.md",
-    "Files/System Security-Metamodel.drawio.svg",
-    "Files/Metamodel-link.svg",
-    "Computer Science/Software Engineering Processes/SEP Lecture 1.md",
-    "Computer Science/Projects/Clinical Trials API.canvas",
-    "Computer Science/Compiler Construction/CFG and Basic Blocks.canvas",
-    "Computer Science/Automata and Comlexity/Chomsky Hierarchy.canvas",
-    "Computer Science/Automata and Comlexity/Automata and Complexity.md",
-    "Computer Science/Object Oriented and Functional Programming/Anyref.canvas",
-    "Computer Science/Pervasive Computing/Analog to Digital Converter.canvas",
-    "Files/Metamodeling.svg",
-    "Interests/Programming and computers/MathJax Basic Tutorial.md",
-    "Interests/Programming/MathJax Basic Tutorial.md",
-    "Files/UML Profile Examples.svg",
-    "Files/UML Profile Examples.svg",
-    "UML.md",
-    "Files/model-driven.pdf",
+    "Computer Science/Security Engineering Project.md",
     "Computer Science/Security Engineering.md",
-    "Computer Science/Security Engineering Modeling.md",
+    "Computer Science/Security Engineering Model Driven Security.md",
+    "Untitled.md",
+    "Files/Security Design Language.svg",
     "Files/modeling.pdf",
-    "Computer Science/Computer Networks/The Physical Layer.md",
-    "Miscellaneous/Testing.md",
-    "Cooking and Baking/Schokotörtchen mit weichem Kern.pdf",
-    "Compressed Files/DNSSEC Ecosystem.pdf",
-    "Computer Science/Thesis Research expanded.epub",
-    "Interests/Self Hosting/awesome-selfhosted/_static",
-    "Interests/Self Hosting/awesome-selfhosted/LICENSE",
+    "Files/model-driven.pdf",
+    "Files/XOR constraint.svg",
+    "Files/UML Profile Examples.svg",
+    "Files/Software Release Process.svg",
+    "Files/Metamodeling.svg",
+    "Files/Example Class Diagram University.svg",
+    "Files/BGP Attack.md",
+    "Computer Science/Security Engineering Modeling.md",
+    "Interests/Programming and computers/API.md",
+    "Computer Science/Uni Courses🎓.md",
+    "Computer Science/Network Security.md",
+    "Computer Science/Border Gateway Protocol Security.md",
+    "System Security.md",
+    "System Security week 2.md",
+    "System Security week 1.md",
+    "Side Channel Attacks.md",
+    "Security Context.canvas",
     "Interests/Self Hosting/awesome-selfhosted",
-    "awesome-privacy/web/yarn.lock",
-    "awesome-privacy/web/tsconfig.json"
+    "Interests/Self Hosting/What are YOU self-hosting?.md",
+    "Interests/Self Hosting/The complete guide to building your personal self hosted server for streaming and ad-blocking.md",
+    "Interests/Self Hosting/Selfhosting.md",
+    "Interests/Self Hosting/Proxmox.md",
+    "Interests/Self Hosting/Awesome self-hosted.md",
+    "Interests/Security and Privacy/awesome-privacy",
+    "Homelab Setup.md",
+    "Files/tmpodqbu0ly.png",
+    "Files/tmpo9sn8zg7.png",
+    "Files/female.png",
+    "Files/blood-age.png",
+    "Files/PDF/SEP2024-Lecture4-Testing.pdf",
+    "Files/PDF/SEP2024-Lecture3.pdf",
+    "Files/PDF/SEP2024-Lecture2-UP.pdf",
+    "Cooking and Baking/Breakfast.md",
+    "Computer Science/Thesis/Thesis Resources.md",
+    "Computer Science/Thesis/Thesis Research expanded.md",
+    "Computer Science/Thesis/Thesis Outline.md",
+    "Computer Science/Thesis/Thesis MySQL commands.md",
+    "Computer Science/Thesis/Thesis Methodology Pipeline Diagram.canvas",
+    "Computer Science/Thesis/DNSSEC.md",
+    "Computer Science/Thesis",
+    "Computer Science/Machine Learning/PR, ROC and AUC.canvas",
+    "Computer Science/Machine Learning/Abstract tasks of Machine Learning.canvas",
+    "Computer Science/Discrete Math and Calculus",
+    "Computer Science/Automata and Comlexity/Chomsky Hierarchy.canvas",
+    "Compressed Files/DNSSEC Ecosystem.pdf",
+    "Abstract tasks of Machine Learning.canvas",
+    "Computer Science/Compiler Construction/Syntax Analysis Diagram.canvas",
+    "Computer Science/Compiler Construction/Not a Natural loop.canvas",
+    "Computer Science/Compiler Construction/CFG and Basic Blocks.canvas",
+    "Computer Science/Software Engineering Processes/Diagram of how all the software processes relate.canvas"
   ]
 }

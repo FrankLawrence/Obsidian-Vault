@@ -10,9 +10,9 @@ tags: [MOC]
 - [[Terminal]]
 - [[Emacs]]
 - [[Web application]]
-- [[API]]
 - [[Tmux]]
 - [[Cron Jobs|Schedule commands]]
+- [[Kitty Terminal Emulator]]
 
 References:
 
