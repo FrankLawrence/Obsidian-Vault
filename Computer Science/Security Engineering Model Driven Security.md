@@ -99,8 +99,7 @@ We can extend conventional UML by defining new [[#Profiles Extending Core UML|pr
 
 - Profiles are useful for light-weight specialization, but substantial changes require metamodels to define languages directly
 
-> [!example] UML Profile Examples
-> ![[UML Profile Examples.svg|600]]
+![[UML Profile Examples.svg|600]]
 
 ### Metamodels
 - A **metamodel** defines the (abstract) syntax of other models. Its elements, *metaobjects*, describe *types* of model objects
@@ -148,7 +147,40 @@ We can extend conventional UML by defining new [[#Profiles Extending Core UML|pr
 >   void deleteFromParticipants(Person participant) {participants.remove(participant);}
 >   ```
 > - **Stereotype** -> parts of the deployment descriptor
+> 
+> ```java
+> <entity>
+> 	<ejb-name>Meeting</ejb-name>
+> 	<home>scheduler.MeetingHome</home>
+> 	<remote>scheduler.MeetingRemote</remote>
+> 	<ejb-class>scheduler.Meeting</ejb-class>
+> 	<persistence-type>Container</persistence-type>
+> 	<prim-key-class>java.lang.String</prim-key-class>
+> 	<reentrant>False</reentrant>
+> 	</entity>
+> ...
+> <method-permission>
+> 	<role-name>Supervisor</role-name>
+> 	<method>
+> 		<ejb-name>Meeting</ejb-name>
+> 		<method-intf>Remote</method-intf>
+> 		<method-name>cancel</method-name>
+> 		<method-params/>
+> 	</method>
+> <method-permission>
+> ...
+> ```
+
 # Secure Components
+## Context: Models and Languages
+- A *Security Design Language* glues two languages together
+- Each language is equipped with an *abstract* and *concrete syntax*, a *semantics*, and a technology-dependent *translation function*
+
+![[Security Design Language.svg|600]]
+- Dialect bridges design language with security language by identifying which design elements are protected resources.
+- UML employed for 
+	- **Metamodeling**: Object oriented def. of language syntax (MOF)
+	- **Notation**: Concrete language syntax for security design models
 # Semantics
 # Generating security infrastructures
 # Privacy

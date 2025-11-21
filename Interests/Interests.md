@@ -4,8 +4,7 @@ Links: [[Home🏠]]
 ---
 This is everything that interests you. What you are keen to learn. What takes up your time.
 
--  [[Programming]]
--  [[RR]]
+- [[Programming]]
 - [[Accessories]]
 - [[Drawing]]
 - [[Astronomy]]
