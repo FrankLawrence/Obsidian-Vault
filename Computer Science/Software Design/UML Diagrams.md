@@ -202,15 +202,18 @@ An object of class `Exam` is associated with an object of class `Office` *or* an
 - Student, Lecturer -> Exam
 	- One student can be graded by one lecturer for any number of exams
 
-![[Ternary association.png|500]]
+![[Ternary Association.svg|400]]
 ## Association Class
 Assign attributes to the relationship between classes rather than to a class itself
+
 ![[Association class.png|500]]
 - Mandatory when modelling `n:m` associations 
 
 > [!example]- Association class vs. regular class
+>
 > ![[73035.png|300]]
 > - A `Student` can enroll for one particular `StudyProgram` only *once*
+>
 > ![[60081.png|300]]
 > - A `Student` can have *multiple* `Enrollments` for one and the same `StudyProgram`
 

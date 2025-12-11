@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "2e9fbf4328802209",
+            "id": "730544a9d8a8860e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -23,15 +23,18 @@
             }
           },
           {
-            "id": "b1ab4948958440a2",
+            "id": "80b432377ad1b41c",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.10.3"
+                "file": "Interests/Programming and computers/MathJax Basic Tutorial.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": false
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.10.3"
+              "icon": "lucide-file",
+              "title": "MathJax Basic Tutorial"
             }
           }
         ]
@@ -66,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "live",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +90,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -108,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Files/Congestion control.md",
+                "file": "Computer Science/Security Engineering Model Driven Security.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -118,7 +122,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Congestion control"
+              "title": "Backlinks for Security Engineering Model Driven Security"
             }
           },
           {
@@ -195,7 +199,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Files/Congestion control.md",
+                "file": "Computer Science/Security Engineering Model Driven Security.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -223,7 +227,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Congestion control"
+              "title": "Graph of Security Engineering Model Driven Security"
             }
           }
         ]
@@ -250,59 +254,59 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "2e9fbf4328802209",
+  "active": "730544a9d8a8860e",
   "lastOpenFiles": [
-    "Computer Science/Security Engineering Project.md",
-    "Computer Science/Security Engineering.md",
+    "Miscellaneous/Testing.md",
     "Computer Science/Security Engineering Model Driven Security.md",
-    "Untitled.md",
-    "Files/Security Design Language.svg",
-    "Files/modeling.pdf",
+    "Interests/Programming/Awesome list.md",
+    "Computer Science/Information Management for CS/Analyzing Petri Net Models.md",
+    "Interests/Programming and computers/MathJax Basic Tutorial.md",
+    "Computer Science/Uni Courses🎓.md",
+    "Files/ComponentUML Example.svg",
+    "Files/ComponentUML.svg",
+    "Files/SecureUML Permissions.svg",
     "Files/model-driven.pdf",
-    "Files/XOR constraint.svg",
-    "Files/UML Profile Examples.svg",
-    "Files/Software Release Process.svg",
-    "Files/Metamodeling.svg",
-    "Files/Example Class Diagram University.svg",
+    "Files/Congestion control.md",
+    "Files/SecureUML.svg",
+    "Files/SecureUML 1.svg",
+    "Computer Science/Machine Learning/Machine Learning.md",
+    "Computer Science/Machine Learning/Probabilistic models.md",
+    "Computer Science/Machine Learning/Data pre-processing.md",
+    "Computer Science/Machine Learning/Transformers.md",
+    "Computer Science/Machine Learning/Tree Models.md",
+    "Computer Science/Machine Learning/Beyond linear models.md",
+    "Computer Science/Software Design/UML Diagrams.md",
+    "Files/Ternary association.png",
+    "Files/Ternary Association.svg",
+    "Compressed Files/Ternary association.png",
+    "Files/toh.svg",
+    "Computer Science/Logic and Sets/Predicate logic.md",
+    "Cooking and Baking/Chocolate Cookies.md",
+    "Computer Science/Security Engineering.md",
+    "Cooking and Baking/Schokotörtchen mit weichem Kern.pdf",
+    "System Security.md",
+    "Side Channel Attacks.md",
+    "Files/Declarative Access Control.svg",
+    "Computer Science/Security Engineering Project.md",
+    "Untitled.md",
+    "Files/modeling.pdf",
     "Files/BGP Attack.md",
     "Computer Science/Security Engineering Modeling.md",
     "Interests/Programming and computers/API.md",
-    "Computer Science/Uni Courses🎓.md",
     "Computer Science/Network Security.md",
     "Computer Science/Border Gateway Protocol Security.md",
-    "System Security.md",
-    "System Security week 2.md",
-    "System Security week 1.md",
-    "Side Channel Attacks.md",
     "Security Context.canvas",
     "Interests/Self Hosting/awesome-selfhosted",
-    "Interests/Self Hosting/What are YOU self-hosting?.md",
-    "Interests/Self Hosting/The complete guide to building your personal self hosted server for streaming and ad-blocking.md",
-    "Interests/Self Hosting/Selfhosting.md",
-    "Interests/Self Hosting/Proxmox.md",
-    "Interests/Self Hosting/Awesome self-hosted.md",
     "Interests/Security and Privacy/awesome-privacy",
-    "Homelab Setup.md",
-    "Files/tmpodqbu0ly.png",
-    "Files/tmpo9sn8zg7.png",
-    "Files/female.png",
-    "Files/blood-age.png",
     "Files/PDF/SEP2024-Lecture4-Testing.pdf",
     "Files/PDF/SEP2024-Lecture3.pdf",
     "Files/PDF/SEP2024-Lecture2-UP.pdf",
-    "Cooking and Baking/Breakfast.md",
-    "Computer Science/Thesis/Thesis Resources.md",
-    "Computer Science/Thesis/Thesis Research expanded.md",
-    "Computer Science/Thesis/Thesis Outline.md",
-    "Computer Science/Thesis/Thesis MySQL commands.md",
     "Computer Science/Thesis/Thesis Methodology Pipeline Diagram.canvas",
-    "Computer Science/Thesis/DNSSEC.md",
     "Computer Science/Thesis",
     "Computer Science/Machine Learning/PR, ROC and AUC.canvas",
     "Computer Science/Machine Learning/Abstract tasks of Machine Learning.canvas",
     "Computer Science/Discrete Math and Calculus",
     "Computer Science/Automata and Comlexity/Chomsky Hierarchy.canvas",
-    "Compressed Files/DNSSEC Ecosystem.pdf",
     "Abstract tasks of Machine Learning.canvas",
     "Computer Science/Compiler Construction/Syntax Analysis Diagram.canvas",
     "Computer Science/Compiler Construction/Not a Natural loop.canvas",

@@ -3,7 +3,6 @@
 .gitignore.un~
 ..gitignore.un~
 .gitignore.un
-Files/ELLLEN.JPG
 Files/IMG_1207.JPG
 Logseq/
 Personal/
@@ -11,5 +10,5 @@ Interests/G/
 Interests/RR.md
 Misc/
 Computer\ Programming/Operating\ Systems/
-
 Interests/Self Hosting/Home Network.canvas
+.obsidian/workspace.json

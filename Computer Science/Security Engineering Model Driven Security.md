@@ -91,7 +91,7 @@ UML includes the *O*bject *C*onstraint *L*anguage, which uses first-order logic/
 ## Extensibility and Domain Specific Languages
 We can extend conventional UML by defining new [[#Profiles Extending Core UML|profiles]], or at the level of [[#Metamodels|metamodels]].
 ### Profiles: Extending Core UML
-- UML is defined by a metamodel: *core UML*
+- UML is defined by a [[#Metamodels|metamodel]]: *core UML*
 - Core UML can be extended by defining a **UML profile**: Introduce modeling primitives by declaring *stereotypes* and *tagged values* that subtype and extend core UML types, and *OCL constraints* can be used to formalize syntactic well-formedness restrictions.
 
 > [!example]
@@ -130,6 +130,7 @@ We can extend conventional UML by defining new [[#Profiles Extending Core UML|pr
 - The translation produces *Java code* and *XML deployment descriptors*
 
 > [!example] MDA Generation
+> ![[ComponentUML Example.svg|400]]
 > - **Entity** -> EJB component with implementation class, interfaces (local, home, remote, ...), factory method create, finder method `findByPrimaryKey`, ...
 > - **Entity Attribute** -> getter/setter methods
 >   ```java
@@ -181,6 +182,181 @@ We can extend conventional UML by defining new [[#Profiles Extending Core UML|pr
 - UML employed for 
 	- **Metamodeling**: Object oriented def. of language syntax (MOF)
 	- **Notation**: Concrete language syntax for security design models
+## Role-Based Access Control (RBAC)
+- **Access control policies** specify which subject have rights to read/write which objects 
+	- enforced by a *reference monitor* -> checks if *authenticated* users are *authorized* to perform actions
+- There are two types of access control:
+	- *Declarative* (RBAC): $$u \in \text{Users has } p\in \text{Permissions} :\Longleftrightarrow (u,p) \in AC$$
+	- *Programmatic*: Uses assertions at relevant point in code and system environment to make decision
+	- Both are often combined: "A user in the role customer may withdraw money from an account when he is the owner and the amount is less than 1,000 SFr"
+- Declarative access control relies on *relations* to specify authorization
+
+> [!example]-
+%%> ![[Declarative Access Control.svg|600]]%%
+> $$
+> \begin{array}{ccc}
+> \begin{array}{|c|}
+> \hline \text{User} \\
+> \hline
+> \text{Alice} \\
+> \text{John} \\
+> \text{Bob} \\
+> \hline
+> \end{array}
+> 
+> \quad
+> 
+> \begin{array}{|c|c|}
+> \hline \text{User} & \text{Permission} \\
+> \hline
+> \text{Alice} & \text{read file a} \\
+> \text{Alice} & \text{write file a} \\
+> \text{Alice} & \text{start application x} \\
+> \text{Alice} & \text{start application y} \\
+> \text{John} & \text{read file a} \\
+> \text{John} & \text{write file a} \\
+> \text{John} & \text{start application x} \\
+> \text{Bob} & \text{read file a} \\
+> \text{Bob} & \text{write file a} \\
+> \text{Bob} & \text{start application x} \\
+> \hline
+> \end{array}
+> 
+> \quad
+> 
+> \begin{array}{|c|}
+> \hline \text{Permission} \\
+> \hline
+> \text{read file a} \\
+> \text{write file a} \\
+> \text{start application x} \\
+> \text{start application y} \\
+> \hline
+> \end{array}
+> \end{array}
+> $$
+
+- Role-Based Access Control decouples users and permissions by roles, representing jobs or functions
+- Formally, we can specify the following: Given
+	- $\text{UA} \subseteq \text{Users} \times \text{Roles}$, and
+	- $\text{PA} \subseteq \text{Roles} \times \text{Permissions}$
+
+$$\text{AC} := \text{PA} \circ \text{UA}$$
+i.e. $$\text{AC} \; := \; \big\{ (u,p) \in \text{Users} \times \text{Permissions}\; \vert \;\exists r \in \text{Roles} \;:\; (u,r) \in \text{UA} \land (r,p) \in \text{PA} \big\}$$
+
+> [!example]-
+> $$
+> \begin{array}{ccc}
+> \begin{array}{|c|c|}
+> \hline \text{User} & \text{Role} \\
+> \hline
+> \text{Alice} & \text{User} \\
+> \text{Alice} & \text{Superuser} \\
+> \text{Bob} & \text{User} \\
+> \text{John} & \text{User} \\
+> \hline
+> \end{array}
+> 
+> \quad
+> 
+> \begin{array}{|c|}
+> \hline \text{Role} \\
+> \hline
+> \text{User} \\
+> \text{Superuser} \\
+> \hline
+> \end{array}
+> 
+> \quad
+> 
+> \begin{array}{|c|c|}
+> \hline \text{Role} & \text{Permission} \\
+> \hline
+> \text{User} & \text{read file a} \\
+> \text{User} & \text{write file a} \\
+> \text{User} & \text{start application x} \\
+> \text{Superuser} & \text{start application y} \\
+> \hline
+> \end{array}
+> \end{array}
+> $$
+
+### Extensions
+1. Role hierarchy (for $\geq$ a partial order): $$\text{AC} := \text{PA} \; \circ \; \geq \;\circ\; \text{UA}$$
+   Larger roles inherit permissions from all smaller roles
+2. Hierarchies on users ($\text{UA}$) and permissions ($\text{PA}$)
+3. *Authorization constraints*: formulae used to make stateful access control decisions.
+   Example: a user in the role customer may withdraw money from an account *when he is the owner and the amount is less than 1,000 SFr*.
+
+## Generalization to SecureUML
+### SecureUML
+- Uses MOF for its abstract syntax
+- Uses a [[#Profiles Extending Core UML|UML profile]] for its concrete syntax
+- **Key Idea**:
+	- An access control policy formalizes the permissions to perform *actions* on *resources*
+	- We leave the actions and resources open as *types* whose elements are not fixed
+	- Elements specified during combination with design language
+
+![[SecureUML.svg|900]]
+
+- SecureUML uses [[#Role-Based Access Control (RBAC)|RBAC]] via `User`, `Role` and `Permission` classes
+- Permissions allow a Role to perform *actions* on *resources*
+	- `Resource`: base class of all model elements representing protected resources (e.g. "Class", "State", "Action")
+	- `Actions`: Belong to the "Class" (like "Read", "Write", etc.)
+- **Hierarchies** are specified using UML-aggregations
+	- `UserHierarchy`: Users (and groups) are organized in groups
+	- `RoleHierarchy`: Roles can be in an inheritance hierarchy
+	- `ActionHierarchy`: E.g. "FullAccess" is a super-action of "Read"
+	- `ActionDerivation`/`ResourceDerivation`: Details technical & omitted
+- **Authorization constraints** restrict permissions, such that an *assertion* (additional condition) must hold in order to grant access.
+  Example conditionals:
+	- The *state of the resources* of the assigned actions
+	- *Properties of method arguments* (name of the calling user)
+	- *Global system properties* (time, date)
+
+To define system users and roles we deploy the following:
+- Users, Roles and Groups are defined by stereotyped classes
+- Hierarchies defined using inheritance
+- Relations defined using stereotyped associations
+
+==TODO: Insert diagram==
+
+> [!note]-
+> User administration is *not* a design-time issue and in practice is *not* part of a design model (declared after system deployment)
+
+- Modeling **permissions** require that actions and resources are defined
+- Permissions allow many actions to be associated to a resource
+- Concrete syntax could directly reflect abstract syntax
+- Alternatively, use an *association class* to specify one [[Ternary association.svg|ternary relation]]
+	- Attributes of association relate permissions with actions
+	- Actions identified by resource name and action name
+
+> [!example]
+> ![[SecureUML Permissions.svg|900]]
+> - When permissions are represented as an association class, they connect a *role* to a *resource* (**model anchor**)
+> - Permissions (**action references**) assign actions to (1) the model anchor or (2) its sub-elements
+> - The authorization constraints are built using [[#Unified Modeling Language|OCL]] with features such as
+> 	- constant symbols: `self` and `caller` (authenticated entity of the caller)
+> 	- attributes and *side-effect free* methods
+> 	- navigation expressions (association ends)
+> 	- logical (`and`, `or`, `not`) and relational (`=`,`>`,`<`,`<>`) operators
+> 	- existentially quantified expressions (since OCL uses [[Predicate logic]])
+> - Example: `caller = self.owner`
+## Component modeling and combination
+- **ComponentUML**: a class-based language for data modeling
+
+![[ComponentUML.svg|600]]
+
+- Example implementation: ![[ComponentUML Example.svg|400]]
+
+Now let's try and [[#Context Models and Languages|combine our two languages]] (SecureUML and ComponentUML) by defining the **dialect**:
+1. Both language metamodels  are combined using [[#Unified Modeling Language|OCL]] for *notation and well-formedness rules* (mostly automated)
+2. Identify protected resources (using *subtyping*)
+3. Identify resource actions
+	- Defined using *named dependencies* from resource types to action classes (either `AtomicAction` or a subtype of `CompositeAction`)
+	- 
+4. Define action hierarchy
+
 # Semantics
 # Generating security infrastructures
 # Privacy

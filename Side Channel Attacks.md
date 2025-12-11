@@ -113,7 +113,7 @@ squareAndMultiply(m,d,N):
 - Masking each message with a random number $x$ hinders the attacker from guessing if the algorithm is slower/faster
 # Power Analysis Side Channel Attacks
 - logic gates and memory elements (registers or RAM) are used to implement finite state machines
-- 
+	- logic gates are composed of [[CMOS]]
 
 ---
 References:
