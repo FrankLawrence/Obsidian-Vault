@@ -1,1 +1,0 @@
-![Untitled](Interests/Programming%20and%20computers/Pen%20testing/Port%20Swigger/Command%20injection/Untitled.png)

@@ -1,1 +1,0 @@
-[mssqclient.py](mssqclient%20py.md)
