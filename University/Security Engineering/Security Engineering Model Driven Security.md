@@ -354,10 +354,46 @@ Now let's try and [[#Context Models and Languages|combine our two languages]] (S
 2. Identify protected resources (using *subtyping*)
 3. Identify resource actions
 	- Defined using *named dependencies* from resource types to action classes (either `AtomicAction` or a subtype of `CompositeAction`)
-	- 
 4. Define action hierarchy
+	- OCL formulae used to formalize hierarchy
+	- Ex: following states that the composite action `EntityFullAccess` is larger than the actions `create`, `read`, `update`, and `delete` of the entity the action belongs to ==What does this mean?==
+
+$$
+\begin{array}{|l|l|l|}
+	\hline \text{resource type} & \text{action} & \text{subordinated actions (with {\color{#58F}blue} atomic actions)} \\
+	\hline
+	
+	\text{Entity} & \text{full access} & \text{{\color{#58F}create}, read, update and {\color{#58F}delete} of the entity} \\ \hline
+	\text{Entity} & \text{read} & \begin{array}{l} 
+		\text{{\color{#58F}read} for all attributes and association ends of the entity} \\ 
+		\text{{\color{#58F}execute} for all side-effect free methods of the entity}
+	\end{array}\\ \hline
+	\text{Entity} & \text{update} & \begin{array}{l} 
+		\text{{\color{#58F}update} for all attributes of the entity} \\ 
+		\text{{\color{#58F}add} and {\color{#58F}delete} all association ends of the entity} \\ 
+		\text{{\color{#58F}execute} for all methods with side-effects of the entity} 
+	\end{array}\\ \hline
+	\text{Attribute} & \text{full access} & \text{{\color{#58F}read} and {\color{#58F}update} of the attribute} \\ \hline
+	\text{Association End} & \text{full access} & \text{{\color{#58F}read}, {\color{#58F}add} and {\color{#58F}delete} of the association end} \\ \hline
+	\text{Method} & \text{{\color{#58F}execute}} & \text{-} \\ \hline
+\end{array}
+$$
+
+Given is the implementation of the dialect between SecureUML and our ComponentUML
+==TODO: Insert diagram==
+
+Let's use this system design language on our existing ComponentUML example implementation of a meeting scheduler (given the following security requirements):
+- All users can create new meetings and read all meeting entries
+- Only meeting owner may change the meeting's data, cancel, or delete the meeting
+- However, a supervisor can cancel any meeting
+
+![[Example Security Design Language.svg|900]]
 
 # Semantics
+> [!Question] What do all these boxes and arrows actually mean?
+> Here we provide just a *sketch*. Full details provided in TOSEM paper 
+
+
 # Generating security infrastructures
 # Privacy
 # Experience and conclusions

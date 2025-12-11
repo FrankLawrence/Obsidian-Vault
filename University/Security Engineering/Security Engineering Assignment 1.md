@@ -10,6 +10,8 @@ Created: 2025-09-18 10:48:49
 	- Growing in *quantity* but also complexity 
 - Agile development adds requirements in each iteration, which are based on the iteration prior
 
+![[Pasted image 20251211173635.png|400]]
+
 > [!question]- Which diagram is assumed by the classical waterfall model?
 > Phase model
 
@@ -23,6 +25,7 @@ You are an employee at a bank and work on an internal application for client adv
 During a meeting, it should be discussed whether fixing these vulnerabilities is necessary for an internal application. The application is used only by client advisors and is not publicly accessible.
 
 > [!question]- What are the assumptions on the environment that must be made if the vulnerabilities are not fixed? May there be reasons why these assumptions might not hold?
+> - Application only internally accessible
 > - No unauthorised group gains access to the internal application (those inside and outside the organization).
 > - Client advisor does not have malicious intent
 
@@ -42,23 +45,39 @@ Suppose you are designing a web application that requires users to have accounts
 > - **Option 1**: Build your own authentication
 > 	- Secure storage of credentials
 > 	- Implementation of authentication and access control
-> - **Option 2**: SSO
+> - **Option 2**: [[SSO]]
 > 	- Giving control over data and access to 3rd party
 > 	- If google goes down, all the services are unaccessible
 > 	- Data can be logged
 > 	- They can impersonate any user
+> 	- We give up control -> can we enforce [[2FA]]?
 
 # Privacy Principles in Software Development
 
-Privacy concerns in software applications have gained significant attention in recent times, particularly in the light of the recent enactment of the data protection laws, like the Gen- eral Data Protection Regulation (or GDPR). These regulations requires companies to be transparent about their methods of collecting, storing and handling personal data. Since the GDPR came into effect on the 25th of May, 2018; privacy engineering are now playing an important role in software development process.
+Privacy concerns in software applications have gained significant attention in recent times, particularly in the light of the recent enactment of the data protection laws, like the General Data Protection Regulation (or [[GDPR]]). These regulations requires companies to be transparent about their methods of collecting, storing and handling personal data. Since the GDPR came into effect on the 25th of May, 2018; privacy engineering are now playing an important role in software development process.
 
 Not all aspects of GDPR compliance can be integrated into the development process. In this section, we consider several enforcable principles of the GDPR.
 
 (a) Consider the Article 5, Section 1(c) of the GDPR, which addresses the “Principles relating to processing of personal data” that related to the minimization of (personal) data. Personal data shall be: adequate, relevant and limited to what is necessary in relation to the purposes for which they are processed (‘data minimisation’)”. 
+
 > [!question] How can this principle be applied to protect user privacy in software applications?
+> The operator has to:
+> - Clearly specify the purposes for which they collect and process personal data
+> - Only collect necessary data for the defined purposes
+> - Only process the data according to those purposes
+
 
 (b) Consider the Article 13, Section 1(c); Article 7, Section 1 and 2; and Recital 32 of the GDPR on “Consents”. Let’s discuss the role of consent in user data collection and processing. 
+
 > [!question] What are the best practices for obtaining and managing user consent in software applications?
+> The operator has to:
+> - Clearly specify the purposes for which they collect and process personal data
+> - Only collect necessary data for the defined purposes
+> - Only process the data according to those purposes
+> - Provide a consent mechanism
+> 	- Which can support withdrawing consent!
+> - Allow users to request their data
+> - Respond to deletion requests
 
 As you will see in this course, implementing security and privacy requirements is not a trivial task. Moreover, these requirements evolve over time, either by the software owner or because the regulation has changed. In the latter part of the course, we will discuss possible techniques to tackle this problem.
 

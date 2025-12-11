@@ -12,7 +12,16 @@ aliases: SE
 ## Assignments
 - [[Security Engineering Assignment 1]]
 - [[Security Engineering Assignment 2]]
-- [[Security Engineering Project]]
+- [[Security Engineering Assignment 3]]
+- [[Security Engineering Assignment 4]]
+- [[Security Engineering Assignment 5]]
+- [[Security Engineering Assignment 6]]
+- [[Security Engineering Assignment 7]]
+- [[Security Engineering Assignment 8]]
+- [[Security Engineering Assignment 9]]
+- [[Security Engineering Assignment 10]]
+- [[Security Engineering Assignment 11]]
+- [[Security Engineering Assignment 12]]
 ## Topics
 ## Lectures
 - [[Security Engineering Introduction | Introduction]]

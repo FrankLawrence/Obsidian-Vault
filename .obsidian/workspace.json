@@ -21,8 +21,49 @@
               "icon": "lucide-file",
               "title": "Testing"
             }
+          },
+          {
+            "id": "8061f65d91b59226",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "University/Security Engineering/Security Engineering Model Driven Security.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Security Engineering Model Driven Security"
+            }
+          },
+          {
+            "id": "9e0e689844f20a50",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "University/Security Engineering/Security Engineering Assignment 1.md",
+                "mode": "preview",
+                "source": true,
+                "backlinks": false
+              },
+              "icon": "lucide-file",
+              "title": "Security Engineering Assignment 1"
+            }
+          },
+          {
+            "id": "93a7265426cd09d4",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -75,8 +116,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -97,7 +137,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Miscellaneous/Testing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +146,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Testing"
+              "title": "Backlinks"
             }
           },
           {
@@ -184,7 +223,6 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "Miscellaneous/Testing.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -212,7 +250,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of Testing"
+              "title": "Graph view"
             }
           }
         ]
@@ -239,8 +277,18 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "730544a9d8a8860e",
+  "active": "93a7265426cd09d4",
   "lastOpenFiles": [
+    "University/Security Engineering/Security Engineering Assignment 1.md",
+    "Files/Pasted image 20251211173635.png",
+    "University/Security Engineering/Security Engineering.md",
+    "University/Security Engineering/Security Engineering Model Driven Security.md",
+    "Files/Example Security Design Language.svg",
+    "Interests/MathJax Basic Tutorial.md",
+    "University/Machine Learning/Probabilistic models.md",
+    "University/Machine Learning/Machine Learning.md",
+    "University/Security Engineering/Untitled.md",
+    "Miscellaneous/Testing.md",
     "Computer Science/Security Engineering Model Driven Security.md",
     "University/Web Technology/Web Technology.md",
     "University/Web Technology/Web Technology Structure.md",
@@ -259,14 +307,6 @@
     "University/Web Technology/Introduction to Web Programming.md",
     "University/Web Technology/Internet basics.md",
     "University/Web Technology/Important mobile development topics.md",
-    "University/Web Technology/HTTP basics.md",
-    "University/Web Technology/HTML.md",
-    "University/Web Technology/Exam prep WT.md",
-    "University/Web Technology/Evaluation on the Web.md",
-    "University/Web Technology/Common data types in SQL.md",
-    "University/Web Technology/Common HTTP response status codes.md",
-    "University/Web Technology/Basic Javascript.md",
-    "University/Web Technology/Basic CSS.md",
     "University/Thesis/Thesis Methodology Pipeline Diagram.canvas",
     "University/Software Engineering Processes/Functional testing.canvas",
     "University/Software Engineering Processes/Diagram of how all the software processes relate.canvas",
@@ -294,8 +334,6 @@
     "Files/ComponentUML.svg",
     "Files/SecureUML Permissions.svg",
     "Files/SecureUML.svg",
-    "Files/SecureUML 1.svg",
-    "Files/Ternary association.png",
-    "Files/Ternary Association.svg"
+    "Files/SecureUML 1.svg"
   ]
 }
