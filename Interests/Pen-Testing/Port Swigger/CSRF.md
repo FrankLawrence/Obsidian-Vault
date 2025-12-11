@@ -1,0 +1,1 @@
+[Same site restrictions](Interests/Pen-Testing/Port%20Swigger/CSRF/Same%20site%20restrictions.md)
