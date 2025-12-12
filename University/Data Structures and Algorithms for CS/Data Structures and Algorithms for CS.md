@@ -10,7 +10,6 @@ aliases:
 ## Notes and Ideas
 - [[Data Structures and Algorithms for CS Outline]]
 - [[Data Structures and Algorithms for CS Structure]]
-- [[Assessment Data Structures and Algorithms for CS]]
 ## Topics
 [[Insertion sort]]
 [[Analysing Algorithms]]

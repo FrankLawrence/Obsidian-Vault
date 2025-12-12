@@ -6,10 +6,6 @@ aliases:
   - SP
 ---
 (Links:: [[Uni Courses🎓]])
-## Notes and Ideas
-- [[Secure Programming Outline]]
-- [[Secure Programming Structure]]
-- [[Secure Programming Assessment]]
 ## Topics
 - [[SP Introduction to Security]]
 - [[SP Vulnerabilities]]

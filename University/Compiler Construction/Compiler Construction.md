@@ -6,10 +6,6 @@ aliases:
   - coco
 ---
 (Links:: [[Uni Courses🎓]])
-## Notes and Ideas
-- [[Compiler Construction Outline]]
-- [[Compiler Construction Structure]]
-- [[Compiler Construction Assessment]]
 ## Assignments
 ## Topics
 - [[CoCo Language and Grammar]]

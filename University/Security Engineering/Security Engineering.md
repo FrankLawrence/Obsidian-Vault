@@ -6,9 +6,6 @@ aliases: SE
 ---
 (Links:: [[Uni Courses🎓]])
 ## Notes and Ideas
-- [[Security Engineering Outline]]
-- [[Security Engineering Structure]]
-- [[Security Engineering Assessment]]
 ## Assignments
 - [[Security Engineering Assignment 1]]
 - [[Security Engineering Assignment 2]]

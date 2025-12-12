@@ -5,10 +5,6 @@ Tags:
 aliases: NS
 ---
 (Links:: [[Uni Courses🎓]])
-## Notes and Ideas
-- [[Network Security Outline]]
-- [[Network Security Structure]]
-- [[Network Security Assessment]]
 ## Assignments
 ## Topics
 ## Lectures

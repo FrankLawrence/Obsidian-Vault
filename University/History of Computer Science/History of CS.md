@@ -4,20 +4,11 @@ Tags:
   - course
 ---
 (Links:: [[Uni Courses🎓]])
-## Notes and Ideas
-- [[History of CS Outline]]
-- [[History of CS Structure]]
-- [[History of CS Assessment]]
 ## Assignments
 ## Topics
 - [[History of Cs Introduction]]
 - [[Inventing the Computer]]
 - [[The Computer becomes a Scientific Supertool]]
-- [[The Computer becomes a Data Processing Device]]
-- [[The Computer becomes a Real-Time Control System]]
-- [[The Computer becomes an Interactive Tool]]
-- [[The Computer becomes a Communications Platform]]
-- [[The Computer becomes a Personal Plaything]]
 ## Lectures
 - [[HoCS - Lecture 1|Lecture 1]]
 - [[HoCS - Lecture 2|Lecture 2]]

@@ -10,6 +10,10 @@ Created: 2025-09-24 10:09:58
 ![[Security Context.canvas]]
 
 ## Functional versus non-functional requirements
+[[Functional Requirements]]:
+- 
+
+[[Non-Functional Requirements]]:
 > [!error] Requirements are not always clearly categorizable
 
 ## Relevance of Requirements

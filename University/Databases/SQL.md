@@ -268,8 +268,8 @@ However, not all queries behave monotonically in this way
 > > ```
 
 In natural language, queries that contain formulations like 
-- 'there is no' / 'does not exists' -> negated [[existential quantification]]
-- 'for all' / 'the minimum/maximum' -> [[universal quantification]]
+- 'there is no' / 'does not exists' -> negated [[Existential quantification]]
+- 'for all' / 'the minimum/maximum' -> [[Universal quantification]]
 
 indicate non-monotonic behaviour.
 > [!info] In an equivalent SQL formulation of such queries, this boils down to a **test whether a query yields a (non-) empty result**

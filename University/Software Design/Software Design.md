@@ -6,10 +6,6 @@ aliases:
   - SD
 ---
 (Links:: [[Uni Courses🎓]])
-## Notes and Ideas
-- [[Software Design Outline]]
-- [[Software Design Structure]]
-- [[Software Design Assessment]]
 ## Assignments
 - [[SD Project]]
 - [[SD Assignment 1]]

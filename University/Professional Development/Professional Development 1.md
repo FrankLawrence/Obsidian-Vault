@@ -4,10 +4,6 @@ Tags:
   - course
 ---
 (Links:: [[Uni Courses🎓]])
-## Notes and Ideas
-- [[Professional Development Outline]]
-- [[Professional Development Structure]]
-- [[Professional Development Assessment]]
 ## Assignments
 ## Topics
 Diversity is the mix. Inclusion is making the mix work.

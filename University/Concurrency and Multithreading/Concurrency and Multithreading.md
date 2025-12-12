@@ -6,10 +6,6 @@ aliases:
   - CM
 ---
 (Links:: [[Uni Courses🎓]])
-## Notes and Ideas
-- [[Concurrency and Multithreading Outline]]
-- [[Concurrency and Multithreading Structure]]
-- [[Concurrency and Multithreading Assessment]]
 ## Assignments
 - [[The Art of Multiprocessor Programming Exercises]]
 ## Topics

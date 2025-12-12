@@ -6,10 +6,6 @@ aliases:
   - ANP
 ---
 (Links:: [[Uni Courses🎓]])
-## Notes and Ideas
-- [[Advanced Network Programming Outline]]
-- [[Advanced Network Programming Structure]]
-- [[Advanced Network Programming Assessment]]
 ## Assignments
 - [[Project README]]
 ## Topics

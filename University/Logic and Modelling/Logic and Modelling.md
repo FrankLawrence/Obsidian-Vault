@@ -7,10 +7,6 @@ aliases:
   - LM
 ---
 (Links:: [[Uni Courses🎓]])
-## Notes and Ideas
-- [[Logic and Modelling Outline]]
-- [[Logic and Modelling Structure]]
-- [[Logic and Modelling Assessment]]
 ## Topics
 - [[Semantics of Predicate Logic]]
 - [[Semantics of, and Translations into, Predicate Logic]]

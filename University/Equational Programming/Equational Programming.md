@@ -7,10 +7,6 @@ aliases:
   - EP
 ---
 (Links:: [[Uni Courses🎓]])
-## Notes and Ideas
-- [[Equational Programming Outline]]
-- [[Equational Programming Structure]]
-- [[Equational Programming Assessment]]
 ## Assignments
 - [[Week 1 EP]]
 ## Topics

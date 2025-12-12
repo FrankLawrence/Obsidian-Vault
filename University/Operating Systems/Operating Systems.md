@@ -6,10 +6,6 @@ Tags:
   - course
 ---
 (Links:: [[Uni Courses🎓]])
-## Notes and Ideas
-- [[Operating Systems Outline]]
-- [[Operating Systems Structure]]
-- [[Operating Systems Assessment]]
 ## Topics
 - [[Mock Exam OS]]
 ## Lectures

@@ -43,27 +43,17 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "University/Security Engineering/Security Engineering Assignment 1.md",
-                "mode": "preview",
+                "file": "University/Security Engineering/Security Engineering Assignment 2.md",
+                "mode": "source",
                 "source": true,
                 "backlinks": false
               },
               "icon": "lucide-file",
-              "title": "Security Engineering Assignment 1"
-            }
-          },
-          {
-            "id": "93a7265426cd09d4",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Security Engineering Assignment 2"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -95,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "live",
+                "query": "",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -137,6 +127,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "University/Security Engineering/Security Engineering Assignment 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -146,7 +137,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Security Engineering Assignment 2"
             }
           },
           {
@@ -155,11 +146,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "University/Security Engineering/Security Engineering Assignment 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links"
+              "title": "Outgoing links from Security Engineering Assignment 2"
             }
           },
           {
@@ -183,22 +175,13 @@
             "state": {
               "type": "outline",
               "state": {
+                "file": "University/Security Engineering/Security Engineering Assignment 2.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
-            }
-          },
-          {
-            "id": "2f18b66d315145e2",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {},
-              "icon": "lucide-ghost",
-              "title": "calendar"
+              "title": "Outline of Security Engineering Assignment 2"
             }
           },
           {
@@ -207,11 +190,22 @@
             "state": {
               "type": "advanced-tables-toolbar",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "advanced-tables-toolbar"
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
+          },
+          {
+            "id": "79048a8f9b8d0e69",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       },
       {
         "id": "818802a40b9b4fd6",
@@ -223,6 +217,7 @@
             "state": {
               "type": "localgraph",
               "state": {
+                "file": "University/Security Engineering/Security Engineering Assignment 2.md",
                 "options": {
                   "collapse-filter": false,
                   "search": "",
@@ -250,7 +245,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "title": "Graph of Security Engineering Assignment 2"
             }
           }
         ]
@@ -264,49 +259,52 @@
     "hiddenItems": {
       "bases:Create new base": false,
       "markdown-importer:Open format converter": false,
-      "random-note:Open random note": false,
+      "random-note:Open random note": true,
       "audio-recorder:Start/stop recording": false,
       "workspaces:Manage workspace layouts": false,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
+      "daily-notes:Open today's daily note": true,
       "templates:Insert template": true,
       "command-palette:Open command palette": true,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "templater-obsidian:Templater": false
     }
   },
-  "active": "93a7265426cd09d4",
+  "active": "9e0e689844f20a50",
   "lastOpenFiles": [
-    "University/Security Engineering/Security Engineering Assignment 1.md",
-    "Files/Pasted image 20251211173635.png",
-    "University/Security Engineering/Security Engineering.md",
-    "University/Security Engineering/Security Engineering Model Driven Security.md",
-    "Files/Example Security Design Language.svg",
+    "University/Security Engineering/Security Engineering Assignment 2.tex",
     "Interests/MathJax Basic Tutorial.md",
-    "University/Machine Learning/Probabilistic models.md",
+    "University/Security Engineering/Security Engineering Assignment 2.md",
     "University/Machine Learning/Machine Learning.md",
-    "University/Security Engineering/Untitled.md",
+    "University/Introduction to Computer Science/Introduction to Machine Learning.md",
+    "University/Machine Learning/Abstract tasks of Machine Learning.canvas",
     "Miscellaneous/Testing.md",
-    "Computer Science/Security Engineering Model Driven Security.md",
-    "University/Web Technology/Web Technology.md",
-    "University/Web Technology/Web Technology Structure.md",
-    "University/Web Technology/Web Technology Outline.md",
-    "University/Web Technology/Web Servers (REST architecture).md",
-    "University/Web Technology/Web Science.md",
-    "University/Web Technology/Semantic versioning.md",
-    "University/Web Technology/Search on the Web.md",
-    "University/Web Technology/React.md",
-    "University/Web Technology/Pupular middleware for express.md",
-    "University/Web Technology/Primary layers of the full stack.md",
-    "University/Web Technology/Node.js.md",
-    "University/Web Technology/More HTML.md",
-    "University/Web Technology/Mobile Web Development.md",
-    "University/Web Technology/Javascript in the Browser.md",
-    "University/Web Technology/Introduction to Web Programming.md",
-    "University/Web Technology/Internet basics.md",
-    "University/Web Technology/Important mobile development topics.md",
+    "University/Security Engineering/Security Engineering Model Driven Security.md",
+    "Files/Secuirty Engineering Exercises-2.svg",
+    "Files/Secuirty Engineering Exercises-1.svg",
+    "University/Security Engineering/Security Engineering Requirements Engineering.md",
+    "University/Security Engineering/Security Engineering.md",
+    "University/Security Engineering/Security Engineering Assignment 1.md",
+    "University/Databases/SQL.md",
+    "University/Software Engineering Processes/Software Engineering Processes.md",
+    "University/Uni Courses🎓.md",
+    "University/Philosophy and Ethics/Philosophy and Ethics.md",
+    "University/History of Computer Science/History of CS.md",
+    "University/Networks and Graphs/Networks and Graphs.md",
+    "University/Data Wrangling/Data Wrangling.md",
+    "University/Data Wrangling/Reading data in text format.md",
+    "University/CoPP/CoPP.md",
+    "University/Data Structures and Algorithms for CS/Data Structures and Algorithms for CS.md",
+    "University/System Security/System Security.md",
+    "University/Network Security/Network Security.md",
+    "University/Discrete Math and Calculus/Discrete Math and Calculus.md",
+    "University/Discrete Math and Calculus/Discrete Math and Calculus Structure.md",
+    "University/Compiler Construction/Compiler Construction.md",
+    "University/Concurrency and Multithreading/Concurrency and Multithreading.md",
+    "Files/Pasted image 20251211173635.png",
+    "Files/Example Security Design Language.svg",
     "University/Thesis/Thesis Methodology Pipeline Diagram.canvas",
     "University/Software Engineering Processes/Functional testing.canvas",
     "University/Software Engineering Processes/Diagram of how all the software processes relate.canvas",
@@ -316,7 +314,6 @@
     "University/Pervasive Computing/Testing Principle.canvas",
     "University/Pervasive Computing/Systems engineering diagram.canvas",
     "University/Pervasive Computing/Analog to Digital Converter.canvas",
-    "University/Pervasive Computing/Insulin Pump FTA.canvas",
     "University/Web Technology",
     "University/Thesis",
     "University/System Security",
@@ -332,8 +329,6 @@
     "Interests/Pen-Testing/Port Swigger/Command injection/Untitled.png",
     "Files/ComponentUML Example.svg",
     "Files/ComponentUML.svg",
-    "Files/SecureUML Permissions.svg",
-    "Files/SecureUML.svg",
-    "Files/SecureUML 1.svg"
+    "Files/SecureUML Permissions.svg"
   ]
 }

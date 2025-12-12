@@ -6,7 +6,6 @@ Tags:
 (Links:: [[Uni Courses🎓]])
 # Notes and Ideas
 - [[Networks and Graphs Syllabus]]
-- [[Networks and Graphs Assessment]]
 # Assignments
 - [[Networks and Graphs Set 3 Exercises]]
 # Topics

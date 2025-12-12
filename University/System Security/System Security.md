@@ -5,10 +5,6 @@ Tags:
 aliases: SS
 ---
 (Links:: [[Uni Courses🎓]])
-## Notes and Ideas
-- [[System Security Outline]]
-- [[System Security Structure]]
-- [[System Security Assessment]]
 ## Assignments
 - [[System Security week 1]]
 - [[System Security week 2]]

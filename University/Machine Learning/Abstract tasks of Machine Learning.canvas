@@ -1,13 +1,13 @@
 {
 	"nodes":[
-		{"id":"fb2a206c849f4ee0","x":-140,"y":-260,"width":320,"height":50,"type":"text","text":"Learning to interact with the world?"},
-		{"id":"f775705e0e722c82","x":-420,"y":-140,"width":230,"height":50,"type":"text","text":"[[Reinforcement Learning]]"},
-		{"id":"e7e63ee9ba70b5e2","x":-160,"y":-90,"width":360,"height":50,"type":"text","text":"Learning and predicting at the same time?"},
-		{"id":"f1eea3f84e93e536","x":-395,"y":40,"width":180,"height":50,"type":"text","text":"**Online Learning**"},
-		{"id":"0d3422d85bf7777d","x":-100,"y":90,"width":240,"height":50,"type":"text","text":"Example input *and* output?"},
-		{"id":"3c2ae3da532b8275","x":-430,"y":225,"width":250,"height":105,"type":"text","text":"(**semi**) **supervised learning**\n- [[Introduction to Machine Learning#Classification|classification]]\n- [[Introduction to Machine Learning#Regression|regression]]"},
-		{"id":"e361d566f18a28e2","x":-115,"y":225,"width":270,"height":90,"type":"text","text":"[[Introduction to Machine Learning#Self-supervised learning|Self-supervised learning]]\n- masking\n- autoregressive modelling"},
-		{"id":"4a995b42f0d310ba","x":240,"y":225,"width":250,"height":115,"type":"text","text":"[[Introduction to Machine Learning#Unsupervised tasks|Unsupervised Learning]]\n- clustering\n- density estimation\n- generative modeling"}
+		{"id":"fb2a206c849f4ee0","type":"text","text":"Learning to interact with the world?","x":-140,"y":-260,"width":320,"height":50},
+		{"id":"f775705e0e722c82","type":"text","text":"[[Reinforcement Learning]]","x":-420,"y":-140,"width":230,"height":50},
+		{"id":"e7e63ee9ba70b5e2","type":"text","text":"Learning and predicting at the same time?","x":-160,"y":-90,"width":360,"height":50},
+		{"id":"f1eea3f84e93e536","type":"text","text":"**Online Learning**","x":-395,"y":40,"width":180,"height":50},
+		{"id":"0d3422d85bf7777d","type":"text","text":"Example input *and* output?","x":-100,"y":90,"width":240,"height":50},
+		{"id":"3c2ae3da532b8275","type":"text","text":"(**semi**) **supervised learning**\n- [[Introduction to Machine Learning#Classification|classification]]\n- [[Introduction to Machine Learning#Regression|regression]]","x":-430,"y":225,"width":250,"height":105},
+		{"id":"e361d566f18a28e2","type":"text","text":"[[Introduction to Machine Learning#Self-supervised learning|Self-supervised learning]]\n- masking\n- autoregressive modelling","x":-115,"y":225,"width":270,"height":105},
+		{"id":"4a995b42f0d310ba","type":"text","text":"[[Introduction to Machine Learning#Unsupervised tasks|Unsupervised Learning]]\n- clustering\n- density estimation\n- generative modeling","x":240,"y":225,"width":250,"height":135}
 	],
 	"edges":[
 		{"id":"9c13a2750c2f8dba","fromNode":"fb2a206c849f4ee0","fromSide":"left","toNode":"f775705e0e722c82","toSide":"top","label":"yes"},
