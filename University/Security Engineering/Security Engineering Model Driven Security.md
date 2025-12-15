@@ -393,9 +393,24 @@ Let's use this system design language on our existing ComponentUML example imple
 > [!Question] What do all these boxes and arrows actually mean?
 > Here we provide just a *sketch*. Full details provided in TOSEM paper 
 
+- Declarative Access control depend on *static information*: the assignments of users $u$ and permissions (to actions $a$) to roles 
+	- AC decisions formalized by $\mathfrak{S}_\textit{RBAC} \vDash \phi_\textit{RBAC}(u,a)$, where
+		- $\mathfrak{S}_textit{RBAC}$ is a *first-order structure* formalizing the static (RBAC) information
+		- $\phi_texit{RBAC}(u,a)$ is a *first-order formula* formalizing that *user $u$ can perform action $a$*
 
 # Generating security infrastructures
 # Privacy
+- *In data protection*: A privacy policy is a legal statement describing ways a party gathers, uses, discloses and manages a personal data
+- Classes of baseline privacy policies
+	- Purpose-limitation
+	- Data subject consent
+	- Right to rectification, erasure, and restriction
+	- Data minimization
+	- Storage limitation
+
+## Purpose-based access control
+- Specify which subjects have rights (privileges) to read/write which objects *for which purpose*
+- 
 # Experience and conclusions
 # Appendix: Secure Controllers
 
