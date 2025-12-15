@@ -101,7 +101,12 @@ In the view of access control, the notion of "role" plays a very important part.
 
 # Privacy Requirements
 ## Personal data
+Various kind of identification means, including names, LegiID, age (birthdate), username are among the typical personal data types. Take an example as the student user, grades and enrollments can also be considered as personal data: this also depends on the usage of data.
 ## Purpose
+Some purpose notice examples:
+- If you are a student, we use your Legi identification, name, enrolment status and grades for the purpose of enrolling to new courses.
+- We use your username, password and email address for authentication purpose.
+- If you are a teaching staff, in addition to the basic personal information, we use your teaching assignment status for the purpose of processing your teaching assistant application.
 ## Use Case Diagram for Privacy
 
 ---
