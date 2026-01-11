@@ -392,3 +392,4 @@ Smartphone PIN codes are usually 4 digits long, but hard to brute-force due to *
 ---
 References: 
 - https://tldp.org/LDP/tlk/mm/memory.html
+- https://en.wikipedia.org/wiki/UEFI#Boot_stages

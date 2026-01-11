@@ -98,6 +98,21 @@ This same idea can be applied to hypervisors and their VMs:
 > - Assume: Hypervisor creates $CVM_1$ and $CVM_2$ stage 2 page tables without overlays.
 > - Attack: Hypervisor creates $CVM_2$ stage 2 page table that has overlaps with $CVM_1$. If shim does not detect that it would compromise $CVM_1$'s security guarantees
 
+# Arm Confidential Computing Architecture (CCA)
+## CCA with Realm Management Extension (RME)
+- Features of Arm CCA
+	- Full software stack
+	- Isolation from the host OS and hypervisor
+	- Hardware-based security mechanisms
+	- Realm can contain a full OS stack
+	- Attestation
+	- Memory encryption
+- Isolation in Arm CCA
+	- **Granule Protection Table** (GPT) safeguards realm memory from hypervisor (real world)
+	- GPTs mark arbitrary ranges of physical memory to belong to one of the 4 worlds (normal, secure, realm and root)
+	- GPT to GPC conversion to allow components to access the memory regions
+- Intra-world isolation of Realm VMs
+	- RMM programs stage-2 translation tables
 
 ---
 References:
