@@ -40,7 +40,6 @@ Created: 2025-09-24 10:09:58
 - Question of **what** and not *how*
 - usage of natural language (ambiguous) and system models
 #### IEEE Guide to Software Requirements Specification
-##### Structure
 ### Validation
 > [!summary] Are the requirements what the stake-holders want
 

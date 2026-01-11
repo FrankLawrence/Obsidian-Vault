@@ -14,7 +14,7 @@ Any user input should be **sanitized** as soon as possible:
 
 Immediately reject inputs that are not suitable:
 - Do not process them any further
-- Ideally, do not echo problematic input in error message. Doing so can sometimes be abused, for example in a reflected [[XSS attck]](Cross-site scripting).
+- Ideally, do not echo problematic input in error message. Doing so can sometimes be abused, for example in a reflected [[XSS attck]] (Cross-site scripting).
 - Proper sanitization gives attacker far less room to maneuver
 
 > [!example] Examples
@@ -215,7 +215,7 @@ function UserCheckPassword($name, $pwd) {
 - Validation may not be sufficient to find all malicious inputs
 	- Spam e-mails
 	- Malicious apps in app store
-	- Attempts of denial of service by overloading server
+	- Attempts of [[DDoS Attack|denial of service]] by overloading server
 	- Attempts to scan network for vulnerable systems
 - We can use heuristics to identify suspicious inputs
 	- How exactly is context-dependent and out of scope

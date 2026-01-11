@@ -78,7 +78,9 @@ Created: 2023-05-17 01:24:34
 # Congestion Control
 - Make sure the sender does not send information faster than a receiver can accept
 - Combined responsibility of the **network** and **transport** layers
-- ![[Congestion control Goodput.png|500]]
+
+![[Congestion Control Goodput.svg|500]]
+
 - simplest approach: **resource over-provisioning** (installing more bandwidth)
 ## Traffic-aware routing
 - Links between routers display available bandwidth on the network

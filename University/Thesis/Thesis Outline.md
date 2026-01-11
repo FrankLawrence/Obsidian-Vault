@@ -6,7 +6,7 @@ Created: 2025-05-25 05:49:13
 
 The title of my thesis is the following: "Re-evaluating the Potential for Abusing the DNS Ecosystem". It revolves around (the extent of) the use of [[DNSSEC]] and some problems that may occur. DNSSEC was designed to ensure that the DNS query result is in fact correct. There have been previous studies showing how widespread DNSSEC is used, and to what extent it was hosted correctly[^6]. 
 
-One issue with DNSSEC is the length of the responses (due to the signature keys) can be exploited to be used in a [[DDOS Attack]] called a DNS Amplification DDoS Attack[^1]. When many clients start querying an **open resolver** (usually run by ISP's as well as other organisations like those of [cloudflare](1.1.1.1) or [google](8.8.8.8)), the ISPs infrastructure can be forced to transmit gigabytes of data, due to the DNS servers usually having multi-gigabit connections to the ISPs. In so far, we are interested in the following:
+One issue with DNSSEC is the length of the responses (due to the signature keys) can be exploited to be used in a [[DDoS Attack]] called a DNS Amplification DDoS Attack[^1]. When many clients start querying an **open resolver** (usually run by ISP's as well as other organisations like those of [cloudflare](1.1.1.1) or [google](8.8.8.8)), the ISPs infrastructure can be forced to transmit gigabytes of data, due to the DNS servers usually having multi-gigabit connections to the ISPs. In so far, we are interested in the following:
 > [!question] What part of the network is most vulnerable?
 > By looking at where these **open resolvers** are situated (which country and ISP/AS), we can determine what parts of the internet could be taken down when these are attacked.
 
@@ -35,7 +35,7 @@ Context, motivation, research questions, and original contribution could be orga
 
 The Domain Name System (DNS), a system born in the 1980s designed to translate human-readable domains into IP addresses, was never built with security as a primary concern. 
 As the Internet grew, so did the number and sophistication of attacks targeting its infrastructure and end users. 
-One such attack is distributed denial-of-service (DDoS) attacks, which aim to overwhelm open services with traffic, have become increasingly common and powerful.
+One such attack is distributed denial-of-service ([[DDoS Attack]]) attacks, which aim to overwhelm open services with traffic, have become increasingly common and powerful.
 DNS is particularly attractive in this regard because it has the potential of creating responses that are significantly larger than the original queries, often referred to as an \textit{amplification attack}.
 
 There are two main types of DNS servers that attackers typically exploit in these scenarios: open recursive DNS resolvers and authoritative name servers. 

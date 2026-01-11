@@ -47,8 +47,8 @@ Created: 2025-09-17 08:25:00
 - Categories requirements into soft- and hardware requirements
 - Design of subsystems (recursively)
 - Determine algorithms and data structures
-- Again use structured design methods like models (e.g. UML)
-- *Security* requirements map to key features: Encryption, access control, PKI, ...
+- Again use structured design methods like models (e.g. [[UML]])
+- *Security* requirements map to key features: Encryption, access control, [[PKI]], ...
 ### Implementation
 - Different subsystems require further design choices to be implemented
 - Use of libraries and frameworks -> speeds up development but propagates errors

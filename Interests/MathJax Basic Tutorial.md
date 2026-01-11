@@ -554,13 +554,13 @@ $$\operatorname*{Res}_{z=1}\left(\frac1{z^2-z}\right)=1$$
 New operators may also be defined using the `\DeclareMathOperator` syntax: `\DeclareMathOperator{newOperatorCommand}{newOperator}` defines a new operator. On the page where this code occurs, `\newOperatorCommand` will be rendered as newOperator
 # Highlighting Equations
 To highlight an equation, `\bbox` can be used. E.g,
-$$\bbox[yellow]
+$$\bbox[orange]
 {
 e^x=\lim_{n\to\infty} \left( 1+\frac{x}{n} \right)^n
 \qquad (1)
 }$$
 By default, the bounding box is "tight", so it doesn't extend beyond the characters used in the formula. You can add a little space around the equation by adding a measurement after the color. E.g.,
-$$ \bbox[yellow,5px]
+$$ \bbox[orange,5px]
 {
 e^x=\lim_{n\to\infty} \left( 1+\frac{x}{n} \right)^n
 \qquad (1)

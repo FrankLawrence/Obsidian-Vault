@@ -25,7 +25,7 @@ Created: 2023-05-30 14:59:16
 	- Send multiple frames at the same time before waiting for an acknowledgement
 - Received packets are buffered at receiver before they are read by the application
 	- Available buffer space is used as receiver window size
-# Congestion control and bandwidth allocation
+# [[University/Advanced Network Programming/Congestion Control|Congestion control]] and bandwidth allocation
 - Needed to slow down the sender if the **network** cannot handle the data rate
 - The available network resources must be evenly distributed 
 - Max-min fairness: Maximises minimum bandwidth, then uses excess bandwidth where possible

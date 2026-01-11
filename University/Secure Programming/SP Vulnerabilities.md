@@ -83,7 +83,7 @@ password_db = Query("SELECT password FROM passwords " +
   "WHERE userid=?", userid);
 return password_db == password;
 ```
-In this example, if the user exists, then the request would take longer. Side channels are *very* hard to get rid of.
+In this example, if the user exists, then the request would take longer. [[Side Channel Attacks|Side channels]] are *very* hard to get rid of.
 ## Unsecured Communications/Storage
 We must assume that network traffic can be intercepted and data can be leaked, the impact of this must then be minimized. This means that we must make network traffic unreadable but also unforgeable for third parties. Minimizing the amount of stored sensitive data can help.
 ## Users

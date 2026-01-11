@@ -80,7 +80,7 @@ Erik wants to visit: https://www.youtube.com/watch?v=QH2-TGUlwu4
 	- Anyone eavesdropping on communication can read: 
 	  ISPs, network administrators, government agencies, hackers, ...
 	- Easy to impersonate server (man-in-the-middle)
-- HTTPS uses HTTP on top of [[Secure Sockets Layer|SSL/TLS socket]]
+- HTTPS uses HTTP on top of [[Secure Sockets Layer|SSL]]/[[Transport Layer Security|TLS]] socket
 	- All traffic encrypted (guarantees confidentiality and integrity)  
 	- Server authenticated with X5.09 certificate (prevents man-in-the-middle)
 - HTTPS has become the norm, plain HTTP the exception  
@@ -402,24 +402,24 @@ If we set our profile picture to `setpic.php?pic=https://www.vusec.net/.../cropp
 ```
 After setting own image
 mysql> SELECT * FROM user; 
-+-----------+------------+------------------------------------------------------------+
-| name      | password   | pic                                                        | 
-+-----------+------------+------------------------------------------------------------+ 
-| erik      | hunter2    | setpic.php?pic=https://www.vusec.net/.../cropped-vusec.png | 
-| herbert   | bos-attack | https://www.vusec.net/.../herbert-bos-avatar.png           | 
-| cristiano | qwerty     | https://www.vusec.net/.../cristiano-giuffrida-avatar.png   | 
-+-----------+------------+------------------------------------------------------------+
+┌───────────┬────────────┬────────────────────────────────────────────────────────────┐
+│ name      │ password   │ pic                                                        │ 
+├───────────┼────────────┼────────────────────────────────────────────────────────────┤ 
+│ erik      │ hunter2    │ setpic.php?pic=https://www.vusec.net/.../cropped-vusec.png │ 
+│ herbert   │ bos-attack │ https://www.vusec.net/.../herbert-bos-avatar.png           │ 
+│ cristiano │ qwerty     │ https://www.vusec.net/.../cristiano-giuffrida-avatar.png   │ 
+└───────────┴────────────┴────────────────────────────────────────────────────────────┘
 ```
 ```
 After user logins in
 mysql> SELECT * FROM user; 
-+-----------+------------+------------------------------------------------------------+
-| name      | password   | pic                                                        | 
-+-----------+------------+------------------------------------------------------------+ 
-| erik      | hunter2    | setpic.php?pic=https://www.vusec.net/.../cropped-vusec.png | 
-| herbert   | bos-attack | https://www.vusec.net/.../cropped-vusec.png                | 
-| cristiano | qwerty     | https://www.vusec.net/.../cristiano-giuffrida-avatar.png   | 
-+-----------+------------+------------------------------------------------------------+
+┌───────────┬────────────┬────────────────────────────────────────────────────────────┐
+│ name      │ password   │ pic                                                        │ 
+├───────────┼────────────┼────────────────────────────────────────────────────────────┤ 
+│ erik      │ hunter2    │ setpic.php?pic=https://www.vusec.net/.../cropped-vusec.png │ 
+│ herbert   │ bos-attack │ https://www.vusec.net/.../cropped-vusec.png.               │ 
+│ cristiano │ qwerty     │ https://www.vusec.net/.../cristiano-giuffrida-avatar.png   │ 
+└───────────┴────────────┴────────────────────────────────────────────────────────────┘
 ```
 - Browser unintentionally makes request on behalf of logged in user
 - Hard to prevent even with proper escaping

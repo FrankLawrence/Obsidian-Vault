@@ -42,7 +42,7 @@ Created: 2022-12-26 14:14:08
  - **browser caching**: web content can be stored by the web browser on the computers' file system for quick retrieval later -> network traffic reduced
  - **network sniffer** is software that monitors network traffic and allows to inspect HTTP requests and responses
  - HTTPS encrypts HTTP traffic
-	 - **Transport Layer Security (TLS)**: uses asymmetric public keys
+	 - **[[Transport Layer Security]] (TLS)**: uses asymmetric public keys
 	 - **digital certificate** by trusted certificate authority contains public key used by TLS
 - Steps in an HTTPs transaction
 	- Step 1: Browser requests an HTTPS connection to a webpage

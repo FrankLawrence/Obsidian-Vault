@@ -21,5 +21,6 @@
   "minimal-style@@pdf-blend-light": true,
   "minimal-style@@pdf-invert-dark": true,
   "minimal-style@@image-radius": 2,
-  "minimal-style@@image-grid-background@@light": "#FFFFFF"
+  "minimal-style@@image-grid-background@@light": "#FFFFFF",
+  "minimal-style@@minimal-code-scroll": true
 }

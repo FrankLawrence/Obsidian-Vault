@@ -33,8 +33,7 @@ Created: 2025-09-23 10:37:12
 > [!error] Problem 1: BGP does not validate the origin of advertisements
 
 ## Prefix Hijacking
-
-![[Network Security-Prefix Hijacking.svg]]
+![[Prefix Hijacking.svg|800]]
 
 > [!question] What can be done to the hijacked traffic?
 > - Blackholed
@@ -69,11 +68,10 @@ ___
 - Addition: `AS 3356` (if it sees the route) and `AS 559` (but may not care) can tell if the path is a lie
 
 ## Obtaining Fake Certificates with ACME
-
-==TODO: Make the diagram==
+![[Fake certificates.svg|700]]
 
 ## Other Attacks on BGP
-- [[Denial-of-service attacks]]
+- [[DDoS Attack]]
 	- Overloading the link between BGP routers
 - Sending bogus TCP packest
 	- FIn/RST to close the session
@@ -90,7 +88,7 @@ ___
 - Filtering routes by prefix and AS path
 - Filters to block unexpected control traffic
 ## RPKI
-- Resource Public Key Infrastructure aims to **validate** an ASes ownership over resources
+- Resource [[PKI|Public Key Infrastructure]] aims to **validate** an ASes ownership over resources
 - RPKI cryptographically asserts the *cryptographic keys of ASes* and the AS numbers and IP prefixes they own
 - Roots of trust are the five regional Internet registries (RIRs)
 - AN RIR signs a statement that a particular AS
@@ -114,9 +112,9 @@ ___
 2. BGP routers in other ASes check against ROAs in RPKI for prefix $v$
 3. BGP routers would drop the announcement since no valid ROA for AS $M$
 
-==TODO: Make the diagram==
+![[Origin Authentication.svg|700]]
 
-- BGP routers in other ASes receive the announcement from AS M for prefix v
+- BGP routers in other ASes receive the announcement from AS $M$ for prefix $v$
 ## BGPsec
 - Standardized in [RFC 8205](https://tools.ietf.org/html/rfc8205)
 - Prevents crafting a valid origin by prepending ASes, and path poisoning
@@ -131,7 +129,7 @@ ___
 	- ASes may still prioritize specific routes that do implement BGPsec, although it may lead to loss in performance
 
 > [!error] Problems of BGPsec deployment
-> Unless security is priority, deployment remains large, and effects of limited implementation are minor
+> Unless security is priority, deployment remains large, and effects of limited implementation are minor.
 > Deployment challenges:
 > - different message format
 > - complete, accurate registries
@@ -141,6 +139,7 @@ ___
 	- Remember which ASes originate which prefixes
 	- Remember AS-level edges and paths
 	- Prefer routes you used before and delay adoption of unfamiliar routes
+- Generate reports and alerts for out-of-band detection 
 # Summary
 - BGP wasn't designed with security in mind
 	- Entities that participate need to be trusted
@@ -154,13 +153,13 @@ ___
 - BGP "glues" the internet together: routing protocol between ASes
 
 ```
-+---------------------------------------------------+
-| Withdrawn Routes Length (2 octets)                |
-| Withdrawn Routes (variable)                       | IP prefixes which are no longer reachable
-| Rotal Path Attribute Length (2 octets)            |
-| Path Attributes (variable)                        | Information about the path itself, i.e., which ASes it traverses
-| Network Layer Reachability Information (variable) | Details of prefixes which an be reached via this path
-+---------------------------------------------------+
+┌───────────────────────────────────────────────────┐
+│ Withdrawn Routes Length (2 octets)                │
+│ Withdrawn Routes (variable)                       │ IP prefixes which are no longer reachable
+│ Rotal Path Attribute Length (2 octets)            │
+│ Path Attributes (variable)                        │ Information about the path itself, i.e., which ASes it traverses
+│ Network Layer Reachability Information (variable) │ Details of prefixes which an be reached via this path
+└───────────────────────────────────────────────────┘
 ```
 
 - **peering policies** between ASes determine whether routes are accepted, which may be used to prevent route leaks (falsely announced prefixes)

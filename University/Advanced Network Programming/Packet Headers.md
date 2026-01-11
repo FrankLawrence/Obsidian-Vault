@@ -92,13 +92,13 @@ across the TCP/Network interface in the arguments or results of
 calls by the TCP on the IP.
 
 ```
-                     +--------+--------+--------+--------+
-                     |           Source Address          |
-                     +--------+--------+--------+--------+
-                     |         Destination Address       |
-                     +--------+--------+--------+--------+
-                     |  zero  |  PTCL  |    TCP Length   |
-                     +--------+--------+--------+--------+
+                     ┌───────────────────────────────────┐
+                     │           Source Address          │
+                     ├───────────────────────────────────┤
+                     │         Destination Address       │
+                     ├────────┬────────┬─────────────────┤
+                     │  zero  │  PTCL  │    TCP Length   │
+                     └────────┴────────┴─────────────────┘
 ```
 
 The TCP Length is the TCP header length plus the data length in

@@ -27,9 +27,9 @@ Links: "[[Secure Programming]]"
 		- Relies on programmer to check bounds
 	- Impact: loss of confidentiality
 	- Threat model: skilled hacker
-- DDoS 
+- [[DDoS Attack]]
 	- Servers are unable to handle all the requests
-	- millions of devices such as modems, printers and cameras infected by botnet malware
+	- millions of devices such as modems, printers and cameras infected by [[DDoS Attack#(IoT) Botnets|botnet]] malware
 	- Security problems: many embedded devices have default passwords, common passwords are tried
 	- many attackers, hard to distinguish legitimate and malicious requests
 	- Impact: loss of availability

@@ -79,7 +79,7 @@ These are the typical steps after a **hardware interrupt completes**:
 5. Copy registers from where they were saved to process table
 6. Run the interrupt-service procedure. It will extract information from the interrupting device controller’s registers.
 7. Choose which process to run next. If the interrupt has caused some high-priority process that was blocked to become ready, it may be chosen to run now.
-8. Set up the [[MMU]] context for the process to run next. Some TLB set- up may also be needed.
+8. Set up the [[Memory Management Unit]] context for the process to run next. Some TLB set- up may also be needed.
 9. Load the new process’ registers, including its PSW. 
 10. Start running the new process.
 

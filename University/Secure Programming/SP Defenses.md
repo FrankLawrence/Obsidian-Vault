@@ -81,7 +81,7 @@ Another option is to simply brute force guessing the value of the canary:
 	- overflow one byte and check if it does not crash; retry for next bytes
 	- at most 2024 attempts
 
-# W$\bigoplus$X
+# W$\;\bigoplus\;$X
 - Write xor eXecute - ensure that no memory is both writable and executable -> prevents attacker from injecting code and then executing it
 	- shellcode attack does not work
 
@@ -128,8 +128,8 @@ Another option is to simply brute force guessing the value of the canary:
 > **Attack**: Overwrite `len` so `reply`+`len` skips over the `retaddr` and write leaks it. Compute ROP addresses and use in the second iteration.
 
 ## Attack against ASLR
-- Leak addresses OR use side channel or oracles to recover complete address space layout
-- Typically ASLR only randomizes the base address of each part of the address space (code+globals, stack, heap). If we know one pointer, *we know them all*
+- Leak addresses OR use [[Side Channel Attacks]] or oracles to recover complete address space layout
+- Typically [[ASLR]] only randomizes the base address of each part of the address space (code+globals, stack, heap). If we know one pointer, *we know them all*
 # Control Flow Integrity (CFI)
 - limits possible targets for indirect branches, such as
 	- returns from functions

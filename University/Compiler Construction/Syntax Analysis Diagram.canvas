@@ -2,7 +2,7 @@
 	"nodes":[
 		{"id":"703d9d9fca4115a5","type":"text","text":"#  Source code (character stream)\n```c\nif (b == 0) a = b;\n```","x":-60,"y":-260,"width":200,"height":120},
 		{"id":"1aaad1180cd04548","type":"text","text":"# Lexical Analysis","x":-52,"y":-80,"width":184,"height":50,"color":"2"},
-		{"id":"c6419b4856e44111","type":"text","text":"# Token Stream\n+----+---+---+----+---+---+---+---+---+---+\n| if | ( | b | == | 0 | ) | a | = | b | ; |\n+----+---+---+----+---+---+---+---+---+---+","x":-520,"y":-110,"width":380,"height":110},
+		{"id":"c6419b4856e44111","type":"text","text":"# Token Stream\n┌────┬───┬───┬────┬───┬───┬───┬───┬───┬───┐\n│ if │ ( │ b │ == │ 0 │ ) │ a │ = │ b │ ; │\n└────┴───┴───┴────┴───┴───┴───┴───┴───┴───┘\n","x":-500,"y":-110,"width":360,"height":110},
 		{"id":"858f1ad0e70a8eef","type":"text","text":"# Abstract Syntax Tree\n```mermaid\nflowchart TD\n\ta[if] --> b[==]\n\ta --> c[=]\n\tb --> d[b]\n\tb --> e[0]\n\tc --> f[a]\n\tc --> g[b]\n```","x":-660,"y":60,"width":488,"height":345},
 		{"id":"f821cc68eddd8d87","type":"text","text":"# Syntax Analysis (Parsing)","x":-92,"y":185,"width":265,"height":50,"color":"1"},
 		{"id":"8ed319e3d322c646","type":"text","text":"# Semantic Analysis","x":-62,"y":380,"width":206,"height":50}

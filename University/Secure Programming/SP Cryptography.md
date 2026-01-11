@@ -43,7 +43,7 @@ Cryptographic algorithms require unpredictable numbers for key generation. It is
 # Symmetric Cryptography
 Symmetric Cryptography uses a **single key** to encrypt plaintext and decrypt cipher text. It protects confidentiality and with symmetric signatures it provides integrity and authentication.
 A type of cipher called the block cipher divides the data into blocks and maps each plaintext block to a cipher block. This is commonly known as Electronic Codebook (ECB). It however allows an attacker to reorder blocks and in most cases reveals repetitions, since the same plaintext transforms to the same cipher text.
-To prevent this, Cipher Block Chaining (CBC) is used. Each previous block is linked to the next one.
+To prevent this, [[Cipher Block Chaining]] (CBC) is used. Each previous block is linked to the next one.
 ![[Pasted image 20231007193353.png]]
 Not all messages have a size a multiple of the block size, this is where we must use **padding** to add extra bytes. We do not add extra zero bytes, instead we add bytes containing the padding length. Ex: `6e 20 74 05 05 05 05 05`. 
 ## AES Example in OpenSSL

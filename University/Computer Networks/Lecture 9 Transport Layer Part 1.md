@@ -6,7 +6,7 @@ Created: 2023-05-16 22:53:04
 (Links:: [[Lecture 8 Network Layer Part 2|Lecture 8]] <- [[Computer Networks]] -> [[Lecture 10 Transport Layer Part 2|Lecture 10]])
 - Physical layer moves bits over a phisical channel
 - Data link layer translates frames to and from bit/byte streams, provides error detection/correction and flow control
-- Network layer transmits packets across the network from a source host to a destination host and provides congestion control with transport layer
+- Network layer transmits packets across the network from a source host to a destination host and provides [[University/Advanced Network Programming/Congestion Control|congestion control]] with transport layer
 # Transport layer responsibilities and challenges
 - Provides a **reliable** data stream over an **unreliable** network
 - Provides communication between **processes**
@@ -57,6 +57,8 @@ Interface exposed to the application layer:
 - Send connection request and agree on starting sequence number
 - receive an acknowledgement of the previously sent sequence number
 - Duplicates: when receiving an acknowledgement of packet that was not intended, send a *Reject* message back
+
+![[TCP handshake.svg|400]]
 ## Connection release
 - Asymmetric disconnect
 	- Connection ended by either participant without agreement -> may result in data loss

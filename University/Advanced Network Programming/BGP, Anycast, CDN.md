@@ -16,7 +16,7 @@ Created: 2024-10-23 02:28:14
 ![[Shortest AS path BGP path advertisement.png|400]]
 - If $D$ receives two advertisements with the same length, which will it choose? -> based on $D$'s policy
 	- ASes can assign certain scores (*local preference*) to different ASes, usually based on "measured" speeds
-- BGP is often subject to [[Border Gateway Protocol Security|BGP hijacking]]
+- BGP is often subject to [[Border Gateway Protocol Security#Prefix Hijacking|BGP hijacking]]
 # Anycast
 - **Idea**: Advertise same prefix from multiple locations
 - How to server content from an anycast IP address?

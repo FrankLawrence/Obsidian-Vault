@@ -410,9 +410,32 @@ Let's use this system design language on our existing ComponentUML example imple
 
 ## Purpose-based access control
 - Specify which subjects have rights (privileges) to read/write which objects *for which purpose*
-- 
+- **Declared purpose**: Purpose in the authorization policy
+- **Actual purpose**: Purpose in the authorization request (get via [[Security Engineering Requirements Engineering|use cases]]; purposes $\approx$ use cases)
+## PrivateUML 
+### Abstract
+### Concrete Syntax
+## Actual Purpose
+## Consent
+## Code generation
+1. Create the data model
+2. Create the security model
+	1. Identify User class
+	2. Define roles
+	3. Define permissions
+3. Create the privacy model
+	1. Determine purposes
+	2. Identify personal data
+	3. Define declarations
+	4. Annotate actual purposes
 # Experience and conclusions
 # Appendix: Secure Controllers
+- A *controller* defines how a system’s behavior may evolve. Definition in terms of **states** and **events**, which cause state transitions.
+
+> [!example]
+> - An application changes its state according to clicks on menu-entries in the user interface.  
+> - A washing machine goes through different washing/drying modes.
+> - A control process that governs the launch sequence of a rocket.
 
 ---
 References: [[model-driven.pdf]]

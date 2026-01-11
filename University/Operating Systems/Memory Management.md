@@ -175,7 +175,7 @@ If we plot the user and system time for allocating areas of different sizes we g
 At a certain point the time jumps up because we use the `mmap` system call to allocate memory. After that the time increases for the system time, because it takes longer to deallocate the memory chunks.
 
 Another issue is whether we should only replace those pages that are from the local process, or replace pages that belong to other process.
-- **Local allocation**:
+- **Local allocation**: 
 	- Replaces only pages of the current process
 	- Assumes static process memory allocation size
 	- Problems:

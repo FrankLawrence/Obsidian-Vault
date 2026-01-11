@@ -8,9 +8,15 @@ aliases: NS
 ## Assignments
 ## Topics
 ## Lectures
-- [[Network Security Introduction and Organization | Introduction and Organization]]
 - [[Border Gateway Protocol Security]]
 - [[SCION]]
+- [[DDoS Attack]]
+- [[Transport Layer Security]]
+- [[From Middleboxes to Zero Trust]]
+- [[WebPKI]]
+- [[Virtual Private Networks]]
+- [[Anonymous-Communication Systems]]
+- [[DNS Security]]
 ## Extras
 ### Tips
 ### Emails and Resources

@@ -33,7 +33,7 @@
 		{"id":"e733aed276d0015e","type":"text","text":"","x":-83,"y":20,"width":123,"height":60},
 		{"id":"e5c148c182450827","type":"text","text":"9 Bits","x":-100,"y":260,"width":185,"height":50},
 		{"id":"1252067999dcb8c6","type":"text","text":"Unused","x":-340,"y":260,"width":240,"height":50},
-		{"id":"4130ebe18f808d39","type":"text","text":"1. **PGD:** Page Global Directory\n2. **PUD:** Page Upper Directory\n3. **PMD:** Page Mid-level Directory\n4. **PTE:** Page Table Entry","x":-340,"y":360,"width":380,"height":120},
+		{"id":"4130ebe18f808d39","type":"text","text":"1. **PGD**/PML4: Page Global Directory / Page Map Level 4\n2. **PUD**/PDPT: Page Upper Directory / Page Directory Pointer Table\n3. **PMD**/PDT: Page Mid-level Directory / Page Directory Table\n4. **PTE**/PT: Page Table Entry / Page Table","x":-340,"y":360,"width":518,"height":100},
 		{"id":"a394b9c420c668aa","type":"text","text":"**CR3** register","x":-470,"y":0,"width":170,"height":50}
 	],
 	"edges":[
