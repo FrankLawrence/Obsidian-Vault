@@ -2,13 +2,13 @@
 Tags:
   - MOC
   - course
-Aliases: 
+Aliases: ESD
 ---
 (Links:: [[Uni Courses🎓]])
 ## General
-- [[<%tp.file.title%> Outline]]
-- [[<%tp.file.title%> Structure]]
-- [[<%tp.file.title%> Assessment]]
+- [[Embedded System Design Outline]]
+- [[Embedded System Design Structure]]
+- [[Embedded System Design Assessment]]
 ## Assignments
 ## Topics
 ## Lectures

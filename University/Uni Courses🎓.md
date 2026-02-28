@@ -63,3 +63,9 @@ cssclasses:
 - [[Network Security]]
 - [[System Security]]
 - [[Security Engineering]]
+## Semester 2
+- [[Advanced Computer Architecture]]
+- [[Advanced Compiler Construction]]
+- [[Embedded System Design]]
+- [[Interactive Theorem Proving]]
+- [[Computer Vision]]

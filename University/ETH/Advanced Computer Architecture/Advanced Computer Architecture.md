@@ -2,13 +2,13 @@
 Tags:
   - MOC
   - course
-Aliases: 
+Aliases: ACA
 ---
 (Links:: [[Uni Courses🎓]])
 ## General
-- [[<%tp.file.title%> Outline]]
-- [[<%tp.file.title%> Structure]]
-- [[<%tp.file.title%> Assessment]]
+- [[Advanced Computer Architecture Outline]]
+- [[Advanced Computer Architecture Structure]]
+- [[Advanced Computer Architecture Assessment]]
 ## Assignments
 ## Topics
 ## Lectures

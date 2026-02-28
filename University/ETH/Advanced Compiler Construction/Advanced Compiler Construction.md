@@ -2,13 +2,11 @@
 Tags:
   - MOC
   - course
-Aliases: 
+Aliases: ACC
 ---
 (Links:: [[Uni Courses🎓]])
 ## General
-- [[<%tp.file.title%> Outline]]
-- [[<%tp.file.title%> Structure]]
-- [[<%tp.file.title%> Assessment]]
+- [[Advanced Compiler Construction Course overview]]
 ## Assignments
 ## Topics
 ## Lectures
