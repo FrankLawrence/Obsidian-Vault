@@ -10,8 +10,13 @@ Aliases: ACA
 - [[Advanced Computer Architecture Structure]]
 - [[Advanced Computer Architecture Assessment]]
 ## Assignments
+- [[ACA Lab 1]]
 ## Topics
 ## Lectures
+- [[Dynamic Binary Translation Pipelining]]
+- [[Dynamic Binary Translation Dynamic Scheduling]]
+- [[Dynamic Binary Translation Renaming Registers]]
+- [[Dynamic Binary Translation Predictions]]
 ## Extras
 ### Tips
 ### Emails and Resources

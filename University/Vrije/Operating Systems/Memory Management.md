@@ -53,7 +53,7 @@ A slab contains:
 
 For generic object sizes, we use sizes with different powers of two.
 # Virtual Memory
-So far memory can only be given to processes in contiguous pieces. With virtual memory we create for the process the **illusion of a large address space**. The RAM is then known as the *physical* memory. The **MMU (Memory Management Unit)** is responsible for getting the virtual memory's associated physical memory.
+So far memory can only be given to processes in contiguous pieces. With virtual memory we create for the process the **illusion of a large address space**. The RAM is then known as the *physical* memory. The [[Memory Management Unit]] (MMU) is responsible for getting the virtual memory's associated physical memory.
 Modern systems use paging: We divide physical and virtual memory into pages of fixed size (e.g. 4096 bytes). 
 
 ![[The relation between virtual and physical memory addresses is given by the page table.png|500]]
@@ -73,7 +73,7 @@ On x86-64, only 48 bits or 52 are used for addressing, but we use four-level pag
 A second way of addressing the data on a machine is to use **inverted page tables**. With a 64-bit system there are $2^{52}$ pages and as such $2^{52}$ table entries. Instead of having a page table with all the entries, we can have a [[hash table]], where the virtual address is first hashed, and then searched for in a [[Linked List]].
 
 ## Translation Lookaside Buffer
-In both circumstances we have to wait sometimes very long by loading in new tables or traversing the linked list in the hash table. The solution to this is a cache of the previous translations known as a **translation lookaside buffer**, hoping the programs exhibit a high degree of locality.
+In both circumstances we have to wait sometimes very long by loading in new tables or traversing the linked list in the hash table. The solution to this is a cache of the previous translations known as a [[translation lookaside buffer|TLB]], hoping the programs exhibit a high degree of locality.
 
 > [!example]- Translation Lookaside Buffer
 > 

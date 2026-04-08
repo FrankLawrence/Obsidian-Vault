@@ -125,7 +125,7 @@ Created: 2023-03-19 16:31:40
 - attractive for use in portable, battery-powered equipment
 # Direct Memory Access
 - transfer blocks of data directly between the main memory and I/O devices without continuous intervention by the processor (DMA controller)
-- DMA controller: performs functions (normally by processor) when accessing main memory
+- [[DMA]] controller: performs functions (normally by processor) when accessing main memory
 	- provide memory address for each word transferred
 	- generates control signals needed
 	- increments memory address for successive words
@@ -271,7 +271,7 @@ $$t_{avg}=hC+(1-h)M$$
 - binary addresses are called *virtual* or *logical addresses*
 	- converted into physical addresses by combination of hardware and software actions
 	- *Memory Management Unit* keeps track of which parts of the virtual address space are in main memory
-	- *MMU* translates virtual address into physical address
+	- [[MMU]] translates virtual address into physical address
 ## Address Translation
 - all programs and data are composed of fixed-length units called *pages* (2K to 16K bytes)
 - data hard to locate (large size) but can be transferred at a rate of several megabytes per second
@@ -280,11 +280,11 @@ $$t_{avg}=hC+(1-h)M$$
 - page table includes memory location of *page frame* (location in main memory which stores a page) and status of page
 - *page table base register* points to the starting address of the table
 - status bit shows if page has been changed and needs to be stored in main memory before being replaced
-### Translation Lookaside Buffer
+### Translation Lookaside Buffer (TLB)
 - small portion of the table (most recently accessed pages) mantained inside MMU called TLB
 - works the same as a memory and it's cache (virtuall address hit and misses)
 ## Page Faults
-- *page fault*: program generates an access request to a page that is not in the main memory
+- [[Page Fault]]: program generates an access request to a page that is not in the main memory
 - processing of program is interrupted by MMU 
 - other program is executed while page is fetched from disk into main memory
 - Two options to ensure the interrupted program continues correctly: continue from the point of interruption or restart the instruction

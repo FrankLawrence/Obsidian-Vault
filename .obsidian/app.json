@@ -1,6 +1,6 @@
 {
   "legacyEditor": false,
-  "livePreview": false,
+  "livePreview": true,
   "strictLineBreaks": false,
   "showFrontmatter": true,
   "showLineNumber": true,
