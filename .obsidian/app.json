@@ -1,6 +1,6 @@
 {
   "legacyEditor": false,
-  "livePreview": true,
+  "livePreview": false,
   "strictLineBreaks": false,
   "showFrontmatter": true,
   "showLineNumber": true,
@@ -24,7 +24,8 @@
   "foldHeading": true,
   "showInlineTitle": true,
   "autoConvertHtml": true,
-  "propertiesInDocument": "hidden",
+  "propertiesInDocument": "visible",
   "spellcheck": true,
-  "rightToLeft": false
+  "rightToLeft": false,
+  "defaultViewMode": "preview"
 }

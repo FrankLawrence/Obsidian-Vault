@@ -21,7 +21,7 @@ A directed graph is called weakly connected (or just "connected") if the underly
 
 A cycle in a graph is a non-empty path in which the only repeated nodes are the first and last nodes, and in which edges must not be repeated. A directed cycle in a directed graph is a non-empty directed path in which the only repeated nodes are the first and last nodes (and no edges are repeated). In the example of a directed graph above, there is a cycle A-C-B-A (or B-A-C-B, or C-B-A-C). A graph that contains one or more cycles is called a cyclic graph. 
 
-A graph that does not contain cycles is called acyclic. Such acyclic graphs, esp. **directed acyclic graphs** (DAGs) are an important category as they allow to model hierarchical relationships amongst their nodes.
+A graph that does not contain cycles is called acyclic. Such acyclic graphs, esp. **directed acyclic graphs** ([[DAG]]s) are an important category as they allow to model hierarchical relationships amongst their nodes.
 
 # Graph Representations
 ## Adjacency matrix for unweighted graphs

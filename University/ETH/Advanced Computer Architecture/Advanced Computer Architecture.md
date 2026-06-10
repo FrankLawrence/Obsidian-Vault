@@ -11,15 +11,16 @@ Aliases: ACA
 - [[Advanced Computer Architecture Assessment]]
 ## Assignments
 - [[ACA Lab 1]]
+- [[ACA HW 3]]
 ## Topics
 ## Lectures
-- [[Dynamic Binary Translation Pipelining]]
-- [[Dynamic Binary Translation Dynamic Scheduling]]
-- [[Dynamic Binary Translation Renaming Registers]]
-- [[Dynamic Binary Translation Predictions]]
+- [[Exploiting ILP Dynamically]]
+- [[Exploiting ILP Statically]]
+- [[Embedded Computing]]
 ## Extras
 ### Tips
 ### Emails and Resources
 ### Important Dates
 ___
 References:
+- https://www.lighterra.com/papers/modernmicroprocessors/

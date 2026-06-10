@@ -1,18 +1,11 @@
 ---
-title: "GDB/GEF Cheatsheet"
-source: "https://trebledj.me/posts/gdb-cheatsheet/#execution"
-author:
-  - "[[TrebledJPassionate problem-solver]]"
-  - "[[pentester]]"
-  - "[[and autodidact. I thrive on learning new things and enjoy passing it on. When not immersed in bughunting or programming]]"
-  - "[[I can be found taking walks]]"
-  - "[[composing a short tune]]"
-  - "[[and occasionally indulging in CTF challenges.]]"
+title: GDB/GEF Cheatsheet
+source: https://trebledj.me/posts/gdb-cheatsheet/#execution
 published: 2023-09-11
 created: 2025-12-14
-description: "Quick command reference on one of the most powerful tools for dynamic analysis."
+description: Quick command reference on one of the most powerful tools for dynamic analysis.
 tags:
-  - "clippings"
+  - clippings
 ---
 ---
 

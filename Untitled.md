@@ -1,4 +1,0 @@
-- State.census: if the name isn't used -> deadcode elimintation; if it's used once -> inline
-- shrink optimization solution is 70 lines (one large pattern match)
-- eInvEnv -> used for common subexpression elimination. Ex: `LetP(n, @+, Seq(a,b))` gets converted to `+ (+, Seq(a,b)) -> n`. This is used when we see a pattern we have seen before, then we can replace it (in this case with `n`)
-- inline: inline functions until `funLimit` and continuations until `cntLimit` (we prefer continuations over functions)

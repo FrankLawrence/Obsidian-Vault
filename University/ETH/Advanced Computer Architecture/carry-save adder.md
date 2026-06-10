@@ -1,0 +1,1 @@
+A carry-save adder computes the sum of three (or more) binary numbers, and gives as output 2 numbers. The resulting to numbers have the same sum as all of the input numbers combined.
