@@ -123,7 +123,7 @@ SCION has many features such as:
 	- High speed links (400Gb/s) require 64-byte packet processing every $1.3ns$
 	- High-speed asymmetric signature implementation take too long: $\sim 100\mu s$ per signature
 	- AES-NI instruction only requires 30 cycles ($\sim 10ns$), but hardware implementations can be performed sub $1 ns$
-		- Reference: Memory lookup from DRAM requires $\sim 200$ cycles ($\sim 70ns$)
+		- Reference: Memory lookup from [[DRAM]] requires $\sim 200$ cycles ($\sim 70ns$)
 	- *Symmetric crypto enables high-speed processing through parallel processing and pipelining*
 - **DRKey & Control-Plane PKI**
 	- SCION offers a global framework for authentication and key establishment for secure network operations

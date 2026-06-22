@@ -5,22 +5,18 @@ Tags:
 Aliases: ACA
 ---
 (Links:: [[Uni Courses🎓]])
-## General
-- [[Advanced Computer Architecture Outline]]
-- [[Advanced Computer Architecture Structure]]
-- [[Advanced Computer Architecture Assessment]]
-## Assignments
-- [[ACA Lab 1]]
-- [[ACA HW 3]]
-## Topics
 ## Lectures
+### General Purpose
 - [[Exploiting ILP Dynamically]]
 - [[Exploiting ILP Statically]]
-- [[Embedded Computing]]
-## Extras
-### Tips
-### Emails and Resources
-### Important Dates
+- [[Dynamic Binary Translation]]
+### Embedded Computing
+- [[From Processor Customization to High-Level Synthesis]]
+- [[Challenges of HLS]]
+### Hardware Security
+- [[Microarchitectural Side-Channel Attacks]]
+- [[Physical Side-Channel Attacks]]
+- [[Trusted Execution Environment]]
 ___
 References:
 - https://www.lighterra.com/papers/modernmicroprocessors/

@@ -13,6 +13,7 @@ aliases: TEE
 Trusted Execution Environments were developed to sandbox a confidential application, such that other untrusted sources (such as other applications, or the OS) cannot gain access to the private information.
 Just like how a [[Hypervisor]] needs to restrict the [[Virtual Machine|VMs]] from each other, the OS needs to *isolate processes*. This is done using *page tables* for each process to restrict memory access.
 This same idea can be applied to hypervisors and their VMs:
+
 ![[Hypervisor Page Tables.svg|700]]
 
 > [!question]
@@ -134,7 +135,7 @@ This same idea can be applied to hypervisors and their VMs:
 - Protection from physical adversaries
 	- RMM can request per-CVM memory protection key
 	- Hardware memory encryption engine: confidentiality and integrity
-	- Encryption-decryption on the bus between CPU and DRAM
+	- Encryption-decryption on the bus between CPU and [[DRAM]]
 ## Arm CCA Memory Encryption
 
 - Memory Encryption Context (MEC)
@@ -440,10 +441,6 @@ From AMD SEV-SNP's **Secure Nested Paging**, we know that the hypervisor can *r
 
 # Comparison
 
-|     | Intel SGX | AMD SEV-SNP | ARM TrustZone | ARM CCA | RISC-V Keystone |
-| --- | --------- | ----------- | ------------- | ------- | --------------- |
-|     |           |             |               |         |                 |
-
 ## Overview & Architecture
 
 |TEE|Category|Isolation Granularity|Privilege Levels|Hardware Requirements|Maturity/Availability|
@@ -464,115 +461,6 @@ From AMD SEV-SNP's **Secure Nested Paging**, we know that the hypervisor can *r
 |**RISC-V Keystone**|• RISC-V hardware<br>• Security Monitor (SM)<br>• Enclave runtime<br>• Enclave code|Small-Medium (~50-100KB)|Hardware + SM + runtime|
 |**ARM TEEtime**|• ARM hardware<br>• Secure Monitor firmware<br>• Sovereign domain apps|Small (~50KB firmware)|Hardware + firmware|
 
-## Isolation Mechanisms
-
-|TEE|Memory Isolation|Translation Tables|Access Control|Encryption|
-|---|---|---|---|---|
-|**Intel SGX**|Hardware-enforced EPC (Enclave Page Cache)|SGX-specific paging|CPU checks on each access|Per-enclave AES-128 (MEE)|
-|**AMD SEV-SNP**|Reverse Map Table (RMP) in protected memory|Stage-2 by hypervisor (checked by RMP)|RMP validates each access|Per-VM AES-128 XEX (deterministic)|
-|**ARM CCA**|Granule Protection Table (GPT) + GPC checks|Stage-2 by RMM (protected)|GPC on every memory access|Per-VM MEC (Memory Encryption Context)|
-|**RISC-V Keystone**|Physical Memory Protection (PMP) registers|None (no virtualization)|PMP checks per core|Optional (implementation-dependent)|
-|**ARM TEEtime**|TZASC identity-based filtering|None (bare metal domains)|TZASC filters by bus master ID|Optional (not primary mechanism)|
-
-## Memory Management
-
-|TEE|Allocation Model|Flexibility|Maximum Memory|Number of Isolated Units|
-|---|---|---|---|---|
-|**Intel SGX**|Fixed EPC (typically 128MB-256MB)|Very limited|~256MB (hardware limit)|Thousands of enclaves|
-|**AMD SEV-SNP**|Dynamic, arbitrary allocation via RMP|Fully flexible|Unlimited (DRAM size)|Unlimited VMs|
-|**ARM CCA**|Page-granular (4KB) via GPT|Fully flexible|Unlimited (DRAM size)|Hundreds of Realms|
-|**RISC-V Keystone**|Contiguous regions via PMP|Limited (must be contiguous)|Limited by PMP entries|N-2 enclaves (PMP constraint)|
-|**ARM TEEtime**|Contiguous regions via TZASC|Limited (must be contiguous)|Limited by TZASC regions|~9 domains (typical)|
-
-## Threat Model
-
-|TEE|Trusts|Does NOT Trust|Physical Attacker Resistance|
-|---|---|---|---|
-|**Intel SGX**|CPU package, enclave code|OS, hypervisor, other apps, BIOS, firmware|Limited (vulnerable to bus attacks)|
-|**AMD SEV-SNP**|CPU die, PSP firmware, VM itself|Hypervisor, other VMs, host OS|Moderate (resistant to cold boot, vulnerable to sophisticated attacks)|
-|**ARM CCA**|Hardware, Root world, RMM|Hypervisor, Normal world, other Realms|Moderate (encryption on bus)|
-|**RISC-V Keystone**|RISC-V core, Security Monitor|OS, other enclaves|Low (no built-in protection)|
-|**ARM TEEtime**|Hardware, Secure Monitor, sovereign domain|Legacy domain (Android), manufacturer|Low (basic isolation only)|
-
-## Mitigated Attacks
-
-|TEE|Successfully Mitigates|Vulnerable To|
-|---|---|---|
-|**Intel SGX**|✅ OS-level attacks<br>✅ Hypervisor attacks<br>✅ Inter-process snooping<br>✅ Memory scraping by privileged software|❌ Side-channels (Spectre, cache timing)<br>❌ Physical attacks (voltage, EM)<br>❌ Rollback attacks<br>❌ Memory safety bugs in enclave|
-|**AMD SEV-SNP**|✅ Hypervisor memory access<br>✅ Cross-VM attacks<br>✅ Memory replay (via RMP)<br>✅ Cold boot attacks<br>✅ Basic DMA attacks|❌ WeSee (#VC interrupt injection)<br>❌ Heckler (int 0x80 + signals)<br>❌ CipherLeaks (deterministic encryption)<br>❌ BadRAM (physical aliasing)<br>❌ Page-level side channels|
-|**ARM CCA**|✅ Hypervisor attacks on Realms<br>✅ Cross-Realm interference<br>✅ Physical memory snooping<br>✅ DMA attacks (via GPC)<br>✅ Memory aliasing|❌ Side-channel attacks<br>❌ RMM vulnerabilities<br>❌ Interrupt-based attacks (similar to SEV)<br>❌ Sophisticated physical attacks|
-|**RISC-V Keystone**|✅ OS attacks on enclaves<br>✅ Cross-enclave interference<br>✅ Unauthorized memory access|❌ Physical attacks<br>❌ Side-channels<br>❌ SM vulnerabilities<br>❌ Limited enclave count<br>❌ No VM support|
-|**ARM TEEtime**|✅ Legacy OS data access<br>✅ Cross-domain interference<br>✅ Peripheral hijacking<br>✅ Basic interrupt manipulation|❌ Physical attacks<br>❌ Side-channels<br>❌ Secure Monitor bugs<br>❌ Sophisticated interrupt attacks<br>❌ Limited scalability|
-
-## Attack Surface Analysis
-
-|TEE|Software Attack Surface|Hardware Attack Surface|Side-Channel Resistance|
-|---|---|---|---|
-|**Intel SGX**|Small (enclave code only)|Moderate (CPU package boundary)|Low (many known attacks)|
-|**AMD SEV-SNP**|Large (full OS + apps)|Moderate (CPU die boundary)|Low-Moderate (deterministic encryption)|
-|**ARM CCA**|Large (full OS + apps + RMM)|Moderate (on-chip encryption)|Low-Moderate (not primary focus)|
-|**RISC-V Keystone**|Small-Medium (runtime + enclave)|Low (no built-in protection)|Low (implementation-dependent)|
-|**ARM TEEtime**|Small (firmware + domain apps)|Low (relies on TZASC/GIC)|Low (not addressed)|
-
-## Specific Vulnerabilities & Attacks
-
-|TEE|Known Major Attacks|Attack Type|Mitigations Available|
-|---|---|---|---|
-|**Intel SGX**|Spectre, Foreshadow, LVI, Plundervolt|Side-channel, transient execution, physical|Microcode updates, disable hyperthreading|
-|**AMD SEV-SNP**|WeSee, Heckler, CipherLeaks, BadRAM|Interrupt injection, deterministic encryption, physical aliasing|Restricted/Alternate modes, future hardware fixes|
-|**ARM CCA**|(Theoretical interrupt attacks)|Interrupt-based (similar to SEV)|IPI synchronization, careful design|
-|**RISC-V Keystone**|(General side-channels)|Cache timing, PMP limitations|Implementation-specific|
-|**ARM TEEtime**|(Interrupt routing attacks)|GIC manipulation|Temporal/spatial isolation modes|
-
-## Performance & Overhead
-
-|TEE|Performance Overhead|Memory Overhead|Context Switch Cost|Scalability|
-|---|---|---|---|---|
-|**Intel SGX**|5-30% (depending on workload)|High (EPC swapping)|Low (same address space)|Limited by EPC size|
-|**AMD SEV-SNP**|1-5% (very low)|Low|Moderate (VM switch)|Excellent (unlimited VMs)|
-|**ARM CCA**|2-8% (estimated)|Low-Moderate|Moderate (world switch)|Good (hardware dependent)|
-|**RISC-V Keystone**|5-15% (estimated)|Low|Low-Moderate|Limited (PMP entries)|
-|**ARM TEEtime**|10-20% (domain switch expensive)|Low|High (peripheral handover)|Very limited (~9 domains)|
-
-## Use Cases & Design Goals
-
-|TEE|Primary Use Case|Design Philosophy|Best For|
-|---|---|---|---|
-|**Intel SGX**|Cloud computation, secure enclaves for sensitive data|Minimal TCB, strong isolation|Secret computation, key management, DRM|
-|**AMD SEV-SNP**|Confidential cloud VMs, enterprise workloads|Full OS support, practical cloud deployment|Confidential computing in cloud, lift-and-shift|
-|**ARM CCA**|Mobile/server confidential VMs|Hardware isolation, full software stack|Future ARM servers, confidential mobile apps|
-|**RISC-V Keystone**|Customizable TEE, research, IoT|Open-source, flexible, customizable|Research, custom security solutions, embedded|
-|**ARM TEEtime**|User sovereignty on smartphones|Minimal changes, user control|Secure messaging, private browsing on phones|
-
-## Developer & Deployment Considerations
-
-|TEE|Programming Model|OS Support|Deployment Complexity|Attestation|
-|---|---|---|---|---|
-|**Intel SGX**|Special SDK, restricted APIs|Limited (must fit in enclave)|High (code restructuring)|Hardware-based (EPID/DCAP)|
-|**AMD SEV-SNP**|Standard VM/OS|Full Linux/Windows|Low (existing VMs work)|PSP-based measurement|
-|**ARM CCA**|Standard VM/OS|Full OS stack|Low-Moderate (new platform)|RMM-based attestation|
-|**RISC-V Keystone**|Custom runtime + app|Custom/minimal OS|Moderate-High (new platform)|SM-based measurement|
-|**ARM TEEtime**|Domain-specific apps|Minimal OS in domain|Moderate (manifest-based)|Monitor-based|
-
-## Comparison Summary
-
-### **Smallest TCB:** Intel SGX
-
-### **Best Cloud Support:** AMD SEV-SNP
-
-### **Most Flexible Memory:** AMD SEV-SNP, ARM CCA
-
-### **Most Customizable:** RISC-V Keystone
-
-### **Best for User Sovereignty:** ARM TEEtime
-
-### **Best Side-Channel Resistance:** (None excel, all need improvement)
-
-### **Lowest Performance Overhead:** AMD SEV-SNP
-
-### **Most Mature:** Intel SGX (but being deprecated)
-
-### **Most Future-Proof:** ARM CCA (hardware coming soon)
 
 ---
 
@@ -592,8 +480,6 @@ From AMD SEV-SNP's **Secure Nested Paging**, we know that the hypervisor can *r
 > One reason is that realm hypervisor (RMM) typically has a smaller codebase than the normal world hypervisor because they are designed to be small and more easily verifiable.
 > Another reason is that, if realms were deployed into the non-secure world, they are isolated only by the (untrusted) hypervisor. Hence, other VMs, OSes and applications inside the non-secure state might potentially break this isolation, so they need to be considered part of the TCB as well. 
 > A third reason is that in ARM TrustZone, secure world can access non-secure world memory by design. Hence, we also need to include the whole secure world into the TCB of our realms, effectively rendering them ineffective.
-
-# Summary
 
 
 ---

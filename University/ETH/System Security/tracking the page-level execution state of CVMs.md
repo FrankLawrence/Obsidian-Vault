@@ -1,4 +1,4 @@
-Assume that a function consists of two blocks of code, located in different pages in DRAM:
+Assume that a function consists of two blocks of code, located in different pages in [[DRAM]]:
 ```armasm
 // page A
 call authenticate

@@ -99,7 +99,7 @@ The key problem: Getting fast access to packets. The options then were:
 2. **Direct buffer access**
 	1. Run in the kernel (takes too long)
 	2. PF_RING: data copies and shared metadata overheads
-3. **Packet filter hooks** (eBPF): Complex, in the kernel, limited changes
+3. **Packet filter hooks** ([[eBPF]]): Complex, in the kernel, limited changes
 	1. Technology in the kernel -> injects arbitrary code at certain locations
 	2. Connects to different events, ex: receiving TCP connection
 	3. ![[Pasted image 20241019221142.png|400]]
@@ -162,7 +162,7 @@ To achieve this, need support from the NIC driver and the NIC itself with certai
 ## User space packet processing
 Netmap brought attention to per-packet processing, and also showed the benefit of
 - Pre-allocating number of buffers
-- Doing system call batching
+- Doing [[system call]] batching
 - Flexible packet processing implementation in user space -> If we can do fast packet processing in user space, then can we build a fast networking stack in user space?
 
 User space programs are not special, it is your application so you can do whatever you want.
@@ -189,7 +189,7 @@ It has since been used in production for software switches, routers, and cloud n
 > 	1. Multicore affinity - core/thread pinning
 > 	2. Buffer management - packet buffers, NUMA-aware
 > 	3. Lockless queue management - using CAS instructions
-> 	4. Huge pages - reduces TLB pressure
+> 	4. Huge pages - reduces [[Translation Lookaside Buffer|TLB]] pressure
 > 	5. Bulk / burst throughput I/O calls - amortize function call invocations (no syscalls here)
 
 At this point, DPDK is a large framework which is almost rebuilding the whole Linux networking infrastructure in userspace for FAST packet processing: https://doc.dpdk.org/guides/prog_guide/overview.html
@@ -200,7 +200,7 @@ The problem with MegaPipe was that it used a new different API, and made modific
 - Kernel environment
 - Generality vs specialization argument
 
-Between all packet processing kernel, and TCO/IP - there is very limited number of CPU cycles left for the application. Kernel consumes 80% of CPU cycles.
+Between all packet processing kernel, and TCP/IP - there is very limited number of CPU cycles left for the application. Kernel consumes 80% of CPU cycles.
 ![[16682.png|500]]
 ## mTCP basic ideas
 - TCP stack implementation in userspace
@@ -219,7 +219,7 @@ Between all packet processing kernel, and TCO/IP - there is very limited number 
     - **Lock-free**: data structures using single producer/single consumer queues
     - **Private per-core**: Each core has its own memory allocator and caching
 
-mTCP also implements cache alignments/packing. CPU caches have cache lines of certain sizes, typically 64 bytes. That is the unit of data transfer between the CPU cache and the DRAM. So you want to align your `tcp_struct` on the cache line size and group together frequently accessed items.
+mTCP also implements cache alignments/packing. CPU caches have cache lines of certain sizes, typically 64 bytes. That is the unit of data transfer between the CPU cache and the [[DRAM]]. So you want to align your `tcp_struct` on the cache line size and group together frequently accessed items.
 ![[Pasted image 20241020014751.png|500]]
 Here in this case, due to the unfortunate ordering in which the struct fields are defined, seq and ack number happen to lie on different cache lines. However, often they are processes together. Hence, it makes sense to pack them on the same cache line by reordering their definition order. In the Linux kernel you see many such examples ...
 

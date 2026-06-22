@@ -12,7 +12,9 @@ How many processes do programs have? A fundamental part of operating systems is 
 
 The operating system maintains information on the resources and the internal state of every single process in the system.
 One process only ever has a single logical program counter. Each process has a unique location, and the program counter has to switch between these processes. Each time we switch processes, we save the program counter of the first process and restore the program counter of the second. All processes make progress, but only one at a time. For this, the CPU can be allocated in turns to different processes.
+
 ![[Only one program is active at once.png|500]]
+
 In principle, multiple processes are mutually independent, but they need explicit means to interact with each other. The operating system normally offers **no timing or ordering guarantees**.
 
 The OS typically creates only 1 `init` process, all subprocesses are created independently: 
@@ -283,7 +285,9 @@ A problem can arise with higher priority tasks when sending an interrupt to a pr
  
 # Scheduling
 On modern systems, CPU-bound processes usually take very long, while I/O-bound process are usually shorter.
+
 ![[CPU-bound vs IO-bound processes.png|600]]
+
 Bursts of CPU usage alternate with periods of waiting for I/O. There are different types of [[#Process States]], but if there are *more* processes ready than CPUs available, the **scheduler** decides (based on the *scheduling algorithm*) which process to run next. The scheduler is called whenever:
 - a process exits
 - a process blocks on I/O, [[#Semaphores]], etc.

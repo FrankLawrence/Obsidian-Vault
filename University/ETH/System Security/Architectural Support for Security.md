@@ -1,5 +1,5 @@
 ---
-Tags: #lecture 
+Tags: lecture 
 Created: 2026-01-08 15:01:42
 ---
 (Links:: [[System Security]])
@@ -89,7 +89,9 @@ Segment descriptors and page tables include bits that specify whether a memory p
 ![[Permission Levels Ring.svg|600]]
 
 On top of privileges, each process has its own [[Memory Management#Virtual Memory|Virtual Address Space]]. On context switch, the control register containing the physical base address of the page directory table (`CR3`) is changed. The kernel address space is protected with the *supervisor bit*.
-![[Four-Level Page Tables.canvas|Four-Level Page Tables]]
+
+![[Four-Level Page Tables.svg|800]]
+
 ## OS Security
 As well as bringing performance improvements, paging has the security benefit of *process isolation & protection*, since **each process gets its own page tables**, giving each one a private virtual address space. 
 Additionally, when translating the path from the top level page table into the physical frame number, the *[[Memory Management Unit]] performs the walk automatically*. The *combination* of the frame base and the offset makes the final physical address.
@@ -197,7 +199,7 @@ The OS kernel does not necessarily have the lowest privilege:
 	- Runs at [[Intel Boot Process|boot]], initialized hardware, sets SMM handlers
 	- Can compromise at boot
 	- UEFI stays active after boot
--	TPM (Trusted Platform Module)
+-	[[TPM]] (Trusted Platform Module)
 	-	Measurements, Crypto
 	-	No direct access to memory/no direct way to compromise
 
@@ -271,6 +273,7 @@ An alternative, is to use the newer [[UEFI]] which, on top of supporting larger 
 # Runtime Integrity (Intel SGX)
 ## Isolation
 Intel SGX provides isolation even against the compromised OS, with remote and local attestation and sealing using the TPM. These are known as **Trusted Isolation Environments**.
+
 ![[TEEs Trust Model.svg|800]]
 
 - Create isolated environments at the application level (ring 3), called **enclaves**
@@ -330,7 +333,8 @@ A better approach is to *store the encryption key in secure element* (TPM chip).
 	- Assumption: Attacker *cannot read secret from memory*
 
 ## Cold Boot Attack
-Without refreshing DRAM, there is no immediate decay of the data, and data persists longer when cooled down.
+Without refreshing [[DRAM]], there is no immediate decay of the data, and data persists longer when cooled down.
+
 ![[95179.jpeg|600]]
 1. Unlocking disk stores key on computer RAM when locked
 2. Attacker powers down computer and removes RAM chips

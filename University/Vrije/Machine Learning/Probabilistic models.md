@@ -176,8 +176,8 @@ $$\begin{align}
 &= -q_{x}(N)x_{i}
 \end{align}$$
 # Information Theory
-- we can encode an outcome of decision tree with *codes*
-	- the trees are called **prefix-free trees** and the resulting codes **prefix-free codes** -> no codeword is the prefix of another (just like with [[Data Structures and Algorithms for CS Lecture 13#Huffman codes]])
+- we can encode an outcome of decision tree with *codes*[^1]
+	- the trees are called **prefix-free trees** and the resulting codes **prefix-free codes** -> no codeword is the prefix of another (just like with [[Data Structures and Algorithms for CS Lecture 13#Huffman codes|Huffman codes]])
 	- smaller codes have a higher probability and vice versa: $$p(x)=2^{-L(x)}$$ where $L(x)$: Length of code for $x$
 	- the *negative logarithm* of a probability is the **code-lengths of the outcomes under the corresponding codes**: $$L(x)=-\log_{2}p(x)$$
 	- we can equate codes with probability distributions: every code gives us a distribution and every distribution gives us a code
@@ -191,3 +191,5 @@ $$\begin{align}
 
 ---
 References:
+
+[^1]: Great explanation: https://www.youtube.com/watch?v=l6DKRf-fAAM

@@ -5,11 +5,15 @@ Created: 2023-12-09 19:14:00
 (Links:: [[Operating Systems]])
 # Memory Abstractions
 The simplest way of managing memory, is to have no memory abstractions whatsoever.
+
 ![[Three simple ways of organizing memory with an operating system and one user process.png|600]]
+
 a) allows us to accidentally write into the operating system's code
 b) prevents us from writing to the operating system by having it in Read Only Memory
 These examples don't work with multiple programs. A Naive approach would be to move each program to a dedicated region. We would have to however *add the offset* to all addresses in the program. This can take a lot of time making it very inefficient.
+
 ![[Relocation problem process.png|500]]
+
 In these examples we also have the problem of access to *restricted memory*. For this the CPU had a set of memory keys associated with each of the blocks of memory. If the current process had the correct protection key, it would have access to it's associated memory locations.
 In current computers, we have a **base register** and **limit register** which give an illusion of the process having it's own memory space. The base register does the *dynamic relocation* automatically, and the limit register enforces *protection*.
 
@@ -17,8 +21,11 @@ In current computers, we have a **base register** and **limit register** which g
 > Swap processes that are currently not in use with a new process **or** we use [[#Virtual Memory]].
 
 Swapping may lead to memory fragmentation. This means that we might have enough memory for a process, but it can't be loaded in because the free memory locations are next to each other. For this we use **memory compaction**.
+
 ![[Memory allocation changes as processes come into memory and leave it.png|700]]
+
 Processes can grow, and as such we need to have extra room for this. The question is how much extra room should we allocate, and what should happen to a process when we run out of memory?
+
 ![[Allocating memory for processes.png|500]]
 
 > [!question] How do we know which part of the memory is allocated?
@@ -44,7 +51,9 @@ Processes can grow, and as such we need to have extra room for this. The questio
 This algorithm starts with a 64 "chunks" of memory. When we need to allocate memory, for a process we split the chunk in half to most suitably fit the process's memory needs. This allocator is very fast and *limits external fragmentation* but does not consider *internal fragmentation* (wasted space inside a page). It is therefore often combined with the **slab allocator**. When accessing memory, you'd use the slab allocator which itself gets memory from buddy.
 The slab allocator supports memory allocation for the kernel. The kernel needs many different temporary objects, with different and *specific* sizes. These objects are often allocated and freed. The slab allocator is used as a **cache for specific objects (or object sizes)**. By **reusing freed objects**, under favourable circumstances, you can avoid having to reinitialize them (leaving them partially filled in). 
 Since all slots have the same (known) size, we can easily find the $n$-th object in the slab.
+
 ![[Slab allocator.png|800]]
+
 A slab contains:
 - a pointer to the start of memory with object slots
 - index of the next free slot ("slot for next allocation")
@@ -56,10 +65,11 @@ For generic object sizes, we use sizes with different powers of two.
 So far memory can only be given to processes in contiguous pieces. With virtual memory we create for the process the **illusion of a large address space**. The RAM is then known as the *physical* memory. The [[Memory Management Unit]] (MMU) is responsible for getting the virtual memory's associated physical memory.
 Modern systems use paging: We divide physical and virtual memory into pages of fixed size (e.g. 4096 bytes). 
 
-![[The relation between virtual and physical memory addresses is given by the page table.png|500]]
-![[The internal operation of the MMU with 16 4-KB pages.png|500]]
+![[Virtual and Physical Address Space.svg|500]]
+![[Page Table Translation.svg|600]]
 
 Page table's have entries of size 32 or 64 depending on the underlying processor architecture, with the following structure:
+
 ![[A typical page table entry.png|700]]
 
 Two important bits used later on for [[#Page Replacement Algorithms]] are:
@@ -68,12 +78,13 @@ Two important bits used later on for [[#Page Replacement Algorithms]] are:
 
 The side effect is however that with higher bit systems, the virtual address space becomes very large leading to a large page table. We therefore now use **multiple-level page tables**. On x86 systems, the `CR3` register points to the top-level page table. Since a page is $2^{12}$ Bytes (4KB) large and each entry is in this case 32 bit ($2^2$ Bytes), each page table holds $2^{12}/2^{2}=2^{10}=1024$ entries. On a 32 bit system, the top 10 highest order bits are used to index the first page table, the next 10 the second level page table and the last 12 bits are used as an offset in the page itself. These multi layer page tables are "walked" by the hardware MMU.
 On x86-64, only 48 bits or 52 are used for addressing, but we use four-level page tables:
-![[Four-Level Page Tables.canvas|Four-Level Page Tables]]
+
+![[Four-Level Page Tables.svg|800]]
 
 A second way of addressing the data on a machine is to use **inverted page tables**. With a 64-bit system there are $2^{52}$ pages and as such $2^{52}$ table entries. Instead of having a page table with all the entries, we can have a [[hash table]], where the virtual address is first hashed, and then searched for in a [[Linked List]].
 
 ## Translation Lookaside Buffer
-In both circumstances we have to wait sometimes very long by loading in new tables or traversing the linked list in the hash table. The solution to this is a cache of the previous translations known as a [[translation lookaside buffer|TLB]], hoping the programs exhibit a high degree of locality.
+In both circumstances we have to wait sometimes very long by loading in new tables or traversing the linked list in the hash table. The solution to this is a cache of the previous translations known as a [[Translation Lookaside Buffer|TLB]], hoping the programs exhibit a high degree of locality.
 
 > [!example]- Translation Lookaside Buffer
 > 
@@ -167,11 +178,14 @@ WS is cumbersome as we must scan the page tables for each PF. WSClock combines C
 
 What happens when we allocate memory? Library functions such as `malloc` under the hood call different syscalls: `brk`, `sbrk` or `mmap`. On linux, `malloc()` uses the `brk()` syscall for small areas an `mmap()` syscall for large areas. `brk` extends the heap, while `mmap` creates a new mapping in virtual memory.
 This allocates space in the virtual memory area, but it isn't backed yet in physical memory. Only once we try to access the memory, do we get a page fault, and we assign a physical page frame.
+
 ![[Demand paging 1.png|500]] 
 ![[Demand paging 2.png|500]]
 
 If we plot the user and system time for allocating areas of different sizes we get the following:
+
 ![[User and system time, memory allocation.png|500]]
+
 At a certain point the time jumps up because we use the `mmap` system call to allocate memory. After that the time increases for the system time, because it takes longer to deallocate the memory chunks.
 
 Another issue is whether we should only replace those pages that are from the local process, or replace pages that belong to other process.

@@ -1,0 +1,6 @@
+---
+Aliases: 
+- TLB
+- translation lookaside buffer
+Created: 2026-06-14 22:40:11
+---

@@ -3,7 +3,7 @@ Tags:
 Created: 2026-01-09 00:03:05
 aliases: MMU
 ---
-The **Memory Management Unit** is responsible for translating [[Memory Management#Virtual Memory|virtual addresses]] into physical addresses by traversing the appropriate [[Four-Level Page Tables.canvas|page tables]].
+The **Memory Management Unit** is responsible for translating [[Memory Management#Virtual Memory|virtual addresses]] into physical addresses by traversing the appropriate [[Four-Level Page Tables.svg|page tables]].
 
 > [!info]- Structure of PML4 Entry
 | Bit(s) | Field       | Meaning                                         |

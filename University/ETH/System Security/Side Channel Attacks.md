@@ -9,7 +9,7 @@ Side-Channel attacks exploit **physical or behavioral leakages** during executio
 |                                   | Examples                                | Type    | Target                        |
 | --------------------------------- | --------------------------------------- | ------- | ----------------------------- |
 | Classic Side-channels attacks     | Timing, Power, EM, Acoustic             | Passive | Crytpographic implementations |
-| Microarchitectural SCAs           | Cache timing, [[Spectre]], [[Meltdown]] | Passive | CPU internal resources        |
+| [[Microarchitectural Side-Channel Attacks\|Microarchitectural SCAs]]           | Cache timing, [[Spectre]], [[Meltdown]] | Passive | CPU internal resources        |
 | Fault Injection (physical)        | Laser glitches, voltage glitches        | Active  | Crypto chips, smartcards      |
 | Fault/Disturbance (Architectural) | [[Rowhammer]], Plundervolt, CLKScrew    | Active  | Memory/CPU integrity          |
 
@@ -30,8 +30,8 @@ Side-Channel attacks exploit **physical or behavioral leakages** during executio
 - Thermal/Photonic Attacks: Exploit heat or light leakages
 
 ## SCA classification by Technique
-- **Passive Attacks**: Only observe leakage
-- **Active Attacks(Fault Injection)**: Intentionally disturb computation using voltage glitches, lasers, or clock manipulations to induce errors and gain information.
+- **Passive Attacks**: Only observe leakage (device operating as usual)
+- [[Physical Side-Channel Attacks#Active Side-Channel Attacks (Fault Injection)|Active Attacks(Fault Injection)]]: Intentionally disturb computation using voltage glitches, lasers, or clock manipulations to induce errors and gain information.
 - **Simple Analysis**: Directly interpret raw measurements (SPA, simple timing)
 - **Differential/Statistical Analysis**: Use large sets of measurements and statistical techniques (DPA, correlation power analysis)
 - **Template Attacks**: Build precise models of leakage using profiling and then apply them to targets
@@ -120,13 +120,15 @@ squareAndMultiply(m,d,N):
 	- A bit flip from 0->1 induces a current $i_{sc}+ i_{charge}$
 	- A bit flip from 1->0 induces a current $i_{sc}$
 
+To perform an attack, one must *reason about how data* flowing into a circuit *influence the measured emanation*. One needs mathematical models of leakage but they depend on *technological aspects*:
+
 > [!summary] Hamming weight and hamming distance
 > - Static power is ideally 0
 > - 1's don't consume more than 0's
 > - Transitions to 1 are on average more expensive than transitions to 0
 > - Power proportional to number of bits that at one
-> - HammingDistance($Y_{\text{current}}$, $Y_{\text{previous}}$)
-> - HammingWeight($Y_{\text{current}}$)
+> - HammingDistance($Y_{\text{current}}$, $Y_{\text{previous}}$) -> How many bits of $Y$ changed
+> - HammingWeight($Y_{\text{current}}$) -> How many bits of $Y$ are '1'
 
 ## Lessons learned
 - **Data dependency**
@@ -144,6 +146,7 @@ From [wikipedia](https://en.wikipedia.org/wiki/Power_analysis):
 > **Simple power analysis** (**SPA**) is a [side-channel attack](https://en.wikipedia.org/wiki/Side-channel_attack "Side-channel attack") which involves visual examination of graphs of the [current](https://en.wikipedia.org/wiki/Electrical_current "Electrical current") used by a device over time. Variations in power consumption occur as the device performs different operations.
 
 We can observe a single execution to determine the value of $d$
+
 ![[Pasted image 20251229005016.png|500]]
 ## Differential Power Analysis on AES
 From [wikipedia](https://en.wikipedia.org/wiki/Power_analysis):
@@ -282,7 +285,7 @@ Idea: active signal injection to trigger more emissions using attacker software
 > 	- *Timing attacks*: (RSA timing, key-dependent execution)
 > 	- *Power analysis*: Simple Power Analysis - SPA, Differential Power Analysis - DPA, Correlation Power Analysis - CPA
 > 	- *Electromagnetic & Acoustic*: TEMPEST, van Eck phreaking, glowworm attacks
-> 	- *Fault Injection*: Rowhammer, voltage/laser glitches
+> 	- *Fault Injection*: [[Rowhammer]], voltage/laser glitches
 > - **Analysis methods**: Simple, statistical, template, ML-based
 > - **Countermeasures**: constant-time algorithms, masking, noise, balancing hardware
 > 

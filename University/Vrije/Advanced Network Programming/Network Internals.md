@@ -8,13 +8,13 @@ Created: 2024-10-08 14:43:37
 ![[Transferring data between NIC and end-Host.png|400]]
 - What can we do here?
   - CPU does polling (LLC <-> on broad memory)
-  - CPU does data copy (LLC -> on broad memory -> DRAM)
+  - CPU does data copy (LLC -> on broad memory -> [[DRAM]])
 
 > [!question]- Problems?
 > - Waste of CPU cycles
 > - High load on the CPU cannot do anything else
 
-Instead of using expensive CPU cycles to transfer data to DRAM, the **DMA engine** is programmed to tell where to deposit the data. Interrupts are sent to the LLC when new data arrives, and when frame has been successfully sent to DRAM.
+Instead of using expensive CPU cycles to transfer data to DRAM, the **DMA engine** is programmed to tell where to deposit the data. Interrupts are sent to the LLC (Last-level cache) when new data arrives, and when frame has been successfully sent to DRAM.
 
 ## [[Processes and Threads#^4c1449|What happens when there is an interrupt]]
 1. Device raises interrupt request

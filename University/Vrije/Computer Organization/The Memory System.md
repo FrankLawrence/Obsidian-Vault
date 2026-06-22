@@ -36,7 +36,7 @@ Created: 2023-03-19 16:31:40
 - **Cmos Cell**: low power consumption, since current flows in the call when is is being accessed
 ## Dynamic RAMs
 - Static RAM (SRAM) cells are fast but require multiple transistors
-- Dynamic RAM (DRAM) cells are less expensive and higher density but do not retain their state for a long period unless accessed frequently
+- Dynamic RAM ([[DRAM]]) cells are less expensive and higher density but do not retain their state for a long period unless accessed frequently
 - DRAM stores information in a capacitor charge that can only be maintained for tens of milliseconds, and contents must be periodically refreshed by restoring the capacitor charge to its full value
 - DRAM cells consist of a capacitor and a transistor to store information by turning on the transistor and applying an appropriate voltage to the bit line
 - DRAM contents must be read before the charge in the capacitor drops below a threshold value, which automatically refreshes the contents
@@ -271,7 +271,7 @@ $$t_{avg}=hC+(1-h)M$$
 - binary addresses are called *virtual* or *logical addresses*
 	- converted into physical addresses by combination of hardware and software actions
 	- *Memory Management Unit* keeps track of which parts of the virtual address space are in main memory
-	- [[MMU]] translates virtual address into physical address
+	- [[Memory Management Unit|MMU]] translates virtual address into physical address
 ## Address Translation
 - all programs and data are composed of fixed-length units called *pages* (2K to 16K bytes)
 - data hard to locate (large size) but can be transferred at a rate of several megabytes per second
@@ -280,9 +280,8 @@ $$t_{avg}=hC+(1-h)M$$
 - page table includes memory location of *page frame* (location in main memory which stores a page) and status of page
 - *page table base register* points to the starting address of the table
 - status bit shows if page has been changed and needs to be stored in main memory before being replaced
-### Translation Lookaside Buffer (TLB)
-- small portion of the table (most recently accessed pages) mantained inside MMU called TLB
-- works the same as a memory and it's cache (virtuall address hit and misses)
+
+Address Translation is done via a [[Translation Lookaside Buffer]] (TLB) which acts as a cache inside the [[Memory Management Unit|MMU]] for recently accessed pages, but instead the *virtual addresses* either hit or miss.
 ## Page Faults
 - [[Page Fault]]: program generates an access request to a page that is not in the main memory
 - processing of program is interrupted by MMU 

@@ -1,5 +1,5 @@
 ---
-Tags: #lecture 
+Tags: lecture 
 Created: 2026-01-12 22:42:30
 Aliases: VPN
 ---

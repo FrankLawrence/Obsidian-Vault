@@ -79,7 +79,7 @@ These are the typical steps after a **hardware interrupt completes**:
 5. Copy registers from where they were saved to process table
 6. Run the interrupt-service procedure. It will extract information from the interrupting device controller’s registers.
 7. Choose which process to run next. If the interrupt has caused some high-priority process that was blocked to become ready, it may be chosen to run now.
-8. Set up the [[Memory Management Unit]] context for the process to run next. Some TLB set- up may also be needed.
+8. Set up the [[Memory Management Unit]] context for the process to run next. Some [[Translation Lookaside Buffer|TLB]] setup may also be needed.
 9. Load the new process’ registers, including its PSW. 
 10. Start running the new process.
 
@@ -107,7 +107,7 @@ Nowadays, there are generally two types of storage devices: **SSD**s and **HDD**
 | HDD | `fas:Times` | `fas:Times` | `fas:Times` | `fas:Times` | `fas:Times` | `fas:Times` | `fas:Times` | `fas:Check` | `fas:Check` |
 
 **Solid-State Drives** are purely electronic and have the following functionalities:
-- DRAM or NOR/NAND flash memory based
+- [[DRAM]] or NOR/NAND flash memory based
 	- No mechanical parts (only controller+memory)
 	- Can be used as part of SSHDs
 - NAND flash memory
@@ -148,7 +148,7 @@ Each computer has a clock which oscillates millions of times per second. We can 
 
 **Soft timers** avoid interrupts. Instead, whenever the kernel is running for some other reason, just before it returns to user mode it checks the real-time clock to see if a soft timer has expired. Soft timers stand or fall with the rate at which kernel entries are made for other reasons. These reasons include:
 - System calls
-- TLB misses
+- [[Translation Lookaside Buffer|TLB]] misses
 - Page Faults
 - I/O interrupts
 - The CPU going idle
